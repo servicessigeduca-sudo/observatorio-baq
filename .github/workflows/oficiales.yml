@@ -6,7 +6,7 @@ on:
   schedule:
     - cron: "0 12 5 * *" # día 5 de cada mes, 7:00 a. m. en Barranquilla
   push:
-    branches: [main, datos-oficiales]
+    branches: [main]
     paths: ["oficiales/**", ".github/workflows/oficiales.yml"]
   workflow_dispatch:
 

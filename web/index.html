@@ -123,7 +123,7 @@ circle.pt{stroke:var(--surface);stroke-width:.8}
 .hbar{display:flex;flex-direction:column;gap:6px;margin-top:8px}
 .hrow{display:grid;grid-template-columns:150px minmax(0,1fr);gap:12px;align-items:center;font-size:15px;cursor:pointer;background:none;border:0;padding:0;color:var(--ink);font-family:inherit;text-align:left}
 .hrow .track{height:30px}
-.hrow .fill{height:100%;background:var(--navy);display:flex;align-items:center;padding-left:10px;color:#fff;font-weight:700;font-size:14px;font-variant-numeric:tabular-nums;min-width:38px}
+.hrow .fill{height:100%;background:var(--navy);display:flex;align-items:center;padding-left:10px;color:#fff;font-weight:700;font-size:14px;font-variant-numeric:tabular-nums;min-width:56px;white-space:nowrap}
 .hrow.sel .fill{background:var(--hot)}
 .hrow:hover .fill{filter:brightness(1.12)}
 .keyrow{display:flex;gap:16px;font-size:14px;color:var(--muted);margin-top:8px;flex-wrap:wrap}
@@ -446,6 +446,7 @@ html,body{margin:0}
   var OF_NOM={homicidio:"Homicidio intencional",lesiones:"Lesiones personales",hurto:"Hurtos (todos)",hurto_personas:"Hurto a personas",hurto_motos:"Hurto de motos",hurto_carros:"Hurto de carros",hurto_comercio:"Hurto a comercio",hurto_residencias:"Hurto a residencias",hurto_entidades:"Hurto a entidades financieras",extorsion:"Extorsión",violencia_intrafamiliar:"Violencia intrafamiliar",violencia_sexual:"Delitos sexuales",amenazas:"Amenazas",secuestro:"Secuestro",transito:"Muertes y lesiones en accidentes de tránsito",otros:"Otros"};
   var MESL=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
   var of=null,ofSt={muni:"",cat:"homicidio"};
+  var INICIO_PRENSA=202611; // primer mes completo de recolección diaria (año*100+mes)
   function ofRows(){return of.conteos.filter(function(r){return !ofSt.muni||r.municipio===ofSt.muni})}
   function ofSum(rows,anio,cat,hasta){return rows.reduce(function(s,r){return s+(r.anio===anio&&(!hasta||r.mes<=hasta)&&(!cat||r.categoria===cat||(cat==="hurto"&&r.categoria.indexOf("hurto")===0))?r.cantidad:0)},0)}
   function renderOf(){
@@ -462,7 +463,7 @@ html,body{margin:0}
     // Mes a mes: año actual vs anterior
     var W=640,H=260,m={l:40,r:8,t:12,b:28},iw=W-m.l-m.r,ih=H-m.t-m.b,bw=iw/12;
     var cur=[],prev=[];for(var i=1;i<=12;i++){cur.push(i<=M?rows.reduce(function(s,r){return s+(r.anio===A&&r.mes===i&&r.categoria===ofSt.cat?r.cantidad:0)},0):null);prev.push(rows.reduce(function(s,r){return s+(r.anio===A-1&&r.mes===i&&r.categoria===ofSt.cat?r.cantidad:0)},0))}
-    var mx=Math.max.apply(null,cur.concat(prev).concat([1])),step=mx>200?50:mx>80?20:mx>40?10:mx>16?5:2,ymax=Math.ceil(mx/step)*step;
+    var mx=Math.max.apply(null,cur.concat(prev).concat([1])),raw=mx/5,mag=Math.pow(10,Math.floor(Math.log10(raw))),step=[1,2,5,10].map(function(f){return f*mag}).filter(function(v){return v>=raw})[0]||mag*10;step=Math.max(1,step);var ymax=Math.ceil(mx/step)*step;
     var sv='<svg viewBox="0 0 '+W+" "+H+'" role="img" aria-label="'+OF_NOM[ofSt.cat]+' por mes">';
     for(var y=0;y<=ymax;y+=step){var yy=m.t+ih-ih*y/ymax;sv+='<line class="gl" x1="'+m.l+'" x2="'+(W-m.r)+'" y1="'+yy+'" y2="'+yy+'"/><text x="'+(m.l-6)+'" y="'+(yy+4)+'" text-anchor="end">'+y+"</text>"}
     for(i=0;i<12;i++){var x=m.l+i*bw,w=bw*.36;
@@ -477,12 +478,13 @@ html,body{margin:0}
     var al=Object.keys(ar).map(function(k){return [k,ar[k]]}).sort(function(a,b){return b[1]-a[1]}).slice(0,5),am=Math.max(1,al.length?al[0][1]:1),at=al.reduce(function(s,r){return s+r[1]},0);
     $("of-arm-t").textContent="Arma o medio, "+A+(ofSt.muni?"":" (área metropolitana)");
     $("of-armas").innerHTML=al.map(function(r){var t=r[0].charAt(0)+r[0].slice(1).toLowerCase();return '<div class="hrow"><span>'+esc(t)+'</span><span class="track"><span class="fill" style="width:'+(100*r[1]/am).toFixed(1)+'%">'+Math.round(100*r[1]/at)+" %</span></span></div>"}).join("");
-    // Cobertura: homicidios en prensa frente a Policía, en los meses que ambas fuentes cubren
+    // Cobertura: homicidios en prensa frente a Policía, solo en meses completos que el
+    // scraper ya recorría (INICIO_PRENSA); antes de eso faltan notas y el porcentaje engañaría.
     var pm={};cases.forEach(function(c){if(c.type==="hom"&&(!ofSt.muni||c.municipio===ofSt.muni)){var k=c.date.getUTCFullYear()*100+c.date.getUTCMonth()+1;pm[k]=(pm[k]||0)+1}});
-    var meses=Object.keys(pm).map(Number).filter(function(k){return rows.some(function(r){return r.anio*100+r.mes===k})});
+    var meses=Object.keys(pm).map(Number).filter(function(k){return k>=INICIO_PRENSA&&rows.some(function(r){return r.anio*100+r.mes===k})});
     if(meses.length){var pr=meses.reduce(function(s,k){return s+pm[k]},0),po=meses.reduce(function(s,k){return s+rows.reduce(function(t,r){return t+(r.anio*100+r.mes===k&&r.categoria==="homicidio"?r.cantidad:0)},0)},0);
       $("of-cov").innerHTML="<strong>Cobertura de la prensa:</strong> en los meses con datos de ambas fuentes, la Policía registró <b>"+po+"</b> homicidios y el observatorio encontró <b>"+pr+"</b> en las noticias ("+(po?Math.round(100*pr/po):0)+" %).";}
-    else $("of-cov").innerHTML="<strong>Cobertura de la prensa:</strong> la Policía publica sus cifras con unos dos meses de retraso (hoy llegan hasta "+MESL[M-1]+" de "+A+"). Cuando ambas fuentes cubran los mismos meses, aquí verás qué parte de los homicidios llega a las noticias.";
+    else $("of-cov").innerHTML="<strong>Cobertura de la prensa:</strong> el observatorio recoge noticias completas desde "+MESL[INICIO_PRENSA%100-1]+" de "+Math.floor(INICIO_PRENSA/100)+", y la Policía publica sus cifras con unos dos meses de retraso (hoy llegan hasta "+MESL[M-1]+" de "+A+"). Cuando ambas fuentes cubran los mismos meses, aquí verás qué parte de los homicidios llega a las noticias.";
   }
   $("of-muni").onchange=function(e){ofSt.muni=e.target.value;renderOf()};
   fetch("data/oficiales.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){
