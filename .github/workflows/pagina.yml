@@ -6,7 +6,7 @@ on:
     branches: [main]
     paths: ["web/**", "casos/**", "data/**", ".github/workflows/pagina.yml"]
   workflow_run:
-    workflows: [Scraper]
+    workflows: [Scraper, Datos oficiales]
     types: [completed]
     branches: [main]
   workflow_dispatch:
@@ -51,6 +51,7 @@ jobs:
           mkdir -p _site/data
           cp web/index.html _site/
           cp data/casos.json _site/data/
+          [ -f data/oficiales.json ] && cp data/oficiales.json _site/data/ || true
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
