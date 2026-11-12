@@ -9,11 +9,7 @@
     "lon": -74.81664,
     "nombre_osm": "El Bosque, Localidad Suroccidente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
   },
-  "el limon|Barranquilla": {
-    "lat": 11.01458,
-    "lon": -74.82646,
-    "nombre_osm": "El Cid, Calle 98, Altos del Limón, Localidad Riomar, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe,"
-  },
+  "el limon|Barranquilla": null,
   "el santuario|Barranquilla": {
     "lat": 10.94585,
     "lon": -74.80224,
