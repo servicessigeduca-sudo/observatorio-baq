@@ -1,0 +1,32 @@
+name: Explorar fuentes (temporal)
+on:
+  push:
+    branches: [secciones]
+    paths: [.github/workflows/explorar.yml]
+jobs:
+  explorar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - run: |
+          python3 - <<'PY'
+          import io, requests
+          from oficiales.procesar import leer
+          s = requests.Session(); s.headers["User-Agent"] = "ObservatorioBAQ"
+          base = "https://www.policia.gov.co/sites/default/files/delitos-impacto/"
+          from oficiales.historico import enlaces
+          g = enlaces(s, [2015, 2019])
+          for (clave, anio), lista in g.items():
+              if clave != "homicidio": continue
+              for url, _ in lista:
+                  df = leer(io.BytesIO(s.get(url, timeout=600).content))
+                  print(url, len(df))
+                  print(df.head(5).to_string())
+                  print(df[df["DEPARTAMENTO"].astype(str).str.upper().str.contains("ATL", na=False)].head(5).to_string())
+                  print(df["CODIGO DANE"].astype(str).str[:12].value_counts().head(5))
+                  print(df["FECHA HECHO"].astype(str).head(3).tolist())
+          PY
