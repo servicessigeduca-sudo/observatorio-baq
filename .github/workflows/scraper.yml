@@ -1,6 +1,8 @@
 name: Scraper
 
 on:
+  schedule:
+    - cron: "0 11 * * *" # 6:00 a. m. en Barranquilla
   workflow_dispatch:
     inputs:
       fuentes:
@@ -24,8 +26,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -40,16 +42,23 @@ jobs:
             python -m scraper -v | tee resumen.txt
           fi
           cat resumen.txt >> "$GITHUB_STEP_SUMMARY"
-      - uses: actions/upload-artifact@v4
+      - name: Agrupar notas en casos
+        run: |
+          python -m casos --reporte reporte-casos.md > /dev/null
+          cat reporte-casos.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v5
         with:
           name: notas
-          path: data/notas.json
+          path: |
+            data/notas.json
+            data/casos.json
       - name: Guardar en el repositorio
-        if: ${{ inputs.guardar }}
+        # La corrida diaria siempre guarda; la manual solo si se marca "guardar".
+        if: ${{ github.event_name == 'schedule' || inputs.guardar }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/notas.json
+          git add data/notas.json data/casos.json
           git diff --cached --quiet && echo "Sin notas nuevas" && exit 0
-          git commit -m "Actualizar notas ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git commit -m "Actualizar notas y casos ($(date -u +%Y-%m-%dT%H:%MZ))"
           git push

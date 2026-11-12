@@ -1,1 +1,1291 @@
-[]
+[
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/capturan-en-usiacuri-a-alias-el-chirrio-con-mas-de-700-gramos-de-droga/",
+    "titular": "Capturan en Usiacurí a alias ‘El Chirrío’ con más de 700 gramos de droga - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T10:45:29-05:00",
+    "resumen": "El hombre es señalado de presuntamente comercializar sustancias estupefacientes al servicio del grupo delincuencial ‘Los Costeños’ y de distribuir drogas en",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "023a195b4e3e0176e715856c314e051102e762cf"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/ejercito-destruyo-laboratorio-de-cocaina-en-bolivar-que-produciria-600-kilos-al-mes/",
+    "titular": "Ejército destruyó laboratorio de cocaína en Bolívar que produciría 600 kilos al mes - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T10:14:03-05:00",
+    "resumen": "De acuerdo con la información militar, la estructura estaría al servicio del Grupo Armado Organizado Residual, estructura 37 Martín Caballero, al que la",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c9a03ced8ee4986161162329a72c3ddf0718e7fe"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/un-hombre-asesinado-y-otro-herido-tras-ataques-sicariales-en-san-roque-y-evaristo",
+    "titular": "Un hombre asesinado y otro herido, tras ataques sicariales en San Roque y Evaristo Sourdís",
+    "fecha_publicacion": "2026-11-12T10:09:00-05:00",
+    "resumen": "Ambos casos se presentaron en la noche del miércoles.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": "Evaristo Sourdis",
+    "estado": "pendiente",
+    "id": "960ea6d8634c1fa37a4d65849b6651c6208e4ca5"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/ante-crimenes-de-mujeres-consejo-de-seguridad-establecio-6-puntos-priorizados-para",
+    "titular": "Ante crímenes de mujeres, Consejo de Seguridad estableció 6 puntos priorizados para contener los casos",
+    "fecha_publicacion": "2026-11-12T10:03:00-05:00",
+    "resumen": "La exdiputada del Atlántico, Alejandra Moreno, también participó en la reunión.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "888071b8bcedfccf502a57b8d466c86d86aca040"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/es-posible-que-estos-delincuentes-hayan-logrado-llevarla-venezuela-alcalde-de-uribia",
+    "titular": "\"Es posible que estos delincuentes hayan logrado llevarla a Venezuela\": Alcalde de Uribia",
+    "fecha_publicacion": "2026-11-12T09:52:00-05:00",
+    "resumen": "Autoridades ofrecen $300 millones de recompensa por información sobre el secuestro de Nancy Gómez.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "edb7536cf66a918019de496c62ce62ae89b71e0a"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/adolescente-de-17-anos-fue-ultimado-bala-en-juan-de-acosta",
+    "titular": "Adolescente, de 17 años, fue ultimado a bala en Juan de Acosta",
+    "fecha_publicacion": "2026-11-12T09:38:00-05:00",
+    "resumen": "En el barrio Jorge Eliécer Gaitán.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": "Jorge Eliécer Gaitán",
+    "estado": "pendiente",
+    "id": "3fd7147adf0e8575b62d7a3721c18e350ad2ca3c"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/encuentran-en-un-parqueadero-de-soledad-la-camioneta-de-las-dos-mujeres-desaparecidas-en-barranquilla/",
+    "titular": "Encuentran en un parqueadero de Soledad la camioneta de las dos mujeres desaparecidas en Barranquilla",
+    "fecha_publicacion": "2026-11-12T09:35:02-05:00",
+    "resumen": "Las autoridades encontraron en un parqueadero del municipio de Soledad la camioneta Toyota Prado en la que se movilizaban Sonia Margarita Sanjuan Peñaranda y Kelly Johana Acosta Restrepo, las dos mujeres de 41 y 43 años que permanecen desaparecidas desde el pasado viernes en Barranquilla. Pese al…",
+    "fecha_captura": "2026-11-12T11:09:47-05:00",
+    "tipos_delito": [
+      "desaparicion"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "41553cc7636f7bf4226f3bd61434b6f9616f62c5"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/quiso-arreglar-con-200-mil-y-termino-capturado-en-el-carmen-de-bolivar/",
+    "titular": "¡Quiso arreglar con $200 mil y terminó capturado en El Carmen de Bolívar! - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T09:28:42-05:00",
+    "resumen": "Lo que parecía un procedimiento policial de rutina terminó en tremendo lío para un hombre de 30 años, quien, al parecer, creyó que con $200 mil podía quitarse",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9f406f541150c4f32416ffd8b45945eec5bec078"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/encuentran-en-un-parqueadero-de-soledad-la-camioneta-de-las-dos-mujeres-desaparecidas-en-barranquilla/",
+    "titular": "Encuentran en un parqueadero de Soledad la camioneta de las dos mujeres desaparecidas en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T09:19:26-05:00",
+    "resumen": "El hallazgo fue confirmado por las autoridades este miércoles. Sin embargo, continúa la búsqueda de las dos mujeres, de 41 y 43 años, cuyo paradero sigue",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "desaparicion"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "052f4e625c8b9adc0011abd4d602ec2910f4864a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/exportaciones-ficticias-habrian-servido-para-ingresar-mas-de-425-000-millones-de-origen-ilicito-a-colombia/",
+    "titular": "Exportaciones ficticias habrían servido para ingresar más de $425.000 millones de origen ilícito a Colombia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T09:07:23-05:00",
+    "resumen": "Según la investigación de la Fiscalía, entre 2020 y 2023 varias comercializadoras internacionales reportaron supuestas ventas de mercancías hacia Ecuador a",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "046b4d1a51a8621671a3563b91cb4e01d81d1693"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/ataque-sicarial-en-el-barrio-santa-rosa-de-sabanalarga-deja-a-un-hombre-gravemente-herido/",
+    "titular": "Ataque sicarial en el barrio Santa Rosa de Sabanalarga deja a un hombre gravemente herido",
+    "fecha_publicacion": "2026-11-12T09:00:13-05:00",
+    "resumen": "Un nuevo atentado sicarial se registró en el municipio de Sabanalarga, Atlántico, donde un hombre resultó gravemente herido tras ser atacado con arma de fuego en el barrio Santa Rosa. El hecho violento ocurrió durante la tarde de este miércoles, cuando dos sujetos que se movilizaban en una…",
+    "fecha_captura": "2026-11-12T11:09:47-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": "Santa Rosa de Sabanalarga",
+    "estado": "pendiente",
+    "id": "a533285084aedba162678d744f4db344e550e30e"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/asesinan-a-un-adolescente-venezolano-de-17-anos-en-juan-de-acosta/",
+    "titular": "Asesinan a un adolescente venezolano de 17 años en Juan de Acosta",
+    "fecha_publicacion": "2026-11-12T08:52:48-05:00",
+    "resumen": "Un adolescente de 17 años, de nacionalidad venezolana, fue asesinado a bala en el municipio de Juan de Acosta, en el departamento del Atlántico. El homicidio se registró en el sector Jorge Eliécer Gaitán, en la zona de El Vaivén, donde la víctima fue sorprendida por desconocidos que habrían…",
+    "fecha_captura": "2026-11-12T11:09:47-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": "Jorge Eliécer Gaitán",
+    "estado": "pendiente",
+    "id": "3f6c3c23e2c38360d480a016f6a1da99a1efea7e"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/muere-hombre-de-29-anos-tras-ataque-a-bala-en-el-barrio-san-roque-de-barranquilla/",
+    "titular": "Muere hombre de 29 años tras ataque a bala en el barrio San Roque de Barranquilla",
+    "fecha_publicacion": "2026-11-12T08:41:26-05:00",
+    "resumen": "Un hombre identificado como Brayan Manuel Moreno, de 29 años, falleció en las últimas horas en el Hospital General de Barranquilla, luego de resultar herido durante un ataque a bala ocurrido en el barrio San Roque, en el suroriente de la ciudad. El hecho criminal se registró en la calle 28 con…",
+    "fecha_captura": "2026-11-12T11:09:47-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "San Roque",
+    "estado": "pendiente",
+    "id": "babb6b4c29140dab49665c40c94334a00578829f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/amen-a-la-pistola-y-al-tusi-capturan-en-antioquia-a-falso-sacerdote-que-habria-usado-la-sotana-para-estafar/",
+    "titular": "¡Amén a la pistola y al Tusi! Capturan en Antioquia a falso sacerdote que habría usado la sotana para estafar - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T08:37:24-05:00",
+    "resumen": "Un hombre que aparentemente había encontrado en la vestimenta religiosa una manera de ganarse la confianza de los ciudadanos terminó capturado en Rionegro,",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "fa04ca6db42c88d8588aad40e74424d4f1a93a73"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/asesinan-a-tiros-a-hombre-mientras-reparaba-su-vehiculo-en-el-barrio-san-isidro-de-barranquilla/",
+    "titular": "Asesinan a tiros a hombre mientras reparaba su vehículo en el barrio San Isidro de Barranquilla",
+    "fecha_publicacion": "2026-11-12T08:20:00-05:00",
+    "resumen": "Un hombre identificado como Arturo Quintero Rogers, de 34 años, fue asesinado a tiros en la calle 53C con carrera 26B, en el barrio San Isidro, en el suroccidente de Barranquilla. Según relataron testigos a las autoridades, la víctima se encontraba reparando su vehículo en plena vía pública…",
+    "fecha_captura": "2026-11-12T11:09:47-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "San Isidro",
+    "estado": "pendiente",
+    "id": "1fcb36d1efb9958228763da246a0e06e50ea51ae"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/asesinan-de-seis-disparos-conductor-de-indrive-cuando-reparaban-su-vehiculo-en-san",
+    "titular": "Asesinan de seis disparos a conductor de InDrive cuando reparaban su vehículo en San Isidro",
+    "fecha_publicacion": "2026-11-12T08:19:00-05:00",
+    "resumen": "La víctima fue identificada como Arturo Quintero Roger, de 33 años, quien se encontraba con su pareja sentimental.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f98acbef5449b71364d1c32ea8b47afaa6f4a255"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/policia-captura-en-barranquilla-a-alias-danielito-presunto-integrante-de-los-jj-banda-que-delinque-en-la-guajira/",
+    "titular": "Policía captura en Barranquilla a alias Danielito, presunto integrante de los JJ, banda que delinque en La Guajira",
+    "fecha_publicacion": "2026-11-12T08:07:14-05:00",
+    "resumen": "El capturado sería señalado de participar en actividades de intimidación mediante disparos contra viviendas y establecimientos comerciales, además de ser investigado por su presunta participación en un homicidio ocurrido en Riohacha. La Policía Nacional, en el marco de las acciones operativas…",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4d223d430d84c6ef66ac39f36bbb7dcb0a03bd9b"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/asesinan-a-mujer-de-34-anos-en-soledad-investigan-posible-disputa-entre-los-costenos-y-los-pepes/",
+    "titular": "Asesinan a mujer de 34 años en Soledad: investigan posible disputa entre ‘Los Costeños’ y ‘Los Pepes’",
+    "fecha_publicacion": "2026-11-12T08:00:00-05:00",
+    "resumen": "La racha de asesinatos de mujeres continúa en Barranquilla y su área metropolitana. A las 7:30 de la noche del miércoles, en la calle 55 con carrera 41B, en el barrio Villa Cecilia, en el municipio de Soledad, fue asesinada una mujer de 34 años, identificada como Stefany Paola Barraza De la Hoz.…",
+    "fecha_captura": "2026-11-12T11:09:47-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Villa Cecilia",
+    "estado": "pendiente",
+    "id": "623d6ee2ad711ec027c72111b4d8bc11d2e93c7a"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/atacan-a-estefany-barraza-frente-a-su-hija-de-3-anos-en-soledad-es-la-mujer-75-asesinada-en-2026-en-atlantico/",
+    "titular": "Atacan a Estefany Barraza frente a su hija de 3 años en Soledad: es la mujer 75 asesinada en 2026 en Atlántico",
+    "fecha_publicacion": "2026-11-12T07:45:39-05:00",
+    "resumen": "La Sijín investiga si el crimen de la fémina está ligado a disputas entre los Costeños y los Pepes por temas de microtráfico. Ayer, miércoles 11 de noviembre, siendo alrededor de las 7:30 de la noche, otra mujer fue asesinada en el área metropolitana de Barranquilla, caso que eleva el número de…",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d4ff4a5d05764beeb6f30c54c81d2e11fe426a68"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/aparecio-en-soledad-la-camioneta-donde-se-movilizaban-sonia-sanjuan-y-kelly-acosta",
+    "titular": "Apareció en Soledad la camioneta donde se movilizaban Sonia Sanjuan y Kelly Acosta",
+    "fecha_publicacion": "2026-11-12T07:30:00-05:00",
+    "resumen": "La Alcaldía de Barranquilla ofrece una recompensa de hasta $30 millones por información sobre le paradero de las dos mujeres.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1aa2989acf69509781cd895bed6312bbe03acc6e"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/la-pocha-la-mujer-asesinada-a-tiros-cuando-salia-de-una-tienda-en-soledad/",
+    "titular": "‘La Pocha’, la mujer asesinada a tiros cuando salía de una tienda en Soledad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T06:55:24-05:00",
+    "resumen": "La muerte de ‘La Pocha’ generó tristeza entre personas que la conocían y habitantes del sector, quienes la describieron como una mujer apreciada en su entorno.",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9b16a5cd40fa275535feb8e7bd9fa7d672b9e7d8"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/ataque-contra-la-policia-en-casanare-un-uniformado-muerto-y-otro-herido",
+    "titular": "Ataque contra la Policía en Casanare: un uniformado muerto y otro herido",
+    "fecha_publicacion": "2026-11-12T06:30:32-05:00",
+    "resumen": "El uniformado fue identificado como Juan Sebastián Quintero Caldas y el herido responde al nombre de Marcelo Miranda Cordero.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4e3aba66961f35c7c1afb89244da3093bb24a29b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/ataque-armado-contra-policias-en-casanare-deja-un-uniformado-muerto-y-otro-gravemente-herido/",
+    "titular": "Ataque armado contra policías en Casanare deja un uniformado muerto y otro gravemente herido - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T06:29:20-05:00",
+    "resumen": "El atentado dejó como saldo a uno de los uniformados muerto, mientras que su compañero resultó gravemente herido y tuvo que ser trasladado a un centro",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "5a14a0e53693a07a62d5edb28d36b8a2d445bed6"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/asesinan-bala-una-mujer-cuando-salia-de-una-tienda-cerca-la-torre-del-pescado",
+    "titular": "Asesinan a bala a una mujer cuando salía de una tienda cerca a la ‘Torre del pescado’",
+    "fecha_publicacion": "2026-11-11T21:58:55-05:00",
+    "resumen": "Es la novena mujer asesinada en los 11 días de noviembre en Barranquilla y el área metropolitana.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Torre del Pescado",
+    "estado": "pendiente",
+    "id": "91a6fe9fa6b40a0945e2bce131d8fc9f1b959762"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/asesinan-a-patrullero-de-la-policia-en-ataque-armado-registrado-en-hato-corozal-casanare/",
+    "titular": "Asesinan a patrullero de la Policía en ataque armado registrado en Hato Corozal, Casanare - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T21:29:01-05:00",
+    "resumen": "Un patrullero de la Policía Nacional fue asesinado en un ataque armado registrado en Hato Corozal, Casanare. La víctima fue identificada como Juan Sebastián",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2c18c83334e04baf8f8fa96617bb974e3caf40f6"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/30-millones-de-recompensa-por-informacion-sobre-sonia-y-kelly-desaparecidas-en-el-norte",
+    "titular": "$30 millones de recompensa por información sobre Sonia y Kelly, desaparecidas en el norte de Barranquilla",
+    "fecha_publicacion": "2026-11-11T21:13:40-05:00",
+    "resumen": "Sonia Margarita Sanjuan Peñaranda y Kelly Johana Acosta Restrepo están desaparecidas desde el pasado viernes.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "desaparicion"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "83c344ff29b18c184e8f050298155df02c045367"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/tragedia-laboral-en-santa-marta-joven-trabajador-murio-arrollado-por-un-tractocamion-mientras-descansaba-a-un-costado-de-la-via-alterna-al-puerto/",
+    "titular": "Tragedia laboral en Santa Marta: Joven trabajador murió arrollado por un tractocamión mientras descansaba a un costado de la Vía Alterna al Puerto - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T20:15:54-05:00",
+    "resumen": "Una lamentable tragedia vial y laboral enluta este miércoles 11 de noviembre de 2026 al sector portuario y a la comunidad del tradicional barrio Pescaíto, en",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": "Pescaíto",
+    "estado": "pendiente",
+    "id": "5402705e5bc0204f1ce2f3436be0bc9e0df2773f"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/indagacion-previa-marcos-calarca-y-sandra-ramirez-por-homicidio-de-miguel-uribe-turbay",
+    "titular": "A indagación previa ‘Marcos Calarcá’ y Sandra Ramírez por homicidio de Miguel Uribe Turbay",
+    "fecha_publicacion": "2026-11-11T19:13:26-05:00",
+    "resumen": "Por información que suministró la viuda María Claudia Tarazona.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "60e793cc8242fbe963c9b32e5f930f891bc68630"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/seis-dias-sin-rastro-de-kelly-y-sonia-camioneta-en-la-que-se-movilizaban-habria-aparecido-en-soledad/",
+    "titular": "Seis días sin rastro de Kelly y Sonia: camioneta en la que se movilizaban habría aparecido en Soledad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T17:43:09-05:00",
+    "resumen": "La incertidumbre continúa para las familias de Kelly Acosta Restrepo, de 43 años, y Sonia Sanjuan Peñaranda, de 41, quienes completaron seis días",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "bf1879866c4f61131c31d52aee911317105e1373"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/%f0%9d%90%82%f0%9d%90%9a%f0%9d%90%a9%f0%9d%90%ad%f0%9d%90%ae%f0%9d%90%ab%f0%9d%90%9a%f0%9d%90%a7-%f0%9d%90%9e%f0%9d%90%a7-%f0%9d%90%81%f0%9d%90%9a%f0%9d%90%ab%f0%9d%90%ab%f0%9d%90%9a%f0%9d%90%a7/",
+    "titular": "𝐂𝐚𝐩𝐭𝐮𝐫𝐚𝐧 𝐞𝐧 𝐁𝐚𝐫𝐫𝐚𝐧𝐪𝐮𝐢𝐥𝐥𝐚 𝐚 ‘𝐃𝐚𝐧𝐢𝐞𝐥𝐢𝐭𝐨’, 𝐝𝐞 ‘𝐋𝐨𝐬 𝐉𝐉’ 𝐲 ‘𝐍𝐮𝐞𝐯𝐚 𝐆𝐞𝐧𝐞𝐫𝐚𝐜𝐢𝐨‌𝐧 𝐝𝐞𝐥 𝐅𝐫𝐞𝐬𝐞𝐨’ - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T16:58:11-05:00",
+    "resumen": "El operativo, desarrollado por el Gaula de la Policía Nacional, permitió capturar al señalado delincuente, investigado también, según el Jefe de Estado, “por",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "5e379dc051e1678ee92999d5d8ce231b14c64ba5"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/uniformado-de-la-policia-resulto-herido-tras-choque-entre-patrulla-y-camioneta-en-barranquilla/",
+    "titular": "Uniformado de la Policía resultó herido tras choque entre patrulla y camioneta en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T16:13:41-05:00",
+    "resumen": "Un accidente de tránsito registrado hace pocos minutos en el norte de Barranquilla dejó como saldo preliminar a un uniformado de la Policía Nacional",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "23b7d3b16e3dd9ea87246047e7f6b4d095aa1a19"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/controles-contra-el-comercio-ilegal-en-el-atlantico-goa-intensifica-controles-contra-el-licor-adulterado-en-sabanalarga-y-logra-el-cierre-de-un-establecimiento-comercial/",
+    "titular": "CONTROLES CONTRA EL COMERCIO ILEGAL EN EL ATLÁNTICO: GOA intensifica controles contra el licor adulterado en Sabanalarga y logra el cierre de un establecimiento comercial - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T15:51:20-05:00",
+    "resumen": "Una jornada de controles contra el contrabando y la comercialización ilegal de bebidas alcohólicas dejó como resultado la aprehensión de 18 botellas de licor",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f09cc903cad5f1f172b71ba4ad61dacbb3ac612a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/juez-ordena-suspender-desalojo-en-el-barrio-los-trigales-de-barranquilla/",
+    "titular": "Juez ordena suspender desalojo en el barrio Los Trigales de Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T14:48:17-05:00",
+    "resumen": "La intervención de las autoridades para ejecutar un desalojo en el barrio Los Trigales, en Barranquilla, quedó temporalmente detenida este miércoles 11 de",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": "Los Trigales",
+    "estado": "pendiente",
+    "id": "059bbc6be56f49a11fa2114ad9a0a0bcd3faad5c"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/ofrecen-300-millones-para-encontrar-a-nancy-gomez-tras-su-secuestro-en-uribia/",
+    "titular": "Ofrecen $300 millones para encontrar a Nancy Gómez tras su secuestro en Uribia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T14:17:55-05:00",
+    "resumen": "La búsqueda de Nancy Gómez, esposa del alcalde de Uribia, Jaime Luis Buitrago, mantiene en alerta a las autoridades de La Guajira, luego de que fuera",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3d199712d36291976eff3777b8d8f2e9b10cd6fa"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/abatido-alias-negro-perea-y-otros-siete-integrantes-del-clan-del-golfo-en-antioquia",
+    "titular": "Abatido alias ‘Negro Perea’ y otros siete integrantes del ‘Clan del Golfo’, en Antioquia",
+    "fecha_publicacion": "2026-11-11T12:47:00-05:00",
+    "resumen": "En zona rural de Tarazá.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3e7eb35b0fb6e39243e098045e0752a4e9d2a9bc"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/fiscalia-se-une-en-busqueda-de-la-pequena-zoe-soto-arrastrada-por-el-arroyo-el-salao",
+    "titular": "Fiscalía se une en búsqueda de la pequeña Zoe Soto, arrastrada por el arroyo ‘El Salao’",
+    "fecha_publicacion": "2026-11-11T11:49:00-05:00",
+    "resumen": "Tras emitir circular de búsqueda.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "cb7197a5f822febe697f0b12098afeb28a4ba5c6"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/identifican-a-vigilante-informal-asesinado-por-sicarios-en-el-barrio-el-santuario-tenia-70-anos/",
+    "titular": "Identifican a vigilante informal asesinado por sicarios en el barrio El Santuario: tenía 70 años - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T09:43:01-05:00",
+    "resumen": "El homicidio ocurrió en la calle 45B con carrera 8A, donde la víctima se encontraba realizando labores informales de vigilancia y cuidado de vehículos",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "El Santuario",
+    "estado": "pendiente",
+    "id": "9efa0ce36e18970682ef74a4bc07bad009b8ef7e"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/fallecio-la-mujer-de-43-anos-blanco-de-atentado-a-bala-en-el-barrio-el-valle/",
+    "titular": "Falleció la mujer de 43 años blanco de atentado a bala en el barrio El Valle - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T09:36:21-05:00",
+    "resumen": "El homicidio ocurrió en la calle 65C con carrera 16. Según la información recopilada por la Policía, dos hombres que se movilizaban en una motocicleta AKT de",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": "El Valle",
+    "estado": "pendiente",
+    "id": "204192b3e3789513f9319d4013500f0af98cbc3b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/cae-en-flagrancia-a-un-sujeto-e-incauta-17-toneladas-de-marihuana-tras-persecucion-en-santander-de-quilichao-cauca/",
+    "titular": "Cae en flagrancia a un sujeto e incauta 1,7 toneladas de marihuana, tras persecución en Santander de Quilichao, Cauca - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T09:31:06-05:00",
+    "resumen": "En desarrollo de operaciones militares ofensivas y de estabilidad, tropas del Batallón de Montaña N.° 8, unidad orgánica de la Vigésima Novena Brigada,",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "71213478eac15d877843d2690d3f13524a5ddcd5"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/mas-de-1-000-policias-seran-desplegados-durante-las-fiestas-de-la-independencia-en-cartagena/",
+    "titular": "Más de 1.000 policías serán desplegados durante las Fiestas de la Independencia en Cartagena. - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T07:58:11-05:00",
+    "resumen": "Un amplio componente humano, logístico y tecnológico estará dispuesto por parte de la Policía en Cartagena, con el objetivo de acompañar a la ciudadanía en",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2a6e9b5eaaf6cd696349cf471a3947f25df29534"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/sicarios-en-moto-asesinan-un-vigilante-informal-en-el-barrio-el-santuario",
+    "titular": "Sicarios en moto asesinan a un vigilante informal en el barrio El Santuario",
+    "fecha_publicacion": "2026-11-11T07:36:00-05:00",
+    "resumen": "Con este crimen ya son 12 los homicidios cometidos desde el pasado domingo hasta la noche del martes en Barranquilla y su área metropolitana.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "El Santuario",
+    "estado": "pendiente",
+    "id": "f1acdbc033ed4525ad335507dd10a57e0af8b1b1"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/secuestran-la-esposa-del-alcalde-del-municipio-de-uribia-la-guajira",
+    "titular": "Secuestran a la esposa del Alcalde del municipio de Uribia, La Guajira",
+    "fecha_publicacion": "2026-11-11T07:30:01-05:00",
+    "resumen": "Presidencia ordenó el despliegue de la Fuerza Pública.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "01dea1b309e62e93be805fcb23bb31e293dc11bd"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/alerta-en-alrededores-de-universidades-en-barranquilla-estudiante-denuncio-posible-intento-de-robo-con-tapabocas/",
+    "titular": "Alerta en alrededores de universidades en Barranquilla: estudiante denunció posible intento de robo con tapabocas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T07:22:29-05:00",
+    "resumen": "Según el testimonio difundido en redes sociales, una mujer se les acercó y les dijo que, en una esquina cercana, otra joven había sido atacada con",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "hurto"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9e792c8f77272282a020358f79e73ba47f35d454"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/tragedia-en-el-santuario-arturo-el-vigilante-informal-del-barrio-murio-en-confuso-episodio/",
+    "titular": "Tragedia en El Santuario: Arturo, el vigilante informal del barrio, murió en confuso episodio - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T06:36:38-05:00",
+    "resumen": "El hecho se presentó en la calle 45B con carrera 8A. Según las primeras informaciones, el hombre habría sido víctima de un episodio con arma de fuego que",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "El Santuario",
+    "estado": "pendiente",
+    "id": "e72af1626f4f4412da2d7d12afa370dc199e854b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/capturan-a-presunto-integrante-de-los-del-freseo-con-revolver-y-chaleco-balistico/",
+    "titular": "Capturan a presunto integrante de ‘Los del Freseo’ con revólver y chaleco balístico - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T06:31:38-05:00",
+    "resumen": "Durante el procedimiento, los uniformados encontraron en su poder un revólver marca Llama Martial, calibre .38, con tres cartuchos sin percutir, además de un",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "5cb9cebe03dbf1de9bdc0f76d4d63927ec9f5e53"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/lanzan-una-granada-contra-sede-de-rcn-en-cali-reportan-dos-capturados",
+    "titular": "Lanzan una granada contra sede de RCN en Cali: reportan dos capturados",
+    "fecha_publicacion": "2026-11-11T06:30:40-05:00",
+    "resumen": "El hecho dejó daños materiales.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0193aa70e9de9794686f17a5f578509db5fe754f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/sicario-ataco-a-tiros-a-una-mujer-cuando-regresaba-de-comprar-huevos-en-el-barrio-el-valle/",
+    "titular": "Sicario atacó a tiros a una mujer cuando regresaba de comprar huevos en el barrio El Valle - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T06:23:52-05:00",
+    "resumen": "La mujer fue identificada como Gina Esther Molina Mercado, de 42 años, residente del mismo sector. Según las primeras versiones conocidas, acababa de realizar",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": "El Valle",
+    "estado": "pendiente",
+    "id": "e5904ae89c330f1a97802fed18e1cdada1120361"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/11/capturan-a-joven-de-18-anos-con-arma-traumatica-modificada-en-el-barrio-calamary/",
+    "titular": "Capturan a joven de 18 años con arma traumática modificada en el barrio Calamary - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-11T06:19:03-05:00",
+    "resumen": "De acuerdo con la información entregada por la Policía, el elemento incautado habría sido alterado para utilizar munición de mayor capacidad lesiva, situación",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": "Calamary",
+    "estado": "pendiente",
+    "id": "f3b7684786ac349706b79d74ac63b05d5c03eb4c"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/10/santa-marta-retira-mas-de-3-100-toneladas-de-residuos-en-la-via-alterna-al-puerto/",
+    "titular": "Santa Marta retira más de 3.100 toneladas de residuos en la Vía Alterna al Puerto - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-10T21:52:02-05:00",
+    "resumen": "La campaña “Alcaldía Limpia Tu Vía” ha permitido retirar más de 3.100 toneladas de residuos sólidos y material de desecho en la Vía Alterna al Puerto de Santa",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "76b51f8e560713336cc5376e1f69195776e370b0"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/capturan-en-barranquilla-danielito-de-los-jj-y-nueva-generacion-del-freseo",
+    "titular": "Capturan en Barranquilla a ‘Danielito’, de ‘Los JJ’ y ‘Nueva Generación del Freseo’",
+    "fecha_publicacion": "2026-11-10T21:13:46-05:00",
+    "resumen": "Habría asumido el control de las redes de microtráfico y extorsión en Riohacha, tras la muerte de alias ‘Naín’ o ‘Bendito Menor’.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "extorsion",
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a464d033ea6b9206ed6c10846a6f4c8441e57f79"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/10/campesinos-denuncian-maltrato-y-agotamiento-de-animales-de-carga-por-el-mal-estado-de-las-vias-en-la-sierra-nevada/",
+    "titular": "Campesinos denuncian maltrato y agotamiento de animales de carga por el mal estado de las vías en la Sierra Nevada - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-10T19:35:19-05:00",
+    "resumen": "El deterioro de los caminos rurales en la Sierra Nevada de Santa Marta estaría convirtiendo el transporte de las cosechas de café en una tarea cada vez más",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "violencia_intrafamiliar"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8550801218f08d7e2c90040fcf4fbdb0059243ce"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/10/mujer-de-36-anos-murio-en-presunto-caso-de-feminicidio-su-pareja-estaria-involucrada/",
+    "titular": "Mujer de 36 años murió en presunto caso de feminicidio; su pareja estaría involucrada - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-10T19:25:58-05:00",
+    "resumen": "Un nuevo hecho de violencia contra una mujer genera consternación en San Juan, tras la muerte de Jocelyn Castillo, de 36 años, en circunstancias que son",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "feminicidio",
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "80e0f36c82706d50cac637dd4a3d0c336bafa039"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/hieren-bala-una-mujer-en-una-tienda-del-barrio-el-valle",
+    "titular": "Hieren a bala a una mujer en una tienda del barrio El Valle",
+    "fecha_publicacion": "2026-11-10T18:17:49-05:00",
+    "resumen": "Un hombre que llegó como parrillero de una moto se bajó y le disparó a la mujer de 42 años.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": "El Valle",
+    "estado": "pendiente",
+    "id": "55bb29e46c14180fba3332db571f5850ee970c96"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/10/violencia-criminal-en-el-suroccidente-de-barranquilla-sicariato-en-las-flores-asesinan-a-alias-moncho-presunto-integrante-de-los-costenos/",
+    "titular": "Violencia criminal en el suroccidente de Barranquilla: Sicariato en Las Flores: asesinan a alias ‘Moncho’, presunto integrante de ‘Los Costeños’ - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-10T16:58:35-05:00",
+    "resumen": "Un nuevo hecho de sangre sacudió este martes 10 de noviembre al barrio Las Flores, en Barranquilla, donde fue asesinado a bala Luis Alirio Ferrin Lozano,",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Las Flores",
+    "estado": "pendiente",
+    "id": "d1aad6f93ab833ea892318d281ccd4764a0bdf96"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/10/incautan-1-100-toneladas-de-nitrato-de-amonio-en-santa-marta-material-podria-ser-utilizado-para-fabricar-explosivos/",
+    "titular": "Incautan 1.100 toneladas de nitrato de amonio en Santa Marta: material podría ser utilizado para fabricar explosivos - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-10T16:54:38-05:00",
+    "resumen": "Un total de 1.100 toneladas de nitrato de amonio 31-3-3 a granel fueron incautadas por la Policía Nacional, a través de la Dirección de Gestión de Policía",
+    "fecha_captura": "2026-11-12T11:04:40-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "353d19beef5d93dd262da764e4654e4383261f02"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/mataron-bala-hombre-cuando-caminaba-por-una-calle-de-la-esmeralda",
+    "titular": "Mataron a bala a hombre cuando caminaba por una calle de La Esmeralda",
+    "fecha_publicacion": "2026-11-10T14:52:00-05:00",
+    "resumen": "El crimen se registró en la mañana de este martes.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "La Esmeralda",
+    "estado": "pendiente",
+    "id": "19562c3d453f980645c9de4815f1fe25692a4652"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/un-hombre-fue-asesinado-bala-en-el-barrio-las-flores",
+    "titular": "Un hombre fue asesinado a bala en el barrio Las Flores",
+    "fecha_publicacion": "2026-11-10T13:57:00-05:00",
+    "resumen": "Al mediodía de este martes.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "Las Flores",
+    "estado": "pendiente",
+    "id": "eefd5e47dd2d6cdb4b2fc97b3df6c6fb564187c6"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/con-maquinaria-amarilla-alcaldia-incremento-busqueda-de-la-pequena-zoe",
+    "titular": "Con maquinaria amarilla, Alcaldía incrementó búsqueda de la pequeña Zoe",
+    "fecha_publicacion": "2026-11-10T10:55:00-05:00",
+    "resumen": "La niña fue arrastrada por el arroyo ‘El Salao’ el pasado 4 de noviembre.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "33fe85a04f6ddc6a55312da1e79fe5dd291d3aac"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/condenado-5-anos-de-carcel-un-extorsionista-le-exigia-dinero-tendero-en-juan-de-acosta",
+    "titular": "Condenado a 5 años de cárcel un extorsionista: le exigía dinero a tendero en Juan de Acosta",
+    "fecha_publicacion": "2026-11-10T10:34:00-05:00",
+    "resumen": "Le exigía el pago de un millón de pesos a nombre del ‘Bloque Resistencia Caribe’.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "extorsion"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ad045ac47f150f86461d4cd947a3cf2f70142125"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/shirley-patricia-convivio-6-anos-con-su-homicida-el-hombre-se-nego-terminar-la-relacion",
+    "titular": "Shirley Patricia convivió 6 años con su homicida: el hombre se negó a terminar la relación y la mató",
+    "fecha_publicacion": "2026-11-10T10:05:00-05:00",
+    "resumen": "Una relación sentimental que terminó en tragedia en el barrio El Limón.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "El Limón",
+    "estado": "pendiente",
+    "id": "3f3a89195995f215ec5b249202afae7e73e7e077"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/un-vigilante-informal-fue-asesinado-en-el-barrio-ciudad-paraiso-en-soledad",
+    "titular": "Un vigilante informal fue asesinado en el barrio Ciudad Paraíso, en Soledad",
+    "fecha_publicacion": "2026-11-10T08:41:00-05:00",
+    "resumen": "Tenía 36 años de edad.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Ciudad Paraíso",
+    "estado": "pendiente",
+    "id": "454edc88168002452877cf4ca666b4f233dbe92e"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/matan-joven-en-cancha-de-villa-maria-y-la-policia-abatio-uno-de-los-presuntos-sicarios",
+    "titular": "Matan a joven en cancha de Villa María y la Policía abatió a uno de los presuntos sicarios",
+    "fecha_publicacion": "2026-11-10T07:56:00-05:00",
+    "resumen": "Tras una persecución de las patrullas.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "Villa María",
+    "estado": "pendiente",
+    "id": "3373a81e17d67b928d3065c44faaae23b3db8f8f"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/hombre-senalado-de-disparar-contra-cajera-en-supermercado-quedo-grabado-en-camaras",
+    "titular": "Hombre señalado de disparar contra cajera en supermercado quedó grabado en cámaras",
+    "fecha_publicacion": "2026-11-10T07:17:00-05:00",
+    "resumen": "La Policía lo está buscando para ser judicializado.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b91e5065506929cf0fc3d225da6215b1113a6243"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/una-mujer-fue-asesinada-en-el-barrio-el-limon-y-otra-resulto-herida-bala-en-rebolo",
+    "titular": "Una mujer fue asesinada en el barrio El Limón y otra resultó herida a bala en Rebolo",
+    "fecha_publicacion": "2026-11-09T19:59:53-05:00",
+    "resumen": "El homicida del caso de El Limón interceptó a su víctima que conducía una motocicleta.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": "El Limón",
+    "estado": "pendiente",
+    "id": "65ceaff8917166003e8c687141ca93af0c93f427"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/fiscalia-seguira-investigando-al-expresidente-uribe-por-dos-masacres-y-un-homicidio",
+    "titular": "Fiscalía seguirá investigando al expresidente Uribe por dos masacres y un homicidio",
+    "fecha_publicacion": "2026-11-09T14:25:59-05:00",
+    "resumen": "Sala Plena de la Corte Constitucional decidió declararse inhibida para resolver el conflicto de competencias.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0067eeb2a164534ad0bef02a1e20fdfcf5b1e5d4"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/alias-castor-se-ala-a-presuntos-responsables-del-asesinato-de-mayra-alejandra-vera-duarte",
+    "titular": "Alias âCastorâ seÃ±ala a presuntos responsables del asesinato de Mayra Alejandra Vera Duarte",
+    "fecha_publicacion": "2026-06-10T09:09:00-05:00",
+    "resumen": "Alias âCastorâ seÃ±ala a presuntos responsables del asesinato de Mayra Alejandra Vera Duarte",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a93956a3b59d397ca9e12fb140d4c33ef8591d46"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/asesinan-a-cobradiario-con-11-anotaciones-judiciales-en-la-terraza-de-su-vivienda-en-soledad",
+    "titular": "Asesinan a cobradiario con 11 anotaciones judiciales en la terraza de su vivienda en Soledad",
+    "fecha_publicacion": "2026-06-02T10:29:00-05:00",
+    "resumen": "Asesinan a cobradiario con 11 anotaciones judiciales en la terraza de su vivienda en Soledad",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1cd0cf40d50970a40dc4c6f7f5103f1580c471cd"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/vi-a-mi-pap-discutiendo-con-un-hombre-y-despu-s-este-le-dispar-hijo-presenci-el-crimen",
+    "titular": "âVi a mi papÃ¡ discutiendo con un hombre y despuÃ©s este le disparÃ³â: hijo presenciÃ³ el crimen",
+    "fecha_publicacion": "2026-05-21T13:02:00-05:00",
+    "resumen": "âVi a mi papÃ¡ discutiendo con un hombre y despuÃ©s este le disparÃ³â: hijo presenciÃ³ el crimen",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6d660afd6add13d05bf231d777afa89feaa3ed1c"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/un-hombre-fue-asesinado-a-bala-en-el-barrio-los-almendros-en-soledad",
+    "titular": "Un hombre fue asesinado a bala en el barrio Los Almendros, en Soledad",
+    "fecha_publicacion": "2026-05-21T11:01:00-05:00",
+    "resumen": "Un hombre fue asesinado a bala en el barrio Los Almendros, en Soledad",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Los Almendros",
+    "estado": "pendiente",
+    "id": "0973ce4238472564bd996ef74be3fb649cbfc340"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/joven-de-20-a-os-fue-asesinado-a-bala-la-noche-del-domingo-en-el-barrio-el-bosque-en-el-suroccidente-de-barranquilla-en-un-hecho-que-ocurri-frente-a-su-madre",
+    "titular": "joven de 20 aÃ±os fue asesinado a bala la noche del domingo en el barrio El Bosque, en el suroccidente de Barranquilla, en un hecho que ocurriÃ³ frente a su madre",
+    "fecha_publicacion": "2026-05-13T09:55:00-05:00",
+    "resumen": "joven de 20 aÃ±os fue asesinado a bala la noche del domingo en el barrio El Bosque, en el suroccidente de Barranquilla, en un hecho que ocurriÃ³ frente a su madre",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "El Bosque",
+    "estado": "pendiente",
+    "id": "60b3fd6222fa316eb4667d68ba07624c11adb899"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/familia-de-subteniente-rechaza-versi-n-de-suicidio-y-exige-claridad-en-su-muerte",
+    "titular": "Familia de subteniente rechaza versiÃ³n de suicidio y exige claridad en su muerte",
+    "fecha_publicacion": "2026-05-04T12:48:00-05:00",
+    "resumen": "Familia de subteniente rechaza versiÃ³n de suicidio y exige claridad en su muerte",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b860044b5477967d8c6284fbc791188b7e68c740"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/nos-banabamos-con-leche-para-borrar-la-polvora-exsicaria-de-pablo-escobar-revela-como",
+    "titular": "“Nos bañábamos con leche para borrar la pólvora”: Exsicaria de Pablo Escobar revela cómo operaban",
+    "fecha_publicacion": "2026-04-30T10:42:00-05:00",
+    "resumen": "También expone prácticas que evidencian el nivel de organización y frialdad con el que operaban estos grupos, incluso en detalles que hoy parecen difíciles de creer.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "568680804f63ecb2b4932e9e5ff83e5af3fc87b3"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/capturan-a-isma-y-gerson-se-alados-de-impulsar-robos-violentos-de-joyas-en-barranquilla",
+    "titular": "Capturan a âIsmaâ y âGersonâ, seÃ±alados de impulsar robos violentos de joyas en Barranquilla",
+    "fecha_publicacion": "2026-04-21T16:59:00-05:00",
+    "resumen": "Capturan a âIsmaâ y âGersonâ, seÃ±alados de impulsar robos violentos de joyas en Barranquilla",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "bfe412b876262075c82bbf1c9ea2474d8e5a738c"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/motociclista-que-iba-sacar-al-menor-sicario-que-mato-miguel-uribe-revela-detalles-del",
+    "titular": "Motociclista que iba a sacar al menor sicario que mató a Miguel Uribe revela detalles del atentado",
+    "fecha_publicacion": "2026-04-21T16:43:00-05:00",
+    "resumen": "Cristian Camilo González, señalado en el atentado contra Miguel Uribe, habló en Más Allá del Silencio y lanzó una versión que pone en duda la investigación.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1fed8935ae26895549c8b4cb7f162177f6abcb90"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/nuevo-caso-de-inseguridad-en-los-alpes-delincuente-asalta-a-una-mujer-y-le-roba-su-celular",
+    "titular": "Nuevo caso de inseguridad en Los Alpes: delincuente asalta a una mujer y le roba su celular",
+    "fecha_publicacion": "2026-04-20T14:42:00-05:00",
+    "resumen": "Nuevo caso de inseguridad en Los Alpes: delincuente asalta a una mujer y le roba su celular",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3fa6400bce3ec929c00e399ae31230bb037dcedf"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/day-v-squez-continuar-cumpliendo-compromisos-con-la-justicia-su-testimonio-sigue-siendo-clave",
+    "titular": "Day VÃ¡squez continuarÃ¡ cumpliendo compromisos con la justicia: su testimonio sigue siendo clave",
+    "fecha_publicacion": "2026-04-16T10:14:00-05:00",
+    "resumen": "Day VÃ¡squez continuarÃ¡ cumpliendo compromisos con la justicia: su testimonio sigue siendo clave",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b3220183f395c735291cadf4c48a5da0b22c7aaa"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/ataque-sicarial-en-las-estrellas-deja-un-muerto-y-un-herido-y-enciende-alarmas-de-seguridad",
+    "titular": "Ataque sicarial en Las Estrellas deja un muerto y un herido y enciende alarmas de seguridad",
+    "fecha_publicacion": "2026-04-14T09:41:00-05:00",
+    "resumen": "Ataque sicarial en Las Estrellas deja un muerto y un herido y enciende alarmas de seguridad",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": "Las Estrellas",
+    "estado": "pendiente",
+    "id": "555fe31a27f178cc4bfcf3ce1f7a4547cf669cb8"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/capturan-a-alias-el-flaco-en-el-norte-de-barranquilla-comunidad-lo-retuvo-tras-ola-de-robos",
+    "titular": "Capturan a alias âEl Flacoâ en el norte de Barranquilla: comunidad lo retuvo tras ola de robos",
+    "fecha_publicacion": "2026-04-11T11:18:00-05:00",
+    "resumen": "Capturan a alias âEl Flacoâ en el norte de Barranquilla: comunidad lo retuvo tras ola de robos",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ff4ade48f74b606230469686d691dfdabbdd00d5"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/asesinan-a-psic-loga-en-barrancabermeja-hab-a-denunciado-amenazas-y-tem-a-por-su-vida",
+    "titular": "Asesinan a psicÃ³loga en Barrancabermeja: habÃ­a denunciado amenazas y temÃ­a por su vida",
+    "fecha_publicacion": "2026-04-10T16:38:00-05:00",
+    "resumen": "Asesinan a psicÃ³loga en Barrancabermeja: habÃ­a denunciado amenazas y temÃ­a por su vida",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3d57b605c878f973f9ce2ee2f8f858d012730622"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/atl-ntico-en-alerta-26-mujeres-asesinadas-y-4-masacres-encienden-alarmas-en-2026",
+    "titular": "AtlÃ¡ntico en alerta: 26 mujeres asesinadas y 4 masacres encienden alarmas en 2026",
+    "fecha_publicacion": "2026-04-10T16:13:00-05:00",
+    "resumen": "AtlÃ¡ntico en alerta: 26 mujeres asesinadas y 4 masacres encienden alarmas en 2026",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f47dc21defe06a357d21e47364099da232d2c71c"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/joven-futbolista-fue-asesinado-en-atentado-sicarial-en-los-cedros-soledad",
+    "titular": "Joven futbolista fue asesinado en atentado sicarial en Los Cedros, Soledad",
+    "fecha_publicacion": "2026-04-10T15:44:00-05:00",
+    "resumen": "Joven futbolista fue asesinado en atentado sicarial en Los Cedros, Soledad",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Los Cedros",
+    "estado": "pendiente",
+    "id": "e8d6c4f911f1f94756d3895b0987aefe714614c8"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/a-sangre-fr-a-sicarios-en-moto-asesinan-de-ocho-disparos-a-un-joven-en-polonuevo",
+    "titular": "A sangre frÃ­a: sicarios en moto asesinan de ocho disparos a un joven en Polonuevo",
+    "fecha_publicacion": "2026-04-10T08:46:00-05:00",
+    "resumen": "A sangre frÃ­a: sicarios en moto asesinan de ocho disparos a un joven en Polonuevo",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "30ace02eafd9a06a2b2e61ca13eab3827427263a"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/sicario-persigui-a-dos-hombres-y-los-asesin-a-bala-en-evaristo-sourdis",
+    "titular": "Sicario persiguiÃ³ a dos hombres y los asesinÃ³ a bala en Evaristo Sourdis",
+    "fecha_publicacion": "2026-04-08T09:38:00-05:00",
+    "resumen": "Sicario persiguiÃ³ a dos hombres y los asesinÃ³ a bala en Evaristo Sourdis",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "Evaristo Sourdis",
+    "estado": "pendiente",
+    "id": "a3eecb621bbee2c10b89d191dd4a895bc7ccab72"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/el-asesino-no-pagar-c-rcel-desgarrador-clamor-de-madre-de-hermanas-asesinadas-en-malambo",
+    "titular": "âEl asesino no pagarÃ¡ cÃ¡rcelâ: desgarrador clamor de madre de hermanas asesinadas en Malambo",
+    "fecha_publicacion": "2026-03-30T17:31:00-05:00",
+    "resumen": "âEl asesino no pagarÃ¡ cÃ¡rcelâ: desgarrador clamor de madre de hermanas asesinadas en Malambo",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Malambo",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f28d1bf6a6c2b43942d8058802fea331f29d7afa"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/mama-de-hermanas-muertas-en-malambo-dice-que-el-asesino-no-pagara-carcel-por-ser-menor",
+    "titular": "Mamá de hermanas muertas en Malambo dice que el asesino no pagará cárcel por ser menor",
+    "fecha_publicacion": "2026-03-30T16:46:00-05:00",
+    "resumen": "En entrevista con Rafael Poveda en Más Allá del Silencio, la madre de las hermanas de 14 y 17 años revela estremecedores detalles.",
+    "fecha_captura": "2026-11-12T11:02:08-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Malambo",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "46132f2395ee37a1d612ecfe949b2374b7509e2d"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/capturado-en-soledad-con-apoyo-de-drones-por-presunto-tr-fico-de-estupefacientes",
+    "titular": "Capturado en Soledad con apoyo de drones por presunto trÃ¡fico de estupefacientes",
+    "fecha_publicacion": "2026-03-26T09:59:00-05:00",
+    "resumen": "Capturado en Soledad con apoyo de drones por presunto trÃ¡fico de estupefacientes",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e7f39b2c956e571325e44ad13be25ab8a32e64e7"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/armada-incauta-m-s-de-42-kilos-de-marihuana-en-la-boquilla-cartagena",
+    "titular": "Armada incauta mÃ¡s de 42 kilos de marihuana en La Boquilla, Cartagena",
+    "fecha_publicacion": "2026-03-26T09:35:00-05:00",
+    "resumen": "Armada incauta mÃ¡s de 42 kilos de marihuana en La Boquilla, Cartagena",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "99fd4199fd36f2fcabbc4856ee1a6cc0fab64520"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/golpe-al-crimen-en-barranquilla-capturan-a-el-mello-se-alado-de-m-ltiples-homicidios",
+    "titular": "Golpe al crimen en Barranquilla: capturan a âel melloâ, seÃ±alado de mÃºltiples homicidios",
+    "fecha_publicacion": "2026-03-24T09:18:00-05:00",
+    "resumen": "Golpe al crimen en Barranquilla: capturan a âel melloâ, seÃ±alado de mÃºltiples homicidios",
+    "fecha_captura": "2026-11-12T11:09:48-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "captura"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "bdbc79ff9bed0b6043c9656927e64678b2b9865b"
+  }
+]

@@ -36,6 +36,31 @@ Quedan fuera El Heraldo y El Tiempo, porque prohíben el scraping sin permiso es
 - No guarda el cuerpo de los artículos, las fotos ni los comentarios. Tampoco se usa el contenido para entrenar modelos de IA (La Libertad y CTV lo prohíben con `ai-train=no`).
 - La clasificación de tipo de delito, municipio y barrio se hace por palabras clave y es provisional: el equipo la revisa antes de publicar un caso.
 
+## Casos
+
+```bash
+python -m casos --reporte reporte-casos.md
+```
+
+Lee `data/notas.json` y escribe `data/casos.json`: un caso por hecho, con las notas de todos los medios que lo cubrieron. Dos notas se unen cuando el tipo de delito es compatible (un herido que luego muere sigue siendo el mismo hecho), las fechas están a 2 días o menos y el barrio coincide o los textos se parecen mucho. Los pares dudosos no se unen: quedan con estado `posible_duplicado` para que el editor decida. Las capturas sin otro delito y las notas de fuera del área metropolitana no generan casos.
+
+Cada caso empieza como `pendiente`. Si el editor cambia el `estado` (`publicado`, `descartado`), el tipo o el barrio en `data/casos.json`, la siguiente corrida conserva esos cambios.
+
+El flujo **Scraper** corre solo todos los días a las 6:00 a. m. (hora de Barranquilla), guarda las notas nuevas y los casos, y deja el resumen de casos en la pestaña Actions.
+
+## Página
+
+`web/index.html` es la página pública: mapa (Leaflet con mapas de OpenStreetMap y CARTO), barrios con más casos, tendencia semanal y últimos casos, con modo claro y oscuro. Lee `data/casos.json`.
+
+El flujo **Página** ubica los barrios con Nominatim (máximo una consulta por segundo, con caché en `data/geocodigos.json`) y publica en GitHub Pages cada vez que cambian los datos en `main` y después de cada corrida del scraper. Para activarlo una sola vez: **Settings → Pages → Source: GitHub Actions**.
+
+Para verla en local:
+
+```bash
+python -m casos && mkdir -p _site/data && cp web/index.html _site/ && cp data/casos.json _site/data/
+python -m http.server -d _site 8000
+```
+
 ## Pruebas
 
 ```bash
