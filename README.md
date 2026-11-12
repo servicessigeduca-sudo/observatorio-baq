@@ -1,8 +1,49 @@
 # Observatorio BAQ
 
+**[Ver el mapa → servicessigeduca-sudo.github.io/observatorio-baq](https://servicessigeduca-sudo.github.io/observatorio-baq/)**
+
 Mapa y tablero abiertos de los delitos reportados por la prensa en Barranquilla y su área metropolitana. Es un proyecto periodístico.
 
-Los datos salen de notas publicadas por medios locales. De cada nota se guarda solo el titular, la fecha, el enlace y un resumen corto. Cada punto del mapa enlaza a la nota original.
+En la página puedes:
+
+- Ver en el mapa dónde ocurren los casos, por barrio o caso por caso.
+- Filtrar por tipo de delito (homicidio, lesiones, hurto, extorsión, otros) y por periodo.
+- Comparar los barrios con más casos y la tendencia semana a semana.
+- Leer los últimos casos con el enlace a cada noticia original.
+- Cambiar entre modo claro y oscuro.
+
+Los datos salen de notas publicadas por Zona Cero, Diario La Libertad, Emisora Atlántico, Impacto News y CTV Barranquilla. Cuando varios medios cubren el mismo hecho, se cuenta una sola vez. La página se actualiza sola cada día a las 6:00 a. m. (hora de Barranquilla).
+
+**Datos preliminares:** la clasificación es automática y un editor revisa cada caso. Mientras tanto, la página marca los casos como "Sin revisar".
+
+## Datos abiertos
+
+| Archivo | Qué contiene |
+| --- | --- |
+| [`data/casos.json`](data/casos.json) | Un registro por hecho: tipo, fecha, barrio, municipio, ubicación aproximada, medios y enlaces |
+| [`data/notas.json`](data/notas.json) | Una entrada por noticia: medio, titular, fecha, enlace y resumen corto |
+| [`data/geocodigos.json`](data/geocodigos.json) | Coordenadas de cada barrio según OpenStreetMap, corregibles a mano |
+
+## Cómo revisar casos
+
+En `data/casos.json`, cambia el `estado` de un caso a `publicado` (revisado) o `descartado`, o corrige su `tipo` o `barrio`. La corrida diaria conserva esos cambios. Si un barrio sale en un lugar equivocado del mapa, corrige sus coordenadas en `data/geocodigos.json`.
+
+---
+
+# Detalles técnicos
+
+## Página web
+
+`web/index.html` es la página pública: mapa (Leaflet con mapas de OpenStreetMap y CARTO), barrios con más casos, tendencia semanal y últimos casos, con modo claro y oscuro. Lee `data/casos.json`.
+
+El flujo **Página** ubica los barrios con Nominatim (máximo una consulta por segundo, con caché en `data/geocodigos.json`) y publica en GitHub Pages cada vez que cambian los datos en `main` y después de cada corrida del scraper. Para activarlo una sola vez: **Settings → Pages → Source: GitHub Actions**.
+
+Para verla en local:
+
+```bash
+python -m casos && mkdir -p _site/data && cp web/index.html _site/ && cp data/casos.json _site/data/
+python -m http.server -d _site 8000
+```
 
 ## Scraper
 
@@ -36,7 +77,7 @@ Quedan fuera El Heraldo y El Tiempo, porque prohíben el scraping sin permiso es
 - No guarda el cuerpo de los artículos, las fotos ni los comentarios. Tampoco se usa el contenido para entrenar modelos de IA (La Libertad y CTV lo prohíben con `ai-train=no`).
 - La clasificación de tipo de delito, municipio y barrio se hace por palabras clave y es provisional: el equipo la revisa antes de publicar un caso.
 
-## Casos
+## Agrupación en casos
 
 ```bash
 python -m casos --reporte reporte-casos.md
@@ -47,19 +88,6 @@ Lee `data/notas.json` y escribe `data/casos.json`: un caso por hecho, con las no
 Cada caso empieza como `pendiente`. Si el editor cambia el `estado` (`publicado`, `descartado`), el tipo o el barrio en `data/casos.json`, la siguiente corrida conserva esos cambios.
 
 El flujo **Scraper** corre solo todos los días a las 6:00 a. m. (hora de Barranquilla), guarda las notas nuevas y los casos, y deja el resumen de casos en la pestaña Actions.
-
-## Página
-
-`web/index.html` es la página pública: mapa (Leaflet con mapas de OpenStreetMap y CARTO), barrios con más casos, tendencia semanal y últimos casos, con modo claro y oscuro. Lee `data/casos.json`.
-
-El flujo **Página** ubica los barrios con Nominatim (máximo una consulta por segundo, con caché en `data/geocodigos.json`) y publica en GitHub Pages cada vez que cambian los datos en `main` y después de cada corrida del scraper. Para activarlo una sola vez: **Settings → Pages → Source: GitHub Actions**.
-
-Para verla en local:
-
-```bash
-python -m casos && mkdir -p _site/data && cp web/index.html _site/ && cp data/casos.json _site/data/
-python -m http.server -d _site 8000
-```
 
 ## Pruebas
 
