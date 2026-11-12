@@ -11,10 +11,8 @@
   var varHtml=function(v){return v===null?"—":'<span class="'+(v>0?"up":"dn")+'">'+(v>0?"+":"")+v+" %</span>"};
   var css=function(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim()};
 
-  // "Todos" deja fuera "otros" cuando hay años anteriores al archivo único de 2020,
-  // porque esos años solo traen los delitos de alto impacto y la serie saltaría.
-  function okCat(c){return st.cat==="todos"?(c!=="otros"||!HIST):c===st.cat||(st.cat==="hurto"&&c.indexOf("hurto")===0)}
-  var HIST=false,CATS=[];
+  function okCat(c){return st.cat==="todos"||c===st.cat||(st.cat==="hurto"&&c.indexOf("hurto")===0)}
+  var CATS=[];
   // ¿La Policía publicó datos de esta categoría (o de todas las de la selección) ese año?
   function cubreCat(c,a){var l=D.cobertura&&D.cobertura[c];return !l||l.indexOf(a)>=0}
   function cubre(a){return CATS.every(function(c){return !okCat(c)||cubreCat(c,a)})}
@@ -23,7 +21,11 @@
   // Serie mensual de la selección: {clave año*12+mes-1: n}
   function serie(){var s={};tabla("mensual").forEach(function(r){if(okMuni(r[2])&&okCat(r[3])){var k=r[0]*12+r[1]-1;s[k]=(s[k]||0)+r[4]}});
     var g=rango();for(var k=g[0];k<=g[1];k++)if(!cubre(Math.floor(k/12)))s[k]=null;return s}
-  function rango(){var ks=tabla("mensual").map(function(r){return r[0]*12+r[1]-1});return [Math.min.apply(null,ks),U.anio*12+U.mes-1]}
+  // Rango de toda la base, y rango de la selección: empieza en el primer año con datos de
+  // todos sus delitos (antes de 2020 faltan archivos de algunos, así que "Todos" empieza en 2020).
+  var R0;
+  function rangoGlobal(){if(R0==null){var ks=tabla("mensual").map(function(r){return r[0]*12+r[1]-1});R0=Math.min.apply(null,ks)}return [R0,U.anio*12+U.mes-1]}
+  function rango(){var g=rangoGlobal();for(var a=Math.floor(g[0]/12);a<U.anio;a++)if(cubre(a))break;return [Math.max(g[0],a*12),g[1]]}
   function nomSel(){return NOM[st.cat]}
   function etiqueta(k){return MES[k%12]+" "+Math.floor(k/12)}
 
@@ -57,7 +59,9 @@
     $("serie").innerHTML=o+"</svg>";
     var last=ma[n-1],prev=ma[n-13];
     var huecos=[];for(var a=Math.floor(r[0]/12);a<=U.anio;a++)if(!cubre(a))huecos.push(a);
-    $("serie-nota").innerHTML=(huecos.length?"La Policía no publicó el archivo de "+(huecos.length>1?"los años ":"")+huecos.join(", ")+" para esta selección; esos meses aparecen en gris y no entran en los promedios. ":"")+"La media móvil promedia los 12 meses anteriores a cada punto, así que no la afectan las temporadas. Hoy está en <b>"+(last!==null?nf(last):"—")+"</b> casos por mes"+(prev!=null?", "+varHtml(pct(last,prev))+" frente a hace un año.":".");
+    var g0=Math.floor(rangoGlobal()[0]/12),a0=Math.floor(r[0]/12),ini="";
+    if(a0>g0)ini=(st.cat==="todos"||st.cat==="hurto"?"Esta suma empieza en "+a0+" porque antes faltan los archivos de algunos delitos; elige un delito para ver su historia desde "+g0+". ":"La serie empieza en "+a0+", el primer año con archivo publicado. ");
+    $("serie-nota").innerHTML=ini+(huecos.length?"La Policía no publicó el archivo de "+(huecos.length>1?"los años "+huecos.slice(0,-1).join(", ")+" y "+huecos[huecos.length-1]:huecos[0])+" para este delito; esos meses aparecen en gris y no entran en los promedios. ":"")+"La media móvil promedia los 12 meses anteriores a cada punto, así que no la afectan las temporadas. Hoy está en <b>"+(last!==null?nf(last):"—")+"</b> casos por mes"+(prev!=null?", "+varHtml(pct(last,prev))+" frente a hace un año.":".");
   }
 
   function escala(vals){var v=vals.filter(function(x){return x>0}).sort(function(a,b){return a-b});
@@ -138,7 +142,7 @@
     $("area-anios").innerHTML=ys.map(function(a){return '<div class="srow"><span>'+a+(a===U.anio?"*":"")+'</span><div class="stack">'+ms.map(function(m){var v=c[a+"|"+m]||0,w=100*v/tot[a];return w>0?'<span style="width:'+w.toFixed(2)+"%;background:var("+(COL[m]||"--qna")+')" title="'+esc(m)+": "+nf(v)+" ("+Math.round(w)+' %)">'+(w>=9?Math.round(w)+" %":"")+"</span>":""}).join("")+"</div></div>"}).join("")+
       '<div class="keyrow">'+ms.map(function(m){return '<span><i style="background:var('+(COL[m]||"--qna")+')"></i>'+esc(m)+"</span>"}).join("")+"</div>"+(tot[U.anio]?'<p class="note">* '+U.anio+" va de enero a "+MESL[U.mes-1]+".</p>":"");
     // Parte de Barranquilla por delito: primer año completo frente a los últimos 12 meses
-    var r=rango(),fin=r[1],a0=Math.floor(r[0]/12),cb={},ct={},pb={},pt={};
+    var r=rangoGlobal(),fin=r[1],a0=Math.floor(r[0]/12),cb={},ct={},pb={},pt={};
     tabla("mensual").forEach(function(x){var k=x[0]*12+x[1]-1,cat=x[3],b=x[2]==="Barranquilla";
       if(k>fin-12){ct[cat]=(ct[cat]||0)+x[4];if(b)cb[cat]=(cb[cat]||0)+x[4]}
       if(x[0]===a0&&cubreCat(cat,a0)){pt[cat]=(pt[cat]||0)+x[4];if(b)pb[cat]=(pb[cat]||0)+x[4]}});
@@ -178,7 +182,7 @@
   }
 
   fetch("data/oficiales.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()}).then(function(d){
-    D=d;U=d.ultimo_mes;HIST=!!(d.inicio_registro&&Math.floor(rango()[0]/12)<d.inicio_registro);if(HIST)NOM.todos="Delitos de alto impacto";
+    D=d;U=d.ultimo_mes;
     var ms={},cs={};tabla("mensual").forEach(function(r){ms[r[2]]=1;cs[r[3]]=1});CATS=Object.keys(cs);
     $("f-muni").innerHTML='<option value="">Área metropolitana</option>'+Object.keys(ms).sort().map(function(m){return '<option value="'+esc(m)+'">'+esc(m)+"</option>"}).join("");
     var orden=["todos","homicidio","hurto"].concat(Object.keys(NOM).filter(function(k){return cs[k]&&k!=="homicidio"}));
@@ -189,8 +193,8 @@
     $("f-muni").onchange=function(e){st.muni=e.target.value;render()};
     $("descargar").onclick=csv;
     [].forEach.call(document.querySelectorAll("[data-per]"),function(b){b.onclick=function(){per=b.dataset.per;[].forEach.call(document.querySelectorAll("[data-per]"),function(x){x.setAttribute("aria-pressed",x===b)});gobiernos(serie())}});
-    $("desde").textContent="desde "+Math.floor(rango()[0]/12);
-    $("fuente").innerHTML="Fuente: Policía Nacional (SIEDCO). Datos de enero de "+Math.floor(rango()[0]/12)+" a "+MESL[U.mes-1]+" de "+U.anio+", actualizados el "+esc(d.actualizado)+"."+(HIST?" Hasta "+(d.inicio_registro-1)+" vienen de los archivos por delito; desde "+d.inicio_registro+", del archivo a nivel de registro, que además incluye otros delitos. Por eso «Delitos de alto impacto» suma solo los delitos que existen en ambos.":"")+" "+esc(d.nota.split(" dia_semana")[0])+' <a href="metodologia.html#policia">Cómo se procesan</a>.';
+    $("desde").textContent="desde "+Math.floor(rangoGlobal()[0]/12);
+    $("fuente").innerHTML="Fuente: Policía Nacional (SIEDCO). Datos de enero de "+Math.floor(rangoGlobal()[0]/12)+" a "+MESL[U.mes-1]+" de "+U.anio+", actualizados el "+esc(d.actualizado)+"."+(d.inicio_registro&&Math.floor(rangoGlobal()[0]/12)<d.inicio_registro?" Hasta "+(d.inicio_registro-1)+" vienen de los archivos por delito de alto impacto; desde "+d.inicio_registro+", del archivo con todos los delitos.":"")+" "+esc(d.nota.split(" dia_semana")[0])+' <a href="metodologia.html#policia">Cómo se procesan</a>.';
     OBAQ.alCambiarTema(render);
     render();
   }).catch(function(e){$("titulo-sel").textContent="No se pudieron cargar los datos ("+e.message+")."});

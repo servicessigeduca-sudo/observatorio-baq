@@ -37,8 +37,8 @@ ARCHIVOS = [
     (r"LESIONES EN ACCIDENTE", "lesiones_transito", "transito"),
     (r"HOMICIDIO", "homicidio", "homicidio"),
     (r"LESIONES PERSONALES", "lesiones", "lesiones"),
+    (r"AUTOMOTOR", "hurto_carros", "hurto_carros"),  # antes que MOTO: "automotores" contiene "moto"
     (r"MOTO", "hurto_motos", "hurto_motos"),
-    (r"AUTOMOTOR", "hurto_carros", "hurto_carros"),
     (r"COMERCIO", "hurto_comercio", "hurto_comercio"),
     (r"RESIDENCIA", "hurto_residencias", "hurto_residencias"),
     (r"ENTIDAD|FINANCIER", "hurto_entidades", "hurto_entidades"),

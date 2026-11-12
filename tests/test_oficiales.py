@@ -72,6 +72,7 @@ def test_clasificar_archivos_viejos():
     assert clasificar("lesiones_en_accidente_de_transito_2018_0.xlsx") == ("lesiones_transito", "transito", 2018)
     assert clasificar("lesiones_personales_2018_1.xlsx")[1] == "lesiones"
     assert clasificar("hurto_motocicletas_2018_2.xlsx")[1] == "hurto_motos"
+    assert clasificar("hurto_automotores_2018_2.xlsx")[1] == "hurto_carros"
     assert clasificar("hurto_a_personas_2010_0.xlsx")[1] == "hurto_personas"
     assert clasificar("abigeato_2019_3.xlsx") is None
     assert clasificar("hurto a personas.xlsx") is None  # sin año
