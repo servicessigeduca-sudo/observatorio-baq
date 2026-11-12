@@ -59,6 +59,9 @@ def categoria(delito: str) -> str:
 
 def agregar(df: pd.DataFrame) -> tuple[Counter, Counter]:
     df = df.copy()
+    # DELITO en 2026, DELITOS en 2025.
+    col_delito = next(c for c in df.columns if c.startswith("DELITO"))
+    df["DELITO"] = df[col_delito]
     df["CODIGO DANE"] = df["CODIGO DANE"].astype(str).str.strip().str.zfill(5)
     df = df[df["CODIGO DANE"].isin(MUNICIPIOS)].copy()
     df["CANTIDAD"] = pd.to_numeric(df["CANTIDAD"], errors="coerce").fillna(1).astype(int)

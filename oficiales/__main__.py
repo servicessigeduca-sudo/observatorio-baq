@@ -55,7 +55,6 @@ def main(argv: list[str] | None = None) -> int:
         r.raise_for_status()
         df = leer(io.BytesIO(r.content))
         print(f"{anio} columnas: {list(df.columns)}")
-        print(df.head(3).to_string(max_colwidth=50))
         c, ar = agregar(df)
         conteo.update(c)
         armas.update(ar)
