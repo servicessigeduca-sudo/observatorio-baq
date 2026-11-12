@@ -95,6 +95,14 @@ def elegir(versiones: list[tuple[str, dict[str, Counter]]]) -> list[tuple[str, d
     return elegidas
 
 
+def cobertura(resumen: Counter, anios: list[int]) -> list[list]:
+    """[año, categoría] cuando están todos los archivos de esa categoría (tránsito son dos)."""
+    claves: dict[str, set[str]] = defaultdict(set)
+    for _, clave, cat in ARCHIVOS:
+        claves[cat].add(clave)
+    return [[a, cat] for a in anios for cat, cs in sorted(claves.items()) if all((a, c) in resumen for c in cs)]
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="oficiales.historico")
     ap.add_argument("--anios", default="2010-2019")
@@ -126,14 +134,14 @@ def main(argv: list[str] | None = None) -> int:
             for k, c in t.items():
                 tablas[k].update(c)
             resumen[(anio, clave)] += sum(t["mensual"].values())
-    faltan = [(c, a) for a in anios for c in {x[1] for x in ARCHIVOS} if (c, a) not in resumen]
-    print("Sin archivo:", faltan or "ninguno")
+    faltan = [(clave, a) for a in anios for _, clave, _ in ARCHIVOS if (a, clave) not in resumen]
+    print("Sin archivo con datos del área:", faltan or "ninguno")
     for (anio, clave), n in sorted(resumen.items()):
         print(f"RESUMEN {anio} {clave} {n}")
     datos = a_json(tablas, sorted(usados), datetime.now(timezone.utc).strftime("%Y-%m-%d"))
     datos["fuente"] = "Policía Nacional: archivos por delito y año (estadística delictiva, histórico)"
     datos["url"] = PAGINA
-    datos["cobertura"] = sorted([a, c] for (a, c) in resumen)
+    datos["cobertura"] = cobertura(resumen, anios)
     args.salida.parent.mkdir(parents=True, exist_ok=True)
     args.salida.write_text(json.dumps(datos, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     print(f"Escrito {args.salida}")

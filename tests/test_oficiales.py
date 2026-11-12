@@ -79,8 +79,8 @@ def test_clasificar_archivos_viejos():
 
 def test_codigo_dane_y_fechas_en_varios_formatos():
     assert list(_dane(pd.Series(["08001", "8001", "08001000", "8001000.0", "8758000"]))) == ["08001", "08001", "08001", "08001", "08758"]
-    f = _fechas(pd.Series(["2015-03-04 00:00:00", "04/03/2015"]))
-    assert list(f.dt.month) == [3, 3] and list(f.dt.day) == [4, 4]
+    f = _fechas(pd.Series(["2015-03-04 00:00:00", "04/03/2015", "20150304"]))
+    assert list(f.dt.month) == [3, 3, 3] and list(f.dt.day) == [4, 4, 4]
 
 
 def test_agregar_archivo_de_un_solo_delito():
@@ -106,3 +106,11 @@ def test_elegir_versiones_no_cuenta_dos_veces():
     completa, parcial, otra_mitad = t(range(1, 13), 10), t(range(1, 7), 9), t(range(7, 13), 9)
     assert [u for u, _ in elegir([("a", parcial), ("b", completa)])] == ["b"]
     assert sorted(u for u, _ in elegir([("a", t(range(1, 7), 5)), ("b", otra_mitad)])) == ["a", "b"]
+
+
+def test_cobertura_pide_todos_los_archivos_de_la_categoria():
+    from oficiales.historico import cobertura
+    r = Counter({(2015, "homicidio"): 5, (2015, "homicidio_transito"): 2, (2016, "homicidio_transito"): 1, (2016, "lesiones_transito"): 3})
+    c = cobertura(r, [2015, 2016])
+    assert [2015, "homicidio"] in c and [2016, "transito"] in c
+    assert [2015, "transito"] not in c and [2016, "homicidio"] not in c

@@ -100,11 +100,12 @@ def _dane(serie: pd.Series) -> pd.Series:
 
 
 def _fechas(serie: pd.Series) -> pd.Series:
-    """Fechas año-mes-día ('2020-01-31 00:00:00', '2020/01/31') o día/mes/año ('31/01/2020')."""
+    """Fechas año-mes-día ('2020-01-31 00:00:00', '2020/01/31') día/mes/año ('31/01/2020') o compactas ('20200131')."""
     s = serie.astype(str).str.strip().str[:10]
     iso = pd.to_datetime(s.str.replace("/", "-"), format="%Y-%m-%d", errors="coerce")
     dmy = pd.to_datetime(s, format="%d/%m/%Y", errors="coerce")
-    return iso.fillna(dmy)
+    compacta = pd.to_datetime(s.str[:8], format="%Y%m%d", errors="coerce")  # 20150906
+    return iso.fillna(dmy).fillna(compacta)
 
 
 def categoria(delito: str) -> str:
