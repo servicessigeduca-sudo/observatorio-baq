@@ -7,33 +7,33 @@ jobs:
   explorar:
     runs-on: ubuntu-latest
     steps:
+      - run: pip install -q requests beautifulsoup4
       - run: |
           python3 - <<'PY'
-          import json, urllib.request, urllib.parse
-          def get(u):
-              return json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent":"ObservatorioBAQ"}), timeout=300))
-          ids = {}
-          for q in ["Policía Nacional", "homicidio", "homicidios", "extorsión", "secuestro", "delitos sexuales", "hurto", "delitos informáticos", "DIPON"]:
-              off = 0
-              while off < 400:
-                  r = get("https://www.datos.gov.co/api/catalog/v1?" + urllib.parse.urlencode({"q": q, "limit": 100, "offset": off, "only": "datasets", "domains": "www.datos.gov.co"}))
-                  for x in r["results"]:
-                      res = x["resource"]
-                      if "DIPON" in (res.get("attribution") or "") or "Policía Nacional" in (res.get("attribution") or ""):
-                          ids[res["id"]] = res
-                  if len(r["results"]) < 100: break
-                  off += 100
-          for i, res in sorted(ids.items(), key=lambda kv: kv[1]["name"]):
-              cols = res.get("columns_field_name") or []
-              print("==", i, res["name"], "| actualizado", res.get("data_updated_at"))
-              print("   cols:", cols)
-              f = next((c for c in cols if c.startswith("fecha")), None)
-              d = next((c for c in cols if "dane" in c), None)
-              if not (f and d): continue
-              try:
-                  print("   fila:", get(f"https://www.datos.gov.co/resource/{i}.json?$limit=1"))
-                  q = {"$select": f"date_extract_y({f}) as y, sum(cantidad) as n", "$where": f"starts_with({d}, '08001')", "$group": "y", "$order": "y"}
-                  print("   barranquilla por año:", [(x.get("y"), x.get("n")) for x in get(f"https://www.datos.gov.co/resource/{i}.json?" + urllib.parse.urlencode(q))])
-              except Exception as e:
-                  print("   err", e)
+          import requests, re
+          from bs4 import BeautifulSoup
+          from urllib.parse import unquote, urljoin
+          s = requests.Session(); s.headers["User-Agent"] = "ObservatorioBAQ"
+          for base in ["https://www.policia.gov.co/estadistica-delictiva", "https://www.policia.gov.co/estadistica-delictiva-old"]:
+              vistos = []
+              for p in range(0, 60):
+                  try:
+                      h = s.get(base + (f"?page={p}" if p else ""), timeout=60).text
+                  except Exception as e:
+                      print(base, p, "err", e); break
+                  nuevos = [unquote(a["href"]) for a in BeautifulSoup(h, "html.parser").find_all("a", href=True) if re.search(r"\.(xlsx?|zip|csv)$", a["href"], re.I)]
+                  nuevos = [n for n in nuevos if n not in vistos]
+                  if not nuevos: break
+                  vistos += nuevos
+              print("##", base, len(vistos))
+              for v in vistos: print("  ", v.rsplit("/",1)[-1])
+          PY
+      - run: |
+          python3 - <<'PY'
+          import requests
+          for i in ["d4fr-sbn2", "vuyt-mqpw", "72sg-cybi"]:
+              r = requests.get(f"https://www.datos.gov.co/resource/{i}.json", params={"$limit": 2}, timeout=120)
+              print(i, r.status_code, r.text[:600])
+              r = requests.get(f"https://www.datos.gov.co/resource/{i}.json", params={"$select": "min(fecha_hecho) as a, max(fecha_hecho) as b, count(*) as n"}, timeout=300)
+              print("  ", r.status_code, r.text[:400])
           PY
