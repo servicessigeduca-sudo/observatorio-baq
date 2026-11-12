@@ -74,3 +74,32 @@ def test_conserva_lo_que_reviso_el_editor():
     caso = next(c for c in segundo if "a" in c["notas"])
     assert caso["estado"] == "publicado" and caso["barrio"] == "San Roque"
     assert caso["caso_id"] == primero[0]["caso_id"]
+
+
+def test_geocodificar_usa_la_cache_sin_red(tmp_path):
+    import json
+    from casos.geocodificar import clave, geocodificar
+    cache = tmp_path / "geo.json"
+    cache.write_text(json.dumps({clave("Rebolo", "Barranquilla"): {"lat": 10.96, "lon": -74.78}}))
+    casos = [
+        {"barrio": "Rebolo", "municipio": "Barranquilla"},
+        {"barrio": "Inexistente", "municipio": "Soledad"},
+        {"barrio": None, "municipio": None},
+    ]
+    assert geocodificar(casos, cache, consultar_red=False) == 0
+    assert (casos[0]["lat"], casos[0]["confianza_ubicacion"]) == (10.96, "alta")
+    assert casos[1]["lat"] is None and casos[1]["confianza_ubicacion"] == "municipio"
+    assert casos[2]["confianza_ubicacion"] == "baja"
+
+
+def test_barrio_nombrado_sin_la_palabra_barrio():
+    notas = [
+        nota("a", "zona-cero", "Asesinan de seis disparos a conductor cuando reparaban su vehículo en San Isidro", "2026-11-12", ["homicidio"]),
+        nota("b", "emisora", "Asesinan a tiros a hombre en el barrio San Isidro", "2026-11-12", ["homicidio"], "San Isidro"),
+    ]
+    assert len(agrupar(notas)) == 1
+
+
+def test_excluye_notas_de_otros_departamentos():
+    notas = [nota("a", "ctv", "Ataque contra la Policía en Casanare: un uniformado muerto", "2026-11-12", ["homicidio"], municipio=None)]
+    assert agrupar(notas) == []

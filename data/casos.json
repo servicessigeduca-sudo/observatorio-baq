@@ -9,19 +9,30 @@
     "municipio": "Soledad",
     "barrio": null,
     "medios": [
-      "Diario La Libertad"
+      "Diario La Libertad",
+      "Emisora Atlántico"
     ],
     "notas": [
-      "052f4e625c8b9adc0011abd4d602ec2910f4864a"
+      "052f4e625c8b9adc0011abd4d602ec2910f4864a",
+      "41553cc7636f7bf4226f3bd61434b6f9616f62c5"
     ],
     "fuentes": [
       {
         "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/12/encuentran-en-un-parqueadero-de-soledad-la-camioneta-de-las-dos-mujeres-desaparecidas-en-barranquilla/"
+        "url": "https://diariolalibertad.com/2026/11/12/encuentran-en-un-parqueadero-de-soledad-la-camioneta-de-las-dos-mujeres-desaparecidas-en-barranquilla/",
+        "titular": "Encuentran en un parqueadero de Soledad la camioneta de las dos mujeres desaparecidas en Barranquilla - Diario La Libertad."
+      },
+      {
+        "medio": "Emisora Atlántico",
+        "url": "https://emisoraatlantico.com.co/judiciales/encuentran-en-un-parqueadero-de-soledad-la-camioneta-de-las-dos-mujeres-desaparecidas-en-barranquilla/",
+        "titular": "Encuentran en un parqueadero de Soledad la camioneta de las dos mujeres desaparecidas en Barranquilla"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "b294913472e7",
@@ -41,37 +52,15 @@
     "fuentes": [
       {
         "medio": "Emisora Atlántico",
-        "url": "https://emisoraatlantico.com.co/judiciales/asesinan-a-mujer-de-34-anos-en-soledad-investigan-posible-disputa-entre-los-costenos-y-los-pepes/"
+        "url": "https://emisoraatlantico.com.co/judiciales/asesinan-a-mujer-de-34-anos-en-soledad-investigan-posible-disputa-entre-los-costenos-y-los-pepes/",
+        "titular": "Asesinan a mujer de 34 años en Soledad: investigan posible disputa entre ‘Los Costeños’ y ‘Los Pepes’"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
-  },
-  {
-    "caso_id": "a7c60c4a4359",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-12",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Zona Cero"
-    ],
-    "notas": [
-      "f98acbef5449b71364d1c32ea8b47afaa6f4a255"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/asesinan-de-seis-disparos-conductor-de-indrive-cuando-reparaban-su-vehiculo-en-san"
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "6daa3e735adf"
-    ]
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "909f479c9157",
@@ -92,11 +81,15 @@
     "fuentes": [
       {
         "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/un-hombre-asesinado-y-otro-herido-tras-ataques-sicariales-en-san-roque-y-evaristo"
+        "url": "https://zonacero.com/judiciales/un-hombre-asesinado-y-otro-herido-tras-ataques-sicariales-en-san-roque-y-evaristo",
+        "titular": "Un hombre asesinado y otro herido, tras ataques sicariales en San Roque y Evaristo Sourdís"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "6daa3e735adf",
@@ -108,49 +101,30 @@
     "municipio": "Barranquilla",
     "barrio": "San Isidro",
     "medios": [
-      "Emisora Atlántico"
+      "Emisora Atlántico",
+      "Zona Cero"
     ],
     "notas": [
-      "1fcb36d1efb9958228763da246a0e06e50ea51ae"
+      "1fcb36d1efb9958228763da246a0e06e50ea51ae",
+      "f98acbef5449b71364d1c32ea8b47afaa6f4a255"
     ],
     "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/asesinan-de-seis-disparos-conductor-de-indrive-cuando-reparaban-su-vehiculo-en-san",
+        "titular": "Asesinan de seis disparos a conductor de InDrive cuando reparaban su vehículo en San Isidro"
+      },
       {
         "medio": "Emisora Atlántico",
-        "url": "https://emisoraatlantico.com.co/judiciales/asesinan-a-tiros-a-hombre-mientras-reparaba-su-vehiculo-en-el-barrio-san-isidro-de-barranquilla/"
+        "url": "https://emisoraatlantico.com.co/judiciales/asesinan-a-tiros-a-hombre-mientras-reparaba-su-vehiculo-en-el-barrio-san-isidro-de-barranquilla/",
+        "titular": "Asesinan a tiros a hombre mientras reparaba su vehículo en el barrio San Isidro de Barranquilla"
       }
     ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "a7c60c4a4359"
-    ]
-  },
-  {
-    "caso_id": "66e6ea8549a1",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio",
-      "lesiones"
-    ],
-    "fecha": "2026-11-12",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "5a14a0e53693a07a62d5edb28d36b8a2d445bed6"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/12/ataque-armado-contra-policias-en-casanare-deja-un-uniformado-muerto-y-otro-gravemente-herido/"
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "740ebefd74dd",
-      "3acb3f049fee"
-    ]
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "5a4a9df17b23",
@@ -171,63 +145,15 @@
     "fuentes": [
       {
         "medio": "Emisora Atlántico",
-        "url": "https://emisoraatlantico.com.co/judiciales/muere-hombre-de-29-anos-tras-ataque-a-bala-en-el-barrio-san-roque-de-barranquilla/"
+        "url": "https://emisoraatlantico.com.co/judiciales/muere-hombre-de-29-anos-tras-ataque-a-bala-en-el-barrio-san-roque-de-barranquilla/",
+        "titular": "Muere hombre de 29 años tras ataque a bala en el barrio San Roque de Barranquilla"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
-  },
-  {
-    "caso_id": "52482845cf18",
-    "tipo": "secuestro",
-    "tipos": [
-      "secuestro"
-    ],
-    "fecha": "2026-11-12",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Zona Cero"
-    ],
-    "notas": [
-      "edb7536cf66a918019de496c62ce62ae89b71e0a"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/es-posible-que-estos-delincuentes-hayan-logrado-llevarla-venezuela-alcalde-de-uribia"
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": []
-  },
-  {
-    "caso_id": "3acb3f049fee",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio",
-      "lesiones"
-    ],
-    "fecha": "2026-11-12",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Zona Cero"
-    ],
-    "notas": [
-      "4e3aba66961f35c7c1afb89244da3093bb24a29b"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/ataque-contra-la-policia-en-casanare-un-uniformado-muerto-y-otro-herido"
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "f4e11f683b58",
-      "66e6ea8549a1"
-    ]
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "25663f2cd7d1",
@@ -247,11 +173,15 @@
     "fuentes": [
       {
         "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/12/la-pocha-la-mujer-asesinada-a-tiros-cuando-salia-de-una-tienda-en-soledad/"
+        "url": "https://diariolalibertad.com/2026/11/12/la-pocha-la-mujer-asesinada-a-tiros-cuando-salia-de-una-tienda-en-soledad/",
+        "titular": "‘La Pocha’, la mujer asesinada a tiros cuando salía de una tienda en Soledad - Diario La Libertad."
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "1aef1c94e888",
@@ -271,35 +201,15 @@
     "fuentes": [
       {
         "medio": "Impacto News",
-        "url": "https://impactonews.co/atacan-a-estefany-barraza-frente-a-su-hija-de-3-anos-en-soledad-es-la-mujer-75-asesinada-en-2026-en-atlantico/"
+        "url": "https://impactonews.co/atacan-a-estefany-barraza-frente-a-su-hija-de-3-anos-en-soledad-es-la-mujer-75-asesinada-en-2026-en-atlantico/",
+        "titular": "Atacan a Estefany Barraza frente a su hija de 3 años en Soledad: es la mujer 75 asesinada en 2026 en Atlántico"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
-  },
-  {
-    "caso_id": "0ee8a0f72c76",
-    "tipo": "desaparicion",
-    "tipos": [
-      "desaparicion"
-    ],
-    "fecha": "2026-11-12",
-    "municipio": "Soledad",
-    "barrio": null,
-    "medios": [
-      "Emisora Atlántico"
-    ],
-    "notas": [
-      "41553cc7636f7bf4226f3bd61434b6f9616f62c5"
-    ],
-    "fuentes": [
-      {
-        "medio": "Emisora Atlántico",
-        "url": "https://emisoraatlantico.com.co/judiciales/encuentran-en-un-parqueadero-de-soledad-la-camioneta-de-las-dos-mujeres-desaparecidas-en-barranquilla/"
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "faee548d6c67",
@@ -319,11 +229,15 @@
     "fuentes": [
       {
         "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/11/alerta-en-alrededores-de-universidades-en-barranquilla-estudiante-denuncio-posible-intento-de-robo-con-tapabocas/"
+        "url": "https://diariolalibertad.com/2026/11/11/alerta-en-alrededores-de-universidades-en-barranquilla-estudiante-denuncio-posible-intento-de-robo-con-tapabocas/",
+        "titular": "Alerta en alrededores de universidades en Barranquilla: estudiante denunció posible intento de robo con tapabocas - Diario La Libertad."
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "f63172fbff93",
@@ -343,37 +257,15 @@
     "fuentes": [
       {
         "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/indagacion-previa-marcos-calarca-y-sandra-ramirez-por-homicidio-de-miguel-uribe-turbay"
+        "url": "https://zonacero.com/judiciales/indagacion-previa-marcos-calarca-y-sandra-ramirez-por-homicidio-de-miguel-uribe-turbay",
+        "titular": "A indagación previa ‘Marcos Calarcá’ y Sandra Ramírez por homicidio de Miguel Uribe Turbay"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
-  },
-  {
-    "caso_id": "f4e11f683b58",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-11",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "2c18c83334e04baf8f8fa96617bb974e3caf40f6"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/11/asesinan-a-patrullero-de-la-policia-en-ataque-armado-registrado-en-hato-corozal-casanare/"
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "3acb3f049fee"
-    ]
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "a5a4af263ec2",
@@ -382,29 +274,39 @@
       "homicidio"
     ],
     "fecha": "2026-11-11",
-    "municipio": null,
+    "municipio": "Barranquilla",
     "barrio": "El Santuario",
     "medios": [
-      "Diario La Libertad"
+      "Diario La Libertad",
+      "Zona Cero"
     ],
     "notas": [
       "9efa0ce36e18970682ef74a4bc07bad009b8ef7e",
-      "e72af1626f4f4412da2d7d12afa370dc199e854b"
+      "e72af1626f4f4412da2d7d12afa370dc199e854b",
+      "f1acdbc033ed4525ad335507dd10a57e0af8b1b1"
     ],
     "fuentes": [
       {
         "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/11/tragedia-en-el-santuario-arturo-el-vigilante-informal-del-barrio-murio-en-confuso-episodio/"
+        "url": "https://diariolalibertad.com/2026/11/11/tragedia-en-el-santuario-arturo-el-vigilante-informal-del-barrio-murio-en-confuso-episodio/",
+        "titular": "Tragedia en El Santuario: Arturo, el vigilante informal del barrio, murió en confuso episodio - Diario La Libertad."
+      },
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/sicarios-en-moto-asesinan-un-vigilante-informal-en-el-barrio-el-santuario",
+        "titular": "Sicarios en moto asesinan a un vigilante informal en el barrio El Santuario"
       },
       {
         "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/11/identifican-a-vigilante-informal-asesinado-por-sicarios-en-el-barrio-el-santuario-tenia-70-anos/"
+        "url": "https://diariolalibertad.com/2026/11/11/identifican-a-vigilante-informal-asesinado-por-sicarios-en-el-barrio-el-santuario-tenia-70-anos/",
+        "titular": "Identifican a vigilante informal asesinado por sicarios en el barrio El Santuario: tenía 70 años - Diario La Libertad."
       }
     ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "2ec486891e30"
-    ]
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "9cce48279bf4",
@@ -425,11 +327,15 @@
     "fuentes": [
       {
         "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/11/fallecio-la-mujer-de-43-anos-blanco-de-atentado-a-bala-en-el-barrio-el-valle/"
+        "url": "https://diariolalibertad.com/2026/11/11/fallecio-la-mujer-de-43-anos-blanco-de-atentado-a-bala-en-el-barrio-el-valle/",
+        "titular": "Falleció la mujer de 43 años blanco de atentado a bala en el barrio El Valle - Diario La Libertad."
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "7ff29774678a",
@@ -449,35 +355,15 @@
     "fuentes": [
       {
         "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/asesinan-bala-una-mujer-cuando-salia-de-una-tienda-cerca-la-torre-del-pescado"
+        "url": "https://zonacero.com/judiciales/asesinan-bala-una-mujer-cuando-salia-de-una-tienda-cerca-la-torre-del-pescado",
+        "titular": "Asesinan a bala a una mujer cuando salía de una tienda cerca a la ‘Torre del pescado’"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
-  },
-  {
-    "caso_id": "79efcf88e815",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-11",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Zona Cero"
-    ],
-    "notas": [
-      "3e7eb35b0fb6e39243e098045e0752a4e9d2a9bc"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/abatido-alias-negro-perea-y-otros-siete-integrantes-del-clan-del-golfo-en-antioquia"
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "740ebefd74dd",
@@ -497,13 +383,15 @@
     "fuentes": [
       {
         "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/11/uniformado-de-la-policia-resulto-herido-tras-choque-entre-patrulla-y-camioneta-en-barranquilla/"
+        "url": "https://diariolalibertad.com/2026/11/11/uniformado-de-la-policia-resulto-herido-tras-choque-entre-patrulla-y-camioneta-en-barranquilla/",
+        "titular": "Uniformado de la Policía resultó herido tras choque entre patrulla y camioneta en Barranquilla - Diario La Libertad."
       }
     ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "66e6ea8549a1"
-    ]
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "62efa4f3da11",
@@ -523,37 +411,15 @@
     "fuentes": [
       {
         "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/30-millones-de-recompensa-por-informacion-sobre-sonia-y-kelly-desaparecidas-en-el-norte"
+        "url": "https://zonacero.com/judiciales/30-millones-de-recompensa-por-informacion-sobre-sonia-y-kelly-desaparecidas-en-el-norte",
+        "titular": "$30 millones de recompensa por información sobre Sonia y Kelly, desaparecidas en el norte de Barranquilla"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
-  },
-  {
-    "caso_id": "2ec486891e30",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-11",
-    "municipio": "Barranquilla",
-    "barrio": "El Santuario",
-    "medios": [
-      "Zona Cero"
-    ],
-    "notas": [
-      "f1acdbc033ed4525ad335507dd10a57e0af8b1b1"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/sicarios-en-moto-asesinan-un-vigilante-informal-en-el-barrio-el-santuario"
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "a5a4af263ec2"
-    ]
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "efdfb2475b2b",
@@ -574,63 +440,15 @@
     "fuentes": [
       {
         "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/10/mujer-de-36-anos-murio-en-presunto-caso-de-feminicidio-su-pareja-estaria-involucrada/"
+        "url": "https://diariolalibertad.com/2026/11/10/mujer-de-36-anos-murio-en-presunto-caso-de-feminicidio-su-pareja-estaria-involucrada/",
+        "titular": "Mujer de 36 años murió en presunto caso de feminicidio; su pareja estaría involucrada - Diario La Libertad."
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
-  },
-  {
-    "caso_id": "cd38b6ff76ce",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-10",
-    "municipio": null,
-    "barrio": "Las Flores",
-    "medios": [
-      "Zona Cero"
-    ],
-    "notas": [
-      "eefd5e47dd2d6cdb4b2fc97b3df6c6fb564187c6"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/un-hombre-fue-asesinado-bala-en-el-barrio-las-flores"
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "5955f2f57ec4"
-    ]
-  },
-  {
-    "caso_id": "9ce6248ab1cd",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-10",
-    "municipio": null,
-    "barrio": "El Limón",
-    "medios": [
-      "Zona Cero"
-    ],
-    "notas": [
-      "3f3a89195995f215ec5b249202afae7e73e7e077"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/shirley-patricia-convivio-6-anos-con-su-homicida-el-hombre-se-nego-terminar-la-relacion"
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "d651332d4b34"
-    ]
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "5b1925568e85",
@@ -650,11 +468,15 @@
     "fuentes": [
       {
         "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/un-vigilante-informal-fue-asesinado-en-el-barrio-ciudad-paraiso-en-soledad"
+        "url": "https://zonacero.com/judiciales/un-vigilante-informal-fue-asesinado-en-el-barrio-ciudad-paraiso-en-soledad",
+        "titular": "Un vigilante informal fue asesinado en el barrio Ciudad Paraíso, en Soledad"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "5955f2f57ec4",
@@ -666,21 +488,30 @@
     "municipio": "Barranquilla",
     "barrio": "Las Flores",
     "medios": [
-      "Diario La Libertad"
+      "Diario La Libertad",
+      "Zona Cero"
     ],
     "notas": [
-      "d1aad6f93ab833ea892318d281ccd4764a0bdf96"
+      "d1aad6f93ab833ea892318d281ccd4764a0bdf96",
+      "eefd5e47dd2d6cdb4b2fc97b3df6c6fb564187c6"
     ],
     "fuentes": [
       {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/un-hombre-fue-asesinado-bala-en-el-barrio-las-flores",
+        "titular": "Un hombre fue asesinado a bala en el barrio Las Flores"
+      },
+      {
         "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/10/violencia-criminal-en-el-suroccidente-de-barranquilla-sicariato-en-las-flores-asesinan-a-alias-moncho-presunto-integrante-de-los-costenos/"
+        "url": "https://diariolalibertad.com/2026/11/10/violencia-criminal-en-el-suroccidente-de-barranquilla-sicariato-en-las-flores-asesinan-a-alias-moncho-presunto-integrante-de-los-costenos/",
+        "titular": "Violencia criminal en el suroccidente de Barranquilla: Sicariato en Las Flores: asesinan a alias ‘Moncho’, presunto integrante de ‘Los Costeños’ - Diario La Libertad."
       }
     ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "cd38b6ff76ce"
-    ]
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "409a724c8c71",
@@ -700,11 +531,15 @@
     "fuentes": [
       {
         "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/mataron-bala-hombre-cuando-caminaba-por-una-calle-de-la-esmeralda"
+        "url": "https://zonacero.com/judiciales/mataron-bala-hombre-cuando-caminaba-por-una-calle-de-la-esmeralda",
+        "titular": "Mataron a bala a hombre cuando caminaba por una calle de La Esmeralda"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "18d458bdafb4",
@@ -724,14 +559,18 @@
     "fuentes": [
       {
         "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/matan-joven-en-cancha-de-villa-maria-y-la-policia-abatio-uno-de-los-presuntos-sicarios"
+        "url": "https://zonacero.com/judiciales/matan-joven-en-cancha-de-villa-maria-y-la-policia-abatio-uno-de-los-presuntos-sicarios",
+        "titular": "Matan a joven en cancha de Villa María y la Policía abatió a uno de los presuntos sicarios"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
-    "caso_id": "d651332d4b34",
+    "caso_id": "9ce6248ab1cd",
     "tipo": "homicidio",
     "tipos": [
       "homicidio",
@@ -744,18 +583,26 @@
       "Zona Cero"
     ],
     "notas": [
+      "3f3a89195995f215ec5b249202afae7e73e7e077",
       "65ceaff8917166003e8c687141ca93af0c93f427"
     ],
     "fuentes": [
       {
         "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/una-mujer-fue-asesinada-en-el-barrio-el-limon-y-otra-resulto-herida-bala-en-rebolo"
+        "url": "https://zonacero.com/judiciales/una-mujer-fue-asesinada-en-el-barrio-el-limon-y-otra-resulto-herida-bala-en-rebolo",
+        "titular": "Una mujer fue asesinada en el barrio El Limón y otra resultó herida a bala en Rebolo"
+      },
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/shirley-patricia-convivio-6-anos-con-su-homicida-el-hombre-se-nego-terminar-la-relacion",
+        "titular": "Shirley Patricia convivió 6 años con su homicida: el hombre se negó a terminar la relación y la mató"
       }
     ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "9ce6248ab1cd"
-    ]
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "146f5f5aed29",
@@ -775,11 +622,15 @@
     "fuentes": [
       {
         "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/fiscalia-seguira-investigando-al-expresidente-uribe-por-dos-masacres-y-un-homicidio"
+        "url": "https://zonacero.com/judiciales/fiscalia-seguira-investigando-al-expresidente-uribe-por-dos-masacres-y-un-homicidio",
+        "titular": "Fiscalía seguirá investigando al expresidente Uribe por dos masacres y un homicidio"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "8997b02b1ed1",
@@ -799,11 +650,15 @@
     "fuentes": [
       {
         "medio": "CTV Barranquilla",
-        "url": "https://ctvbarranquilla.com/article/alias-castor-se-ala-a-presuntos-responsables-del-asesinato-de-mayra-alejandra-vera-duarte"
+        "url": "https://ctvbarranquilla.com/article/alias-castor-se-ala-a-presuntos-responsables-del-asesinato-de-mayra-alejandra-vera-duarte",
+        "titular": "Alias âCastorâ seÃ±ala a presuntos responsables del asesinato de Mayra Alejandra Vera Duarte"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "67a55e9d3f8a",
@@ -823,11 +678,15 @@
     "fuentes": [
       {
         "medio": "CTV Barranquilla",
-        "url": "https://ctvbarranquilla.com/article/asesinan-a-cobradiario-con-11-anotaciones-judiciales-en-la-terraza-de-su-vivienda-en-soledad"
+        "url": "https://ctvbarranquilla.com/article/asesinan-a-cobradiario-con-11-anotaciones-judiciales-en-la-terraza-de-su-vivienda-en-soledad",
+        "titular": "Asesinan a cobradiario con 11 anotaciones judiciales en la terraza de su vivienda en Soledad"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "6434c4880229",
@@ -847,11 +706,15 @@
     "fuentes": [
       {
         "medio": "CTV Barranquilla",
-        "url": "https://ctvbarranquilla.com/article/un-hombre-fue-asesinado-a-bala-en-el-barrio-los-almendros-en-soledad"
+        "url": "https://ctvbarranquilla.com/article/un-hombre-fue-asesinado-a-bala-en-el-barrio-los-almendros-en-soledad",
+        "titular": "Un hombre fue asesinado a bala en el barrio Los Almendros, en Soledad"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "219b4bafb2f5",
@@ -871,11 +734,15 @@
     "fuentes": [
       {
         "medio": "CTV Barranquilla",
-        "url": "https://ctvbarranquilla.com/article/joven-de-20-a-os-fue-asesinado-a-bala-la-noche-del-domingo-en-el-barrio-el-bosque-en-el-suroccidente-de-barranquilla-en-un-hecho-que-ocurri-frente-a-su-madre"
+        "url": "https://ctvbarranquilla.com/article/joven-de-20-a-os-fue-asesinado-a-bala-la-noche-del-domingo-en-el-barrio-el-bosque-en-el-suroccidente-de-barranquilla-en-un-hecho-que-ocurri-frente-a-su-madre",
+        "titular": "joven de 20 aÃ±os fue asesinado a bala la noche del domingo en el barrio El Bosque, en el suroccidente de Barranquilla, en un hecho que ocurriÃ³ frente a su madre"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "21d17f3e0218",
@@ -896,11 +763,15 @@
     "fuentes": [
       {
         "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/motociclista-que-iba-sacar-al-menor-sicario-que-mato-miguel-uribe-revela-detalles-del"
+        "url": "https://zonacero.com/judiciales/motociclista-que-iba-sacar-al-menor-sicario-que-mato-miguel-uribe-revela-detalles-del",
+        "titular": "Motociclista que iba a sacar al menor sicario que mató a Miguel Uribe revela detalles del atentado"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "e1c327e0c390",
@@ -921,11 +792,15 @@
     "fuentes": [
       {
         "medio": "CTV Barranquilla",
-        "url": "https://ctvbarranquilla.com/article/ataque-sicarial-en-las-estrellas-deja-un-muerto-y-un-herido-y-enciende-alarmas-de-seguridad"
+        "url": "https://ctvbarranquilla.com/article/ataque-sicarial-en-las-estrellas-deja-un-muerto-y-un-herido-y-enciende-alarmas-de-seguridad",
+        "titular": "Ataque sicarial en Las Estrellas deja un muerto y un herido y enciende alarmas de seguridad"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "a52c00b1d90e",
@@ -946,11 +821,15 @@
     "fuentes": [
       {
         "medio": "CTV Barranquilla",
-        "url": "https://ctvbarranquilla.com/article/joven-futbolista-fue-asesinado-en-atentado-sicarial-en-los-cedros-soledad"
+        "url": "https://ctvbarranquilla.com/article/joven-futbolista-fue-asesinado-en-atentado-sicarial-en-los-cedros-soledad",
+        "titular": "Joven futbolista fue asesinado en atentado sicarial en Los Cedros, Soledad"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "8fb6de1dadd6",
@@ -970,11 +849,15 @@
     "fuentes": [
       {
         "medio": "CTV Barranquilla",
-        "url": "https://ctvbarranquilla.com/article/atl-ntico-en-alerta-26-mujeres-asesinadas-y-4-masacres-encienden-alarmas-en-2026"
+        "url": "https://ctvbarranquilla.com/article/atl-ntico-en-alerta-26-mujeres-asesinadas-y-4-masacres-encienden-alarmas-en-2026",
+        "titular": "AtlÃ¡ntico en alerta: 26 mujeres asesinadas y 4 masacres encienden alarmas en 2026"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "10ce265fbfe8",
@@ -994,11 +877,15 @@
     "fuentes": [
       {
         "medio": "CTV Barranquilla",
-        "url": "https://ctvbarranquilla.com/article/asesinan-a-psic-loga-en-barrancabermeja-hab-a-denunciado-amenazas-y-tem-a-por-su-vida"
+        "url": "https://ctvbarranquilla.com/article/asesinan-a-psic-loga-en-barrancabermeja-hab-a-denunciado-amenazas-y-tem-a-por-su-vida",
+        "titular": "Asesinan a psicÃ³loga en Barrancabermeja: habÃ­a denunciado amenazas y temÃ­a por su vida"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "708c9fee0716",
@@ -1018,11 +905,15 @@
     "fuentes": [
       {
         "medio": "CTV Barranquilla",
-        "url": "https://ctvbarranquilla.com/article/sicario-persigui-a-dos-hombres-y-los-asesin-a-bala-en-evaristo-sourdis"
+        "url": "https://ctvbarranquilla.com/article/sicario-persigui-a-dos-hombres-y-los-asesin-a-bala-en-evaristo-sourdis",
+        "titular": "Sicario persiguiÃ³ a dos hombres y los asesinÃ³ a bala en Evaristo Sourdis"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "ee9b89628226",
@@ -1042,11 +933,17 @@
     "fuentes": [
       {
         "medio": "CTV Barranquilla",
-        "url": "https://ctvbarranquilla.com/article/el-asesino-no-pagar-c-rcel-desgarrador-clamor-de-madre-de-hermanas-asesinadas-en-malambo"
+        "url": "https://ctvbarranquilla.com/article/el-asesino-no-pagar-c-rcel-desgarrador-clamor-de-madre-de-hermanas-asesinadas-en-malambo",
+        "titular": "âEl asesino no pagarÃ¡ cÃ¡rcelâ: desgarrador clamor de madre de hermanas asesinadas en Malambo"
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": []
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "5dff58fcb6a5"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "5dff58fcb6a5",
@@ -1066,11 +963,17 @@
     "fuentes": [
       {
         "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/mama-de-hermanas-muertas-en-malambo-dice-que-el-asesino-no-pagara-carcel-por-ser-menor"
+        "url": "https://zonacero.com/judiciales/mama-de-hermanas-muertas-en-malambo-dice-que-el-asesino-no-pagara-carcel-por-ser-menor",
+        "titular": "Mamá de hermanas muertas en Malambo dice que el asesino no pagará cárcel por ser menor"
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": []
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "ee9b89628226"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "9d45a1bd4d38",
@@ -1090,10 +993,14 @@
     "fuentes": [
       {
         "medio": "CTV Barranquilla",
-        "url": "https://ctvbarranquilla.com/article/golpe-al-crimen-en-barranquilla-capturan-a-el-mello-se-alado-de-m-ltiples-homicidios"
+        "url": "https://ctvbarranquilla.com/article/golpe-al-crimen-en-barranquilla-capturan-a-el-mello-se-alado-de-m-ltiples-homicidios",
+        "titular": "Golpe al crimen en Barranquilla: capturan a âel melloâ, seÃ±alado de mÃºltiples homicidios"
       }
     ],
     "estado": "pendiente",
-    "posible_duplicado_de": []
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   }
 ]

@@ -42,7 +42,7 @@ VACIAS = set(
     han hasta la las le les lo los mas muy no o para pero por que se sin sobre su sus tras un una uno unos
     y ya hoy ayer anoche noche manana tarde madrugada barrio sector barranquilla soledad malambo galapa
     puerto colombia atlantico ano anos hombre mujer joven caso este esta tras habria seria luego cuando
-    donde mientras dos tres""".split()
+    donde mientras dos tres diario libertad zona cero emisora impacto news ctv""".split()
 )
 
 
@@ -51,24 +51,47 @@ def tipo_principal(nota: dict) -> str | None:
     return tipos[0] if tipos else None
 
 
+# Departamentos y ciudades que delatan una nota de fuera del área metropolitana
+# cuando el scraper no identificó el municipio.
+FUERA_DEL_AREA = re.compile(
+    r"\b(casanare|antioquia|medellin|bogota|cundinamarca|cauca|popayan|cali|valle del cauca|narino|choco|"
+    r"santander|bucaramanga|cucuta|norte de santander|arauca|meta|villavicencio|huila|tolima|caldas|risaralda|"
+    r"quindio|boyaca|bolivar|cartagena|magdalena|santa marta|cesar|valledupar|la guajira|riohacha|sucre|"
+    r"sincelejo|cordoba|monteria|putumayo|caqueta|amazonas|guaviare|vichada|venezuela|ecuador)\b"
+)
+
+
 def es_candidata(nota: dict) -> bool:
     """Una nota entra a los casos si habla de un delito dentro del área."""
     if nota.get("estado") == "descartado":
         return False
     if nota.get("municipio") == "fuera_del_area":
         return False
+    if not nota.get("municipio") and FUERA_DEL_AREA.search(normalizar(f"{nota.get('titular', '')} {nota.get('resumen', '')}")):
+        return False
     return tipo_principal(nota) is not None
 
 
-def palabras(nota: dict) -> set[str]:
-    texto = normalizar(f"{nota.get('titular', '')} {nota.get('resumen', '')}")
-    return {w for w in re.findall(r"[a-z0-9]+", texto) if len(w) > 2 and w not in VACIAS}
+def _palabras(texto: str) -> set[str]:
+    return {w for w in re.findall(r"[a-z0-9]+", normalizar(texto)) if len(w) > 2 and w not in VACIAS}
 
 
-def similitud(a: set[str], b: set[str]) -> float:
+def palabras(nota: dict) -> tuple[set[str], set[str]]:
+    """Palabras del titular solo, y del titular más el resumen."""
+    titular = _palabras(nota.get("titular", ""))
+    return titular, titular | _palabras(nota.get("resumen", ""))
+
+
+def _jaccard(a: set[str], b: set[str]) -> float:
     if not a or not b:
         return 0.0
     return len(a & b) / len(a | b)
+
+
+def similitud(a: tuple[set[str], set[str]], b: tuple[set[str], set[str]]) -> float:
+    """La mayor entre la similitud de titulares y la de titular más resumen:
+    dos medios suelen copiar el titular aunque el resumen sea distinto."""
+    return max(_jaccard(a[0], b[0]), _jaccard(a[1], b[1]))
 
 
 def _fecha(nota: dict) -> date | None:
@@ -80,14 +103,23 @@ def _compatibles(t1: str, t2: str) -> bool:
     return t1 == t2 or any(t1 in g and t2 in g for g in COMPATIBLES)
 
 
-def _mismo_barrio(b1: str | None, b2: str | None) -> bool | None:
-    """True si coinciden, False si ambos existen y difieren, None si falta alguno."""
-    if not b1 or not b2:
-        return None
-    return normalizar(b1) == normalizar(b2)
+def _mismo_barrio(a: dict, b: dict) -> bool | None:
+    """True si coinciden, False si ambos existen y difieren, None si no se sabe.
+
+    Si una nota no tiene barrio pero su texto nombra el barrio de la otra
+    (\"en San Isidro\" sin la palabra \"barrio\"), cuenta como el mismo barrio."""
+    b1, b2 = a.get("barrio"), b.get("barrio")
+    if b1 and b2:
+        return normalizar(b1) == normalizar(b2)
+    conocido, otra = (b1, b) if b1 else (b2, a)
+    if conocido:
+        texto = normalizar(f"{otra.get('titular', '')} {otra.get('resumen', '')}")
+        if re.search(rf"\b{re.escape(normalizar(conocido))}\b", texto):
+            return True
+    return None
 
 
-def comparar(a: dict, b: dict, pa: set[str], pb: set[str]) -> str:
+def comparar(a: dict, b: dict, pa: tuple[set[str], set[str]], pb: tuple[set[str], set[str]]) -> str:
     """Devuelve 'unir', 'duda' o 'distinto'."""
     ta, tb = tipo_principal(a), tipo_principal(b)
     if not ta or not tb or not _compatibles(ta, tb):
@@ -97,12 +129,14 @@ def comparar(a: dict, b: dict, pa: set[str], pb: set[str]) -> str:
         return "distinto"
     if (a.get("municipio") and b.get("municipio") and a["municipio"] != b["municipio"]):
         return "distinto"
-    barrio = _mismo_barrio(a.get("barrio"), b.get("barrio"))
+    barrio = _mismo_barrio(a, b)
     sim = similitud(pa, pb)
     if barrio is False:
         return "distinto"
     if barrio is True:
-        return "unir" if sim >= UMBRAL_DUDA else "duda"
+        # Mismo barrio, tipo compatible y a 2 días o menos: casi siempre es el
+        # mismo hecho contado por otro medio o en una nota de seguimiento.
+        return "unir"
     if sim >= UMBRAL_UNIR:
         return "unir"
     if sim >= UMBRAL_DUDA:
@@ -188,7 +222,7 @@ def agrupar(notas: list[dict], previos: list[dict] | None = None) -> list[dict]:
             "barrio": max(set(barrios), key=barrios.count) if barrios else None,
             "medios": sorted({n["medio"] for n in ns}),
             "notas": sorted(ids),
-            "fuentes": [{"medio": n["medio"], "url": n["url"]} for n in ns],
+            "fuentes": [{"medio": n["medio"], "url": n["url"], "titular": n.get("titular", "")} for n in ns],
             "estado": "pendiente",
             "posible_duplicado_de": [],
         }

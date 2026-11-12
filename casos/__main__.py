@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 
 from .agrupar import agrupar
+from .geocodificar import geocodificar
 from .reporte import generar
 
 
@@ -15,11 +16,14 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--notas", default="data/notas.json", type=Path)
     ap.add_argument("--salida", default="data/casos.json", type=Path)
     ap.add_argument("--reporte", type=Path, help="escribe el resumen en Markdown en este archivo")
+    ap.add_argument("--geocodificar", action="store_true", help="ubica los barrios con Nominatim (usa data/geocodigos.json)")
+    ap.add_argument("--geocodigos", default="data/geocodigos.json", type=Path)
     args = ap.parse_args(argv)
 
     notas = json.loads(args.notas.read_text(encoding="utf-8")) if args.notas.exists() else []
     previos = json.loads(args.salida.read_text(encoding="utf-8")) if args.salida.exists() else []
     casos = agrupar(notas, previos)
+    geocodificar(casos, args.geocodigos, consultar_red=args.geocodificar)
     args.salida.parent.mkdir(parents=True, exist_ok=True)
     args.salida.write_text(json.dumps(casos, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     texto = generar(notas, casos)
