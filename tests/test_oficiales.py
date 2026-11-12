@@ -145,3 +145,11 @@ def test_siedco_manual_llena_solo_lo_que_falta(tmp_path):
     assert tablas["mensual"] == Counter({(2005, 1, "Barranquilla", "homicidio"): 2, (2005, 2, "Soledad", "homicidio"): 1})
     assert tablas["dias"][(2005, 1, "Barranquilla", "homicidio", 6)] == 2
     assert (2005, "homicidio") in cob
+
+
+def test_nombres_de_siedco():
+    from oficiales.procesar import categoria
+    assert categoria("HURTO A AUTOMOTORES") == "hurto_carros"
+    assert categoria("HURTO A MOTOCICLETAS") == "hurto_motos"
+    assert categoria("DELITOS SEXUALES") == "violencia_sexual"
+    assert categoria("HURTO A ENTIDADES FINANCIERAS") == "hurto_entidades"

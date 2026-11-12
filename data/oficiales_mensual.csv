@@ -1,399 +1,2110 @@
 anio,mes,municipio,categoria,cantidad
 2003,1,Barranquilla,extorsion,9
 2003,1,Barranquilla,homicidio,50
+2003,1,Barranquilla,hurto_carros,38
+2003,1,Barranquilla,hurto_comercio,122
+2003,1,Barranquilla,hurto_entidades,2
+2003,1,Barranquilla,hurto_motos,36
+2003,1,Barranquilla,hurto_personas,233
+2003,1,Barranquilla,hurto_residencias,49
+2003,1,Barranquilla,violencia_sexual,13
+2003,1,Galapa,hurto_carros,1
+2003,1,Galapa,hurto_comercio,2
+2003,1,Galapa,hurto_personas,4
 2003,1,Malambo,extorsion,2
 2003,1,Malambo,homicidio,1
+2003,1,Malambo,hurto_carros,2
+2003,1,Malambo,hurto_personas,16
+2003,1,Malambo,hurto_residencias,3
+2003,1,Puerto Colombia,hurto_comercio,2
+2003,1,Puerto Colombia,hurto_personas,2
+2003,1,Puerto Colombia,hurto_residencias,1
 2003,1,Soledad,homicidio,8
+2003,1,Soledad,hurto_carros,4
+2003,1,Soledad,hurto_comercio,8
+2003,1,Soledad,hurto_motos,8
+2003,1,Soledad,hurto_personas,25
+2003,1,Soledad,hurto_residencias,8
+2003,1,Soledad,violencia_sexual,2
 2003,10,Barranquilla,extorsion,1
 2003,10,Barranquilla,homicidio,39
+2003,10,Barranquilla,hurto_carros,28
+2003,10,Barranquilla,hurto_comercio,79
+2003,10,Barranquilla,hurto_entidades,5
+2003,10,Barranquilla,hurto_motos,36
+2003,10,Barranquilla,hurto_personas,136
+2003,10,Barranquilla,hurto_residencias,38
+2003,10,Barranquilla,violencia_sexual,11
+2003,10,Galapa,hurto_carros,3
+2003,10,Galapa,hurto_personas,2
+2003,10,Galapa,violencia_sexual,1
 2003,10,Malambo,homicidio,3
+2003,10,Malambo,hurto_carros,3
+2003,10,Malambo,hurto_comercio,5
+2003,10,Malambo,hurto_personas,2
+2003,10,Malambo,violencia_sexual,1
 2003,10,Soledad,homicidio,15
+2003,10,Soledad,hurto_carros,6
+2003,10,Soledad,hurto_comercio,1
+2003,10,Soledad,hurto_motos,8
+2003,10,Soledad,hurto_personas,11
+2003,10,Soledad,hurto_residencias,2
+2003,10,Soledad,violencia_sexual,1
 2003,11,Barranquilla,extorsion,6
 2003,11,Barranquilla,homicidio,42
+2003,11,Barranquilla,hurto_carros,36
+2003,11,Barranquilla,hurto_comercio,52
+2003,11,Barranquilla,hurto_entidades,5
+2003,11,Barranquilla,hurto_motos,37
+2003,11,Barranquilla,hurto_personas,136
+2003,11,Barranquilla,hurto_residencias,42
+2003,11,Barranquilla,violencia_sexual,10
+2003,11,Galapa,hurto_comercio,2
+2003,11,Galapa,hurto_personas,1
+2003,11,Galapa,hurto_residencias,1
 2003,11,Malambo,homicidio,2
+2003,11,Malambo,hurto_carros,1
+2003,11,Malambo,hurto_comercio,1
+2003,11,Malambo,hurto_motos,1
+2003,11,Malambo,hurto_personas,7
 2003,11,Puerto Colombia,homicidio,1
+2003,11,Puerto Colombia,hurto_comercio,1
+2003,11,Puerto Colombia,hurto_personas,3
+2003,11,Puerto Colombia,hurto_residencias,1
 2003,11,Soledad,homicidio,15
+2003,11,Soledad,hurto_carros,7
+2003,11,Soledad,hurto_comercio,5
+2003,11,Soledad,hurto_motos,5
+2003,11,Soledad,hurto_personas,11
+2003,11,Soledad,hurto_residencias,2
+2003,11,Soledad,violencia_sexual,3
 2003,12,Barranquilla,extorsion,1
 2003,12,Barranquilla,homicidio,69
+2003,12,Barranquilla,hurto_carros,41
+2003,12,Barranquilla,hurto_comercio,68
+2003,12,Barranquilla,hurto_entidades,1
+2003,12,Barranquilla,hurto_motos,39
+2003,12,Barranquilla,hurto_personas,133
+2003,12,Barranquilla,hurto_residencias,35
+2003,12,Barranquilla,violencia_sexual,7
 2003,12,Galapa,homicidio,2
+2003,12,Galapa,hurto_carros,1
+2003,12,Galapa,hurto_personas,3
+2003,12,Galapa,hurto_residencias,1
 2003,12,Malambo,homicidio,2
+2003,12,Malambo,hurto_carros,2
+2003,12,Malambo,hurto_personas,4
+2003,12,Malambo,hurto_residencias,1
+2003,12,Puerto Colombia,hurto_comercio,1
+2003,12,Puerto Colombia,hurto_personas,2
+2003,12,Puerto Colombia,violencia_sexual,1
 2003,12,Soledad,homicidio,22
+2003,12,Soledad,hurto_carros,3
+2003,12,Soledad,hurto_comercio,4
+2003,12,Soledad,hurto_motos,5
+2003,12,Soledad,hurto_personas,4
+2003,12,Soledad,violencia_sexual,1
 2003,2,Barranquilla,extorsion,1
 2003,2,Barranquilla,homicidio,31
+2003,2,Barranquilla,hurto_carros,24
+2003,2,Barranquilla,hurto_comercio,84
+2003,2,Barranquilla,hurto_entidades,1
+2003,2,Barranquilla,hurto_motos,35
+2003,2,Barranquilla,hurto_personas,210
+2003,2,Barranquilla,hurto_residencias,54
+2003,2,Barranquilla,violencia_sexual,16
 2003,2,Galapa,homicidio,1
+2003,2,Galapa,hurto_carros,1
+2003,2,Galapa,hurto_personas,4
+2003,2,Galapa,violencia_sexual,1
 2003,2,Malambo,homicidio,2
+2003,2,Malambo,hurto_comercio,3
+2003,2,Malambo,hurto_motos,1
+2003,2,Malambo,hurto_personas,13
+2003,2,Malambo,hurto_residencias,7
+2003,2,Malambo,violencia_sexual,2
 2003,2,Puerto Colombia,extorsion,1
+2003,2,Puerto Colombia,hurto_comercio,1
+2003,2,Puerto Colombia,hurto_personas,8
+2003,2,Puerto Colombia,hurto_residencias,1
 2003,2,Soledad,homicidio,13
+2003,2,Soledad,hurto_carros,5
+2003,2,Soledad,hurto_comercio,5
+2003,2,Soledad,hurto_motos,5
+2003,2,Soledad,hurto_personas,32
+2003,2,Soledad,hurto_residencias,17
+2003,2,Soledad,violencia_sexual,4
 2003,3,Barranquilla,extorsion,6
 2003,3,Barranquilla,homicidio,43
+2003,3,Barranquilla,hurto_carros,20
+2003,3,Barranquilla,hurto_comercio,83
+2003,3,Barranquilla,hurto_entidades,4
+2003,3,Barranquilla,hurto_motos,34
+2003,3,Barranquilla,hurto_personas,218
+2003,3,Barranquilla,hurto_residencias,49
+2003,3,Barranquilla,violencia_sexual,24
 2003,3,Galapa,extorsion,1
+2003,3,Galapa,hurto_comercio,1
+2003,3,Galapa,hurto_personas,13
+2003,3,Galapa,hurto_residencias,1
+2003,3,Malambo,hurto_comercio,2
+2003,3,Malambo,hurto_motos,1
+2003,3,Malambo,hurto_personas,17
+2003,3,Malambo,hurto_residencias,2
+2003,3,Malambo,violencia_sexual,1
 2003,3,Puerto Colombia,homicidio,1
+2003,3,Puerto Colombia,hurto_personas,5
+2003,3,Puerto Colombia,hurto_residencias,1
 2003,3,Soledad,homicidio,19
+2003,3,Soledad,hurto_carros,3
+2003,3,Soledad,hurto_comercio,11
+2003,3,Soledad,hurto_motos,8
+2003,3,Soledad,hurto_personas,34
+2003,3,Soledad,hurto_residencias,14
+2003,3,Soledad,violencia_sexual,2
 2003,4,Barranquilla,extorsion,1
 2003,4,Barranquilla,homicidio,28
+2003,4,Barranquilla,hurto_carros,32
+2003,4,Barranquilla,hurto_comercio,83
+2003,4,Barranquilla,hurto_entidades,3
+2003,4,Barranquilla,hurto_motos,44
+2003,4,Barranquilla,hurto_personas,213
+2003,4,Barranquilla,hurto_residencias,53
+2003,4,Barranquilla,violencia_sexual,16
 2003,4,Galapa,homicidio,1
+2003,4,Galapa,hurto_personas,1
+2003,4,Galapa,hurto_residencias,1
+2003,4,Malambo,hurto_carros,1
+2003,4,Malambo,hurto_comercio,1
+2003,4,Malambo,hurto_motos,1
+2003,4,Malambo,hurto_personas,10
+2003,4,Malambo,hurto_residencias,7
+2003,4,Malambo,violencia_sexual,2
 2003,4,Puerto Colombia,homicidio,4
+2003,4,Puerto Colombia,hurto_comercio,1
+2003,4,Puerto Colombia,hurto_motos,2
+2003,4,Puerto Colombia,hurto_personas,1
+2003,4,Puerto Colombia,hurto_residencias,2
 2003,4,Soledad,homicidio,5
+2003,4,Soledad,hurto_carros,5
+2003,4,Soledad,hurto_comercio,17
+2003,4,Soledad,hurto_motos,4
+2003,4,Soledad,hurto_personas,29
+2003,4,Soledad,hurto_residencias,22
+2003,4,Soledad,violencia_sexual,2
 2003,5,Barranquilla,extorsion,28
 2003,5,Barranquilla,homicidio,26
+2003,5,Barranquilla,hurto_carros,22
+2003,5,Barranquilla,hurto_comercio,126
+2003,5,Barranquilla,hurto_entidades,3
+2003,5,Barranquilla,hurto_motos,9
+2003,5,Barranquilla,hurto_personas,185
+2003,5,Barranquilla,hurto_residencias,52
+2003,5,Barranquilla,violencia_sexual,12
 2003,5,Galapa,homicidio,2
+2003,5,Galapa,hurto_motos,1
+2003,5,Galapa,hurto_personas,2
+2003,5,Galapa,hurto_residencias,1
 2003,5,Malambo,homicidio,9
+2003,5,Malambo,hurto_comercio,1
+2003,5,Malambo,hurto_personas,12
+2003,5,Malambo,hurto_residencias,4
+2003,5,Malambo,violencia_sexual,1
 2003,5,Puerto Colombia,homicidio,2
+2003,5,Puerto Colombia,hurto_comercio,2
+2003,5,Puerto Colombia,hurto_personas,2
+2003,5,Puerto Colombia,hurto_residencias,1
 2003,5,Soledad,homicidio,9
+2003,5,Soledad,hurto_carros,8
+2003,5,Soledad,hurto_comercio,10
+2003,5,Soledad,hurto_motos,3
+2003,5,Soledad,hurto_personas,29
+2003,5,Soledad,hurto_residencias,11
+2003,5,Soledad,violencia_sexual,3
 2003,6,Barranquilla,extorsion,7
 2003,6,Barranquilla,homicidio,25
+2003,6,Barranquilla,hurto_carros,25
+2003,6,Barranquilla,hurto_comercio,71
+2003,6,Barranquilla,hurto_entidades,2
+2003,6,Barranquilla,hurto_motos,16
+2003,6,Barranquilla,hurto_personas,227
+2003,6,Barranquilla,hurto_residencias,51
+2003,6,Barranquilla,violencia_sexual,8
 2003,6,Galapa,homicidio,1
+2003,6,Galapa,hurto_personas,2
+2003,6,Galapa,hurto_residencias,2
 2003,6,Malambo,homicidio,4
+2003,6,Malambo,hurto_comercio,1
+2003,6,Malambo,hurto_personas,4
+2003,6,Malambo,hurto_residencias,2
+2003,6,Puerto Colombia,hurto_comercio,1
+2003,6,Puerto Colombia,hurto_personas,2
+2003,6,Puerto Colombia,violencia_sexual,1
 2003,6,Soledad,homicidio,19
+2003,6,Soledad,hurto_carros,8
+2003,6,Soledad,hurto_comercio,5
+2003,6,Soledad,hurto_motos,2
+2003,6,Soledad,hurto_personas,11
+2003,6,Soledad,hurto_residencias,5
+2003,6,Soledad,violencia_sexual,7
 2003,7,Barranquilla,extorsion,5
 2003,7,Barranquilla,homicidio,51
+2003,7,Barranquilla,hurto_carros,20
+2003,7,Barranquilla,hurto_comercio,97
+2003,7,Barranquilla,hurto_entidades,6
+2003,7,Barranquilla,hurto_motos,32
+2003,7,Barranquilla,hurto_personas,231
+2003,7,Barranquilla,hurto_residencias,50
+2003,7,Barranquilla,violencia_sexual,20
+2003,7,Galapa,hurto_comercio,1
+2003,7,Galapa,hurto_residencias,1
+2003,7,Malambo,hurto_carros,1
+2003,7,Malambo,hurto_comercio,1
+2003,7,Malambo,hurto_motos,1
+2003,7,Malambo,hurto_personas,9
+2003,7,Malambo,hurto_residencias,6
+2003,7,Malambo,violencia_sexual,1
+2003,7,Puerto Colombia,hurto_carros,1
+2003,7,Puerto Colombia,hurto_personas,2
+2003,7,Puerto Colombia,hurto_residencias,1
+2003,7,Puerto Colombia,violencia_sexual,1
 2003,7,Soledad,homicidio,12
+2003,7,Soledad,hurto_carros,10
+2003,7,Soledad,hurto_motos,1
+2003,7,Soledad,hurto_personas,13
+2003,7,Soledad,hurto_residencias,2
+2003,7,Soledad,violencia_sexual,3
 2003,8,Barranquilla,extorsion,15
 2003,8,Barranquilla,homicidio,31
+2003,8,Barranquilla,hurto_carros,18
+2003,8,Barranquilla,hurto_comercio,115
+2003,8,Barranquilla,hurto_entidades,2
+2003,8,Barranquilla,hurto_motos,26
+2003,8,Barranquilla,hurto_personas,235
+2003,8,Barranquilla,hurto_residencias,41
+2003,8,Barranquilla,violencia_sexual,15
 2003,8,Galapa,homicidio,1
+2003,8,Galapa,hurto_comercio,3
+2003,8,Galapa,hurto_personas,1
+2003,8,Galapa,hurto_residencias,1
+2003,8,Malambo,hurto_carros,3
+2003,8,Malambo,hurto_comercio,1
+2003,8,Malambo,hurto_personas,7
+2003,8,Puerto Colombia,hurto_carros,1
+2003,8,Puerto Colombia,hurto_personas,3
+2003,8,Puerto Colombia,hurto_residencias,1
+2003,8,Puerto Colombia,violencia_sexual,1
 2003,8,Soledad,homicidio,15
+2003,8,Soledad,hurto_carros,7
+2003,8,Soledad,hurto_comercio,2
+2003,8,Soledad,hurto_motos,2
+2003,8,Soledad,hurto_personas,15
+2003,8,Soledad,hurto_residencias,1
+2003,8,Soledad,violencia_sexual,2
 2003,9,Barranquilla,extorsion,5
 2003,9,Barranquilla,homicidio,46
+2003,9,Barranquilla,hurto_carros,24
+2003,9,Barranquilla,hurto_comercio,69
+2003,9,Barranquilla,hurto_entidades,1
+2003,9,Barranquilla,hurto_motos,41
+2003,9,Barranquilla,hurto_personas,156
+2003,9,Barranquilla,hurto_residencias,24
+2003,9,Barranquilla,violencia_sexual,6
 2003,9,Galapa,homicidio,3
+2003,9,Galapa,hurto_carros,1
 2003,9,Malambo,homicidio,2
+2003,9,Malambo,hurto_comercio,2
+2003,9,Malambo,hurto_personas,5
+2003,9,Malambo,violencia_sexual,1
+2003,9,Puerto Colombia,hurto_personas,1
 2003,9,Soledad,homicidio,15
+2003,9,Soledad,hurto_carros,3
+2003,9,Soledad,hurto_comercio,5
+2003,9,Soledad,hurto_motos,5
+2003,9,Soledad,hurto_personas,11
+2003,9,Soledad,violencia_sexual,2
 2004,1,Barranquilla,extorsion,4
 2004,1,Barranquilla,homicidio,43
+2004,1,Barranquilla,hurto_carros,30
+2004,1,Barranquilla,hurto_comercio,63
+2004,1,Barranquilla,hurto_motos,38
+2004,1,Barranquilla,hurto_personas,149
+2004,1,Barranquilla,hurto_residencias,38
+2004,1,Barranquilla,violencia_sexual,8
 2004,1,Galapa,homicidio,2
+2004,1,Galapa,hurto_carros,1
+2004,1,Galapa,hurto_comercio,1
+2004,1,Galapa,hurto_personas,2
+2004,1,Galapa,violencia_sexual,1
 2004,1,Malambo,homicidio,3
+2004,1,Malambo,hurto_carros,1
+2004,1,Malambo,hurto_residencias,3
 2004,1,Puerto Colombia,homicidio,1
 2004,1,Soledad,homicidio,24
+2004,1,Soledad,hurto_comercio,3
+2004,1,Soledad,hurto_motos,11
+2004,1,Soledad,hurto_personas,7
+2004,1,Soledad,hurto_residencias,1
+2004,1,Soledad,violencia_sexual,2
 2004,10,Barranquilla,extorsion,5
 2004,10,Barranquilla,homicidio,23
+2004,10,Barranquilla,hurto_carros,37
+2004,10,Barranquilla,hurto_comercio,58
+2004,10,Barranquilla,hurto_entidades,3
+2004,10,Barranquilla,hurto_motos,37
+2004,10,Barranquilla,hurto_personas,195
+2004,10,Barranquilla,hurto_residencias,49
+2004,10,Barranquilla,violencia_sexual,5
 2004,10,Galapa,homicidio,1
+2004,10,Galapa,hurto_comercio,2
+2004,10,Galapa,hurto_personas,8
+2004,10,Galapa,hurto_residencias,1
 2004,10,Malambo,homicidio,3
+2004,10,Malambo,hurto_comercio,1
+2004,10,Malambo,hurto_motos,1
+2004,10,Malambo,hurto_personas,5
+2004,10,Malambo,hurto_residencias,1
+2004,10,Puerto Colombia,hurto_personas,1
 2004,10,Soledad,extorsion,2
 2004,10,Soledad,homicidio,4
+2004,10,Soledad,hurto_carros,3
+2004,10,Soledad,hurto_comercio,11
+2004,10,Soledad,hurto_motos,13
+2004,10,Soledad,hurto_personas,31
+2004,10,Soledad,hurto_residencias,12
+2004,10,Soledad,violencia_sexual,2
 2004,11,Barranquilla,extorsion,1
 2004,11,Barranquilla,homicidio,26
+2004,11,Barranquilla,hurto_carros,27
+2004,11,Barranquilla,hurto_comercio,63
+2004,11,Barranquilla,hurto_entidades,2
+2004,11,Barranquilla,hurto_motos,37
+2004,11,Barranquilla,hurto_personas,182
+2004,11,Barranquilla,hurto_residencias,46
+2004,11,Barranquilla,violencia_sexual,8
 2004,11,Galapa,homicidio,1
+2004,11,Galapa,hurto_comercio,1
+2004,11,Galapa,hurto_personas,6
+2004,11,Galapa,hurto_residencias,1
 2004,11,Malambo,homicidio,5
+2004,11,Malambo,hurto_carros,3
+2004,11,Malambo,hurto_comercio,1
+2004,11,Malambo,hurto_personas,5
+2004,11,Malambo,hurto_residencias,1
+2004,11,Puerto Colombia,hurto_comercio,1
+2004,11,Puerto Colombia,hurto_personas,2
 2004,11,Soledad,homicidio,15
+2004,11,Soledad,hurto_carros,5
+2004,11,Soledad,hurto_comercio,4
+2004,11,Soledad,hurto_motos,10
+2004,11,Soledad,hurto_personas,27
+2004,11,Soledad,hurto_residencias,8
+2004,11,Soledad,violencia_sexual,1
 2004,12,Barranquilla,extorsion,2
 2004,12,Barranquilla,homicidio,31
+2004,12,Barranquilla,hurto_carros,39
+2004,12,Barranquilla,hurto_comercio,44
+2004,12,Barranquilla,hurto_entidades,1
+2004,12,Barranquilla,hurto_motos,36
+2004,12,Barranquilla,hurto_personas,215
+2004,12,Barranquilla,hurto_residencias,36
+2004,12,Barranquilla,violencia_sexual,7
+2004,12,Galapa,hurto_comercio,3
+2004,12,Galapa,hurto_personas,2
+2004,12,Galapa,hurto_residencias,1
 2004,12,Malambo,homicidio,1
+2004,12,Malambo,hurto_comercio,2
+2004,12,Malambo,hurto_personas,4
+2004,12,Malambo,hurto_residencias,2
+2004,12,Malambo,violencia_sexual,1
 2004,12,Soledad,homicidio,17
+2004,12,Soledad,hurto_carros,6
+2004,12,Soledad,hurto_comercio,8
+2004,12,Soledad,hurto_motos,10
+2004,12,Soledad,hurto_personas,27
+2004,12,Soledad,hurto_residencias,8
+2004,12,Soledad,violencia_sexual,5
 2004,2,Barranquilla,extorsion,8
 2004,2,Barranquilla,homicidio,52
+2004,2,Barranquilla,hurto_carros,26
+2004,2,Barranquilla,hurto_comercio,67
+2004,2,Barranquilla,hurto_entidades,3
+2004,2,Barranquilla,hurto_motos,46
+2004,2,Barranquilla,hurto_personas,117
+2004,2,Barranquilla,hurto_residencias,42
+2004,2,Barranquilla,violencia_sexual,12
 2004,2,Galapa,homicidio,2
+2004,2,Galapa,hurto_carros,2
+2004,2,Galapa,hurto_comercio,1
+2004,2,Galapa,hurto_personas,2
 2004,2,Malambo,homicidio,5
+2004,2,Malambo,hurto_carros,1
+2004,2,Malambo,hurto_personas,3
+2004,2,Malambo,violencia_sexual,1
+2004,2,Puerto Colombia,hurto_motos,1
 2004,2,Soledad,homicidio,7
+2004,2,Soledad,hurto_carros,5
+2004,2,Soledad,hurto_comercio,3
+2004,2,Soledad,hurto_motos,5
+2004,2,Soledad,hurto_personas,4
+2004,2,Soledad,hurto_residencias,1
+2004,2,Soledad,violencia_sexual,1
 2004,3,Barranquilla,extorsion,14
 2004,3,Barranquilla,homicidio,46
+2004,3,Barranquilla,hurto_carros,32
+2004,3,Barranquilla,hurto_comercio,44
+2004,3,Barranquilla,hurto_entidades,1
+2004,3,Barranquilla,hurto_motos,38
+2004,3,Barranquilla,hurto_personas,155
+2004,3,Barranquilla,hurto_residencias,38
+2004,3,Barranquilla,violencia_sexual,15
 2004,3,Galapa,homicidio,2
+2004,3,Galapa,hurto_personas,2
+2004,3,Galapa,hurto_residencias,1
+2004,3,Galapa,violencia_sexual,1
 2004,3,Malambo,homicidio,5
+2004,3,Malambo,hurto_personas,1
+2004,3,Puerto Colombia,hurto_personas,1
+2004,3,Puerto Colombia,hurto_residencias,1
 2004,3,Soledad,extorsion,1
 2004,3,Soledad,homicidio,17
+2004,3,Soledad,hurto_carros,5
+2004,3,Soledad,hurto_comercio,4
+2004,3,Soledad,hurto_motos,8
+2004,3,Soledad,hurto_personas,10
+2004,3,Soledad,hurto_residencias,5
+2004,3,Soledad,violencia_sexual,2
 2004,4,Barranquilla,extorsion,9
 2004,4,Barranquilla,homicidio,31
+2004,4,Barranquilla,hurto_carros,28
+2004,4,Barranquilla,hurto_comercio,75
+2004,4,Barranquilla,hurto_entidades,2
+2004,4,Barranquilla,hurto_motos,27
+2004,4,Barranquilla,hurto_personas,137
+2004,4,Barranquilla,hurto_residencias,35
+2004,4,Barranquilla,violencia_sexual,8
 2004,4,Galapa,homicidio,1
+2004,4,Galapa,hurto_personas,3
+2004,4,Galapa,hurto_residencias,3
 2004,4,Malambo,homicidio,2
+2004,4,Malambo,hurto_carros,3
+2004,4,Malambo,hurto_comercio,1
+2004,4,Malambo,hurto_motos,1
+2004,4,Malambo,hurto_personas,2
+2004,4,Malambo,hurto_residencias,1
+2004,4,Puerto Colombia,hurto_personas,1
+2004,4,Puerto Colombia,hurto_residencias,2
 2004,4,Soledad,homicidio,11
+2004,4,Soledad,hurto_carros,7
+2004,4,Soledad,hurto_comercio,4
+2004,4,Soledad,hurto_motos,5
+2004,4,Soledad,hurto_personas,16
+2004,4,Soledad,hurto_residencias,3
+2004,4,Soledad,violencia_sexual,2
 2004,5,Barranquilla,extorsion,4
 2004,5,Barranquilla,homicidio,38
+2004,5,Barranquilla,hurto_carros,39
+2004,5,Barranquilla,hurto_comercio,81
+2004,5,Barranquilla,hurto_entidades,3
+2004,5,Barranquilla,hurto_motos,38
+2004,5,Barranquilla,hurto_personas,168
+2004,5,Barranquilla,hurto_residencias,37
+2004,5,Barranquilla,violencia_sexual,7
 2004,5,Galapa,homicidio,3
 2004,5,Malambo,homicidio,3
+2004,5,Malambo,hurto_comercio,1
+2004,5,Malambo,hurto_personas,4
+2004,5,Malambo,hurto_residencias,1
+2004,5,Puerto Colombia,hurto_comercio,1
+2004,5,Puerto Colombia,hurto_personas,1
 2004,5,Soledad,homicidio,12
+2004,5,Soledad,hurto_carros,2
+2004,5,Soledad,hurto_comercio,6
+2004,5,Soledad,hurto_motos,12
+2004,5,Soledad,hurto_personas,16
+2004,5,Soledad,hurto_residencias,3
+2004,5,Soledad,violencia_sexual,1
 2004,6,Barranquilla,extorsion,13
 2004,6,Barranquilla,homicidio,41
+2004,6,Barranquilla,hurto_carros,28
+2004,6,Barranquilla,hurto_comercio,52
+2004,6,Barranquilla,hurto_entidades,5
+2004,6,Barranquilla,hurto_motos,29
+2004,6,Barranquilla,hurto_personas,155
+2004,6,Barranquilla,hurto_residencias,44
+2004,6,Barranquilla,violencia_sexual,6
+2004,6,Galapa,hurto_comercio,1
 2004,6,Malambo,homicidio,7
+2004,6,Malambo,hurto_carros,1
+2004,6,Malambo,hurto_comercio,1
+2004,6,Malambo,hurto_personas,4
+2004,6,Malambo,hurto_residencias,1
+2004,6,Puerto Colombia,hurto_personas,2
 2004,6,Soledad,homicidio,11
+2004,6,Soledad,hurto_carros,6
+2004,6,Soledad,hurto_comercio,6
+2004,6,Soledad,hurto_motos,6
+2004,6,Soledad,hurto_personas,8
+2004,6,Soledad,hurto_residencias,8
+2004,6,Soledad,violencia_sexual,6
 2004,7,Barranquilla,extorsion,6
 2004,7,Barranquilla,homicidio,19
+2004,7,Barranquilla,hurto_carros,24
+2004,7,Barranquilla,hurto_comercio,58
+2004,7,Barranquilla,hurto_entidades,4
+2004,7,Barranquilla,hurto_motos,25
+2004,7,Barranquilla,hurto_personas,163
+2004,7,Barranquilla,hurto_residencias,39
+2004,7,Barranquilla,violencia_sexual,8
 2004,7,Galapa,homicidio,2
+2004,7,Galapa,hurto_residencias,1
 2004,7,Malambo,homicidio,1
+2004,7,Malambo,hurto_personas,4
+2004,7,Malambo,hurto_residencias,2
+2004,7,Puerto Colombia,hurto_comercio,1
+2004,7,Puerto Colombia,hurto_personas,1
 2004,7,Soledad,homicidio,13
+2004,7,Soledad,hurto_carros,3
+2004,7,Soledad,hurto_comercio,3
+2004,7,Soledad,hurto_motos,14
+2004,7,Soledad,hurto_personas,20
+2004,7,Soledad,hurto_residencias,3
 2004,8,Barranquilla,extorsion,5
 2004,8,Barranquilla,homicidio,31
+2004,8,Barranquilla,hurto_carros,29
+2004,8,Barranquilla,hurto_comercio,68
+2004,8,Barranquilla,hurto_entidades,1
+2004,8,Barranquilla,hurto_motos,25
+2004,8,Barranquilla,hurto_personas,185
+2004,8,Barranquilla,hurto_residencias,36
+2004,8,Barranquilla,violencia_sexual,15
 2004,8,Galapa,homicidio,3
+2004,8,Galapa,hurto_carros,1
+2004,8,Galapa,hurto_comercio,1
+2004,8,Galapa,hurto_motos,1
+2004,8,Galapa,hurto_personas,2
 2004,8,Malambo,homicidio,2
+2004,8,Malambo,hurto_carros,1
+2004,8,Malambo,hurto_comercio,1
+2004,8,Malambo,hurto_motos,1
+2004,8,Malambo,hurto_personas,4
+2004,8,Malambo,violencia_sexual,1
 2004,8,Puerto Colombia,homicidio,1
+2004,8,Puerto Colombia,hurto_personas,2
+2004,8,Puerto Colombia,violencia_sexual,1
 2004,8,Soledad,homicidio,3
+2004,8,Soledad,hurto_carros,6
+2004,8,Soledad,hurto_comercio,1
+2004,8,Soledad,hurto_motos,9
+2004,8,Soledad,hurto_personas,15
+2004,8,Soledad,hurto_residencias,5
+2004,8,Soledad,violencia_sexual,2
 2004,9,Barranquilla,extorsion,6
 2004,9,Barranquilla,homicidio,31
+2004,9,Barranquilla,hurto_carros,34
+2004,9,Barranquilla,hurto_comercio,63
+2004,9,Barranquilla,hurto_motos,40
+2004,9,Barranquilla,hurto_personas,183
+2004,9,Barranquilla,hurto_residencias,43
+2004,9,Barranquilla,violencia_sexual,8
 2004,9,Galapa,homicidio,3
+2004,9,Galapa,hurto_comercio,2
+2004,9,Galapa,hurto_personas,1
+2004,9,Galapa,hurto_residencias,2
 2004,9,Malambo,homicidio,4
+2004,9,Malambo,hurto_carros,1
+2004,9,Malambo,hurto_motos,1
+2004,9,Malambo,hurto_personas,2
+2004,9,Malambo,hurto_residencias,1
+2004,9,Puerto Colombia,hurto_carros,1
+2004,9,Puerto Colombia,hurto_comercio,1
 2004,9,Soledad,homicidio,7
+2004,9,Soledad,hurto_comercio,7
+2004,9,Soledad,hurto_motos,8
+2004,9,Soledad,hurto_personas,26
+2004,9,Soledad,hurto_residencias,8
+2004,9,Soledad,violencia_sexual,5
 2005,1,Barranquilla,extorsion,20
 2005,1,Barranquilla,homicidio,31
+2005,1,Barranquilla,hurto_carros,40
+2005,1,Barranquilla,hurto_comercio,70
+2005,1,Barranquilla,hurto_entidades,1
+2005,1,Barranquilla,hurto_motos,46
+2005,1,Barranquilla,hurto_personas,178
+2005,1,Barranquilla,hurto_residencias,49
+2005,1,Barranquilla,violencia_sexual,3
 2005,1,Galapa,homicidio,3
+2005,1,Galapa,hurto_carros,1
+2005,1,Galapa,hurto_comercio,1
+2005,1,Galapa,hurto_personas,7
+2005,1,Galapa,hurto_residencias,1
 2005,1,Malambo,homicidio,3
+2005,1,Malambo,hurto_comercio,1
+2005,1,Malambo,hurto_personas,9
+2005,1,Malambo,violencia_sexual,1
+2005,1,Puerto Colombia,hurto_personas,1
+2005,1,Puerto Colombia,hurto_residencias,1
+2005,1,Puerto Colombia,violencia_sexual,1
 2005,1,Soledad,extorsion,2
 2005,1,Soledad,homicidio,11
+2005,1,Soledad,hurto_carros,6
+2005,1,Soledad,hurto_comercio,4
+2005,1,Soledad,hurto_motos,10
+2005,1,Soledad,hurto_personas,26
+2005,1,Soledad,hurto_residencias,2
+2005,1,Soledad,violencia_sexual,1
 2005,10,Barranquilla,extorsion,10
 2005,10,Barranquilla,homicidio,30
+2005,10,Barranquilla,hurto_carros,21
+2005,10,Barranquilla,hurto_comercio,56
+2005,10,Barranquilla,hurto_motos,52
+2005,10,Barranquilla,hurto_personas,150
+2005,10,Barranquilla,hurto_residencias,34
+2005,10,Barranquilla,violencia_sexual,1
 2005,10,Galapa,homicidio,1
+2005,10,Galapa,hurto_comercio,1
+2005,10,Galapa,hurto_personas,2
+2005,10,Galapa,hurto_residencias,1
+2005,10,Malambo,hurto_carros,1
+2005,10,Malambo,hurto_motos,3
+2005,10,Malambo,hurto_personas,2
+2005,10,Malambo,hurto_residencias,2
+2005,10,Puerto Colombia,hurto_motos,1
+2005,10,Puerto Colombia,hurto_personas,2
 2005,10,Soledad,homicidio,12
+2005,10,Soledad,hurto_comercio,3
+2005,10,Soledad,hurto_motos,26
+2005,10,Soledad,hurto_personas,11
+2005,10,Soledad,hurto_residencias,3
+2005,10,Soledad,violencia_sexual,1
 2005,11,Barranquilla,extorsion,8
 2005,11,Barranquilla,homicidio,26
+2005,11,Barranquilla,hurto_carros,24
+2005,11,Barranquilla,hurto_comercio,65
+2005,11,Barranquilla,hurto_entidades,1
+2005,11,Barranquilla,hurto_motos,79
+2005,11,Barranquilla,hurto_personas,144
+2005,11,Barranquilla,hurto_residencias,34
+2005,11,Barranquilla,violencia_sexual,2
 2005,11,Galapa,extorsion,1
+2005,11,Galapa,hurto_personas,1
 2005,11,Malambo,homicidio,2
+2005,11,Malambo,hurto_motos,1
+2005,11,Malambo,hurto_personas,1
+2005,11,Malambo,violencia_sexual,1
+2005,11,Puerto Colombia,hurto_personas,1
 2005,11,Soledad,homicidio,13
+2005,11,Soledad,hurto_carros,2
+2005,11,Soledad,hurto_comercio,4
+2005,11,Soledad,hurto_motos,22
+2005,11,Soledad,hurto_personas,11
+2005,11,Soledad,hurto_residencias,1
+2005,11,Soledad,violencia_sexual,2
 2005,12,Barranquilla,extorsion,4
 2005,12,Barranquilla,homicidio,33
+2005,12,Barranquilla,hurto_carros,43
+2005,12,Barranquilla,hurto_comercio,68
+2005,12,Barranquilla,hurto_motos,79
+2005,12,Barranquilla,hurto_personas,144
+2005,12,Barranquilla,hurto_residencias,29
+2005,12,Barranquilla,violencia_sexual,3
 2005,12,Galapa,homicidio,2
+2005,12,Galapa,hurto_motos,1
+2005,12,Galapa,hurto_personas,1
 2005,12,Malambo,homicidio,2
+2005,12,Malambo,hurto_carros,1
+2005,12,Malambo,hurto_comercio,2
+2005,12,Malambo,hurto_motos,1
+2005,12,Malambo,hurto_personas,3
+2005,12,Malambo,hurto_residencias,1
+2005,12,Puerto Colombia,hurto_comercio,2
+2005,12,Puerto Colombia,hurto_personas,2
+2005,12,Puerto Colombia,violencia_sexual,1
 2005,12,Soledad,homicidio,13
+2005,12,Soledad,hurto_carros,6
+2005,12,Soledad,hurto_comercio,4
+2005,12,Soledad,hurto_motos,16
+2005,12,Soledad,hurto_personas,6
+2005,12,Soledad,hurto_residencias,3
+2005,12,Soledad,violencia_sexual,5
 2005,2,Barranquilla,extorsion,8
 2005,2,Barranquilla,homicidio,23
+2005,2,Barranquilla,hurto_carros,34
+2005,2,Barranquilla,hurto_comercio,49
+2005,2,Barranquilla,hurto_motos,40
+2005,2,Barranquilla,hurto_personas,216
+2005,2,Barranquilla,hurto_residencias,50
+2005,2,Barranquilla,violencia_sexual,7
 2005,2,Galapa,homicidio,1
+2005,2,Galapa,hurto_personas,2
+2005,2,Galapa,hurto_residencias,2
 2005,2,Malambo,homicidio,2
+2005,2,Malambo,hurto_comercio,1
+2005,2,Malambo,hurto_motos,1
+2005,2,Malambo,hurto_personas,3
+2005,2,Malambo,hurto_residencias,1
+2005,2,Malambo,violencia_sexual,2
+2005,2,Puerto Colombia,hurto_comercio,1
+2005,2,Puerto Colombia,hurto_residencias,1
 2005,2,Soledad,homicidio,7
+2005,2,Soledad,hurto_carros,6
+2005,2,Soledad,hurto_comercio,7
+2005,2,Soledad,hurto_motos,10
+2005,2,Soledad,hurto_personas,17
+2005,2,Soledad,hurto_residencias,5
+2005,2,Soledad,violencia_sexual,4
 2005,3,Barranquilla,extorsion,5
 2005,3,Barranquilla,homicidio,28
+2005,3,Barranquilla,hurto_carros,34
+2005,3,Barranquilla,hurto_comercio,42
+2005,3,Barranquilla,hurto_entidades,2
+2005,3,Barranquilla,hurto_motos,32
+2005,3,Barranquilla,hurto_personas,156
+2005,3,Barranquilla,hurto_residencias,26
+2005,3,Barranquilla,violencia_sexual,6
 2005,3,Galapa,homicidio,2
+2005,3,Galapa,hurto_carros,1
+2005,3,Galapa,hurto_personas,3
+2005,3,Galapa,hurto_residencias,2
 2005,3,Malambo,homicidio,5
+2005,3,Malambo,hurto_carros,1
+2005,3,Malambo,hurto_motos,1
+2005,3,Malambo,hurto_personas,7
+2005,3,Puerto Colombia,hurto_comercio,1
+2005,3,Puerto Colombia,hurto_personas,1
 2005,3,Soledad,extorsion,1
 2005,3,Soledad,homicidio,6
+2005,3,Soledad,hurto_carros,3
+2005,3,Soledad,hurto_comercio,1
+2005,3,Soledad,hurto_motos,8
+2005,3,Soledad,hurto_personas,20
+2005,3,Soledad,hurto_residencias,2
+2005,3,Soledad,violencia_sexual,2
 2005,4,Barranquilla,extorsion,6
 2005,4,Barranquilla,homicidio,35
+2005,4,Barranquilla,hurto_carros,30
+2005,4,Barranquilla,hurto_comercio,41
+2005,4,Barranquilla,hurto_motos,32
+2005,4,Barranquilla,hurto_personas,124
+2005,4,Barranquilla,hurto_residencias,17
+2005,4,Barranquilla,violencia_sexual,5
 2005,4,Galapa,extorsion,1
 2005,4,Galapa,homicidio,4
+2005,4,Galapa,hurto_comercio,1
+2005,4,Galapa,hurto_personas,1
 2005,4,Malambo,homicidio,1
+2005,4,Malambo,hurto_carros,2
 2005,4,Soledad,homicidio,5
+2005,4,Soledad,hurto_carros,3
+2005,4,Soledad,hurto_comercio,1
+2005,4,Soledad,hurto_motos,16
+2005,4,Soledad,hurto_personas,10
+2005,4,Soledad,hurto_residencias,2
+2005,4,Soledad,violencia_sexual,1
 2005,5,Barranquilla,extorsion,9
 2005,5,Barranquilla,homicidio,29
+2005,5,Barranquilla,hurto_carros,26
+2005,5,Barranquilla,hurto_comercio,36
+2005,5,Barranquilla,hurto_entidades,1
+2005,5,Barranquilla,hurto_motos,42
+2005,5,Barranquilla,hurto_personas,107
+2005,5,Barranquilla,hurto_residencias,25
+2005,5,Barranquilla,violencia_sexual,6
+2005,5,Galapa,hurto_residencias,1
 2005,5,Malambo,homicidio,5
+2005,5,Malambo,hurto_carros,1
+2005,5,Malambo,hurto_motos,1
+2005,5,Malambo,hurto_personas,3
+2005,5,Malambo,hurto_residencias,1
 2005,5,Puerto Colombia,homicidio,1
+2005,5,Puerto Colombia,hurto_residencias,2
 2005,5,Soledad,homicidio,7
+2005,5,Soledad,hurto_carros,6
+2005,5,Soledad,hurto_comercio,6
+2005,5,Soledad,hurto_motos,13
+2005,5,Soledad,hurto_personas,8
+2005,5,Soledad,hurto_residencias,2
 2005,6,Barranquilla,extorsion,5
 2005,6,Barranquilla,homicidio,20
+2005,6,Barranquilla,hurto_carros,31
+2005,6,Barranquilla,hurto_comercio,41
+2005,6,Barranquilla,hurto_entidades,2
+2005,6,Barranquilla,hurto_motos,43
+2005,6,Barranquilla,hurto_personas,108
+2005,6,Barranquilla,hurto_residencias,13
+2005,6,Barranquilla,violencia_sexual,3
+2005,6,Galapa,hurto_personas,3
+2005,6,Galapa,hurto_residencias,1
+2005,6,Galapa,violencia_sexual,1
 2005,6,Malambo,homicidio,5
+2005,6,Malambo,hurto_motos,1
+2005,6,Malambo,hurto_personas,3
 2005,6,Soledad,homicidio,10
+2005,6,Soledad,hurto_carros,3
+2005,6,Soledad,hurto_comercio,1
+2005,6,Soledad,hurto_motos,25
+2005,6,Soledad,hurto_personas,11
+2005,6,Soledad,hurto_residencias,3
+2005,6,Soledad,violencia_sexual,2
 2005,7,Barranquilla,extorsion,8
 2005,7,Barranquilla,homicidio,33
+2005,7,Barranquilla,hurto_carros,35
+2005,7,Barranquilla,hurto_comercio,58
+2005,7,Barranquilla,hurto_entidades,1
+2005,7,Barranquilla,hurto_motos,55
+2005,7,Barranquilla,hurto_personas,150
+2005,7,Barranquilla,hurto_residencias,32
+2005,7,Barranquilla,violencia_sexual,5
+2005,7,Galapa,hurto_personas,1
+2005,7,Galapa,hurto_residencias,1
 2005,7,Malambo,homicidio,2
+2005,7,Malambo,hurto_comercio,1
+2005,7,Malambo,hurto_motos,1
+2005,7,Malambo,hurto_personas,4
+2005,7,Malambo,hurto_residencias,2
+2005,7,Malambo,violencia_sexual,1
+2005,7,Puerto Colombia,hurto_personas,1
 2005,7,Soledad,homicidio,13
+2005,7,Soledad,hurto_carros,4
+2005,7,Soledad,hurto_comercio,5
+2005,7,Soledad,hurto_motos,32
+2005,7,Soledad,hurto_personas,17
+2005,7,Soledad,hurto_residencias,4
+2005,7,Soledad,violencia_sexual,3
 2005,8,Barranquilla,extorsion,4
 2005,8,Barranquilla,homicidio,21
+2005,8,Barranquilla,hurto_carros,17
+2005,8,Barranquilla,hurto_comercio,61
+2005,8,Barranquilla,hurto_motos,50
+2005,8,Barranquilla,hurto_personas,157
+2005,8,Barranquilla,hurto_residencias,31
+2005,8,Barranquilla,violencia_sexual,9
+2005,8,Galapa,hurto_personas,3
+2005,8,Galapa,hurto_residencias,1
 2005,8,Malambo,homicidio,1
+2005,8,Malambo,hurto_carros,1
+2005,8,Malambo,hurto_comercio,1
+2005,8,Malambo,hurto_personas,3
+2005,8,Malambo,hurto_residencias,1
 2005,8,Soledad,homicidio,17
+2005,8,Soledad,hurto_carros,1
+2005,8,Soledad,hurto_comercio,2
+2005,8,Soledad,hurto_motos,12
+2005,8,Soledad,hurto_personas,12
+2005,8,Soledad,hurto_residencias,2
+2005,8,Soledad,violencia_sexual,3
 2005,9,Barranquilla,extorsion,13
 2005,9,Barranquilla,homicidio,23
+2005,9,Barranquilla,hurto_carros,32
+2005,9,Barranquilla,hurto_comercio,69
+2005,9,Barranquilla,hurto_motos,47
+2005,9,Barranquilla,hurto_personas,131
+2005,9,Barranquilla,hurto_residencias,23
+2005,9,Barranquilla,violencia_sexual,4
 2005,9,Galapa,homicidio,1
+2005,9,Galapa,hurto_comercio,1
+2005,9,Galapa,hurto_personas,3
+2005,9,Galapa,hurto_residencias,2
 2005,9,Malambo,extorsion,1
 2005,9,Malambo,homicidio,2
+2005,9,Malambo,hurto_personas,4
 2005,9,Soledad,homicidio,12
+2005,9,Soledad,hurto_carros,2
+2005,9,Soledad,hurto_comercio,1
+2005,9,Soledad,hurto_motos,19
+2005,9,Soledad,hurto_personas,9
+2005,9,Soledad,hurto_residencias,2
+2005,9,Soledad,violencia_sexual,1
 2006,1,Barranquilla,extorsion,8
 2006,1,Barranquilla,homicidio,27
+2006,1,Barranquilla,hurto_carros,34
+2006,1,Barranquilla,hurto_comercio,41
+2006,1,Barranquilla,hurto_motos,71
+2006,1,Barranquilla,hurto_personas,125
+2006,1,Barranquilla,hurto_residencias,29
+2006,1,Barranquilla,violencia_sexual,3
+2006,1,Galapa,hurto_personas,1
 2006,1,Malambo,homicidio,3
+2006,1,Malambo,hurto_personas,2
+2006,1,Malambo,violencia_sexual,1
 2006,1,Puerto Colombia,extorsion,1
+2006,1,Puerto Colombia,hurto_comercio,1
 2006,1,Soledad,extorsion,1
 2006,1,Soledad,homicidio,11
+2006,1,Soledad,hurto_carros,5
+2006,1,Soledad,hurto_comercio,1
+2006,1,Soledad,hurto_motos,18
+2006,1,Soledad,hurto_personas,11
+2006,1,Soledad,hurto_residencias,3
+2006,1,Soledad,violencia_sexual,2
 2006,10,Barranquilla,extorsion,4
 2006,10,Barranquilla,homicidio,29
+2006,10,Barranquilla,hurto_carros,34
+2006,10,Barranquilla,hurto_comercio,67
+2006,10,Barranquilla,hurto_entidades,3
+2006,10,Barranquilla,hurto_motos,61
+2006,10,Barranquilla,hurto_personas,243
+2006,10,Barranquilla,hurto_residencias,44
+2006,10,Barranquilla,violencia_sexual,5
 2006,10,Galapa,homicidio,1
+2006,10,Galapa,hurto_carros,1
+2006,10,Galapa,hurto_comercio,1
+2006,10,Galapa,hurto_personas,1
 2006,10,Malambo,homicidio,2
+2006,10,Malambo,hurto_comercio,1
+2006,10,Malambo,hurto_personas,5
+2006,10,Malambo,hurto_residencias,2
+2006,10,Malambo,violencia_sexual,2
+2006,10,Puerto Colombia,hurto_carros,1
+2006,10,Puerto Colombia,hurto_personas,1
 2006,10,Soledad,homicidio,12
+2006,10,Soledad,hurto_carros,3
+2006,10,Soledad,hurto_comercio,9
+2006,10,Soledad,hurto_motos,25
+2006,10,Soledad,hurto_personas,45
+2006,10,Soledad,hurto_residencias,9
+2006,10,Soledad,violencia_sexual,4
 2006,11,Barranquilla,extorsion,4
 2006,11,Barranquilla,homicidio,27
+2006,11,Barranquilla,hurto_carros,57
+2006,11,Barranquilla,hurto_comercio,71
+2006,11,Barranquilla,hurto_entidades,4
+2006,11,Barranquilla,hurto_motos,59
+2006,11,Barranquilla,hurto_personas,277
+2006,11,Barranquilla,hurto_residencias,51
+2006,11,Barranquilla,violencia_sexual,8
 2006,11,Galapa,homicidio,1
 2006,11,Malambo,homicidio,1
+2006,11,Malambo,hurto_motos,1
+2006,11,Malambo,hurto_personas,6
+2006,11,Malambo,violencia_sexual,1
 2006,11,Puerto Colombia,homicidio,1
+2006,11,Puerto Colombia,hurto_carros,1
+2006,11,Puerto Colombia,hurto_motos,1
+2006,11,Puerto Colombia,hurto_personas,1
+2006,11,Puerto Colombia,hurto_residencias,1
+2006,11,Puerto Colombia,violencia_sexual,1
 2006,11,Soledad,homicidio,10
+2006,11,Soledad,hurto_carros,5
+2006,11,Soledad,hurto_comercio,4
+2006,11,Soledad,hurto_motos,20
+2006,11,Soledad,hurto_personas,52
+2006,11,Soledad,hurto_residencias,12
+2006,11,Soledad,violencia_sexual,5
 2006,12,Barranquilla,extorsion,4
 2006,12,Barranquilla,homicidio,26
+2006,12,Barranquilla,hurto_carros,42
+2006,12,Barranquilla,hurto_comercio,81
+2006,12,Barranquilla,hurto_entidades,2
+2006,12,Barranquilla,hurto_motos,66
+2006,12,Barranquilla,hurto_personas,379
+2006,12,Barranquilla,hurto_residencias,51
+2006,12,Barranquilla,violencia_sexual,7
+2006,12,Galapa,hurto_carros,1
+2006,12,Galapa,hurto_personas,3
+2006,12,Galapa,hurto_residencias,1
 2006,12,Malambo,homicidio,3
+2006,12,Malambo,hurto_carros,1
+2006,12,Malambo,hurto_entidades,1
+2006,12,Malambo,hurto_motos,1
+2006,12,Malambo,hurto_personas,8
+2006,12,Malambo,hurto_residencias,2
+2006,12,Malambo,violencia_sexual,1
+2006,12,Puerto Colombia,hurto_carros,1
+2006,12,Puerto Colombia,hurto_comercio,2
+2006,12,Puerto Colombia,hurto_personas,1
+2006,12,Puerto Colombia,violencia_sexual,1
 2006,12,Soledad,homicidio,5
+2006,12,Soledad,hurto_carros,1
+2006,12,Soledad,hurto_comercio,8
+2006,12,Soledad,hurto_motos,25
+2006,12,Soledad,hurto_personas,42
+2006,12,Soledad,hurto_residencias,7
+2006,12,Soledad,violencia_sexual,2
 2006,2,Barranquilla,extorsion,3
 2006,2,Barranquilla,homicidio,30
+2006,2,Barranquilla,hurto_carros,21
+2006,2,Barranquilla,hurto_comercio,62
+2006,2,Barranquilla,hurto_motos,88
+2006,2,Barranquilla,hurto_personas,121
+2006,2,Barranquilla,hurto_residencias,48
+2006,2,Barranquilla,violencia_sexual,4
+2006,2,Galapa,hurto_motos,1
+2006,2,Galapa,hurto_personas,3
 2006,2,Malambo,homicidio,1
+2006,2,Malambo,hurto_motos,1
+2006,2,Malambo,hurto_personas,2
+2006,2,Puerto Colombia,hurto_carros,1
 2006,2,Soledad,homicidio,6
+2006,2,Soledad,hurto_carros,3
+2006,2,Soledad,hurto_comercio,2
+2006,2,Soledad,hurto_motos,27
+2006,2,Soledad,hurto_personas,8
+2006,2,Soledad,hurto_residencias,3
+2006,2,Soledad,violencia_sexual,2
 2006,3,Barranquilla,extorsion,7
 2006,3,Barranquilla,homicidio,19
+2006,3,Barranquilla,hurto_carros,19
+2006,3,Barranquilla,hurto_comercio,50
+2006,3,Barranquilla,hurto_entidades,3
+2006,3,Barranquilla,hurto_motos,90
+2006,3,Barranquilla,hurto_personas,158
+2006,3,Barranquilla,hurto_residencias,26
+2006,3,Barranquilla,violencia_sexual,6
+2006,3,Galapa,hurto_comercio,1
+2006,3,Galapa,hurto_personas,2
+2006,3,Malambo,hurto_carros,1
+2006,3,Malambo,hurto_motos,5
+2006,3,Malambo,hurto_personas,3
+2006,3,Malambo,hurto_residencias,1
+2006,3,Puerto Colombia,hurto_comercio,1
 2006,3,Soledad,homicidio,9
+2006,3,Soledad,hurto_carros,4
+2006,3,Soledad,hurto_comercio,4
+2006,3,Soledad,hurto_motos,27
+2006,3,Soledad,hurto_personas,13
+2006,3,Soledad,hurto_residencias,6
+2006,3,Soledad,violencia_sexual,1
 2006,4,Barranquilla,extorsion,13
 2006,4,Barranquilla,homicidio,31
+2006,4,Barranquilla,hurto_carros,37
+2006,4,Barranquilla,hurto_comercio,60
+2006,4,Barranquilla,hurto_entidades,1
+2006,4,Barranquilla,hurto_motos,56
+2006,4,Barranquilla,hurto_personas,152
+2006,4,Barranquilla,hurto_residencias,31
+2006,4,Barranquilla,violencia_sexual,2
+2006,4,Galapa,hurto_carros,1
+2006,4,Galapa,hurto_residencias,2
+2006,4,Malambo,hurto_carros,1
+2006,4,Malambo,hurto_motos,1
+2006,4,Malambo,hurto_personas,1
+2006,4,Puerto Colombia,hurto_comercio,1
+2006,4,Puerto Colombia,hurto_personas,1
+2006,4,Puerto Colombia,hurto_residencias,1
+2006,4,Puerto Colombia,violencia_sexual,1
 2006,4,Soledad,extorsion,1
 2006,4,Soledad,homicidio,16
+2006,4,Soledad,hurto_carros,3
+2006,4,Soledad,hurto_comercio,1
+2006,4,Soledad,hurto_motos,19
+2006,4,Soledad,hurto_personas,6
+2006,4,Soledad,hurto_residencias,1
+2006,4,Soledad,violencia_sexual,1
 2006,5,Barranquilla,extorsion,9
 2006,5,Barranquilla,homicidio,21
+2006,5,Barranquilla,hurto_carros,30
+2006,5,Barranquilla,hurto_comercio,68
+2006,5,Barranquilla,hurto_entidades,2
+2006,5,Barranquilla,hurto_motos,66
+2006,5,Barranquilla,hurto_personas,134
+2006,5,Barranquilla,hurto_residencias,59
+2006,5,Barranquilla,violencia_sexual,4
+2006,5,Galapa,hurto_carros,3
+2006,5,Galapa,hurto_comercio,1
+2006,5,Malambo,hurto_motos,4
+2006,5,Malambo,hurto_personas,3
+2006,5,Malambo,hurto_residencias,1
+2006,5,Puerto Colombia,hurto_residencias,2
+2006,5,Puerto Colombia,violencia_sexual,1
 2006,5,Soledad,extorsion,1
 2006,5,Soledad,homicidio,14
+2006,5,Soledad,hurto_comercio,8
+2006,5,Soledad,hurto_motos,23
+2006,5,Soledad,hurto_personas,23
+2006,5,Soledad,hurto_residencias,6
+2006,5,Soledad,violencia_sexual,3
 2006,6,Barranquilla,extorsion,5
 2006,6,Barranquilla,homicidio,23
+2006,6,Barranquilla,hurto_carros,33
+2006,6,Barranquilla,hurto_comercio,46
+2006,6,Barranquilla,hurto_entidades,2
+2006,6,Barranquilla,hurto_motos,49
+2006,6,Barranquilla,hurto_personas,169
+2006,6,Barranquilla,hurto_residencias,47
+2006,6,Barranquilla,violencia_sexual,4
+2006,6,Galapa,hurto_carros,1
+2006,6,Galapa,hurto_motos,2
+2006,6,Galapa,hurto_personas,2
 2006,6,Malambo,homicidio,1
+2006,6,Malambo,hurto_carros,1
+2006,6,Malambo,hurto_motos,3
+2006,6,Malambo,hurto_personas,3
+2006,6,Malambo,hurto_residencias,2
 2006,6,Puerto Colombia,homicidio,3
 2006,6,Soledad,homicidio,10
+2006,6,Soledad,hurto_carros,4
+2006,6,Soledad,hurto_comercio,11
+2006,6,Soledad,hurto_motos,30
+2006,6,Soledad,hurto_personas,23
+2006,6,Soledad,hurto_residencias,4
+2006,6,Soledad,violencia_sexual,4
 2006,7,Barranquilla,extorsion,3
 2006,7,Barranquilla,homicidio,45
+2006,7,Barranquilla,hurto_carros,41
+2006,7,Barranquilla,hurto_comercio,30
+2006,7,Barranquilla,hurto_entidades,1
+2006,7,Barranquilla,hurto_motos,90
+2006,7,Barranquilla,hurto_personas,121
+2006,7,Barranquilla,hurto_residencias,35
+2006,7,Barranquilla,violencia_sexual,4
+2006,7,Galapa,hurto_carros,1
+2006,7,Galapa,hurto_motos,1
+2006,7,Galapa,hurto_personas,1
 2006,7,Malambo,homicidio,4
+2006,7,Malambo,hurto_carros,2
+2006,7,Malambo,hurto_motos,2
+2006,7,Malambo,hurto_personas,3
 2006,7,Puerto Colombia,homicidio,1
+2006,7,Puerto Colombia,hurto_residencias,1
 2006,7,Soledad,homicidio,14
+2006,7,Soledad,hurto_carros,6
+2006,7,Soledad,hurto_comercio,2
+2006,7,Soledad,hurto_motos,30
+2006,7,Soledad,hurto_personas,16
+2006,7,Soledad,hurto_residencias,7
+2006,7,Soledad,violencia_sexual,1
 2006,8,Barranquilla,extorsion,5
 2006,8,Barranquilla,homicidio,42
+2006,8,Barranquilla,hurto_carros,54
+2006,8,Barranquilla,hurto_comercio,39
+2006,8,Barranquilla,hurto_entidades,1
+2006,8,Barranquilla,hurto_motos,76
+2006,8,Barranquilla,hurto_personas,147
+2006,8,Barranquilla,hurto_residencias,25
+2006,8,Barranquilla,violencia_sexual,2
+2006,8,Galapa,hurto_motos,1
+2006,8,Galapa,hurto_personas,2
+2006,8,Galapa,hurto_residencias,2
 2006,8,Malambo,homicidio,1
+2006,8,Malambo,hurto_carros,1
+2006,8,Malambo,hurto_motos,1
+2006,8,Malambo,hurto_personas,1
 2006,8,Puerto Colombia,homicidio,1
+2006,8,Puerto Colombia,hurto_carros,1
+2006,8,Puerto Colombia,hurto_motos,2
+2006,8,Puerto Colombia,hurto_personas,2
 2006,8,Soledad,homicidio,6
+2006,8,Soledad,hurto_carros,6
+2006,8,Soledad,hurto_comercio,8
+2006,8,Soledad,hurto_motos,25
+2006,8,Soledad,hurto_personas,18
+2006,8,Soledad,hurto_residencias,2
 2006,9,Barranquilla,extorsion,2
 2006,9,Barranquilla,homicidio,30
+2006,9,Barranquilla,hurto_carros,38
+2006,9,Barranquilla,hurto_comercio,27
+2006,9,Barranquilla,hurto_entidades,2
+2006,9,Barranquilla,hurto_motos,62
+2006,9,Barranquilla,hurto_personas,139
+2006,9,Barranquilla,hurto_residencias,22
+2006,9,Barranquilla,violencia_sexual,5
+2006,9,Galapa,hurto_comercio,1
+2006,9,Galapa,hurto_personas,4
+2006,9,Galapa,hurto_residencias,1
 2006,9,Malambo,homicidio,1
+2006,9,Malambo,hurto_motos,1
+2006,9,Malambo,hurto_personas,6
+2006,9,Malambo,hurto_residencias,4
+2006,9,Malambo,violencia_sexual,1
+2006,9,Puerto Colombia,hurto_carros,1
 2006,9,Soledad,homicidio,10
+2006,9,Soledad,hurto_carros,7
+2006,9,Soledad,hurto_comercio,7
+2006,9,Soledad,hurto_motos,28
+2006,9,Soledad,hurto_personas,17
+2006,9,Soledad,hurto_residencias,4
+2006,9,Soledad,violencia_sexual,1
 2007,1,Barranquilla,homicidio,18
+2007,1,Barranquilla,hurto_carros,42
+2007,1,Barranquilla,hurto_comercio,115
+2007,1,Barranquilla,hurto_entidades,5
+2007,1,Barranquilla,hurto_motos,49
+2007,1,Barranquilla,hurto_personas,438
+2007,1,Barranquilla,hurto_residencias,60
+2007,1,Barranquilla,violencia_sexual,8
+2007,1,Galapa,hurto_residencias,1
 2007,1,Malambo,homicidio,2
+2007,1,Malambo,hurto_carros,1
+2007,1,Malambo,hurto_comercio,1
+2007,1,Malambo,hurto_motos,3
+2007,1,Malambo,hurto_personas,6
+2007,1,Malambo,hurto_residencias,3
 2007,1,Puerto Colombia,extorsion,1
 2007,1,Soledad,homicidio,10
+2007,1,Soledad,hurto_carros,6
+2007,1,Soledad,hurto_comercio,10
+2007,1,Soledad,hurto_motos,23
+2007,1,Soledad,hurto_personas,55
+2007,1,Soledad,hurto_residencias,10
+2007,1,Soledad,violencia_sexual,3
 2007,10,Barranquilla,extorsion,1
 2007,10,Barranquilla,homicidio,26
+2007,10,Barranquilla,hurto_carros,25
+2007,10,Barranquilla,hurto_comercio,52
+2007,10,Barranquilla,hurto_entidades,3
+2007,10,Barranquilla,hurto_motos,46
+2007,10,Barranquilla,hurto_personas,412
+2007,10,Barranquilla,hurto_residencias,52
+2007,10,Barranquilla,violencia_sexual,6
 2007,10,Malambo,homicidio,2
+2007,10,Malambo,hurto_carros,2
+2007,10,Malambo,hurto_comercio,1
+2007,10,Malambo,hurto_motos,2
+2007,10,Malambo,hurto_personas,7
+2007,10,Malambo,violencia_sexual,1
+2007,10,Puerto Colombia,hurto_comercio,1
+2007,10,Puerto Colombia,hurto_personas,3
+2007,10,Puerto Colombia,hurto_residencias,2
 2007,10,Soledad,homicidio,8
+2007,10,Soledad,hurto_carros,4
+2007,10,Soledad,hurto_comercio,8
+2007,10,Soledad,hurto_motos,38
+2007,10,Soledad,hurto_personas,72
+2007,10,Soledad,hurto_residencias,11
+2007,10,Soledad,violencia_sexual,5
 2007,11,Barranquilla,extorsion,3
 2007,11,Barranquilla,homicidio,35
+2007,11,Barranquilla,hurto_carros,24
+2007,11,Barranquilla,hurto_comercio,58
+2007,11,Barranquilla,hurto_entidades,3
+2007,11,Barranquilla,hurto_motos,68
+2007,11,Barranquilla,hurto_personas,229
+2007,11,Barranquilla,hurto_residencias,42
+2007,11,Barranquilla,violencia_sexual,5
+2007,11,Galapa,hurto_motos,2
+2007,11,Galapa,hurto_personas,1
 2007,11,Malambo,homicidio,2
+2007,11,Malambo,hurto_motos,1
+2007,11,Malambo,hurto_personas,2
+2007,11,Malambo,hurto_residencias,2
+2007,11,Malambo,violencia_sexual,1
 2007,11,Puerto Colombia,homicidio,1
+2007,11,Puerto Colombia,hurto_personas,1
+2007,11,Puerto Colombia,hurto_residencias,1
 2007,11,Soledad,homicidio,8
+2007,11,Soledad,hurto_comercio,4
+2007,11,Soledad,hurto_motos,16
+2007,11,Soledad,hurto_personas,28
+2007,11,Soledad,hurto_residencias,8
 2007,12,Barranquilla,extorsion,1
 2007,12,Barranquilla,homicidio,25
+2007,12,Barranquilla,hurto_carros,22
+2007,12,Barranquilla,hurto_comercio,40
+2007,12,Barranquilla,hurto_entidades,1
+2007,12,Barranquilla,hurto_motos,48
+2007,12,Barranquilla,hurto_personas,179
+2007,12,Barranquilla,hurto_residencias,27
+2007,12,Barranquilla,violencia_sexual,3
+2007,12,Malambo,hurto_motos,4
+2007,12,Malambo,hurto_personas,1
+2007,12,Malambo,hurto_residencias,2
 2007,12,Soledad,homicidio,15
+2007,12,Soledad,hurto_carros,2
+2007,12,Soledad,hurto_comercio,6
+2007,12,Soledad,hurto_motos,13
+2007,12,Soledad,hurto_personas,16
+2007,12,Soledad,hurto_residencias,2
 2007,2,Barranquilla,extorsion,3
 2007,2,Barranquilla,homicidio,27
+2007,2,Barranquilla,hurto_carros,28
+2007,2,Barranquilla,hurto_comercio,82
+2007,2,Barranquilla,hurto_entidades,3
+2007,2,Barranquilla,hurto_motos,61
+2007,2,Barranquilla,hurto_personas,346
+2007,2,Barranquilla,hurto_residencias,73
+2007,2,Barranquilla,violencia_sexual,8
 2007,2,Galapa,homicidio,2
+2007,2,Galapa,hurto_personas,2
+2007,2,Galapa,hurto_residencias,1
+2007,2,Malambo,hurto_comercio,1
+2007,2,Malambo,hurto_motos,1
+2007,2,Malambo,hurto_personas,2
+2007,2,Malambo,hurto_residencias,2
+2007,2,Malambo,violencia_sexual,1
+2007,2,Puerto Colombia,hurto_comercio,2
+2007,2,Puerto Colombia,hurto_personas,3
 2007,2,Soledad,homicidio,3
+2007,2,Soledad,hurto_carros,3
+2007,2,Soledad,hurto_comercio,7
+2007,2,Soledad,hurto_motos,12
+2007,2,Soledad,hurto_personas,49
+2007,2,Soledad,hurto_residencias,14
+2007,2,Soledad,violencia_sexual,1
 2007,3,Barranquilla,extorsion,2
 2007,3,Barranquilla,homicidio,31
+2007,3,Barranquilla,hurto_carros,36
+2007,3,Barranquilla,hurto_comercio,88
+2007,3,Barranquilla,hurto_entidades,1
+2007,3,Barranquilla,hurto_motos,78
+2007,3,Barranquilla,hurto_personas,223
+2007,3,Barranquilla,hurto_residencias,55
+2007,3,Barranquilla,violencia_sexual,3
 2007,3,Malambo,homicidio,2
+2007,3,Malambo,hurto_motos,1
+2007,3,Malambo,hurto_personas,2
+2007,3,Puerto Colombia,hurto_carros,2
+2007,3,Puerto Colombia,hurto_residencias,2
 2007,3,Soledad,homicidio,5
+2007,3,Soledad,hurto_carros,7
+2007,3,Soledad,hurto_comercio,8
+2007,3,Soledad,hurto_motos,36
+2007,3,Soledad,hurto_personas,42
+2007,3,Soledad,hurto_residencias,8
+2007,3,Soledad,violencia_sexual,2
 2007,4,Barranquilla,extorsion,5
 2007,4,Barranquilla,homicidio,30
+2007,4,Barranquilla,hurto_carros,32
+2007,4,Barranquilla,hurto_comercio,78
+2007,4,Barranquilla,hurto_motos,73
+2007,4,Barranquilla,hurto_personas,190
+2007,4,Barranquilla,hurto_residencias,42
+2007,4,Malambo,hurto_comercio,1
+2007,4,Malambo,hurto_motos,1
+2007,4,Malambo,hurto_personas,6
+2007,4,Puerto Colombia,hurto_residencias,1
 2007,4,Soledad,homicidio,12
+2007,4,Soledad,hurto_carros,5
+2007,4,Soledad,hurto_comercio,7
+2007,4,Soledad,hurto_motos,29
+2007,4,Soledad,hurto_personas,21
+2007,4,Soledad,hurto_residencias,6
 2007,5,Barranquilla,extorsion,2
 2007,5,Barranquilla,homicidio,36
+2007,5,Barranquilla,hurto_carros,31
+2007,5,Barranquilla,hurto_comercio,49
+2007,5,Barranquilla,hurto_entidades,1
+2007,5,Barranquilla,hurto_motos,66
+2007,5,Barranquilla,hurto_personas,100
+2007,5,Barranquilla,hurto_residencias,41
+2007,5,Barranquilla,violencia_sexual,1
+2007,5,Galapa,hurto_motos,2
+2007,5,Galapa,violencia_sexual,1
 2007,5,Malambo,homicidio,3
+2007,5,Malambo,hurto_carros,3
+2007,5,Malambo,hurto_motos,1
+2007,5,Malambo,hurto_personas,2
+2007,5,Malambo,violencia_sexual,2
 2007,5,Soledad,homicidio,7
+2007,5,Soledad,hurto_carros,5
+2007,5,Soledad,hurto_comercio,4
+2007,5,Soledad,hurto_motos,17
+2007,5,Soledad,hurto_personas,13
+2007,5,Soledad,hurto_residencias,3
 2007,6,Barranquilla,extorsion,2
 2007,6,Barranquilla,homicidio,24
+2007,6,Barranquilla,hurto_carros,39
+2007,6,Barranquilla,hurto_comercio,45
+2007,6,Barranquilla,hurto_entidades,2
+2007,6,Barranquilla,hurto_motos,56
+2007,6,Barranquilla,hurto_personas,128
+2007,6,Barranquilla,hurto_residencias,39
+2007,6,Barranquilla,violencia_sexual,6
 2007,6,Galapa,extorsion,1
+2007,6,Galapa,hurto_comercio,1
+2007,6,Galapa,hurto_personas,1
 2007,6,Malambo,homicidio,4
+2007,6,Malambo,hurto_motos,4
+2007,6,Malambo,hurto_personas,6
+2007,6,Malambo,hurto_residencias,3
 2007,6,Soledad,homicidio,11
+2007,6,Soledad,hurto_carros,4
+2007,6,Soledad,hurto_comercio,6
+2007,6,Soledad,hurto_motos,21
+2007,6,Soledad,hurto_personas,22
+2007,6,Soledad,hurto_residencias,1
+2007,6,Soledad,violencia_sexual,2
 2007,7,Barranquilla,extorsion,3
 2007,7,Barranquilla,homicidio,33
+2007,7,Barranquilla,hurto_carros,40
+2007,7,Barranquilla,hurto_comercio,36
+2007,7,Barranquilla,hurto_entidades,1
+2007,7,Barranquilla,hurto_motos,60
+2007,7,Barranquilla,hurto_personas,161
+2007,7,Barranquilla,hurto_residencias,47
+2007,7,Barranquilla,violencia_sexual,4
 2007,7,Galapa,homicidio,1
+2007,7,Galapa,hurto_carros,2
 2007,7,Malambo,extorsion,1
 2007,7,Malambo,homicidio,3
+2007,7,Malambo,hurto_carros,1
+2007,7,Malambo,hurto_comercio,1
+2007,7,Malambo,hurto_motos,1
+2007,7,Malambo,hurto_personas,1
+2007,7,Malambo,hurto_residencias,2
 2007,7,Puerto Colombia,homicidio,1
+2007,7,Puerto Colombia,hurto_comercio,1
+2007,7,Puerto Colombia,hurto_residencias,1
 2007,7,Soledad,homicidio,7
+2007,7,Soledad,hurto_carros,3
+2007,7,Soledad,hurto_comercio,6
+2007,7,Soledad,hurto_motos,19
+2007,7,Soledad,hurto_personas,21
+2007,7,Soledad,hurto_residencias,4
 2007,8,Barranquilla,extorsion,2
 2007,8,Barranquilla,homicidio,19
+2007,8,Barranquilla,hurto_carros,32
+2007,8,Barranquilla,hurto_comercio,37
+2007,8,Barranquilla,hurto_motos,61
+2007,8,Barranquilla,hurto_personas,147
+2007,8,Barranquilla,hurto_residencias,30
+2007,8,Barranquilla,violencia_sexual,6
 2007,8,Galapa,homicidio,1
+2007,8,Galapa,hurto_carros,1
+2007,8,Galapa,hurto_personas,1
+2007,8,Malambo,hurto_carros,1
+2007,8,Malambo,hurto_comercio,1
+2007,8,Malambo,hurto_motos,5
+2007,8,Malambo,hurto_personas,2
 2007,8,Puerto Colombia,homicidio,1
+2007,8,Puerto Colombia,hurto_comercio,2
+2007,8,Puerto Colombia,hurto_motos,1
+2007,8,Puerto Colombia,hurto_residencias,2
 2007,8,Soledad,homicidio,5
+2007,8,Soledad,hurto_carros,6
+2007,8,Soledad,hurto_comercio,7
+2007,8,Soledad,hurto_motos,18
+2007,8,Soledad,hurto_personas,22
+2007,8,Soledad,hurto_residencias,8
+2007,8,Soledad,violencia_sexual,1
 2007,9,Barranquilla,homicidio,35
+2007,9,Barranquilla,hurto_carros,45
+2007,9,Barranquilla,hurto_comercio,43
+2007,9,Barranquilla,hurto_motos,56
+2007,9,Barranquilla,hurto_personas,170
+2007,9,Barranquilla,hurto_residencias,20
+2007,9,Barranquilla,violencia_sexual,3
+2007,9,Galapa,hurto_carros,1
+2007,9,Galapa,violencia_sexual,2
+2007,9,Malambo,hurto_carros,1
+2007,9,Malambo,hurto_personas,2
 2007,9,Puerto Colombia,homicidio,2
+2007,9,Puerto Colombia,hurto_comercio,1
+2007,9,Puerto Colombia,hurto_personas,2
+2007,9,Puerto Colombia,hurto_residencias,1
 2007,9,Soledad,homicidio,3
+2007,9,Soledad,hurto_carros,2
+2007,9,Soledad,hurto_comercio,5
+2007,9,Soledad,hurto_motos,20
+2007,9,Soledad,hurto_personas,13
+2007,9,Soledad,hurto_residencias,2
+2007,9,Soledad,violencia_sexual,1
 2008,1,Barranquilla,homicidio,18
+2008,1,Barranquilla,hurto_carros,19
+2008,1,Barranquilla,hurto_comercio,76
+2008,1,Barranquilla,hurto_entidades,2
+2008,1,Barranquilla,hurto_motos,84
+2008,1,Barranquilla,hurto_personas,353
+2008,1,Barranquilla,hurto_residencias,44
+2008,1,Barranquilla,violencia_sexual,4
+2008,1,Galapa,hurto_carros,1
+2008,1,Galapa,hurto_personas,1
+2008,1,Malambo,hurto_comercio,2
+2008,1,Malambo,hurto_motos,1
+2008,1,Malambo,hurto_personas,14
+2008,1,Puerto Colombia,hurto_comercio,1
+2008,1,Puerto Colombia,hurto_residencias,2
 2008,1,Soledad,homicidio,9
+2008,1,Soledad,hurto_carros,3
+2008,1,Soledad,hurto_comercio,9
+2008,1,Soledad,hurto_motos,52
+2008,1,Soledad,hurto_personas,63
+2008,1,Soledad,hurto_residencias,8
 2008,10,Barranquilla,homicidio,27
+2008,10,Barranquilla,hurto_carros,27
+2008,10,Barranquilla,hurto_comercio,44
+2008,10,Barranquilla,hurto_entidades,3
+2008,10,Barranquilla,hurto_motos,71
+2008,10,Barranquilla,hurto_personas,314
+2008,10,Barranquilla,hurto_residencias,32
+2008,10,Barranquilla,violencia_sexual,8
+2008,10,Galapa,hurto_carros,1
+2008,10,Galapa,hurto_motos,1
 2008,10,Malambo,homicidio,2
+2008,10,Malambo,hurto_carros,1
+2008,10,Malambo,hurto_motos,5
+2008,10,Malambo,hurto_personas,6
+2008,10,Malambo,hurto_residencias,3
+2008,10,Malambo,violencia_sexual,2
+2008,10,Puerto Colombia,hurto_personas,1
+2008,10,Puerto Colombia,violencia_sexual,1
 2008,10,Soledad,homicidio,3
+2008,10,Soledad,hurto_carros,6
+2008,10,Soledad,hurto_comercio,5
+2008,10,Soledad,hurto_motos,13
+2008,10,Soledad,hurto_personas,25
+2008,10,Soledad,hurto_residencias,3
+2008,10,Soledad,violencia_sexual,2
 2008,11,Barranquilla,homicidio,28
+2008,11,Barranquilla,hurto_carros,27
+2008,11,Barranquilla,hurto_comercio,35
+2008,11,Barranquilla,hurto_entidades,2
+2008,11,Barranquilla,hurto_motos,59
+2008,11,Barranquilla,hurto_personas,304
+2008,11,Barranquilla,hurto_residencias,50
+2008,11,Barranquilla,violencia_sexual,5
 2008,11,Galapa,homicidio,1
+2008,11,Galapa,hurto_motos,1
+2008,11,Galapa,hurto_personas,1
 2008,11,Malambo,homicidio,3
+2008,11,Malambo,hurto_carros,1
+2008,11,Malambo,hurto_comercio,2
+2008,11,Malambo,hurto_motos,3
+2008,11,Malambo,hurto_personas,5
+2008,11,Malambo,hurto_residencias,2
+2008,11,Malambo,violencia_sexual,1
+2008,11,Puerto Colombia,hurto_carros,1
+2008,11,Puerto Colombia,hurto_personas,2
 2008,11,Soledad,homicidio,6
+2008,11,Soledad,hurto_carros,5
+2008,11,Soledad,hurto_comercio,7
+2008,11,Soledad,hurto_motos,25
+2008,11,Soledad,hurto_personas,57
+2008,11,Soledad,hurto_residencias,8
+2008,11,Soledad,violencia_sexual,1
 2008,12,Barranquilla,extorsion,1
 2008,12,Barranquilla,homicidio,31
+2008,12,Barranquilla,hurto_carros,36
+2008,12,Barranquilla,hurto_comercio,36
+2008,12,Barranquilla,hurto_motos,46
+2008,12,Barranquilla,hurto_personas,407
+2008,12,Barranquilla,hurto_residencias,35
+2008,12,Barranquilla,violencia_sexual,3
 2008,12,Galapa,homicidio,1
+2008,12,Galapa,hurto_motos,1
+2008,12,Galapa,violencia_sexual,1
 2008,12,Malambo,homicidio,2
+2008,12,Malambo,hurto_carros,2
+2008,12,Malambo,hurto_motos,6
+2008,12,Malambo,hurto_personas,10
+2008,12,Malambo,hurto_residencias,1
+2008,12,Malambo,violencia_sexual,1
+2008,12,Puerto Colombia,hurto_carros,2
+2008,12,Puerto Colombia,hurto_comercio,1
+2008,12,Puerto Colombia,hurto_motos,1
 2008,12,Soledad,homicidio,4
+2008,12,Soledad,hurto_carros,11
+2008,12,Soledad,hurto_comercio,3
+2008,12,Soledad,hurto_motos,15
+2008,12,Soledad,hurto_personas,70
+2008,12,Soledad,hurto_residencias,9
+2008,12,Soledad,violencia_sexual,3
 2008,2,Barranquilla,extorsion,1
 2008,2,Barranquilla,homicidio,25
+2008,2,Barranquilla,hurto_carros,43
+2008,2,Barranquilla,hurto_comercio,70
+2008,2,Barranquilla,hurto_entidades,1
+2008,2,Barranquilla,hurto_motos,88
+2008,2,Barranquilla,hurto_personas,419
+2008,2,Barranquilla,hurto_residencias,68
+2008,2,Barranquilla,violencia_sexual,2
+2008,2,Galapa,hurto_carros,1
 2008,2,Malambo,homicidio,5
+2008,2,Malambo,hurto_comercio,8
+2008,2,Malambo,hurto_motos,1
+2008,2,Malambo,hurto_personas,20
+2008,2,Malambo,hurto_residencias,3
+2008,2,Malambo,violencia_sexual,1
+2008,2,Puerto Colombia,hurto_carros,1
+2008,2,Puerto Colombia,hurto_comercio,1
 2008,2,Soledad,homicidio,12
+2008,2,Soledad,hurto_carros,1
+2008,2,Soledad,hurto_comercio,7
+2008,2,Soledad,hurto_motos,40
+2008,2,Soledad,hurto_personas,51
+2008,2,Soledad,hurto_residencias,1
+2008,2,Soledad,violencia_sexual,2
 2008,3,Barranquilla,extorsion,1
 2008,3,Barranquilla,homicidio,22
+2008,3,Barranquilla,hurto_carros,29
+2008,3,Barranquilla,hurto_comercio,75
+2008,3,Barranquilla,hurto_entidades,3
+2008,3,Barranquilla,hurto_motos,71
+2008,3,Barranquilla,hurto_personas,484
+2008,3,Barranquilla,hurto_residencias,53
+2008,3,Barranquilla,violencia_sexual,2
 2008,3,Galapa,homicidio,1
+2008,3,Galapa,hurto_personas,1
 2008,3,Malambo,homicidio,2
+2008,3,Malambo,hurto_carros,1
+2008,3,Malambo,hurto_comercio,2
+2008,3,Malambo,hurto_motos,1
+2008,3,Malambo,hurto_personas,19
+2008,3,Malambo,hurto_residencias,2
+2008,3,Malambo,violencia_sexual,1
+2008,3,Puerto Colombia,hurto_personas,3
+2008,3,Puerto Colombia,hurto_residencias,1
+2008,3,Puerto Colombia,violencia_sexual,1
 2008,3,Soledad,homicidio,6
+2008,3,Soledad,hurto_carros,2
+2008,3,Soledad,hurto_comercio,6
+2008,3,Soledad,hurto_motos,38
+2008,3,Soledad,hurto_personas,62
+2008,3,Soledad,hurto_residencias,7
 2008,4,Barranquilla,extorsion,1
 2008,4,Barranquilla,homicidio,28
+2008,4,Barranquilla,hurto_carros,36
+2008,4,Barranquilla,hurto_comercio,79
+2008,4,Barranquilla,hurto_entidades,6
+2008,4,Barranquilla,hurto_motos,66
+2008,4,Barranquilla,hurto_personas,446
+2008,4,Barranquilla,hurto_residencias,56
+2008,4,Barranquilla,violencia_sexual,3
+2008,4,Malambo,hurto_carros,3
+2008,4,Malambo,hurto_comercio,2
+2008,4,Malambo,hurto_motos,5
+2008,4,Malambo,hurto_personas,21
+2008,4,Malambo,hurto_residencias,2
+2008,4,Malambo,violencia_sexual,1
+2008,4,Puerto Colombia,hurto_personas,2
 2008,4,Soledad,homicidio,4
+2008,4,Soledad,hurto_carros,3
+2008,4,Soledad,hurto_comercio,3
+2008,4,Soledad,hurto_motos,30
+2008,4,Soledad,hurto_personas,71
+2008,4,Soledad,hurto_residencias,2
+2008,4,Soledad,violencia_sexual,1
 2008,5,Barranquilla,extorsion,1
 2008,5,Barranquilla,homicidio,34
+2008,5,Barranquilla,hurto_carros,24
+2008,5,Barranquilla,hurto_comercio,48
+2008,5,Barranquilla,hurto_entidades,3
+2008,5,Barranquilla,hurto_motos,60
+2008,5,Barranquilla,hurto_personas,399
+2008,5,Barranquilla,hurto_residencias,45
+2008,5,Barranquilla,violencia_sexual,4
+2008,5,Galapa,hurto_motos,1
+2008,5,Galapa,hurto_personas,2
 2008,5,Malambo,homicidio,1
+2008,5,Malambo,hurto_comercio,1
+2008,5,Malambo,hurto_motos,5
+2008,5,Malambo,hurto_personas,12
+2008,5,Malambo,hurto_residencias,3
+2008,5,Malambo,violencia_sexual,1
 2008,5,Puerto Colombia,homicidio,1
+2008,5,Puerto Colombia,hurto_motos,1
+2008,5,Puerto Colombia,hurto_personas,2
 2008,5,Soledad,homicidio,9
+2008,5,Soledad,hurto_carros,4
+2008,5,Soledad,hurto_comercio,5
+2008,5,Soledad,hurto_motos,37
+2008,5,Soledad,hurto_personas,78
+2008,5,Soledad,hurto_residencias,4
+2008,5,Soledad,violencia_sexual,2
 2008,6,Barranquilla,extorsion,2
 2008,6,Barranquilla,homicidio,25
+2008,6,Barranquilla,hurto_carros,18
+2008,6,Barranquilla,hurto_comercio,65
+2008,6,Barranquilla,hurto_entidades,3
+2008,6,Barranquilla,hurto_motos,56
+2008,6,Barranquilla,hurto_personas,397
+2008,6,Barranquilla,hurto_residencias,48
+2008,6,Barranquilla,violencia_sexual,2
+2008,6,Galapa,hurto_personas,1
+2008,6,Malambo,hurto_comercio,4
+2008,6,Malambo,hurto_motos,1
+2008,6,Malambo,hurto_personas,9
+2008,6,Malambo,hurto_residencias,1
 2008,6,Puerto Colombia,homicidio,1
+2008,6,Puerto Colombia,hurto_motos,1
+2008,6,Puerto Colombia,hurto_personas,1
 2008,6,Soledad,homicidio,10
+2008,6,Soledad,hurto_carros,2
+2008,6,Soledad,hurto_comercio,5
+2008,6,Soledad,hurto_motos,30
+2008,6,Soledad,hurto_personas,49
+2008,6,Soledad,hurto_residencias,6
+2008,6,Soledad,violencia_sexual,1
 2008,7,Barranquilla,extorsion,1
 2008,7,Barranquilla,homicidio,23
+2008,7,Barranquilla,hurto_carros,23
+2008,7,Barranquilla,hurto_comercio,85
+2008,7,Barranquilla,hurto_entidades,3
+2008,7,Barranquilla,hurto_motos,67
+2008,7,Barranquilla,hurto_personas,354
+2008,7,Barranquilla,hurto_residencias,26
+2008,7,Barranquilla,violencia_sexual,2
 2008,7,Galapa,homicidio,3
+2008,7,Galapa,hurto_personas,3
 2008,7,Malambo,homicidio,1
+2008,7,Malambo,hurto_carros,1
+2008,7,Malambo,hurto_motos,5
+2008,7,Malambo,hurto_personas,7
 2008,7,Puerto Colombia,homicidio,2
+2008,7,Puerto Colombia,hurto_carros,2
+2008,7,Puerto Colombia,hurto_personas,2
 2008,7,Soledad,homicidio,5
+2008,7,Soledad,hurto_carros,6
+2008,7,Soledad,hurto_comercio,6
+2008,7,Soledad,hurto_motos,28
+2008,7,Soledad,hurto_personas,64
+2008,7,Soledad,hurto_residencias,1
+2008,7,Soledad,violencia_sexual,1
 2008,8,Barranquilla,homicidio,28
+2008,8,Barranquilla,hurto_carros,31
+2008,8,Barranquilla,hurto_comercio,53
+2008,8,Barranquilla,hurto_motos,60
+2008,8,Barranquilla,hurto_personas,341
+2008,8,Barranquilla,hurto_residencias,56
+2008,8,Galapa,hurto_carros,1
+2008,8,Galapa,hurto_motos,1
 2008,8,Malambo,homicidio,1
+2008,8,Malambo,hurto_comercio,3
+2008,8,Malambo,hurto_motos,10
+2008,8,Malambo,hurto_personas,5
+2008,8,Puerto Colombia,hurto_motos,3
+2008,8,Puerto Colombia,hurto_personas,1
 2008,8,Soledad,homicidio,5
+2008,8,Soledad,hurto_carros,2
+2008,8,Soledad,hurto_comercio,5
+2008,8,Soledad,hurto_motos,25
+2008,8,Soledad,hurto_personas,52
+2008,8,Soledad,hurto_residencias,7
+2008,8,Soledad,violencia_sexual,2
 2008,9,Barranquilla,homicidio,20
+2008,9,Barranquilla,hurto_carros,26
+2008,9,Barranquilla,hurto_comercio,59
+2008,9,Barranquilla,hurto_motos,64
+2008,9,Barranquilla,hurto_personas,345
+2008,9,Barranquilla,hurto_residencias,37
+2008,9,Barranquilla,violencia_sexual,7
 2008,9,Galapa,homicidio,1
+2008,9,Galapa,hurto_motos,5
+2008,9,Galapa,hurto_personas,1
 2008,9,Malambo,homicidio,3
+2008,9,Malambo,hurto_carros,1
+2008,9,Malambo,hurto_motos,5
+2008,9,Malambo,hurto_personas,3
 2008,9,Puerto Colombia,homicidio,1
+2008,9,Puerto Colombia,hurto_motos,1
 2008,9,Soledad,homicidio,5
+2008,9,Soledad,hurto_carros,4
+2008,9,Soledad,hurto_comercio,1
+2008,9,Soledad,hurto_motos,36
+2008,9,Soledad,hurto_personas,48
+2008,9,Soledad,hurto_residencias,1
+2008,9,Soledad,violencia_sexual,3
 2009,1,Barranquilla,extorsion,4
 2009,1,Barranquilla,homicidio,25
+2009,1,Barranquilla,hurto_carros,35
+2009,1,Barranquilla,hurto_comercio,57
+2009,1,Barranquilla,hurto_motos,55
+2009,1,Barranquilla,hurto_personas,432
+2009,1,Barranquilla,hurto_residencias,41
+2009,1,Barranquilla,violencia_sexual,17
+2009,1,Galapa,hurto_comercio,3
+2009,1,Galapa,hurto_personas,1
+2009,1,Malambo,hurto_carros,1
+2009,1,Malambo,hurto_comercio,3
+2009,1,Malambo,hurto_motos,3
+2009,1,Malambo,hurto_personas,13
+2009,1,Malambo,violencia_sexual,2
+2009,1,Puerto Colombia,hurto_carros,1
+2009,1,Puerto Colombia,hurto_personas,1
 2009,1,Soledad,homicidio,7
+2009,1,Soledad,hurto_carros,7
+2009,1,Soledad,hurto_comercio,6
+2009,1,Soledad,hurto_motos,37
+2009,1,Soledad,hurto_personas,72
+2009,1,Soledad,hurto_residencias,10
+2009,1,Soledad,violencia_sexual,7
 2009,10,Barranquilla,extorsion,3
 2009,10,Barranquilla,homicidio,31
+2009,10,Barranquilla,hurto_carros,17
+2009,10,Barranquilla,hurto_comercio,31
+2009,10,Barranquilla,hurto_entidades,1
+2009,10,Barranquilla,hurto_motos,64
+2009,10,Barranquilla,hurto_personas,334
+2009,10,Barranquilla,hurto_residencias,23
+2009,10,Barranquilla,violencia_sexual,10
 2009,10,Galapa,homicidio,1
+2009,10,Galapa,hurto_personas,1
+2009,10,Galapa,hurto_residencias,1
 2009,10,Malambo,homicidio,1
+2009,10,Malambo,hurto_carros,1
+2009,10,Malambo,hurto_comercio,1
+2009,10,Malambo,hurto_motos,4
+2009,10,Malambo,hurto_personas,2
+2009,10,Malambo,hurto_residencias,1
 2009,10,Puerto Colombia,homicidio,1
+2009,10,Puerto Colombia,hurto_motos,1
+2009,10,Puerto Colombia,hurto_personas,1
 2009,10,Soledad,homicidio,8
+2009,10,Soledad,hurto_carros,4
+2009,10,Soledad,hurto_comercio,3
+2009,10,Soledad,hurto_motos,29
+2009,10,Soledad,hurto_personas,27
+2009,10,Soledad,hurto_residencias,3
+2009,10,Soledad,violencia_sexual,2
 2009,11,Barranquilla,extorsion,3
 2009,11,Barranquilla,homicidio,35
+2009,11,Barranquilla,hurto_carros,17
+2009,11,Barranquilla,hurto_comercio,23
+2009,11,Barranquilla,hurto_entidades,1
+2009,11,Barranquilla,hurto_motos,64
+2009,11,Barranquilla,hurto_personas,291
+2009,11,Barranquilla,hurto_residencias,29
+2009,11,Barranquilla,violencia_sexual,6
 2009,11,Galapa,homicidio,1
+2009,11,Galapa,hurto_carros,2
+2009,11,Galapa,hurto_motos,1
+2009,11,Galapa,violencia_sexual,1
 2009,11,Malambo,homicidio,4
+2009,11,Malambo,hurto_carros,1
+2009,11,Malambo,hurto_motos,11
+2009,11,Malambo,hurto_personas,1
 2009,11,Puerto Colombia,homicidio,1
+2009,11,Puerto Colombia,hurto_personas,2
+2009,11,Puerto Colombia,violencia_sexual,2
 2009,11,Soledad,homicidio,8
+2009,11,Soledad,hurto_carros,7
+2009,11,Soledad,hurto_comercio,3
+2009,11,Soledad,hurto_motos,27
+2009,11,Soledad,hurto_personas,21
+2009,11,Soledad,hurto_residencias,4
+2009,11,Soledad,violencia_sexual,7
 2009,12,Barranquilla,extorsion,1
 2009,12,Barranquilla,homicidio,19
+2009,12,Barranquilla,hurto_carros,24
+2009,12,Barranquilla,hurto_comercio,35
+2009,12,Barranquilla,hurto_entidades,2
+2009,12,Barranquilla,hurto_motos,64
+2009,12,Barranquilla,hurto_personas,254
+2009,12,Barranquilla,hurto_residencias,35
+2009,12,Barranquilla,violencia_sexual,6
 2009,12,Galapa,homicidio,2
+2009,12,Galapa,hurto_motos,2
+2009,12,Galapa,hurto_personas,1
 2009,12,Malambo,homicidio,5
+2009,12,Malambo,hurto_carros,1
+2009,12,Malambo,hurto_motos,5
+2009,12,Malambo,hurto_personas,4
 2009,12,Puerto Colombia,homicidio,3
+2009,12,Puerto Colombia,hurto_personas,2
 2009,12,Soledad,homicidio,4
+2009,12,Soledad,hurto_carros,5
+2009,12,Soledad,hurto_comercio,7
+2009,12,Soledad,hurto_motos,24
+2009,12,Soledad,hurto_personas,24
+2009,12,Soledad,hurto_residencias,5
+2009,12,Soledad,violencia_sexual,2
 2009,2,Barranquilla,extorsion,2
 2009,2,Barranquilla,homicidio,29
+2009,2,Barranquilla,hurto_carros,19
+2009,2,Barranquilla,hurto_comercio,66
+2009,2,Barranquilla,hurto_entidades,1
+2009,2,Barranquilla,hurto_motos,46
+2009,2,Barranquilla,hurto_personas,322
+2009,2,Barranquilla,hurto_residencias,51
+2009,2,Barranquilla,violencia_sexual,22
+2009,2,Galapa,hurto_carros,2
+2009,2,Galapa,hurto_comercio,1
+2009,2,Galapa,hurto_personas,3
+2009,2,Galapa,hurto_residencias,1
+2009,2,Galapa,violencia_sexual,1
 2009,2,Malambo,homicidio,1
+2009,2,Malambo,hurto_carros,1
+2009,2,Malambo,hurto_comercio,1
+2009,2,Malambo,hurto_motos,4
+2009,2,Malambo,hurto_personas,9
+2009,2,Malambo,violencia_sexual,3
 2009,2,Puerto Colombia,homicidio,1
+2009,2,Puerto Colombia,hurto_personas,3
+2009,2,Puerto Colombia,hurto_residencias,2
 2009,2,Soledad,homicidio,7
+2009,2,Soledad,hurto_carros,9
+2009,2,Soledad,hurto_comercio,8
+2009,2,Soledad,hurto_motos,21
+2009,2,Soledad,hurto_personas,60
+2009,2,Soledad,hurto_residencias,4
+2009,2,Soledad,violencia_sexual,8
 2009,3,Barranquilla,homicidio,26
+2009,3,Barranquilla,hurto_carros,25
+2009,3,Barranquilla,hurto_comercio,71
+2009,3,Barranquilla,hurto_entidades,1
+2009,3,Barranquilla,hurto_motos,55
+2009,3,Barranquilla,hurto_personas,324
+2009,3,Barranquilla,hurto_residencias,41
+2009,3,Barranquilla,violencia_sexual,10
+2009,3,Galapa,hurto_personas,1
+2009,3,Galapa,violencia_sexual,1
+2009,3,Malambo,hurto_carros,1
+2009,3,Malambo,hurto_comercio,3
+2009,3,Malambo,hurto_motos,3
+2009,3,Malambo,hurto_personas,8
+2009,3,Malambo,hurto_residencias,1
 2009,3,Soledad,homicidio,4
+2009,3,Soledad,hurto_carros,2
+2009,3,Soledad,hurto_comercio,4
+2009,3,Soledad,hurto_motos,15
+2009,3,Soledad,hurto_personas,65
+2009,3,Soledad,hurto_residencias,6
+2009,3,Soledad,violencia_sexual,9
 2009,4,Barranquilla,extorsion,2
 2009,4,Barranquilla,homicidio,22
+2009,4,Barranquilla,hurto_carros,26
+2009,4,Barranquilla,hurto_comercio,55
+2009,4,Barranquilla,hurto_entidades,1
+2009,4,Barranquilla,hurto_motos,39
+2009,4,Barranquilla,hurto_personas,296
+2009,4,Barranquilla,hurto_residencias,25
+2009,4,Barranquilla,violencia_sexual,10
+2009,4,Galapa,hurto_comercio,1
+2009,4,Galapa,hurto_personas,1
+2009,4,Galapa,violencia_sexual,1
 2009,4,Malambo,homicidio,3
+2009,4,Malambo,hurto_comercio,1
+2009,4,Malambo,hurto_motos,4
+2009,4,Malambo,hurto_personas,4
+2009,4,Malambo,hurto_residencias,1
+2009,4,Puerto Colombia,hurto_personas,2
+2009,4,Puerto Colombia,violencia_sexual,1
 2009,4,Soledad,homicidio,6
+2009,4,Soledad,hurto_carros,5
+2009,4,Soledad,hurto_comercio,4
+2009,4,Soledad,hurto_motos,16
+2009,4,Soledad,hurto_personas,43
+2009,4,Soledad,hurto_residencias,7
+2009,4,Soledad,violencia_sexual,10
 2009,5,Barranquilla,extorsion,4
 2009,5,Barranquilla,homicidio,27
+2009,5,Barranquilla,hurto_carros,18
+2009,5,Barranquilla,hurto_comercio,14
+2009,5,Barranquilla,hurto_motos,46
+2009,5,Barranquilla,hurto_personas,283
+2009,5,Barranquilla,hurto_residencias,21
+2009,5,Barranquilla,violencia_sexual,20
 2009,5,Galapa,homicidio,1
+2009,5,Galapa,hurto_motos,1
+2009,5,Galapa,hurto_personas,1
+2009,5,Galapa,hurto_residencias,1
 2009,5,Malambo,homicidio,2
+2009,5,Malambo,hurto_carros,1
+2009,5,Malambo,hurto_comercio,1
+2009,5,Malambo,hurto_motos,7
+2009,5,Malambo,hurto_personas,5
+2009,5,Malambo,violencia_sexual,2
 2009,5,Puerto Colombia,homicidio,2
+2009,5,Puerto Colombia,hurto_carros,1
+2009,5,Puerto Colombia,hurto_comercio,1
+2009,5,Puerto Colombia,hurto_personas,4
+2009,5,Puerto Colombia,violencia_sexual,1
 2009,5,Soledad,homicidio,3
+2009,5,Soledad,hurto_carros,1
+2009,5,Soledad,hurto_comercio,3
+2009,5,Soledad,hurto_motos,15
+2009,5,Soledad,hurto_personas,34
+2009,5,Soledad,hurto_residencias,2
+2009,5,Soledad,violencia_sexual,12
 2009,6,Barranquilla,extorsion,1
 2009,6,Barranquilla,homicidio,19
+2009,6,Barranquilla,hurto_carros,30
+2009,6,Barranquilla,hurto_comercio,18
+2009,6,Barranquilla,hurto_motos,41
+2009,6,Barranquilla,hurto_personas,273
+2009,6,Barranquilla,hurto_residencias,32
+2009,6,Barranquilla,violencia_sexual,11
+2009,6,Galapa,hurto_carros,1
+2009,6,Galapa,hurto_personas,1
 2009,6,Malambo,homicidio,3
+2009,6,Malambo,hurto_carros,1
+2009,6,Malambo,hurto_motos,4
+2009,6,Malambo,hurto_personas,9
+2009,6,Malambo,hurto_residencias,1
+2009,6,Malambo,violencia_sexual,2
 2009,6,Puerto Colombia,homicidio,1
+2009,6,Puerto Colombia,hurto_personas,2
 2009,6,Soledad,homicidio,9
+2009,6,Soledad,hurto_carros,6
+2009,6,Soledad,hurto_comercio,4
+2009,6,Soledad,hurto_motos,19
+2009,6,Soledad,hurto_personas,40
+2009,6,Soledad,hurto_residencias,3
+2009,6,Soledad,violencia_sexual,12
 2009,7,Barranquilla,extorsion,1
 2009,7,Barranquilla,homicidio,33
+2009,7,Barranquilla,hurto_carros,23
+2009,7,Barranquilla,hurto_comercio,27
+2009,7,Barranquilla,hurto_entidades,1
+2009,7,Barranquilla,hurto_motos,60
+2009,7,Barranquilla,hurto_personas,262
+2009,7,Barranquilla,hurto_residencias,20
+2009,7,Barranquilla,violencia_sexual,15
 2009,7,Galapa,homicidio,3
+2009,7,Galapa,hurto_comercio,1
+2009,7,Galapa,hurto_motos,1
+2009,7,Galapa,violencia_sexual,1
 2009,7,Malambo,homicidio,2
+2009,7,Malambo,hurto_carros,1
+2009,7,Malambo,hurto_motos,12
+2009,7,Malambo,hurto_personas,8
+2009,7,Malambo,violencia_sexual,1
+2009,7,Puerto Colombia,hurto_carros,1
+2009,7,Puerto Colombia,hurto_comercio,1
+2009,7,Puerto Colombia,hurto_personas,1
+2009,7,Puerto Colombia,violencia_sexual,1
 2009,7,Soledad,homicidio,9
+2009,7,Soledad,hurto_carros,6
+2009,7,Soledad,hurto_comercio,5
+2009,7,Soledad,hurto_motos,11
+2009,7,Soledad,hurto_personas,33
+2009,7,Soledad,hurto_residencias,7
+2009,7,Soledad,violencia_sexual,9
 2009,8,Barranquilla,extorsion,7
 2009,8,Barranquilla,homicidio,47
+2009,8,Barranquilla,hurto_carros,25
+2009,8,Barranquilla,hurto_comercio,27
+2009,8,Barranquilla,hurto_motos,51
+2009,8,Barranquilla,hurto_personas,256
+2009,8,Barranquilla,hurto_residencias,30
+2009,8,Barranquilla,violencia_sexual,20
 2009,8,Galapa,homicidio,1
+2009,8,Galapa,hurto_motos,3
+2009,8,Galapa,hurto_personas,3
+2009,8,Galapa,hurto_residencias,1
+2009,8,Galapa,violencia_sexual,1
 2009,8,Malambo,homicidio,1
+2009,8,Malambo,hurto_carros,3
+2009,8,Malambo,hurto_motos,2
+2009,8,Malambo,hurto_personas,2
+2009,8,Malambo,violencia_sexual,4
 2009,8,Puerto Colombia,homicidio,1
+2009,8,Puerto Colombia,hurto_personas,1
+2009,8,Puerto Colombia,violencia_sexual,1
 2009,8,Soledad,homicidio,8
+2009,8,Soledad,hurto_carros,9
+2009,8,Soledad,hurto_comercio,5
+2009,8,Soledad,hurto_motos,21
+2009,8,Soledad,hurto_personas,34
+2009,8,Soledad,hurto_residencias,4
+2009,8,Soledad,violencia_sexual,9
 2009,9,Barranquilla,extorsion,3
 2009,9,Barranquilla,homicidio,26
+2009,9,Barranquilla,hurto_carros,19
+2009,9,Barranquilla,hurto_comercio,21
+2009,9,Barranquilla,hurto_entidades,1
+2009,9,Barranquilla,hurto_motos,45
+2009,9,Barranquilla,hurto_personas,244
+2009,9,Barranquilla,hurto_residencias,12
+2009,9,Barranquilla,violencia_sexual,8
 2009,9,Galapa,homicidio,2
+2009,9,Galapa,hurto_carros,1
+2009,9,Galapa,hurto_personas,1
+2009,9,Galapa,hurto_residencias,1
+2009,9,Galapa,violencia_sexual,2
 2009,9,Malambo,homicidio,1
+2009,9,Malambo,hurto_carros,1
+2009,9,Malambo,hurto_personas,12
+2009,9,Malambo,violencia_sexual,1
 2009,9,Puerto Colombia,homicidio,1
+2009,9,Puerto Colombia,hurto_personas,1
 2009,9,Soledad,homicidio,6
+2009,9,Soledad,hurto_carros,5
+2009,9,Soledad,hurto_comercio,2
+2009,9,Soledad,hurto_motos,19
+2009,9,Soledad,hurto_personas,26
+2009,9,Soledad,hurto_residencias,3
+2009,9,Soledad,violencia_sexual,9
 2010,1,Barranquilla,amenazas,43
 2010,1,Barranquilla,extorsion,5
 2010,1,Barranquilla,homicidio,33
@@ -1995,6 +3706,7 @@ anio,mes,municipio,categoria,cantidad
 2013,1,Barranquilla,extorsion,17
 2013,1,Barranquilla,homicidio,16
 2013,1,Barranquilla,hurto_carros,51
+2013,1,Barranquilla,hurto_comercio,46
 2013,1,Barranquilla,hurto_motos,59
 2013,1,Barranquilla,hurto_personas,454
 2013,1,Barranquilla,hurto_residencias,50
@@ -2029,6 +3741,7 @@ anio,mes,municipio,categoria,cantidad
 2013,1,Soledad,extorsion,1
 2013,1,Soledad,homicidio,5
 2013,1,Soledad,hurto_carros,4
+2013,1,Soledad,hurto_comercio,9
 2013,1,Soledad,hurto_motos,37
 2013,1,Soledad,hurto_personas,69
 2013,1,Soledad,hurto_residencias,6
@@ -2040,6 +3753,7 @@ anio,mes,municipio,categoria,cantidad
 2013,10,Barranquilla,extorsion,10
 2013,10,Barranquilla,homicidio,26
 2013,10,Barranquilla,hurto_carros,23
+2013,10,Barranquilla,hurto_comercio,32
 2013,10,Barranquilla,hurto_motos,51
 2013,10,Barranquilla,hurto_personas,411
 2013,10,Barranquilla,hurto_residencias,30
@@ -2048,6 +3762,7 @@ anio,mes,municipio,categoria,cantidad
 2013,10,Barranquilla,violencia_intrafamiliar,62
 2013,10,Barranquilla,violencia_sexual,30
 2013,10,Galapa,hurto_carros,1
+2013,10,Galapa,hurto_comercio,1
 2013,10,Galapa,hurto_entidades,1
 2013,10,Galapa,hurto_motos,1
 2013,10,Galapa,hurto_personas,1
@@ -2066,10 +3781,12 @@ anio,mes,municipio,categoria,cantidad
 2013,10,Malambo,violencia_intrafamiliar,4
 2013,10,Malambo,violencia_sexual,1
 2013,10,Puerto Colombia,homicidio,2
+2013,10,Puerto Colombia,hurto_comercio,1
 2013,10,Puerto Colombia,hurto_personas,1
 2013,10,Puerto Colombia,transito,2
 2013,10,Soledad,amenazas,5
 2013,10,Soledad,homicidio,12
+2013,10,Soledad,hurto_comercio,5
 2013,10,Soledad,hurto_motos,17
 2013,10,Soledad,hurto_personas,37
 2013,10,Soledad,hurto_residencias,3
@@ -2082,6 +3799,7 @@ anio,mes,municipio,categoria,cantidad
 2013,11,Barranquilla,extorsion,6
 2013,11,Barranquilla,homicidio,22
 2013,11,Barranquilla,hurto_carros,22
+2013,11,Barranquilla,hurto_comercio,59
 2013,11,Barranquilla,hurto_entidades,3
 2013,11,Barranquilla,hurto_motos,34
 2013,11,Barranquilla,hurto_personas,361
@@ -2098,6 +3816,7 @@ anio,mes,municipio,categoria,cantidad
 2013,11,Malambo,amenazas,1
 2013,11,Malambo,homicidio,2
 2013,11,Malambo,hurto_carros,1
+2013,11,Malambo,hurto_comercio,2
 2013,11,Malambo,hurto_motos,6
 2013,11,Malambo,hurto_personas,5
 2013,11,Malambo,hurto_residencias,1
@@ -2112,6 +3831,7 @@ anio,mes,municipio,categoria,cantidad
 2013,11,Soledad,extorsion,1
 2013,11,Soledad,homicidio,18
 2013,11,Soledad,hurto_carros,1
+2013,11,Soledad,hurto_comercio,3
 2013,11,Soledad,hurto_motos,15
 2013,11,Soledad,hurto_personas,30
 2013,11,Soledad,hurto_residencias,9
@@ -2123,6 +3843,7 @@ anio,mes,municipio,categoria,cantidad
 2013,12,Barranquilla,extorsion,8
 2013,12,Barranquilla,homicidio,23
 2013,12,Barranquilla,hurto_carros,13
+2013,12,Barranquilla,hurto_comercio,34
 2013,12,Barranquilla,hurto_motos,27
 2013,12,Barranquilla,hurto_personas,317
 2013,12,Barranquilla,hurto_residencias,31
@@ -2143,11 +3864,13 @@ anio,mes,municipio,categoria,cantidad
 2013,12,Malambo,lesiones,4
 2013,12,Malambo,violencia_intrafamiliar,3
 2013,12,Malambo,violencia_sexual,2
+2013,12,Puerto Colombia,hurto_comercio,1
 2013,12,Puerto Colombia,hurto_motos,1
 2013,12,Puerto Colombia,violencia_sexual,1
 2013,12,Soledad,extorsion,3
 2013,12,Soledad,homicidio,10
 2013,12,Soledad,hurto_carros,2
+2013,12,Soledad,hurto_comercio,1
 2013,12,Soledad,hurto_motos,14
 2013,12,Soledad,hurto_personas,39
 2013,12,Soledad,hurto_residencias,2
@@ -2159,6 +3882,7 @@ anio,mes,municipio,categoria,cantidad
 2013,2,Barranquilla,extorsion,17
 2013,2,Barranquilla,homicidio,28
 2013,2,Barranquilla,hurto_carros,47
+2013,2,Barranquilla,hurto_comercio,42
 2013,2,Barranquilla,hurto_motos,52
 2013,2,Barranquilla,hurto_personas,404
 2013,2,Barranquilla,hurto_residencias,24
@@ -2175,6 +3899,7 @@ anio,mes,municipio,categoria,cantidad
 2013,2,Galapa,violencia_intrafamiliar,5
 2013,2,Malambo,amenazas,2
 2013,2,Malambo,homicidio,1
+2013,2,Malambo,hurto_comercio,3
 2013,2,Malambo,hurto_motos,7
 2013,2,Malambo,hurto_personas,7
 2013,2,Malambo,lesiones,6
@@ -2188,6 +3913,7 @@ anio,mes,municipio,categoria,cantidad
 2013,2,Soledad,amenazas,25
 2013,2,Soledad,homicidio,11
 2013,2,Soledad,hurto_carros,4
+2013,2,Soledad,hurto_comercio,7
 2013,2,Soledad,hurto_motos,23
 2013,2,Soledad,hurto_personas,38
 2013,2,Soledad,hurto_residencias,4
@@ -2199,6 +3925,7 @@ anio,mes,municipio,categoria,cantidad
 2013,3,Barranquilla,extorsion,16
 2013,3,Barranquilla,homicidio,28
 2013,3,Barranquilla,hurto_carros,34
+2013,3,Barranquilla,hurto_comercio,46
 2013,3,Barranquilla,hurto_entidades,1
 2013,3,Barranquilla,hurto_motos,30
 2013,3,Barranquilla,hurto_personas,400
@@ -2218,6 +3945,7 @@ anio,mes,municipio,categoria,cantidad
 2013,3,Malambo,extorsion,1
 2013,3,Malambo,homicidio,3
 2013,3,Malambo,hurto_carros,1
+2013,3,Malambo,hurto_comercio,1
 2013,3,Malambo,hurto_motos,2
 2013,3,Malambo,hurto_personas,9
 2013,3,Malambo,hurto_residencias,1
@@ -2233,6 +3961,7 @@ anio,mes,municipio,categoria,cantidad
 2013,3,Soledad,extorsion,3
 2013,3,Soledad,homicidio,9
 2013,3,Soledad,hurto_carros,3
+2013,3,Soledad,hurto_comercio,11
 2013,3,Soledad,hurto_motos,29
 2013,3,Soledad,hurto_personas,43
 2013,3,Soledad,hurto_residencias,10
@@ -2244,6 +3973,7 @@ anio,mes,municipio,categoria,cantidad
 2013,4,Barranquilla,extorsion,23
 2013,4,Barranquilla,homicidio,15
 2013,4,Barranquilla,hurto_carros,23
+2013,4,Barranquilla,hurto_comercio,65
 2013,4,Barranquilla,hurto_motos,53
 2013,4,Barranquilla,hurto_personas,477
 2013,4,Barranquilla,hurto_residencias,40
@@ -2253,6 +3983,7 @@ anio,mes,municipio,categoria,cantidad
 2013,4,Barranquilla,violencia_sexual,15
 2013,4,Galapa,amenazas,2
 2013,4,Galapa,homicidio,1
+2013,4,Galapa,hurto_comercio,1
 2013,4,Galapa,hurto_motos,1
 2013,4,Galapa,hurto_personas,3
 2013,4,Galapa,lesiones,5
@@ -2260,6 +3991,7 @@ anio,mes,municipio,categoria,cantidad
 2013,4,Malambo,amenazas,2
 2013,4,Malambo,homicidio,2
 2013,4,Malambo,hurto_carros,1
+2013,4,Malambo,hurto_comercio,1
 2013,4,Malambo,hurto_motos,5
 2013,4,Malambo,hurto_personas,13
 2013,4,Malambo,hurto_residencias,1
@@ -2267,6 +3999,7 @@ anio,mes,municipio,categoria,cantidad
 2013,4,Malambo,transito,6
 2013,4,Malambo,violencia_intrafamiliar,4
 2013,4,Malambo,violencia_sexual,2
+2013,4,Puerto Colombia,hurto_comercio,1
 2013,4,Puerto Colombia,hurto_motos,1
 2013,4,Puerto Colombia,hurto_personas,4
 2013,4,Puerto Colombia,lesiones,2
@@ -2276,6 +4009,7 @@ anio,mes,municipio,categoria,cantidad
 2013,4,Soledad,amenazas,25
 2013,4,Soledad,homicidio,1
 2013,4,Soledad,hurto_carros,5
+2013,4,Soledad,hurto_comercio,7
 2013,4,Soledad,hurto_motos,16
 2013,4,Soledad,hurto_personas,45
 2013,4,Soledad,hurto_residencias,7
@@ -2287,6 +4021,7 @@ anio,mes,municipio,categoria,cantidad
 2013,5,Barranquilla,extorsion,26
 2013,5,Barranquilla,homicidio,36
 2013,5,Barranquilla,hurto_carros,25
+2013,5,Barranquilla,hurto_comercio,39
 2013,5,Barranquilla,hurto_entidades,1
 2013,5,Barranquilla,hurto_motos,46
 2013,5,Barranquilla,hurto_personas,431
@@ -2296,6 +4031,7 @@ anio,mes,municipio,categoria,cantidad
 2013,5,Barranquilla,violencia_intrafamiliar,139
 2013,5,Barranquilla,violencia_sexual,67
 2013,5,Galapa,homicidio,1
+2013,5,Galapa,hurto_comercio,2
 2013,5,Galapa,hurto_motos,2
 2013,5,Galapa,hurto_personas,7
 2013,5,Galapa,lesiones,3
@@ -2304,6 +4040,7 @@ anio,mes,municipio,categoria,cantidad
 2013,5,Galapa,violencia_sexual,2
 2013,5,Malambo,amenazas,1
 2013,5,Malambo,homicidio,5
+2013,5,Malambo,hurto_comercio,1
 2013,5,Malambo,hurto_motos,1
 2013,5,Malambo,hurto_personas,7
 2013,5,Malambo,hurto_residencias,1
@@ -2314,6 +4051,7 @@ anio,mes,municipio,categoria,cantidad
 2013,5,Puerto Colombia,amenazas,1
 2013,5,Puerto Colombia,extorsion,1
 2013,5,Puerto Colombia,homicidio,1
+2013,5,Puerto Colombia,hurto_comercio,1
 2013,5,Puerto Colombia,hurto_personas,2
 2013,5,Puerto Colombia,hurto_residencias,1
 2013,5,Puerto Colombia,lesiones,2
@@ -2324,6 +4062,7 @@ anio,mes,municipio,categoria,cantidad
 2013,5,Soledad,extorsion,2
 2013,5,Soledad,homicidio,9
 2013,5,Soledad,hurto_carros,3
+2013,5,Soledad,hurto_comercio,4
 2013,5,Soledad,hurto_motos,20
 2013,5,Soledad,hurto_personas,55
 2013,5,Soledad,hurto_residencias,13
@@ -2335,6 +4074,7 @@ anio,mes,municipio,categoria,cantidad
 2013,6,Barranquilla,extorsion,31
 2013,6,Barranquilla,homicidio,29
 2013,6,Barranquilla,hurto_carros,23
+2013,6,Barranquilla,hurto_comercio,44
 2013,6,Barranquilla,hurto_motos,28
 2013,6,Barranquilla,hurto_personas,422
 2013,6,Barranquilla,hurto_residencias,26
@@ -2351,6 +4091,7 @@ anio,mes,municipio,categoria,cantidad
 2013,6,Galapa,violencia_intrafamiliar,5
 2013,6,Malambo,extorsion,1
 2013,6,Malambo,homicidio,2
+2013,6,Malambo,hurto_comercio,1
 2013,6,Malambo,hurto_motos,3
 2013,6,Malambo,hurto_personas,6
 2013,6,Malambo,hurto_residencias,1
@@ -2368,6 +4109,7 @@ anio,mes,municipio,categoria,cantidad
 2013,6,Soledad,amenazas,11
 2013,6,Soledad,homicidio,6
 2013,6,Soledad,hurto_carros,3
+2013,6,Soledad,hurto_comercio,4
 2013,6,Soledad,hurto_motos,24
 2013,6,Soledad,hurto_personas,56
 2013,6,Soledad,hurto_residencias,6
@@ -2379,6 +4121,7 @@ anio,mes,municipio,categoria,cantidad
 2013,7,Barranquilla,extorsion,32
 2013,7,Barranquilla,homicidio,26
 2013,7,Barranquilla,hurto_carros,19
+2013,7,Barranquilla,hurto_comercio,48
 2013,7,Barranquilla,hurto_motos,36
 2013,7,Barranquilla,hurto_personas,371
 2013,7,Barranquilla,hurto_residencias,23
@@ -2405,6 +4148,7 @@ anio,mes,municipio,categoria,cantidad
 2013,7,Soledad,extorsion,2
 2013,7,Soledad,homicidio,7
 2013,7,Soledad,hurto_carros,7
+2013,7,Soledad,hurto_comercio,11
 2013,7,Soledad,hurto_motos,17
 2013,7,Soledad,hurto_personas,60
 2013,7,Soledad,hurto_residencias,8
@@ -2416,6 +4160,7 @@ anio,mes,municipio,categoria,cantidad
 2013,8,Barranquilla,extorsion,20
 2013,8,Barranquilla,homicidio,29
 2013,8,Barranquilla,hurto_carros,16
+2013,8,Barranquilla,hurto_comercio,44
 2013,8,Barranquilla,hurto_entidades,1
 2013,8,Barranquilla,hurto_motos,29
 2013,8,Barranquilla,hurto_personas,414
@@ -2430,6 +4175,7 @@ anio,mes,municipio,categoria,cantidad
 2013,8,Galapa,violencia_intrafamiliar,1
 2013,8,Malambo,homicidio,1
 2013,8,Malambo,hurto_carros,1
+2013,8,Malambo,hurto_comercio,2
 2013,8,Malambo,hurto_motos,4
 2013,8,Malambo,hurto_personas,6
 2013,8,Malambo,lesiones,5
@@ -2445,6 +4191,7 @@ anio,mes,municipio,categoria,cantidad
 2013,8,Soledad,extorsion,1
 2013,8,Soledad,homicidio,4
 2013,8,Soledad,hurto_carros,2
+2013,8,Soledad,hurto_comercio,6
 2013,8,Soledad,hurto_entidades,1
 2013,8,Soledad,hurto_motos,15
 2013,8,Soledad,hurto_personas,43
@@ -2457,6 +4204,7 @@ anio,mes,municipio,categoria,cantidad
 2013,9,Barranquilla,extorsion,9
 2013,9,Barranquilla,homicidio,33
 2013,9,Barranquilla,hurto_carros,12
+2013,9,Barranquilla,hurto_comercio,49
 2013,9,Barranquilla,hurto_entidades,1
 2013,9,Barranquilla,hurto_motos,34
 2013,9,Barranquilla,hurto_personas,430
@@ -2476,6 +4224,7 @@ anio,mes,municipio,categoria,cantidad
 2013,9,Malambo,amenazas,2
 2013,9,Malambo,homicidio,4
 2013,9,Malambo,hurto_carros,1
+2013,9,Malambo,hurto_comercio,2
 2013,9,Malambo,hurto_entidades,1
 2013,9,Malambo,hurto_motos,3
 2013,9,Malambo,hurto_personas,9
@@ -2493,6 +4242,7 @@ anio,mes,municipio,categoria,cantidad
 2013,9,Soledad,amenazas,4
 2013,9,Soledad,extorsion,1
 2013,9,Soledad,homicidio,9
+2013,9,Soledad,hurto_comercio,11
 2013,9,Soledad,hurto_motos,24
 2013,9,Soledad,hurto_personas,57
 2013,9,Soledad,hurto_residencias,6
@@ -4264,6 +6014,7 @@ anio,mes,municipio,categoria,cantidad
 2017,1,Barranquilla,hurto_carros,24
 2017,1,Barranquilla,hurto_comercio,137
 2017,1,Barranquilla,hurto_motos,77
+2017,1,Barranquilla,hurto_personas,487
 2017,1,Barranquilla,hurto_residencias,81
 2017,1,Barranquilla,lesiones,251
 2017,1,Barranquilla,transito,170
@@ -4274,6 +6025,7 @@ anio,mes,municipio,categoria,cantidad
 2017,1,Galapa,hurto_carros,1
 2017,1,Galapa,hurto_comercio,2
 2017,1,Galapa,hurto_motos,4
+2017,1,Galapa,hurto_personas,10
 2017,1,Galapa,lesiones,7
 2017,1,Galapa,transito,4
 2017,1,Galapa,violencia_sexual,2
@@ -4283,12 +6035,14 @@ anio,mes,municipio,categoria,cantidad
 2017,1,Malambo,hurto_carros,2
 2017,1,Malambo,hurto_comercio,12
 2017,1,Malambo,hurto_motos,10
+2017,1,Malambo,hurto_personas,33
 2017,1,Malambo,hurto_residencias,4
 2017,1,Malambo,lesiones,19
 2017,1,Malambo,transito,6
 2017,1,Malambo,violencia_intrafamiliar,6
 2017,1,Malambo,violencia_sexual,5
 2017,1,Puerto Colombia,hurto_comercio,5
+2017,1,Puerto Colombia,hurto_personas,10
 2017,1,Puerto Colombia,hurto_residencias,5
 2017,1,Puerto Colombia,lesiones,11
 2017,1,Puerto Colombia,transito,5
@@ -4300,6 +6054,7 @@ anio,mes,municipio,categoria,cantidad
 2017,1,Soledad,hurto_carros,2
 2017,1,Soledad,hurto_comercio,25
 2017,1,Soledad,hurto_motos,27
+2017,1,Soledad,hurto_personas,97
 2017,1,Soledad,hurto_residencias,16
 2017,1,Soledad,lesiones,109
 2017,1,Soledad,transito,58
@@ -4311,6 +6066,7 @@ anio,mes,municipio,categoria,cantidad
 2017,10,Barranquilla,hurto_carros,32
 2017,10,Barranquilla,hurto_comercio,156
 2017,10,Barranquilla,hurto_motos,82
+2017,10,Barranquilla,hurto_personas,748
 2017,10,Barranquilla,hurto_residencias,72
 2017,10,Barranquilla,lesiones,309
 2017,10,Barranquilla,transito,102
@@ -4319,6 +6075,7 @@ anio,mes,municipio,categoria,cantidad
 2017,10,Galapa,amenazas,3
 2017,10,Galapa,homicidio,2
 2017,10,Galapa,hurto_motos,4
+2017,10,Galapa,hurto_personas,3
 2017,10,Galapa,hurto_residencias,1
 2017,10,Galapa,lesiones,8
 2017,10,Galapa,violencia_intrafamiliar,2
@@ -4327,6 +6084,7 @@ anio,mes,municipio,categoria,cantidad
 2017,10,Malambo,homicidio,3
 2017,10,Malambo,hurto_comercio,5
 2017,10,Malambo,hurto_motos,1
+2017,10,Malambo,hurto_personas,18
 2017,10,Malambo,hurto_residencias,8
 2017,10,Malambo,lesiones,16
 2017,10,Malambo,transito,5
@@ -4335,6 +6093,7 @@ anio,mes,municipio,categoria,cantidad
 2017,10,Puerto Colombia,amenazas,3
 2017,10,Puerto Colombia,hurto_comercio,4
 2017,10,Puerto Colombia,hurto_motos,1
+2017,10,Puerto Colombia,hurto_personas,18
 2017,10,Puerto Colombia,hurto_residencias,8
 2017,10,Puerto Colombia,lesiones,8
 2017,10,Puerto Colombia,transito,9
@@ -4346,6 +6105,7 @@ anio,mes,municipio,categoria,cantidad
 2017,10,Soledad,hurto_carros,5
 2017,10,Soledad,hurto_comercio,40
 2017,10,Soledad,hurto_motos,36
+2017,10,Soledad,hurto_personas,126
 2017,10,Soledad,hurto_residencias,21
 2017,10,Soledad,lesiones,96
 2017,10,Soledad,transito,50
@@ -4358,6 +6118,7 @@ anio,mes,municipio,categoria,cantidad
 2017,11,Barranquilla,hurto_comercio,170
 2017,11,Barranquilla,hurto_entidades,2
 2017,11,Barranquilla,hurto_motos,72
+2017,11,Barranquilla,hurto_personas,716
 2017,11,Barranquilla,hurto_residencias,93
 2017,11,Barranquilla,lesiones,347
 2017,11,Barranquilla,transito,122
@@ -4368,6 +6129,7 @@ anio,mes,municipio,categoria,cantidad
 2017,11,Galapa,hurto_carros,1
 2017,11,Galapa,hurto_comercio,1
 2017,11,Galapa,hurto_motos,2
+2017,11,Galapa,hurto_personas,6
 2017,11,Galapa,hurto_residencias,3
 2017,11,Galapa,lesiones,8
 2017,11,Galapa,transito,2
@@ -4375,6 +6137,7 @@ anio,mes,municipio,categoria,cantidad
 2017,11,Malambo,homicidio,4
 2017,11,Malambo,hurto_comercio,4
 2017,11,Malambo,hurto_motos,8
+2017,11,Malambo,hurto_personas,16
 2017,11,Malambo,hurto_residencias,5
 2017,11,Malambo,lesiones,19
 2017,11,Malambo,transito,7
@@ -4385,6 +6148,7 @@ anio,mes,municipio,categoria,cantidad
 2017,11,Puerto Colombia,hurto_comercio,6
 2017,11,Puerto Colombia,hurto_entidades,1
 2017,11,Puerto Colombia,hurto_motos,1
+2017,11,Puerto Colombia,hurto_personas,22
 2017,11,Puerto Colombia,hurto_residencias,7
 2017,11,Puerto Colombia,lesiones,13
 2017,11,Puerto Colombia,transito,3
@@ -4395,6 +6159,7 @@ anio,mes,municipio,categoria,cantidad
 2017,11,Soledad,hurto_carros,6
 2017,11,Soledad,hurto_comercio,42
 2017,11,Soledad,hurto_motos,30
+2017,11,Soledad,hurto_personas,139
 2017,11,Soledad,hurto_residencias,20
 2017,11,Soledad,lesiones,103
 2017,11,Soledad,transito,32
@@ -4407,6 +6172,7 @@ anio,mes,municipio,categoria,cantidad
 2017,12,Barranquilla,hurto_comercio,172
 2017,12,Barranquilla,hurto_entidades,1
 2017,12,Barranquilla,hurto_motos,56
+2017,12,Barranquilla,hurto_personas,705
 2017,12,Barranquilla,hurto_residencias,75
 2017,12,Barranquilla,lesiones,309
 2017,12,Barranquilla,transito,78
@@ -4417,6 +6183,7 @@ anio,mes,municipio,categoria,cantidad
 2017,12,Galapa,hurto_carros,2
 2017,12,Galapa,hurto_comercio,1
 2017,12,Galapa,hurto_motos,4
+2017,12,Galapa,hurto_personas,6
 2017,12,Galapa,lesiones,10
 2017,12,Galapa,violencia_sexual,1
 2017,12,Malambo,amenazas,1
@@ -4424,6 +6191,7 @@ anio,mes,municipio,categoria,cantidad
 2017,12,Malambo,hurto_carros,1
 2017,12,Malambo,hurto_comercio,11
 2017,12,Malambo,hurto_motos,5
+2017,12,Malambo,hurto_personas,29
 2017,12,Malambo,hurto_residencias,8
 2017,12,Malambo,lesiones,15
 2017,12,Malambo,transito,3
@@ -4431,6 +6199,7 @@ anio,mes,municipio,categoria,cantidad
 2017,12,Malambo,violencia_sexual,1
 2017,12,Puerto Colombia,amenazas,11
 2017,12,Puerto Colombia,hurto_comercio,2
+2017,12,Puerto Colombia,hurto_personas,11
 2017,12,Puerto Colombia,hurto_residencias,2
 2017,12,Puerto Colombia,lesiones,8
 2017,12,Puerto Colombia,transito,2
@@ -4441,6 +6210,7 @@ anio,mes,municipio,categoria,cantidad
 2017,12,Soledad,hurto_carros,5
 2017,12,Soledad,hurto_comercio,29
 2017,12,Soledad,hurto_motos,32
+2017,12,Soledad,hurto_personas,150
 2017,12,Soledad,hurto_residencias,18
 2017,12,Soledad,lesiones,136
 2017,12,Soledad,transito,24
@@ -4452,6 +6222,7 @@ anio,mes,municipio,categoria,cantidad
 2017,2,Barranquilla,hurto_carros,32
 2017,2,Barranquilla,hurto_comercio,187
 2017,2,Barranquilla,hurto_motos,73
+2017,2,Barranquilla,hurto_personas,484
 2017,2,Barranquilla,hurto_residencias,60
 2017,2,Barranquilla,lesiones,272
 2017,2,Barranquilla,transito,149
@@ -4460,6 +6231,7 @@ anio,mes,municipio,categoria,cantidad
 2017,2,Galapa,amenazas,1
 2017,2,Galapa,hurto_comercio,4
 2017,2,Galapa,hurto_motos,3
+2017,2,Galapa,hurto_personas,9
 2017,2,Galapa,hurto_residencias,1
 2017,2,Galapa,lesiones,5
 2017,2,Galapa,transito,1
@@ -4469,6 +6241,7 @@ anio,mes,municipio,categoria,cantidad
 2017,2,Malambo,hurto_carros,2
 2017,2,Malambo,hurto_comercio,17
 2017,2,Malambo,hurto_motos,7
+2017,2,Malambo,hurto_personas,15
 2017,2,Malambo,hurto_residencias,8
 2017,2,Malambo,lesiones,18
 2017,2,Malambo,transito,3
@@ -4476,6 +6249,7 @@ anio,mes,municipio,categoria,cantidad
 2017,2,Malambo,violencia_sexual,5
 2017,2,Puerto Colombia,hurto_comercio,10
 2017,2,Puerto Colombia,hurto_motos,5
+2017,2,Puerto Colombia,hurto_personas,13
 2017,2,Puerto Colombia,hurto_residencias,1
 2017,2,Puerto Colombia,lesiones,15
 2017,2,Puerto Colombia,transito,4
@@ -4486,6 +6260,7 @@ anio,mes,municipio,categoria,cantidad
 2017,2,Soledad,hurto_carros,6
 2017,2,Soledad,hurto_comercio,24
 2017,2,Soledad,hurto_motos,28
+2017,2,Soledad,hurto_personas,79
 2017,2,Soledad,hurto_residencias,18
 2017,2,Soledad,lesiones,78
 2017,2,Soledad,transito,46
@@ -4497,6 +6272,7 @@ anio,mes,municipio,categoria,cantidad
 2017,3,Barranquilla,hurto_carros,27
 2017,3,Barranquilla,hurto_comercio,223
 2017,3,Barranquilla,hurto_motos,92
+2017,3,Barranquilla,hurto_personas,518
 2017,3,Barranquilla,hurto_residencias,59
 2017,3,Barranquilla,lesiones,240
 2017,3,Barranquilla,transito,173
@@ -4506,6 +6282,7 @@ anio,mes,municipio,categoria,cantidad
 2017,3,Galapa,homicidio,3
 2017,3,Galapa,hurto_comercio,5
 2017,3,Galapa,hurto_motos,2
+2017,3,Galapa,hurto_personas,4
 2017,3,Galapa,hurto_residencias,4
 2017,3,Galapa,lesiones,4
 2017,3,Galapa,transito,1
@@ -4516,6 +6293,7 @@ anio,mes,municipio,categoria,cantidad
 2017,3,Malambo,homicidio,1
 2017,3,Malambo,hurto_comercio,9
 2017,3,Malambo,hurto_motos,7
+2017,3,Malambo,hurto_personas,16
 2017,3,Malambo,hurto_residencias,6
 2017,3,Malambo,lesiones,8
 2017,3,Malambo,transito,13
@@ -4525,6 +6303,7 @@ anio,mes,municipio,categoria,cantidad
 2017,3,Puerto Colombia,homicidio,2
 2017,3,Puerto Colombia,hurto_comercio,1
 2017,3,Puerto Colombia,hurto_motos,2
+2017,3,Puerto Colombia,hurto_personas,10
 2017,3,Puerto Colombia,hurto_residencias,4
 2017,3,Puerto Colombia,lesiones,7
 2017,3,Puerto Colombia,transito,6
@@ -4537,6 +6316,7 @@ anio,mes,municipio,categoria,cantidad
 2017,3,Soledad,hurto_comercio,19
 2017,3,Soledad,hurto_entidades,1
 2017,3,Soledad,hurto_motos,36
+2017,3,Soledad,hurto_personas,109
 2017,3,Soledad,hurto_residencias,10
 2017,3,Soledad,lesiones,73
 2017,3,Soledad,secuestro,1
@@ -4550,6 +6330,7 @@ anio,mes,municipio,categoria,cantidad
 2017,4,Barranquilla,hurto_comercio,155
 2017,4,Barranquilla,hurto_entidades,1
 2017,4,Barranquilla,hurto_motos,70
+2017,4,Barranquilla,hurto_personas,533
 2017,4,Barranquilla,hurto_residencias,75
 2017,4,Barranquilla,lesiones,221
 2017,4,Barranquilla,transito,189
@@ -4559,6 +6340,7 @@ anio,mes,municipio,categoria,cantidad
 2017,4,Galapa,hurto_carros,1
 2017,4,Galapa,hurto_comercio,1
 2017,4,Galapa,hurto_motos,2
+2017,4,Galapa,hurto_personas,1
 2017,4,Galapa,hurto_residencias,2
 2017,4,Galapa,lesiones,9
 2017,4,Galapa,transito,3
@@ -4566,6 +6348,7 @@ anio,mes,municipio,categoria,cantidad
 2017,4,Malambo,amenazas,2
 2017,4,Malambo,hurto_comercio,5
 2017,4,Malambo,hurto_motos,6
+2017,4,Malambo,hurto_personas,11
 2017,4,Malambo,hurto_residencias,5
 2017,4,Malambo,lesiones,6
 2017,4,Malambo,transito,3
@@ -4574,6 +6357,7 @@ anio,mes,municipio,categoria,cantidad
 2017,4,Puerto Colombia,amenazas,1
 2017,4,Puerto Colombia,hurto_comercio,6
 2017,4,Puerto Colombia,hurto_motos,1
+2017,4,Puerto Colombia,hurto_personas,7
 2017,4,Puerto Colombia,hurto_residencias,6
 2017,4,Puerto Colombia,lesiones,10
 2017,4,Puerto Colombia,transito,5
@@ -4585,6 +6369,7 @@ anio,mes,municipio,categoria,cantidad
 2017,4,Soledad,hurto_carros,7
 2017,4,Soledad,hurto_comercio,18
 2017,4,Soledad,hurto_motos,32
+2017,4,Soledad,hurto_personas,77
 2017,4,Soledad,hurto_residencias,3
 2017,4,Soledad,lesiones,71
 2017,4,Soledad,transito,38
@@ -4596,6 +6381,7 @@ anio,mes,municipio,categoria,cantidad
 2017,5,Barranquilla,hurto_carros,31
 2017,5,Barranquilla,hurto_comercio,170
 2017,5,Barranquilla,hurto_motos,77
+2017,5,Barranquilla,hurto_personas,538
 2017,5,Barranquilla,hurto_residencias,65
 2017,5,Barranquilla,lesiones,216
 2017,5,Barranquilla,transito,116
@@ -4605,6 +6391,7 @@ anio,mes,municipio,categoria,cantidad
 2017,5,Galapa,hurto_comercio,1
 2017,5,Galapa,hurto_entidades,1
 2017,5,Galapa,hurto_motos,2
+2017,5,Galapa,hurto_personas,1
 2017,5,Galapa,hurto_residencias,1
 2017,5,Galapa,lesiones,5
 2017,5,Galapa,transito,2
@@ -4615,6 +6402,7 @@ anio,mes,municipio,categoria,cantidad
 2017,5,Malambo,hurto_carros,3
 2017,5,Malambo,hurto_comercio,8
 2017,5,Malambo,hurto_motos,6
+2017,5,Malambo,hurto_personas,17
 2017,5,Malambo,hurto_residencias,7
 2017,5,Malambo,lesiones,4
 2017,5,Malambo,transito,7
@@ -4625,6 +6413,7 @@ anio,mes,municipio,categoria,cantidad
 2017,5,Puerto Colombia,homicidio,1
 2017,5,Puerto Colombia,hurto_comercio,5
 2017,5,Puerto Colombia,hurto_motos,3
+2017,5,Puerto Colombia,hurto_personas,9
 2017,5,Puerto Colombia,hurto_residencias,4
 2017,5,Puerto Colombia,lesiones,7
 2017,5,Puerto Colombia,transito,6
@@ -4636,6 +6425,7 @@ anio,mes,municipio,categoria,cantidad
 2017,5,Soledad,hurto_carros,5
 2017,5,Soledad,hurto_comercio,30
 2017,5,Soledad,hurto_motos,51
+2017,5,Soledad,hurto_personas,105
 2017,5,Soledad,hurto_residencias,16
 2017,5,Soledad,lesiones,85
 2017,5,Soledad,transito,46
@@ -4647,6 +6437,7 @@ anio,mes,municipio,categoria,cantidad
 2017,6,Barranquilla,hurto_carros,30
 2017,6,Barranquilla,hurto_comercio,164
 2017,6,Barranquilla,hurto_motos,60
+2017,6,Barranquilla,hurto_personas,517
 2017,6,Barranquilla,hurto_residencias,57
 2017,6,Barranquilla,lesiones,214
 2017,6,Barranquilla,transito,142
@@ -4654,6 +6445,7 @@ anio,mes,municipio,categoria,cantidad
 2017,6,Barranquilla,violencia_sexual,53
 2017,6,Galapa,extorsion,1
 2017,6,Galapa,hurto_comercio,4
+2017,6,Galapa,hurto_personas,2
 2017,6,Galapa,lesiones,8
 2017,6,Galapa,violencia_intrafamiliar,3
 2017,6,Malambo,amenazas,5
@@ -4661,12 +6453,14 @@ anio,mes,municipio,categoria,cantidad
 2017,6,Malambo,hurto_carros,1
 2017,6,Malambo,hurto_comercio,13
 2017,6,Malambo,hurto_motos,8
+2017,6,Malambo,hurto_personas,15
 2017,6,Malambo,hurto_residencias,9
 2017,6,Malambo,lesiones,21
 2017,6,Malambo,violencia_intrafamiliar,12
 2017,6,Malambo,violencia_sexual,7
 2017,6,Puerto Colombia,amenazas,2
 2017,6,Puerto Colombia,hurto_comercio,4
+2017,6,Puerto Colombia,hurto_personas,6
 2017,6,Puerto Colombia,lesiones,11
 2017,6,Puerto Colombia,transito,4
 2017,6,Puerto Colombia,violencia_intrafamiliar,5
@@ -4677,6 +6471,7 @@ anio,mes,municipio,categoria,cantidad
 2017,6,Soledad,hurto_carros,4
 2017,6,Soledad,hurto_comercio,18
 2017,6,Soledad,hurto_motos,39
+2017,6,Soledad,hurto_personas,104
 2017,6,Soledad,hurto_residencias,10
 2017,6,Soledad,lesiones,83
 2017,6,Soledad,transito,35
@@ -4688,6 +6483,7 @@ anio,mes,municipio,categoria,cantidad
 2017,7,Barranquilla,hurto_carros,20
 2017,7,Barranquilla,hurto_comercio,151
 2017,7,Barranquilla,hurto_motos,70
+2017,7,Barranquilla,hurto_personas,534
 2017,7,Barranquilla,hurto_residencias,77
 2017,7,Barranquilla,lesiones,271
 2017,7,Barranquilla,transito,152
@@ -4697,6 +6493,7 @@ anio,mes,municipio,categoria,cantidad
 2017,7,Galapa,homicidio,1
 2017,7,Galapa,hurto_comercio,2
 2017,7,Galapa,hurto_motos,1
+2017,7,Galapa,hurto_personas,6
 2017,7,Galapa,lesiones,7
 2017,7,Galapa,violencia_intrafamiliar,2
 2017,7,Galapa,violencia_sexual,4
@@ -4705,6 +6502,7 @@ anio,mes,municipio,categoria,cantidad
 2017,7,Malambo,hurto_carros,1
 2017,7,Malambo,hurto_comercio,19
 2017,7,Malambo,hurto_motos,13
+2017,7,Malambo,hurto_personas,25
 2017,7,Malambo,hurto_residencias,12
 2017,7,Malambo,lesiones,22
 2017,7,Malambo,transito,7
@@ -4714,6 +6512,7 @@ anio,mes,municipio,categoria,cantidad
 2017,7,Puerto Colombia,homicidio,1
 2017,7,Puerto Colombia,hurto_comercio,2
 2017,7,Puerto Colombia,hurto_motos,1
+2017,7,Puerto Colombia,hurto_personas,19
 2017,7,Puerto Colombia,hurto_residencias,5
 2017,7,Puerto Colombia,lesiones,15
 2017,7,Puerto Colombia,transito,9
@@ -4725,6 +6524,7 @@ anio,mes,municipio,categoria,cantidad
 2017,7,Soledad,hurto_carros,4
 2017,7,Soledad,hurto_comercio,32
 2017,7,Soledad,hurto_motos,21
+2017,7,Soledad,hurto_personas,94
 2017,7,Soledad,hurto_residencias,10
 2017,7,Soledad,lesiones,77
 2017,7,Soledad,transito,34
@@ -4736,6 +6536,7 @@ anio,mes,municipio,categoria,cantidad
 2017,8,Barranquilla,hurto_carros,19
 2017,8,Barranquilla,hurto_comercio,194
 2017,8,Barranquilla,hurto_motos,85
+2017,8,Barranquilla,hurto_personas,666
 2017,8,Barranquilla,hurto_residencias,65
 2017,8,Barranquilla,lesiones,223
 2017,8,Barranquilla,transito,160
@@ -4747,6 +6548,7 @@ anio,mes,municipio,categoria,cantidad
 2017,8,Galapa,hurto_comercio,1
 2017,8,Galapa,hurto_entidades,1
 2017,8,Galapa,hurto_motos,1
+2017,8,Galapa,hurto_personas,4
 2017,8,Galapa,hurto_residencias,1
 2017,8,Galapa,lesiones,5
 2017,8,Galapa,violencia_sexual,2
@@ -4755,6 +6557,7 @@ anio,mes,municipio,categoria,cantidad
 2017,8,Malambo,homicidio,1
 2017,8,Malambo,hurto_comercio,12
 2017,8,Malambo,hurto_motos,11
+2017,8,Malambo,hurto_personas,19
 2017,8,Malambo,hurto_residencias,6
 2017,8,Malambo,lesiones,15
 2017,8,Malambo,transito,5
@@ -4765,6 +6568,7 @@ anio,mes,municipio,categoria,cantidad
 2017,8,Puerto Colombia,homicidio,1
 2017,8,Puerto Colombia,hurto_comercio,5
 2017,8,Puerto Colombia,hurto_motos,1
+2017,8,Puerto Colombia,hurto_personas,23
 2017,8,Puerto Colombia,hurto_residencias,7
 2017,8,Puerto Colombia,lesiones,9
 2017,8,Puerto Colombia,transito,11
@@ -4776,6 +6580,7 @@ anio,mes,municipio,categoria,cantidad
 2017,8,Soledad,hurto_carros,7
 2017,8,Soledad,hurto_comercio,29
 2017,8,Soledad,hurto_motos,31
+2017,8,Soledad,hurto_personas,133
 2017,8,Soledad,hurto_residencias,10
 2017,8,Soledad,lesiones,83
 2017,8,Soledad,transito,43
@@ -4788,6 +6593,7 @@ anio,mes,municipio,categoria,cantidad
 2017,9,Barranquilla,hurto_comercio,160
 2017,9,Barranquilla,hurto_entidades,4
 2017,9,Barranquilla,hurto_motos,71
+2017,9,Barranquilla,hurto_personas,623
 2017,9,Barranquilla,hurto_residencias,69
 2017,9,Barranquilla,lesiones,239
 2017,9,Barranquilla,transito,119
@@ -4796,6 +6602,7 @@ anio,mes,municipio,categoria,cantidad
 2017,9,Galapa,amenazas,6
 2017,9,Galapa,hurto_comercio,2
 2017,9,Galapa,hurto_motos,1
+2017,9,Galapa,hurto_personas,6
 2017,9,Galapa,hurto_residencias,2
 2017,9,Galapa,lesiones,11
 2017,9,Galapa,transito,1
@@ -4807,6 +6614,7 @@ anio,mes,municipio,categoria,cantidad
 2017,9,Malambo,hurto_carros,1
 2017,9,Malambo,hurto_comercio,14
 2017,9,Malambo,hurto_motos,9
+2017,9,Malambo,hurto_personas,16
 2017,9,Malambo,hurto_residencias,6
 2017,9,Malambo,lesiones,14
 2017,9,Malambo,transito,4
@@ -4817,6 +6625,7 @@ anio,mes,municipio,categoria,cantidad
 2017,9,Puerto Colombia,hurto_comercio,7
 2017,9,Puerto Colombia,hurto_entidades,1
 2017,9,Puerto Colombia,hurto_motos,4
+2017,9,Puerto Colombia,hurto_personas,26
 2017,9,Puerto Colombia,hurto_residencias,4
 2017,9,Puerto Colombia,lesiones,15
 2017,9,Puerto Colombia,violencia_intrafamiliar,5
@@ -4827,6 +6636,7 @@ anio,mes,municipio,categoria,cantidad
 2017,9,Soledad,hurto_comercio,34
 2017,9,Soledad,hurto_entidades,1
 2017,9,Soledad,hurto_motos,34
+2017,9,Soledad,hurto_personas,144
 2017,9,Soledad,hurto_residencias,11
 2017,9,Soledad,lesiones,100
 2017,9,Soledad,transito,29
@@ -5545,6 +7355,7 @@ anio,mes,municipio,categoria,cantidad
 2019,10,Barranquilla,homicidio,20
 2019,10,Barranquilla,hurto_carros,12
 2019,10,Barranquilla,hurto_comercio,134
+2019,10,Barranquilla,hurto_entidades,4
 2019,10,Barranquilla,hurto_motos,50
 2019,10,Barranquilla,hurto_personas,915
 2019,10,Barranquilla,hurto_residencias,64
@@ -5584,6 +7395,7 @@ anio,mes,municipio,categoria,cantidad
 2019,10,Soledad,homicidio,8
 2019,10,Soledad,hurto_carros,1
 2019,10,Soledad,hurto_comercio,15
+2019,10,Soledad,hurto_entidades,1
 2019,10,Soledad,hurto_motos,47
 2019,10,Soledad,hurto_personas,220
 2019,10,Soledad,hurto_residencias,20
@@ -5596,6 +7408,7 @@ anio,mes,municipio,categoria,cantidad
 2019,11,Barranquilla,homicidio,21
 2019,11,Barranquilla,hurto_carros,20
 2019,11,Barranquilla,hurto_comercio,147
+2019,11,Barranquilla,hurto_entidades,1
 2019,11,Barranquilla,hurto_motos,59
 2019,11,Barranquilla,hurto_personas,970
 2019,11,Barranquilla,hurto_residencias,53
@@ -5811,6 +7624,7 @@ anio,mes,municipio,categoria,cantidad
 2019,4,Barranquilla,homicidio,20
 2019,4,Barranquilla,hurto_carros,20
 2019,4,Barranquilla,hurto_comercio,169
+2019,4,Barranquilla,hurto_entidades,1
 2019,4,Barranquilla,hurto_motos,67
 2019,4,Barranquilla,hurto_personas,773
 2019,4,Barranquilla,hurto_residencias,72
@@ -6024,6 +7838,7 @@ anio,mes,municipio,categoria,cantidad
 2019,8,Barranquilla,homicidio,25
 2019,8,Barranquilla,hurto_carros,16
 2019,8,Barranquilla,hurto_comercio,142
+2019,8,Barranquilla,hurto_entidades,1
 2019,8,Barranquilla,hurto_motos,58
 2019,8,Barranquilla,hurto_personas,858
 2019,8,Barranquilla,hurto_residencias,66
@@ -6115,6 +7930,7 @@ anio,mes,municipio,categoria,cantidad
 2019,9,Soledad,homicidio,8
 2019,9,Soledad,hurto_carros,4
 2019,9,Soledad,hurto_comercio,19
+2019,9,Soledad,hurto_entidades,1
 2019,9,Soledad,hurto_motos,38
 2019,9,Soledad,hurto_personas,198
 2019,9,Soledad,hurto_residencias,18
