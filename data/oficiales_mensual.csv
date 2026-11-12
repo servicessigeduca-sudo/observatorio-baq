@@ -3016,7 +3016,7 @@ anio,mes,municipio,categoria,cantidad
 2010,1,Barranquilla,hurto_personas,248
 2010,1,Barranquilla,hurto_residencias,29
 2010,1,Barranquilla,lesiones,124
-2010,1,Barranquilla,transito,165
+2010,1,Barranquilla,transito,176
 2010,1,Barranquilla,violencia_intrafamiliar,21
 2010,1,Barranquilla,violencia_sexual,8
 2010,1,Galapa,amenazas,1
@@ -3041,7 +3041,7 @@ anio,mes,municipio,categoria,cantidad
 2010,1,Soledad,hurto_personas,29
 2010,1,Soledad,hurto_residencias,3
 2010,1,Soledad,lesiones,35
-2010,1,Soledad,transito,30
+2010,1,Soledad,transito,34
 2010,1,Soledad,violencia_intrafamiliar,35
 2010,1,Soledad,violencia_sexual,13
 2010,10,Barranquilla,amenazas,83
@@ -3053,7 +3053,7 @@ anio,mes,municipio,categoria,cantidad
 2010,10,Barranquilla,hurto_personas,385
 2010,10,Barranquilla,hurto_residencias,24
 2010,10,Barranquilla,lesiones,102
-2010,10,Barranquilla,transito,247
+2010,10,Barranquilla,transito,250
 2010,10,Barranquilla,violencia_intrafamiliar,28
 2010,10,Barranquilla,violencia_sexual,9
 2010,10,Galapa,amenazas,2
@@ -3075,7 +3075,7 @@ anio,mes,municipio,categoria,cantidad
 2010,10,Puerto Colombia,hurto_motos,1
 2010,10,Puerto Colombia,hurto_personas,1
 2010,10,Puerto Colombia,lesiones,2
-2010,10,Puerto Colombia,transito,1
+2010,10,Puerto Colombia,transito,2
 2010,10,Puerto Colombia,violencia_intrafamiliar,1
 2010,10,Puerto Colombia,violencia_sexual,2
 2010,10,Soledad,amenazas,24
@@ -3086,7 +3086,7 @@ anio,mes,municipio,categoria,cantidad
 2010,10,Soledad,hurto_personas,36
 2010,10,Soledad,hurto_residencias,3
 2010,10,Soledad,lesiones,31
-2010,10,Soledad,transito,17
+2010,10,Soledad,transito,18
 2010,10,Soledad,violencia_intrafamiliar,28
 2010,10,Soledad,violencia_sexual,5
 2010,11,Barranquilla,amenazas,47
@@ -3097,7 +3097,7 @@ anio,mes,municipio,categoria,cantidad
 2010,11,Barranquilla,hurto_personas,308
 2010,11,Barranquilla,hurto_residencias,17
 2010,11,Barranquilla,lesiones,91
-2010,11,Barranquilla,transito,221
+2010,11,Barranquilla,transito,224
 2010,11,Barranquilla,violencia_intrafamiliar,25
 2010,11,Barranquilla,violencia_sexual,3
 2010,11,Galapa,homicidio,1
@@ -3127,7 +3127,7 @@ anio,mes,municipio,categoria,cantidad
 2010,11,Soledad,hurto_personas,31
 2010,11,Soledad,hurto_residencias,2
 2010,11,Soledad,lesiones,26
-2010,11,Soledad,transito,3
+2010,11,Soledad,transito,4
 2010,11,Soledad,violencia_intrafamiliar,36
 2010,11,Soledad,violencia_sexual,7
 2010,12,Barranquilla,amenazas,45
@@ -3139,7 +3139,7 @@ anio,mes,municipio,categoria,cantidad
 2010,12,Barranquilla,hurto_personas,315
 2010,12,Barranquilla,hurto_residencias,16
 2010,12,Barranquilla,lesiones,112
-2010,12,Barranquilla,transito,227
+2010,12,Barranquilla,transito,232
 2010,12,Barranquilla,violencia_intrafamiliar,33
 2010,12,Barranquilla,violencia_sexual,6
 2010,12,Galapa,amenazas,3
@@ -3175,7 +3175,7 @@ anio,mes,municipio,categoria,cantidad
 2010,2,Barranquilla,hurto_personas,264
 2010,2,Barranquilla,hurto_residencias,43
 2010,2,Barranquilla,lesiones,111
-2010,2,Barranquilla,transito,184
+2010,2,Barranquilla,transito,188
 2010,2,Barranquilla,violencia_intrafamiliar,22
 2010,2,Barranquilla,violencia_sexual,7
 2010,2,Galapa,homicidio,2
@@ -3204,7 +3204,7 @@ anio,mes,municipio,categoria,cantidad
 2010,2,Soledad,hurto_motos,14
 2010,2,Soledad,hurto_personas,32
 2010,2,Soledad,lesiones,32
-2010,2,Soledad,transito,14
+2010,2,Soledad,transito,16
 2010,2,Soledad,violencia_intrafamiliar,24
 2010,2,Soledad,violencia_sexual,9
 2010,3,Barranquilla,amenazas,71
@@ -3216,7 +3216,7 @@ anio,mes,municipio,categoria,cantidad
 2010,3,Barranquilla,hurto_personas,296
 2010,3,Barranquilla,hurto_residencias,38
 2010,3,Barranquilla,lesiones,111
-2010,3,Barranquilla,transito,303
+2010,3,Barranquilla,transito,310
 2010,3,Barranquilla,violencia_intrafamiliar,20
 2010,3,Barranquilla,violencia_sexual,14
 2010,3,Galapa,amenazas,1
@@ -3225,7 +3225,7 @@ anio,mes,municipio,categoria,cantidad
 2010,3,Galapa,hurto_motos,1
 2010,3,Galapa,hurto_personas,1
 2010,3,Galapa,hurto_residencias,2
-2010,3,Galapa,transito,6
+2010,3,Galapa,transito,8
 2010,3,Galapa,violencia_sexual,1
 2010,3,Malambo,amenazas,1
 2010,3,Malambo,homicidio,2
@@ -3234,7 +3234,7 @@ anio,mes,municipio,categoria,cantidad
 2010,3,Malambo,hurto_personas,3
 2010,3,Malambo,hurto_residencias,2
 2010,3,Malambo,lesiones,5
-2010,3,Malambo,transito,7
+2010,3,Malambo,transito,10
 2010,3,Malambo,violencia_intrafamiliar,2
 2010,3,Malambo,violencia_sexual,1
 2010,3,Puerto Colombia,homicidio,3
@@ -3248,7 +3248,7 @@ anio,mes,municipio,categoria,cantidad
 2010,3,Soledad,hurto_personas,28
 2010,3,Soledad,hurto_residencias,4
 2010,3,Soledad,lesiones,25
-2010,3,Soledad,transito,46
+2010,3,Soledad,transito,48
 2010,3,Soledad,violencia_intrafamiliar,24
 2010,3,Soledad,violencia_sexual,5
 2010,4,Barranquilla,amenazas,55
@@ -3260,7 +3260,7 @@ anio,mes,municipio,categoria,cantidad
 2010,4,Barranquilla,hurto_personas,299
 2010,4,Barranquilla,hurto_residencias,53
 2010,4,Barranquilla,lesiones,109
-2010,4,Barranquilla,transito,333
+2010,4,Barranquilla,transito,336
 2010,4,Barranquilla,violencia_intrafamiliar,21
 2010,4,Barranquilla,violencia_sexual,7
 2010,4,Galapa,homicidio,1
@@ -3286,7 +3286,7 @@ anio,mes,municipio,categoria,cantidad
 2010,4,Soledad,hurto_personas,26
 2010,4,Soledad,hurto_residencias,3
 2010,4,Soledad,lesiones,35
-2010,4,Soledad,transito,30
+2010,4,Soledad,transito,34
 2010,4,Soledad,violencia_intrafamiliar,17
 2010,4,Soledad,violencia_sexual,3
 2010,5,Barranquilla,amenazas,64
@@ -3299,7 +3299,7 @@ anio,mes,municipio,categoria,cantidad
 2010,5,Barranquilla,hurto_personas,325
 2010,5,Barranquilla,hurto_residencias,34
 2010,5,Barranquilla,lesiones,92
-2010,5,Barranquilla,transito,295
+2010,5,Barranquilla,transito,298
 2010,5,Barranquilla,violencia_intrafamiliar,41
 2010,5,Barranquilla,violencia_sexual,14
 2010,5,Galapa,amenazas,1
@@ -3329,7 +3329,7 @@ anio,mes,municipio,categoria,cantidad
 2010,5,Soledad,hurto_personas,29
 2010,5,Soledad,hurto_residencias,4
 2010,5,Soledad,lesiones,19
-2010,5,Soledad,transito,49
+2010,5,Soledad,transito,50
 2010,5,Soledad,violencia_intrafamiliar,37
 2010,5,Soledad,violencia_sexual,8
 2010,6,Barranquilla,amenazas,62
@@ -3341,7 +3341,7 @@ anio,mes,municipio,categoria,cantidad
 2010,6,Barranquilla,hurto_personas,302
 2010,6,Barranquilla,hurto_residencias,29
 2010,6,Barranquilla,lesiones,112
-2010,6,Barranquilla,transito,259
+2010,6,Barranquilla,transito,268
 2010,6,Barranquilla,violencia_intrafamiliar,32
 2010,6,Barranquilla,violencia_sexual,10
 2010,6,Galapa,amenazas,1
@@ -3355,9 +3355,9 @@ anio,mes,municipio,categoria,cantidad
 2010,6,Malambo,hurto_personas,6
 2010,6,Malambo,hurto_residencias,1
 2010,6,Malambo,lesiones,2
-2010,6,Malambo,transito,13
+2010,6,Malambo,transito,14
 2010,6,Puerto Colombia,amenazas,1
-2010,6,Puerto Colombia,transito,3
+2010,6,Puerto Colombia,transito,4
 2010,6,Soledad,amenazas,8
 2010,6,Soledad,homicidio,13
 2010,6,Soledad,hurto_carros,16
@@ -3366,7 +3366,7 @@ anio,mes,municipio,categoria,cantidad
 2010,6,Soledad,hurto_personas,38
 2010,6,Soledad,hurto_residencias,1
 2010,6,Soledad,lesiones,27
-2010,6,Soledad,transito,11
+2010,6,Soledad,transito,12
 2010,6,Soledad,violencia_intrafamiliar,29
 2010,6,Soledad,violencia_sexual,4
 2010,7,Barranquilla,amenazas,62
@@ -3379,7 +3379,7 @@ anio,mes,municipio,categoria,cantidad
 2010,7,Barranquilla,hurto_personas,362
 2010,7,Barranquilla,hurto_residencias,41
 2010,7,Barranquilla,lesiones,108
-2010,7,Barranquilla,transito,271
+2010,7,Barranquilla,transito,274
 2010,7,Barranquilla,violencia_intrafamiliar,27
 2010,7,Barranquilla,violencia_sexual,7
 2010,7,Galapa,amenazas,1
@@ -3407,7 +3407,7 @@ anio,mes,municipio,categoria,cantidad
 2010,7,Soledad,hurto_personas,33
 2010,7,Soledad,hurto_residencias,1
 2010,7,Soledad,lesiones,32
-2010,7,Soledad,transito,13
+2010,7,Soledad,transito,16
 2010,7,Soledad,violencia_intrafamiliar,42
 2010,7,Soledad,violencia_sexual,3
 2010,8,Barranquilla,amenazas,79
@@ -3419,7 +3419,7 @@ anio,mes,municipio,categoria,cantidad
 2010,8,Barranquilla,hurto_personas,310
 2010,8,Barranquilla,hurto_residencias,30
 2010,8,Barranquilla,lesiones,98
-2010,8,Barranquilla,transito,266
+2010,8,Barranquilla,transito,268
 2010,8,Barranquilla,violencia_intrafamiliar,29
 2010,8,Barranquilla,violencia_sexual,5
 2010,8,Galapa,amenazas,2
@@ -3427,7 +3427,7 @@ anio,mes,municipio,categoria,cantidad
 2010,8,Galapa,hurto_motos,1
 2010,8,Galapa,hurto_personas,3
 2010,8,Galapa,lesiones,6
-2010,8,Galapa,transito,13
+2010,8,Galapa,transito,14
 2010,8,Galapa,violencia_intrafamiliar,2
 2010,8,Malambo,amenazas,1
 2010,8,Malambo,homicidio,4
@@ -3451,7 +3451,7 @@ anio,mes,municipio,categoria,cantidad
 2010,8,Soledad,hurto_personas,43
 2010,8,Soledad,hurto_residencias,3
 2010,8,Soledad,lesiones,26
-2010,8,Soledad,transito,18
+2010,8,Soledad,transito,20
 2010,8,Soledad,violencia_intrafamiliar,53
 2010,8,Soledad,violencia_sexual,7
 2010,9,Barranquilla,amenazas,87
@@ -3462,7 +3462,7 @@ anio,mes,municipio,categoria,cantidad
 2010,9,Barranquilla,hurto_personas,338
 2010,9,Barranquilla,hurto_residencias,22
 2010,9,Barranquilla,lesiones,118
-2010,9,Barranquilla,transito,261
+2010,9,Barranquilla,transito,264
 2010,9,Barranquilla,violencia_intrafamiliar,32
 2010,9,Barranquilla,violencia_sexual,11
 2010,9,Galapa,amenazas,2
@@ -3470,7 +3470,7 @@ anio,mes,municipio,categoria,cantidad
 2010,9,Galapa,hurto_carros,1
 2010,9,Galapa,hurto_motos,2
 2010,9,Galapa,lesiones,1
-2010,9,Galapa,transito,1
+2010,9,Galapa,transito,2
 2010,9,Galapa,violencia_intrafamiliar,1
 2010,9,Malambo,amenazas,2
 2010,9,Malambo,homicidio,4
@@ -3478,7 +3478,7 @@ anio,mes,municipio,categoria,cantidad
 2010,9,Malambo,hurto_motos,2
 2010,9,Malambo,hurto_personas,8
 2010,9,Malambo,lesiones,3
-2010,9,Malambo,transito,21
+2010,9,Malambo,transito,22
 2010,9,Malambo,violencia_sexual,2
 2010,9,Puerto Colombia,amenazas,1
 2010,9,Puerto Colombia,lesiones,2
@@ -3490,7 +3490,7 @@ anio,mes,municipio,categoria,cantidad
 2010,9,Soledad,hurto_personas,45
 2010,9,Soledad,hurto_residencias,5
 2010,9,Soledad,lesiones,27
-2010,9,Soledad,transito,15
+2010,9,Soledad,transito,16
 2010,9,Soledad,violencia_intrafamiliar,48
 2010,9,Soledad,violencia_sexual,9
 2011,1,Barranquilla,amenazas,71
@@ -3503,7 +3503,7 @@ anio,mes,municipio,categoria,cantidad
 2011,1,Barranquilla,hurto_personas,331
 2011,1,Barranquilla,hurto_residencias,39
 2011,1,Barranquilla,lesiones,140
-2011,1,Barranquilla,transito,119
+2011,1,Barranquilla,transito,116
 2011,1,Barranquilla,violencia_intrafamiliar,45
 2011,1,Barranquilla,violencia_sexual,28
 2011,1,Galapa,amenazas,1
@@ -3525,7 +3525,7 @@ anio,mes,municipio,categoria,cantidad
 2011,1,Malambo,violencia_sexual,1
 2011,1,Puerto Colombia,hurto_carros,2
 2011,1,Puerto Colombia,lesiones,1
-2011,1,Puerto Colombia,transito,4
+2011,1,Puerto Colombia,transito,2
 2011,1,Puerto Colombia,violencia_intrafamiliar,1
 2011,1,Soledad,amenazas,22
 2011,1,Soledad,extorsion,2
@@ -3549,7 +3549,7 @@ anio,mes,municipio,categoria,cantidad
 2011,10,Barranquilla,hurto_personas,345
 2011,10,Barranquilla,hurto_residencias,36
 2011,10,Barranquilla,lesiones,148
-2011,10,Barranquilla,transito,135
+2011,10,Barranquilla,transito,130
 2011,10,Barranquilla,violencia_intrafamiliar,59
 2011,10,Barranquilla,violencia_sexual,17
 2011,10,Galapa,hurto_carros,3
@@ -3575,7 +3575,7 @@ anio,mes,municipio,categoria,cantidad
 2011,10,Soledad,hurto_personas,42
 2011,10,Soledad,hurto_residencias,4
 2011,10,Soledad,lesiones,35
-2011,10,Soledad,transito,33
+2011,10,Soledad,transito,32
 2011,10,Soledad,violencia_intrafamiliar,65
 2011,10,Soledad,violencia_sexual,5
 2011,11,Barranquilla,amenazas,73
@@ -3588,7 +3588,7 @@ anio,mes,municipio,categoria,cantidad
 2011,11,Barranquilla,hurto_personas,357
 2011,11,Barranquilla,hurto_residencias,37
 2011,11,Barranquilla,lesiones,177
-2011,11,Barranquilla,transito,110
+2011,11,Barranquilla,transito,106
 2011,11,Barranquilla,violencia_intrafamiliar,56
 2011,11,Barranquilla,violencia_sexual,8
 2011,11,Galapa,hurto_carros,3
@@ -3616,7 +3616,7 @@ anio,mes,municipio,categoria,cantidad
 2011,11,Soledad,hurto_personas,33
 2011,11,Soledad,hurto_residencias,3
 2011,11,Soledad,lesiones,47
-2011,11,Soledad,transito,29
+2011,11,Soledad,transito,26
 2011,11,Soledad,violencia_intrafamiliar,41
 2011,11,Soledad,violencia_sexual,7
 2011,12,Barranquilla,amenazas,62
@@ -3630,7 +3630,7 @@ anio,mes,municipio,categoria,cantidad
 2011,12,Barranquilla,hurto_residencias,26
 2011,12,Barranquilla,lesiones,153
 2011,12,Barranquilla,secuestro,1
-2011,12,Barranquilla,transito,130
+2011,12,Barranquilla,transito,121
 2011,12,Barranquilla,violencia_intrafamiliar,50
 2011,12,Barranquilla,violencia_sexual,5
 2011,12,Galapa,amenazas,1
@@ -3675,7 +3675,7 @@ anio,mes,municipio,categoria,cantidad
 2011,2,Barranquilla,hurto_personas,396
 2011,2,Barranquilla,hurto_residencias,33
 2011,2,Barranquilla,lesiones,213
-2011,2,Barranquilla,transito,125
+2011,2,Barranquilla,transito,121
 2011,2,Barranquilla,violencia_intrafamiliar,42
 2011,2,Barranquilla,violencia_sexual,34
 2011,2,Galapa,amenazas,1
@@ -3718,7 +3718,7 @@ anio,mes,municipio,categoria,cantidad
 2011,3,Barranquilla,hurto_residencias,34
 2011,3,Barranquilla,lesiones,144
 2011,3,Barranquilla,secuestro,1
-2011,3,Barranquilla,transito,126
+2011,3,Barranquilla,transito,121
 2011,3,Barranquilla,violencia_intrafamiliar,52
 2011,3,Barranquilla,violencia_sexual,29
 2011,3,Galapa,amenazas,1
@@ -3734,7 +3734,7 @@ anio,mes,municipio,categoria,cantidad
 2011,3,Malambo,hurto_motos,4
 2011,3,Malambo,hurto_personas,13
 2011,3,Malambo,lesiones,4
-2011,3,Malambo,transito,4
+2011,3,Malambo,transito,3
 2011,3,Malambo,violencia_intrafamiliar,3
 2011,3,Malambo,violencia_sexual,3
 2011,3,Puerto Colombia,amenazas,2
@@ -3764,7 +3764,7 @@ anio,mes,municipio,categoria,cantidad
 2011,4,Barranquilla,hurto_residencias,35
 2011,4,Barranquilla,lesiones,119
 2011,4,Barranquilla,secuestro,1
-2011,4,Barranquilla,transito,127
+2011,4,Barranquilla,transito,122
 2011,4,Barranquilla,violencia_intrafamiliar,43
 2011,4,Barranquilla,violencia_sexual,23
 2011,4,Galapa,amenazas,1
@@ -3780,7 +3780,7 @@ anio,mes,municipio,categoria,cantidad
 2011,4,Malambo,hurto_personas,7
 2011,4,Malambo,hurto_residencias,2
 2011,4,Malambo,lesiones,7
-2011,4,Malambo,transito,3
+2011,4,Malambo,transito,2
 2011,4,Malambo,violencia_intrafamiliar,2
 2011,4,Malambo,violencia_sexual,4
 2011,4,Puerto Colombia,hurto_comercio,1
@@ -3794,7 +3794,7 @@ anio,mes,municipio,categoria,cantidad
 2011,4,Soledad,hurto_personas,32
 2011,4,Soledad,hurto_residencias,4
 2011,4,Soledad,lesiones,30
-2011,4,Soledad,transito,15
+2011,4,Soledad,transito,13
 2011,4,Soledad,violencia_intrafamiliar,47
 2011,4,Soledad,violencia_sexual,15
 2011,5,Barranquilla,amenazas,113
@@ -3806,7 +3806,7 @@ anio,mes,municipio,categoria,cantidad
 2011,5,Barranquilla,hurto_personas,295
 2011,5,Barranquilla,hurto_residencias,43
 2011,5,Barranquilla,lesiones,125
-2011,5,Barranquilla,transito,148
+2011,5,Barranquilla,transito,143
 2011,5,Barranquilla,violencia_intrafamiliar,62
 2011,5,Barranquilla,violencia_sexual,18
 2011,5,Galapa,amenazas,2
@@ -3824,7 +3824,7 @@ anio,mes,municipio,categoria,cantidad
 2011,5,Malambo,hurto_personas,13
 2011,5,Malambo,hurto_residencias,5
 2011,5,Malambo,lesiones,7
-2011,5,Malambo,transito,5
+2011,5,Malambo,transito,4
 2011,5,Malambo,violencia_intrafamiliar,1
 2011,5,Malambo,violencia_sexual,5
 2011,5,Puerto Colombia,hurto_personas,1
@@ -3840,7 +3840,7 @@ anio,mes,municipio,categoria,cantidad
 2011,5,Soledad,hurto_personas,34
 2011,5,Soledad,hurto_residencias,5
 2011,5,Soledad,lesiones,23
-2011,5,Soledad,transito,16
+2011,5,Soledad,transito,14
 2011,5,Soledad,violencia_intrafamiliar,61
 2011,5,Soledad,violencia_sexual,7
 2011,6,Barranquilla,amenazas,118
@@ -3853,7 +3853,7 @@ anio,mes,municipio,categoria,cantidad
 2011,6,Barranquilla,hurto_residencias,23
 2011,6,Barranquilla,lesiones,139
 2011,6,Barranquilla,secuestro,1
-2011,6,Barranquilla,transito,93
+2011,6,Barranquilla,transito,88
 2011,6,Barranquilla,violencia_intrafamiliar,68
 2011,6,Barranquilla,violencia_sexual,20
 2011,6,Galapa,amenazas,9
@@ -3901,7 +3901,7 @@ anio,mes,municipio,categoria,cantidad
 2011,7,Barranquilla,hurto_personas,338
 2011,7,Barranquilla,hurto_residencias,31
 2011,7,Barranquilla,lesiones,109
-2011,7,Barranquilla,transito,129
+2011,7,Barranquilla,transito,125
 2011,7,Barranquilla,violencia_intrafamiliar,58
 2011,7,Barranquilla,violencia_sexual,26
 2011,7,Galapa,amenazas,1
@@ -3935,7 +3935,7 @@ anio,mes,municipio,categoria,cantidad
 2011,7,Soledad,hurto_personas,26
 2011,7,Soledad,hurto_residencias,4
 2011,7,Soledad,lesiones,30
-2011,7,Soledad,transito,38
+2011,7,Soledad,transito,37
 2011,7,Soledad,violencia_intrafamiliar,52
 2011,7,Soledad,violencia_sexual,13
 2011,8,Barranquilla,amenazas,140
@@ -3948,7 +3948,7 @@ anio,mes,municipio,categoria,cantidad
 2011,8,Barranquilla,hurto_personas,363
 2011,8,Barranquilla,hurto_residencias,27
 2011,8,Barranquilla,lesiones,144
-2011,8,Barranquilla,transito,120
+2011,8,Barranquilla,transito,116
 2011,8,Barranquilla,violencia_intrafamiliar,66
 2011,8,Barranquilla,violencia_sexual,26
 2011,8,Galapa,amenazas,5
@@ -3983,7 +3983,7 @@ anio,mes,municipio,categoria,cantidad
 2011,8,Soledad,hurto_personas,34
 2011,8,Soledad,hurto_residencias,3
 2011,8,Soledad,lesiones,27
-2011,8,Soledad,transito,32
+2011,8,Soledad,transito,30
 2011,8,Soledad,violencia_intrafamiliar,62
 2011,8,Soledad,violencia_sexual,13
 2011,9,Barranquilla,amenazas,107
@@ -3996,7 +3996,7 @@ anio,mes,municipio,categoria,cantidad
 2011,9,Barranquilla,hurto_personas,351
 2011,9,Barranquilla,hurto_residencias,33
 2011,9,Barranquilla,lesiones,115
-2011,9,Barranquilla,transito,131
+2011,9,Barranquilla,transito,129
 2011,9,Barranquilla,violencia_intrafamiliar,65
 2011,9,Barranquilla,violencia_sexual,40
 2011,9,Galapa,amenazas,3
@@ -4016,7 +4016,7 @@ anio,mes,municipio,categoria,cantidad
 2011,9,Malambo,hurto_personas,8
 2011,9,Malambo,hurto_residencias,3
 2011,9,Malambo,lesiones,3
-2011,9,Malambo,transito,9
+2011,9,Malambo,transito,7
 2011,9,Malambo,violencia_intrafamiliar,2
 2011,9,Malambo,violencia_sexual,1
 2011,9,Puerto Colombia,amenazas,1
@@ -4033,7 +4033,7 @@ anio,mes,municipio,categoria,cantidad
 2011,9,Soledad,hurto_personas,35
 2011,9,Soledad,hurto_residencias,4
 2011,9,Soledad,lesiones,41
-2011,9,Soledad,transito,32
+2011,9,Soledad,transito,30
 2011,9,Soledad,violencia_intrafamiliar,67
 2011,9,Soledad,violencia_sexual,13
 2012,1,Barranquilla,amenazas,126
@@ -4047,7 +4047,7 @@ anio,mes,municipio,categoria,cantidad
 2012,1,Barranquilla,hurto_residencias,45
 2012,1,Barranquilla,lesiones,230
 2012,1,Barranquilla,secuestro,1
-2012,1,Barranquilla,transito,114
+2012,1,Barranquilla,transito,112
 2012,1,Barranquilla,violencia_intrafamiliar,81
 2012,1,Barranquilla,violencia_sexual,30
 2012,1,Galapa,amenazas,2
@@ -4082,7 +4082,7 @@ anio,mes,municipio,categoria,cantidad
 2012,1,Soledad,hurto_personas,51
 2012,1,Soledad,hurto_residencias,2
 2012,1,Soledad,lesiones,89
-2012,1,Soledad,transito,34
+2012,1,Soledad,transito,33
 2012,1,Soledad,violencia_intrafamiliar,37
 2012,1,Soledad,violencia_sexual,7
 2012,10,Barranquilla,amenazas,179
@@ -4094,7 +4094,7 @@ anio,mes,municipio,categoria,cantidad
 2012,10,Barranquilla,hurto_personas,375
 2012,10,Barranquilla,hurto_residencias,39
 2012,10,Barranquilla,lesiones,242
-2012,10,Barranquilla,transito,162
+2012,10,Barranquilla,transito,156
 2012,10,Barranquilla,violencia_intrafamiliar,130
 2012,10,Barranquilla,violencia_sexual,31
 2012,10,Galapa,amenazas,9
@@ -4104,7 +4104,7 @@ anio,mes,municipio,categoria,cantidad
 2012,10,Galapa,hurto_motos,2
 2012,10,Galapa,hurto_personas,1
 2012,10,Galapa,lesiones,6
-2012,10,Galapa,transito,6
+2012,10,Galapa,transito,3
 2012,10,Galapa,violencia_intrafamiliar,1
 2012,10,Galapa,violencia_sexual,2
 2012,10,Malambo,amenazas,3
@@ -4130,7 +4130,7 @@ anio,mes,municipio,categoria,cantidad
 2012,10,Soledad,hurto_personas,38
 2012,10,Soledad,hurto_residencias,7
 2012,10,Soledad,lesiones,109
-2012,10,Soledad,transito,22
+2012,10,Soledad,transito,20
 2012,10,Soledad,violencia_intrafamiliar,34
 2012,10,Soledad,violencia_sexual,11
 2012,11,Barranquilla,amenazas,116
@@ -4143,7 +4143,7 @@ anio,mes,municipio,categoria,cantidad
 2012,11,Barranquilla,hurto_personas,293
 2012,11,Barranquilla,hurto_residencias,30
 2012,11,Barranquilla,lesiones,212
-2012,11,Barranquilla,transito,108
+2012,11,Barranquilla,transito,105
 2012,11,Barranquilla,violencia_intrafamiliar,38
 2012,11,Barranquilla,violencia_sexual,35
 2012,11,Galapa,amenazas,2
@@ -4173,7 +4173,7 @@ anio,mes,municipio,categoria,cantidad
 2012,11,Soledad,hurto_personas,31
 2012,11,Soledad,hurto_residencias,5
 2012,11,Soledad,lesiones,29
-2012,11,Soledad,transito,23
+2012,11,Soledad,transito,20
 2012,11,Soledad,violencia_intrafamiliar,4
 2012,11,Soledad,violencia_sexual,8
 2012,12,Barranquilla,amenazas,101
@@ -4186,7 +4186,7 @@ anio,mes,municipio,categoria,cantidad
 2012,12,Barranquilla,hurto_personas,360
 2012,12,Barranquilla,hurto_residencias,51
 2012,12,Barranquilla,lesiones,295
-2012,12,Barranquilla,transito,139
+2012,12,Barranquilla,transito,133
 2012,12,Barranquilla,violencia_intrafamiliar,95
 2012,12,Barranquilla,violencia_sexual,30
 2012,12,Galapa,amenazas,1
@@ -4203,7 +4203,7 @@ anio,mes,municipio,categoria,cantidad
 2012,12,Malambo,hurto_motos,2
 2012,12,Malambo,hurto_personas,3
 2012,12,Malambo,lesiones,10
-2012,12,Malambo,transito,5
+2012,12,Malambo,transito,3
 2012,12,Malambo,violencia_intrafamiliar,3
 2012,12,Malambo,violencia_sexual,1
 2012,12,Puerto Colombia,homicidio,1
@@ -4221,7 +4221,7 @@ anio,mes,municipio,categoria,cantidad
 2012,12,Soledad,hurto_personas,52
 2012,12,Soledad,hurto_residencias,5
 2012,12,Soledad,lesiones,160
-2012,12,Soledad,transito,16
+2012,12,Soledad,transito,15
 2012,12,Soledad,violencia_intrafamiliar,18
 2012,12,Soledad,violencia_sexual,8
 2012,2,Barranquilla,amenazas,132
@@ -4233,7 +4233,7 @@ anio,mes,municipio,categoria,cantidad
 2012,2,Barranquilla,hurto_personas,419
 2012,2,Barranquilla,hurto_residencias,34
 2012,2,Barranquilla,lesiones,239
-2012,2,Barranquilla,transito,164
+2012,2,Barranquilla,transito,154
 2012,2,Barranquilla,violencia_intrafamiliar,110
 2012,2,Barranquilla,violencia_sexual,35
 2012,2,Galapa,amenazas,1
@@ -4253,7 +4253,7 @@ anio,mes,municipio,categoria,cantidad
 2012,2,Malambo,hurto_personas,6
 2012,2,Malambo,hurto_residencias,1
 2012,2,Malambo,lesiones,3
-2012,2,Malambo,transito,6
+2012,2,Malambo,transito,5
 2012,2,Malambo,violencia_intrafamiliar,3
 2012,2,Malambo,violencia_sexual,2
 2012,2,Puerto Colombia,amenazas,3
@@ -4262,7 +4262,7 @@ anio,mes,municipio,categoria,cantidad
 2012,2,Puerto Colombia,hurto_entidades,1
 2012,2,Puerto Colombia,hurto_personas,2
 2012,2,Puerto Colombia,lesiones,24
-2012,2,Puerto Colombia,transito,2
+2012,2,Puerto Colombia,transito,1
 2012,2,Soledad,amenazas,13
 2012,2,Soledad,homicidio,10
 2012,2,Soledad,hurto_carros,3
@@ -4271,7 +4271,7 @@ anio,mes,municipio,categoria,cantidad
 2012,2,Soledad,hurto_personas,77
 2012,2,Soledad,hurto_residencias,3
 2012,2,Soledad,lesiones,104
-2012,2,Soledad,transito,33
+2012,2,Soledad,transito,31
 2012,2,Soledad,violencia_intrafamiliar,54
 2012,2,Soledad,violencia_sexual,5
 2012,3,Barranquilla,amenazas,141
@@ -4285,7 +4285,7 @@ anio,mes,municipio,categoria,cantidad
 2012,3,Barranquilla,hurto_residencias,34
 2012,3,Barranquilla,lesiones,238
 2012,3,Barranquilla,secuestro,1
-2012,3,Barranquilla,transito,175
+2012,3,Barranquilla,transito,169
 2012,3,Barranquilla,violencia_intrafamiliar,101
 2012,3,Barranquilla,violencia_sexual,24
 2012,3,Galapa,amenazas,2
@@ -4293,7 +4293,7 @@ anio,mes,municipio,categoria,cantidad
 2012,3,Galapa,hurto_comercio,1
 2012,3,Galapa,hurto_personas,9
 2012,3,Galapa,lesiones,10
-2012,3,Galapa,transito,10
+2012,3,Galapa,transito,9
 2012,3,Galapa,violencia_intrafamiliar,3
 2012,3,Malambo,amenazas,1
 2012,3,Malambo,hurto_carros,3
@@ -4330,7 +4330,7 @@ anio,mes,municipio,categoria,cantidad
 2012,4,Barranquilla,hurto_personas,370
 2012,4,Barranquilla,hurto_residencias,36
 2012,4,Barranquilla,lesiones,256
-2012,4,Barranquilla,transito,129
+2012,4,Barranquilla,transito,127
 2012,4,Barranquilla,violencia_intrafamiliar,104
 2012,4,Barranquilla,violencia_sexual,18
 2012,4,Galapa,amenazas,2
@@ -4367,7 +4367,7 @@ anio,mes,municipio,categoria,cantidad
 2012,4,Soledad,hurto_personas,54
 2012,4,Soledad,hurto_residencias,5
 2012,4,Soledad,lesiones,73
-2012,4,Soledad,transito,35
+2012,4,Soledad,transito,32
 2012,4,Soledad,violencia_intrafamiliar,52
 2012,4,Soledad,violencia_sexual,12
 2012,5,Barranquilla,amenazas,115
@@ -4380,7 +4380,7 @@ anio,mes,municipio,categoria,cantidad
 2012,5,Barranquilla,hurto_personas,395
 2012,5,Barranquilla,hurto_residencias,34
 2012,5,Barranquilla,lesiones,262
-2012,5,Barranquilla,transito,147
+2012,5,Barranquilla,transito,139
 2012,5,Barranquilla,violencia_intrafamiliar,67
 2012,5,Barranquilla,violencia_sexual,27
 2012,5,Galapa,amenazas,2
@@ -4414,7 +4414,7 @@ anio,mes,municipio,categoria,cantidad
 2012,5,Soledad,hurto_personas,50
 2012,5,Soledad,hurto_residencias,5
 2012,5,Soledad,lesiones,112
-2012,5,Soledad,transito,48
+2012,5,Soledad,transito,44
 2012,5,Soledad,violencia_intrafamiliar,50
 2012,5,Soledad,violencia_sexual,10
 2012,6,Barranquilla,amenazas,131
@@ -4427,7 +4427,7 @@ anio,mes,municipio,categoria,cantidad
 2012,6,Barranquilla,hurto_personas,362
 2012,6,Barranquilla,hurto_residencias,28
 2012,6,Barranquilla,lesiones,192
-2012,6,Barranquilla,transito,157
+2012,6,Barranquilla,transito,150
 2012,6,Barranquilla,violencia_intrafamiliar,76
 2012,6,Barranquilla,violencia_sexual,23
 2012,6,Galapa,amenazas,1
@@ -4444,7 +4444,7 @@ anio,mes,municipio,categoria,cantidad
 2012,6,Malambo,hurto_motos,2
 2012,6,Malambo,hurto_personas,3
 2012,6,Malambo,lesiones,3
-2012,6,Malambo,transito,11
+2012,6,Malambo,transito,10
 2012,6,Malambo,violencia_intrafamiliar,3
 2012,6,Malambo,violencia_sexual,3
 2012,6,Puerto Colombia,amenazas,2
@@ -4474,7 +4474,7 @@ anio,mes,municipio,categoria,cantidad
 2012,7,Barranquilla,hurto_residencias,34
 2012,7,Barranquilla,lesiones,253
 2012,7,Barranquilla,secuestro,1
-2012,7,Barranquilla,transito,184
+2012,7,Barranquilla,transito,172
 2012,7,Barranquilla,violencia_intrafamiliar,80
 2012,7,Barranquilla,violencia_sexual,20
 2012,7,Galapa,amenazas,2
@@ -4482,21 +4482,21 @@ anio,mes,municipio,categoria,cantidad
 2012,7,Galapa,hurto_motos,1
 2012,7,Galapa,hurto_personas,5
 2012,7,Galapa,lesiones,10
-2012,7,Galapa,transito,3
+2012,7,Galapa,transito,2
 2012,7,Galapa,violencia_intrafamiliar,1
 2012,7,Malambo,homicidio,3
 2012,7,Malambo,hurto_carros,2
 2012,7,Malambo,hurto_motos,6
 2012,7,Malambo,hurto_personas,3
 2012,7,Malambo,lesiones,7
-2012,7,Malambo,transito,3
+2012,7,Malambo,transito,2
 2012,7,Malambo,violencia_intrafamiliar,4
 2012,7,Malambo,violencia_sexual,1
 2012,7,Puerto Colombia,homicidio,1
 2012,7,Puerto Colombia,hurto_carros,2
 2012,7,Puerto Colombia,hurto_personas,5
 2012,7,Puerto Colombia,lesiones,8
-2012,7,Puerto Colombia,transito,4
+2012,7,Puerto Colombia,transito,3
 2012,7,Soledad,amenazas,17
 2012,7,Soledad,homicidio,11
 2012,7,Soledad,hurto_carros,5
@@ -4505,7 +4505,7 @@ anio,mes,municipio,categoria,cantidad
 2012,7,Soledad,hurto_personas,69
 2012,7,Soledad,hurto_residencias,8
 2012,7,Soledad,lesiones,86
-2012,7,Soledad,transito,40
+2012,7,Soledad,transito,39
 2012,7,Soledad,violencia_intrafamiliar,52
 2012,7,Soledad,violencia_sexual,12
 2012,8,Barranquilla,amenazas,160
@@ -4517,7 +4517,7 @@ anio,mes,municipio,categoria,cantidad
 2012,8,Barranquilla,hurto_personas,421
 2012,8,Barranquilla,hurto_residencias,41
 2012,8,Barranquilla,lesiones,308
-2012,8,Barranquilla,transito,164
+2012,8,Barranquilla,transito,161
 2012,8,Barranquilla,violencia_intrafamiliar,78
 2012,8,Barranquilla,violencia_sexual,43
 2012,8,Galapa,amenazas,7
@@ -4525,7 +4525,7 @@ anio,mes,municipio,categoria,cantidad
 2012,8,Galapa,hurto_motos,1
 2012,8,Galapa,hurto_personas,5
 2012,8,Galapa,lesiones,3
-2012,8,Galapa,transito,9
+2012,8,Galapa,transito,8
 2012,8,Galapa,violencia_intrafamiliar,1
 2012,8,Galapa,violencia_sexual,1
 2012,8,Malambo,amenazas,3
@@ -4552,7 +4552,7 @@ anio,mes,municipio,categoria,cantidad
 2012,8,Soledad,hurto_personas,74
 2012,8,Soledad,hurto_residencias,4
 2012,8,Soledad,lesiones,82
-2012,8,Soledad,transito,40
+2012,8,Soledad,transito,37
 2012,8,Soledad,violencia_intrafamiliar,62
 2012,8,Soledad,violencia_sexual,13
 2012,9,Barranquilla,amenazas,213
@@ -4565,7 +4565,7 @@ anio,mes,municipio,categoria,cantidad
 2012,9,Barranquilla,hurto_personas,463
 2012,9,Barranquilla,hurto_residencias,43
 2012,9,Barranquilla,lesiones,403
-2012,9,Barranquilla,transito,162
+2012,9,Barranquilla,transito,159
 2012,9,Barranquilla,violencia_intrafamiliar,108
 2012,9,Barranquilla,violencia_sexual,16
 2012,9,Galapa,amenazas,9
@@ -4581,7 +4581,7 @@ anio,mes,municipio,categoria,cantidad
 2012,9,Malambo,hurto_personas,11
 2012,9,Malambo,hurto_residencias,2
 2012,9,Malambo,lesiones,16
-2012,9,Malambo,transito,2
+2012,9,Malambo,transito,1
 2012,9,Malambo,violencia_intrafamiliar,4
 2012,9,Malambo,violencia_sexual,2
 2012,9,Puerto Colombia,amenazas,3
@@ -4590,7 +4590,7 @@ anio,mes,municipio,categoria,cantidad
 2012,9,Puerto Colombia,hurto_motos,1
 2012,9,Puerto Colombia,hurto_personas,8
 2012,9,Puerto Colombia,lesiones,22
-2012,9,Puerto Colombia,transito,8
+2012,9,Puerto Colombia,transito,7
 2012,9,Puerto Colombia,violencia_intrafamiliar,1
 2012,9,Soledad,amenazas,30
 2012,9,Soledad,extorsion,1
@@ -4601,7 +4601,7 @@ anio,mes,municipio,categoria,cantidad
 2012,9,Soledad,hurto_personas,41
 2012,9,Soledad,hurto_residencias,10
 2012,9,Soledad,lesiones,98
-2012,9,Soledad,transito,26
+2012,9,Soledad,transito,25
 2012,9,Soledad,violencia_intrafamiliar,66
 2012,9,Soledad,violencia_sexual,10
 2013,1,Barranquilla,amenazas,235
@@ -4613,14 +4613,14 @@ anio,mes,municipio,categoria,cantidad
 2013,1,Barranquilla,hurto_personas,454
 2013,1,Barranquilla,hurto_residencias,50
 2013,1,Barranquilla,lesiones,201
-2013,1,Barranquilla,transito,143
+2013,1,Barranquilla,transito,279
 2013,1,Barranquilla,violencia_intrafamiliar,243
 2013,1,Barranquilla,violencia_sexual,56
 2013,1,Galapa,amenazas,7
 2013,1,Galapa,hurto_carros,1
 2013,1,Galapa,hurto_residencias,1
 2013,1,Galapa,lesiones,3
-2013,1,Galapa,transito,3
+2013,1,Galapa,transito,6
 2013,1,Galapa,violencia_intrafamiliar,3
 2013,1,Malambo,amenazas,6
 2013,1,Malambo,homicidio,1
@@ -4628,7 +4628,7 @@ anio,mes,municipio,categoria,cantidad
 2013,1,Malambo,hurto_motos,7
 2013,1,Malambo,hurto_personas,11
 2013,1,Malambo,lesiones,4
-2013,1,Malambo,transito,3
+2013,1,Malambo,transito,6
 2013,1,Malambo,violencia_intrafamiliar,6
 2013,1,Malambo,violencia_sexual,2
 2013,1,Puerto Colombia,amenazas,2
@@ -4636,7 +4636,7 @@ anio,mes,municipio,categoria,cantidad
 2013,1,Puerto Colombia,hurto_personas,3
 2013,1,Puerto Colombia,hurto_residencias,2
 2013,1,Puerto Colombia,lesiones,2
-2013,1,Puerto Colombia,transito,2
+2013,1,Puerto Colombia,transito,4
 2013,1,Puerto Colombia,violencia_intrafamiliar,6
 2013,1,Puerto Colombia,violencia_sexual,2
 2013,1,Soledad,amenazas,31
@@ -4648,7 +4648,7 @@ anio,mes,municipio,categoria,cantidad
 2013,1,Soledad,hurto_personas,69
 2013,1,Soledad,hurto_residencias,6
 2013,1,Soledad,lesiones,96
-2013,1,Soledad,transito,37
+2013,1,Soledad,transito,71
 2013,1,Soledad,violencia_intrafamiliar,75
 2013,1,Soledad,violencia_sexual,20
 2013,10,Barranquilla,amenazas,36
@@ -4660,7 +4660,7 @@ anio,mes,municipio,categoria,cantidad
 2013,10,Barranquilla,hurto_personas,411
 2013,10,Barranquilla,hurto_residencias,30
 2013,10,Barranquilla,lesiones,233
-2013,10,Barranquilla,transito,116
+2013,10,Barranquilla,transito,226
 2013,10,Barranquilla,violencia_intrafamiliar,62
 2013,10,Barranquilla,violencia_sexual,30
 2013,10,Galapa,hurto_carros,1
@@ -4670,7 +4670,7 @@ anio,mes,municipio,categoria,cantidad
 2013,10,Galapa,hurto_personas,1
 2013,10,Galapa,hurto_residencias,1
 2013,10,Galapa,lesiones,6
-2013,10,Galapa,transito,1
+2013,10,Galapa,transito,2
 2013,10,Galapa,violencia_intrafamiliar,2
 2013,10,Malambo,amenazas,1
 2013,10,Malambo,extorsion,1
@@ -4679,13 +4679,13 @@ anio,mes,municipio,categoria,cantidad
 2013,10,Malambo,hurto_personas,9
 2013,10,Malambo,hurto_residencias,1
 2013,10,Malambo,lesiones,5
-2013,10,Malambo,transito,7
+2013,10,Malambo,transito,13
 2013,10,Malambo,violencia_intrafamiliar,4
 2013,10,Malambo,violencia_sexual,1
 2013,10,Puerto Colombia,homicidio,2
 2013,10,Puerto Colombia,hurto_comercio,1
 2013,10,Puerto Colombia,hurto_personas,1
-2013,10,Puerto Colombia,transito,2
+2013,10,Puerto Colombia,transito,4
 2013,10,Soledad,amenazas,5
 2013,10,Soledad,homicidio,12
 2013,10,Soledad,hurto_comercio,5
@@ -4694,7 +4694,7 @@ anio,mes,municipio,categoria,cantidad
 2013,10,Soledad,hurto_residencias,3
 2013,10,Soledad,lesiones,22
 2013,10,Soledad,secuestro,1
-2013,10,Soledad,transito,21
+2013,10,Soledad,transito,39
 2013,10,Soledad,violencia_intrafamiliar,4
 2013,10,Soledad,violencia_sexual,4
 2013,11,Barranquilla,amenazas,43
@@ -4707,12 +4707,12 @@ anio,mes,municipio,categoria,cantidad
 2013,11,Barranquilla,hurto_personas,361
 2013,11,Barranquilla,hurto_residencias,40
 2013,11,Barranquilla,lesiones,175
-2013,11,Barranquilla,transito,147
+2013,11,Barranquilla,transito,288
 2013,11,Barranquilla,violencia_intrafamiliar,41
 2013,11,Barranquilla,violencia_sexual,5
 2013,11,Galapa,homicidio,1
 2013,11,Galapa,hurto_motos,1
-2013,11,Galapa,transito,3
+2013,11,Galapa,transito,6
 2013,11,Galapa,violencia_intrafamiliar,1
 2013,11,Galapa,violencia_sexual,1
 2013,11,Malambo,amenazas,1
@@ -4723,7 +4723,7 @@ anio,mes,municipio,categoria,cantidad
 2013,11,Malambo,hurto_personas,5
 2013,11,Malambo,hurto_residencias,1
 2013,11,Malambo,lesiones,9
-2013,11,Malambo,transito,4
+2013,11,Malambo,transito,7
 2013,11,Malambo,violencia_intrafamiliar,4
 2013,11,Malambo,violencia_sexual,2
 2013,11,Puerto Colombia,hurto_carros,1
@@ -4738,7 +4738,7 @@ anio,mes,municipio,categoria,cantidad
 2013,11,Soledad,hurto_personas,30
 2013,11,Soledad,hurto_residencias,9
 2013,11,Soledad,lesiones,37
-2013,11,Soledad,transito,14
+2013,11,Soledad,transito,26
 2013,11,Soledad,violencia_intrafamiliar,10
 2013,11,Soledad,violencia_sexual,3
 2013,12,Barranquilla,amenazas,31
@@ -4750,7 +4750,7 @@ anio,mes,municipio,categoria,cantidad
 2013,12,Barranquilla,hurto_personas,317
 2013,12,Barranquilla,hurto_residencias,31
 2013,12,Barranquilla,lesiones,201
-2013,12,Barranquilla,transito,92
+2013,12,Barranquilla,transito,178
 2013,12,Barranquilla,violencia_intrafamiliar,120
 2013,12,Barranquilla,violencia_sexual,25
 2013,12,Galapa,amenazas,1
@@ -4777,7 +4777,7 @@ anio,mes,municipio,categoria,cantidad
 2013,12,Soledad,hurto_personas,39
 2013,12,Soledad,hurto_residencias,2
 2013,12,Soledad,lesiones,51
-2013,12,Soledad,transito,20
+2013,12,Soledad,transito,37
 2013,12,Soledad,violencia_intrafamiliar,56
 2013,12,Soledad,violencia_sexual,10
 2013,2,Barranquilla,amenazas,183
@@ -4789,7 +4789,7 @@ anio,mes,municipio,categoria,cantidad
 2013,2,Barranquilla,hurto_personas,404
 2013,2,Barranquilla,hurto_residencias,24
 2013,2,Barranquilla,lesiones,251
-2013,2,Barranquilla,transito,163
+2013,2,Barranquilla,transito,320
 2013,2,Barranquilla,violencia_intrafamiliar,237
 2013,2,Barranquilla,violencia_sexual,20
 2013,2,Galapa,amenazas,3
@@ -4797,7 +4797,7 @@ anio,mes,municipio,categoria,cantidad
 2013,2,Galapa,hurto_motos,2
 2013,2,Galapa,hurto_personas,5
 2013,2,Galapa,lesiones,6
-2013,2,Galapa,transito,3
+2013,2,Galapa,transito,5
 2013,2,Galapa,violencia_intrafamiliar,5
 2013,2,Malambo,amenazas,2
 2013,2,Malambo,homicidio,1
@@ -4805,12 +4805,12 @@ anio,mes,municipio,categoria,cantidad
 2013,2,Malambo,hurto_motos,7
 2013,2,Malambo,hurto_personas,7
 2013,2,Malambo,lesiones,6
-2013,2,Malambo,transito,3
+2013,2,Malambo,transito,5
 2013,2,Malambo,violencia_intrafamiliar,3
 2013,2,Malambo,violencia_sexual,2
 2013,2,Puerto Colombia,amenazas,1
 2013,2,Puerto Colombia,hurto_personas,1
-2013,2,Puerto Colombia,transito,4
+2013,2,Puerto Colombia,transito,7
 2013,2,Puerto Colombia,violencia_intrafamiliar,1
 2013,2,Soledad,amenazas,25
 2013,2,Soledad,homicidio,11
@@ -4820,7 +4820,7 @@ anio,mes,municipio,categoria,cantidad
 2013,2,Soledad,hurto_personas,38
 2013,2,Soledad,hurto_residencias,4
 2013,2,Soledad,lesiones,88
-2013,2,Soledad,transito,44
+2013,2,Soledad,transito,84
 2013,2,Soledad,violencia_intrafamiliar,34
 2013,2,Soledad,violencia_sexual,8
 2013,3,Barranquilla,amenazas,119
@@ -4833,7 +4833,7 @@ anio,mes,municipio,categoria,cantidad
 2013,3,Barranquilla,hurto_personas,400
 2013,3,Barranquilla,hurto_residencias,32
 2013,3,Barranquilla,lesiones,258
-2013,3,Barranquilla,transito,160
+2013,3,Barranquilla,transito,316
 2013,3,Barranquilla,violencia_intrafamiliar,171
 2013,3,Barranquilla,violencia_sexual,20
 2013,3,Galapa,amenazas,1
@@ -4841,7 +4841,7 @@ anio,mes,municipio,categoria,cantidad
 2013,3,Galapa,hurto_motos,1
 2013,3,Galapa,hurto_personas,4
 2013,3,Galapa,lesiones,4
-2013,3,Galapa,transito,6
+2013,3,Galapa,transito,11
 2013,3,Galapa,violencia_intrafamiliar,2
 2013,3,Malambo,amenazas,2
 2013,3,Malambo,extorsion,1
@@ -4852,13 +4852,13 @@ anio,mes,municipio,categoria,cantidad
 2013,3,Malambo,hurto_personas,9
 2013,3,Malambo,hurto_residencias,1
 2013,3,Malambo,lesiones,5
-2013,3,Malambo,transito,3
+2013,3,Malambo,transito,6
 2013,3,Malambo,violencia_intrafamiliar,1
 2013,3,Malambo,violencia_sexual,1
 2013,3,Puerto Colombia,amenazas,1
 2013,3,Puerto Colombia,hurto_personas,4
 2013,3,Puerto Colombia,hurto_residencias,2
-2013,3,Puerto Colombia,transito,3
+2013,3,Puerto Colombia,transito,6
 2013,3,Soledad,amenazas,30
 2013,3,Soledad,extorsion,3
 2013,3,Soledad,homicidio,9
@@ -4868,7 +4868,7 @@ anio,mes,municipio,categoria,cantidad
 2013,3,Soledad,hurto_personas,43
 2013,3,Soledad,hurto_residencias,10
 2013,3,Soledad,lesiones,79
-2013,3,Soledad,transito,48
+2013,3,Soledad,transito,95
 2013,3,Soledad,violencia_intrafamiliar,35
 2013,3,Soledad,violencia_sexual,3
 2013,4,Barranquilla,amenazas,184
@@ -4880,7 +4880,7 @@ anio,mes,municipio,categoria,cantidad
 2013,4,Barranquilla,hurto_personas,477
 2013,4,Barranquilla,hurto_residencias,40
 2013,4,Barranquilla,lesiones,285
-2013,4,Barranquilla,transito,177
+2013,4,Barranquilla,transito,352
 2013,4,Barranquilla,violencia_intrafamiliar,184
 2013,4,Barranquilla,violencia_sexual,15
 2013,4,Galapa,amenazas,2
@@ -4898,14 +4898,14 @@ anio,mes,municipio,categoria,cantidad
 2013,4,Malambo,hurto_personas,13
 2013,4,Malambo,hurto_residencias,1
 2013,4,Malambo,lesiones,16
-2013,4,Malambo,transito,6
+2013,4,Malambo,transito,11
 2013,4,Malambo,violencia_intrafamiliar,4
 2013,4,Malambo,violencia_sexual,2
 2013,4,Puerto Colombia,hurto_comercio,1
 2013,4,Puerto Colombia,hurto_motos,1
 2013,4,Puerto Colombia,hurto_personas,4
 2013,4,Puerto Colombia,lesiones,2
-2013,4,Puerto Colombia,transito,3
+2013,4,Puerto Colombia,transito,6
 2013,4,Puerto Colombia,violencia_intrafamiliar,6
 2013,4,Puerto Colombia,violencia_sexual,1
 2013,4,Soledad,amenazas,25
@@ -4916,7 +4916,7 @@ anio,mes,municipio,categoria,cantidad
 2013,4,Soledad,hurto_personas,45
 2013,4,Soledad,hurto_residencias,7
 2013,4,Soledad,lesiones,87
-2013,4,Soledad,transito,42
+2013,4,Soledad,transito,80
 2013,4,Soledad,violencia_intrafamiliar,53
 2013,4,Soledad,violencia_sexual,3
 2013,5,Barranquilla,amenazas,185
@@ -4929,7 +4929,7 @@ anio,mes,municipio,categoria,cantidad
 2013,5,Barranquilla,hurto_personas,431
 2013,5,Barranquilla,hurto_residencias,26
 2013,5,Barranquilla,lesiones,261
-2013,5,Barranquilla,transito,164
+2013,5,Barranquilla,transito,327
 2013,5,Barranquilla,violencia_intrafamiliar,139
 2013,5,Barranquilla,violencia_sexual,67
 2013,5,Galapa,homicidio,1
@@ -4937,7 +4937,7 @@ anio,mes,municipio,categoria,cantidad
 2013,5,Galapa,hurto_motos,2
 2013,5,Galapa,hurto_personas,7
 2013,5,Galapa,lesiones,3
-2013,5,Galapa,transito,9
+2013,5,Galapa,transito,16
 2013,5,Galapa,violencia_intrafamiliar,5
 2013,5,Galapa,violencia_sexual,2
 2013,5,Malambo,amenazas,1
@@ -4947,7 +4947,7 @@ anio,mes,municipio,categoria,cantidad
 2013,5,Malambo,hurto_personas,7
 2013,5,Malambo,hurto_residencias,1
 2013,5,Malambo,lesiones,8
-2013,5,Malambo,transito,8
+2013,5,Malambo,transito,16
 2013,5,Malambo,violencia_intrafamiliar,5
 2013,5,Malambo,violencia_sexual,4
 2013,5,Puerto Colombia,amenazas,1
@@ -4957,7 +4957,7 @@ anio,mes,municipio,categoria,cantidad
 2013,5,Puerto Colombia,hurto_personas,2
 2013,5,Puerto Colombia,hurto_residencias,1
 2013,5,Puerto Colombia,lesiones,2
-2013,5,Puerto Colombia,transito,4
+2013,5,Puerto Colombia,transito,8
 2013,5,Puerto Colombia,violencia_intrafamiliar,1
 2013,5,Puerto Colombia,violencia_sexual,2
 2013,5,Soledad,amenazas,20
@@ -4969,7 +4969,7 @@ anio,mes,municipio,categoria,cantidad
 2013,5,Soledad,hurto_personas,55
 2013,5,Soledad,hurto_residencias,13
 2013,5,Soledad,lesiones,61
-2013,5,Soledad,transito,54
+2013,5,Soledad,transito,107
 2013,5,Soledad,violencia_intrafamiliar,37
 2013,5,Soledad,violencia_sexual,5
 2013,6,Barranquilla,amenazas,88
@@ -4981,7 +4981,7 @@ anio,mes,municipio,categoria,cantidad
 2013,6,Barranquilla,hurto_personas,422
 2013,6,Barranquilla,hurto_residencias,26
 2013,6,Barranquilla,lesiones,240
-2013,6,Barranquilla,transito,170
+2013,6,Barranquilla,transito,333
 2013,6,Barranquilla,violencia_intrafamiliar,116
 2013,6,Barranquilla,violencia_sexual,41
 2013,6,Galapa,amenazas,1
@@ -4998,7 +4998,7 @@ anio,mes,municipio,categoria,cantidad
 2013,6,Malambo,hurto_personas,6
 2013,6,Malambo,hurto_residencias,1
 2013,6,Malambo,lesiones,8
-2013,6,Malambo,transito,3
+2013,6,Malambo,transito,6
 2013,6,Malambo,violencia_intrafamiliar,2
 2013,6,Malambo,violencia_sexual,5
 2013,6,Puerto Colombia,amenazas,1
@@ -5006,7 +5006,7 @@ anio,mes,municipio,categoria,cantidad
 2013,6,Puerto Colombia,hurto_personas,3
 2013,6,Puerto Colombia,hurto_residencias,3
 2013,6,Puerto Colombia,lesiones,3
-2013,6,Puerto Colombia,transito,3
+2013,6,Puerto Colombia,transito,6
 2013,6,Puerto Colombia,violencia_sexual,2
 2013,6,Soledad,amenazas,11
 2013,6,Soledad,homicidio,6
@@ -5016,7 +5016,7 @@ anio,mes,municipio,categoria,cantidad
 2013,6,Soledad,hurto_personas,56
 2013,6,Soledad,hurto_residencias,6
 2013,6,Soledad,lesiones,87
-2013,6,Soledad,transito,53
+2013,6,Soledad,transito,105
 2013,6,Soledad,violencia_intrafamiliar,35
 2013,6,Soledad,violencia_sexual,7
 2013,7,Barranquilla,amenazas,32
@@ -5028,23 +5028,23 @@ anio,mes,municipio,categoria,cantidad
 2013,7,Barranquilla,hurto_personas,371
 2013,7,Barranquilla,hurto_residencias,23
 2013,7,Barranquilla,lesiones,244
-2013,7,Barranquilla,transito,131
+2013,7,Barranquilla,transito,258
 2013,7,Barranquilla,violencia_intrafamiliar,76
 2013,7,Barranquilla,violencia_sexual,50
 2013,7,Galapa,hurto_personas,4
 2013,7,Galapa,lesiones,11
-2013,7,Galapa,transito,3
+2013,7,Galapa,transito,6
 2013,7,Galapa,violencia_sexual,1
 2013,7,Malambo,amenazas,2
 2013,7,Malambo,hurto_carros,3
 2013,7,Malambo,hurto_motos,4
 2013,7,Malambo,hurto_personas,4
 2013,7,Malambo,lesiones,7
-2013,7,Malambo,transito,3
+2013,7,Malambo,transito,4
 2013,7,Malambo,violencia_sexual,2
 2013,7,Puerto Colombia,hurto_motos,1
 2013,7,Puerto Colombia,hurto_personas,3
-2013,7,Puerto Colombia,transito,2
+2013,7,Puerto Colombia,transito,4
 2013,7,Puerto Colombia,violencia_sexual,5
 2013,7,Soledad,amenazas,8
 2013,7,Soledad,extorsion,2
@@ -5055,7 +5055,7 @@ anio,mes,municipio,categoria,cantidad
 2013,7,Soledad,hurto_personas,60
 2013,7,Soledad,hurto_residencias,8
 2013,7,Soledad,lesiones,86
-2013,7,Soledad,transito,36
+2013,7,Soledad,transito,68
 2013,7,Soledad,violencia_intrafamiliar,18
 2013,7,Soledad,violencia_sexual,7
 2013,8,Barranquilla,amenazas,30
@@ -5068,12 +5068,12 @@ anio,mes,municipio,categoria,cantidad
 2013,8,Barranquilla,hurto_personas,414
 2013,8,Barranquilla,hurto_residencias,32
 2013,8,Barranquilla,lesiones,210
-2013,8,Barranquilla,transito,109
+2013,8,Barranquilla,transito,214
 2013,8,Barranquilla,violencia_intrafamiliar,68
 2013,8,Barranquilla,violencia_sexual,7
 2013,8,Galapa,hurto_personas,4
 2013,8,Galapa,lesiones,1
-2013,8,Galapa,transito,4
+2013,8,Galapa,transito,7
 2013,8,Galapa,violencia_intrafamiliar,1
 2013,8,Malambo,homicidio,1
 2013,8,Malambo,hurto_carros,1
@@ -5081,14 +5081,14 @@ anio,mes,municipio,categoria,cantidad
 2013,8,Malambo,hurto_motos,4
 2013,8,Malambo,hurto_personas,6
 2013,8,Malambo,lesiones,5
-2013,8,Malambo,transito,6
+2013,8,Malambo,transito,12
 2013,8,Malambo,violencia_intrafamiliar,2
 2013,8,Malambo,violencia_sexual,2
 2013,8,Puerto Colombia,amenazas,1
 2013,8,Puerto Colombia,hurto_motos,1
 2013,8,Puerto Colombia,hurto_personas,3
 2013,8,Puerto Colombia,lesiones,2
-2013,8,Puerto Colombia,transito,4
+2013,8,Puerto Colombia,transito,7
 2013,8,Soledad,amenazas,6
 2013,8,Soledad,extorsion,1
 2013,8,Soledad,homicidio,4
@@ -5099,7 +5099,7 @@ anio,mes,municipio,categoria,cantidad
 2013,8,Soledad,hurto_personas,43
 2013,8,Soledad,hurto_residencias,4
 2013,8,Soledad,lesiones,32
-2013,8,Soledad,transito,29
+2013,8,Soledad,transito,57
 2013,8,Soledad,violencia_intrafamiliar,7
 2013,8,Soledad,violencia_sexual,1
 2013,9,Barranquilla,amenazas,52
@@ -5113,7 +5113,7 @@ anio,mes,municipio,categoria,cantidad
 2013,9,Barranquilla,hurto_residencias,36
 2013,9,Barranquilla,lesiones,327
 2013,9,Barranquilla,secuestro,1
-2013,9,Barranquilla,transito,121
+2013,9,Barranquilla,transito,235
 2013,9,Barranquilla,violencia_intrafamiliar,77
 2013,9,Barranquilla,violencia_sexual,18
 2013,9,Galapa,amenazas,2
@@ -5131,14 +5131,14 @@ anio,mes,municipio,categoria,cantidad
 2013,9,Malambo,hurto_motos,3
 2013,9,Malambo,hurto_personas,9
 2013,9,Malambo,lesiones,6
-2013,9,Malambo,transito,1
+2013,9,Malambo,transito,2
 2013,9,Malambo,violencia_intrafamiliar,3
 2013,9,Puerto Colombia,homicidio,1
 2013,9,Puerto Colombia,hurto_entidades,1
 2013,9,Puerto Colombia,hurto_motos,1
 2013,9,Puerto Colombia,hurto_personas,2
 2013,9,Puerto Colombia,lesiones,1
-2013,9,Puerto Colombia,transito,9
+2013,9,Puerto Colombia,transito,17
 2013,9,Puerto Colombia,violencia_intrafamiliar,1
 2013,9,Puerto Colombia,violencia_sexual,1
 2013,9,Soledad,amenazas,4
@@ -5149,7 +5149,7 @@ anio,mes,municipio,categoria,cantidad
 2013,9,Soledad,hurto_personas,57
 2013,9,Soledad,hurto_residencias,6
 2013,9,Soledad,lesiones,112
-2013,9,Soledad,transito,43
+2013,9,Soledad,transito,84
 2013,9,Soledad,violencia_intrafamiliar,20
 2013,9,Soledad,violencia_sexual,13
 2014,1,Barranquilla,amenazas,191
@@ -6315,7 +6315,7 @@ anio,mes,municipio,categoria,cantidad
 2016,1,Barranquilla,hurto_personas,456
 2016,1,Barranquilla,hurto_residencias,39
 2016,1,Barranquilla,lesiones,234
-2016,1,Barranquilla,transito,201
+2016,1,Barranquilla,transito,103
 2016,1,Barranquilla,violencia_intrafamiliar,145
 2016,1,Barranquilla,violencia_sexual,43
 2016,1,Galapa,amenazas,5
@@ -6324,7 +6324,7 @@ anio,mes,municipio,categoria,cantidad
 2016,1,Galapa,hurto_personas,15
 2016,1,Galapa,hurto_residencias,2
 2016,1,Galapa,lesiones,3
-2016,1,Galapa,transito,2
+2016,1,Galapa,transito,1
 2016,1,Galapa,violencia_intrafamiliar,3
 2016,1,Galapa,violencia_sexual,2
 2016,1,Malambo,amenazas,1
@@ -6335,7 +6335,7 @@ anio,mes,municipio,categoria,cantidad
 2016,1,Malambo,hurto_personas,16
 2016,1,Malambo,hurto_residencias,6
 2016,1,Malambo,lesiones,19
-2016,1,Malambo,transito,23
+2016,1,Malambo,transito,12
 2016,1,Malambo,violencia_intrafamiliar,13
 2016,1,Malambo,violencia_sexual,4
 2016,1,Puerto Colombia,amenazas,7
@@ -6345,7 +6345,7 @@ anio,mes,municipio,categoria,cantidad
 2016,1,Puerto Colombia,hurto_personas,6
 2016,1,Puerto Colombia,hurto_residencias,3
 2016,1,Puerto Colombia,lesiones,4
-2016,1,Puerto Colombia,transito,6
+2016,1,Puerto Colombia,transito,3
 2016,1,Puerto Colombia,violencia_intrafamiliar,4
 2016,1,Puerto Colombia,violencia_sexual,2
 2016,1,Soledad,amenazas,34
@@ -6357,7 +6357,7 @@ anio,mes,municipio,categoria,cantidad
 2016,1,Soledad,hurto_personas,71
 2016,1,Soledad,hurto_residencias,7
 2016,1,Soledad,lesiones,78
-2016,1,Soledad,transito,53
+2016,1,Soledad,transito,27
 2016,1,Soledad,violencia_intrafamiliar,73
 2016,1,Soledad,violencia_sexual,13
 2016,10,Barranquilla,amenazas,88
@@ -6369,7 +6369,7 @@ anio,mes,municipio,categoria,cantidad
 2016,10,Barranquilla,hurto_personas,441
 2016,10,Barranquilla,hurto_residencias,37
 2016,10,Barranquilla,lesiones,254
-2016,10,Barranquilla,transito,317
+2016,10,Barranquilla,transito,162
 2016,10,Barranquilla,violencia_intrafamiliar,116
 2016,10,Barranquilla,violencia_sexual,51
 2016,10,Galapa,amenazas,3
@@ -6378,7 +6378,7 @@ anio,mes,municipio,categoria,cantidad
 2016,10,Galapa,hurto_motos,1
 2016,10,Galapa,hurto_personas,5
 2016,10,Galapa,lesiones,5
-2016,10,Galapa,transito,6
+2016,10,Galapa,transito,3
 2016,10,Galapa,violencia_sexual,2
 2016,10,Malambo,amenazas,2
 2016,10,Malambo,homicidio,1
@@ -6387,7 +6387,7 @@ anio,mes,municipio,categoria,cantidad
 2016,10,Malambo,hurto_personas,17
 2016,10,Malambo,hurto_residencias,2
 2016,10,Malambo,lesiones,16
-2016,10,Malambo,transito,11
+2016,10,Malambo,transito,6
 2016,10,Malambo,violencia_intrafamiliar,22
 2016,10,Malambo,violencia_sexual,8
 2016,10,Puerto Colombia,hurto_carros,1
@@ -6395,7 +6395,7 @@ anio,mes,municipio,categoria,cantidad
 2016,10,Puerto Colombia,hurto_personas,12
 2016,10,Puerto Colombia,hurto_residencias,1
 2016,10,Puerto Colombia,lesiones,11
-2016,10,Puerto Colombia,transito,11
+2016,10,Puerto Colombia,transito,6
 2016,10,Puerto Colombia,violencia_intrafamiliar,4
 2016,10,Puerto Colombia,violencia_sexual,1
 2016,10,Soledad,amenazas,30
@@ -6406,7 +6406,7 @@ anio,mes,municipio,categoria,cantidad
 2016,10,Soledad,hurto_motos,39
 2016,10,Soledad,hurto_personas,86
 2016,10,Soledad,lesiones,85
-2016,10,Soledad,transito,105
+2016,10,Soledad,transito,53
 2016,10,Soledad,violencia_intrafamiliar,78
 2016,10,Soledad,violencia_sexual,29
 2016,11,Barranquilla,amenazas,93
@@ -6419,7 +6419,7 @@ anio,mes,municipio,categoria,cantidad
 2016,11,Barranquilla,hurto_personas,364
 2016,11,Barranquilla,hurto_residencias,28
 2016,11,Barranquilla,lesiones,233
-2016,11,Barranquilla,transito,383
+2016,11,Barranquilla,transito,197
 2016,11,Barranquilla,violencia_intrafamiliar,121
 2016,11,Barranquilla,violencia_sexual,46
 2016,11,Galapa,homicidio,1
@@ -6435,13 +6435,13 @@ anio,mes,municipio,categoria,cantidad
 2016,11,Malambo,hurto_motos,5
 2016,11,Malambo,hurto_personas,15
 2016,11,Malambo,lesiones,13
-2016,11,Malambo,transito,7
+2016,11,Malambo,transito,4
 2016,11,Malambo,violencia_intrafamiliar,6
 2016,11,Malambo,violencia_sexual,4
 2016,11,Puerto Colombia,amenazas,1
 2016,11,Puerto Colombia,hurto_personas,15
 2016,11,Puerto Colombia,lesiones,9
-2016,11,Puerto Colombia,transito,6
+2016,11,Puerto Colombia,transito,3
 2016,11,Puerto Colombia,violencia_intrafamiliar,4
 2016,11,Puerto Colombia,violencia_sexual,1
 2016,11,Soledad,amenazas,17
@@ -6453,7 +6453,7 @@ anio,mes,municipio,categoria,cantidad
 2016,11,Soledad,hurto_personas,86
 2016,11,Soledad,hurto_residencias,2
 2016,11,Soledad,lesiones,69
-2016,11,Soledad,transito,68
+2016,11,Soledad,transito,35
 2016,11,Soledad,violencia_intrafamiliar,76
 2016,11,Soledad,violencia_sexual,22
 2016,12,Barranquilla,amenazas,84
@@ -6465,7 +6465,7 @@ anio,mes,municipio,categoria,cantidad
 2016,12,Barranquilla,hurto_personas,479
 2016,12,Barranquilla,hurto_residencias,31
 2016,12,Barranquilla,lesiones,240
-2016,12,Barranquilla,transito,281
+2016,12,Barranquilla,transito,142
 2016,12,Barranquilla,violencia_intrafamiliar,129
 2016,12,Barranquilla,violencia_sexual,40
 2016,12,Galapa,homicidio,6
@@ -6473,7 +6473,7 @@ anio,mes,municipio,categoria,cantidad
 2016,12,Galapa,hurto_motos,5
 2016,12,Galapa,hurto_personas,6
 2016,12,Galapa,lesiones,5
-2016,12,Galapa,transito,6
+2016,12,Galapa,transito,3
 2016,12,Galapa,violencia_intrafamiliar,4
 2016,12,Galapa,violencia_sexual,4
 2016,12,Malambo,amenazas,2
@@ -6481,7 +6481,7 @@ anio,mes,municipio,categoria,cantidad
 2016,12,Malambo,hurto_motos,8
 2016,12,Malambo,hurto_personas,4
 2016,12,Malambo,lesiones,7
-2016,12,Malambo,transito,12
+2016,12,Malambo,transito,7
 2016,12,Malambo,violencia_intrafamiliar,7
 2016,12,Malambo,violencia_sexual,5
 2016,12,Puerto Colombia,amenazas,15
@@ -6489,7 +6489,7 @@ anio,mes,municipio,categoria,cantidad
 2016,12,Puerto Colombia,hurto_personas,13
 2016,12,Puerto Colombia,hurto_residencias,3
 2016,12,Puerto Colombia,lesiones,7
-2016,12,Puerto Colombia,transito,14
+2016,12,Puerto Colombia,transito,7
 2016,12,Puerto Colombia,violencia_intrafamiliar,5
 2016,12,Puerto Colombia,violencia_sexual,3
 2016,12,Soledad,amenazas,19
@@ -6501,7 +6501,7 @@ anio,mes,municipio,categoria,cantidad
 2016,12,Soledad,hurto_personas,85
 2016,12,Soledad,hurto_residencias,1
 2016,12,Soledad,lesiones,97
-2016,12,Soledad,transito,83
+2016,12,Soledad,transito,44
 2016,12,Soledad,violencia_intrafamiliar,75
 2016,12,Soledad,violencia_sexual,24
 2016,2,Barranquilla,amenazas,257
@@ -6514,7 +6514,7 @@ anio,mes,municipio,categoria,cantidad
 2016,2,Barranquilla,hurto_personas,446
 2016,2,Barranquilla,hurto_residencias,50
 2016,2,Barranquilla,lesiones,289
-2016,2,Barranquilla,transito,269
+2016,2,Barranquilla,transito,138
 2016,2,Barranquilla,violencia_intrafamiliar,133
 2016,2,Barranquilla,violencia_sexual,37
 2016,2,Galapa,amenazas,5
@@ -6524,7 +6524,7 @@ anio,mes,municipio,categoria,cantidad
 2016,2,Galapa,hurto_personas,3
 2016,2,Galapa,hurto_residencias,1
 2016,2,Galapa,lesiones,3
-2016,2,Galapa,transito,3
+2016,2,Galapa,transito,2
 2016,2,Galapa,violencia_intrafamiliar,1
 2016,2,Galapa,violencia_sexual,1
 2016,2,Malambo,homicidio,1
@@ -6533,7 +6533,7 @@ anio,mes,municipio,categoria,cantidad
 2016,2,Malambo,hurto_personas,16
 2016,2,Malambo,hurto_residencias,2
 2016,2,Malambo,lesiones,12
-2016,2,Malambo,transito,5
+2016,2,Malambo,transito,3
 2016,2,Malambo,violencia_intrafamiliar,14
 2016,2,Malambo,violencia_sexual,3
 2016,2,Puerto Colombia,amenazas,1
@@ -6542,7 +6542,7 @@ anio,mes,municipio,categoria,cantidad
 2016,2,Puerto Colombia,hurto_personas,10
 2016,2,Puerto Colombia,hurto_residencias,2
 2016,2,Puerto Colombia,lesiones,5
-2016,2,Puerto Colombia,transito,6
+2016,2,Puerto Colombia,transito,3
 2016,2,Puerto Colombia,violencia_intrafamiliar,2
 2016,2,Puerto Colombia,violencia_sexual,2
 2016,2,Soledad,amenazas,36
@@ -6555,7 +6555,7 @@ anio,mes,municipio,categoria,cantidad
 2016,2,Soledad,hurto_personas,56
 2016,2,Soledad,hurto_residencias,4
 2016,2,Soledad,lesiones,94
-2016,2,Soledad,transito,62
+2016,2,Soledad,transito,31
 2016,2,Soledad,violencia_intrafamiliar,103
 2016,2,Soledad,violencia_sexual,19
 2016,3,Barranquilla,amenazas,192
@@ -6567,7 +6567,7 @@ anio,mes,municipio,categoria,cantidad
 2016,3,Barranquilla,hurto_personas,407
 2016,3,Barranquilla,hurto_residencias,30
 2016,3,Barranquilla,lesiones,180
-2016,3,Barranquilla,transito,268
+2016,3,Barranquilla,transito,138
 2016,3,Barranquilla,violencia_intrafamiliar,150
 2016,3,Barranquilla,violencia_sexual,42
 2016,3,Galapa,amenazas,4
@@ -6577,7 +6577,7 @@ anio,mes,municipio,categoria,cantidad
 2016,3,Galapa,hurto_motos,1
 2016,3,Galapa,hurto_personas,3
 2016,3,Galapa,lesiones,3
-2016,3,Galapa,transito,3
+2016,3,Galapa,transito,2
 2016,3,Galapa,violencia_intrafamiliar,3
 2016,3,Galapa,violencia_sexual,1
 2016,3,Malambo,amenazas,2
@@ -6588,7 +6588,7 @@ anio,mes,municipio,categoria,cantidad
 2016,3,Malambo,hurto_personas,16
 2016,3,Malambo,hurto_residencias,1
 2016,3,Malambo,lesiones,12
-2016,3,Malambo,transito,22
+2016,3,Malambo,transito,12
 2016,3,Malambo,violencia_intrafamiliar,10
 2016,3,Malambo,violencia_sexual,3
 2016,3,Puerto Colombia,amenazas,4
@@ -6597,7 +6597,7 @@ anio,mes,municipio,categoria,cantidad
 2016,3,Puerto Colombia,hurto_personas,5
 2016,3,Puerto Colombia,hurto_residencias,4
 2016,3,Puerto Colombia,lesiones,11
-2016,3,Puerto Colombia,transito,24
+2016,3,Puerto Colombia,transito,12
 2016,3,Puerto Colombia,violencia_intrafamiliar,6
 2016,3,Soledad,amenazas,23
 2016,3,Soledad,homicidio,8
@@ -6607,7 +6607,7 @@ anio,mes,municipio,categoria,cantidad
 2016,3,Soledad,hurto_personas,64
 2016,3,Soledad,hurto_residencias,6
 2016,3,Soledad,lesiones,61
-2016,3,Soledad,transito,91
+2016,3,Soledad,transito,47
 2016,3,Soledad,violencia_intrafamiliar,99
 2016,3,Soledad,violencia_sexual,23
 2016,4,Barranquilla,amenazas,201
@@ -6620,7 +6620,7 @@ anio,mes,municipio,categoria,cantidad
 2016,4,Barranquilla,hurto_personas,376
 2016,4,Barranquilla,hurto_residencias,49
 2016,4,Barranquilla,lesiones,246
-2016,4,Barranquilla,transito,262
+2016,4,Barranquilla,transito,133
 2016,4,Barranquilla,violencia_intrafamiliar,148
 2016,4,Barranquilla,violencia_sexual,41
 2016,4,Galapa,amenazas,2
@@ -6628,7 +6628,7 @@ anio,mes,municipio,categoria,cantidad
 2016,4,Galapa,hurto_carros,4
 2016,4,Galapa,hurto_personas,5
 2016,4,Galapa,lesiones,2
-2016,4,Galapa,transito,4
+2016,4,Galapa,transito,2
 2016,4,Galapa,violencia_intrafamiliar,1
 2016,4,Galapa,violencia_sexual,1
 2016,4,Malambo,amenazas,2
@@ -6640,14 +6640,14 @@ anio,mes,municipio,categoria,cantidad
 2016,4,Malambo,hurto_personas,13
 2016,4,Malambo,hurto_residencias,3
 2016,4,Malambo,lesiones,18
-2016,4,Malambo,transito,13
+2016,4,Malambo,transito,7
 2016,4,Malambo,violencia_intrafamiliar,15
 2016,4,Malambo,violencia_sexual,5
 2016,4,Puerto Colombia,amenazas,2
 2016,4,Puerto Colombia,hurto_personas,7
 2016,4,Puerto Colombia,hurto_residencias,4
 2016,4,Puerto Colombia,lesiones,9
-2016,4,Puerto Colombia,transito,23
+2016,4,Puerto Colombia,transito,12
 2016,4,Puerto Colombia,violencia_intrafamiliar,4
 2016,4,Puerto Colombia,violencia_sexual,2
 2016,4,Soledad,amenazas,22
@@ -6660,7 +6660,7 @@ anio,mes,municipio,categoria,cantidad
 2016,4,Soledad,hurto_personas,62
 2016,4,Soledad,hurto_residencias,5
 2016,4,Soledad,lesiones,84
-2016,4,Soledad,transito,65
+2016,4,Soledad,transito,33
 2016,4,Soledad,violencia_intrafamiliar,95
 2016,4,Soledad,violencia_sexual,17
 2016,5,Barranquilla,amenazas,243
@@ -6672,7 +6672,7 @@ anio,mes,municipio,categoria,cantidad
 2016,5,Barranquilla,hurto_personas,481
 2016,5,Barranquilla,hurto_residencias,42
 2016,5,Barranquilla,lesiones,264
-2016,5,Barranquilla,transito,333
+2016,5,Barranquilla,transito,171
 2016,5,Barranquilla,violencia_intrafamiliar,152
 2016,5,Barranquilla,violencia_sexual,48
 2016,5,Galapa,amenazas,3
@@ -6688,7 +6688,7 @@ anio,mes,municipio,categoria,cantidad
 2016,5,Malambo,hurto_personas,16
 2016,5,Malambo,hurto_residencias,4
 2016,5,Malambo,lesiones,22
-2016,5,Malambo,transito,17
+2016,5,Malambo,transito,9
 2016,5,Malambo,violencia_intrafamiliar,23
 2016,5,Malambo,violencia_sexual,5
 2016,5,Puerto Colombia,amenazas,1
@@ -6696,7 +6696,7 @@ anio,mes,municipio,categoria,cantidad
 2016,5,Puerto Colombia,hurto_personas,17
 2016,5,Puerto Colombia,hurto_residencias,3
 2016,5,Puerto Colombia,lesiones,10
-2016,5,Puerto Colombia,transito,24
+2016,5,Puerto Colombia,transito,12
 2016,5,Puerto Colombia,violencia_intrafamiliar,8
 2016,5,Soledad,amenazas,30
 2016,5,Soledad,homicidio,9
@@ -6706,7 +6706,7 @@ anio,mes,municipio,categoria,cantidad
 2016,5,Soledad,hurto_personas,63
 2016,5,Soledad,hurto_residencias,10
 2016,5,Soledad,lesiones,78
-2016,5,Soledad,transito,84
+2016,5,Soledad,transito,42
 2016,5,Soledad,violencia_intrafamiliar,121
 2016,5,Soledad,violencia_sexual,11
 2016,6,Barranquilla,amenazas,204
@@ -6719,7 +6719,7 @@ anio,mes,municipio,categoria,cantidad
 2016,6,Barranquilla,hurto_personas,495
 2016,6,Barranquilla,hurto_residencias,32
 2016,6,Barranquilla,lesiones,216
-2016,6,Barranquilla,transito,243
+2016,6,Barranquilla,transito,123
 2016,6,Barranquilla,violencia_intrafamiliar,118
 2016,6,Barranquilla,violencia_sexual,37
 2016,6,Galapa,amenazas,2
@@ -6727,7 +6727,7 @@ anio,mes,municipio,categoria,cantidad
 2016,6,Galapa,hurto_motos,4
 2016,6,Galapa,hurto_personas,8
 2016,6,Galapa,lesiones,2
-2016,6,Galapa,transito,6
+2016,6,Galapa,transito,4
 2016,6,Galapa,violencia_intrafamiliar,5
 2016,6,Malambo,hurto_carros,4
 2016,6,Malambo,hurto_comercio,1
@@ -6735,7 +6735,7 @@ anio,mes,municipio,categoria,cantidad
 2016,6,Malambo,hurto_personas,17
 2016,6,Malambo,hurto_residencias,2
 2016,6,Malambo,lesiones,3
-2016,6,Malambo,transito,8
+2016,6,Malambo,transito,6
 2016,6,Malambo,violencia_intrafamiliar,8
 2016,6,Malambo,violencia_sexual,11
 2016,6,Puerto Colombia,amenazas,7
@@ -6743,7 +6743,7 @@ anio,mes,municipio,categoria,cantidad
 2016,6,Puerto Colombia,hurto_personas,6
 2016,6,Puerto Colombia,hurto_residencias,1
 2016,6,Puerto Colombia,lesiones,12
-2016,6,Puerto Colombia,transito,13
+2016,6,Puerto Colombia,transito,7
 2016,6,Puerto Colombia,violencia_intrafamiliar,7
 2016,6,Puerto Colombia,violencia_sexual,2
 2016,6,Soledad,amenazas,26
@@ -6756,7 +6756,7 @@ anio,mes,municipio,categoria,cantidad
 2016,6,Soledad,hurto_personas,75
 2016,6,Soledad,hurto_residencias,7
 2016,6,Soledad,lesiones,92
-2016,6,Soledad,transito,53
+2016,6,Soledad,transito,27
 2016,6,Soledad,violencia_intrafamiliar,102
 2016,6,Soledad,violencia_sexual,16
 2016,7,Barranquilla,amenazas,196
@@ -6769,7 +6769,7 @@ anio,mes,municipio,categoria,cantidad
 2016,7,Barranquilla,hurto_personas,475
 2016,7,Barranquilla,hurto_residencias,42
 2016,7,Barranquilla,lesiones,271
-2016,7,Barranquilla,transito,270
+2016,7,Barranquilla,transito,138
 2016,7,Barranquilla,violencia_intrafamiliar,122
 2016,7,Barranquilla,violencia_sexual,50
 2016,7,Galapa,amenazas,4
@@ -6777,7 +6777,7 @@ anio,mes,municipio,categoria,cantidad
 2016,7,Galapa,hurto_motos,7
 2016,7,Galapa,hurto_personas,5
 2016,7,Galapa,lesiones,5
-2016,7,Galapa,transito,21
+2016,7,Galapa,transito,11
 2016,7,Galapa,violencia_intrafamiliar,2
 2016,7,Galapa,violencia_sexual,4
 2016,7,Malambo,amenazas,4
@@ -6786,7 +6786,7 @@ anio,mes,municipio,categoria,cantidad
 2016,7,Malambo,hurto_motos,10
 2016,7,Malambo,hurto_personas,10
 2016,7,Malambo,lesiones,12
-2016,7,Malambo,transito,11
+2016,7,Malambo,transito,6
 2016,7,Malambo,violencia_intrafamiliar,4
 2016,7,Malambo,violencia_sexual,8
 2016,7,Puerto Colombia,amenazas,2
@@ -6795,7 +6795,7 @@ anio,mes,municipio,categoria,cantidad
 2016,7,Puerto Colombia,hurto_motos,3
 2016,7,Puerto Colombia,hurto_personas,8
 2016,7,Puerto Colombia,lesiones,5
-2016,7,Puerto Colombia,transito,13
+2016,7,Puerto Colombia,transito,7
 2016,7,Puerto Colombia,violencia_intrafamiliar,7
 2016,7,Puerto Colombia,violencia_sexual,2
 2016,7,Soledad,amenazas,32
@@ -6807,7 +6807,7 @@ anio,mes,municipio,categoria,cantidad
 2016,7,Soledad,hurto_personas,60
 2016,7,Soledad,hurto_residencias,4
 2016,7,Soledad,lesiones,86
-2016,7,Soledad,transito,119
+2016,7,Soledad,transito,62
 2016,7,Soledad,violencia_intrafamiliar,102
 2016,7,Soledad,violencia_sexual,16
 2016,8,Barranquilla,amenazas,214
@@ -6820,14 +6820,14 @@ anio,mes,municipio,categoria,cantidad
 2016,8,Barranquilla,hurto_personas,454
 2016,8,Barranquilla,hurto_residencias,38
 2016,8,Barranquilla,lesiones,247
-2016,8,Barranquilla,transito,389
+2016,8,Barranquilla,transito,200
 2016,8,Barranquilla,violencia_intrafamiliar,115
 2016,8,Barranquilla,violencia_sexual,32
 2016,8,Galapa,amenazas,1
 2016,8,Galapa,hurto_comercio,1
 2016,8,Galapa,hurto_personas,2
 2016,8,Galapa,lesiones,6
-2016,8,Galapa,transito,2
+2016,8,Galapa,transito,1
 2016,8,Galapa,violencia_intrafamiliar,4
 2016,8,Galapa,violencia_sexual,1
 2016,8,Malambo,amenazas,3
@@ -6837,7 +6837,7 @@ anio,mes,municipio,categoria,cantidad
 2016,8,Malambo,hurto_personas,13
 2016,8,Malambo,hurto_residencias,2
 2016,8,Malambo,lesiones,9
-2016,8,Malambo,transito,11
+2016,8,Malambo,transito,6
 2016,8,Malambo,violencia_intrafamiliar,14
 2016,8,Malambo,violencia_sexual,7
 2016,8,Puerto Colombia,amenazas,1
@@ -6845,7 +6845,7 @@ anio,mes,municipio,categoria,cantidad
 2016,8,Puerto Colombia,hurto_personas,12
 2016,8,Puerto Colombia,hurto_residencias,2
 2016,8,Puerto Colombia,lesiones,14
-2016,8,Puerto Colombia,transito,4
+2016,8,Puerto Colombia,transito,2
 2016,8,Puerto Colombia,violencia_intrafamiliar,3
 2016,8,Puerto Colombia,violencia_sexual,1
 2016,8,Soledad,amenazas,36
@@ -6857,7 +6857,7 @@ anio,mes,municipio,categoria,cantidad
 2016,8,Soledad,hurto_personas,67
 2016,8,Soledad,hurto_residencias,9
 2016,8,Soledad,lesiones,104
-2016,8,Soledad,transito,105
+2016,8,Soledad,transito,53
 2016,8,Soledad,violencia_intrafamiliar,91
 2016,8,Soledad,violencia_sexual,12
 2016,9,Barranquilla,amenazas,154
@@ -6869,7 +6869,7 @@ anio,mes,municipio,categoria,cantidad
 2016,9,Barranquilla,hurto_personas,423
 2016,9,Barranquilla,hurto_residencias,32
 2016,9,Barranquilla,lesiones,201
-2016,9,Barranquilla,transito,322
+2016,9,Barranquilla,transito,167
 2016,9,Barranquilla,violencia_intrafamiliar,136
 2016,9,Barranquilla,violencia_sexual,44
 2016,9,Galapa,amenazas,5
@@ -6877,7 +6877,7 @@ anio,mes,municipio,categoria,cantidad
 2016,9,Galapa,hurto_motos,1
 2016,9,Galapa,hurto_personas,5
 2016,9,Galapa,lesiones,6
-2016,9,Galapa,transito,6
+2016,9,Galapa,transito,3
 2016,9,Galapa,violencia_intrafamiliar,4
 2016,9,Galapa,violencia_sexual,3
 2016,9,Malambo,amenazas,1
@@ -6888,7 +6888,7 @@ anio,mes,municipio,categoria,cantidad
 2016,9,Malambo,hurto_personas,4
 2016,9,Malambo,hurto_residencias,1
 2016,9,Malambo,lesiones,11
-2016,9,Malambo,transito,7
+2016,9,Malambo,transito,4
 2016,9,Malambo,violencia_intrafamiliar,5
 2016,9,Malambo,violencia_sexual,3
 2016,9,Puerto Colombia,hurto_comercio,1
@@ -6896,7 +6896,7 @@ anio,mes,municipio,categoria,cantidad
 2016,9,Puerto Colombia,hurto_personas,20
 2016,9,Puerto Colombia,hurto_residencias,1
 2016,9,Puerto Colombia,lesiones,9
-2016,9,Puerto Colombia,transito,8
+2016,9,Puerto Colombia,transito,4
 2016,9,Puerto Colombia,violencia_intrafamiliar,4
 2016,9,Puerto Colombia,violencia_sexual,2
 2016,9,Soledad,amenazas,27
@@ -6908,7 +6908,7 @@ anio,mes,municipio,categoria,cantidad
 2016,9,Soledad,hurto_personas,61
 2016,9,Soledad,hurto_residencias,3
 2016,9,Soledad,lesiones,80
-2016,9,Soledad,transito,67
+2016,9,Soledad,transito,34
 2016,9,Soledad,violencia_intrafamiliar,102
 2016,9,Soledad,violencia_sexual,15
 2017,1,Barranquilla,amenazas,103
@@ -6920,7 +6920,7 @@ anio,mes,municipio,categoria,cantidad
 2017,1,Barranquilla,hurto_personas,487
 2017,1,Barranquilla,hurto_residencias,81
 2017,1,Barranquilla,lesiones,251
-2017,1,Barranquilla,transito,345
+2017,1,Barranquilla,transito,175
 2017,1,Barranquilla,violencia_intrafamiliar,133
 2017,1,Barranquilla,violencia_sexual,46
 2017,1,Galapa,amenazas,2
@@ -6930,7 +6930,7 @@ anio,mes,municipio,categoria,cantidad
 2017,1,Galapa,hurto_motos,4
 2017,1,Galapa,hurto_personas,10
 2017,1,Galapa,lesiones,7
-2017,1,Galapa,transito,8
+2017,1,Galapa,transito,4
 2017,1,Galapa,violencia_sexual,2
 2017,1,Malambo,amenazas,1
 2017,1,Malambo,extorsion,1
@@ -6941,14 +6941,14 @@ anio,mes,municipio,categoria,cantidad
 2017,1,Malambo,hurto_personas,33
 2017,1,Malambo,hurto_residencias,4
 2017,1,Malambo,lesiones,19
-2017,1,Malambo,transito,12
+2017,1,Malambo,transito,6
 2017,1,Malambo,violencia_intrafamiliar,6
 2017,1,Malambo,violencia_sexual,5
 2017,1,Puerto Colombia,hurto_comercio,5
 2017,1,Puerto Colombia,hurto_personas,10
 2017,1,Puerto Colombia,hurto_residencias,5
 2017,1,Puerto Colombia,lesiones,11
-2017,1,Puerto Colombia,transito,12
+2017,1,Puerto Colombia,transito,7
 2017,1,Puerto Colombia,violencia_intrafamiliar,7
 2017,1,Puerto Colombia,violencia_sexual,1
 2017,1,Soledad,amenazas,30
@@ -6960,7 +6960,7 @@ anio,mes,municipio,categoria,cantidad
 2017,1,Soledad,hurto_personas,97
 2017,1,Soledad,hurto_residencias,16
 2017,1,Soledad,lesiones,109
-2017,1,Soledad,transito,120
+2017,1,Soledad,transito,62
 2017,1,Soledad,violencia_intrafamiliar,82
 2017,1,Soledad,violencia_sexual,30
 2017,10,Barranquilla,amenazas,165
@@ -6972,7 +6972,7 @@ anio,mes,municipio,categoria,cantidad
 2017,10,Barranquilla,hurto_personas,748
 2017,10,Barranquilla,hurto_residencias,72
 2017,10,Barranquilla,lesiones,309
-2017,10,Barranquilla,transito,208
+2017,10,Barranquilla,transito,106
 2017,10,Barranquilla,violencia_intrafamiliar,101
 2017,10,Barranquilla,violencia_sexual,69
 2017,10,Galapa,amenazas,3
@@ -6990,7 +6990,7 @@ anio,mes,municipio,categoria,cantidad
 2017,10,Malambo,hurto_personas,18
 2017,10,Malambo,hurto_residencias,8
 2017,10,Malambo,lesiones,16
-2017,10,Malambo,transito,12
+2017,10,Malambo,transito,7
 2017,10,Malambo,violencia_intrafamiliar,12
 2017,10,Malambo,violencia_sexual,4
 2017,10,Puerto Colombia,amenazas,3
@@ -6999,7 +6999,7 @@ anio,mes,municipio,categoria,cantidad
 2017,10,Puerto Colombia,hurto_personas,18
 2017,10,Puerto Colombia,hurto_residencias,8
 2017,10,Puerto Colombia,lesiones,8
-2017,10,Puerto Colombia,transito,18
+2017,10,Puerto Colombia,transito,9
 2017,10,Puerto Colombia,violencia_intrafamiliar,9
 2017,10,Puerto Colombia,violencia_sexual,4
 2017,10,Soledad,amenazas,42
@@ -7011,7 +7011,7 @@ anio,mes,municipio,categoria,cantidad
 2017,10,Soledad,hurto_personas,126
 2017,10,Soledad,hurto_residencias,21
 2017,10,Soledad,lesiones,96
-2017,10,Soledad,transito,100
+2017,10,Soledad,transito,50
 2017,10,Soledad,violencia_intrafamiliar,72
 2017,10,Soledad,violencia_sexual,26
 2017,11,Barranquilla,amenazas,210
@@ -7024,7 +7024,7 @@ anio,mes,municipio,categoria,cantidad
 2017,11,Barranquilla,hurto_personas,716
 2017,11,Barranquilla,hurto_residencias,93
 2017,11,Barranquilla,lesiones,347
-2017,11,Barranquilla,transito,252
+2017,11,Barranquilla,transito,130
 2017,11,Barranquilla,violencia_intrafamiliar,101
 2017,11,Barranquilla,violencia_sexual,48
 2017,11,Galapa,amenazas,1
@@ -7035,7 +7035,7 @@ anio,mes,municipio,categoria,cantidad
 2017,11,Galapa,hurto_personas,6
 2017,11,Galapa,hurto_residencias,3
 2017,11,Galapa,lesiones,8
-2017,11,Galapa,transito,4
+2017,11,Galapa,transito,2
 2017,11,Malambo,extorsion,1
 2017,11,Malambo,homicidio,4
 2017,11,Malambo,hurto_comercio,4
@@ -7043,7 +7043,7 @@ anio,mes,municipio,categoria,cantidad
 2017,11,Malambo,hurto_personas,16
 2017,11,Malambo,hurto_residencias,5
 2017,11,Malambo,lesiones,19
-2017,11,Malambo,transito,14
+2017,11,Malambo,transito,7
 2017,11,Malambo,violencia_intrafamiliar,16
 2017,11,Malambo,violencia_sexual,1
 2017,11,Puerto Colombia,amenazas,2
@@ -7054,7 +7054,7 @@ anio,mes,municipio,categoria,cantidad
 2017,11,Puerto Colombia,hurto_personas,22
 2017,11,Puerto Colombia,hurto_residencias,7
 2017,11,Puerto Colombia,lesiones,13
-2017,11,Puerto Colombia,transito,6
+2017,11,Puerto Colombia,transito,3
 2017,11,Puerto Colombia,violencia_intrafamiliar,7
 2017,11,Soledad,amenazas,63
 2017,11,Soledad,extorsion,1
@@ -7065,7 +7065,7 @@ anio,mes,municipio,categoria,cantidad
 2017,11,Soledad,hurto_personas,139
 2017,11,Soledad,hurto_residencias,20
 2017,11,Soledad,lesiones,103
-2017,11,Soledad,transito,66
+2017,11,Soledad,transito,34
 2017,11,Soledad,violencia_intrafamiliar,57
 2017,11,Soledad,violencia_sexual,12
 2017,12,Barranquilla,amenazas,159
@@ -7078,7 +7078,7 @@ anio,mes,municipio,categoria,cantidad
 2017,12,Barranquilla,hurto_personas,705
 2017,12,Barranquilla,hurto_residencias,75
 2017,12,Barranquilla,lesiones,309
-2017,12,Barranquilla,transito,169
+2017,12,Barranquilla,transito,91
 2017,12,Barranquilla,violencia_intrafamiliar,117
 2017,12,Barranquilla,violencia_sexual,58
 2017,12,Galapa,amenazas,2
@@ -7097,7 +7097,7 @@ anio,mes,municipio,categoria,cantidad
 2017,12,Malambo,hurto_personas,29
 2017,12,Malambo,hurto_residencias,8
 2017,12,Malambo,lesiones,15
-2017,12,Malambo,transito,7
+2017,12,Malambo,transito,4
 2017,12,Malambo,violencia_intrafamiliar,13
 2017,12,Malambo,violencia_sexual,1
 2017,12,Puerto Colombia,amenazas,11
@@ -7105,7 +7105,7 @@ anio,mes,municipio,categoria,cantidad
 2017,12,Puerto Colombia,hurto_personas,11
 2017,12,Puerto Colombia,hurto_residencias,2
 2017,12,Puerto Colombia,lesiones,8
-2017,12,Puerto Colombia,transito,4
+2017,12,Puerto Colombia,transito,2
 2017,12,Puerto Colombia,violencia_intrafamiliar,2
 2017,12,Soledad,amenazas,16
 2017,12,Soledad,extorsion,3
@@ -7116,7 +7116,7 @@ anio,mes,municipio,categoria,cantidad
 2017,12,Soledad,hurto_personas,150
 2017,12,Soledad,hurto_residencias,18
 2017,12,Soledad,lesiones,136
-2017,12,Soledad,transito,49
+2017,12,Soledad,transito,25
 2017,12,Soledad,violencia_intrafamiliar,47
 2017,12,Soledad,violencia_sexual,11
 2017,2,Barranquilla,amenazas,105
@@ -7128,7 +7128,7 @@ anio,mes,municipio,categoria,cantidad
 2017,2,Barranquilla,hurto_personas,484
 2017,2,Barranquilla,hurto_residencias,60
 2017,2,Barranquilla,lesiones,272
-2017,2,Barranquilla,transito,309
+2017,2,Barranquilla,transito,160
 2017,2,Barranquilla,violencia_intrafamiliar,142
 2017,2,Barranquilla,violencia_sexual,60
 2017,2,Galapa,amenazas,1
@@ -7137,7 +7137,7 @@ anio,mes,municipio,categoria,cantidad
 2017,2,Galapa,hurto_personas,9
 2017,2,Galapa,hurto_residencias,1
 2017,2,Galapa,lesiones,5
-2017,2,Galapa,transito,2
+2017,2,Galapa,transito,1
 2017,2,Galapa,violencia_intrafamiliar,2
 2017,2,Galapa,violencia_sexual,2
 2017,2,Malambo,homicidio,3
@@ -7147,7 +7147,7 @@ anio,mes,municipio,categoria,cantidad
 2017,2,Malambo,hurto_personas,15
 2017,2,Malambo,hurto_residencias,8
 2017,2,Malambo,lesiones,18
-2017,2,Malambo,transito,7
+2017,2,Malambo,transito,4
 2017,2,Malambo,violencia_intrafamiliar,12
 2017,2,Malambo,violencia_sexual,5
 2017,2,Puerto Colombia,hurto_comercio,10
@@ -7155,7 +7155,7 @@ anio,mes,municipio,categoria,cantidad
 2017,2,Puerto Colombia,hurto_personas,13
 2017,2,Puerto Colombia,hurto_residencias,1
 2017,2,Puerto Colombia,lesiones,15
-2017,2,Puerto Colombia,transito,8
+2017,2,Puerto Colombia,transito,4
 2017,2,Puerto Colombia,violencia_intrafamiliar,15
 2017,2,Soledad,amenazas,34
 2017,2,Soledad,extorsion,1
@@ -7166,7 +7166,7 @@ anio,mes,municipio,categoria,cantidad
 2017,2,Soledad,hurto_personas,79
 2017,2,Soledad,hurto_residencias,18
 2017,2,Soledad,lesiones,78
-2017,2,Soledad,transito,93
+2017,2,Soledad,transito,47
 2017,2,Soledad,violencia_intrafamiliar,89
 2017,2,Soledad,violencia_sexual,27
 2017,3,Barranquilla,amenazas,138
@@ -7178,7 +7178,7 @@ anio,mes,municipio,categoria,cantidad
 2017,3,Barranquilla,hurto_personas,518
 2017,3,Barranquilla,hurto_residencias,59
 2017,3,Barranquilla,lesiones,240
-2017,3,Barranquilla,transito,353
+2017,3,Barranquilla,transito,180
 2017,3,Barranquilla,violencia_intrafamiliar,121
 2017,3,Barranquilla,violencia_sexual,59
 2017,3,Galapa,amenazas,5
@@ -7188,7 +7188,7 @@ anio,mes,municipio,categoria,cantidad
 2017,3,Galapa,hurto_personas,4
 2017,3,Galapa,hurto_residencias,4
 2017,3,Galapa,lesiones,4
-2017,3,Galapa,transito,3
+2017,3,Galapa,transito,2
 2017,3,Galapa,violencia_intrafamiliar,5
 2017,3,Galapa,violencia_sexual,3
 2017,3,Malambo,amenazas,2
@@ -7199,7 +7199,7 @@ anio,mes,municipio,categoria,cantidad
 2017,3,Malambo,hurto_personas,16
 2017,3,Malambo,hurto_residencias,6
 2017,3,Malambo,lesiones,8
-2017,3,Malambo,transito,29
+2017,3,Malambo,transito,16
 2017,3,Malambo,violencia_intrafamiliar,4
 2017,3,Malambo,violencia_sexual,1
 2017,3,Puerto Colombia,amenazas,1
@@ -7209,7 +7209,7 @@ anio,mes,municipio,categoria,cantidad
 2017,3,Puerto Colombia,hurto_personas,10
 2017,3,Puerto Colombia,hurto_residencias,4
 2017,3,Puerto Colombia,lesiones,7
-2017,3,Puerto Colombia,transito,12
+2017,3,Puerto Colombia,transito,6
 2017,3,Puerto Colombia,violencia_intrafamiliar,4
 2017,3,Puerto Colombia,violencia_sexual,3
 2017,3,Soledad,amenazas,28
@@ -7223,7 +7223,7 @@ anio,mes,municipio,categoria,cantidad
 2017,3,Soledad,hurto_residencias,10
 2017,3,Soledad,lesiones,73
 2017,3,Soledad,secuestro,1
-2017,3,Soledad,transito,107
+2017,3,Soledad,transito,55
 2017,3,Soledad,violencia_intrafamiliar,61
 2017,3,Soledad,violencia_sexual,14
 2017,4,Barranquilla,amenazas,117
@@ -7236,7 +7236,7 @@ anio,mes,municipio,categoria,cantidad
 2017,4,Barranquilla,hurto_personas,533
 2017,4,Barranquilla,hurto_residencias,75
 2017,4,Barranquilla,lesiones,221
-2017,4,Barranquilla,transito,380
+2017,4,Barranquilla,transito,191
 2017,4,Barranquilla,violencia_intrafamiliar,100
 2017,4,Barranquilla,violencia_sexual,42
 2017,4,Galapa,amenazas,2
@@ -7246,7 +7246,7 @@ anio,mes,municipio,categoria,cantidad
 2017,4,Galapa,hurto_personas,1
 2017,4,Galapa,hurto_residencias,2
 2017,4,Galapa,lesiones,9
-2017,4,Galapa,transito,7
+2017,4,Galapa,transito,4
 2017,4,Galapa,violencia_intrafamiliar,6
 2017,4,Malambo,amenazas,2
 2017,4,Malambo,hurto_comercio,5
@@ -7254,7 +7254,7 @@ anio,mes,municipio,categoria,cantidad
 2017,4,Malambo,hurto_personas,11
 2017,4,Malambo,hurto_residencias,5
 2017,4,Malambo,lesiones,6
-2017,4,Malambo,transito,8
+2017,4,Malambo,transito,5
 2017,4,Malambo,violencia_intrafamiliar,4
 2017,4,Malambo,violencia_sexual,3
 2017,4,Puerto Colombia,amenazas,1
@@ -7263,7 +7263,7 @@ anio,mes,municipio,categoria,cantidad
 2017,4,Puerto Colombia,hurto_personas,7
 2017,4,Puerto Colombia,hurto_residencias,6
 2017,4,Puerto Colombia,lesiones,10
-2017,4,Puerto Colombia,transito,10
+2017,4,Puerto Colombia,transito,5
 2017,4,Puerto Colombia,violencia_intrafamiliar,2
 2017,4,Puerto Colombia,violencia_sexual,1
 2017,4,Soledad,amenazas,21
@@ -7275,7 +7275,7 @@ anio,mes,municipio,categoria,cantidad
 2017,4,Soledad,hurto_personas,77
 2017,4,Soledad,hurto_residencias,3
 2017,4,Soledad,lesiones,71
-2017,4,Soledad,transito,79
+2017,4,Soledad,transito,41
 2017,4,Soledad,violencia_intrafamiliar,46
 2017,4,Soledad,violencia_sexual,19
 2017,5,Barranquilla,amenazas,144
@@ -7287,7 +7287,7 @@ anio,mes,municipio,categoria,cantidad
 2017,5,Barranquilla,hurto_personas,538
 2017,5,Barranquilla,hurto_residencias,65
 2017,5,Barranquilla,lesiones,216
-2017,5,Barranquilla,transito,235
+2017,5,Barranquilla,transito,119
 2017,5,Barranquilla,violencia_intrafamiliar,130
 2017,5,Barranquilla,violencia_sexual,57
 2017,5,Galapa,hurto_carros,1
@@ -7297,7 +7297,7 @@ anio,mes,municipio,categoria,cantidad
 2017,5,Galapa,hurto_personas,1
 2017,5,Galapa,hurto_residencias,1
 2017,5,Galapa,lesiones,5
-2017,5,Galapa,transito,4
+2017,5,Galapa,transito,2
 2017,5,Galapa,violencia_intrafamiliar,2
 2017,5,Galapa,violencia_sexual,3
 2017,5,Malambo,amenazas,2
@@ -7308,7 +7308,7 @@ anio,mes,municipio,categoria,cantidad
 2017,5,Malambo,hurto_personas,17
 2017,5,Malambo,hurto_residencias,7
 2017,5,Malambo,lesiones,4
-2017,5,Malambo,transito,16
+2017,5,Malambo,transito,9
 2017,5,Malambo,violencia_intrafamiliar,3
 2017,5,Malambo,violencia_sexual,6
 2017,5,Puerto Colombia,amenazas,1
@@ -7319,7 +7319,7 @@ anio,mes,municipio,categoria,cantidad
 2017,5,Puerto Colombia,hurto_personas,9
 2017,5,Puerto Colombia,hurto_residencias,4
 2017,5,Puerto Colombia,lesiones,7
-2017,5,Puerto Colombia,transito,12
+2017,5,Puerto Colombia,transito,6
 2017,5,Puerto Colombia,violencia_intrafamiliar,5
 2017,5,Puerto Colombia,violencia_sexual,3
 2017,5,Soledad,amenazas,12
@@ -7331,7 +7331,7 @@ anio,mes,municipio,categoria,cantidad
 2017,5,Soledad,hurto_personas,105
 2017,5,Soledad,hurto_residencias,16
 2017,5,Soledad,lesiones,85
-2017,5,Soledad,transito,94
+2017,5,Soledad,transito,48
 2017,5,Soledad,violencia_intrafamiliar,46
 2017,5,Soledad,violencia_sexual,20
 2017,6,Barranquilla,amenazas,134
@@ -7343,7 +7343,7 @@ anio,mes,municipio,categoria,cantidad
 2017,6,Barranquilla,hurto_personas,517
 2017,6,Barranquilla,hurto_residencias,57
 2017,6,Barranquilla,lesiones,214
-2017,6,Barranquilla,transito,287
+2017,6,Barranquilla,transito,145
 2017,6,Barranquilla,violencia_intrafamiliar,123
 2017,6,Barranquilla,violencia_sexual,53
 2017,6,Galapa,extorsion,1
@@ -7365,7 +7365,7 @@ anio,mes,municipio,categoria,cantidad
 2017,6,Puerto Colombia,hurto_comercio,4
 2017,6,Puerto Colombia,hurto_personas,6
 2017,6,Puerto Colombia,lesiones,11
-2017,6,Puerto Colombia,transito,8
+2017,6,Puerto Colombia,transito,4
 2017,6,Puerto Colombia,violencia_intrafamiliar,5
 2017,6,Puerto Colombia,violencia_sexual,3
 2017,6,Soledad,amenazas,23
@@ -7377,7 +7377,7 @@ anio,mes,municipio,categoria,cantidad
 2017,6,Soledad,hurto_personas,104
 2017,6,Soledad,hurto_residencias,10
 2017,6,Soledad,lesiones,83
-2017,6,Soledad,transito,72
+2017,6,Soledad,transito,37
 2017,6,Soledad,violencia_intrafamiliar,59
 2017,6,Soledad,violencia_sexual,12
 2017,7,Barranquilla,amenazas,98
@@ -7389,7 +7389,7 @@ anio,mes,municipio,categoria,cantidad
 2017,7,Barranquilla,hurto_personas,534
 2017,7,Barranquilla,hurto_residencias,77
 2017,7,Barranquilla,lesiones,271
-2017,7,Barranquilla,transito,309
+2017,7,Barranquilla,transito,157
 2017,7,Barranquilla,violencia_intrafamiliar,121
 2017,7,Barranquilla,violencia_sexual,79
 2017,7,Galapa,amenazas,1
@@ -7408,7 +7408,7 @@ anio,mes,municipio,categoria,cantidad
 2017,7,Malambo,hurto_personas,25
 2017,7,Malambo,hurto_residencias,12
 2017,7,Malambo,lesiones,22
-2017,7,Malambo,transito,15
+2017,7,Malambo,transito,8
 2017,7,Malambo,violencia_intrafamiliar,14
 2017,7,Malambo,violencia_sexual,4
 2017,7,Puerto Colombia,amenazas,1
@@ -7418,7 +7418,7 @@ anio,mes,municipio,categoria,cantidad
 2017,7,Puerto Colombia,hurto_personas,19
 2017,7,Puerto Colombia,hurto_residencias,5
 2017,7,Puerto Colombia,lesiones,15
-2017,7,Puerto Colombia,transito,19
+2017,7,Puerto Colombia,transito,10
 2017,7,Puerto Colombia,violencia_intrafamiliar,7
 2017,7,Puerto Colombia,violencia_sexual,3
 2017,7,Soledad,amenazas,23
@@ -7430,7 +7430,7 @@ anio,mes,municipio,categoria,cantidad
 2017,7,Soledad,hurto_personas,94
 2017,7,Soledad,hurto_residencias,10
 2017,7,Soledad,lesiones,77
-2017,7,Soledad,transito,72
+2017,7,Soledad,transito,38
 2017,7,Soledad,violencia_intrafamiliar,65
 2017,7,Soledad,violencia_sexual,25
 2017,8,Barranquilla,amenazas,152
@@ -7442,7 +7442,7 @@ anio,mes,municipio,categoria,cantidad
 2017,8,Barranquilla,hurto_personas,666
 2017,8,Barranquilla,hurto_residencias,65
 2017,8,Barranquilla,lesiones,223
-2017,8,Barranquilla,transito,327
+2017,8,Barranquilla,transito,167
 2017,8,Barranquilla,violencia_intrafamiliar,115
 2017,8,Barranquilla,violencia_sexual,52
 2017,8,Galapa,amenazas,2
@@ -7463,7 +7463,7 @@ anio,mes,municipio,categoria,cantidad
 2017,8,Malambo,hurto_personas,19
 2017,8,Malambo,hurto_residencias,6
 2017,8,Malambo,lesiones,15
-2017,8,Malambo,transito,12
+2017,8,Malambo,transito,7
 2017,8,Malambo,violencia_intrafamiliar,11
 2017,8,Malambo,violencia_sexual,11
 2017,8,Puerto Colombia,amenazas,1
@@ -7474,7 +7474,7 @@ anio,mes,municipio,categoria,cantidad
 2017,8,Puerto Colombia,hurto_personas,23
 2017,8,Puerto Colombia,hurto_residencias,7
 2017,8,Puerto Colombia,lesiones,9
-2017,8,Puerto Colombia,transito,22
+2017,8,Puerto Colombia,transito,11
 2017,8,Puerto Colombia,violencia_intrafamiliar,6
 2017,8,Puerto Colombia,violencia_sexual,1
 2017,8,Soledad,amenazas,30
@@ -7486,7 +7486,7 @@ anio,mes,municipio,categoria,cantidad
 2017,8,Soledad,hurto_personas,133
 2017,8,Soledad,hurto_residencias,10
 2017,8,Soledad,lesiones,83
-2017,8,Soledad,transito,88
+2017,8,Soledad,transito,45
 2017,8,Soledad,violencia_intrafamiliar,63
 2017,8,Soledad,violencia_sexual,29
 2017,9,Barranquilla,amenazas,152
@@ -7499,7 +7499,7 @@ anio,mes,municipio,categoria,cantidad
 2017,9,Barranquilla,hurto_personas,623
 2017,9,Barranquilla,hurto_residencias,69
 2017,9,Barranquilla,lesiones,239
-2017,9,Barranquilla,transito,246
+2017,9,Barranquilla,transito,127
 2017,9,Barranquilla,violencia_intrafamiliar,120
 2017,9,Barranquilla,violencia_sexual,69
 2017,9,Galapa,amenazas,6
@@ -7508,7 +7508,7 @@ anio,mes,municipio,categoria,cantidad
 2017,9,Galapa,hurto_personas,6
 2017,9,Galapa,hurto_residencias,2
 2017,9,Galapa,lesiones,11
-2017,9,Galapa,transito,2
+2017,9,Galapa,transito,1
 2017,9,Galapa,violencia_intrafamiliar,1
 2017,9,Galapa,violencia_sexual,3
 2017,9,Malambo,amenazas,4
@@ -7520,7 +7520,7 @@ anio,mes,municipio,categoria,cantidad
 2017,9,Malambo,hurto_personas,16
 2017,9,Malambo,hurto_residencias,6
 2017,9,Malambo,lesiones,14
-2017,9,Malambo,transito,9
+2017,9,Malambo,transito,5
 2017,9,Malambo,violencia_intrafamiliar,15
 2017,9,Malambo,violencia_sexual,10
 2017,9,Puerto Colombia,amenazas,2
@@ -7542,7 +7542,7 @@ anio,mes,municipio,categoria,cantidad
 2017,9,Soledad,hurto_personas,144
 2017,9,Soledad,hurto_residencias,11
 2017,9,Soledad,lesiones,100
-2017,9,Soledad,transito,58
+2017,9,Soledad,transito,29
 2017,9,Soledad,violencia_intrafamiliar,69
 2017,9,Soledad,violencia_sexual,26
 2018,1,Barranquilla,amenazas,224
@@ -7554,7 +7554,7 @@ anio,mes,municipio,categoria,cantidad
 2018,1,Barranquilla,hurto_personas,596
 2018,1,Barranquilla,hurto_residencias,73
 2018,1,Barranquilla,lesiones,369
-2018,1,Barranquilla,transito,173
+2018,1,Barranquilla,transito,257
 2018,1,Barranquilla,violencia_intrafamiliar,106
 2018,1,Barranquilla,violencia_sexual,68
 2018,1,Galapa,amenazas,5
@@ -7565,7 +7565,7 @@ anio,mes,municipio,categoria,cantidad
 2018,1,Galapa,hurto_personas,11
 2018,1,Galapa,hurto_residencias,2
 2018,1,Galapa,lesiones,6
-2018,1,Galapa,transito,2
+2018,1,Galapa,transito,3
 2018,1,Galapa,violencia_intrafamiliar,3
 2018,1,Galapa,violencia_sexual,6
 2018,1,Malambo,amenazas,12
@@ -7575,7 +7575,7 @@ anio,mes,municipio,categoria,cantidad
 2018,1,Malambo,hurto_personas,18
 2018,1,Malambo,hurto_residencias,8
 2018,1,Malambo,lesiones,20
-2018,1,Malambo,transito,6
+2018,1,Malambo,transito,9
 2018,1,Malambo,violencia_intrafamiliar,12
 2018,1,Malambo,violencia_sexual,13
 2018,1,Puerto Colombia,amenazas,4
@@ -7585,7 +7585,7 @@ anio,mes,municipio,categoria,cantidad
 2018,1,Puerto Colombia,hurto_personas,10
 2018,1,Puerto Colombia,hurto_residencias,16
 2018,1,Puerto Colombia,lesiones,5
-2018,1,Puerto Colombia,transito,3
+2018,1,Puerto Colombia,transito,4
 2018,1,Puerto Colombia,violencia_intrafamiliar,2
 2018,1,Puerto Colombia,violencia_sexual,2
 2018,1,Soledad,amenazas,31
@@ -7597,7 +7597,7 @@ anio,mes,municipio,categoria,cantidad
 2018,1,Soledad,hurto_personas,146
 2018,1,Soledad,hurto_residencias,18
 2018,1,Soledad,lesiones,136
-2018,1,Soledad,transito,20
+2018,1,Soledad,transito,28
 2018,1,Soledad,violencia_intrafamiliar,42
 2018,1,Soledad,violencia_sexual,23
 2018,10,Barranquilla,amenazas,196
@@ -7610,7 +7610,7 @@ anio,mes,municipio,categoria,cantidad
 2018,10,Barranquilla,hurto_personas,871
 2018,10,Barranquilla,hurto_residencias,70
 2018,10,Barranquilla,lesiones,290
-2018,10,Barranquilla,transito,84
+2018,10,Barranquilla,transito,121
 2018,10,Barranquilla,violencia_intrafamiliar,117
 2018,10,Barranquilla,violencia_sexual,67
 2018,10,Galapa,amenazas,8
@@ -7630,7 +7630,7 @@ anio,mes,municipio,categoria,cantidad
 2018,10,Malambo,hurto_personas,24
 2018,10,Malambo,hurto_residencias,7
 2018,10,Malambo,lesiones,10
-2018,10,Malambo,transito,6
+2018,10,Malambo,transito,8
 2018,10,Malambo,violencia_intrafamiliar,5
 2018,10,Malambo,violencia_sexual,4
 2018,10,Puerto Colombia,amenazas,3
@@ -7640,7 +7640,7 @@ anio,mes,municipio,categoria,cantidad
 2018,10,Puerto Colombia,hurto_personas,20
 2018,10,Puerto Colombia,hurto_residencias,5
 2018,10,Puerto Colombia,lesiones,15
-2018,10,Puerto Colombia,transito,4
+2018,10,Puerto Colombia,transito,6
 2018,10,Puerto Colombia,violencia_intrafamiliar,1
 2018,10,Puerto Colombia,violencia_sexual,6
 2018,10,Soledad,amenazas,75
@@ -7652,7 +7652,7 @@ anio,mes,municipio,categoria,cantidad
 2018,10,Soledad,hurto_personas,177
 2018,10,Soledad,hurto_residencias,22
 2018,10,Soledad,lesiones,88
-2018,10,Soledad,transito,8
+2018,10,Soledad,transito,12
 2018,10,Soledad,violencia_intrafamiliar,54
 2018,10,Soledad,violencia_sexual,28
 2018,11,Barranquilla,amenazas,160
@@ -7665,7 +7665,7 @@ anio,mes,municipio,categoria,cantidad
 2018,11,Barranquilla,hurto_personas,877
 2018,11,Barranquilla,hurto_residencias,75
 2018,11,Barranquilla,lesiones,308
-2018,11,Barranquilla,transito,83
+2018,11,Barranquilla,transito,122
 2018,11,Barranquilla,violencia_intrafamiliar,100
 2018,11,Barranquilla,violencia_sexual,61
 2018,11,Galapa,amenazas,6
@@ -7675,7 +7675,7 @@ anio,mes,municipio,categoria,cantidad
 2018,11,Galapa,hurto_personas,13
 2018,11,Galapa,hurto_residencias,2
 2018,11,Galapa,lesiones,7
-2018,11,Galapa,transito,4
+2018,11,Galapa,transito,6
 2018,11,Galapa,violencia_intrafamiliar,5
 2018,11,Galapa,violencia_sexual,3
 2018,11,Malambo,amenazas,15
@@ -7694,7 +7694,7 @@ anio,mes,municipio,categoria,cantidad
 2018,11,Puerto Colombia,hurto_personas,21
 2018,11,Puerto Colombia,hurto_residencias,3
 2018,11,Puerto Colombia,lesiones,17
-2018,11,Puerto Colombia,transito,8
+2018,11,Puerto Colombia,transito,12
 2018,11,Puerto Colombia,violencia_intrafamiliar,4
 2018,11,Puerto Colombia,violencia_sexual,5
 2018,11,Soledad,amenazas,49
@@ -7707,7 +7707,7 @@ anio,mes,municipio,categoria,cantidad
 2018,11,Soledad,hurto_personas,204
 2018,11,Soledad,hurto_residencias,15
 2018,11,Soledad,lesiones,69
-2018,11,Soledad,transito,20
+2018,11,Soledad,transito,27
 2018,11,Soledad,violencia_intrafamiliar,40
 2018,11,Soledad,violencia_sexual,22
 2018,12,Barranquilla,amenazas,147
@@ -7719,7 +7719,7 @@ anio,mes,municipio,categoria,cantidad
 2018,12,Barranquilla,hurto_personas,842
 2018,12,Barranquilla,hurto_residencias,63
 2018,12,Barranquilla,lesiones,360
-2018,12,Barranquilla,transito,68
+2018,12,Barranquilla,transito,98
 2018,12,Barranquilla,violencia_intrafamiliar,143
 2018,12,Barranquilla,violencia_sexual,69
 2018,12,Galapa,amenazas,12
@@ -7757,7 +7757,7 @@ anio,mes,municipio,categoria,cantidad
 2018,12,Soledad,hurto_personas,152
 2018,12,Soledad,hurto_residencias,20
 2018,12,Soledad,lesiones,98
-2018,12,Soledad,transito,13
+2018,12,Soledad,transito,18
 2018,12,Soledad,violencia_intrafamiliar,51
 2018,12,Soledad,violencia_sexual,22
 2018,2,Barranquilla,amenazas,178
@@ -7770,7 +7770,7 @@ anio,mes,municipio,categoria,cantidad
 2018,2,Barranquilla,hurto_personas,767
 2018,2,Barranquilla,hurto_residencias,92
 2018,2,Barranquilla,lesiones,287
-2018,2,Barranquilla,transito,208
+2018,2,Barranquilla,transito,307
 2018,2,Barranquilla,violencia_intrafamiliar,134
 2018,2,Barranquilla,violencia_sexual,59
 2018,2,Galapa,amenazas,11
@@ -7781,7 +7781,7 @@ anio,mes,municipio,categoria,cantidad
 2018,2,Galapa,hurto_personas,11
 2018,2,Galapa,hurto_residencias,6
 2018,2,Galapa,lesiones,5
-2018,2,Galapa,transito,4
+2018,2,Galapa,transito,6
 2018,2,Galapa,violencia_intrafamiliar,4
 2018,2,Galapa,violencia_sexual,3
 2018,2,Malambo,amenazas,8
@@ -7792,7 +7792,7 @@ anio,mes,municipio,categoria,cantidad
 2018,2,Malambo,hurto_personas,15
 2018,2,Malambo,hurto_residencias,13
 2018,2,Malambo,lesiones,15
-2018,2,Malambo,transito,9
+2018,2,Malambo,transito,13
 2018,2,Malambo,violencia_intrafamiliar,32
 2018,2,Malambo,violencia_sexual,8
 2018,2,Puerto Colombia,amenazas,3
@@ -7801,7 +7801,7 @@ anio,mes,municipio,categoria,cantidad
 2018,2,Puerto Colombia,hurto_personas,19
 2018,2,Puerto Colombia,hurto_residencias,5
 2018,2,Puerto Colombia,lesiones,8
-2018,2,Puerto Colombia,transito,6
+2018,2,Puerto Colombia,transito,9
 2018,2,Puerto Colombia,violencia_intrafamiliar,6
 2018,2,Puerto Colombia,violencia_sexual,5
 2018,2,Soledad,amenazas,34
@@ -7813,7 +7813,7 @@ anio,mes,municipio,categoria,cantidad
 2018,2,Soledad,hurto_personas,173
 2018,2,Soledad,hurto_residencias,23
 2018,2,Soledad,lesiones,131
-2018,2,Soledad,transito,24
+2018,2,Soledad,transito,35
 2018,2,Soledad,violencia_intrafamiliar,53
 2018,2,Soledad,violencia_sexual,31
 2018,3,Barranquilla,amenazas,232
@@ -7826,7 +7826,7 @@ anio,mes,municipio,categoria,cantidad
 2018,3,Barranquilla,hurto_personas,767
 2018,3,Barranquilla,hurto_residencias,70
 2018,3,Barranquilla,lesiones,354
-2018,3,Barranquilla,transito,273
+2018,3,Barranquilla,transito,405
 2018,3,Barranquilla,violencia_intrafamiliar,133
 2018,3,Barranquilla,violencia_sexual,66
 2018,3,Galapa,amenazas,4
@@ -7837,7 +7837,7 @@ anio,mes,municipio,categoria,cantidad
 2018,3,Galapa,hurto_personas,11
 2018,3,Galapa,hurto_residencias,2
 2018,3,Galapa,lesiones,5
-2018,3,Galapa,transito,3
+2018,3,Galapa,transito,4
 2018,3,Galapa,violencia_intrafamiliar,5
 2018,3,Galapa,violencia_sexual,1
 2018,3,Malambo,amenazas,9
@@ -7848,7 +7848,7 @@ anio,mes,municipio,categoria,cantidad
 2018,3,Malambo,hurto_personas,23
 2018,3,Malambo,hurto_residencias,4
 2018,3,Malambo,lesiones,23
-2018,3,Malambo,transito,3
+2018,3,Malambo,transito,4
 2018,3,Malambo,violencia_intrafamiliar,15
 2018,3,Malambo,violencia_sexual,3
 2018,3,Puerto Colombia,amenazas,5
@@ -7859,7 +7859,7 @@ anio,mes,municipio,categoria,cantidad
 2018,3,Puerto Colombia,hurto_personas,23
 2018,3,Puerto Colombia,hurto_residencias,12
 2018,3,Puerto Colombia,lesiones,5
-2018,3,Puerto Colombia,transito,17
+2018,3,Puerto Colombia,transito,25
 2018,3,Puerto Colombia,violencia_intrafamiliar,1
 2018,3,Puerto Colombia,violencia_sexual,3
 2018,3,Soledad,amenazas,65
@@ -7871,7 +7871,7 @@ anio,mes,municipio,categoria,cantidad
 2018,3,Soledad,hurto_personas,151
 2018,3,Soledad,hurto_residencias,24
 2018,3,Soledad,lesiones,107
-2018,3,Soledad,transito,81
+2018,3,Soledad,transito,121
 2018,3,Soledad,violencia_intrafamiliar,46
 2018,3,Soledad,violencia_sexual,27
 2018,4,Barranquilla,amenazas,169
@@ -7884,7 +7884,7 @@ anio,mes,municipio,categoria,cantidad
 2018,4,Barranquilla,hurto_personas,801
 2018,4,Barranquilla,hurto_residencias,68
 2018,4,Barranquilla,lesiones,324
-2018,4,Barranquilla,transito,222
+2018,4,Barranquilla,transito,329
 2018,4,Barranquilla,violencia_intrafamiliar,110
 2018,4,Barranquilla,violencia_sexual,71
 2018,4,Galapa,amenazas,4
@@ -7894,7 +7894,7 @@ anio,mes,municipio,categoria,cantidad
 2018,4,Galapa,hurto_personas,10
 2018,4,Galapa,hurto_residencias,3
 2018,4,Galapa,lesiones,13
-2018,4,Galapa,transito,2
+2018,4,Galapa,transito,3
 2018,4,Galapa,violencia_intrafamiliar,6
 2018,4,Galapa,violencia_sexual,1
 2018,4,Malambo,amenazas,8
@@ -7904,7 +7904,7 @@ anio,mes,municipio,categoria,cantidad
 2018,4,Malambo,hurto_personas,33
 2018,4,Malambo,hurto_residencias,8
 2018,4,Malambo,lesiones,25
-2018,4,Malambo,transito,11
+2018,4,Malambo,transito,16
 2018,4,Malambo,violencia_intrafamiliar,26
 2018,4,Malambo,violencia_sexual,17
 2018,4,Puerto Colombia,amenazas,15
@@ -7914,7 +7914,7 @@ anio,mes,municipio,categoria,cantidad
 2018,4,Puerto Colombia,hurto_personas,35
 2018,4,Puerto Colombia,hurto_residencias,3
 2018,4,Puerto Colombia,lesiones,16
-2018,4,Puerto Colombia,transito,12
+2018,4,Puerto Colombia,transito,18
 2018,4,Puerto Colombia,violencia_intrafamiliar,5
 2018,4,Puerto Colombia,violencia_sexual,3
 2018,4,Soledad,amenazas,72
@@ -7926,7 +7926,7 @@ anio,mes,municipio,categoria,cantidad
 2018,4,Soledad,hurto_personas,217
 2018,4,Soledad,hurto_residencias,18
 2018,4,Soledad,lesiones,109
-2018,4,Soledad,transito,55
+2018,4,Soledad,transito,81
 2018,4,Soledad,violencia_intrafamiliar,48
 2018,4,Soledad,violencia_sexual,24
 2018,5,Barranquilla,amenazas,205
@@ -7939,7 +7939,7 @@ anio,mes,municipio,categoria,cantidad
 2018,5,Barranquilla,hurto_personas,896
 2018,5,Barranquilla,hurto_residencias,61
 2018,5,Barranquilla,lesiones,309
-2018,5,Barranquilla,transito,94
+2018,5,Barranquilla,transito,137
 2018,5,Barranquilla,violencia_intrafamiliar,122
 2018,5,Barranquilla,violencia_sexual,73
 2018,5,Galapa,amenazas,8
@@ -7992,7 +7992,7 @@ anio,mes,municipio,categoria,cantidad
 2018,6,Barranquilla,hurto_personas,793
 2018,6,Barranquilla,hurto_residencias,73
 2018,6,Barranquilla,lesiones,294
-2018,6,Barranquilla,transito,76
+2018,6,Barranquilla,transito,111
 2018,6,Barranquilla,violencia_intrafamiliar,130
 2018,6,Barranquilla,violencia_sexual,76
 2018,6,Galapa,amenazas,13
@@ -8011,7 +8011,7 @@ anio,mes,municipio,categoria,cantidad
 2018,6,Malambo,hurto_personas,36
 2018,6,Malambo,hurto_residencias,9
 2018,6,Malambo,lesiones,32
-2018,6,Malambo,transito,5
+2018,6,Malambo,transito,6
 2018,6,Malambo,violencia_intrafamiliar,13
 2018,6,Malambo,violencia_sexual,9
 2018,6,Puerto Colombia,amenazas,14
@@ -8030,7 +8030,7 @@ anio,mes,municipio,categoria,cantidad
 2018,6,Soledad,hurto_personas,193
 2018,6,Soledad,hurto_residencias,17
 2018,6,Soledad,lesiones,102
-2018,6,Soledad,transito,10
+2018,6,Soledad,transito,14
 2018,6,Soledad,violencia_intrafamiliar,48
 2018,6,Soledad,violencia_sexual,33
 2018,7,Barranquilla,amenazas,271
@@ -8042,7 +8042,7 @@ anio,mes,municipio,categoria,cantidad
 2018,7,Barranquilla,hurto_personas,794
 2018,7,Barranquilla,hurto_residencias,66
 2018,7,Barranquilla,lesiones,317
-2018,7,Barranquilla,transito,78
+2018,7,Barranquilla,transito,115
 2018,7,Barranquilla,violencia_intrafamiliar,108
 2018,7,Barranquilla,violencia_sexual,100
 2018,7,Galapa,amenazas,7
@@ -8062,7 +8062,7 @@ anio,mes,municipio,categoria,cantidad
 2018,7,Malambo,hurto_personas,28
 2018,7,Malambo,hurto_residencias,8
 2018,7,Malambo,lesiones,23
-2018,7,Malambo,transito,3
+2018,7,Malambo,transito,4
 2018,7,Malambo,violencia_intrafamiliar,21
 2018,7,Malambo,violencia_sexual,14
 2018,7,Puerto Colombia,amenazas,11
@@ -8082,7 +8082,7 @@ anio,mes,municipio,categoria,cantidad
 2018,7,Soledad,hurto_personas,171
 2018,7,Soledad,hurto_residencias,16
 2018,7,Soledad,lesiones,108
-2018,7,Soledad,transito,10
+2018,7,Soledad,transito,14
 2018,7,Soledad,violencia_intrafamiliar,47
 2018,7,Soledad,violencia_sexual,23
 2018,8,Barranquilla,amenazas,243
@@ -8096,7 +8096,7 @@ anio,mes,municipio,categoria,cantidad
 2018,8,Barranquilla,hurto_residencias,75
 2018,8,Barranquilla,lesiones,343
 2018,8,Barranquilla,secuestro,1
-2018,8,Barranquilla,transito,86
+2018,8,Barranquilla,transito,126
 2018,8,Barranquilla,violencia_intrafamiliar,134
 2018,8,Barranquilla,violencia_sexual,113
 2018,8,Galapa,amenazas,7
@@ -8125,7 +8125,7 @@ anio,mes,municipio,categoria,cantidad
 2018,8,Puerto Colombia,hurto_personas,10
 2018,8,Puerto Colombia,hurto_residencias,4
 2018,8,Puerto Colombia,lesiones,20
-2018,8,Puerto Colombia,transito,6
+2018,8,Puerto Colombia,transito,9
 2018,8,Puerto Colombia,violencia_intrafamiliar,3
 2018,8,Puerto Colombia,violencia_sexual,10
 2018,8,Soledad,amenazas,55
@@ -8138,7 +8138,7 @@ anio,mes,municipio,categoria,cantidad
 2018,8,Soledad,hurto_personas,176
 2018,8,Soledad,hurto_residencias,14
 2018,8,Soledad,lesiones,101
-2018,8,Soledad,transito,10
+2018,8,Soledad,transito,15
 2018,8,Soledad,violencia_intrafamiliar,58
 2018,8,Soledad,violencia_sexual,33
 2018,9,Barranquilla,amenazas,193
@@ -8150,7 +8150,7 @@ anio,mes,municipio,categoria,cantidad
 2018,9,Barranquilla,hurto_personas,800
 2018,9,Barranquilla,hurto_residencias,72
 2018,9,Barranquilla,lesiones,340
-2018,9,Barranquilla,transito,93
+2018,9,Barranquilla,transito,133
 2018,9,Barranquilla,violencia_intrafamiliar,139
 2018,9,Barranquilla,violencia_sexual,83
 2018,9,Galapa,amenazas,5
@@ -8192,7 +8192,7 @@ anio,mes,municipio,categoria,cantidad
 2018,9,Soledad,hurto_personas,169
 2018,9,Soledad,hurto_residencias,16
 2018,9,Soledad,lesiones,107
-2018,9,Soledad,transito,5
+2018,9,Soledad,transito,6
 2018,9,Soledad,violencia_intrafamiliar,66
 2018,9,Soledad,violencia_sexual,31
 2019,1,Barranquilla,amenazas,86
