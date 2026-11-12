@@ -39,6 +39,7 @@ anio,mes,municipio,categoria,cantidad
 2003,1,Soledad,transito,14
 2003,1,Soledad,violencia_intrafamiliar,7
 2003,1,Soledad,violencia_sexual,2
+2003,10,Barranquilla,amenazas,7
 2003,10,Barranquilla,extorsion,1
 2003,10,Barranquilla,homicidio,39
 2003,10,Barranquilla,hurto_carros,28
@@ -62,6 +63,7 @@ anio,mes,municipio,categoria,cantidad
 2003,10,Malambo,violencia_sexual,1
 2003,10,Puerto Colombia,lesiones,2
 2003,10,Puerto Colombia,transito,2
+2003,10,Soledad,amenazas,1
 2003,10,Soledad,homicidio,15
 2003,10,Soledad,hurto_carros,6
 2003,10,Soledad,hurto_comercio,1
@@ -71,6 +73,7 @@ anio,mes,municipio,categoria,cantidad
 2003,10,Soledad,lesiones,14
 2003,10,Soledad,transito,2
 2003,10,Soledad,violencia_sexual,1
+2003,11,Barranquilla,amenazas,6
 2003,11,Barranquilla,extorsion,6
 2003,11,Barranquilla,homicidio,42
 2003,11,Barranquilla,hurto_carros,36
@@ -97,6 +100,7 @@ anio,mes,municipio,categoria,cantidad
 2003,11,Puerto Colombia,hurto_comercio,1
 2003,11,Puerto Colombia,hurto_personas,3
 2003,11,Puerto Colombia,hurto_residencias,1
+2003,11,Puerto Colombia,secuestro,1
 2003,11,Soledad,homicidio,15
 2003,11,Soledad,hurto_carros,7
 2003,11,Soledad,hurto_comercio,5
@@ -107,6 +111,7 @@ anio,mes,municipio,categoria,cantidad
 2003,11,Soledad,transito,4
 2003,11,Soledad,violencia_intrafamiliar,1
 2003,11,Soledad,violencia_sexual,3
+2003,12,Barranquilla,amenazas,4
 2003,12,Barranquilla,extorsion,1
 2003,12,Barranquilla,homicidio,69
 2003,12,Barranquilla,hurto_carros,41
@@ -116,9 +121,11 @@ anio,mes,municipio,categoria,cantidad
 2003,12,Barranquilla,hurto_personas,133
 2003,12,Barranquilla,hurto_residencias,35
 2003,12,Barranquilla,lesiones,187
+2003,12,Barranquilla,secuestro,1
 2003,12,Barranquilla,transito,28
 2003,12,Barranquilla,violencia_intrafamiliar,18
 2003,12,Barranquilla,violencia_sexual,7
+2003,12,Galapa,amenazas,1
 2003,12,Galapa,homicidio,2
 2003,12,Galapa,hurto_carros,1
 2003,12,Galapa,hurto_personas,3
@@ -134,6 +141,7 @@ anio,mes,municipio,categoria,cantidad
 2003,12,Puerto Colombia,hurto_personas,2
 2003,12,Puerto Colombia,transito,3
 2003,12,Puerto Colombia,violencia_sexual,1
+2003,12,Soledad,amenazas,1
 2003,12,Soledad,homicidio,22
 2003,12,Soledad,hurto_carros,3
 2003,12,Soledad,hurto_comercio,4
@@ -194,6 +202,7 @@ anio,mes,municipio,categoria,cantidad
 2003,3,Barranquilla,hurto_personas,218
 2003,3,Barranquilla,hurto_residencias,49
 2003,3,Barranquilla,lesiones,170
+2003,3,Barranquilla,secuestro,1
 2003,3,Barranquilla,transito,57
 2003,3,Barranquilla,violencia_intrafamiliar,44
 2003,3,Barranquilla,violencia_sexual,24
@@ -266,6 +275,7 @@ anio,mes,municipio,categoria,cantidad
 2003,4,Soledad,transito,9
 2003,4,Soledad,violencia_intrafamiliar,18
 2003,4,Soledad,violencia_sexual,2
+2003,5,Barranquilla,amenazas,7
 2003,5,Barranquilla,extorsion,28
 2003,5,Barranquilla,homicidio,26
 2003,5,Barranquilla,hurto_carros,22
@@ -296,6 +306,7 @@ anio,mes,municipio,categoria,cantidad
 2003,5,Puerto Colombia,hurto_personas,2
 2003,5,Puerto Colombia,hurto_residencias,1
 2003,5,Puerto Colombia,lesiones,1
+2003,5,Soledad,amenazas,1
 2003,5,Soledad,homicidio,9
 2003,5,Soledad,hurto_carros,8
 2003,5,Soledad,hurto_comercio,10
@@ -342,6 +353,7 @@ anio,mes,municipio,categoria,cantidad
 2003,6,Soledad,transito,9
 2003,6,Soledad,violencia_intrafamiliar,2
 2003,6,Soledad,violencia_sexual,7
+2003,7,Barranquilla,amenazas,1
 2003,7,Barranquilla,extorsion,5
 2003,7,Barranquilla,homicidio,51
 2003,7,Barranquilla,hurto_carros,20
@@ -382,6 +394,7 @@ anio,mes,municipio,categoria,cantidad
 2003,7,Soledad,transito,5
 2003,7,Soledad,violencia_intrafamiliar,5
 2003,7,Soledad,violencia_sexual,3
+2003,8,Barranquilla,amenazas,1
 2003,8,Barranquilla,extorsion,15
 2003,8,Barranquilla,homicidio,31
 2003,8,Barranquilla,hurto_carros,18
@@ -419,6 +432,7 @@ anio,mes,municipio,categoria,cantidad
 2003,8,Soledad,transito,3
 2003,8,Soledad,violencia_intrafamiliar,1
 2003,8,Soledad,violencia_sexual,2
+2003,9,Barranquilla,amenazas,3
 2003,9,Barranquilla,extorsion,5
 2003,9,Barranquilla,homicidio,46
 2003,9,Barranquilla,hurto_carros,24
@@ -443,6 +457,7 @@ anio,mes,municipio,categoria,cantidad
 2003,9,Malambo,violencia_sexual,1
 2003,9,Puerto Colombia,hurto_personas,1
 2003,9,Puerto Colombia,lesiones,1
+2003,9,Soledad,amenazas,1
 2003,9,Soledad,homicidio,15
 2003,9,Soledad,hurto_carros,3
 2003,9,Soledad,hurto_comercio,5
@@ -452,6 +467,7 @@ anio,mes,municipio,categoria,cantidad
 2003,9,Soledad,transito,5
 2003,9,Soledad,violencia_intrafamiliar,3
 2003,9,Soledad,violencia_sexual,2
+2004,1,Barranquilla,amenazas,8
 2004,1,Barranquilla,extorsion,4
 2004,1,Barranquilla,homicidio,43
 2004,1,Barranquilla,hurto_carros,30
@@ -460,6 +476,7 @@ anio,mes,municipio,categoria,cantidad
 2004,1,Barranquilla,hurto_personas,149
 2004,1,Barranquilla,hurto_residencias,38
 2004,1,Barranquilla,lesiones,107
+2004,1,Barranquilla,secuestro,2
 2004,1,Barranquilla,transito,29
 2004,1,Barranquilla,violencia_intrafamiliar,13
 2004,1,Barranquilla,violencia_sexual,8
@@ -485,6 +502,7 @@ anio,mes,municipio,categoria,cantidad
 2004,1,Soledad,lesiones,17
 2004,1,Soledad,transito,6
 2004,1,Soledad,violencia_sexual,2
+2004,10,Barranquilla,amenazas,6
 2004,10,Barranquilla,extorsion,5
 2004,10,Barranquilla,homicidio,23
 2004,10,Barranquilla,hurto_carros,37
@@ -494,6 +512,7 @@ anio,mes,municipio,categoria,cantidad
 2004,10,Barranquilla,hurto_personas,195
 2004,10,Barranquilla,hurto_residencias,49
 2004,10,Barranquilla,lesiones,55
+2004,10,Barranquilla,secuestro,1
 2004,10,Barranquilla,transito,55
 2004,10,Barranquilla,violencia_intrafamiliar,21
 2004,10,Barranquilla,violencia_sexual,5
@@ -520,6 +539,7 @@ anio,mes,municipio,categoria,cantidad
 2004,10,Soledad,transito,8
 2004,10,Soledad,violencia_intrafamiliar,3
 2004,10,Soledad,violencia_sexual,2
+2004,11,Barranquilla,amenazas,7
 2004,11,Barranquilla,extorsion,1
 2004,11,Barranquilla,homicidio,26
 2004,11,Barranquilla,hurto_carros,27
@@ -556,6 +576,7 @@ anio,mes,municipio,categoria,cantidad
 2004,11,Soledad,transito,2
 2004,11,Soledad,violencia_intrafamiliar,1
 2004,11,Soledad,violencia_sexual,1
+2004,12,Barranquilla,amenazas,3
 2004,12,Barranquilla,extorsion,2
 2004,12,Barranquilla,homicidio,31
 2004,12,Barranquilla,hurto_carros,39
@@ -582,6 +603,7 @@ anio,mes,municipio,categoria,cantidad
 2004,12,Malambo,violencia_sexual,1
 2004,12,Puerto Colombia,lesiones,1
 2004,12,Puerto Colombia,transito,1
+2004,12,Soledad,amenazas,2
 2004,12,Soledad,homicidio,17
 2004,12,Soledad,hurto_carros,6
 2004,12,Soledad,hurto_comercio,8
@@ -592,6 +614,7 @@ anio,mes,municipio,categoria,cantidad
 2004,12,Soledad,transito,7
 2004,12,Soledad,violencia_intrafamiliar,3
 2004,12,Soledad,violencia_sexual,5
+2004,2,Barranquilla,amenazas,3
 2004,2,Barranquilla,extorsion,8
 2004,2,Barranquilla,homicidio,52
 2004,2,Barranquilla,hurto_carros,26
@@ -601,6 +624,7 @@ anio,mes,municipio,categoria,cantidad
 2004,2,Barranquilla,hurto_personas,117
 2004,2,Barranquilla,hurto_residencias,42
 2004,2,Barranquilla,lesiones,104
+2004,2,Barranquilla,secuestro,1
 2004,2,Barranquilla,transito,25
 2004,2,Barranquilla,violencia_intrafamiliar,20
 2004,2,Barranquilla,violencia_sexual,12
@@ -662,6 +686,7 @@ anio,mes,municipio,categoria,cantidad
 2004,3,Soledad,transito,13
 2004,3,Soledad,violencia_intrafamiliar,2
 2004,3,Soledad,violencia_sexual,2
+2004,4,Barranquilla,amenazas,2
 2004,4,Barranquilla,extorsion,9
 2004,4,Barranquilla,homicidio,31
 2004,4,Barranquilla,hurto_carros,28
@@ -671,6 +696,7 @@ anio,mes,municipio,categoria,cantidad
 2004,4,Barranquilla,hurto_personas,137
 2004,4,Barranquilla,hurto_residencias,35
 2004,4,Barranquilla,lesiones,117
+2004,4,Barranquilla,secuestro,2
 2004,4,Barranquilla,transito,28
 2004,4,Barranquilla,violencia_intrafamiliar,3
 2004,4,Barranquilla,violencia_sexual,8
@@ -688,6 +714,7 @@ anio,mes,municipio,categoria,cantidad
 2004,4,Malambo,violencia_intrafamiliar,1
 2004,4,Puerto Colombia,hurto_personas,1
 2004,4,Puerto Colombia,hurto_residencias,2
+2004,4,Soledad,amenazas,1
 2004,4,Soledad,homicidio,11
 2004,4,Soledad,hurto_carros,7
 2004,4,Soledad,hurto_comercio,4
@@ -698,6 +725,7 @@ anio,mes,municipio,categoria,cantidad
 2004,4,Soledad,transito,5
 2004,4,Soledad,violencia_intrafamiliar,1
 2004,4,Soledad,violencia_sexual,2
+2004,5,Barranquilla,amenazas,1
 2004,5,Barranquilla,extorsion,4
 2004,5,Barranquilla,homicidio,38
 2004,5,Barranquilla,hurto_carros,39
@@ -733,6 +761,7 @@ anio,mes,municipio,categoria,cantidad
 2004,5,Soledad,lesiones,10
 2004,5,Soledad,transito,4
 2004,5,Soledad,violencia_sexual,1
+2004,6,Barranquilla,amenazas,5
 2004,6,Barranquilla,extorsion,13
 2004,6,Barranquilla,homicidio,41
 2004,6,Barranquilla,hurto_carros,28
@@ -766,6 +795,7 @@ anio,mes,municipio,categoria,cantidad
 2004,6,Soledad,transito,1
 2004,6,Soledad,violencia_intrafamiliar,3
 2004,6,Soledad,violencia_sexual,6
+2004,7,Barranquilla,amenazas,11
 2004,7,Barranquilla,extorsion,6
 2004,7,Barranquilla,homicidio,19
 2004,7,Barranquilla,hurto_carros,24
@@ -775,6 +805,7 @@ anio,mes,municipio,categoria,cantidad
 2004,7,Barranquilla,hurto_personas,163
 2004,7,Barranquilla,hurto_residencias,39
 2004,7,Barranquilla,lesiones,85
+2004,7,Barranquilla,secuestro,1
 2004,7,Barranquilla,transito,44
 2004,7,Barranquilla,violencia_intrafamiliar,12
 2004,7,Barranquilla,violencia_sexual,8
@@ -790,6 +821,7 @@ anio,mes,municipio,categoria,cantidad
 2004,7,Puerto Colombia,hurto_comercio,1
 2004,7,Puerto Colombia,hurto_personas,1
 2004,7,Puerto Colombia,transito,2
+2004,7,Soledad,amenazas,1
 2004,7,Soledad,homicidio,13
 2004,7,Soledad,hurto_carros,3
 2004,7,Soledad,hurto_comercio,3
@@ -799,6 +831,7 @@ anio,mes,municipio,categoria,cantidad
 2004,7,Soledad,lesiones,19
 2004,7,Soledad,transito,7
 2004,7,Soledad,violencia_intrafamiliar,1
+2004,8,Barranquilla,amenazas,6
 2004,8,Barranquilla,extorsion,5
 2004,8,Barranquilla,homicidio,31
 2004,8,Barranquilla,hurto_carros,29
@@ -808,6 +841,7 @@ anio,mes,municipio,categoria,cantidad
 2004,8,Barranquilla,hurto_personas,185
 2004,8,Barranquilla,hurto_residencias,36
 2004,8,Barranquilla,lesiones,109
+2004,8,Barranquilla,secuestro,1
 2004,8,Barranquilla,transito,53
 2004,8,Barranquilla,violencia_intrafamiliar,9
 2004,8,Barranquilla,violencia_sexual,15
@@ -831,6 +865,7 @@ anio,mes,municipio,categoria,cantidad
 2004,8,Puerto Colombia,hurto_personas,2
 2004,8,Puerto Colombia,transito,1
 2004,8,Puerto Colombia,violencia_sexual,1
+2004,8,Soledad,amenazas,2
 2004,8,Soledad,homicidio,3
 2004,8,Soledad,hurto_carros,6
 2004,8,Soledad,hurto_comercio,1
@@ -841,6 +876,7 @@ anio,mes,municipio,categoria,cantidad
 2004,8,Soledad,transito,6
 2004,8,Soledad,violencia_intrafamiliar,4
 2004,8,Soledad,violencia_sexual,2
+2004,9,Barranquilla,amenazas,2
 2004,9,Barranquilla,extorsion,6
 2004,9,Barranquilla,homicidio,31
 2004,9,Barranquilla,hurto_carros,34
@@ -849,6 +885,7 @@ anio,mes,municipio,categoria,cantidad
 2004,9,Barranquilla,hurto_personas,183
 2004,9,Barranquilla,hurto_residencias,43
 2004,9,Barranquilla,lesiones,79
+2004,9,Barranquilla,secuestro,1
 2004,9,Barranquilla,transito,36
 2004,9,Barranquilla,violencia_intrafamiliar,16
 2004,9,Barranquilla,violencia_sexual,8
@@ -869,6 +906,7 @@ anio,mes,municipio,categoria,cantidad
 2004,9,Puerto Colombia,hurto_carros,1
 2004,9,Puerto Colombia,hurto_comercio,1
 2004,9,Puerto Colombia,transito,3
+2004,9,Soledad,amenazas,2
 2004,9,Soledad,homicidio,7
 2004,9,Soledad,hurto_comercio,7
 2004,9,Soledad,hurto_motos,8
@@ -878,6 +916,7 @@ anio,mes,municipio,categoria,cantidad
 2004,9,Soledad,transito,6
 2004,9,Soledad,violencia_intrafamiliar,1
 2004,9,Soledad,violencia_sexual,5
+2005,1,Barranquilla,amenazas,5
 2005,1,Barranquilla,extorsion,20
 2005,1,Barranquilla,homicidio,31
 2005,1,Barranquilla,hurto_carros,40
@@ -908,6 +947,7 @@ anio,mes,municipio,categoria,cantidad
 2005,1,Puerto Colombia,lesiones,1
 2005,1,Puerto Colombia,transito,1
 2005,1,Puerto Colombia,violencia_sexual,1
+2005,1,Soledad,amenazas,2
 2005,1,Soledad,extorsion,2
 2005,1,Soledad,homicidio,11
 2005,1,Soledad,hurto_carros,6
@@ -919,6 +959,7 @@ anio,mes,municipio,categoria,cantidad
 2005,1,Soledad,transito,13
 2005,1,Soledad,violencia_intrafamiliar,2
 2005,1,Soledad,violencia_sexual,1
+2005,10,Barranquilla,amenazas,21
 2005,10,Barranquilla,extorsion,10
 2005,10,Barranquilla,homicidio,30
 2005,10,Barranquilla,hurto_carros,21
@@ -927,6 +968,7 @@ anio,mes,municipio,categoria,cantidad
 2005,10,Barranquilla,hurto_personas,150
 2005,10,Barranquilla,hurto_residencias,34
 2005,10,Barranquilla,lesiones,66
+2005,10,Barranquilla,secuestro,1
 2005,10,Barranquilla,transito,32
 2005,10,Barranquilla,violencia_intrafamiliar,17
 2005,10,Barranquilla,violencia_sexual,1
@@ -952,6 +994,7 @@ anio,mes,municipio,categoria,cantidad
 2005,10,Soledad,transito,2
 2005,10,Soledad,violencia_intrafamiliar,3
 2005,10,Soledad,violencia_sexual,1
+2005,11,Barranquilla,amenazas,12
 2005,11,Barranquilla,extorsion,8
 2005,11,Barranquilla,homicidio,26
 2005,11,Barranquilla,hurto_carros,24
@@ -961,6 +1004,7 @@ anio,mes,municipio,categoria,cantidad
 2005,11,Barranquilla,hurto_personas,144
 2005,11,Barranquilla,hurto_residencias,34
 2005,11,Barranquilla,lesiones,98
+2005,11,Barranquilla,secuestro,1
 2005,11,Barranquilla,transito,19
 2005,11,Barranquilla,violencia_intrafamiliar,17
 2005,11,Barranquilla,violencia_sexual,2
@@ -972,6 +1016,7 @@ anio,mes,municipio,categoria,cantidad
 2005,11,Malambo,lesiones,4
 2005,11,Malambo,violencia_sexual,1
 2005,11,Puerto Colombia,hurto_personas,1
+2005,11,Soledad,amenazas,3
 2005,11,Soledad,homicidio,13
 2005,11,Soledad,hurto_carros,2
 2005,11,Soledad,hurto_comercio,4
@@ -982,6 +1027,7 @@ anio,mes,municipio,categoria,cantidad
 2005,11,Soledad,transito,8
 2005,11,Soledad,violencia_intrafamiliar,1
 2005,11,Soledad,violencia_sexual,2
+2005,12,Barranquilla,amenazas,7
 2005,12,Barranquilla,extorsion,4
 2005,12,Barranquilla,homicidio,33
 2005,12,Barranquilla,hurto_carros,43
@@ -1019,6 +1065,7 @@ anio,mes,municipio,categoria,cantidad
 2005,12,Soledad,transito,5
 2005,12,Soledad,violencia_intrafamiliar,4
 2005,12,Soledad,violencia_sexual,5
+2005,2,Barranquilla,amenazas,3
 2005,2,Barranquilla,extorsion,8
 2005,2,Barranquilla,homicidio,23
 2005,2,Barranquilla,hurto_carros,34
@@ -1058,6 +1105,7 @@ anio,mes,municipio,categoria,cantidad
 2005,2,Soledad,lesiones,29
 2005,2,Soledad,transito,8
 2005,2,Soledad,violencia_sexual,4
+2005,3,Barranquilla,amenazas,6
 2005,3,Barranquilla,extorsion,5
 2005,3,Barranquilla,homicidio,28
 2005,3,Barranquilla,hurto_carros,34
@@ -1082,6 +1130,7 @@ anio,mes,municipio,categoria,cantidad
 2005,3,Malambo,hurto_personas,7
 2005,3,Malambo,lesiones,9
 2005,3,Malambo,violencia_intrafamiliar,1
+2005,3,Puerto Colombia,amenazas,1
 2005,3,Puerto Colombia,hurto_comercio,1
 2005,3,Puerto Colombia,hurto_personas,1
 2005,3,Puerto Colombia,transito,1
@@ -1097,6 +1146,7 @@ anio,mes,municipio,categoria,cantidad
 2005,3,Soledad,transito,4
 2005,3,Soledad,violencia_intrafamiliar,2
 2005,3,Soledad,violencia_sexual,2
+2005,4,Barranquilla,amenazas,2
 2005,4,Barranquilla,extorsion,6
 2005,4,Barranquilla,homicidio,35
 2005,4,Barranquilla,hurto_carros,30
@@ -1105,6 +1155,7 @@ anio,mes,municipio,categoria,cantidad
 2005,4,Barranquilla,hurto_personas,124
 2005,4,Barranquilla,hurto_residencias,17
 2005,4,Barranquilla,lesiones,74
+2005,4,Barranquilla,secuestro,1
 2005,4,Barranquilla,transito,25
 2005,4,Barranquilla,violencia_intrafamiliar,19
 2005,4,Barranquilla,violencia_sexual,5
@@ -1118,6 +1169,7 @@ anio,mes,municipio,categoria,cantidad
 2005,4,Malambo,violencia_intrafamiliar,3
 2005,4,Puerto Colombia,lesiones,1
 2005,4,Puerto Colombia,violencia_intrafamiliar,1
+2005,4,Soledad,amenazas,1
 2005,4,Soledad,homicidio,5
 2005,4,Soledad,hurto_carros,3
 2005,4,Soledad,hurto_comercio,1
@@ -1128,6 +1180,7 @@ anio,mes,municipio,categoria,cantidad
 2005,4,Soledad,transito,7
 2005,4,Soledad,violencia_intrafamiliar,4
 2005,4,Soledad,violencia_sexual,1
+2005,5,Barranquilla,amenazas,6
 2005,5,Barranquilla,extorsion,9
 2005,5,Barranquilla,homicidio,29
 2005,5,Barranquilla,hurto_carros,26
@@ -1137,6 +1190,7 @@ anio,mes,municipio,categoria,cantidad
 2005,5,Barranquilla,hurto_personas,107
 2005,5,Barranquilla,hurto_residencias,25
 2005,5,Barranquilla,lesiones,64
+2005,5,Barranquilla,secuestro,1
 2005,5,Barranquilla,transito,24
 2005,5,Barranquilla,violencia_intrafamiliar,27
 2005,5,Barranquilla,violencia_sexual,6
@@ -1161,6 +1215,7 @@ anio,mes,municipio,categoria,cantidad
 2005,5,Soledad,lesiones,21
 2005,5,Soledad,transito,4
 2005,5,Soledad,violencia_intrafamiliar,10
+2005,6,Barranquilla,amenazas,13
 2005,6,Barranquilla,extorsion,5
 2005,6,Barranquilla,homicidio,20
 2005,6,Barranquilla,hurto_carros,31
@@ -1177,6 +1232,7 @@ anio,mes,municipio,categoria,cantidad
 2005,6,Galapa,hurto_residencias,1
 2005,6,Galapa,violencia_intrafamiliar,1
 2005,6,Galapa,violencia_sexual,1
+2005,6,Malambo,amenazas,1
 2005,6,Malambo,homicidio,5
 2005,6,Malambo,hurto_motos,1
 2005,6,Malambo,hurto_personas,3
@@ -1204,6 +1260,7 @@ anio,mes,municipio,categoria,cantidad
 2005,7,Barranquilla,hurto_personas,150
 2005,7,Barranquilla,hurto_residencias,32
 2005,7,Barranquilla,lesiones,79
+2005,7,Barranquilla,secuestro,1
 2005,7,Barranquilla,transito,33
 2005,7,Barranquilla,violencia_intrafamiliar,20
 2005,7,Barranquilla,violencia_sexual,5
@@ -1232,6 +1289,7 @@ anio,mes,municipio,categoria,cantidad
 2005,7,Soledad,transito,5
 2005,7,Soledad,violencia_intrafamiliar,7
 2005,7,Soledad,violencia_sexual,3
+2005,8,Barranquilla,amenazas,17
 2005,8,Barranquilla,extorsion,4
 2005,8,Barranquilla,homicidio,21
 2005,8,Barranquilla,hurto_carros,17
@@ -1240,6 +1298,7 @@ anio,mes,municipio,categoria,cantidad
 2005,8,Barranquilla,hurto_personas,157
 2005,8,Barranquilla,hurto_residencias,31
 2005,8,Barranquilla,lesiones,62
+2005,8,Barranquilla,secuestro,1
 2005,8,Barranquilla,transito,29
 2005,8,Barranquilla,violencia_intrafamiliar,29
 2005,8,Barranquilla,violencia_sexual,9
@@ -1255,6 +1314,7 @@ anio,mes,municipio,categoria,cantidad
 2005,8,Malambo,transito,1
 2005,8,Puerto Colombia,lesiones,1
 2005,8,Puerto Colombia,violencia_intrafamiliar,2
+2005,8,Soledad,amenazas,1
 2005,8,Soledad,homicidio,17
 2005,8,Soledad,hurto_carros,1
 2005,8,Soledad,hurto_comercio,2
@@ -1265,6 +1325,7 @@ anio,mes,municipio,categoria,cantidad
 2005,8,Soledad,transito,4
 2005,8,Soledad,violencia_intrafamiliar,5
 2005,8,Soledad,violencia_sexual,3
+2005,9,Barranquilla,amenazas,9
 2005,9,Barranquilla,extorsion,13
 2005,9,Barranquilla,homicidio,23
 2005,9,Barranquilla,hurto_carros,32
@@ -1273,6 +1334,7 @@ anio,mes,municipio,categoria,cantidad
 2005,9,Barranquilla,hurto_personas,131
 2005,9,Barranquilla,hurto_residencias,23
 2005,9,Barranquilla,lesiones,89
+2005,9,Barranquilla,secuestro,3
 2005,9,Barranquilla,transito,35
 2005,9,Barranquilla,violencia_intrafamiliar,17
 2005,9,Barranquilla,violencia_sexual,4
@@ -1285,6 +1347,7 @@ anio,mes,municipio,categoria,cantidad
 2005,9,Malambo,hurto_personas,4
 2005,9,Puerto Colombia,lesiones,1
 2005,9,Puerto Colombia,violencia_intrafamiliar,1
+2005,9,Soledad,amenazas,1
 2005,9,Soledad,homicidio,12
 2005,9,Soledad,hurto_carros,2
 2005,9,Soledad,hurto_comercio,1
@@ -1295,6 +1358,7 @@ anio,mes,municipio,categoria,cantidad
 2005,9,Soledad,transito,2
 2005,9,Soledad,violencia_intrafamiliar,7
 2005,9,Soledad,violencia_sexual,1
+2006,1,Barranquilla,amenazas,10
 2006,1,Barranquilla,extorsion,8
 2006,1,Barranquilla,homicidio,27
 2006,1,Barranquilla,hurto_carros,34
@@ -1303,6 +1367,7 @@ anio,mes,municipio,categoria,cantidad
 2006,1,Barranquilla,hurto_personas,125
 2006,1,Barranquilla,hurto_residencias,29
 2006,1,Barranquilla,lesiones,104
+2006,1,Barranquilla,secuestro,1
 2006,1,Barranquilla,transito,46
 2006,1,Barranquilla,violencia_intrafamiliar,16
 2006,1,Barranquilla,violencia_sexual,3
@@ -1316,6 +1381,7 @@ anio,mes,municipio,categoria,cantidad
 2006,1,Puerto Colombia,extorsion,1
 2006,1,Puerto Colombia,hurto_comercio,1
 2006,1,Puerto Colombia,transito,4
+2006,1,Soledad,amenazas,3
 2006,1,Soledad,extorsion,1
 2006,1,Soledad,homicidio,11
 2006,1,Soledad,hurto_carros,5
@@ -1327,6 +1393,7 @@ anio,mes,municipio,categoria,cantidad
 2006,1,Soledad,transito,4
 2006,1,Soledad,violencia_intrafamiliar,3
 2006,1,Soledad,violencia_sexual,2
+2006,10,Barranquilla,amenazas,32
 2006,10,Barranquilla,extorsion,4
 2006,10,Barranquilla,homicidio,29
 2006,10,Barranquilla,hurto_carros,34
@@ -1336,6 +1403,7 @@ anio,mes,municipio,categoria,cantidad
 2006,10,Barranquilla,hurto_personas,243
 2006,10,Barranquilla,hurto_residencias,44
 2006,10,Barranquilla,lesiones,120
+2006,10,Barranquilla,secuestro,2
 2006,10,Barranquilla,transito,21
 2006,10,Barranquilla,violencia_intrafamiliar,55
 2006,10,Barranquilla,violencia_sexual,5
@@ -1355,6 +1423,7 @@ anio,mes,municipio,categoria,cantidad
 2006,10,Puerto Colombia,hurto_carros,1
 2006,10,Puerto Colombia,hurto_personas,1
 2006,10,Puerto Colombia,lesiones,1
+2006,10,Soledad,amenazas,3
 2006,10,Soledad,homicidio,12
 2006,10,Soledad,hurto_carros,3
 2006,10,Soledad,hurto_comercio,9
@@ -1365,6 +1434,7 @@ anio,mes,municipio,categoria,cantidad
 2006,10,Soledad,transito,2
 2006,10,Soledad,violencia_intrafamiliar,11
 2006,10,Soledad,violencia_sexual,4
+2006,11,Barranquilla,amenazas,39
 2006,11,Barranquilla,extorsion,4
 2006,11,Barranquilla,homicidio,27
 2006,11,Barranquilla,hurto_carros,57
@@ -1374,6 +1444,7 @@ anio,mes,municipio,categoria,cantidad
 2006,11,Barranquilla,hurto_personas,277
 2006,11,Barranquilla,hurto_residencias,51
 2006,11,Barranquilla,lesiones,100
+2006,11,Barranquilla,secuestro,1
 2006,11,Barranquilla,transito,19
 2006,11,Barranquilla,violencia_intrafamiliar,38
 2006,11,Barranquilla,violencia_sexual,8
@@ -1391,6 +1462,7 @@ anio,mes,municipio,categoria,cantidad
 2006,11,Puerto Colombia,hurto_personas,1
 2006,11,Puerto Colombia,hurto_residencias,1
 2006,11,Puerto Colombia,violencia_sexual,1
+2006,11,Soledad,amenazas,9
 2006,11,Soledad,homicidio,10
 2006,11,Soledad,hurto_carros,5
 2006,11,Soledad,hurto_comercio,4
@@ -1401,6 +1473,7 @@ anio,mes,municipio,categoria,cantidad
 2006,11,Soledad,transito,5
 2006,11,Soledad,violencia_intrafamiliar,8
 2006,11,Soledad,violencia_sexual,5
+2006,12,Barranquilla,amenazas,73
 2006,12,Barranquilla,extorsion,4
 2006,12,Barranquilla,homicidio,26
 2006,12,Barranquilla,hurto_carros,42
@@ -1413,11 +1486,13 @@ anio,mes,municipio,categoria,cantidad
 2006,12,Barranquilla,transito,39
 2006,12,Barranquilla,violencia_intrafamiliar,69
 2006,12,Barranquilla,violencia_sexual,7
+2006,12,Galapa,amenazas,3
 2006,12,Galapa,hurto_carros,1
 2006,12,Galapa,hurto_personas,3
 2006,12,Galapa,hurto_residencias,1
 2006,12,Galapa,lesiones,4
 2006,12,Galapa,violencia_intrafamiliar,2
+2006,12,Malambo,amenazas,1
 2006,12,Malambo,homicidio,3
 2006,12,Malambo,hurto_carros,1
 2006,12,Malambo,hurto_entidades,1
@@ -1433,6 +1508,7 @@ anio,mes,municipio,categoria,cantidad
 2006,12,Puerto Colombia,lesiones,2
 2006,12,Puerto Colombia,transito,1
 2006,12,Puerto Colombia,violencia_sexual,1
+2006,12,Soledad,amenazas,4
 2006,12,Soledad,homicidio,5
 2006,12,Soledad,hurto_carros,1
 2006,12,Soledad,hurto_comercio,8
@@ -1472,6 +1548,7 @@ anio,mes,municipio,categoria,cantidad
 2006,2,Soledad,transito,6
 2006,2,Soledad,violencia_intrafamiliar,2
 2006,2,Soledad,violencia_sexual,2
+2006,3,Barranquilla,amenazas,10
 2006,3,Barranquilla,extorsion,7
 2006,3,Barranquilla,homicidio,19
 2006,3,Barranquilla,hurto_carros,19
@@ -1505,6 +1582,7 @@ anio,mes,municipio,categoria,cantidad
 2006,3,Soledad,transito,6
 2006,3,Soledad,violencia_intrafamiliar,2
 2006,3,Soledad,violencia_sexual,1
+2006,4,Barranquilla,amenazas,20
 2006,4,Barranquilla,extorsion,13
 2006,4,Barranquilla,homicidio,31
 2006,4,Barranquilla,hurto_carros,37
@@ -1529,6 +1607,7 @@ anio,mes,municipio,categoria,cantidad
 2006,4,Puerto Colombia,hurto_residencias,1
 2006,4,Puerto Colombia,lesiones,1
 2006,4,Puerto Colombia,violencia_sexual,1
+2006,4,Soledad,amenazas,1
 2006,4,Soledad,extorsion,1
 2006,4,Soledad,homicidio,16
 2006,4,Soledad,hurto_carros,3
@@ -1540,6 +1619,7 @@ anio,mes,municipio,categoria,cantidad
 2006,4,Soledad,transito,9
 2006,4,Soledad,violencia_intrafamiliar,5
 2006,4,Soledad,violencia_sexual,1
+2006,5,Barranquilla,amenazas,24
 2006,5,Barranquilla,extorsion,9
 2006,5,Barranquilla,homicidio,21
 2006,5,Barranquilla,hurto_carros,30
@@ -1549,6 +1629,7 @@ anio,mes,municipio,categoria,cantidad
 2006,5,Barranquilla,hurto_personas,134
 2006,5,Barranquilla,hurto_residencias,59
 2006,5,Barranquilla,lesiones,115
+2006,5,Barranquilla,secuestro,1
 2006,5,Barranquilla,transito,21
 2006,5,Barranquilla,violencia_intrafamiliar,33
 2006,5,Barranquilla,violencia_sexual,4
@@ -1564,6 +1645,7 @@ anio,mes,municipio,categoria,cantidad
 2006,5,Puerto Colombia,hurto_residencias,2
 2006,5,Puerto Colombia,transito,1
 2006,5,Puerto Colombia,violencia_sexual,1
+2006,5,Soledad,amenazas,8
 2006,5,Soledad,extorsion,1
 2006,5,Soledad,homicidio,14
 2006,5,Soledad,hurto_comercio,8
@@ -1574,6 +1656,7 @@ anio,mes,municipio,categoria,cantidad
 2006,5,Soledad,transito,7
 2006,5,Soledad,violencia_intrafamiliar,2
 2006,5,Soledad,violencia_sexual,3
+2006,6,Barranquilla,amenazas,48
 2006,6,Barranquilla,extorsion,5
 2006,6,Barranquilla,homicidio,23
 2006,6,Barranquilla,hurto_carros,33
@@ -1583,6 +1666,7 @@ anio,mes,municipio,categoria,cantidad
 2006,6,Barranquilla,hurto_personas,169
 2006,6,Barranquilla,hurto_residencias,47
 2006,6,Barranquilla,lesiones,105
+2006,6,Barranquilla,secuestro,1
 2006,6,Barranquilla,transito,31
 2006,6,Barranquilla,violencia_intrafamiliar,15
 2006,6,Barranquilla,violencia_sexual,4
@@ -1598,6 +1682,7 @@ anio,mes,municipio,categoria,cantidad
 2006,6,Malambo,lesiones,1
 2006,6,Malambo,violencia_intrafamiliar,1
 2006,6,Puerto Colombia,homicidio,3
+2006,6,Soledad,amenazas,2
 2006,6,Soledad,homicidio,10
 2006,6,Soledad,hurto_carros,4
 2006,6,Soledad,hurto_comercio,11
@@ -1608,6 +1693,7 @@ anio,mes,municipio,categoria,cantidad
 2006,6,Soledad,transito,3
 2006,6,Soledad,violencia_intrafamiliar,1
 2006,6,Soledad,violencia_sexual,4
+2006,7,Barranquilla,amenazas,17
 2006,7,Barranquilla,extorsion,3
 2006,7,Barranquilla,homicidio,45
 2006,7,Barranquilla,hurto_carros,41
@@ -1635,6 +1721,7 @@ anio,mes,municipio,categoria,cantidad
 2006,7,Puerto Colombia,homicidio,1
 2006,7,Puerto Colombia,hurto_residencias,1
 2006,7,Puerto Colombia,transito,7
+2006,7,Soledad,amenazas,1
 2006,7,Soledad,homicidio,14
 2006,7,Soledad,hurto_carros,6
 2006,7,Soledad,hurto_comercio,2
@@ -1645,6 +1732,7 @@ anio,mes,municipio,categoria,cantidad
 2006,7,Soledad,transito,2
 2006,7,Soledad,violencia_intrafamiliar,7
 2006,7,Soledad,violencia_sexual,1
+2006,8,Barranquilla,amenazas,20
 2006,8,Barranquilla,extorsion,5
 2006,8,Barranquilla,homicidio,42
 2006,8,Barranquilla,hurto_carros,54
@@ -1674,6 +1762,7 @@ anio,mes,municipio,categoria,cantidad
 2006,8,Puerto Colombia,hurto_motos,2
 2006,8,Puerto Colombia,hurto_personas,2
 2006,8,Puerto Colombia,transito,2
+2006,8,Soledad,amenazas,2
 2006,8,Soledad,homicidio,6
 2006,8,Soledad,hurto_carros,6
 2006,8,Soledad,hurto_comercio,8
@@ -1683,6 +1772,7 @@ anio,mes,municipio,categoria,cantidad
 2006,8,Soledad,lesiones,28
 2006,8,Soledad,transito,6
 2006,8,Soledad,violencia_intrafamiliar,6
+2006,9,Barranquilla,amenazas,19
 2006,9,Barranquilla,extorsion,2
 2006,9,Barranquilla,homicidio,30
 2006,9,Barranquilla,hurto_carros,38
@@ -1708,6 +1798,7 @@ anio,mes,municipio,categoria,cantidad
 2006,9,Malambo,violencia_sexual,1
 2006,9,Puerto Colombia,hurto_carros,1
 2006,9,Puerto Colombia,transito,4
+2006,9,Soledad,amenazas,5
 2006,9,Soledad,homicidio,10
 2006,9,Soledad,hurto_carros,7
 2006,9,Soledad,hurto_comercio,7
@@ -1718,6 +1809,7 @@ anio,mes,municipio,categoria,cantidad
 2006,9,Soledad,transito,5
 2006,9,Soledad,violencia_intrafamiliar,18
 2006,9,Soledad,violencia_sexual,1
+2007,1,Barranquilla,amenazas,97
 2007,1,Barranquilla,homicidio,18
 2007,1,Barranquilla,hurto_carros,42
 2007,1,Barranquilla,hurto_comercio,115
@@ -1740,8 +1832,10 @@ anio,mes,municipio,categoria,cantidad
 2007,1,Malambo,lesiones,5
 2007,1,Malambo,transito,3
 2007,1,Malambo,violencia_intrafamiliar,5
+2007,1,Puerto Colombia,amenazas,1
 2007,1,Puerto Colombia,extorsion,1
 2007,1,Puerto Colombia,transito,3
+2007,1,Soledad,amenazas,5
 2007,1,Soledad,homicidio,10
 2007,1,Soledad,hurto_carros,6
 2007,1,Soledad,hurto_comercio,10
@@ -1752,6 +1846,7 @@ anio,mes,municipio,categoria,cantidad
 2007,1,Soledad,transito,3
 2007,1,Soledad,violencia_intrafamiliar,17
 2007,1,Soledad,violencia_sexual,3
+2007,10,Barranquilla,amenazas,40
 2007,10,Barranquilla,extorsion,1
 2007,10,Barranquilla,homicidio,26
 2007,10,Barranquilla,hurto_carros,25
@@ -1761,6 +1856,7 @@ anio,mes,municipio,categoria,cantidad
 2007,10,Barranquilla,hurto_personas,412
 2007,10,Barranquilla,hurto_residencias,52
 2007,10,Barranquilla,lesiones,109
+2007,10,Barranquilla,secuestro,1
 2007,10,Barranquilla,transito,17
 2007,10,Barranquilla,violencia_intrafamiliar,51
 2007,10,Barranquilla,violencia_sexual,6
@@ -1774,10 +1870,12 @@ anio,mes,municipio,categoria,cantidad
 2007,10,Malambo,lesiones,5
 2007,10,Malambo,transito,1
 2007,10,Malambo,violencia_sexual,1
+2007,10,Puerto Colombia,amenazas,2
 2007,10,Puerto Colombia,hurto_comercio,1
 2007,10,Puerto Colombia,hurto_personas,3
 2007,10,Puerto Colombia,hurto_residencias,2
 2007,10,Puerto Colombia,lesiones,1
+2007,10,Soledad,amenazas,10
 2007,10,Soledad,homicidio,8
 2007,10,Soledad,hurto_carros,4
 2007,10,Soledad,hurto_comercio,8
@@ -1788,6 +1886,7 @@ anio,mes,municipio,categoria,cantidad
 2007,10,Soledad,transito,3
 2007,10,Soledad,violencia_intrafamiliar,5
 2007,10,Soledad,violencia_sexual,5
+2007,11,Barranquilla,amenazas,27
 2007,11,Barranquilla,extorsion,3
 2007,11,Barranquilla,homicidio,35
 2007,11,Barranquilla,hurto_carros,24
@@ -1815,6 +1914,7 @@ anio,mes,municipio,categoria,cantidad
 2007,11,Puerto Colombia,homicidio,1
 2007,11,Puerto Colombia,hurto_personas,1
 2007,11,Puerto Colombia,hurto_residencias,1
+2007,11,Soledad,amenazas,4
 2007,11,Soledad,homicidio,8
 2007,11,Soledad,hurto_comercio,4
 2007,11,Soledad,hurto_motos,16
@@ -1823,6 +1923,7 @@ anio,mes,municipio,categoria,cantidad
 2007,11,Soledad,lesiones,18
 2007,11,Soledad,transito,3
 2007,11,Soledad,violencia_intrafamiliar,5
+2007,12,Barranquilla,amenazas,4
 2007,12,Barranquilla,extorsion,1
 2007,12,Barranquilla,homicidio,25
 2007,12,Barranquilla,hurto_carros,22
@@ -1853,6 +1954,7 @@ anio,mes,municipio,categoria,cantidad
 2007,12,Soledad,lesiones,21
 2007,12,Soledad,transito,6
 2007,12,Soledad,violencia_intrafamiliar,3
+2007,2,Barranquilla,amenazas,61
 2007,2,Barranquilla,extorsion,3
 2007,2,Barranquilla,homicidio,27
 2007,2,Barranquilla,hurto_carros,28
@@ -1865,6 +1967,7 @@ anio,mes,municipio,categoria,cantidad
 2007,2,Barranquilla,transito,30
 2007,2,Barranquilla,violencia_intrafamiliar,73
 2007,2,Barranquilla,violencia_sexual,8
+2007,2,Galapa,amenazas,1
 2007,2,Galapa,homicidio,2
 2007,2,Galapa,hurto_personas,2
 2007,2,Galapa,hurto_residencias,1
@@ -1880,6 +1983,7 @@ anio,mes,municipio,categoria,cantidad
 2007,2,Malambo,violencia_sexual,1
 2007,2,Puerto Colombia,hurto_comercio,2
 2007,2,Puerto Colombia,hurto_personas,3
+2007,2,Soledad,amenazas,3
 2007,2,Soledad,homicidio,3
 2007,2,Soledad,hurto_carros,3
 2007,2,Soledad,hurto_comercio,7
@@ -1890,6 +1994,7 @@ anio,mes,municipio,categoria,cantidad
 2007,2,Soledad,transito,2
 2007,2,Soledad,violencia_intrafamiliar,3
 2007,2,Soledad,violencia_sexual,1
+2007,3,Barranquilla,amenazas,45
 2007,3,Barranquilla,extorsion,2
 2007,3,Barranquilla,homicidio,31
 2007,3,Barranquilla,hurto_carros,36
@@ -1899,18 +2004,22 @@ anio,mes,municipio,categoria,cantidad
 2007,3,Barranquilla,hurto_personas,223
 2007,3,Barranquilla,hurto_residencias,55
 2007,3,Barranquilla,lesiones,111
+2007,3,Barranquilla,secuestro,2
 2007,3,Barranquilla,transito,18
 2007,3,Barranquilla,violencia_intrafamiliar,51
 2007,3,Barranquilla,violencia_sexual,3
+2007,3,Malambo,amenazas,1
 2007,3,Malambo,homicidio,2
 2007,3,Malambo,hurto_motos,1
 2007,3,Malambo,hurto_personas,2
 2007,3,Malambo,lesiones,3
 2007,3,Malambo,violencia_intrafamiliar,1
+2007,3,Puerto Colombia,amenazas,1
 2007,3,Puerto Colombia,hurto_carros,2
 2007,3,Puerto Colombia,hurto_residencias,2
 2007,3,Puerto Colombia,lesiones,2
 2007,3,Puerto Colombia,transito,1
+2007,3,Soledad,amenazas,1
 2007,3,Soledad,homicidio,5
 2007,3,Soledad,hurto_carros,7
 2007,3,Soledad,hurto_comercio,8
@@ -1920,6 +2029,7 @@ anio,mes,municipio,categoria,cantidad
 2007,3,Soledad,lesiones,17
 2007,3,Soledad,violencia_intrafamiliar,10
 2007,3,Soledad,violencia_sexual,2
+2007,4,Barranquilla,amenazas,24
 2007,4,Barranquilla,extorsion,5
 2007,4,Barranquilla,homicidio,30
 2007,4,Barranquilla,hurto_carros,32
@@ -1928,6 +2038,7 @@ anio,mes,municipio,categoria,cantidad
 2007,4,Barranquilla,hurto_personas,190
 2007,4,Barranquilla,hurto_residencias,42
 2007,4,Barranquilla,lesiones,122
+2007,4,Barranquilla,secuestro,2
 2007,4,Barranquilla,transito,39
 2007,4,Barranquilla,violencia_intrafamiliar,27
 2007,4,Galapa,lesiones,2
@@ -1938,6 +2049,7 @@ anio,mes,municipio,categoria,cantidad
 2007,4,Malambo,transito,3
 2007,4,Puerto Colombia,hurto_residencias,1
 2007,4,Puerto Colombia,transito,8
+2007,4,Soledad,amenazas,2
 2007,4,Soledad,homicidio,12
 2007,4,Soledad,hurto_carros,5
 2007,4,Soledad,hurto_comercio,7
@@ -1947,6 +2059,7 @@ anio,mes,municipio,categoria,cantidad
 2007,4,Soledad,lesiones,12
 2007,4,Soledad,transito,10
 2007,4,Soledad,violencia_intrafamiliar,7
+2007,5,Barranquilla,amenazas,1
 2007,5,Barranquilla,extorsion,2
 2007,5,Barranquilla,homicidio,36
 2007,5,Barranquilla,hurto_carros,31
@@ -1956,6 +2069,7 @@ anio,mes,municipio,categoria,cantidad
 2007,5,Barranquilla,hurto_personas,100
 2007,5,Barranquilla,hurto_residencias,41
 2007,5,Barranquilla,lesiones,65
+2007,5,Barranquilla,secuestro,1
 2007,5,Barranquilla,transito,11
 2007,5,Barranquilla,violencia_intrafamiliar,27
 2007,5,Barranquilla,violencia_sexual,1
@@ -1979,6 +2093,7 @@ anio,mes,municipio,categoria,cantidad
 2007,5,Soledad,lesiones,13
 2007,5,Soledad,transito,6
 2007,5,Soledad,violencia_intrafamiliar,5
+2007,6,Barranquilla,amenazas,1
 2007,6,Barranquilla,extorsion,2
 2007,6,Barranquilla,homicidio,24
 2007,6,Barranquilla,hurto_carros,39
@@ -2024,6 +2139,7 @@ anio,mes,municipio,categoria,cantidad
 2007,7,Barranquilla,hurto_personas,161
 2007,7,Barranquilla,hurto_residencias,47
 2007,7,Barranquilla,lesiones,73
+2007,7,Barranquilla,secuestro,1
 2007,7,Barranquilla,transito,49
 2007,7,Barranquilla,violencia_intrafamiliar,27
 2007,7,Barranquilla,violencia_sexual,4
@@ -2052,6 +2168,7 @@ anio,mes,municipio,categoria,cantidad
 2007,7,Soledad,lesiones,14
 2007,7,Soledad,transito,3
 2007,7,Soledad,violencia_intrafamiliar,6
+2007,8,Barranquilla,amenazas,3
 2007,8,Barranquilla,extorsion,2
 2007,8,Barranquilla,homicidio,19
 2007,8,Barranquilla,hurto_carros,32
@@ -2060,6 +2177,7 @@ anio,mes,municipio,categoria,cantidad
 2007,8,Barranquilla,hurto_personas,147
 2007,8,Barranquilla,hurto_residencias,30
 2007,8,Barranquilla,lesiones,70
+2007,8,Barranquilla,secuestro,2
 2007,8,Barranquilla,transito,39
 2007,8,Barranquilla,violencia_intrafamiliar,40
 2007,8,Barranquilla,violencia_sexual,6
@@ -2081,6 +2199,7 @@ anio,mes,municipio,categoria,cantidad
 2007,8,Puerto Colombia,hurto_motos,1
 2007,8,Puerto Colombia,hurto_residencias,2
 2007,8,Puerto Colombia,transito,2
+2007,8,Soledad,amenazas,1
 2007,8,Soledad,homicidio,5
 2007,8,Soledad,hurto_carros,6
 2007,8,Soledad,hurto_comercio,7
@@ -2088,9 +2207,11 @@ anio,mes,municipio,categoria,cantidad
 2007,8,Soledad,hurto_personas,22
 2007,8,Soledad,hurto_residencias,8
 2007,8,Soledad,lesiones,9
+2007,8,Soledad,secuestro,1
 2007,8,Soledad,transito,3
 2007,8,Soledad,violencia_intrafamiliar,9
 2007,8,Soledad,violencia_sexual,1
+2007,9,Barranquilla,amenazas,4
 2007,9,Barranquilla,homicidio,35
 2007,9,Barranquilla,hurto_carros,45
 2007,9,Barranquilla,hurto_comercio,43
@@ -2108,12 +2229,14 @@ anio,mes,municipio,categoria,cantidad
 2007,9,Malambo,lesiones,3
 2007,9,Malambo,transito,1
 2007,9,Malambo,violencia_intrafamiliar,1
+2007,9,Puerto Colombia,amenazas,1
 2007,9,Puerto Colombia,homicidio,2
 2007,9,Puerto Colombia,hurto_comercio,1
 2007,9,Puerto Colombia,hurto_personas,2
 2007,9,Puerto Colombia,hurto_residencias,1
 2007,9,Puerto Colombia,lesiones,2
 2007,9,Puerto Colombia,transito,1
+2007,9,Soledad,amenazas,1
 2007,9,Soledad,homicidio,3
 2007,9,Soledad,hurto_carros,2
 2007,9,Soledad,hurto_comercio,5
@@ -2124,6 +2247,7 @@ anio,mes,municipio,categoria,cantidad
 2007,9,Soledad,transito,2
 2007,9,Soledad,violencia_intrafamiliar,6
 2007,9,Soledad,violencia_sexual,1
+2008,1,Barranquilla,amenazas,10
 2008,1,Barranquilla,homicidio,18
 2008,1,Barranquilla,hurto_carros,19
 2008,1,Barranquilla,hurto_comercio,76
@@ -2146,6 +2270,7 @@ anio,mes,municipio,categoria,cantidad
 2008,1,Puerto Colombia,hurto_comercio,1
 2008,1,Puerto Colombia,hurto_residencias,2
 2008,1,Puerto Colombia,lesiones,1
+2008,1,Soledad,amenazas,5
 2008,1,Soledad,homicidio,9
 2008,1,Soledad,hurto_carros,3
 2008,1,Soledad,hurto_comercio,9
@@ -2155,6 +2280,7 @@ anio,mes,municipio,categoria,cantidad
 2008,1,Soledad,lesiones,21
 2008,1,Soledad,transito,7
 2008,1,Soledad,violencia_intrafamiliar,3
+2008,10,Barranquilla,amenazas,9
 2008,10,Barranquilla,homicidio,27
 2008,10,Barranquilla,hurto_carros,27
 2008,10,Barranquilla,hurto_comercio,44
@@ -2189,6 +2315,7 @@ anio,mes,municipio,categoria,cantidad
 2008,10,Soledad,transito,4
 2008,10,Soledad,violencia_intrafamiliar,1
 2008,10,Soledad,violencia_sexual,2
+2008,11,Barranquilla,amenazas,4
 2008,11,Barranquilla,homicidio,28
 2008,11,Barranquilla,hurto_carros,27
 2008,11,Barranquilla,hurto_comercio,35
@@ -2216,6 +2343,7 @@ anio,mes,municipio,categoria,cantidad
 2008,11,Puerto Colombia,hurto_personas,2
 2008,11,Puerto Colombia,lesiones,1
 2008,11,Puerto Colombia,transito,5
+2008,11,Soledad,amenazas,3
 2008,11,Soledad,homicidio,6
 2008,11,Soledad,hurto_carros,5
 2008,11,Soledad,hurto_comercio,7
@@ -2226,6 +2354,7 @@ anio,mes,municipio,categoria,cantidad
 2008,11,Soledad,transito,3
 2008,11,Soledad,violencia_intrafamiliar,1
 2008,11,Soledad,violencia_sexual,1
+2008,12,Barranquilla,amenazas,4
 2008,12,Barranquilla,extorsion,1
 2008,12,Barranquilla,homicidio,31
 2008,12,Barranquilla,hurto_carros,36
@@ -2234,6 +2363,7 @@ anio,mes,municipio,categoria,cantidad
 2008,12,Barranquilla,hurto_personas,407
 2008,12,Barranquilla,hurto_residencias,35
 2008,12,Barranquilla,lesiones,97
+2008,12,Barranquilla,secuestro,1
 2008,12,Barranquilla,transito,10
 2008,12,Barranquilla,violencia_intrafamiliar,23
 2008,12,Barranquilla,violencia_sexual,3
@@ -2254,6 +2384,7 @@ anio,mes,municipio,categoria,cantidad
 2008,12,Puerto Colombia,hurto_comercio,1
 2008,12,Puerto Colombia,hurto_motos,1
 2008,12,Puerto Colombia,lesiones,1
+2008,12,Soledad,amenazas,3
 2008,12,Soledad,homicidio,4
 2008,12,Soledad,hurto_carros,11
 2008,12,Soledad,hurto_comercio,3
@@ -2264,6 +2395,7 @@ anio,mes,municipio,categoria,cantidad
 2008,12,Soledad,transito,2
 2008,12,Soledad,violencia_intrafamiliar,2
 2008,12,Soledad,violencia_sexual,3
+2008,2,Barranquilla,amenazas,9
 2008,2,Barranquilla,extorsion,1
 2008,2,Barranquilla,homicidio,25
 2008,2,Barranquilla,hurto_carros,43
@@ -2279,6 +2411,7 @@ anio,mes,municipio,categoria,cantidad
 2008,2,Galapa,hurto_carros,1
 2008,2,Galapa,lesiones,3
 2008,2,Galapa,transito,6
+2008,2,Malambo,amenazas,1
 2008,2,Malambo,homicidio,5
 2008,2,Malambo,hurto_comercio,8
 2008,2,Malambo,hurto_motos,1
@@ -2292,6 +2425,7 @@ anio,mes,municipio,categoria,cantidad
 2008,2,Puerto Colombia,hurto_comercio,1
 2008,2,Puerto Colombia,lesiones,1
 2008,2,Puerto Colombia,violencia_intrafamiliar,1
+2008,2,Soledad,amenazas,2
 2008,2,Soledad,homicidio,12
 2008,2,Soledad,hurto_carros,1
 2008,2,Soledad,hurto_comercio,7
@@ -2302,6 +2436,7 @@ anio,mes,municipio,categoria,cantidad
 2008,2,Soledad,transito,4
 2008,2,Soledad,violencia_intrafamiliar,3
 2008,2,Soledad,violencia_sexual,2
+2008,3,Barranquilla,amenazas,6
 2008,3,Barranquilla,extorsion,1
 2008,3,Barranquilla,homicidio,22
 2008,3,Barranquilla,hurto_carros,29
@@ -2311,11 +2446,13 @@ anio,mes,municipio,categoria,cantidad
 2008,3,Barranquilla,hurto_personas,484
 2008,3,Barranquilla,hurto_residencias,53
 2008,3,Barranquilla,lesiones,109
+2008,3,Barranquilla,secuestro,1
 2008,3,Barranquilla,transito,19
 2008,3,Barranquilla,violencia_intrafamiliar,15
 2008,3,Barranquilla,violencia_sexual,2
 2008,3,Galapa,homicidio,1
 2008,3,Galapa,hurto_personas,1
+2008,3,Malambo,amenazas,2
 2008,3,Malambo,homicidio,2
 2008,3,Malambo,hurto_carros,1
 2008,3,Malambo,hurto_comercio,2
@@ -2330,6 +2467,7 @@ anio,mes,municipio,categoria,cantidad
 2008,3,Puerto Colombia,hurto_residencias,1
 2008,3,Puerto Colombia,lesiones,1
 2008,3,Puerto Colombia,violencia_sexual,1
+2008,3,Soledad,amenazas,2
 2008,3,Soledad,homicidio,6
 2008,3,Soledad,hurto_carros,2
 2008,3,Soledad,hurto_comercio,6
@@ -2339,6 +2477,7 @@ anio,mes,municipio,categoria,cantidad
 2008,3,Soledad,lesiones,17
 2008,3,Soledad,transito,1
 2008,3,Soledad,violencia_intrafamiliar,3
+2008,4,Barranquilla,amenazas,5
 2008,4,Barranquilla,extorsion,1
 2008,4,Barranquilla,homicidio,28
 2008,4,Barranquilla,hurto_carros,36
@@ -2351,6 +2490,7 @@ anio,mes,municipio,categoria,cantidad
 2008,4,Barranquilla,transito,12
 2008,4,Barranquilla,violencia_intrafamiliar,11
 2008,4,Barranquilla,violencia_sexual,3
+2008,4,Malambo,amenazas,1
 2008,4,Malambo,hurto_carros,3
 2008,4,Malambo,hurto_comercio,2
 2008,4,Malambo,hurto_motos,5
@@ -2362,6 +2502,7 @@ anio,mes,municipio,categoria,cantidad
 2008,4,Malambo,violencia_sexual,1
 2008,4,Puerto Colombia,hurto_personas,2
 2008,4,Puerto Colombia,lesiones,1
+2008,4,Soledad,amenazas,3
 2008,4,Soledad,homicidio,4
 2008,4,Soledad,hurto_carros,3
 2008,4,Soledad,hurto_comercio,3
@@ -2372,6 +2513,7 @@ anio,mes,municipio,categoria,cantidad
 2008,4,Soledad,transito,2
 2008,4,Soledad,violencia_intrafamiliar,7
 2008,4,Soledad,violencia_sexual,1
+2008,5,Barranquilla,amenazas,1
 2008,5,Barranquilla,extorsion,1
 2008,5,Barranquilla,homicidio,34
 2008,5,Barranquilla,hurto_carros,24
@@ -2399,6 +2541,7 @@ anio,mes,municipio,categoria,cantidad
 2008,5,Puerto Colombia,hurto_personas,2
 2008,5,Puerto Colombia,lesiones,1
 2008,5,Puerto Colombia,transito,3
+2008,5,Soledad,amenazas,2
 2008,5,Soledad,homicidio,9
 2008,5,Soledad,hurto_carros,4
 2008,5,Soledad,hurto_comercio,5
@@ -2409,6 +2552,7 @@ anio,mes,municipio,categoria,cantidad
 2008,5,Soledad,transito,9
 2008,5,Soledad,violencia_intrafamiliar,8
 2008,5,Soledad,violencia_sexual,2
+2008,6,Barranquilla,amenazas,2
 2008,6,Barranquilla,extorsion,2
 2008,6,Barranquilla,homicidio,25
 2008,6,Barranquilla,hurto_carros,18
@@ -2441,6 +2585,7 @@ anio,mes,municipio,categoria,cantidad
 2008,6,Soledad,lesiones,25
 2008,6,Soledad,violencia_intrafamiliar,4
 2008,6,Soledad,violencia_sexual,1
+2008,7,Barranquilla,amenazas,4
 2008,7,Barranquilla,extorsion,1
 2008,7,Barranquilla,homicidio,23
 2008,7,Barranquilla,hurto_carros,23
@@ -2456,6 +2601,7 @@ anio,mes,municipio,categoria,cantidad
 2008,7,Galapa,homicidio,3
 2008,7,Galapa,hurto_personas,3
 2008,7,Galapa,lesiones,2
+2008,7,Malambo,amenazas,1
 2008,7,Malambo,homicidio,1
 2008,7,Malambo,hurto_carros,1
 2008,7,Malambo,hurto_motos,5
@@ -2474,6 +2620,7 @@ anio,mes,municipio,categoria,cantidad
 2008,7,Soledad,lesiones,14
 2008,7,Soledad,violencia_intrafamiliar,1
 2008,7,Soledad,violencia_sexual,1
+2008,8,Barranquilla,amenazas,3
 2008,8,Barranquilla,homicidio,28
 2008,8,Barranquilla,hurto_carros,31
 2008,8,Barranquilla,hurto_comercio,53
@@ -2481,11 +2628,13 @@ anio,mes,municipio,categoria,cantidad
 2008,8,Barranquilla,hurto_personas,341
 2008,8,Barranquilla,hurto_residencias,56
 2008,8,Barranquilla,lesiones,117
+2008,8,Barranquilla,secuestro,1
 2008,8,Barranquilla,transito,14
 2008,8,Barranquilla,violencia_intrafamiliar,12
 2008,8,Galapa,hurto_carros,1
 2008,8,Galapa,hurto_motos,1
 2008,8,Galapa,lesiones,1
+2008,8,Malambo,amenazas,1
 2008,8,Malambo,homicidio,1
 2008,8,Malambo,hurto_comercio,3
 2008,8,Malambo,hurto_motos,10
@@ -2495,6 +2644,7 @@ anio,mes,municipio,categoria,cantidad
 2008,8,Malambo,violencia_intrafamiliar,1
 2008,8,Puerto Colombia,hurto_motos,3
 2008,8,Puerto Colombia,hurto_personas,1
+2008,8,Soledad,amenazas,1
 2008,8,Soledad,homicidio,5
 2008,8,Soledad,hurto_carros,2
 2008,8,Soledad,hurto_comercio,5
@@ -2502,8 +2652,10 @@ anio,mes,municipio,categoria,cantidad
 2008,8,Soledad,hurto_personas,52
 2008,8,Soledad,hurto_residencias,7
 2008,8,Soledad,lesiones,24
+2008,8,Soledad,secuestro,1
 2008,8,Soledad,violencia_intrafamiliar,7
 2008,8,Soledad,violencia_sexual,2
+2008,9,Barranquilla,amenazas,2
 2008,9,Barranquilla,homicidio,20
 2008,9,Barranquilla,hurto_carros,26
 2008,9,Barranquilla,hurto_comercio,59
@@ -2536,6 +2688,7 @@ anio,mes,municipio,categoria,cantidad
 2008,9,Soledad,transito,3
 2008,9,Soledad,violencia_intrafamiliar,8
 2008,9,Soledad,violencia_sexual,3
+2009,1,Barranquilla,amenazas,16
 2009,1,Barranquilla,extorsion,4
 2009,1,Barranquilla,homicidio,25
 2009,1,Barranquilla,hurto_carros,35
@@ -2547,6 +2700,7 @@ anio,mes,municipio,categoria,cantidad
 2009,1,Barranquilla,transito,102
 2009,1,Barranquilla,violencia_intrafamiliar,106
 2009,1,Barranquilla,violencia_sexual,17
+2009,1,Galapa,amenazas,2
 2009,1,Galapa,hurto_comercio,3
 2009,1,Galapa,hurto_personas,1
 2009,1,Galapa,lesiones,3
@@ -2563,6 +2717,7 @@ anio,mes,municipio,categoria,cantidad
 2009,1,Puerto Colombia,hurto_personas,1
 2009,1,Puerto Colombia,lesiones,1
 2009,1,Puerto Colombia,transito,17
+2009,1,Soledad,amenazas,8
 2009,1,Soledad,homicidio,7
 2009,1,Soledad,hurto_carros,7
 2009,1,Soledad,hurto_comercio,6
@@ -2573,6 +2728,7 @@ anio,mes,municipio,categoria,cantidad
 2009,1,Soledad,transito,16
 2009,1,Soledad,violencia_intrafamiliar,37
 2009,1,Soledad,violencia_sexual,7
+2009,10,Barranquilla,amenazas,46
 2009,10,Barranquilla,extorsion,3
 2009,10,Barranquilla,homicidio,31
 2009,10,Barranquilla,hurto_carros,17
@@ -2582,14 +2738,17 @@ anio,mes,municipio,categoria,cantidad
 2009,10,Barranquilla,hurto_personas,334
 2009,10,Barranquilla,hurto_residencias,23
 2009,10,Barranquilla,lesiones,80
+2009,10,Barranquilla,secuestro,1
 2009,10,Barranquilla,transito,205
 2009,10,Barranquilla,violencia_intrafamiliar,41
 2009,10,Barranquilla,violencia_sexual,10
+2009,10,Galapa,amenazas,1
 2009,10,Galapa,homicidio,1
 2009,10,Galapa,hurto_personas,1
 2009,10,Galapa,hurto_residencias,1
 2009,10,Galapa,lesiones,1
 2009,10,Galapa,transito,3
+2009,10,Malambo,amenazas,2
 2009,10,Malambo,homicidio,1
 2009,10,Malambo,hurto_carros,1
 2009,10,Malambo,hurto_comercio,1
@@ -2602,6 +2761,7 @@ anio,mes,municipio,categoria,cantidad
 2009,10,Puerto Colombia,hurto_motos,1
 2009,10,Puerto Colombia,hurto_personas,1
 2009,10,Puerto Colombia,transito,4
+2009,10,Soledad,amenazas,5
 2009,10,Soledad,homicidio,8
 2009,10,Soledad,hurto_carros,4
 2009,10,Soledad,hurto_comercio,3
@@ -2612,6 +2772,7 @@ anio,mes,municipio,categoria,cantidad
 2009,10,Soledad,transito,11
 2009,10,Soledad,violencia_intrafamiliar,36
 2009,10,Soledad,violencia_sexual,2
+2009,11,Barranquilla,amenazas,32
 2009,11,Barranquilla,extorsion,3
 2009,11,Barranquilla,homicidio,35
 2009,11,Barranquilla,hurto_carros,17
@@ -2640,6 +2801,7 @@ anio,mes,municipio,categoria,cantidad
 2009,11,Puerto Colombia,transito,1
 2009,11,Puerto Colombia,violencia_intrafamiliar,1
 2009,11,Puerto Colombia,violencia_sexual,2
+2009,11,Soledad,amenazas,3
 2009,11,Soledad,homicidio,8
 2009,11,Soledad,hurto_carros,7
 2009,11,Soledad,hurto_comercio,3
@@ -2650,6 +2812,7 @@ anio,mes,municipio,categoria,cantidad
 2009,11,Soledad,transito,8
 2009,11,Soledad,violencia_intrafamiliar,33
 2009,11,Soledad,violencia_sexual,7
+2009,12,Barranquilla,amenazas,15
 2009,12,Barranquilla,extorsion,1
 2009,12,Barranquilla,homicidio,19
 2009,12,Barranquilla,hurto_carros,24
@@ -2666,6 +2829,7 @@ anio,mes,municipio,categoria,cantidad
 2009,12,Galapa,hurto_motos,2
 2009,12,Galapa,hurto_personas,1
 2009,12,Galapa,transito,3
+2009,12,Malambo,amenazas,1
 2009,12,Malambo,homicidio,5
 2009,12,Malambo,hurto_carros,1
 2009,12,Malambo,hurto_motos,5
@@ -2675,6 +2839,7 @@ anio,mes,municipio,categoria,cantidad
 2009,12,Malambo,violencia_intrafamiliar,1
 2009,12,Puerto Colombia,homicidio,3
 2009,12,Puerto Colombia,hurto_personas,2
+2009,12,Soledad,amenazas,1
 2009,12,Soledad,homicidio,4
 2009,12,Soledad,hurto_carros,5
 2009,12,Soledad,hurto_comercio,7
@@ -2685,6 +2850,7 @@ anio,mes,municipio,categoria,cantidad
 2009,12,Soledad,transito,8
 2009,12,Soledad,violencia_intrafamiliar,29
 2009,12,Soledad,violencia_sexual,2
+2009,2,Barranquilla,amenazas,23
 2009,2,Barranquilla,extorsion,2
 2009,2,Barranquilla,homicidio,29
 2009,2,Barranquilla,hurto_carros,19
@@ -2694,6 +2860,7 @@ anio,mes,municipio,categoria,cantidad
 2009,2,Barranquilla,hurto_personas,322
 2009,2,Barranquilla,hurto_residencias,51
 2009,2,Barranquilla,lesiones,113
+2009,2,Barranquilla,secuestro,1
 2009,2,Barranquilla,transito,103
 2009,2,Barranquilla,violencia_intrafamiliar,110
 2009,2,Barranquilla,violencia_sexual,22
@@ -2705,6 +2872,7 @@ anio,mes,municipio,categoria,cantidad
 2009,2,Galapa,transito,1
 2009,2,Galapa,violencia_intrafamiliar,4
 2009,2,Galapa,violencia_sexual,1
+2009,2,Malambo,amenazas,1
 2009,2,Malambo,homicidio,1
 2009,2,Malambo,hurto_carros,1
 2009,2,Malambo,hurto_comercio,1
@@ -2714,10 +2882,12 @@ anio,mes,municipio,categoria,cantidad
 2009,2,Malambo,transito,3
 2009,2,Malambo,violencia_intrafamiliar,2
 2009,2,Malambo,violencia_sexual,3
+2009,2,Puerto Colombia,amenazas,3
 2009,2,Puerto Colombia,homicidio,1
 2009,2,Puerto Colombia,hurto_personas,3
 2009,2,Puerto Colombia,hurto_residencias,2
 2009,2,Puerto Colombia,violencia_intrafamiliar,1
+2009,2,Soledad,amenazas,7
 2009,2,Soledad,homicidio,7
 2009,2,Soledad,hurto_carros,9
 2009,2,Soledad,hurto_comercio,8
@@ -2725,9 +2895,11 @@ anio,mes,municipio,categoria,cantidad
 2009,2,Soledad,hurto_personas,60
 2009,2,Soledad,hurto_residencias,4
 2009,2,Soledad,lesiones,30
+2009,2,Soledad,secuestro,1
 2009,2,Soledad,transito,12
 2009,2,Soledad,violencia_intrafamiliar,48
 2009,2,Soledad,violencia_sexual,8
+2009,3,Barranquilla,amenazas,34
 2009,3,Barranquilla,homicidio,26
 2009,3,Barranquilla,hurto_carros,25
 2009,3,Barranquilla,hurto_comercio,71
@@ -2739,6 +2911,7 @@ anio,mes,municipio,categoria,cantidad
 2009,3,Barranquilla,transito,137
 2009,3,Barranquilla,violencia_intrafamiliar,118
 2009,3,Barranquilla,violencia_sexual,10
+2009,3,Galapa,amenazas,1
 2009,3,Galapa,hurto_personas,1
 2009,3,Galapa,lesiones,1
 2009,3,Galapa,transito,1
@@ -2752,9 +2925,11 @@ anio,mes,municipio,categoria,cantidad
 2009,3,Malambo,lesiones,1
 2009,3,Malambo,transito,3
 2009,3,Malambo,violencia_intrafamiliar,4
+2009,3,Puerto Colombia,amenazas,1
 2009,3,Puerto Colombia,lesiones,1
 2009,3,Puerto Colombia,transito,1
 2009,3,Puerto Colombia,violencia_intrafamiliar,1
+2009,3,Soledad,amenazas,9
 2009,3,Soledad,homicidio,4
 2009,3,Soledad,hurto_carros,2
 2009,3,Soledad,hurto_comercio,4
@@ -2765,6 +2940,7 @@ anio,mes,municipio,categoria,cantidad
 2009,3,Soledad,transito,21
 2009,3,Soledad,violencia_intrafamiliar,56
 2009,3,Soledad,violencia_sexual,9
+2009,4,Barranquilla,amenazas,27
 2009,4,Barranquilla,extorsion,2
 2009,4,Barranquilla,homicidio,22
 2009,4,Barranquilla,hurto_carros,26
@@ -2774,9 +2950,11 @@ anio,mes,municipio,categoria,cantidad
 2009,4,Barranquilla,hurto_personas,296
 2009,4,Barranquilla,hurto_residencias,25
 2009,4,Barranquilla,lesiones,86
+2009,4,Barranquilla,secuestro,1
 2009,4,Barranquilla,transito,127
 2009,4,Barranquilla,violencia_intrafamiliar,69
 2009,4,Barranquilla,violencia_sexual,10
+2009,4,Galapa,amenazas,1
 2009,4,Galapa,hurto_comercio,1
 2009,4,Galapa,hurto_personas,1
 2009,4,Galapa,lesiones,1
@@ -2795,6 +2973,7 @@ anio,mes,municipio,categoria,cantidad
 2009,4,Puerto Colombia,transito,3
 2009,4,Puerto Colombia,violencia_intrafamiliar,2
 2009,4,Puerto Colombia,violencia_sexual,1
+2009,4,Soledad,amenazas,11
 2009,4,Soledad,homicidio,6
 2009,4,Soledad,hurto_carros,5
 2009,4,Soledad,hurto_comercio,4
@@ -2805,6 +2984,7 @@ anio,mes,municipio,categoria,cantidad
 2009,4,Soledad,transito,22
 2009,4,Soledad,violencia_intrafamiliar,51
 2009,4,Soledad,violencia_sexual,10
+2009,5,Barranquilla,amenazas,22
 2009,5,Barranquilla,extorsion,4
 2009,5,Barranquilla,homicidio,27
 2009,5,Barranquilla,hurto_carros,18
@@ -2822,6 +3002,7 @@ anio,mes,municipio,categoria,cantidad
 2009,5,Galapa,hurto_residencias,1
 2009,5,Galapa,lesiones,2
 2009,5,Galapa,violencia_intrafamiliar,1
+2009,5,Malambo,amenazas,1
 2009,5,Malambo,homicidio,2
 2009,5,Malambo,hurto_carros,1
 2009,5,Malambo,hurto_comercio,1
@@ -2837,6 +3018,7 @@ anio,mes,municipio,categoria,cantidad
 2009,5,Puerto Colombia,hurto_personas,4
 2009,5,Puerto Colombia,transito,3
 2009,5,Puerto Colombia,violencia_sexual,1
+2009,5,Soledad,amenazas,16
 2009,5,Soledad,homicidio,3
 2009,5,Soledad,hurto_carros,1
 2009,5,Soledad,hurto_comercio,3
@@ -2847,6 +3029,7 @@ anio,mes,municipio,categoria,cantidad
 2009,5,Soledad,transito,10
 2009,5,Soledad,violencia_intrafamiliar,73
 2009,5,Soledad,violencia_sexual,12
+2009,6,Barranquilla,amenazas,39
 2009,6,Barranquilla,extorsion,1
 2009,6,Barranquilla,homicidio,19
 2009,6,Barranquilla,hurto_carros,30
@@ -2862,6 +3045,7 @@ anio,mes,municipio,categoria,cantidad
 2009,6,Galapa,hurto_personas,1
 2009,6,Galapa,lesiones,5
 2009,6,Galapa,transito,1
+2009,6,Malambo,amenazas,1
 2009,6,Malambo,homicidio,3
 2009,6,Malambo,hurto_carros,1
 2009,6,Malambo,hurto_motos,4
@@ -2874,6 +3058,7 @@ anio,mes,municipio,categoria,cantidad
 2009,6,Puerto Colombia,homicidio,1
 2009,6,Puerto Colombia,hurto_personas,2
 2009,6,Puerto Colombia,transito,5
+2009,6,Soledad,amenazas,9
 2009,6,Soledad,homicidio,9
 2009,6,Soledad,hurto_carros,6
 2009,6,Soledad,hurto_comercio,4
@@ -2884,6 +3069,7 @@ anio,mes,municipio,categoria,cantidad
 2009,6,Soledad,transito,13
 2009,6,Soledad,violencia_intrafamiliar,76
 2009,6,Soledad,violencia_sexual,12
+2009,7,Barranquilla,amenazas,56
 2009,7,Barranquilla,extorsion,1
 2009,7,Barranquilla,homicidio,33
 2009,7,Barranquilla,hurto_carros,23
@@ -2896,6 +3082,7 @@ anio,mes,municipio,categoria,cantidad
 2009,7,Barranquilla,transito,166
 2009,7,Barranquilla,violencia_intrafamiliar,65
 2009,7,Barranquilla,violencia_sexual,15
+2009,7,Galapa,amenazas,1
 2009,7,Galapa,homicidio,3
 2009,7,Galapa,hurto_comercio,1
 2009,7,Galapa,hurto_motos,1
@@ -2903,6 +3090,7 @@ anio,mes,municipio,categoria,cantidad
 2009,7,Galapa,transito,7
 2009,7,Galapa,violencia_intrafamiliar,2
 2009,7,Galapa,violencia_sexual,1
+2009,7,Malambo,amenazas,2
 2009,7,Malambo,homicidio,2
 2009,7,Malambo,hurto_carros,1
 2009,7,Malambo,hurto_motos,12
@@ -2917,6 +3105,7 @@ anio,mes,municipio,categoria,cantidad
 2009,7,Puerto Colombia,transito,4
 2009,7,Puerto Colombia,violencia_intrafamiliar,1
 2009,7,Puerto Colombia,violencia_sexual,1
+2009,7,Soledad,amenazas,18
 2009,7,Soledad,homicidio,9
 2009,7,Soledad,hurto_carros,6
 2009,7,Soledad,hurto_comercio,5
@@ -2927,6 +3116,7 @@ anio,mes,municipio,categoria,cantidad
 2009,7,Soledad,transito,9
 2009,7,Soledad,violencia_intrafamiliar,62
 2009,7,Soledad,violencia_sexual,9
+2009,8,Barranquilla,amenazas,48
 2009,8,Barranquilla,extorsion,7
 2009,8,Barranquilla,homicidio,47
 2009,8,Barranquilla,hurto_carros,25
@@ -2938,6 +3128,7 @@ anio,mes,municipio,categoria,cantidad
 2009,8,Barranquilla,transito,168
 2009,8,Barranquilla,violencia_intrafamiliar,77
 2009,8,Barranquilla,violencia_sexual,20
+2009,8,Galapa,amenazas,3
 2009,8,Galapa,homicidio,1
 2009,8,Galapa,hurto_motos,3
 2009,8,Galapa,hurto_personas,3
@@ -2946,6 +3137,7 @@ anio,mes,municipio,categoria,cantidad
 2009,8,Galapa,transito,5
 2009,8,Galapa,violencia_intrafamiliar,6
 2009,8,Galapa,violencia_sexual,1
+2009,8,Malambo,amenazas,1
 2009,8,Malambo,homicidio,1
 2009,8,Malambo,hurto_carros,3
 2009,8,Malambo,hurto_motos,2
@@ -2953,11 +3145,13 @@ anio,mes,municipio,categoria,cantidad
 2009,8,Malambo,transito,8
 2009,8,Malambo,violencia_intrafamiliar,2
 2009,8,Malambo,violencia_sexual,4
+2009,8,Puerto Colombia,amenazas,2
 2009,8,Puerto Colombia,homicidio,1
 2009,8,Puerto Colombia,hurto_personas,1
 2009,8,Puerto Colombia,lesiones,3
 2009,8,Puerto Colombia,transito,5
 2009,8,Puerto Colombia,violencia_sexual,1
+2009,8,Soledad,amenazas,15
 2009,8,Soledad,homicidio,8
 2009,8,Soledad,hurto_carros,9
 2009,8,Soledad,hurto_comercio,5
@@ -2968,6 +3162,7 @@ anio,mes,municipio,categoria,cantidad
 2009,8,Soledad,transito,21
 2009,8,Soledad,violencia_intrafamiliar,71
 2009,8,Soledad,violencia_sexual,9
+2009,9,Barranquilla,amenazas,54
 2009,9,Barranquilla,extorsion,3
 2009,9,Barranquilla,homicidio,26
 2009,9,Barranquilla,hurto_carros,19
@@ -2977,9 +3172,11 @@ anio,mes,municipio,categoria,cantidad
 2009,9,Barranquilla,hurto_personas,244
 2009,9,Barranquilla,hurto_residencias,12
 2009,9,Barranquilla,lesiones,78
+2009,9,Barranquilla,secuestro,1
 2009,9,Barranquilla,transito,181
 2009,9,Barranquilla,violencia_intrafamiliar,80
 2009,9,Barranquilla,violencia_sexual,8
+2009,9,Galapa,amenazas,2
 2009,9,Galapa,homicidio,2
 2009,9,Galapa,hurto_carros,1
 2009,9,Galapa,hurto_personas,1
@@ -2987,6 +3184,7 @@ anio,mes,municipio,categoria,cantidad
 2009,9,Galapa,lesiones,3
 2009,9,Galapa,transito,1
 2009,9,Galapa,violencia_sexual,2
+2009,9,Malambo,amenazas,2
 2009,9,Malambo,homicidio,1
 2009,9,Malambo,hurto_carros,1
 2009,9,Malambo,hurto_personas,12
@@ -2997,6 +3195,7 @@ anio,mes,municipio,categoria,cantidad
 2009,9,Puerto Colombia,hurto_personas,1
 2009,9,Puerto Colombia,lesiones,1
 2009,9,Puerto Colombia,transito,13
+2009,9,Soledad,amenazas,8
 2009,9,Soledad,homicidio,6
 2009,9,Soledad,hurto_carros,5
 2009,9,Soledad,hurto_comercio,2

@@ -153,6 +153,9 @@ def test_nombres_de_siedco():
     assert categoria("HURTO A MOTOCICLETAS") == "hurto_motos"
     assert categoria("DELITOS SEXUALES") == "violencia_sexual"
     assert categoria("HURTO A ENTIDADES FINANCIERAS") == "hurto_entidades"
+    assert categoria("SECUESTRO EXTORSIVO") == "secuestro"
+    assert categoria("SECUESTRO SIMPLE") == "secuestro"
+    assert categoria("EXTORSIÓN") == "extorsion"
 
 
 def test_siedco_manual_categoria_en_dos_archivos_y_duplicados(tmp_path):
