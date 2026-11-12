@@ -1,17 +1,14 @@
 # Observatorio BAQ
 
-**[Ver el mapa → servicessigeduca-sudo.github.io/observatorio-baq](https://servicessigeduca-sudo.github.io/observatorio-baq/)**
+**[Ver la página → servicessigeduca-sudo.github.io/observatorio-baq](https://servicessigeduca-sudo.github.io/observatorio-baq/)**
 
-Mapa y tablero abiertos de los delitos reportados por la prensa en Barranquilla y su área metropolitana. Es un proyecto periodístico.
+Mapa y tablero abiertos de los delitos en Barranquilla y su área metropolitana. Es un proyecto periodístico con tres secciones:
 
-En la página puedes:
+- **[Mapa de prensa](https://servicessigeduca-sudo.github.io/observatorio-baq/):** dónde ocurren los casos que publica la prensa local, por barrio o caso por caso, con filtros por tipo y periodo, barrios con más casos, tendencia semanal y enlace a cada noticia.
+- **[Estadísticas oficiales](https://servicessigeduca-sudo.github.io/observatorio-baq/estadisticas.html):** los delitos que registra la Policía desde 2010 en los cinco municipios del área. Tiene media móvil de 12 meses, mapas de calor por mes y por día de la semana, variación anual por tipo de delito, promedios por periodo de Presidencia, Alcaldía y Gobernación, el peso de Barranquilla frente al resto del área, y arma, género y edad. Cada vista se descarga en CSV.
+- **[Metodología y datos](https://servicessigeduca-sudo.github.io/observatorio-baq/metodologia.html):** cómo se obtienen y procesan los datos, y descargas.
 
-- Ver en el mapa dónde ocurren los casos, por barrio o caso por caso.
-- Filtrar por tipo de delito (homicidio, lesiones, hurto, extorsión, otros) y por periodo.
-- Comparar los barrios con más casos y la tendencia semana a semana.
-- Leer los últimos casos con el enlace a cada noticia original.
-- Consultar las cifras oficiales de la Policía por municipio, tipo de delito, mes y arma, comparadas con el año anterior.
-- Cambiar entre modo claro y oscuro.
+Todas las páginas tienen modo claro y oscuro.
 
 Los datos salen de notas publicadas por Zona Cero, Diario La Libertad, Emisora Atlántico, Impacto News y CTV Barranquilla. Cuando varios medios cubren el mismo hecho, se cuenta una sola vez. La página se actualiza sola cada día a las 6:00 a. m. (hora de Barranquilla).
 
@@ -23,7 +20,8 @@ Los datos salen de notas publicadas por Zona Cero, Diario La Libertad, Emisora A
 | --- | --- |
 | [`data/casos.json`](data/casos.json) | Un registro por hecho: tipo, fecha, barrio, municipio, ubicación aproximada, medios y enlaces |
 | [`data/notas.json`](data/notas.json) | Una entrada por noticia: medio, titular, fecha, enlace y resumen corto |
-| [`data/oficiales.json`](data/oficiales.json) | Delitos registrados por la Policía (SIEDCO) en los cinco municipios del área, por año, mes, municipio, tipo y arma. Sin barrio: la Policía no lo publica |
+| [`data/oficiales.json`](data/oficiales.json) | Delitos registrados por la Policía (SIEDCO) en los cinco municipios del área desde 2010: por mes, día de la semana, arma, género y edad, y qué años cubre cada delito. Sin barrio: la Policía no lo publica |
+| [`data/oficiales_mensual.csv`](data/oficiales_mensual.csv) | La serie mensual anterior en CSV: año, mes, municipio, tipo y cantidad |
 | [`data/geocodigos.json`](data/geocodigos.json) | Coordenadas de cada barrio según OpenStreetMap, corregibles a mano |
 
 ## Cómo revisar casos
@@ -36,14 +34,14 @@ En `data/casos.json`, cambia el `estado` de un caso a `publicado` (revisado) o `
 
 ## Página web
 
-`web/index.html` es la página pública: mapa (Leaflet con el mapa base gris de Esri), barrios con más casos, tendencia semanal y últimos casos, con modo claro y oscuro. Lee `data/casos.json`.
+`web/` tiene las tres páginas (`index.html`, `estadisticas.html`, `metodologia.html`), los estilos comunes (`estilos.css`), el cambio de tema (`comun.js`) y los gráficos de estadísticas (`estadisticas.js`, sin librerías). `index.html` es el mapa (Leaflet con el mapa base gris de Esri), barrios con más casos, tendencia semanal y últimos casos, con modo claro y oscuro. Lee `data/casos.json`.
 
 El flujo **Página** ubica los barrios con Nominatim (máximo una consulta por segundo, con caché en `data/geocodigos.json`) y publica en GitHub Pages cada vez que cambian los datos en `main` y después de cada corrida del scraper. Para activarlo una sola vez: **Settings → Pages → Source: GitHub Actions**.
 
 Para verla en local:
 
 ```bash
-python -m casos && mkdir -p _site/data && cp web/index.html _site/ && cp data/casos.json _site/data/
+python -m casos && mkdir -p _site/data && cp web/* _site/ && cp data/casos.json data/oficiales.json _site/data/
 python -m http.server -d _site 8000
 ```
 
@@ -94,10 +92,13 @@ El flujo **Scraper** corre solo todos los días a las 6:00 a. m. (hora de Barran
 ## Datos oficiales
 
 ```bash
-python -m oficiales --anios 2025,2026
+python -m oficiales.historico   # 2010-2019, una sola vez
+python -m oficiales             # 2020 a hoy, y une el histórico
 ```
 
-Descarga de [policia.gov.co/estadistica-delictiva](https://www.policia.gov.co/estadistica-delictiva) los archivos de delitos a nivel de registro (un delito por fila, todo el país), se queda con Barranquilla, Soledad, Malambo, Galapa y Puerto Colombia, y guarda conteos en `data/oficiales.json`. El flujo **Datos oficiales** lo corre el día 5 de cada mes. Las cifras son provisionales hasta marzo del año siguiente y llegan con unos dos meses de retraso.
+`python -m oficiales` descarga de [policia.gov.co/estadistica-delictiva](https://www.policia.gov.co/estadistica-delictiva) los archivos de delitos a nivel de registro (un delito por fila, todo el país, desde 2020), se queda con Barranquilla, Soledad, Malambo, Galapa y Puerto Colombia, y guarda conteos en `data/oficiales.json` y `data/oficiales_mensual.csv`. El flujo **Datos oficiales** lo corre el día 5 de cada mes. Las cifras son provisionales hasta marzo del año siguiente y llegan con unos dos meses de retraso.
+
+Antes de 2020 la Policía publica un Excel por delito y por año en [su histórico](https://www.policia.gov.co/estadistica-delictiva-old). `python -m oficiales.historico` (flujo **Histórico oficial**) los procesa una vez y guarda `data/oficiales_historico.json`; si hay dos versiones del mismo archivo, no cuenta dos veces un mes. `data/oficiales.json` indica en `cobertura` qué años tiene cada delito, para que un archivo que falta no se lea como cero.
 
 ## Pruebas
 
