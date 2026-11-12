@@ -56,6 +56,8 @@
       if(k%12===0)o+='<text x="'+(x+2).toFixed(1)+'" y="'+(H-10)+'">'+Math.floor(k/12)+"</text>"}
     var tramos=[[]];ma.forEach(function(v,i){if(v===null){if(tramos[tramos.length-1].length)tramos.push([]);return}tramos[tramos.length-1].push((m.l+i*bw+bw/2).toFixed(1)+","+Y(v).toFixed(1))});
     tramos.forEach(function(pts){if(pts.length>1)o+='<polyline points="'+pts.join(" ")+'" fill="none" stroke="var(--hot)" stroke-width="2.5" stroke-linejoin="round"/>'});
+    var im=-1;ma.forEach(function(v,i){if(v!==null&&(im<0||v>ma[im]))im=i});
+    if(im>=0){var cx=m.l+im*bw+bw/2,cy=Y(ma[im]),der=cx>W*.7;o+='<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="5" fill="var(--hot)" stroke="var(--bg)" stroke-width="2"/><text x="'+(der?cx-9:cx+9).toFixed(1)+'" y="'+(cy-9).toFixed(1)+'" text-anchor="'+(der?"end":"start")+'" class="pico">Media más alta: '+nf(ma[im])+" ("+etiqueta(r[0]+im)+")</text>"}
     $("serie").innerHTML=o+"</svg>";
     var last=ma[n-1],prev=ma[n-13];
     var huecos=[];for(var a=Math.floor(r[0]/12);a<=U.anio;a++)if(!cubre(a))huecos.push(a);
@@ -96,28 +98,28 @@
     var cats=Object.keys(NOM).filter(function(x){return x!=="todos"&&x!=="hurto"&&anios.some(function(a){return c[x+"|"+a]})});
     cats.sort(function(x,y){return (c[y+"|"+A]||0)-(c[x+"|"+A]||0)});
     var o='<table class="tabla"><thead><tr><th>Delito</th>'+anios.map(function(a){return '<th class="n">'+a+"</th>"}).join("")+'<th class="n">'+A+" vs "+(A-1)+"</th></tr></thead><tbody>";
-    cats.forEach(function(x){var fila=anios.map(function(a){return c[x+"|"+a]||0}),mx=Math.max.apply(null,fila.concat([1]));
-      o+="<tr"+(x===st.cat?' style="background:var(--band)"':"")+"><td>"+NOM[x]+"</td>"+fila.map(function(v,j){if(!cubreCat(x,anios[j]))return '<td class="n" title="Sin datos publicados">—</td>';var i=Math.min(4,Math.floor(5*v/mx-1e-9));return '<td class="n" style="box-shadow:inset 0 -3px 0 var(--q'+(i+1)+')">'+nf(v)+"</td>"}).join("")+'<td class="n">'+varHtml(pct(c[x+"|"+A]||0,c[x+"|"+(A-1)]||0))+"</td></tr>"});
+    cats.forEach(function(x){var fila=anios.map(function(a){return c[x+"|"+a]||0}),mx=Math.max.apply(null,fila.filter(function(v,j){return cubreCat(x,anios[j])}).concat([1]));
+      o+="<tr"+(x===st.cat?' style="background:var(--band)"':"")+"><td>"+NOM[x]+"</td>"+fila.map(function(v,j){if(!cubreCat(x,anios[j]))return '<td class="n" title="Sin datos publicados">—</td>';return '<td class="n'+(v===mx?' top" title="Año más alto':"")+'">'+nf(v)+"</td>"}).join("")+'<td class="n">'+varHtml(pct(c[x+"|"+A]||0,c[x+"|"+(A-1)]||0))+"</td></tr>"});
     $("variacion").innerHTML=o+"</tbody></table>";
-    $("variacion-sub").textContent="Casos de enero a "+MESL[M-1]+" de cada año, para comparar periodos iguales"+(st.muni?" en "+st.muni:" en el área metropolitana")+". La raya de color marca el año más alto de cada fila.";
+    $("variacion-sub").textContent="Casos de enero a "+MESL[M-1]+" de cada año, para comparar periodos iguales"+(st.muni?" en "+st.muni:" en el área metropolitana")+". En rojo, el año más alto de cada fila.";
   }
 
   function municipios(){
     var r=rango(),fin=r[1],c={},p={},tot=0;
     tabla("mensual").forEach(function(x){if(!okCat(x[3]))return;var k=x[0]*12+x[1]-1;if(k>fin-12&&k<=fin){c[x[2]]=(c[x[2]]||0)+x[4];tot+=x[4]}else if(k>fin-24&&k<=fin-12)p[x[2]]=(p[x[2]]||0)+x[4]});
-    var ms=Object.keys(c).sort(function(a,b){return c[b]-c[a]});
+    var ms=Object.keys(c).sort(function(a,b){return c[b]-c[a]}),top=ms[0];
     $("munis").innerHTML='<table class="tabla"><thead><tr><th>Municipio</th><th class="n">Últimos 12 meses</th><th class="n">12 meses anteriores</th><th class="n">Variación</th><th class="n">% del área</th></tr></thead><tbody>'+
-      ms.map(function(m){return "<tr"+(m===st.muni?' style="background:var(--band)"':"")+"><td>"+m+'</td><td class="n">'+nf(c[m])+'</td><td class="n">'+nf(p[m]||0)+'</td><td class="n">'+varHtml(pct(c[m],p[m]||0))+'</td><td class="n">'+Math.round(100*c[m]/tot)+" %</td></tr>"}).join("")+"</tbody></table>";
+      ms.map(function(m){return "<tr"+(m===st.muni?' style="background:var(--band)"':"")+"><td>"+m+'</td><td class="n'+(m===top?" top":"")+'">'+nf(c[m])+'</td><td class="n">'+nf(p[m]||0)+'</td><td class="n">'+varHtml(pct(c[m],p[m]||0))+'</td><td class="n">'+Math.round(100*c[m]/tot)+" %</td></tr>"}).join("")+"</tbody></table>";
   }
 
   // Periodos de gobierno. Mes inicial y final (inclusive), en años y meses.
   // La Presidencia cambia el 7 de agosto: ese mes se cuenta para el gobierno que entra.
   var PERIODOS={
-    presidente:{nombre:"Presidencia de la República",lista:[["Álvaro Uribe (2006–2010)",2006,8,2010,7],["Juan Manuel Santos I (2010–2014)",2010,8,2014,7],["Juan Manuel Santos II (2014–2018)",2014,8,2018,7],["Iván Duque (2018–2022)",2018,8,2022,7],["Gustavo Petro (2022–2026)",2022,8,2026,7],["Abelardo de la Espriella (2026–2030)",2026,8,2030,7]],
+    presidente:{nombre:"Presidencia de la República",lista:[["Álvaro Uribe I (2002–2006)",2002,8,2006,7],["Álvaro Uribe II (2006–2010)",2006,8,2010,7],["Juan Manuel Santos I (2010–2014)",2010,8,2014,7],["Juan Manuel Santos II (2014–2018)",2014,8,2018,7],["Iván Duque (2018–2022)",2018,8,2022,7],["Gustavo Petro (2022–2026)",2022,8,2026,7],["Abelardo de la Espriella (2026–2030)",2026,8,2030,7]],
       nota:"El cambio de gobierno es el 7 de agosto; ese mes se cuenta completo para el gobierno que entra."},
-    alcalde:{nombre:"Alcaldía de Barranquilla",lista:[["Alejandro Char (2008–2011)",2008,1,2011,12],["Elsa Noguera (2012–2015)",2012,1,2015,12],["Alejandro Char (2016–2019)",2016,1,2019,12],["Jaime Pumarejo (2020–2023)",2020,1,2023,12],["Alejandro Char (2024–2027)",2024,1,2027,12]],
+    alcalde:{nombre:"Alcaldía de Barranquilla",lista:[["Humberto Caiaffa (2001–2003)",2001,1,2003,12],["Guillermo Hoenigsberg (2004–2007)",2004,1,2007,12],["Alejandro Char (2008–2011)",2008,1,2011,12],["Elsa Noguera (2012–2015)",2012,1,2015,12],["Alejandro Char (2016–2019)",2016,1,2019,12],["Jaime Pumarejo (2020–2023)",2020,1,2023,12],["Alejandro Char (2024–2027)",2024,1,2027,12]],
       nota:"La Alcaldía responde por Barranquilla; para los demás municipios, elige uno en el filtro y compara con cautela."},
-    gobernador:{nombre:"Gobernación del Atlántico",lista:[["Eduardo Verano (2008–2011)",2008,1,2011,12],["José Antonio Segebre (2012–2015)",2012,1,2015,12],["Eduardo Verano (2016–2019)",2016,1,2019,12],["Elsa Noguera (2020–2023)",2020,1,2023,12],["Eduardo Verano (2024–2027)",2024,1,2027,12]],nota:""}
+    gobernador:{nombre:"Gobernación del Atlántico",lista:[["Ventura Díaz (2001–2003)",2001,1,2003,12],["Carlos Rodado (2004–2007)",2004,1,2007,12],["Eduardo Verano (2008–2011)",2008,1,2011,12],["José Antonio Segebre (2012–2015)",2012,1,2015,12],["Eduardo Verano (2016–2019)",2016,1,2019,12],["Elsa Noguera (2020–2023)",2020,1,2023,12],["Eduardo Verano (2024–2027)",2024,1,2027,12]],nota:""}
   };
   var per="presidente";
   function gobiernos(s){
@@ -125,11 +127,14 @@
     P.lista.forEach(function(g){var a=g[1]*12+g[2]-1,b=g[3]*12+g[4]-1,i0=Math.max(a,r[0]),i1=Math.min(b,r[1]);if(i1<i0)return;
       var t=0,nm=0;for(var k=i0;k<=i1;k++)if(s[k]!==null){t+=s[k]||0;nm++}if(!nm)return;filas.push({n:g[0],meses:nm,total:b-a+1,prom:t/nm,suma:t,desde:i0,hasta:i1})});
     var mx=Math.max.apply(null,filas.map(function(f){return f.prom}).concat([1]));
-    var o=filas.map(function(f){return '<div class="hrow"><span class="lab">'+esc(f.n)+'</span><div class="track"><div class="fill" style="width:'+(100*f.prom/mx).toFixed(1)+'%;background:var(--'+(f.meses<f.total?"qna);color:var(--ink":"primary")+')">'+nf(f.prom)+"</div></div></div>"}).join("");
+    // El más alto se elige entre periodos con al menos 12 meses de datos: dos meses no bastan para comparar.
+    var comparables=filas.filter(function(f){return f.meses>=12}),alto=comparables.reduce(function(a,f){return !a||f.prom>a.prom?f:a},null);
+    var color=function(f){return f===alto?"hot);color:var(--primary-ink":f.meses<f.total?"qna);color:var(--ink":"navy"};
+    var o=filas.map(function(f){return '<div class="hrow"><span class="lab">'+esc(f.n)+'</span><div class="track"><div class="fill" style="width:'+(100*f.prom/mx).toFixed(1)+'%;background:var(--'+color(f)+')">'+nf(f.prom)+(f===alto?" · el más alto":"")+"</div></div></div>"}).join("");
     $("gob-graf").innerHTML='<div class="gob">'+o+"</div>";
     $("gob-tabla").innerHTML='<table class="tabla"><thead><tr><th>Periodo</th><th class="n">Meses con datos</th><th class="n">Casos</th><th class="n">Promedio mensual</th><th class="n">Frente al periodo anterior</th></tr></thead><tbody>'+
-      filas.map(function(f,i){var parcial=f.meses<f.total;return "<tr"+(parcial?' class="parcial"':"")+"><td>"+esc(f.n)+(parcial?" · "+etiqueta(f.desde)+" a "+etiqueta(f.hasta):"")+'</td><td class="n">'+f.meses+" de "+f.total+'</td><td class="n">'+nf(f.suma)+'</td><td class="n"><b>'+nf(f.prom)+'</b></td><td class="n">'+(i?varHtml(pct(f.prom,filas[i-1].prom)):"—")+"</td></tr>"}).join("")+"</tbody></table>";
-    $("gob-sub").textContent=nomSel()+" en "+(st.muni||"el área metropolitana")+", promedio de casos por mes en cada periodo de la "+P.nombre+". Las barras grises son periodos con datos incompletos.";
+      filas.map(function(f,i){var parcial=f.meses<f.total;return "<tr"+(parcial?' class="parcial"':"")+"><td>"+esc(f.n)+(parcial?" · "+etiqueta(f.desde)+" a "+etiqueta(f.hasta):"")+'</td><td class="n">'+f.meses+" de "+f.total+'</td><td class="n">'+nf(f.suma)+'</td><td class="n'+(f===alto?" top":"")+'"><b>'+nf(f.prom)+'</b></td><td class="n">'+(i?varHtml(pct(f.prom,filas[i-1].prom)):"—")+"</td></tr>"}).join("")+"</tbody></table>";
+    $("gob-sub").textContent=nomSel()+" en "+(st.muni||"el área metropolitana")+", promedio de casos por mes en cada periodo de la "+P.nombre+". En rojo, el promedio más alto entre los periodos con al menos 12 meses de datos; en gris, periodos incompletos.";
     $("gob-nota").textContent=(P.nota?P.nota+" ":"")+"El promedio mensual permite comparar periodos de distinta duración, pero no mide por sí solo el efecto de un gobierno: también cambian la población, la denuncia (por ejemplo, la denuncia virtual) y la forma de registrar.";
   }
 
@@ -142,17 +147,18 @@
     $("area-anios").innerHTML=ys.map(function(a){return '<div class="srow"><span>'+a+(a===U.anio?"*":"")+'</span><div class="stack">'+ms.map(function(m){var v=c[a+"|"+m]||0,w=100*v/tot[a];return w>0?'<span style="width:'+w.toFixed(2)+"%;background:var("+(COL[m]||"--qna")+')" title="'+esc(m)+": "+nf(v)+" ("+Math.round(w)+' %)">'+(w>=9?Math.round(w)+" %":"")+"</span>":""}).join("")+"</div></div>"}).join("")+
       '<div class="keyrow">'+ms.map(function(m){return '<span><i style="background:var('+(COL[m]||"--qna")+')"></i>'+esc(m)+"</span>"}).join("")+"</div>"+(tot[U.anio]?'<p class="note">* '+U.anio+" va de enero a "+MESL[U.mes-1]+".</p>":"");
     // Parte de Barranquilla por delito: primer año completo frente a los últimos 12 meses
-    var r=rangoGlobal(),fin=r[1],a0=Math.floor(r[0]/12),cb={},ct={},pb={},pt={};
+    var r=rangoGlobal(),fin=r[1],a0=Math.floor(r[0]/12),cb={},ct={},pb={},pt={},primero={};
     tabla("mensual").forEach(function(x){var k=x[0]*12+x[1]-1,cat=x[3],b=x[2]==="Barranquilla";
       if(k>fin-12){ct[cat]=(ct[cat]||0)+x[4];if(b)cb[cat]=(cb[cat]||0)+x[4]}
-      if(x[0]===a0&&cubreCat(cat,a0)){pt[cat]=(pt[cat]||0)+x[4];if(b)pb[cat]=(pb[cat]||0)+x[4]}});
+      if(cubreCat(cat,x[0])&&(primero[cat]==null||x[0]<=primero[cat])){if(primero[cat]==null||x[0]<primero[cat]){primero[cat]=x[0];pt[cat]=0;pb[cat]=0}pt[cat]+=x[4];if(b)pb[cat]+=x[4]}});
     var cats=Object.keys(NOM).filter(function(x){return x!=="todos"&&x!=="hurto"&&ct[x]}).sort(function(x,y){return ct[y]-ct[x]});
     var sb=0,stt=0;cats.forEach(function(x){sb+=cb[x]||0;stt+=ct[x]});
-    var barra=function(p){return '<div class="pbar"><i style="width:'+p.toFixed(1)+'%"></i><span>'+Math.round(p)+" %</span></div>"};
-    $("area-delitos").innerHTML='<table class="tabla"><thead><tr><th>Delito</th><th class="n">Barranquilla</th><th class="n">Resto del área</th><th>% en Barranquilla (últimos 12 meses)</th><th class="n">En '+a0+"</th></tr></thead><tbody>"+
-      cats.map(function(x){var b=cb[x]||0,p=100*b/ct[x],p0=pt[x]?100*(pb[x]||0)/pt[x]:null;return "<tr"+(x===st.cat||(st.cat==="hurto"&&x.indexOf("hurto")===0)?' style="background:var(--band)"':"")+"><td>"+NOM[x]+'</td><td class="n">'+nf(b)+'</td><td class="n">'+nf(ct[x]-b)+"</td><td>"+barra(p)+'</td><td class="n">'+(p0===null?"—":Math.round(p0)+" %")+"</td></tr>"}).join("")+
+    var pmax=Math.max.apply(null,cats.map(function(x){return ct[x]>=50?100*(cb[x]||0)/ct[x]:0}));
+    var barra=function(p,alto){return '<div class="pbar'+(alto?" alto":"")+'"><i style="width:'+p.toFixed(1)+'%"></i><span>'+Math.round(p)+" %</span></div>"};
+    $("area-delitos").innerHTML='<table class="tabla"><thead><tr><th>Delito</th><th class="n">Barranquilla</th><th class="n">Resto del área</th><th>% en Barranquilla (últimos 12 meses)</th><th class="n">Primer año con datos</th></tr></thead><tbody>'+
+      cats.map(function(x){var b=cb[x]||0,p=100*b/ct[x],p0=pt[x]?100*(pb[x]||0)/pt[x]:null;return "<tr"+(x===st.cat||(st.cat==="hurto"&&x.indexOf("hurto")===0)?' style="background:var(--band)"':"")+"><td>"+NOM[x]+'</td><td class="n">'+nf(b)+'</td><td class="n">'+nf(ct[x]-b)+"</td><td>"+barra(p,ct[x]>=50&&p===pmax)+'</td><td class="n">'+(p0===null?"—":Math.round(p0)+" % <small>("+primero[x]+")</small>")+"</td></tr>"}).join("")+
       '<tr><td><b>Todos</b></td><td class="n"><b>'+nf(sb)+'</b></td><td class="n"><b>'+nf(stt-sb)+"</b></td><td>"+barra(stt?100*sb/stt:0)+'</td><td class="n"></td></tr></tbody></table>';
-    $("area-sub").textContent="Casos de los últimos 12 meses (a "+MESL[U.mes-1]+" de "+U.anio+") y la parte de Barranquilla en "+a0+" para ver si cambió.";
+    $("area-sub").textContent="Casos de los últimos 12 meses (a "+MESL[U.mes-1]+" de "+U.anio+") y la parte de Barranquilla en el primer año con datos de cada delito, para ver si cambió. En rojo, el delito con la mayor parte en Barranquilla (entre los que tienen al menos 50 casos).";
   }
 
   var PAL=["--c-hom","--c-hur","--c-les","--c-ext","--c-otr","--qna"];
@@ -194,7 +200,7 @@
     $("descargar").onclick=csv;
     [].forEach.call(document.querySelectorAll("[data-per]"),function(b){b.onclick=function(){per=b.dataset.per;[].forEach.call(document.querySelectorAll("[data-per]"),function(x){x.setAttribute("aria-pressed",x===b)});gobiernos(serie())}});
     $("desde").textContent="desde "+Math.floor(rangoGlobal()[0]/12);
-    $("fuente").innerHTML="Fuente: Policía Nacional (SIEDCO). Datos de enero de "+Math.floor(rangoGlobal()[0]/12)+" a "+MESL[U.mes-1]+" de "+U.anio+", actualizados el "+esc(d.actualizado)+"."+(d.inicio_registro&&Math.floor(rangoGlobal()[0]/12)<d.inicio_registro?" Hasta "+(d.inicio_registro-1)+" vienen de los archivos por delito de alto impacto; desde "+d.inicio_registro+", del archivo con todos los delitos.":"")+" "+esc(d.nota.split(" dia_semana")[0])+' <a href="metodologia.html#policia">Cómo se procesan</a>.';
+    $("fuente").innerHTML="Fuente: Policía Nacional (SIEDCO). Datos de enero de "+Math.floor(rangoGlobal()[0]/12)+" a "+MESL[U.mes-1]+" de "+U.anio+", actualizados el "+esc(d.actualizado)+"."+(d.inicio_registro&&Math.floor(rangoGlobal()[0]/12)<d.inicio_registro?" Hasta "+(d.inicio_registro-1)+" vienen de los archivos por delito de alto impacto y de consultas a SIEDCO; desde "+d.inicio_registro+", del archivo con todos los delitos.":"")+" "+esc(d.nota.split(" dia_semana")[0])+' <a href="metodologia.html#policia">Cómo se procesan</a>.';
     OBAQ.alCambiarTema(render);
     render();
   }).catch(function(e){$("titulo-sel").textContent="No se pudieron cargar los datos ("+e.message+")."});

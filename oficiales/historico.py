@@ -64,20 +64,27 @@ def enlaces(sesion: requests.Session, anios: list[int]) -> dict[tuple[str, int],
     """{(clave, año): [(url, categoría), ...]} recorriendo todas las páginas del listado."""
     out: dict[tuple[str, int], list[tuple[str, str]]] = defaultdict(list)
     vistos: set[str] = set()
-    for p in range(0, 80):
-        html = sesion.get(PAGINA + (f"?page={p}" if p else ""), timeout=60).text
-        nuevos = 0
-        for a in BeautifulSoup(html, "html.parser").find_all("a", href=True):
-            url = urljoin(PAGINA, a["href"])
-            if url in vistos or not re.search(r"\.xlsx?$", url, re.I):
+    # El listado no tiene un orden estable: una misma página cambia entre visitas y
+    # algunos archivos no aparecen en una sola pasada. Por eso se recorre tres veces.
+    for _ in range(3):
+        vacias = 0
+        for p in range(0, 80):
+            html = sesion.get(PAGINA + (f"?page={p}" if p else ""), timeout=60).text
+            enlaces_pag = [urljoin(PAGINA, a["href"]) for a in BeautifulSoup(html, "html.parser").find_all("a", href=True)]
+            enlaces_pag = [u for u in enlaces_pag if re.search(r"\.xlsx?$", u, re.I)]
+            if not enlaces_pag:
+                vacias += 1
+                if vacias >= 2:
+                    break
                 continue
-            vistos.add(url)
-            nuevos += 1
-            c = clasificar(url)
-            if c and c[2] in anios:
-                out[(c[0], c[2])].append((url, c[1]))
-        if not nuevos:
-            break
+            vacias = 0
+            for url in enlaces_pag:
+                if url in vistos:
+                    continue
+                vistos.add(url)
+                c = clasificar(url)
+                if c and c[2] in anios:
+                    out[(c[0], c[2])].append((url, c[1]))
     return out
 
 
@@ -101,6 +108,21 @@ def cobertura(resumen: Counter, anios: list[int]) -> list[list]:
     for _, clave, cat in ARCHIVOS:
         claves[cat].add(clave)
     return [[a, cat] for a in anios for cat, cs in sorted(claves.items()) if all((a, c) in resumen for c in cs)]
+
+
+def conservar(tablas: dict[str, Counter], cob: list[list], previo: dict) -> tuple[list[list], list[str]]:
+    """Suma de `previo` los años y delitos que faltan en esta corrida."""
+    from .manual import _anio_cat
+
+    tengo = {(a, c) for a, c in cob}
+    faltan = {(a, c) for a, c in previo.get("cobertura", []) if (a, c) not in tengo}
+    for nombre, t in previo["tablas"].items():
+        for fila in t["filas"]:
+            if _anio_cat(nombre, fila) in faltan:
+                tablas[nombre][tuple(fila[:-1])] += fila[-1]
+    if faltan:
+        print("Conservados de la corrida anterior:", sorted(faltan))
+    return sorted([list(x) for x in tengo | faltan]), (previo.get("archivos", []) if faltan else [])
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -138,10 +160,15 @@ def main(argv: list[str] | None = None) -> int:
     print("Sin archivo con datos del área:", faltan or "ninguno")
     for (anio, clave), n in sorted(resumen.items()):
         print(f"RESUMEN {anio} {clave} {n}")
-    datos = a_json(tablas, sorted(usados), datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+    cob = cobertura(resumen, anios)
+    if args.salida.exists():  # un archivo que hoy no apareció no borra lo que ya teníamos
+        previo = json.loads(args.salida.read_text(encoding="utf-8"))
+        cob, extra = conservar(tablas, cob, previo)
+        usados += extra
+    datos = a_json(tablas, sorted(set(usados)), datetime.now(timezone.utc).strftime("%Y-%m-%d"))
     datos["fuente"] = "Policía Nacional: archivos por delito y año (estadística delictiva, histórico)"
     datos["url"] = PAGINA
-    datos["cobertura"] = cobertura(resumen, anios)
+    datos["cobertura"] = cob
     args.salida.parent.mkdir(parents=True, exist_ok=True)
     args.salida.write_text(json.dumps(datos, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     print(f"Escrito {args.salida}")

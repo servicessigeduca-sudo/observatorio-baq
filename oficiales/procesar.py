@@ -50,8 +50,8 @@ POR_NOMBRE = [
     (r"HOMICIDIO.*TR[AÁ]NSITO|TR[AÁ]NSITO", "transito"),
     (r"HOMICIDIO", "homicidio"),
     (r"LESIONES", "lesiones"),
+    (r"HURTO.*(AUTOMOTOR|CARRO|VEH)", "hurto_carros"),  # antes que MOTO: "automotores" contiene "moto"
     (r"HURTO.*MOTO", "hurto_motos"),
-    (r"HURTO.*(AUTOMOTOR|CARRO|VEH)", "hurto_carros"),
     (r"HURTO.*COMERCIO", "hurto_comercio"),
     (r"HURTO.*RESIDENCIA", "hurto_residencias"),
     (r"HURTO.*(ENTIDAD|FINANCIER)", "hurto_entidades"),

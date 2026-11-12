@@ -115,3 +115,55 @@ def test_cobertura_pide_todos_los_archivos_de_la_categoria():
     c = cobertura(r, [2015, 2016])
     assert [2015, "homicidio"] in c and [2016, "transito"] in c
     assert [2015, "transito"] not in c and [2016, "homicidio"] not in c
+
+
+def test_conservar_no_borra_lo_que_ya_estaba():
+    from oficiales.historico import conservar
+    previo = {"cobertura": [[2011, "homicidio"], [2014, "lesiones"]], "archivos": ["a.xlsx"], "tablas": {
+        "mensual": {"filas": [[2011, 1, "Barranquilla", "homicidio", 40], [2014, 1, "Barranquilla", "lesiones", 9]]},
+        "armas": {"filas": [[2011, "Barranquilla", "homicidio", "ARMA DE FUEGO", 30]]}}}
+    tablas = {"mensual": Counter({(2014, 1, "Barranquilla", "lesiones"): 10}), "armas": Counter()}
+    cob, extra = conservar(tablas, [[2014, "lesiones"]], previo)
+    assert [2011, "homicidio"] in cob and extra == ["a.xlsx"]
+    assert tablas["mensual"][(2011, 1, "Barranquilla", "homicidio")] == 40
+    assert tablas["mensual"][(2014, 1, "Barranquilla", "lesiones")] == 10  # no se duplica
+    assert tablas["armas"][(2011, "Barranquilla", "homicidio", "ARMA DE FUEGO")] == 30
+
+
+def test_siedco_manual_llena_solo_lo_que_falta(tmp_path):
+    from oficiales.manual import completar
+    df = pd.DataFrame({
+        "Temática": ["HOMICIDIOS"] * 3, "Año": ["2005", "2005", "2010"], "Mes": ["Enero", "Febrero", "Enero"],
+        "Departamento": ["ATLÁNTICO"] * 3, "Código Dane": ["08001000", "08758000", "08001000"],
+        "Municipio": ["BARRANQUILLA (CT)", "SOLEDAD", "BARRANQUILLA (CT)"], "Armas / Medios": ["ARMA DE FUEGO"] * 3,
+        "Agrupa Edad Persona": ["ADULTOS"] * 3, "Género": ["MASCULINO"] * 3, "Día": ["dom.", "mié.", "lun."], "Cantidad": ["2", "1", "5"],
+    })
+    df.to_excel(tmp_path / "h.xlsx", index=False)
+    tablas = {k: Counter() for k in ["mensual", "armas", "dias", "genero", "edad"]}
+    cob = {(2010, "homicidio")}
+    completar(tablas, cob, tmp_path)
+    assert tablas["mensual"] == Counter({(2005, 1, "Barranquilla", "homicidio"): 2, (2005, 2, "Soledad", "homicidio"): 1})
+    assert tablas["dias"][(2005, 1, "Barranquilla", "homicidio", 6)] == 2
+    assert (2005, "homicidio") in cob
+
+
+def test_nombres_de_siedco():
+    from oficiales.procesar import categoria
+    assert categoria("HURTO A AUTOMOTORES") == "hurto_carros"
+    assert categoria("HURTO A MOTOCICLETAS") == "hurto_motos"
+    assert categoria("DELITOS SEXUALES") == "violencia_sexual"
+    assert categoria("HURTO A ENTIDADES FINANCIERAS") == "hurto_entidades"
+
+
+def test_siedco_manual_categoria_en_dos_archivos_y_duplicados(tmp_path):
+    from oficiales.manual import completar
+    def hoja(tema, n):
+        return pd.DataFrame({"Temática": [tema], "Año": ["2005"], "Mes": ["Enero"], "Código Dane": ["08001000"],
+                             "Armas / Medios": ["-"], "Agrupa Edad Persona": ["ADULTOS"], "Género": ["MASCULINO"], "Día": ["lun."], "Cantidad": [str(n)]})
+    a = hoja("HOMICIDIOS EN ACCIDENTES DE TRÁNSITO", 2)
+    pd.concat([a, a.assign(**{"Año": "2006"})]).to_excel(tmp_path / "a.xlsx", index=False)  # 2006 = año en curso
+    hoja("LESIONES EN ACCIDENTES DE TRÁNSITO", 5).to_excel(tmp_path / "b.xlsx", index=False)
+    hoja("LESIONES EN ACCIDENTES DE TRÁNSITO", 5).to_excel(tmp_path / "c.xlsx", index=False)  # copia
+    tablas = {k: Counter() for k in ["mensual", "armas", "dias", "genero", "edad"]}
+    completar(tablas, set(), tmp_path)
+    assert tablas["mensual"] == Counter({(2005, 1, "Barranquilla", "transito"): 7})
