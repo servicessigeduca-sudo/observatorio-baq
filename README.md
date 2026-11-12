@@ -36,6 +36,18 @@ Quedan fuera El Heraldo y El Tiempo, porque prohíben el scraping sin permiso es
 - No guarda el cuerpo de los artículos, las fotos ni los comentarios. Tampoco se usa el contenido para entrenar modelos de IA (La Libertad y CTV lo prohíben con `ai-train=no`).
 - La clasificación de tipo de delito, municipio y barrio se hace por palabras clave y es provisional: el equipo la revisa antes de publicar un caso.
 
+## Casos
+
+```bash
+python -m casos --reporte reporte-casos.md
+```
+
+Lee `data/notas.json` y escribe `data/casos.json`: un caso por hecho, con las notas de todos los medios que lo cubrieron. Dos notas se unen cuando el tipo de delito es compatible (un herido que luego muere sigue siendo el mismo hecho), las fechas están a 2 días o menos y el barrio coincide o los textos se parecen mucho. Los pares dudosos no se unen: quedan con estado `posible_duplicado` para que el editor decida. Las capturas sin otro delito y las notas de fuera del área metropolitana no generan casos.
+
+Cada caso empieza como `pendiente`. Si el editor cambia el `estado` (`publicado`, `descartado`), el tipo o el barrio en `data/casos.json`, la siguiente corrida conserva esos cambios.
+
+El flujo **Scraper** corre solo todos los días a las 6:00 a. m. (hora de Barranquilla), guarda las notas nuevas y los casos, y deja el resumen de casos en la pestaña Actions.
+
 ## Pruebas
 
 ```bash
