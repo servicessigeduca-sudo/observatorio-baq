@@ -6,7 +6,7 @@ name: Histórico oficial
 # Al terminar, "Datos oficiales" vuelve a correr y une el histórico.
 on:
   push:
-    branches: [main, secciones]
+    branches: [main]
     paths: ["oficiales/historico.py", ".github/workflows/historico.yml"]
   workflow_dispatch:
 
