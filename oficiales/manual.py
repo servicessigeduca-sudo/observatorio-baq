@@ -72,24 +72,38 @@ def _anio_cat(nombre: str, clave: tuple) -> tuple[int, str]:
 
 
 def completar(tablas: dict[str, Counter], cobertura: set, carpeta: Path = CARPETA) -> list[str]:
-    """Suma a `tablas` los años y delitos que faltan. Devuelve los archivos usados."""
-    usados = []
+    """Suma a `tablas` los años y delitos que faltan. Devuelve los archivos usados.
+
+    Primero junta todos los archivos, porque una categoría puede venir en varios
+    (tránsito: muertes y lesiones). Si dos archivos traen el mismo delito, se usa
+    solo el primero para no contarlo dos veces.
+    """
+    juntas: dict[str, Counter] = {}
+    usados, vistos = [], {}
     for ruta in sorted(carpeta.glob("*.xlsx")):
-        t = agregar(leer(ruta))
-        meses = Counter((k[0], k[3]) for k in t["mensual"])
-        # Solo años completos: un año en curso a medias no reemplaza nada.
-        nuevos = {ac for ac, n in meses.items() if n == 12 or ac[0] < max(a for a, _ in meses)}
-        nuevos = {ac for ac in nuevos if ac not in cobertura}
-        if not nuevos:
+        df = leer(ruta)
+        delitos = frozenset(df[_col(df, "TEMATICA", "DELITO")].dropna().map(normal))
+        if delitos in vistos:
+            print(f"SIEDCO manual · {ruta.name}: trae los mismos delitos que {vistos[delitos]}; se omite")
             continue
-        for nombre, c in t.items():
-            for k, n in c.items():
-                if _anio_cat(nombre, k) in nuevos:
-                    tablas[nombre][k] += n
-        cobertura |= nuevos
+        vistos[delitos] = ruta.name
+        for k, c in agregar(df).items():
+            juntas.setdefault(k, Counter()).update(c)
         usados.append(ruta.as_posix())
-        print(f"SIEDCO manual · {ruta.name}: agrega {sorted(nuevos)}")
-    return usados
+    if not juntas:
+        return []
+    meses = Counter((k[0], k[3]) for k in juntas["mensual"])
+    ultimo = max(a for a, _ in meses)
+    # Solo años completos: un año en curso a medias no reemplaza nada.
+    nuevos = {ac for ac, n in meses.items() if (n == 12 or ac[0] < ultimo) and ac not in cobertura}
+    for nombre, c in juntas.items():
+        for k, n in c.items():
+            if _anio_cat(nombre, k) in nuevos:
+                tablas[nombre][k] += n
+    cobertura |= nuevos
+    for cat in sorted({c for _, c in nuevos}):
+        print(f"SIEDCO manual · {cat}: agrega {sorted(a for a, c in nuevos if c == cat)}")
+    return usados if nuevos else []
 
 
 def main(argv: list[str] | None = None) -> int:

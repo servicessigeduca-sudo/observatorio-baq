@@ -5,7 +5,7 @@
 Mapa y tablero abiertos de los delitos en Barranquilla y su área metropolitana. Es un proyecto periodístico con tres secciones:
 
 - **[Mapa de prensa](https://servicessigeduca-sudo.github.io/observatorio-baq/):** dónde ocurren los casos que publica la prensa local, por barrio o caso por caso, con filtros por tipo y periodo, barrios con más casos, tendencia semanal y enlace a cada noticia.
-- **[Estadísticas oficiales](https://servicessigeduca-sudo.github.io/observatorio-baq/estadisticas.html):** los delitos que registra la Policía (homicidios, extorsiones, hurtos y delitos sexuales desde 2003; lesiones, amenazas, violencia intrafamiliar y tránsito desde 2010) en los cinco municipios del área. Tiene media móvil de 12 meses, mapas de calor por mes y por día de la semana, variación anual por tipo de delito, promedios por periodo de Presidencia, Alcaldía y Gobernación, el peso de Barranquilla frente al resto del área, y arma, género y edad. Cada vista se descarga en CSV.
+- **[Estadísticas oficiales](https://servicessigeduca-sudo.github.io/observatorio-baq/estadisticas.html):** los delitos que registra la Policía (desde 2003, salvo amenazas (2010) y secuestro (2011)) en los cinco municipios del área. Tiene media móvil de 12 meses, mapas de calor por mes y por día de la semana, variación anual por tipo de delito, promedios por periodo de Presidencia, Alcaldía y Gobernación, el peso de Barranquilla frente al resto del área, y arma, género y edad. Cada vista se descarga en CSV.
 - **[Metodología y datos](https://servicessigeduca-sudo.github.io/observatorio-baq/metodologia.html):** cómo se obtienen y procesan los datos, y descargas.
 
 Todas las páginas tienen modo claro y oscuro.
@@ -20,7 +20,7 @@ Los datos salen de notas publicadas por Zona Cero, Diario La Libertad, Emisora A
 | --- | --- |
 | [`data/casos.json`](data/casos.json) | Un registro por hecho: tipo, fecha, barrio, municipio, ubicación aproximada, medios y enlaces |
 | [`data/notas.json`](data/notas.json) | Una entrada por noticia: medio, titular, fecha, enlace y resumen corto |
-| [`data/oficiales.json`](data/oficiales.json) | Delitos registrados por la Policía (SIEDCO) en los cinco municipios del área (homicidios, extorsiones, hurtos y delitos sexuales desde 2003; el resto desde 2010): por mes, día de la semana, arma, género y edad, y qué años cubre cada delito. Sin barrio: la Policía no lo publica |
+| [`data/oficiales.json`](data/oficiales.json) | Delitos registrados por la Policía (SIEDCO) en los cinco municipios del área (desde 2003, salvo amenazas desde 2010 y secuestro desde 2011): por mes, día de la semana, arma, género y edad, y qué años cubre cada delito. Sin barrio: la Policía no lo publica |
 | [`data/oficiales_mensual.csv`](data/oficiales_mensual.csv) | La serie mensual anterior en CSV: año, mes, municipio, tipo y cantidad |
 | [`data/geocodigos.json`](data/geocodigos.json) | Coordenadas de cada barrio según OpenStreetMap, corregibles a mano |
 
@@ -100,7 +100,7 @@ python -m oficiales             # 2020 a hoy, y une el histórico
 
 Antes de 2020 la Policía publica un Excel por delito y por año en [su histórico](https://www.policia.gov.co/estadistica-delictiva-old). `python -m oficiales.historico` (flujo **Histórico oficial**) los procesa una vez y guarda `data/oficiales_historico.json`; si hay dos versiones del mismo archivo, no cuenta dos veces un mes. `data/oficiales.json` indica en `cobertura` qué años tiene cada delito, para que un archivo que falta no se lea como cero. Si una corrida no encuentra un archivo que antes sí estaba, conserva lo que ya se tenía.
 
-Las consultas descargadas a mano del portal de SIEDCO se guardan en `data/siedco/` (homicidios, extorsiones, hurtos y delitos sexuales desde 2003). Solo llenan los años y delitos que no traen los archivos públicos; para aplicarlas sin volver a descargar todo: `python -m oficiales.manual`.
+Las consultas descargadas a mano del portal de SIEDCO se guardan en `data/siedco/` (once delitos desde 2003). Solo llenan los años y delitos que no traen los archivos públicos; para aplicarlas sin volver a descargar todo: `python -m oficiales.manual`.
 
 ## Pruebas
 

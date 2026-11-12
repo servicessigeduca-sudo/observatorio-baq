@@ -153,3 +153,17 @@ def test_nombres_de_siedco():
     assert categoria("HURTO A MOTOCICLETAS") == "hurto_motos"
     assert categoria("DELITOS SEXUALES") == "violencia_sexual"
     assert categoria("HURTO A ENTIDADES FINANCIERAS") == "hurto_entidades"
+
+
+def test_siedco_manual_categoria_en_dos_archivos_y_duplicados(tmp_path):
+    from oficiales.manual import completar
+    def hoja(tema, n):
+        return pd.DataFrame({"Temática": [tema], "Año": ["2005"], "Mes": ["Enero"], "Código Dane": ["08001000"],
+                             "Armas / Medios": ["-"], "Agrupa Edad Persona": ["ADULTOS"], "Género": ["MASCULINO"], "Día": ["lun."], "Cantidad": [str(n)]})
+    a = hoja("HOMICIDIOS EN ACCIDENTES DE TRÁNSITO", 2)
+    pd.concat([a, a.assign(**{"Año": "2006"})]).to_excel(tmp_path / "a.xlsx", index=False)  # 2006 = año en curso
+    hoja("LESIONES EN ACCIDENTES DE TRÁNSITO", 5).to_excel(tmp_path / "b.xlsx", index=False)
+    hoja("LESIONES EN ACCIDENTES DE TRÁNSITO", 5).to_excel(tmp_path / "c.xlsx", index=False)  # copia
+    tablas = {k: Counter() for k in ["mensual", "armas", "dias", "genero", "edad"]}
+    completar(tablas, set(), tmp_path)
+    assert tablas["mensual"] == Counter({(2005, 1, "Barranquilla", "transito"): 7})
