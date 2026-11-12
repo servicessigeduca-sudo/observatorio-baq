@@ -15,7 +15,8 @@
   var CATS=[];
   // ¿La Policía publicó datos de esta categoría (o de todas las de la selección) ese año?
   function cubreCat(c,a){var l=D.cobertura&&D.cobertura[c];return !l||l.indexOf(a)>=0}
-  function cubre(a){return CATS.every(function(c){return !okCat(c)||cubreCat(c,a)})}
+  // "Otros" (unas decenas de casos al año) solo existe desde 2020; no frena la suma de "Todos".
+  function cubre(a){return CATS.every(function(c){return c==="otros"||!okCat(c)||cubreCat(c,a)})}
   function okMuni(m){return !st.muni||m===st.muni}
   function tabla(n){return D.tablas[n].filas}
   // Serie mensual de la selección: {clave año*12+mes-1: n}
@@ -86,8 +87,8 @@
     var c={},tot={};tabla("dias").forEach(function(r){if(okMuni(r[2])&&okCat(r[3])&&cubre(r[0])){var k=r[0]+"-"+r[4];c[k]=(c[k]||0)+r[5];tot[r[0]]=(tot[r[0]]||0)+r[5]}});
     var anios=Object.keys(tot).map(Number).sort(),vals=[];
     anios.forEach(function(a){for(var d=0;d<7;d++)vals.push(tot[a]?(c[a+"-"+d]||0)/tot[a]:0)});
-    var b=escala(vals),o='<table class="heat"><thead><tr><th></th>'+anios.map(function(a){return "<th>"+a+"</th>"}).join("")+"</tr></thead><tbody>";
-    for(var d=0;d<7;d++){o+='<tr><th class="r">'+DIAS[d]+"</th>";anios.forEach(function(a){var p=tot[a]?(c[a+"-"+d]||0)/tot[a]:0;o+=celda(p,b(p),Math.round(100*p)+" %")});o+="</tr>"}
+    var b=escala(vals),o='<table class="heat"><thead><tr><th></th>'+DIAS.map(function(d){return '<th title="'+d+'">'+d.slice(0,3)+"</th>"}).join("")+"</tr></thead><tbody>";
+    anios.forEach(function(a){o+='<tr><th class="r">'+a+"</th>";for(var d=0;d<7;d++){var p=tot[a]?(c[a+"-"+d]||0)/tot[a]:0;o+=celda(p,b(p),Math.round(100*p)+" %")}o+="</tr>"});
     $("calor2").innerHTML=o+"</tbody></table>";leyenda("calor2-ley","% de los casos de cada año; un reparto parejo sería 14 %");
   }
 
@@ -97,11 +98,17 @@
     anios=Object.keys(anios).map(Number).sort();
     var cats=Object.keys(NOM).filter(function(x){return x!=="todos"&&x!=="hurto"&&anios.some(function(a){return c[x+"|"+a]})});
     cats.sort(function(x,y){return (c[y+"|"+A]||0)-(c[x+"|"+A]||0)});
-    var o='<table class="tabla"><thead><tr><th>Delito</th>'+anios.map(function(a){return '<th class="n">'+a+"</th>"}).join("")+'<th class="n">'+A+" vs "+(A-1)+"</th></tr></thead><tbody>";
-    cats.forEach(function(x){var fila=anios.map(function(a){return c[x+"|"+a]||0}),mx=Math.max.apply(null,fila.filter(function(v,j){return cubreCat(x,anios[j])}).concat([1]));
-      o+="<tr"+(x===st.cat?' style="background:var(--band)"':"")+"><td>"+NOM[x]+"</td>"+fila.map(function(v,j){if(!cubreCat(x,anios[j]))return '<td class="n" title="Sin datos publicados">—</td>';return '<td class="n'+(v===mx?' top" title="Año más alto':"")+'">'+nf(v)+"</td>"}).join("")+'<td class="n">'+varHtml(pct(c[x+"|"+A]||0,c[x+"|"+(A-1)]||0))+"</td></tr>"});
+    // Cada celda: cambio frente al año anterior en los mismos meses. Rojo si sube, verde si baja;
+    // la intensidad crece con el tamaño del cambio (tope visual en ±100 %).
+    var cel=function(v,ant,a){if(v==null||ant==null)return '<td class="n vt" title="Sin datos para comparar">—</td>';
+      if(!ant)return '<td class="n vt" title="'+a+": "+nf(v)+' casos; el año anterior tuvo 0">'+(v?"nuevo":"0")+"</td>";
+      var p=100*(v-ant)/ant,t=Math.min(1,Math.abs(p)/100),bg="color-mix(in srgb, var("+(p>0?"--hot":"--primary")+") "+Math.round(12+68*t)+"%, transparent)";
+      return '<td class="n vt" style="background:'+bg+(t>.6?";color:var(--primary-ink)":"")+'" title="'+a+": "+nf(v)+" casos, frente a "+nf(ant)+' el año anterior">'+(p>0?"+":"")+Math.round(p)+" %</td>"};
+    var o='<table class="tabla"><thead><tr><th>Delito</th>'+anios.slice(1).map(function(a){return '<th class="n">'+a+"</th>"}).join("")+'<th class="n">Casos '+A+"</th></tr></thead><tbody>";
+    cats.forEach(function(x){var val=function(a){return cubreCat(x,a)?c[x+"|"+a]||0:null};
+      o+="<tr"+(x===st.cat?' class="sel"':"")+"><td>"+NOM[x]+"</td>"+anios.slice(1).map(function(a){return cel(val(a),val(a-1),a)}).join("")+'<td class="n"><b>'+nf(c[x+"|"+A]||0)+"</b></td></tr>"});
     $("variacion").innerHTML=o+"</tbody></table>";
-    $("variacion-sub").textContent="Casos de enero a "+MESL[M-1]+" de cada año, para comparar periodos iguales"+(st.muni?" en "+st.muni:" en el área metropolitana")+". En rojo, el año más alto de cada fila.";
+    $("variacion-sub").textContent="Se comparan solo los meses de enero a "+MESL[M-1]+" de cada año, para que los periodos sean iguales"+(st.muni?" en "+st.muni:" en el área metropolitana")+". Cada celda es el cambio frente al año anterior: rojo si subió, verde si bajó; cuanto más intenso, mayor el cambio.";
   }
 
   function municipios(){
@@ -129,12 +136,15 @@
     var mx=Math.max.apply(null,filas.map(function(f){return f.prom}).concat([1]));
     // El más alto se elige entre periodos con al menos 12 meses de datos: dos meses no bastan para comparar.
     var comparables=filas.filter(function(f){return f.meses>=12}),alto=comparables.reduce(function(a,f){return !a||f.prom>a.prom?f:a},null);
-    var color=function(f){return f===alto?"hot);color:var(--primary-ink":f.meses<f.total?"qna);color:var(--ink":"navy"};
-    var o=filas.map(function(f){return '<div class="hrow"><span class="lab">'+esc(f.n)+'</span><div class="track"><div class="fill" style="width:'+(100*f.prom/mx).toFixed(1)+'%;background:var(--'+color(f)+')">'+nf(f.prom)+(f===alto?" · el más alto":"")+"</div></div></div>"}).join("");
+    // Gradiente: del amarillo (promedio más bajo) al rojo oscuro (más alto), entre periodos comparables.
+    var ps=comparables.map(function(f){return f.prom}),lo=Math.min.apply(null,ps),hi=Math.max.apply(null,ps);
+    var color=function(f){if(f.meses<12)return "background:var(--qna);color:var(--ink)";var t=hi>lo?(f.prom-lo)/(hi-lo):1,i=Math.min(4,Math.floor(t*4.999))+1;
+      return "background:var(--q"+i+");color:"+(OBAQ.isDark()?(i>=4?"#111":"#eee"):(i>=4?"#fff":"#13201A"))};
+    var o=filas.map(function(f){return '<div class="hrow"><span class="lab">'+esc(f.n)+'</span><div class="track"><div class="fill" style="width:'+(100*f.prom/mx).toFixed(1)+'%;'+color(f)+'">'+nf(f.prom)+(f===alto?" · el más alto":"")+"</div></div></div>"}).join("");
     $("gob-graf").innerHTML='<div class="gob">'+o+"</div>";
     $("gob-tabla").innerHTML='<table class="tabla"><thead><tr><th>Periodo</th><th class="n">Meses con datos</th><th class="n">Casos</th><th class="n">Promedio mensual</th><th class="n">Frente al periodo anterior</th></tr></thead><tbody>'+
       filas.map(function(f,i){var parcial=f.meses<f.total;return "<tr"+(parcial?' class="parcial"':"")+"><td>"+esc(f.n)+(parcial?" · "+etiqueta(f.desde)+" a "+etiqueta(f.hasta):"")+'</td><td class="n">'+f.meses+" de "+f.total+'</td><td class="n">'+nf(f.suma)+'</td><td class="n'+(f===alto?" top":"")+'"><b>'+nf(f.prom)+'</b></td><td class="n">'+(i?varHtml(pct(f.prom,filas[i-1].prom)):"—")+"</td></tr>"}).join("")+"</tbody></table>";
-    $("gob-sub").textContent=nomSel()+" en "+(st.muni||"el área metropolitana")+", promedio de casos por mes en cada periodo de la "+P.nombre+". En rojo, el promedio más alto entre los periodos con al menos 12 meses de datos; en gris, periodos incompletos.";
+    $("gob-sub").textContent=nomSel()+" en "+(st.muni||"el área metropolitana")+", promedio de casos por mes en cada periodo de la "+P.nombre+". El color va de amarillo (promedio más bajo) a rojo oscuro (más alto) entre los periodos con al menos 12 meses de datos; en gris, los que tienen menos.";
     $("gob-nota").textContent=(P.nota?P.nota+" ":"")+"El promedio mensual permite comparar periodos de distinta duración, pero no mide por sí solo el efecto de un gobierno: también cambian la población, la denuncia (por ejemplo, la denuncia virtual) y la forma de registrar.";
   }
 
