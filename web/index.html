@@ -169,7 +169,6 @@ footer .in{padding-block:24px;display:flex;flex-wrap:wrap;justify-content:space-
 
 html,body{margin:0}
 #map{height:620px;width:100%;background:var(--band);z-index:0}
-#map.oscuro .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.9) contrast(.9) saturate(.6)}
 .leaflet-container{font-family:var(--f-sans)}
 .leaflet-popup-content{font-size:13px;line-height:1.45}
 .leaflet-popup-content a{color:var(--primary);font-weight:600}
@@ -298,11 +297,17 @@ html,body{margin:0}
   // Mapa
   var map=L.map("map",{scrollWheelZoom:false}).setView([10.965,-74.81],12);
   var tiles=null;
-  // Mapas de OpenStreetMap: no piden clave. En modo oscuro se invierten los colores de las teselas.
+  // Mapa base de Esri en gris claro u oscuro, con nombres de calles y barrios encima. No pide clave.
+  var etiquetas=null;
+  map.createPane("etiquetas").style.zIndex=350;
+  map.getPane("etiquetas").style.pointerEvents="none";
   function setTiles(){
-    if(!tiles)tiles=L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,
-      attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
-    $("map").classList.toggle("oscuro",isDark());
+    if(tiles)map.removeLayer(tiles);
+    if(etiquetas)map.removeLayer(etiquetas);
+    var tono=isDark()?"Dark":"Light",base="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_"+tono+"_Gray_";
+    tiles=L.tileLayer(base+"Base/MapServer/tile/{z}/{y}/{x}",{maxZoom:16,
+      attribution:'Mapa base &copy; <a href="https://www.esri.com/">Esri</a>, HERE, Garmin, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
+    etiquetas=L.tileLayer(base+"Reference/MapServer/tile/{z}/{y}/{x}",{maxZoom:16,pane:"etiquetas"}).addTo(map);
   }
   var capa=L.layerGroup().addTo(map);
   var BINS=[[1,2],[2,4],[4,7],[7,12],[12,Infinity]];
