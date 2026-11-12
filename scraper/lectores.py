@@ -15,6 +15,7 @@ import feedparser
 from bs4 import BeautifulSoup
 
 from .fuentes import Fuente
+from .modelo import clave_url
 
 BOGOTA = timezone(timedelta(hours=-5))
 
@@ -86,12 +87,13 @@ def leer_rss(xml: bytes | str, fuente: Fuente) -> list[dict]:
 def leer_listado(html: str, fuente: Fuente) -> list[str]:
     """Devuelve las URLs de notas del listado, en orden y sin repetir."""
     soup = BeautifulSoup(html, "html.parser")
-    vistas: dict[str, None] = {}
+    vistas: dict[str, str] = {}
     for a in soup.find_all("a", href=True):
-        url = urljoin(fuente.url, a["href"]).split("#")[0].split("?")[0]
+        # Algunos medios dejan espacios en el href (Zona Cero: "/judiciales/x ").
+        url = urljoin(fuente.url, a["href"].strip()).split("#")[0].split("?")[0]
         if fuente.es_nota(url):
-            vistas.setdefault(url, None)
-    return list(vistas)
+            vistas.setdefault(clave_url(url), url)
+    return list(vistas.values())
 
 
 # metadatos de una nota ------------------------------------------------
