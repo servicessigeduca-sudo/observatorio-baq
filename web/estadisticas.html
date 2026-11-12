@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estadísticas oficiales · Observatorio BAQ</title>
+<meta name="description" content="Delitos registrados por la Policía Nacional en Barranquilla y su área metropolitana desde el primer año disponible: tendencias, mapas de calor y comparaciones.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header class="top">
+  <div class="in">
+    <a class="logo" href="./" aria-label="Observatorio BAQ, inicio">
+      <svg viewBox="0 0 30 30" aria-hidden="true"><rect width="30" height="30" rx="6" fill="var(--flag-r)"/><rect x="4" y="4" width="22" height="22" rx="3" fill="var(--flag-y)"/><rect x="8" y="8" width="14" height="14" rx="2" fill="var(--flag-g)"/><path d="M15 10.2l1.3 2.9 3.1.3-2.4 2 .8 3-2.8-1.6-2.8 1.6.8-3-2.4-2 3.1-.3z" fill="#fff"/></svg>
+      Observatorio <span>BAQ</span>
+    </a>
+    <div class="right">
+      <nav aria-label="Principal"><a href="./">Mapa de prensa</a><a href="estadisticas.html" aria-current="page">Estadísticas oficiales</a><a href="metodologia.html">Metodología y datos</a></nav>
+      <button type="button" class="theme" id="theme" aria-label="Cambiar a modo oscuro"></button>
+    </div>
+  </div>
+</header>
+<div class="flag" aria-hidden="true"></div>
+<div class="subnav"><div class="in">
+  <div class="tabs"><a href="#tendencia">Tendencia</a><a href="#calor">Mapas de calor</a><a href="#comparar">Comparación</a><a href="#gobiernos">Por gobierno</a><a href="#area">Barranquilla y el área</a><a href="#perfil">Perfil</a></div>
+  <a class="all" href="metodologia.html#datos">Datos abiertos →</a>
+</div></div>
+
+<section class="hero"><div class="in" style="grid-template-columns:minmax(0,1fr);padding-block:48px 32px">
+  <div>
+    <p class="crumb">Estadísticas oficiales · Policía Nacional</p>
+    <h1>Lo que registra la Policía en Barranquilla y su área metropolitana</h1>
+    <p class="dek">Delitos registrados por la Policía Nacional <span id="desde">desde 2010</span> en Barranquilla, Soledad, Malambo, Galapa y Puerto Colombia. Elige un delito y un municipio: todos los gráficos se actualizan, y puedes descargar la serie para hacer tu propio análisis.</p>
+  </div>
+</div></section>
+
+<div class="ctrls"><div class="in">
+  <label>Delito <select id="f-cat"></select></label>
+  <label>Municipio <select id="f-muni"></select></label>
+  <span class="sp"></span>
+  <button type="button" class="btn2" id="descargar">Descargar esta serie (CSV)</button>
+</div></div>
+
+<section class="sec" id="resumen"><div class="in" style="padding-top:32px">
+  <h2 class="t" id="titulo-sel">Cargando…</h2>
+  <p class="note" id="fuente"></p>
+  <div class="kpis" id="kpis" style="margin-top:24px"></div>
+</div></section>
+
+<section class="sec" id="tendencia"><div class="in">
+  <p class="eyebrow">Tendencia</p>
+  <h2 class="t">Casos por mes y media móvil de 12 meses</h2>
+  <div class="chart" id="serie" style="margin-top:12px"></div>
+  <div class="keyrow"><span><i style="background:var(--qna)"></i>Casos del mes</span><span><i style="background:var(--hot);height:3px"></i>Media móvil de 12 meses</span></div>
+  <p class="note" id="serie-nota"></p>
+</div></section>
+
+<section class="sec" id="calor"><div class="in grid2 g13">
+  <div>
+    <p class="eyebrow">Mapa de calor</p>
+    <h2 class="t">Mes a mes, año por año</h2>
+    <p class="note" style="margin:4px 0 12px">Cada celda es un mes. Sirve para ver temporadas y meses atípicos.</p>
+    <div class="tablewrap" style="margin-top:0"><div id="calor1"></div></div>
+    <div class="scale" id="calor1-ley"></div>
+  </div>
+  <div>
+    <p class="eyebrow">Mapa de calor</p>
+    <h2 class="t">¿Qué días de la semana?</h2>
+    <p class="note" style="margin:4px 0 12px">Porcentaje de los casos de cada año que ocurrió cada día.</p>
+    <div class="tablewrap" style="margin-top:0"><div id="calor2"></div></div>
+    <div class="scale" id="calor2-ley"></div>
+  </div>
+</div></section>
+
+<section class="sec" id="comparar"><div class="in">
+  <p class="eyebrow">Comparación</p>
+  <h2 class="t">Variación por tipo de delito</h2>
+  <p class="sub" id="variacion-sub"></p>
+  <div class="tablewrap" id="variacion"></div>
+</div></section>
+
+<section class="sec" id="gobiernos"><div class="in">
+  <p class="eyebrow">Por gobierno</p>
+  <h2 class="t">Promedio mensual en cada periodo de gobierno</h2>
+  <div class="seg" role="group" aria-label="Tipo de periodo" style="margin:12px 0 4px"><button type="button" data-per="presidente" aria-pressed="true">Presidencia</button><button type="button" data-per="alcalde" aria-pressed="false">Alcaldía de Barranquilla</button><button type="button" data-per="gobernador" aria-pressed="false">Gobernación del Atlántico</button></div>
+  <p class="sub" id="gob-sub"></p>
+  <div class="chart" id="gob-graf" style="margin-top:12px"></div>
+  <div class="tablewrap" id="gob-tabla"></div>
+  <p class="note" id="gob-nota"></p>
+</div></section>
+
+<section class="sec" id="area"><div class="in">
+  <p class="eyebrow">Barranquilla y el área metropolitana</p>
+  <h2 class="t" id="area-titulo">¿Cuánto pesa Barranquilla?</h2>
+  <p class="sub">Reparto de los casos del delito elegido entre los cinco municipios, año por año.</p>
+  <div id="area-anios" style="margin-top:16px"></div>
+  <h2 class="t" style="margin-top:40px">Parte de Barranquilla en cada delito</h2>
+  <p class="sub" id="area-sub"></p>
+  <div class="tablewrap" id="area-delitos"></div>
+  <h2 class="t" style="margin-top:40px">Por municipio</h2>
+  <p class="sub">Delito elegido, en los últimos 12 meses frente a los 12 anteriores.</p>
+  <div class="tablewrap" id="munis"></div>
+</div></section>
+
+<section class="sec" id="perfil"><div class="in">
+  <p class="eyebrow">Perfil</p>
+  <h2 class="t">Arma o medio usado, por año</h2>
+  <p class="sub">Reparto de los casos de cada año entre los cinco medios más frecuentes.</p>
+  <div id="armas" style="margin-top:16px"></div>
+  <div class="grid2 g11" style="margin-top:40px">
+    <div><h2 class="t">Género de la víctima</h2><p class="sub">Últimos tres años.</p><div id="genero" style="margin-top:16px"></div></div>
+    <div><h2 class="t">Grupo de edad</h2><p class="sub">Últimos tres años.</p><div id="edad" style="margin-top:16px"></div></div>
+  </div>
+</div></section>
+
+<footer><div class="in"><span>Observatorio BAQ · Periodismo de datos abiertos sobre Barranquilla</span><span><a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span></div></footer>
+
+<script src="comun.js"></script>
+<script src="estadisticas.js"></script>
+</body>
+</html>

@@ -49,9 +49,9 @@ jobs:
       - name: Armar el sitio
         run: |
           mkdir -p _site/data
-          cp web/index.html _site/
+          cp web/* _site/
           cp data/casos.json _site/data/
-          [ -f data/oficiales.json ] && cp data/oficiales.json _site/data/ || true
+          cp data/oficiales.json data/oficiales_mensual.csv _site/data/ 2>/dev/null || true
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
