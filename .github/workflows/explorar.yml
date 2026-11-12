@@ -1,0 +1,50 @@
+name: Explorar fuentes (temporal)
+on:
+  push:
+    branches: [secciones]
+    paths: [.github/workflows/explorar.yml]
+jobs:
+  explorar:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          python3 - <<'PY'
+          import json, urllib.request, urllib.parse
+          def get(u):
+              return json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent":"ObservatorioBAQ"}), timeout=120))
+          vistos = {}
+          for q in ["Policía Nacional reporte", "delitos policia nacional", "homicidios policia", "hurto policia nacional", "lesiones personales policia", "extorsion policia", "violencia intrafamiliar policia", "delitos sexuales policia"]:
+              r = get("https://www.datos.gov.co/api/catalog/v1?" + urllib.parse.urlencode({"q": q, "limit": 60, "only": "datasets"}))
+              for x in r["results"]:
+                  res = x["resource"]
+                  vistos[res["id"]] = (res["name"], res.get("columns_field_name"), res.get("data_updated_at"), x.get("classification",{}).get("domain_category"), res.get("attribution"))
+          for i,(n,c,u,cat,att) in sorted(vistos.items(), key=lambda kv: kv[1][0]):
+              if att and "olic" in att:
+                  print(i, "|", n, "|", att, "|", u, "|", c)
+          PY
+      - run: |
+          python3 - <<'PY'
+          import json, urllib.request, urllib.parse
+          def get(u):
+              return json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent":"ObservatorioBAQ"}), timeout=300))
+          # muestra de cada conjunto candidato
+          import re
+          r = get("https://www.datos.gov.co/api/catalog/v1?" + urllib.parse.urlencode({"attribution": "Policía Nacional", "limit": 200, "only": "datasets"}))
+          for x in r["results"]:
+              res = x["resource"]; i = res["id"]
+              cols = res.get("columns_field_name") or []
+              print("==", i, res["name"], res.get("data_updated_at"))
+              print("   cols:", cols)
+              fecha = next((c for c in cols if "fecha" in c), None)
+              dane = next((c for c in cols if "dane" in c or "cod" in c and "muni" in c), None)
+              if fecha:
+                  try:
+                      q = {"$select": f"min({fecha}) as a, max({fecha}) as b, count(*) as n"}
+                      print("   rango:", get(f"https://www.datos.gov.co/resource/{i}.json?" + urllib.parse.urlencode(q)))
+                  except Exception as e:
+                      print("   err", e)
+              try:
+                  print("   fila:", get(f"https://www.datos.gov.co/resource/{i}.json?$limit=1"))
+              except Exception as e:
+                  print("   err", e)
+          PY
