@@ -53,7 +53,10 @@ def main(argv: list[str] | None = None) -> int:
     for anio, url in sorted(urls.items()):
         r = sesion.get(url, timeout=600)
         r.raise_for_status()
-        c, ar = agregar(leer(io.BytesIO(r.content)))
+        df = leer(io.BytesIO(r.content))
+        print(f"{anio} columnas: {list(df.columns)}")
+        print(df.head(3).to_string(max_colwidth=50))
+        c, ar = agregar(df)
         conteo.update(c)
         armas.update(ar)
         print(f"{anio}: {sum(c.values())} delitos en el área ({url})")
