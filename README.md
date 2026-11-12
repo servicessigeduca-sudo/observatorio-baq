@@ -12,6 +12,8 @@ python -m scraper                          # todas las fuentes
 python -m scraper --fuentes zona-cero -v   # una fuente, con detalle
 ```
 
+Desde GitHub: pestaña **Actions** → **Scraper** → **Run workflow**. Al terminar, el resumen muestra cuántas notas trajo cada medio y el archivo queda como artefacto `notas`. Si se marca "Guardar", las notas nuevas se suben a `data/notas.json`.
+
 Escribe `data/notas.json`: una entrada por nota con `id`, `medio`, `url`, `titular`, `resumen` (máx. 300 caracteres), `fecha_publicacion`, `fecha_captura`, `tipos_delito`, `municipio`, `barrio` y `estado` (`pendiente` al llegar). Las notas ya guardadas no se vuelven a abrir ni se sobrescriben, así que las correcciones del equipo se conservan.
 
 ### Fuentes
