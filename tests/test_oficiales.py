@@ -55,3 +55,54 @@ def test_columnas_de_2025():
 def test_anios_de():
     assert anios_de("2020-2022") == [2020, 2021, 2022]
     assert anios_de("2025,2026") == [2025, 2026]
+
+
+# --- Histórico anterior a 2020 -------------------------------------------------
+
+import pandas as pd
+from collections import Counter
+
+from oficiales.historico import clasificar, elegir
+from oficiales.procesar import _dane, _fechas, agregar as _agregar
+
+
+def test_clasificar_archivos_viejos():
+    assert clasificar("Homicidio Intencional 2019.xlsx") == ("homicidio", "homicidio", 2019)
+    assert clasificar("homicidios_en_accidente_de_transito_2019.xlsx") == ("homicidio_transito", "transito", 2019)
+    assert clasificar("lesiones_en_accidente_de_transito_2018_0.xlsx") == ("lesiones_transito", "transito", 2018)
+    assert clasificar("lesiones_personales_2018_1.xlsx")[1] == "lesiones"
+    assert clasificar("hurto_motocicletas_2018_2.xlsx")[1] == "hurto_motos"
+    assert clasificar("hurto_a_personas_2010_0.xlsx")[1] == "hurto_personas"
+    assert clasificar("abigeato_2019_3.xlsx") is None
+    assert clasificar("hurto a personas.xlsx") is None  # sin año
+
+
+def test_codigo_dane_y_fechas_en_varios_formatos():
+    assert list(_dane(pd.Series(["08001", "8001", "08001000", "8001000.0", "8758000"]))) == ["08001", "08001", "08001", "08001", "08758"]
+    f = _fechas(pd.Series(["2015-03-04 00:00:00", "04/03/2015"]))
+    assert list(f.dt.month) == [3, 3] and list(f.dt.day) == [4, 4]
+
+
+def test_agregar_archivo_de_un_solo_delito():
+    df = pd.DataFrame({
+        "FECHA": ["2012-01-05", "2012-01-06", "2012-02-01"],
+        "DEPARTAMENTO": ["ATLÁNTICO"] * 3,
+        "MUNICIPIO": ["Barranquilla (CT)", "Soledad", "Barranquilla (CT)"],
+        "CODIGO DANE": ["8001000", "8758000", "11001000"],
+        "CANTIDAD": ["1", "2", "1"],
+    })
+    t = _agregar(df, cat="homicidio")
+    assert t["mensual"] == Counter({(2012, 1, "Barranquilla", "homicidio"): 1, (2012, 1, "Soledad", "homicidio"): 2})
+
+
+def test_agregar_sin_codigo_dane_usa_el_nombre():
+    df = pd.DataFrame({"FECHA": ["2011-07-01"], "DEPARTAMENTO": ["ATLÁNTICO"], "MUNICIPIO": ["Malambo"], "CANTIDAD": ["3"]})
+    assert _agregar(df, cat="lesiones")["mensual"] == Counter({(2011, 7, "Malambo", "lesiones"): 3})
+
+
+def test_elegir_versiones_no_cuenta_dos_veces():
+    def t(meses, n):
+        return {"mensual": Counter({(2018, m, "Barranquilla", "hurto_carros"): n for m in meses})}
+    completa, parcial, otra_mitad = t(range(1, 13), 10), t(range(1, 7), 9), t(range(7, 13), 9)
+    assert [u for u, _ in elegir([("a", parcial), ("b", completa)])] == ["b"]
+    assert sorted(u for u, _ in elegir([("a", t(range(1, 7), 5)), ("b", otra_mitad)])) == ["a", "b"]

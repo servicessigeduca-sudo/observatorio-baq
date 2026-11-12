@@ -8,6 +8,9 @@ on:
   push:
     branches: [main, secciones]
     paths: ["oficiales/**", ".github/workflows/oficiales.yml"]
+  workflow_run:
+    workflows: ["Histórico oficial"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -21,8 +24,14 @@ jobs:
   oficiales:
     runs-on: ubuntu-latest
     timeout-minutes: 90
+    # Si el histórico falló no hay nada nuevo que unir.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    env:
+      RAMA: ${{ github.event.workflow_run.head_branch || github.ref_name }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ env.RAMA }}
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
@@ -37,4 +46,5 @@ jobs:
           git add data/oficiales.json data/oficiales_mensual.csv
           git diff --cached --quiet && echo "Sin cambios" && exit 0
           git commit -m "Actualizar datos oficiales ($(date -u +%Y-%m-%d))"
+          git pull --rebase origin "$RAMA"
           git push

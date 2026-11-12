@@ -13,6 +13,7 @@ por prefijo.
 from __future__ import annotations
 
 import re
+import unicodedata
 from collections import Counter
 
 import pandas as pd
@@ -65,15 +66,45 @@ POR_NOMBRE = [
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
 
 
+def normal(texto) -> str:
+    """Mayúsculas sin tildes ni espacios sobrantes."""
+    t = unicodedata.normalize("NFKD", str(texto)).encode("ascii", "ignore").decode()
+    return re.sub(r"\s+", " ", t.replace("_", " ").replace("*", " ")).strip().upper()
+
+
+def _motor() -> str | None:
+    try:
+        import python_calamine  # noqa: F401  (mucho más rápido que openpyxl)
+        return "calamine"
+    except ImportError:
+        return None
+
+
 def leer(contenido) -> pd.DataFrame:
     """Lee el Excel, buscando la fila de encabezados (no siempre es la misma)."""
-    crudo = pd.read_excel(contenido, header=None, nrows=40, dtype=str)
-    fila = next(i for i, r in crudo.iterrows() if "CODIGO DANE" in [str(v).strip().upper() for v in r.values])
+    motor = _motor()
+    crudo = pd.read_excel(contenido, header=None, nrows=40, dtype=str, engine=motor)
+    fila = next(i for i, r in crudo.iterrows()
+                if any(v in ("CODIGO DANE", "MUNICIPIO") for v in (normal(x) for x in r.values)))
     if hasattr(contenido, "seek"):
         contenido.seek(0)
-    df = pd.read_excel(contenido, header=fila, dtype=str)
-    df.columns = [str(c).strip().strip("*").strip().upper() for c in df.columns]
+    df = pd.read_excel(contenido, header=fila, dtype=str, engine=motor)
+    df.columns = [normal(c) for c in df.columns]
     return df
+
+
+def _dane(serie: pd.Series) -> pd.Series:
+    """'08001', '8001', '08001000' u '8001000.0' -> '08001'."""
+    d = serie.astype(str).str.strip().str.split(".").str[0].str.replace(r"\D", "", regex=True)
+    return d.where(d.str.len() < 7, d.str.zfill(8).str[:5]).str.zfill(5)
+
+
+def _fechas(serie: pd.Series) -> pd.Series:
+    """Fechas año-mes-día ('2020-01-31 00:00:00', '2020/01/31') o día/mes/año ('31/01/2020')."""
+    s = serie.astype(str).str.strip().str[:10]
+    iso = pd.to_datetime(s.str.replace("/", "-"), format="%Y-%m-%d", errors="coerce")
+    dmy = pd.to_datetime(s, format="%d/%m/%Y", errors="coerce")
+    return iso.fillna(dmy)
 
 
 def categoria(delito: str) -> str:
@@ -94,17 +125,27 @@ def _limpio(serie: pd.Series, defecto: str) -> pd.Series:
     return s.replace({"": defecto, "NAN": defecto, "-": defecto})
 
 
-def agregar(df: pd.DataFrame) -> dict[str, Counter]:
-    """Devuelve contadores por tabla: mensual, armas, dias, genero, edad."""
+def agregar(df: pd.DataFrame, cat: str | None = None) -> dict[str, Counter]:
+    """Devuelve contadores por tabla: mensual, armas, dias, genero, edad.
+
+    `cat` fija la categoría para archivos de un solo delito (los anteriores a 2020).
+    """
     df = df.copy()
-    df["DANE"] = df[_col(df, "CODIGO DANE")].astype(str).str.strip().str.split(".").str[0].str.zfill(5)
+    col_dane = _col(df, "CODIGO DANE", "COD DANE", "DANE")
+    if col_dane:
+        df["DANE"] = _dane(df[col_dane])
+    else:  # sin código: por nombre de municipio, solo en el Atlántico
+        nombres = {normal(v): k for k, v in MUNICIPIOS.items()}
+        depto = df[_col(df, "DEPARTAMENTO")].map(normal) if _col(df, "DEPARTAMENTO") else "ATLANTICO"
+        muni = df[_col(df, "MUNICIPIO")].map(lambda x: normal(re.sub(r"\(.*?\)", "", str(x))))
+        df["DANE"] = muni.map(nombres).where(depto == "ATLANTICO")
     df = df[df["DANE"].isin(MUNICIPIOS)].copy()
     df["N"] = pd.to_numeric(df[_col(df, "CANTIDAD")], errors="coerce").fillna(1).astype(int)
-    df["fecha"] = pd.to_datetime(df[_col(df, "FECHA")].astype(str).str[:10].str.replace("/", "-"), errors="coerce")
+    df["fecha"] = _fechas(df[_col(df, "FECHA")])
     df = df[df["fecha"].notna()].copy()
     df["anio"], df["mes"], df["dia"] = df["fecha"].dt.year, df["fecha"].dt.month, df["fecha"].dt.dayofweek
     df["muni"] = df["DANE"].map(MUNICIPIOS)
-    df["cat"] = df[_col(df, "DELITO")].map(categoria)
+    df["cat"] = cat if cat else df[_col(df, "DELITO")].map(categoria)
     col_arma, col_gen, col_edad = _col(df, "ARMA"), _col(df, "GENERO"), _col(df, "EDAD")
     df["arma"] = _limpio(df[col_arma], "NO REPORTADO") if col_arma else "NO REPORTADO"
     df["genero"] = _limpio(df[col_gen], "NO REPORTADO").replace({"MA": "MASCULINO", "FE": "FEMENINO"}) if col_gen else "NO REPORTADO"

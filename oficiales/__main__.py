@@ -61,6 +61,8 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="oficiales")
     ap.add_argument("--anios", default="2020-2026")
     ap.add_argument("--salida", default="data/oficiales.json", type=Path)
+    ap.add_argument("--historico", default="data/oficiales_historico.json", type=Path,
+                    help="años anteriores ya procesados por python -m oficiales.historico")
     args = ap.parse_args(argv)
     anios = anios_de(args.anios)
     sesion = requests.Session()
@@ -79,7 +81,24 @@ def main(argv: list[str] | None = None) -> int:
             for k, c in parcial.items():
                 tablas[k].update(c)
             print(f"{anio} · {nombre}: {sum(parcial['mensual'].values())} delitos en el área · columnas {list(df.columns)}")
-    datos = a_json(tablas, sorted(urls.values()), datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+    cobertura = {(a, c) for a in urls for c in {k[3] for k in tablas["mensual"]}}
+    fuentes = sorted(urls.values())
+    if args.historico.exists() and urls:
+        primero = min(urls)
+        h = json.loads(args.historico.read_text(encoding="utf-8"))
+        for nombre, t in h["tablas"].items():
+            for fila in t["filas"]:
+                if fila[0] < primero:
+                    tablas[nombre][tuple(fila[:-1])] += fila[-1]
+        cobertura |= {(a, c) for a, c in h.get("cobertura", []) if a < primero}
+        fuentes += h.get("archivos", [])
+        print(f"Histórico agregado: {sorted({a for a, _ in cobertura if a < primero})}")
+    datos = a_json(tablas, fuentes, datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+    por_cat: dict[str, list[int]] = {}
+    for a, c in sorted(cobertura):
+        por_cat.setdefault(c, []).append(a)
+    datos["cobertura"] = por_cat
+    datos["inicio_registro"] = min(urls) if urls else None
     args.salida.parent.mkdir(parents=True, exist_ok=True)
     args.salida.write_text(json.dumps(datos, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     t = datos["tablas"]["mensual"]
