@@ -34,7 +34,7 @@ En `data/casos.json`, cambia el `estado` de un caso a `publicado` (revisado) o `
 
 ## Página web
 
-`web/index.html` es la página pública: mapa (Leaflet con mapas de OpenStreetMap), barrios con más casos, tendencia semanal y últimos casos, con modo claro y oscuro. Lee `data/casos.json`.
+`web/index.html` es la página pública: mapa (Leaflet con el mapa base gris de Esri), barrios con más casos, tendencia semanal y últimos casos, con modo claro y oscuro. Lee `data/casos.json`.
 
 El flujo **Página** ubica los barrios con Nominatim (máximo una consulta por segundo, con caché en `data/geocodigos.json`) y publica en GitHub Pages cada vez que cambian los datos en `main` y después de cada corrida del scraper. Para activarlo una sola vez: **Settings → Pages → Source: GitHub Actions**.
 
