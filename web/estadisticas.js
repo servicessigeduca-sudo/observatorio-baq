@@ -113,11 +113,11 @@
   // Periodos de gobierno. Mes inicial y final (inclusive), en años y meses.
   // La Presidencia cambia el 7 de agosto: ese mes se cuenta para el gobierno que entra.
   var PERIODOS={
-    presidente:{nombre:"Presidencia de la República",lista:[["Álvaro Uribe (2006–2010)",2006,8,2010,7],["Juan Manuel Santos I (2010–2014)",2010,8,2014,7],["Juan Manuel Santos II (2014–2018)",2014,8,2018,7],["Iván Duque (2018–2022)",2018,8,2022,7],["Gustavo Petro (2022–2026)",2022,8,2026,7],["Abelardo de la Espriella (2026–2030)",2026,8,2030,7]],
+    presidente:{nombre:"Presidencia de la República",lista:[["Álvaro Uribe I (2002–2006)",2002,8,2006,7],["Álvaro Uribe II (2006–2010)",2006,8,2010,7],["Juan Manuel Santos I (2010–2014)",2010,8,2014,7],["Juan Manuel Santos II (2014–2018)",2014,8,2018,7],["Iván Duque (2018–2022)",2018,8,2022,7],["Gustavo Petro (2022–2026)",2022,8,2026,7],["Abelardo de la Espriella (2026–2030)",2026,8,2030,7]],
       nota:"El cambio de gobierno es el 7 de agosto; ese mes se cuenta completo para el gobierno que entra."},
-    alcalde:{nombre:"Alcaldía de Barranquilla",lista:[["Alejandro Char (2008–2011)",2008,1,2011,12],["Elsa Noguera (2012–2015)",2012,1,2015,12],["Alejandro Char (2016–2019)",2016,1,2019,12],["Jaime Pumarejo (2020–2023)",2020,1,2023,12],["Alejandro Char (2024–2027)",2024,1,2027,12]],
+    alcalde:{nombre:"Alcaldía de Barranquilla",lista:[["Humberto Caiaffa (2001–2003)",2001,1,2003,12],["Guillermo Hoenigsberg (2004–2007)",2004,1,2007,12],["Alejandro Char (2008–2011)",2008,1,2011,12],["Elsa Noguera (2012–2015)",2012,1,2015,12],["Alejandro Char (2016–2019)",2016,1,2019,12],["Jaime Pumarejo (2020–2023)",2020,1,2023,12],["Alejandro Char (2024–2027)",2024,1,2027,12]],
       nota:"La Alcaldía responde por Barranquilla; para los demás municipios, elige uno en el filtro y compara con cautela."},
-    gobernador:{nombre:"Gobernación del Atlántico",lista:[["Eduardo Verano (2008–2011)",2008,1,2011,12],["José Antonio Segebre (2012–2015)",2012,1,2015,12],["Eduardo Verano (2016–2019)",2016,1,2019,12],["Elsa Noguera (2020–2023)",2020,1,2023,12],["Eduardo Verano (2024–2027)",2024,1,2027,12]],nota:""}
+    gobernador:{nombre:"Gobernación del Atlántico",lista:[["Ventura Díaz (2001–2003)",2001,1,2003,12],["Carlos Rodado (2004–2007)",2004,1,2007,12],["Eduardo Verano (2008–2011)",2008,1,2011,12],["José Antonio Segebre (2012–2015)",2012,1,2015,12],["Eduardo Verano (2016–2019)",2016,1,2019,12],["Elsa Noguera (2020–2023)",2020,1,2023,12],["Eduardo Verano (2024–2027)",2024,1,2027,12]],nota:""}
   };
   var per="presidente";
   function gobiernos(s){
@@ -194,7 +194,7 @@
     $("descargar").onclick=csv;
     [].forEach.call(document.querySelectorAll("[data-per]"),function(b){b.onclick=function(){per=b.dataset.per;[].forEach.call(document.querySelectorAll("[data-per]"),function(x){x.setAttribute("aria-pressed",x===b)});gobiernos(serie())}});
     $("desde").textContent="desde "+Math.floor(rangoGlobal()[0]/12);
-    $("fuente").innerHTML="Fuente: Policía Nacional (SIEDCO). Datos de enero de "+Math.floor(rangoGlobal()[0]/12)+" a "+MESL[U.mes-1]+" de "+U.anio+", actualizados el "+esc(d.actualizado)+"."+(d.inicio_registro&&Math.floor(rangoGlobal()[0]/12)<d.inicio_registro?" Hasta "+(d.inicio_registro-1)+" vienen de los archivos por delito de alto impacto; desde "+d.inicio_registro+", del archivo con todos los delitos.":"")+" "+esc(d.nota.split(" dia_semana")[0])+' <a href="metodologia.html#policia">Cómo se procesan</a>.';
+    $("fuente").innerHTML="Fuente: Policía Nacional (SIEDCO). Datos de enero de "+Math.floor(rangoGlobal()[0]/12)+" a "+MESL[U.mes-1]+" de "+U.anio+", actualizados el "+esc(d.actualizado)+"."+(d.inicio_registro&&Math.floor(rangoGlobal()[0]/12)<d.inicio_registro?" Hasta "+(d.inicio_registro-1)+" vienen de los archivos por delito de alto impacto y de consultas a SIEDCO; desde "+d.inicio_registro+", del archivo con todos los delitos.":"")+" "+esc(d.nota.split(" dia_semana")[0])+' <a href="metodologia.html#policia">Cómo se procesan</a>.';
     OBAQ.alCambiarTema(render);
     render();
   }).catch(function(e){$("titulo-sel").textContent="No se pudieron cargar los datos ("+e.message+")."});

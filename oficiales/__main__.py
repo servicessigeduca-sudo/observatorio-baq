@@ -21,6 +21,7 @@ from urllib.parse import unquote, urljoin
 import requests
 from bs4 import BeautifulSoup
 
+from .manual import completar
 from .procesar import COLUMNAS, a_json, agregar, leer
 
 PAGINA = "https://www.policia.gov.co/estadistica-delictiva"
@@ -55,6 +56,25 @@ def libros(contenido: bytes, url: str):
                     yield n, io.BytesIO(z.read(n))
     else:
         yield url.rsplit("/", 1)[-1], io.BytesIO(contenido)
+
+
+def escribir(tablas: dict[str, Counter], fuentes: list[str], actualizado: str, cobertura: set,
+             inicio_registro: int | None, salida: Path) -> None:
+    """Escribe data/oficiales.json y la serie mensual en CSV."""
+    datos = a_json(tablas, fuentes, actualizado)
+    por_cat: dict[str, list[int]] = {}
+    for a, c in sorted(cobertura):
+        por_cat.setdefault(c, []).append(a)
+    datos["cobertura"] = por_cat
+    datos["inicio_registro"] = inicio_registro
+    salida.parent.mkdir(parents=True, exist_ok=True)
+    salida.write_text(json.dumps(datos, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    t = datos["tablas"]["mensual"]
+    with open(salida.with_name("oficiales_mensual.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(t["columnas"])
+        w.writerows(t["filas"])
+    print(f"Escrito {salida}: {len(t['filas'])} filas mensuales, último mes {datos['ultimo_mes']}")
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -93,20 +113,9 @@ def main(argv: list[str] | None = None) -> int:
         cobertura |= {(a, c) for a, c in h.get("cobertura", []) if a < primero}
         fuentes += h.get("archivos", [])
         print(f"Histórico agregado: {sorted({a for a, _ in cobertura if a < primero})}")
-    datos = a_json(tablas, fuentes, datetime.now(timezone.utc).strftime("%Y-%m-%d"))
-    por_cat: dict[str, list[int]] = {}
-    for a, c in sorted(cobertura):
-        por_cat.setdefault(c, []).append(a)
-    datos["cobertura"] = por_cat
-    datos["inicio_registro"] = min(urls) if urls else None
-    args.salida.parent.mkdir(parents=True, exist_ok=True)
-    args.salida.write_text(json.dumps(datos, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    t = datos["tablas"]["mensual"]
-    with open(args.salida.with_name("oficiales_mensual.csv"), "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
-        w.writerow(t["columnas"])
-        w.writerows(t["filas"])
-    print(f"Escrito {args.salida}: {len(t['filas'])} filas mensuales, último mes {datos['ultimo_mes']}")
+    fuentes += completar(tablas, cobertura)
+    escribir(tablas, fuentes, datetime.now(timezone.utc).strftime("%Y-%m-%d"), cobertura,
+             min(urls) if urls else None, args.salida)
     return 0
 
 
