@@ -15,7 +15,8 @@
   var CATS=[];
   // ¿La Policía publicó datos de esta categoría (o de todas las de la selección) ese año?
   function cubreCat(c,a){var l=D.cobertura&&D.cobertura[c];return !l||l.indexOf(a)>=0}
-  function cubre(a){return CATS.every(function(c){return !okCat(c)||cubreCat(c,a)})}
+  // "Otros" (unas decenas de casos al año) solo existe desde 2020; no frena la suma de "Todos".
+  function cubre(a){return CATS.every(function(c){return c==="otros"||!okCat(c)||cubreCat(c,a)})}
   function okMuni(m){return !st.muni||m===st.muni}
   function tabla(n){return D.tablas[n].filas}
   // Serie mensual de la selección: {clave año*12+mes-1: n}

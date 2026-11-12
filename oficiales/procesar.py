@@ -56,11 +56,12 @@ POR_NOMBRE = [
     (r"HURTO.*RESIDENCIA", "hurto_residencias"),
     (r"HURTO.*(ENTIDAD|FINANCIER)", "hurto_entidades"),
     (r"HURTO", "hurto_personas"),
-    (r"EXTORSI", "extorsion"),
+
     (r"VIOLENCIA INTRAFAMILIAR", "violencia_intrafamiliar"),
     (r"SEXUAL|VIOLACI|ACCESO CARNAL", "violencia_sexual"),
     (r"AMENAZA", "amenazas"),
     (r"SECUESTRO|RETENCI", "secuestro"),
+    (r"EXTORSI", "extorsion"),  # después de SECUESTRO: "secuestro extorsivo" es secuestro
 ]
 
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]

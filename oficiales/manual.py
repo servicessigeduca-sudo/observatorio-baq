@@ -94,8 +94,15 @@ def completar(tablas: dict[str, Counter], cobertura: set, carpeta: Path = CARPET
         return []
     meses = Counter((k[0], k[3]) for k in juntas["mensual"])
     ultimo = max(a for a, _ in meses)
+    # Una consulta cubre todos los años desde el primero que trae: en un delito poco
+    # frecuente (secuestro), un año sin filas es un año con cero casos.
     # Solo años completos: un año en curso a medias no reemplaza nada.
-    nuevos = {ac for ac, n in meses.items() if (n == 12 or ac[0] < ultimo) and ac not in cobertura}
+    desde: dict[str, int] = {}
+    for a, c in meses:
+        desde[c] = min(a, desde.get(c, a))
+    cubre = {(a, c) for c, a0 in desde.items() for a in range(a0, ultimo)}
+    cubre |= {ac for ac, n in meses.items() if n == 12}
+    nuevos = {ac for ac in cubre if ac not in cobertura}
     for nombre, c in juntas.items():
         for k, n in c.items():
             if _anio_cat(nombre, k) in nuevos:
