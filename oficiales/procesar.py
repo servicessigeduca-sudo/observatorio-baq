@@ -62,10 +62,13 @@ def agregar(df: pd.DataFrame) -> tuple[Counter, Counter]:
     df["CODIGO DANE"] = df["CODIGO DANE"].astype(str).str.strip().str.zfill(5)
     df = df[df["CODIGO DANE"].isin(MUNICIPIOS)].copy()
     df["CANTIDAD"] = pd.to_numeric(df["CANTIDAD"], errors="coerce").fillna(1).astype(int)
-    df["fecha"] = pd.to_datetime(df["FECHA ISSO"].astype(str).str[:10].str.replace("/", "-"), errors="coerce")
+    # La columna de fecha cambia de nombre entre años (FECHA ISSO, FECHA HECHO...).
+    col_fecha = next(c for c in df.columns if c.startswith("FECHA"))
+    df["fecha"] = pd.to_datetime(df[col_fecha].astype(str).str[:10].str.replace("/", "-"), errors="coerce")
     df = df[df["fecha"].notna()]
     df["anio"], df["mes"] = df["fecha"].dt.year, df["fecha"].dt.month
-    df["ARMAS MEDIOS"] = df["ARMAS MEDIOS"].fillna("NO REPORTADO")
+    col_arma = next((c for c in df.columns if c.startswith("ARMA")), None)
+    df["ARMAS MEDIOS"] = df[col_arma].fillna("NO REPORTADO") if col_arma else "NO REPORTADO"
     conteo: Counter = Counter()
     armas: Counter = Counter()
     for (anio, mes, dane, delito, arma), n in df.groupby(["anio", "mes", "CODIGO DANE", "DELITO", "ARMAS MEDIOS"])["CANTIDAD"].sum().items():

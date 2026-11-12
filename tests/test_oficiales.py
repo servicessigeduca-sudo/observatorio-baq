@@ -35,3 +35,12 @@ def test_filtra_area_y_agrega():
     assert armas[(2026, "homicidio", "ARMA DE FUEGO")] == 3
     j = a_json(conteo, armas, [], "2026-11-12")
     assert j["ultimo_mes"] == {"anio": 2026, "mes": 2}
+
+
+def test_fecha_hecho_en_lugar_de_fecha_isso():
+    cab = ["ARMAS MEDIOS", "DEPARTAMENTO", "MUNICIPIO", "FECHA HECHO", "GENERO", "CODIGO DANE", "DELITO", "CANTIDAD"]
+    buf = io.BytesIO()
+    pd.DataFrame([cab, ["ARMA DE FUEGO", "ATLÁNTICO", "Barranquilla", "2025-03-02", "M", "08001", "(0101) Homicidio intencional", "1"]]).to_excel(buf, header=False, index=False)
+    buf.seek(0)
+    conteo, _ = agregar(leer(buf))
+    assert conteo[(2025, 3, "Barranquilla", "homicidio")] == 1
