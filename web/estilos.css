@@ -229,3 +229,5 @@ html,body{margin:0}
 .pbar.alto span{color:var(--hot)}
 .chart text.pico{font:700 13px var(--f-sans);fill:var(--hot)}
 .como{font-size:13px;font-weight:600;margin-top:8px;display:inline-block}
+.tabla td.vt{white-space:nowrap;font-variant-numeric:tabular-nums}
+.tabla tr.sel td:first-child{font-weight:700}
