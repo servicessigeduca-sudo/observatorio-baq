@@ -10,6 +10,7 @@ En la página puedes:
 - Filtrar por tipo de delito (homicidio, lesiones, hurto, extorsión, otros) y por periodo.
 - Comparar los barrios con más casos y la tendencia semana a semana.
 - Leer los últimos casos con el enlace a cada noticia original.
+- Consultar las cifras oficiales de la Policía por municipio, tipo de delito, mes y arma, comparadas con el año anterior.
 - Cambiar entre modo claro y oscuro.
 
 Los datos salen de notas publicadas por Zona Cero, Diario La Libertad, Emisora Atlántico, Impacto News y CTV Barranquilla. Cuando varios medios cubren el mismo hecho, se cuenta una sola vez. La página se actualiza sola cada día a las 6:00 a. m. (hora de Barranquilla).
@@ -22,6 +23,7 @@ Los datos salen de notas publicadas por Zona Cero, Diario La Libertad, Emisora A
 | --- | --- |
 | [`data/casos.json`](data/casos.json) | Un registro por hecho: tipo, fecha, barrio, municipio, ubicación aproximada, medios y enlaces |
 | [`data/notas.json`](data/notas.json) | Una entrada por noticia: medio, titular, fecha, enlace y resumen corto |
+| [`data/oficiales.json`](data/oficiales.json) | Delitos registrados por la Policía (SIEDCO) en los cinco municipios del área, por año, mes, municipio, tipo y arma. Sin barrio: la Policía no lo publica |
 | [`data/geocodigos.json`](data/geocodigos.json) | Coordenadas de cada barrio según OpenStreetMap, corregibles a mano |
 
 ## Cómo revisar casos
@@ -88,6 +90,14 @@ Lee `data/notas.json` y escribe `data/casos.json`: un caso por hecho, con las no
 Cada caso empieza como `pendiente`. Si el editor cambia el `estado` (`publicado`, `descartado`), el tipo o el barrio en `data/casos.json`, la siguiente corrida conserva esos cambios.
 
 El flujo **Scraper** corre solo todos los días a las 6:00 a. m. (hora de Barranquilla), guarda las notas nuevas y los casos, y deja el resumen de casos en la pestaña Actions.
+
+## Datos oficiales
+
+```bash
+python -m oficiales --anios 2025,2026
+```
+
+Descarga de [policia.gov.co/estadistica-delictiva](https://www.policia.gov.co/estadistica-delictiva) los archivos de delitos a nivel de registro (un delito por fila, todo el país), se queda con Barranquilla, Soledad, Malambo, Galapa y Puerto Colombia, y guarda conteos en `data/oficiales.json`. El flujo **Datos oficiales** lo corre el día 5 de cada mes. Las cifras son provisionales hasta marzo del año siguiente y llegan con unos dos meses de retraso.
 
 ## Pruebas
 

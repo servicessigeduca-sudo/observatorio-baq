@@ -1,0 +1,9178 @@
+{
+ "fuente": "Policía Nacional, SIEDCO: información de delitos a nivel de registro",
+ "url": "https://www.policia.gov.co/estadistica-delictiva",
+ "archivos": [
+  "https://www.policia.gov.co/sites/default/files/INFORMACI%C3%93N_DELITOS_A_NIVEL_DE_REGISTRO_A%C3%91O_2026_3.xlsx",
+  "https://www.policia.gov.co/sites/default/files/INFORMACI%C3%93N_DE_DELITOS_A_NIVEL_DE_REGISTRO_A%C3%91O_2025_3.xlsx"
+ ],
+ "actualizado": "2026-11-12",
+ "ultimo_mes": {
+  "anio": 2026,
+  "mes": 9
+ },
+ "nota": "Cifras provisionales hasta marzo del año siguiente. Sin barrio ni coordenadas.",
+ "conteos": [
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 78
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 62
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 51
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 29
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 76
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 91
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 784
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 36
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 111
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 85
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 254
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 34
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 12
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 17
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 20
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_carros",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_sexual",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 18
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 24
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 13
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 48
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 244
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 27
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 33
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 73
+  },
+  {
+   "anio": 2025,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 18
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 69
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 33
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 27
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 46
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 39
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_entidades",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 85
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 712
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 19
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 102
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 121
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 209
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 33
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 18
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 15
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 12
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 37
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 172
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 31
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 27
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 77
+  },
+  {
+   "anio": 2025,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 21
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 94
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 49
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 37
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 32
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 47
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_entidades",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 102
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 583
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 26
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 156
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 123
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 278
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 41
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 13
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 20
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 12
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 12
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_sexual",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 21
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 17
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 49
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 106
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 52
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 31
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 85
+  },
+  {
+   "anio": 2025,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 17
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 87
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 69
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 31
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 49
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 54
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 85
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 416
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 33
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 123
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 80
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 247
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 54
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "extorsion",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 12
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 13
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_entidades",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 21
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_sexual",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 18
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 19
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 15
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 30
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 96
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 33
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 18
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 63
+  },
+  {
+   "anio": 2025,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 21
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 70
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 73
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 35
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 54
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 75
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_entidades",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 103
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 1037
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 40
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 110
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "secuestro",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 108
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 207
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 32
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 22
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "otros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 23
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "otros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_entidades",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 26
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_sexual",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 23
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 40
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 15
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 38
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 255
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 12
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 44
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 24
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 77
+  },
+  {
+   "anio": 2025,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 21
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 90
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 65
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 48
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 41
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 69
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 103
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 876
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 57
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 131
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 104
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 266
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 50
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 20
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 18
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "hurto_carros",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 21
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 19
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 16
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_sexual",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 27
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 18
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 38
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 236
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 13
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 21
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 30
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 86
+  },
+  {
+   "anio": 2025,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 19
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 120
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 89
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 38
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 27
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 80
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 99
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 954
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 55
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 154
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 124
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 265
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 44
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 16
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 32
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "secuestro",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 13
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_carros",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 23
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 13
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_sexual",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 22
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 40
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 21
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 18
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 46
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 277
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 39
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 32
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 111
+  },
+  {
+   "anio": 2025,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 25
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 124
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 75
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 42
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 32
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 38
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 79
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 988
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 50
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 123
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 118
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 320
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 41
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "extorsion",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 18
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "hurto_carros",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 30
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 12
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_carros",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 18
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_sexual",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 31
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 35
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 31
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 26
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 263
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 33
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 26
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 76
+  },
+  {
+   "anio": 2025,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 32
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 108
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 58
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 22
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 19
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 33
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 106
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 981
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 38
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 137
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 139
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 319
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 58
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "extorsion",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 13
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 16
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 21
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 18
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_carros",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 20
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 28
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 26
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 32
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 215
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 38
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 27
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 118
+  },
+  {
+   "anio": 2025,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 23
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 83
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 55
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 26
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 34
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 45
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_entidades",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 84
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 1111
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 50
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 165
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 103
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 284
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 41
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Galapa",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 13
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 16
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Malambo",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 25
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 18
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_carros",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 40
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 29
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 35
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 40
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 295
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 12
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 40
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 123
+  },
+  {
+   "anio": 2025,
+   "mes": 10,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 39
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 72
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 48
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 33
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 31
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 29
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 98
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 939
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 32
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 157
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 85
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 249
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 21
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Galapa",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 22
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Malambo",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 24
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 13
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 13
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 20
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 21
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 28
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 13
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 35
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 270
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 45
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 25
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 130
+  },
+  {
+   "anio": 2025,
+   "mes": 11,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 20
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 61
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 54
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 39
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 21
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 15
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 83
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 806
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 42
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 137
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 87
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 168
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Galapa",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 12
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 10
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 24
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 15
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 13
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 11
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 17
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 20
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 24
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 216
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 15
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 37
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 15
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 106
+  },
+  {
+   "anio": 2025,
+   "mes": 12,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 17
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 77
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 56
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 48
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 24
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 60
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 65
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 764
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 47
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 121
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 105
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 283
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 27
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 7
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 12
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 25
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 9
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 14
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 15
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 21
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 11
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 35
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 25
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 28
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 18
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 36
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 222
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 12
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 46
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 22
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 123
+  },
+  {
+   "anio": 2026,
+   "mes": 1,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 13
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 102
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 45
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 45
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 34
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 56
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_entidades",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 88
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 1014
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 39
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 168
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 113
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 295
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 40
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 7
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 12
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 14
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 16
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 7
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "hurto_carros",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 22
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 14
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 17
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 23
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 14
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_sexual",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 33
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 32
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 28
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 28
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 217
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 48
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 30
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 111
+  },
+  {
+   "anio": 2026,
+   "mes": 2,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 27
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 116
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 72
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 48
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 39
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 66
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_entidades",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 65
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 703
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 42
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 132
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 87
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 292
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 55
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 12
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 7
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 14
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 9
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "hurto_carros",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 25
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 12
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 26
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 18
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 12
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 7
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_sexual",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 30
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 29
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 22
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 14
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 16
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 42
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 207
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 13
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 48
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 44
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 133
+  },
+  {
+   "anio": 2026,
+   "mes": 3,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 30
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 132
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 74
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 54
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 26
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 55
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 61
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 664
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 19
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 128
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 75
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 265
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 42
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 9
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 11
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 9
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 34
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 13
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "hurto_carros",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 7
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 16
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 13
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 31
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 7
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_sexual",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 35
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 40
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 16
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 11
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 31
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 210
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 35
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 40
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 96
+  },
+  {
+   "anio": 2026,
+   "mes": 4,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 26
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 196
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 66
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 60
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 19
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 52
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_entidades",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 49
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 675
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 42
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 182
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 102
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 289
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 61
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 12
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "extorsion",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 7
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 21
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 23
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 11
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 16
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 17
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 31
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 21
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 20
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 11
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_sexual",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 43
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 28
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 32
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 11
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 42
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 182
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 7
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 62
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 51
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 122
+  },
+  {
+   "anio": 2026,
+   "mes": 5,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 32
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 258
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 62
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 65
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 22
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 33
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 56
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 711
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 40
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 256
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 91
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 248
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 42
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 15
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "extorsion",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 11
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 15
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 22
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 9
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 9
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 21
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 27
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 21
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 23
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 23
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 9
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 12
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_sexual",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 74
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 37
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 49
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 26
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 197
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 88
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 37
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 109
+  },
+  {
+   "anio": 2026,
+   "mes": 6,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 37
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 293
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 63
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 66
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 33
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 26
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 68
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 764
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 36
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 220
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "secuestro",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 114
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 278
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 23
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 20
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 13
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 9
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 17
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 12
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 29
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 33
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 15
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 13
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_carros",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 20
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "secuestro",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 11
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 74
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 29
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 27
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 32
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 217
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 9
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 65
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 28
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 117
+  },
+  {
+   "anio": 2026,
+   "mes": 7,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 24
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 270
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 63
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 58
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 31
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 26
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_entidades",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 56
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 923
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 40
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 230
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 123
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 248
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 39
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "homicidio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 7
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 24
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 14
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 12
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 18
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 12
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 9
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 27
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 18
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 16
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 11
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 6
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "extorsion",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_motos",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 30
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_residencias",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 11
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 76
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 33
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 41
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "hurto_entidades",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 25
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 201
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 80
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 25
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 88
+  },
+  {
+   "anio": 2026,
+   "mes": 8,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 35
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "amenazas",
+   "cantidad": 270
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "extorsion",
+   "cantidad": 43
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "homicidio",
+   "cantidad": 28
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_carros",
+   "cantidad": 24
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_comercio",
+   "cantidad": 24
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_motos",
+   "cantidad": 50
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_personas",
+   "cantidad": 891
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "hurto_residencias",
+   "cantidad": 37
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "lesiones",
+   "cantidad": 229
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "transito",
+   "cantidad": 95
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 224
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Barranquilla",
+   "categoria": "violencia_sexual",
+   "cantidad": 43
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "amenazas",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "extorsion",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "hurto_carros",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "hurto_motos",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "hurto_personas",
+   "cantidad": 17
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "hurto_residencias",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "lesiones",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "transito",
+   "cantidad": 11
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 18
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Galapa",
+   "categoria": "violencia_sexual",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "amenazas",
+   "cantidad": 29
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "extorsion",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "homicidio",
+   "cantidad": 7
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "hurto_comercio",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "hurto_motos",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "hurto_personas",
+   "cantidad": 30
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "hurto_residencias",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "lesiones",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "transito",
+   "cantidad": 12
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 20
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Malambo",
+   "categoria": "violencia_sexual",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "amenazas",
+   "cantidad": 11
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "homicidio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_carros",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "hurto_personas",
+   "cantidad": 23
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "lesiones",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "transito",
+   "cantidad": 11
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Puerto Colombia",
+   "categoria": "violencia_sexual",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "amenazas",
+   "cantidad": 71
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "extorsion",
+   "cantidad": 20
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "homicidio",
+   "cantidad": 19
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "hurto_carros",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "hurto_comercio",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "hurto_motos",
+   "cantidad": 27
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "hurto_personas",
+   "cantidad": 181
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "hurto_residencias",
+   "cantidad": 7
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "lesiones",
+   "cantidad": 63
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "transito",
+   "cantidad": 32
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "violencia_intrafamiliar",
+   "cantidad": 97
+  },
+  {
+   "anio": 2026,
+   "mes": 9,
+   "municipio": "Soledad",
+   "categoria": "violencia_sexual",
+   "cantidad": 14
+  }
+ ],
+ "armas": [
+  {
+   "anio": 2025,
+   "categoria": "amenazas",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "categoria": "amenazas",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "categoria": "amenazas",
+   "arma": "CONTUNDENTES",
+   "cantidad": 22
+  },
+  {
+   "anio": 2025,
+   "categoria": "amenazas",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 1450
+  },
+  {
+   "anio": 2025,
+   "categoria": "extorsion",
+   "arma": "CARTA EXTORSIVA",
+   "cantidad": 119
+  },
+  {
+   "anio": 2025,
+   "categoria": "extorsion",
+   "arma": "DIRECTA",
+   "cantidad": 285
+  },
+  {
+   "anio": 2025,
+   "categoria": "extorsion",
+   "arma": "LLAMADA TELEFONICA",
+   "cantidad": 502
+  },
+  {
+   "anio": 2025,
+   "categoria": "extorsion",
+   "arma": "MIXTA",
+   "cantidad": 5
+  },
+  {
+   "anio": 2025,
+   "categoria": "extorsion",
+   "arma": "NO REPORTADO",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "categoria": "extorsion",
+   "arma": "REDES SOCIALES",
+   "cantidad": 162
+  },
+  {
+   "anio": 2025,
+   "categoria": "extorsion",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 70
+  },
+  {
+   "anio": 2025,
+   "categoria": "homicidio",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 53
+  },
+  {
+   "anio": 2025,
+   "categoria": "homicidio",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 655
+  },
+  {
+   "anio": 2025,
+   "categoria": "homicidio",
+   "arma": "CONTUNDENTES",
+   "cantidad": 17
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_carros",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_carros",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 115
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_carros",
+   "arma": "LLAVE MAESTRA",
+   "cantidad": 154
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_carros",
+   "arma": "NO REPORTADO",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_carros",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 256
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_comercio",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 8
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_comercio",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 165
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_comercio",
+   "arma": "CONTUNDENTES",
+   "cantidad": 21
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_comercio",
+   "arma": "NO REPORTADO",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_comercio",
+   "arma": "PALANCAS",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_comercio",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 575
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_entidades",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 9
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_entidades",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_motos",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 50
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_motos",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 500
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_motos",
+   "arma": "CONTUNDENTES",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_motos",
+   "arma": "ESCOPOLAMINA",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_motos",
+   "arma": "LLAVE MAESTRA",
+   "cantidad": 484
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_motos",
+   "arma": "NO REPORTADO",
+   "cantidad": 18
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_motos",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 656
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_personas",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 1319
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_personas",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 7164
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_personas",
+   "arma": "CONTUNDENTES",
+   "cantidad": 130
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_personas",
+   "arma": "ESCOPOLAMINA",
+   "cantidad": 28
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_personas",
+   "arma": "NO REPORTADO",
+   "cantidad": 483
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_personas",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 4367
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_residencias",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_residencias",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 49
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_residencias",
+   "arma": "CONTUNDENTES",
+   "cantidad": 28
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_residencias",
+   "arma": "ESCOPOLAMINA",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_residencias",
+   "arma": "LLAVE MAESTRA",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_residencias",
+   "arma": "NO REPORTADO",
+   "cantidad": 4
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_residencias",
+   "arma": "PALANCAS",
+   "cantidad": 14
+  },
+  {
+   "anio": 2025,
+   "categoria": "hurto_residencias",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 567
+  },
+  {
+   "anio": 2025,
+   "categoria": "lesiones",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 194
+  },
+  {
+   "anio": 2025,
+   "categoria": "lesiones",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 232
+  },
+  {
+   "anio": 2025,
+   "categoria": "lesiones",
+   "arma": "ARMA TRAUMATICA",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "categoria": "lesiones",
+   "arma": "COMBUSTIBLE",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "categoria": "lesiones",
+   "arma": "CONTUNDENTES",
+   "cantidad": 818
+  },
+  {
+   "anio": 2025,
+   "categoria": "lesiones",
+   "arma": "MEDICAMENTOS",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "categoria": "lesiones",
+   "arma": "NO REPORTADO",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "categoria": "lesiones",
+   "arma": "PERRO",
+   "cantidad": 7
+  },
+  {
+   "anio": 2025,
+   "categoria": "lesiones",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 1055
+  },
+  {
+   "anio": 2025,
+   "categoria": "lesiones",
+   "arma": "VEHICULO",
+   "cantidad": 1
+  },
+  {
+   "anio": 2025,
+   "categoria": "otros",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 2
+  },
+  {
+   "anio": 2025,
+   "categoria": "secuestro",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 3
+  },
+  {
+   "anio": 2025,
+   "categoria": "transito",
+   "arma": "MOTO",
+   "cantidad": 334
+  },
+  {
+   "anio": 2025,
+   "categoria": "transito",
+   "arma": "NO REPORTADO",
+   "cantidad": 46
+  },
+  {
+   "anio": 2025,
+   "categoria": "transito",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 395
+  },
+  {
+   "anio": 2025,
+   "categoria": "transito",
+   "arma": "VEHICULO",
+   "cantidad": 1034
+  },
+  {
+   "anio": 2025,
+   "categoria": "violencia_intrafamiliar",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 29
+  },
+  {
+   "anio": 2025,
+   "categoria": "violencia_intrafamiliar",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "categoria": "violencia_intrafamiliar",
+   "arma": "CONTUNDENTES",
+   "cantidad": 989
+  },
+  {
+   "anio": 2025,
+   "categoria": "violencia_intrafamiliar",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 3550
+  },
+  {
+   "anio": 2025,
+   "categoria": "violencia_sexual",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 66
+  },
+  {
+   "anio": 2025,
+   "categoria": "violencia_sexual",
+   "arma": "CONTUNDENTES",
+   "cantidad": 33
+  },
+  {
+   "anio": 2025,
+   "categoria": "violencia_sexual",
+   "arma": "ESCOPOLAMINA",
+   "cantidad": 6
+  },
+  {
+   "anio": 2025,
+   "categoria": "violencia_sexual",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 729
+  },
+  {
+   "anio": 2026,
+   "categoria": "amenazas",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "categoria": "amenazas",
+   "arma": "CONTUNDENTES",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "categoria": "amenazas",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 2454
+  },
+  {
+   "anio": 2026,
+   "categoria": "extorsion",
+   "arma": "CARTA EXTORSIVA",
+   "cantidad": 49
+  },
+  {
+   "anio": 2026,
+   "categoria": "extorsion",
+   "arma": "LLAMADA TELEFONICA",
+   "cantidad": 486
+  },
+  {
+   "anio": 2026,
+   "categoria": "extorsion",
+   "arma": "NO REPORTADO",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "categoria": "extorsion",
+   "arma": "OTROS",
+   "cantidad": 224
+  },
+  {
+   "anio": 2026,
+   "categoria": "extorsion",
+   "arma": "REDES SOCIALES",
+   "cantidad": 135
+  },
+  {
+   "anio": 2026,
+   "categoria": "extorsion",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 36
+  },
+  {
+   "anio": 2026,
+   "categoria": "homicidio",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 42
+  },
+  {
+   "anio": 2026,
+   "categoria": "homicidio",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 797
+  },
+  {
+   "anio": 2026,
+   "categoria": "homicidio",
+   "arma": "CONTUNDENTES",
+   "cantidad": 15
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_carros",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 55
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_carros",
+   "arma": "CONTUNDENTES",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_carros",
+   "arma": "ESCOPOLAMINA",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_carros",
+   "arma": "NO REPORTADO",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_carros",
+   "arma": "OTROS",
+   "cantidad": 40
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_carros",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 259
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_comercio",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_comercio",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 93
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_comercio",
+   "arma": "CONTUNDENTES",
+   "cantidad": 16
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_comercio",
+   "arma": "NO REPORTADO",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_comercio",
+   "arma": "OTROS",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_comercio",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 401
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_entidades",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_motos",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 27
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_motos",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 270
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_motos",
+   "arma": "CONTUNDENTES",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_motos",
+   "arma": "NO REPORTADO",
+   "cantidad": 20
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_motos",
+   "arma": "OTROS",
+   "cantidad": 79
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_motos",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 534
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_personas",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 879
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_personas",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 4253
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_personas",
+   "arma": "CONTUNDENTES",
+   "cantidad": 125
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_personas",
+   "arma": "ESCOPOLAMINA",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_personas",
+   "arma": "NO REPORTADO",
+   "cantidad": 548
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_personas",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 3653
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_residencias",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 5
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_residencias",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 34
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_residencias",
+   "arma": "CONTUNDENTES",
+   "cantidad": 10
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_residencias",
+   "arma": "ESCOPOLAMINA",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_residencias",
+   "arma": "NO REPORTADO",
+   "cantidad": 8
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_residencias",
+   "arma": "OTROS",
+   "cantidad": 3
+  },
+  {
+   "anio": 2026,
+   "categoria": "hurto_residencias",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 414
+  },
+  {
+   "anio": 2026,
+   "categoria": "lesiones",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 171
+  },
+  {
+   "anio": 2026,
+   "categoria": "lesiones",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 341
+  },
+  {
+   "anio": 2026,
+   "categoria": "lesiones",
+   "arma": "CONTUNDENTES",
+   "cantidad": 746
+  },
+  {
+   "anio": 2026,
+   "categoria": "lesiones",
+   "arma": "GRANADA DE MANO",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "categoria": "lesiones",
+   "arma": "OTROS",
+   "cantidad": 16
+  },
+  {
+   "anio": 2026,
+   "categoria": "lesiones",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 1207
+  },
+  {
+   "anio": 2026,
+   "categoria": "lesiones",
+   "arma": "VEHICULO",
+   "cantidad": 4
+  },
+  {
+   "anio": 2026,
+   "categoria": "secuestro",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 2
+  },
+  {
+   "anio": 2026,
+   "categoria": "transito",
+   "arma": "MOTO",
+   "cantidad": 25
+  },
+  {
+   "anio": 2026,
+   "categoria": "transito",
+   "arma": "NO REPORTADO",
+   "cantidad": 154
+  },
+  {
+   "anio": 2026,
+   "categoria": "transito",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 1188
+  },
+  {
+   "anio": 2026,
+   "categoria": "transito",
+   "arma": "VEHICULO",
+   "cantidad": 58
+  },
+  {
+   "anio": 2026,
+   "categoria": "violencia_intrafamiliar",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 47
+  },
+  {
+   "anio": 2026,
+   "categoria": "violencia_intrafamiliar",
+   "arma": "ARMA DE FUEGO",
+   "cantidad": 22
+  },
+  {
+   "anio": 2026,
+   "categoria": "violencia_intrafamiliar",
+   "arma": "CONTUNDENTES",
+   "cantidad": 762
+  },
+  {
+   "anio": 2026,
+   "categoria": "violencia_intrafamiliar",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 3008
+  },
+  {
+   "anio": 2026,
+   "categoria": "violencia_sexual",
+   "arma": "ARMA BLANCA / CORTOPUNZANTE",
+   "cantidad": 26
+  },
+  {
+   "anio": 2026,
+   "categoria": "violencia_sexual",
+   "arma": "CONTUNDENTES",
+   "cantidad": 7
+  },
+  {
+   "anio": 2026,
+   "categoria": "violencia_sexual",
+   "arma": "ESCOPOLAMINA",
+   "cantidad": 1
+  },
+  {
+   "anio": 2026,
+   "categoria": "violencia_sexual",
+   "arma": "SIN EMPLEO DE ARMAS",
+   "cantidad": 653
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+name: Datos oficiales
+
+# Descarga los delitos a nivel de registro de la Policía (SIEDCO) y guarda
+# los conteos del área metropolitana en data/oficiales.json.
+on:
+  schedule:
+    - cron: "0 12 5 * *" # día 5 de cada mes, 7:00 a. m. en Barranquilla
+  push:
+    branches: [main]
+    paths: ["oficiales/**", ".github/workflows/oficiales.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: oficiales
+  cancel-in-progress: false
+
+jobs:
+  oficiales:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Descargar y agregar
+        run: python -m oficiales | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Guardar en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/oficiales.json
+          git diff --cached --quiet && echo "Sin cambios" && exit 0
+          git commit -m "Actualizar datos oficiales ($(date -u +%Y-%m-%d))"
+          git push
