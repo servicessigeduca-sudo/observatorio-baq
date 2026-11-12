@@ -28,7 +28,15 @@ def main(argv: list[str] | None = None) -> int:
         nuevas = recolectar(f, cliente, set(existentes))
         existentes, n = almacen.fusionar(existentes, nuevas)
         total += n
-        print(f"{f.nombre}: {n} notas nuevas")
+        sin_fecha = sum(1 for x in nuevas if not x.fecha_publicacion)
+        sin_titular = sum(1 for x in nuevas if not x.titular)
+        homicidios = sum(1 for x in nuevas if "homicidio" in x.tipos_delito)
+        fechas = sorted(x.fecha_publicacion[:10] for x in nuevas if x.fecha_publicacion)
+        rango = f", {fechas[0]} a {fechas[-1]}" if fechas else ""
+        print(
+            f"{f.nombre}: {n} notas nuevas ({homicidios} homicidios, "
+            f"{sin_fecha} sin fecha, {sin_titular} sin titular{rango})"
+        )
     almacen.guardar(args.salida, existentes)
     print(f"Total: {total} notas nuevas, {len(existentes)} guardadas en {args.salida}")
     return 0

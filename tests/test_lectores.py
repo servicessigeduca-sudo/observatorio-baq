@@ -32,6 +32,8 @@ def test_rss_filtra_por_categoria_y_convierte_fecha():
 LISTADO = """<html><body>
 <a href="/judiciales/mataron-a-hombre-en-la-esmeralda">Mataron a hombre</a>
 <a href="/judiciales/mataron-a-hombre-en-la-esmeralda#comentarios">(3)</a>
+<a href="/judiciales/mataron-a-hombre-en-la-esmeralda ">Mataron a hombre (con espacio)</a>
+<a href="https://www.zonacero.com/judiciales/mataron-a-hombre-en-la-esmeralda/">duplicado con www</a>
 <a href="https://zonacero.com/judiciales/hieren-mujer-el-valle">Hieren a mujer</a>
 <a href="/judiciales?page=1">Ver más</a>
 <a href="/politica/concejo">Concejo</a>
