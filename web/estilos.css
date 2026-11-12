@@ -223,3 +223,9 @@ html,body{margin:0}
 .pbar i{display:block;height:12px;background:var(--primary);border-radius:2px}
 .pbar span{font-variant-numeric:tabular-nums;font-weight:600}
 @media (max-width:640px){.gob .hrow{grid-template-columns:minmax(0,1fr);gap:4px}}
+/* Valor más alto de una comparación */
+.tabla td.top{background:var(--hot);color:var(--primary-ink);font-weight:700}
+.pbar.alto i{background:var(--hot)}
+.pbar.alto span{color:var(--hot)}
+.chart text.pico{font:700 13px var(--f-sans);fill:var(--hot)}
+.como{font-size:13px;font-weight:600;margin-top:8px;display:inline-block}

@@ -24,7 +24,7 @@
 </header>
 <div class="flag" aria-hidden="true"></div>
 <div class="subnav"><div class="in">
-  <div class="tabs"><a href="#prensa">Prensa</a><a href="#policia">Policía</a><a href="#datos">Descargas</a></div>
+  <div class="tabs"><a href="#prensa">Prensa</a><a href="#policia">Policía</a><a href="#calculos">Cómo calculamos</a><a href="#datos">Descargas</a></div>
 </div></div>
 
 <section class="hero"><div class="in" style="grid-template-columns:minmax(0,1fr)">
@@ -53,6 +53,23 @@
     <div><h3>Qué traen</h3><p>Fecha, municipio, tipo de delito, arma o medio, género y grupo de edad de la víctima. No traen barrio, dirección ni hora: el nivel más fino es el municipio, y el día de la semana se calcula a partir de la fecha.</p></div>
     <div><h3>Cuidados al leerlos</h3><p>Son cifras provisionales hasta marzo del año siguiente y llegan con unos dos meses de retraso. Miden denuncias y registros, no todos los delitos: un aumento puede reflejar más denuncias. La media móvil de 12 meses suaviza la estacionalidad. Cuando falta el archivo de un delito en algún año, ese año aparece como «sin datos» y no como cero.</p></div>
     <div><h3>Comparar gobiernos</h3><p>Los promedios por periodo de Presidencia, Alcaldía o Gobernación dividen los casos entre los meses con datos de cada periodo, así que se pueden comparar periodos de distinta duración. El cambio de presidente es el 7 de agosto y ese mes se cuenta para el gobierno que entra. Un promedio más alto no prueba por sí solo que un gobierno lo hizo peor: también cambian la población, la denuncia y la forma de registrar.</p></div>
+  </div>
+</div></section>
+
+<section class="sec" id="calculos"><div class="in">
+  <p class="eyebrow">Estadísticas oficiales</p>
+  <h2 style="font-size:clamp(24px,3vw,32px);margin-bottom:8px">Cómo calculamos cada cifra</h2>
+  <p class="sub" style="margin-bottom:24px">Todas las cuentas se hacen en tu navegador con los mismos datos que puedes descargar abajo. Un "caso" es una fila de la Policía multiplicada por su columna CANTIDAD, contado en el mes en que ocurrió el hecho. Las cifras se redondean al entero más cercano.</p>
+  <div class="method">
+    <div id="calc-resumen"><h3>Resumen</h3><p><b>Últimos 12 meses</b>: suma de los 12 meses que terminan en el último mes publicado. Se compara con los 12 meses anteriores: variación = (actual − anterior) ÷ anterior × 100. <b>En el año</b>: de enero al último mes publicado, frente a los mismos meses del año anterior. <b>Promedio mensual</b>: últimos 12 meses ÷ 12.</p></div>
+    <div id="calc-media"><h3>Media móvil de 12 meses</h3><p>Para cada mes, el promedio de ese mes y los 11 anteriores. Como siempre incluye un año completo, no la mueven las temporadas (diciembre, carnavales). Solo se calcula si los 12 meses tienen datos; por eso la línea se corta en los años sin archivo. El punto rojo marca su valor más alto.</p></div>
+    <div id="calc-calor"><h3>Mapas de calor</h3><p><b>Mes a mes</b>: los meses se ordenan de menor a mayor y se dividen en cinco grupos del mismo tamaño (quintiles); cada color es un grupo. <b>Días de la semana</b>: casos de cada día ÷ casos del año × 100. Si los delitos se repartieran por igual, cada día tendría 14 %. "s. d." significa sin datos publicados.</p></div>
+    <div id="calc-variacion"><h3>Variación por tipo de delito</h3><p>Para cada año se suman solo los meses de enero al último mes publicado del año en curso, así todos los años comparan la misma parte del calendario. En rojo, el año con más casos de cada fila. La última columna es la variación frente al año anterior.</p></div>
+    <div id="calc-gobiernos"><h3>Promedio por periodo de gobierno</h3><p>Casos del periodo ÷ meses del periodo con datos publicados. Así se comparan periodos de distinta duración o con años faltantes. La Presidencia cambia el 7 de agosto y ese mes se cuenta para el gobierno que entra; alcaldías y gobernaciones van de enero a diciembre. En rojo, el promedio más alto entre los periodos con al menos 12 meses de datos (el gobierno en curso puede tener muy pocos meses para compararse). Un promedio más alto no prueba por sí solo que un gobierno lo hizo peor.</p></div>
+    <div id="calc-area"><h3>Barranquilla y el área</h3><p><b>Reparto por año</b>: casos de cada municipio ÷ casos de los cinco municipios × 100. <b>Parte de Barranquilla</b>: casos en Barranquilla en los últimos 12 meses ÷ casos del área en el mismo lapso, comparada con el primer año con datos de ese delito. En rojo, el delito con la mayor parte en Barranquilla entre los que tienen al menos 50 casos (con menos, un solo caso mueve mucho el porcentaje). <b>Por municipio</b>: últimos 12 meses frente a los 12 anteriores; en rojo, el municipio con más casos.</p></div>
+    <div id="calc-perfil"><h3>Arma, género y edad</h3><p>Reparto de los casos de cada año entre los cinco valores más frecuentes en todo el periodo; el resto se agrupa en "Otros". Los grupos de edad (adultos, adolescentes, menores) son los de la Policía.</p></div>
+    <div id="calc-huecos"><h3>Años sin datos</h3><p>Si la Policía no publicó el archivo de un delito para un año, ese año se muestra como "sin datos" y no entra en sumas ni promedios: no se cuenta como cero. Las sumas de varios delitos ("Todos", "Hurtos") empiezan en el primer año que tiene datos de todos ellos.</p></div>
+    <div id="calc-provisional"><h3>Cifras provisionales</h3><p>La Policía sigue cargando casos durante varios meses, así que los dos o tres últimos meses suelen verse más bajos de lo que serán. Las cifras se consideran definitivas en marzo del año siguiente. Cada mes volvemos a descargar todo, y los números de meses recientes pueden subir.</p></div>
   </div>
 </div></section>
 
