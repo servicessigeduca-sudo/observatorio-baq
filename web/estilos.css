@@ -446,3 +446,17 @@ footer .in{padding-block:8px 32px}
   .tablewrap.cartas td::before{content:attr(data-k);color:var(--muted);font-size:12.5px;font-weight:600}
 }
 @media (prefers-reduced-motion:reduce){.estado.cargando::before{animation:none}.gesto{transition:none}}
+
+/* Buscador compacto con sugerencias al estilo iOS */
+.caja-q{position:relative;flex:1 1 auto;max-width:460px}
+.caja-q .lupa{position:absolute;left:12px;top:50%;width:17px;height:17px;transform:translateY(-50%);color:var(--muted);pointer-events:none}
+.buscador .caja-q input{width:100%;font:500 16px var(--f-sans);padding:10px 14px 10px 38px;border-radius:12px}
+.buscador input::-webkit-search-cancel-button{-webkit-appearance:none}
+.buscador input:focus{outline:2px solid color-mix(in srgb,var(--primary) 45%,transparent);outline-offset:0}
+.lista-q{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:700;margin:0;padding:6px;list-style:none;border-radius:14px;
+  background:var(--bar);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);box-shadow:0 10px 30px rgba(0,0,0,.14),0 0 0 .5px var(--line)}
+.lista-q li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:8px 10px;border-radius:9px;cursor:pointer;font-size:15px}
+.lista-q li small{color:var(--muted);font-size:12.5px;white-space:nowrap}
+.lista-q li:hover,.lista-q li[aria-selected="true"]{background:var(--fill)}
+.lista-q li.vacio{color:var(--muted);cursor:default}
+.lista-q li.vacio:hover{background:none}
