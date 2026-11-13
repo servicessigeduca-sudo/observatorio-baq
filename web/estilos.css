@@ -287,16 +287,16 @@ footer{border-top:0}
 footer .in{padding-block:8px 32px}
 
 /* Compartir imagen */
-.comp{float:right;position:relative;z-index:2;display:grid;place-items:center;width:36px;height:36px;margin:0 0 8px 12px;padding:0;border:0;border-radius:50%;cursor:pointer;
-  color:var(--primary);background:color-mix(in srgb,var(--ink) 7%,transparent);-webkit-backdrop-filter:saturate(180%) blur(12px);backdrop-filter:saturate(180%) blur(12px);
+.comp{float:right;position:relative;z-index:2;display:grid;place-items:center;width:40px;height:40px;margin:0 0 8px 12px;padding:0;border:0;border-radius:50%;cursor:pointer;
+  color:var(--primary-ink);background:var(--primary);box-shadow:0 4px 12px color-mix(in srgb,var(--primary) 35%,transparent),0 1px 2px rgba(0,0,0,.12);
   transition:transform .18s cubic-bezier(.3,.7,.4,1.4),background-color .2s;-webkit-tap-highlight-color:transparent}
-.comp svg{width:19px;height:19px;margin-top:-2px}
-.comp:hover{background:color-mix(in srgb,var(--ink) 12%,transparent)}
+.comp svg{width:20px;height:20px;margin-top:-2px}
+.comp:hover{filter:brightness(1.1)}
 .comp:active{transform:scale(.88)}
 .comp:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
 .comp[aria-busy="true"]{cursor:wait}
 .comp[aria-busy="true"] svg{display:none}
-.comp[aria-busy="true"]::after{content:"";width:16px;height:16px;border-radius:50%;border:2px solid color-mix(in srgb,var(--primary) 25%,transparent);border-top-color:var(--primary);animation:giro .7s linear infinite}
+.comp[aria-busy="true"]::after{content:"";width:16px;height:16px;border-radius:50%;border:2px solid color-mix(in srgb,var(--primary-ink) 30%,transparent);border-top-color:var(--primary-ink);animation:giro .7s linear infinite}
 @keyframes giro{to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion:reduce){.comp{transition:none}.comp[aria-busy="true"]::after{animation-duration:2s}}
 .comp-aviso{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:999;max-width:min(90vw,420px);padding:10px 16px;border-radius:14px;
