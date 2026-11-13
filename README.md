@@ -102,6 +102,21 @@ Antes de 2020 la Policía publica un Excel por delito y por año en [su históri
 
 Las consultas descargadas a mano del portal de SIEDCO se guardan en `data/siedco/` (todos los delitos de alto impacto desde 2003). Solo llenan los años y delitos que no traen los archivos públicos; para aplicarlas sin volver a descargar todo: `python -m oficiales.manual`.
 
+## Datos publicables
+
+```bash
+python -m publico                              # arma data/publico/ (lo corre el flujo Página)
+python -m publico --capa privado/query.json    # agrega la capa de homicidios 2026
+```
+
+Convierte los datos internos en lo que publica el sitio, con las reglas de privacidad: sin nombre de la víctima, dirección, hora ni descripción de los hechos; ubicación por barrio o por zona de cuadrícula de 400 m (las celdas con menos de 3 casos se fusionan con la vecina que tenga menos casos) y fecha por mes. De la prensa no se publica el titular, que puede nombrar a la víctima: se publica un resumen propio y el enlace a la nota.
+
+También limpia los datos: corrige municipios y localidades mal escritos, agrupa sexo y modalidad, valida años y marca fechas futuras o posteriores a la nota. Los casos con fecha futura no se publican. Escribe los CSV de datos abiertos con su diccionario (`data/publico/diccionario.json`), un informe por mes (`data/publico/informes/`) y una copia fechada en `data/cortes/` para reproducir cada análisis.
+
+La capa de homicidios (GeoJSON exportado de ArcGIS) tiene datos personales: se guarda fuera del repositorio (la carpeta `privado/` está en `.gitignore`), y solo se suben sus conteos (`data/publico/registro.json`). Su publicación fue autorizada por el propietario.
+
+Las decisiones que siguen abiertas están en [`docs/pendientes.md`](docs/pendientes.md). La estructura del sitio y los wireframes están en [`docs/estructura.md`](docs/estructura.md), y la plantilla de informe en [`docs/plantilla-informe.md`](docs/plantilla-informe.md).
+
 ## Pruebas
 
 ```bash
