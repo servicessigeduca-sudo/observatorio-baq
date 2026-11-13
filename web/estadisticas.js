@@ -126,12 +126,22 @@
     presidente:{nombre:"Presidencia de la República",lista:[["Álvaro Uribe I (2002–2006)",2002,8,2006,7],["Álvaro Uribe II (2006–2010)",2006,8,2010,7],["Juan Manuel Santos I (2010–2014)",2010,8,2014,7],["Juan Manuel Santos II (2014–2018)",2014,8,2018,7],["Iván Duque (2018–2022)",2018,8,2022,7],["Gustavo Petro (2022–2026)",2022,8,2026,7],["Abelardo de la Espriella (2026–2030)",2026,8,2030,7]],
       nota:"El cambio de gobierno es el 7 de agosto; ese mes se cuenta completo para el gobierno que entra."},
     alcalde:{nombre:"Alcaldía de Barranquilla",lista:[["Humberto Caiaffa (2001–2003)",2001,1,2003,12],["Guillermo Hoenigsberg (2004–2007)",2004,1,2007,12],["Alejandro Char (2008–2011)",2008,1,2011,12],["Elsa Noguera (2012–2015)",2012,1,2015,12],["Alejandro Char (2016–2019)",2016,1,2019,12],["Jaime Pumarejo (2020–2023)",2020,1,2023,12],["Alejandro Char (2024–2027)",2024,1,2027,12]],
-      nota:"La Alcaldía responde por Barranquilla; para los demás municipios, elige uno en el filtro y compara con cautela."},
+      nota:""},
     gobernador:{nombre:"Gobernación del Atlántico",lista:[["Ventura Díaz (2001–2003)",2001,1,2003,12],["Carlos Rodado (2004–2007)",2004,1,2007,12],["Eduardo Verano (2008–2011)",2008,1,2011,12],["José Antonio Segebre (2012–2015)",2012,1,2015,12],["Eduardo Verano (2016–2019)",2016,1,2019,12],["Elsa Noguera (2020–2023)",2020,1,2023,12],["Eduardo Verano (2024–2027)",2024,1,2027,12]],nota:""}
   };
   var per="presidente";
+  // Los alcaldes de todos los municipios colombianos tienen los mismos periodos (2001–2003 y luego cuatrienios desde 2004).
+  // Los nombres solo están para Barranquilla; para los demás municipios se muestran los periodos.
+  function alcaldias(){
+    var B=PERIODOS.alcalde;if(st.muni==="Barranquilla")return B;
+    var lista=B.lista.map(function(g){return [(st.muni?"Alcaldía ":"Alcaldías ")+g[1]+"–"+g[3],g[1],g[2],g[3],g[4]]});
+    return st.muni?{nombre:"Alcaldía de "+st.muni,lista:lista,nota:"Los alcaldes de "+st.muni+" tienen los mismos periodos que los de Barranquilla; aquí se comparan los periodos, sin el nombre de cada alcalde."}
+      :{nombre:"alcaldías del área metropolitana",lista:lista,nota:"Los cinco municipios eligen alcalde en las mismas fechas, así que cada periodo suma los casos del área bajo los cinco alcaldes de ese cuatrienio. Para ver un municipio y su alcalde, elígelo en el filtro."};
+  }
+  function promF(v){return v<10?v.toLocaleString("es-CO",{minimumFractionDigits:1,maximumFractionDigits:1}):nf(v)}
   function gobiernos(s){
-    var r=rango(),P=PERIODOS[per],filas=[];
+    var r=rango(),P=per==="alcalde"?alcaldias():PERIODOS[per],filas=[];
+    var bA=document.querySelector('[data-per="alcalde"]');if(bA)bA.textContent=st.muni?"Alcaldía de "+st.muni:"Alcaldías";
     P.lista.forEach(function(g){var a=g[1]*12+g[2]-1,b=g[3]*12+g[4]-1,i0=Math.max(a,r[0]),i1=Math.min(b,r[1]);if(i1<i0)return;
       var t=0,nm=0;for(var k=i0;k<=i1;k++)if(s[k]!==null){t+=s[k]||0;nm++}if(!nm)return;filas.push({n:g[0],meses:nm,total:b-a+1,prom:t/nm,suma:t,desde:i0,hasta:i1})});
     var mx=Math.max.apply(null,filas.map(function(f){return f.prom}).concat([1]));
@@ -141,11 +151,11 @@
     var ps=comparables.map(function(f){return f.prom}),lo=Math.min.apply(null,ps),hi=Math.max.apply(null,ps);
     var color=function(f){if(f.meses<12)return "background:var(--qna);color:var(--ink)";var t=hi>lo?(f.prom-lo)/(hi-lo):1,i=Math.min(4,Math.floor(t*4.999))+1;
       return "background:var(--q"+i+");color:"+(OBAQ.isDark()?(i>=4?"#111":"#eee"):(i>=4?"#fff":"#13201A"))};
-    var o=filas.map(function(f){return '<div class="hrow"><span class="lab">'+esc(f.n)+'</span><div class="track"><div class="fill" style="width:'+(100*f.prom/mx).toFixed(1)+'%;'+color(f)+'">'+nf(f.prom)+(f===alto?" · el más alto":"")+"</div></div></div>"}).join("");
+    var o=filas.map(function(f){return '<div class="hrow"><span class="lab">'+esc(f.n)+'</span><div class="track"><div class="fill" style="width:'+(100*f.prom/mx).toFixed(1)+'%;'+color(f)+'">'+promF(f.prom)+(f===alto?" · el más alto":"")+"</div></div></div>"}).join("");
     $("gob-graf").innerHTML='<div class="gob">'+o+"</div>";
     $("gob-tabla").innerHTML='<table class="tabla gobt"><thead><tr><th>Periodo</th><th class="n hm">Meses con datos</th><th class="n hm">Casos</th><th class="n">Promedio mensual</th><th class="n">Frente al periodo anterior</th></tr></thead><tbody>'+
-      filas.map(function(f,i){var parcial=f.meses<f.total;return "<tr"+(parcial?' class="parcial"':"")+"><td>"+esc(f.n)+(parcial?' <small class="rango">· '+etiqueta(f.desde)+" a "+etiqueta(f.hasta)+"</small>":"")+'</td><td class="n hm">'+f.meses+" de "+f.total+'</td><td class="n hm">'+nf(f.suma)+'</td><td class="n'+(f===alto?" top":"")+'"><b>'+nf(f.prom)+'</b></td><td class="n">'+(i?varHtml(pct(f.prom,filas[i-1].prom)):"—")+"</td></tr>"}).join("")+"</tbody></table>";
-    $("gob-sub").textContent=nomSel()+" en "+(st.muni||"el área metropolitana")+", promedio de casos por mes en cada periodo de la "+P.nombre+". El color va de amarillo (promedio más bajo) a rojo oscuro (más alto) entre los periodos con al menos 12 meses de datos; en gris, los que tienen menos.";
+      filas.map(function(f,i){var parcial=f.meses<f.total;return "<tr"+(parcial?' class="parcial"':"")+"><td>"+esc(f.n)+(parcial?' <small class="rango">· '+etiqueta(f.desde)+" a "+etiqueta(f.hasta)+"</small>":"")+'</td><td class="n hm">'+f.meses+" de "+f.total+'</td><td class="n hm">'+nf(f.suma)+'</td><td class="n'+(f===alto?" top":"")+'"><b>'+promF(f.prom)+'</b></td><td class="n">'+(i?varHtml(pct(f.prom,filas[i-1].prom)):"—")+"</td></tr>"}).join("")+"</tbody></table>";
+    $("gob-sub").textContent=nomSel()+" en "+(st.muni||"el área metropolitana")+", promedio de casos por mes en cada periodo de la"+(P.nombre.charAt(0)==="a"?"s ":" ")+P.nombre+". El color va de amarillo (promedio más bajo) a rojo oscuro (más alto) entre los periodos con al menos 12 meses de datos; en gris, los que tienen menos.";
     $("gob-nota").textContent=(P.nota?P.nota+" ":"")+"El promedio mensual permite comparar periodos de distinta duración, pero no mide por sí solo el efecto de un gobierno: también cambian la población, la denuncia (por ejemplo, la denuncia virtual) y la forma de registrar.";
   }
 
