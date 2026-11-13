@@ -50,6 +50,11 @@
     "lon": -74.80778,
     "nombre_osm": "Los Cedros, Soledad, Atlántico, RAP Caribe, Colombia"
   },
+  "mesolandia|Malambo": {
+    "lat": 10.88704,
+    "lon": -74.76679,
+    "nombre_osm": "Mesolandia, Malambo, Atlántico, RAP Caribe, Colombia"
+  },
   "san isidro|Barranquilla": {
     "lat": 10.97028,
     "lon": -74.79435,
@@ -66,5 +71,10 @@
     "lon": -74.79137,
     "nombre_osm": "Villa Cecilia, Soledad, Atlántico, RAP Caribe, 083001, Colombia"
   },
-  "villa maria|Barranquilla": null
+  "villa maria|Barranquilla": null,
+  "villa soledad|Soledad": {
+    "lat": 10.9115,
+    "lon": -74.79152,
+    "nombre_osm": "Villa Soledad, Soledad, Atlántico, RAP Caribe, 083010, Colombia"
+  }
 }
