@@ -2,7 +2,8 @@
    Cada bloque con [data-compartir] recibe un botón. La imagen lleva el gráfico,
    el delito y el municipio elegidos, la fuente y la dirección del sitio. */
 (function(){
-  var ICONO='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 14v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5"/></svg>';
+  // Ícono de compartir al estilo iOS: flecha que sale de una caja abierta.
+  var ICONO='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.8v11.4M8.3 6.4 12 2.8l3.7 3.6M8.6 9.6H7a2 2 0 0 0-2 2v7.6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7.6a2 2 0 0 0-2-2h-1.6"/></svg>';
   var lib=null,tactil=window.matchMedia&&window.matchMedia("(pointer:coarse)").matches;
 
   function cargar(){
@@ -44,25 +45,24 @@
 
   function compartir(bloque,btn){
     var h=bloque.querySelector("h2"),titulo=h?h.textContent.trim():"Gráfico",C=window.OBAQ&&OBAQ.captura;
-    var nombre="observatorio-baq-"+slug(titulo+(C?"-"+C.contexto():""))+".png",txt=btn.lastChild.textContent;
-    btn.disabled=true;btn.lastChild.textContent="Preparando…";
+    var nombre="observatorio-baq-"+slug(titulo+(C?"-"+C.contexto():""))+".png";
+    btn.disabled=true;btn.setAttribute("aria-busy","true");
     var caja=null;
     cargar().then(function(H){
       caja=armar(bloque);
-      var bg=getComputedStyle(document.body).backgroundColor,opc={pixelRatio:2,backgroundColor:bg,style:{position:"static",left:"0",top:"0"}};
+      var bg=getComputedStyle(caja).backgroundColor,opc={pixelRatio:2,backgroundColor:bg,style:{position:"static",left:"0",top:"0"}};
       return H.toBlob(caja,opc).catch(function(){opc.skipFonts=true;return H.toBlob(caja,opc)});
     }).then(function(blob){if(!blob)throw new Error("imagen vacía");return entregar(blob,nombre,titulo)})
-    .catch(function(e){alerta(btn,"No se pudo crear la imagen ("+e.message+").")})
-    .then(function(){if(caja)caja.remove();btn.disabled=false;btn.lastChild.textContent=txt});
+    .catch(function(e){aviso("No se pudo crear la imagen ("+e.message+").")})
+    .then(function(){if(caja)caja.remove();btn.disabled=false;btn.removeAttribute("aria-busy")});
   }
-  function alerta(btn,m){var p=document.createElement("span");p.className="comp-err";p.textContent=m;btn.after(p);setTimeout(function(){p.remove()},6000)}
+  function aviso(m){var p=document.createElement("div");p.className="comp-aviso";p.setAttribute("role","status");p.textContent=m;document.body.appendChild(p);setTimeout(function(){p.remove()},5000)}
 
   [].forEach.call(document.querySelectorAll("[data-compartir]"),function(b){
     var btn=document.createElement("button");btn.type="button";btn.className="comp";
-    btn.innerHTML=ICONO+"<span>"+(tactil?"Compartir imagen":"Descargar imagen")+"</span>";
-    btn.title="Guarda este gráfico como imagen para redes sociales";
+    var et=tactil?"Compartir este gráfico como imagen":"Descargar este gráfico como imagen";
+    btn.innerHTML=ICONO;btn.title=et;btn.setAttribute("aria-label",et);
     btn.onclick=function(){compartir(b,btn)};
-    var como=b.querySelector(":scope > .como");
-    if(como)como.before(btn);else b.appendChild(btn);
+    b.classList.add("con-comp");b.insertBefore(btn,b.firstChild);
   });
 })();
