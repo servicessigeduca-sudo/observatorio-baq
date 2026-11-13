@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="estilos.css?v=20261113b">
+<link rel="stylesheet" href="estilos.css?v=20261113c">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -60,8 +60,11 @@
   <p class="sub">Escribe un barrio o un municipio del área metropolitana para ver sus casos recientes, la tendencia y cómo se compara con el promedio.</p>
   <form class="buscador" id="buscar" role="search" onsubmit="return false">
     <label for="q" class="saltar" style="position:absolute;left:-9999px">Barrio o municipio</label>
-    <input id="q" list="lugares" autocomplete="off" placeholder="Por ejemplo: Rebolo, La Paz, Soledad" aria-describedby="q-ayuda">
-    <datalist id="lugares"></datalist>
+    <div class="caja-q">
+      <svg class="lupa" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M16 16l4.5 4.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      <input id="q" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="lista-q" autocomplete="off" spellcheck="false" placeholder="Barrio o municipio" aria-describedby="q-ayuda">
+      <ul class="lista-q" id="lista-q" role="listbox" aria-label="Sugerencias" hidden></ul>
+    </div>
   </form>
   <p class="fuente" id="q-ayuda">Los barrios con al menos un homicidio registrado en 2026 o un caso en la prensa.</p>
   <div class="sug" id="sug"></div>
@@ -102,9 +105,9 @@
   <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261113b"></script>
+<script src="comun.js?v=20261113c"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="datos.js?v=20261113b"></script>
+<script src="datos.js?v=20261113c"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc,D={};
@@ -139,7 +142,7 @@
     D.lugares=L;
     var nombres={};Object.keys(L).forEach(function(k){var x=L[k];nombres[x.tipo==="barrio"?x.nombre+" ("+x.municipio+")":x.nombre]=k});
     D.nombres=nombres;
-    $("lugares").innerHTML=Object.keys(nombres).sort(function(a,b){return a.localeCompare(b,"es")}).map(function(n){return '<option value="'+esc(n)+'">'}).join("");
+    D.claves=Object.keys(nombres).map(function(n){var x=L[nombres[n]],t=0;for(var m in x.mes)t+=x.mes[m];return {n:n,k:nombres[n],s:sinTilde(x.nombre),t:t+x.prensa.length,mun:x.tipo==="municipio"}});
     // Promedio por barrio en cada municipio (barrios con al menos un homicidio registrado)
     var prom={};Object.keys(L).forEach(function(k){var x=L[k];if(x.tipo!=="barrio")return;var t=0;for(var m in x.mes)t+=x.mes[m];if(!t)return;var p=prom[x.municipio]=prom[x.municipio]||{t:0,n:0};p.t+=t;p.n++});
     D.prom=prom;
@@ -173,8 +176,24 @@
   function tarjeta(c){return '<article class="tarjeta"><div class="cab"><span class="tag"><i style="background:var(--c-'+c.grupo+')"></i>'+esc(O.TIPOS[c.grupo]||c.tipo)+'</span><span>'+O.mes(c.mes)+'</span></div><div class="lugar">'+esc(c.barrio||c.municipio||"Sin lugar identificado")+'</div><p>'+esc(c.resumen)+'</p><div class="medios">'+c.medios.map(function(m){return '<a href="'+esc(m.url)+'" target="_blank" rel="noopener">'+esc(m.medio)+" ↗</a>"}).join("")+'</div><span class="etq'+(c.revisado?" ok":"")+'">'+(c.revisado?"Revisado":"Sin revisar")+"</span></article>"}
   O.tarjeta=tarjeta;
 
-  $("q").addEventListener("change",function(){var k=D.nombres&&D.nombres[this.value];if(k)ficha(k);else if(this.value)ficha(null)});
-  $("q").addEventListener("keydown",function(e){if(e.key==="Enter"){var v=this.value.toLowerCase(),k=D.nombres&&(D.nombres[this.value]||D.nombres[Object.keys(D.nombres).filter(function(n){return n.toLowerCase().indexOf(v)===0})[0]]);ficha(k||null)}});
+  // Sugerencias propias (más compactas que la lista del navegador): hasta 6, primero las que empiezan igual.
+  function sinTilde(t){return String(t).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
+  var q=$("q"),lista=$("lista-q"),act=-1,res=[];
+  function cerrar(){lista.hidden=true;q.setAttribute("aria-expanded","false");q.removeAttribute("aria-activedescendant");act=-1}
+  function elegir(r){q.value=r.n;cerrar();ficha(r.k)}
+  function sugerir(){var v=sinTilde(q.value.trim());if(!v||!D.claves){cerrar();return}
+    res=D.claves.filter(function(c){return c.s.indexOf(v)>=0}).sort(function(a,b){var pa=a.s.indexOf(v)===0?0:1,pb=b.s.indexOf(v)===0?0:1;return pa-pb||b.mun-a.mun||b.t-a.t||a.n.localeCompare(b.n,"es")}).slice(0,6);
+    act=-1;
+    lista.innerHTML=res.length?res.map(function(r,i){var x=D.lugares[r.k];return '<li role="option" id="op-'+i+'" data-i="'+i+'"><span>'+esc(x.nombre)+'</span><small>'+(x.tipo==="barrio"?esc(x.municipio):"Municipio")+"</small></li>"}).join(""):'<li class="vacio" aria-disabled="true">Sin coincidencias</li>';
+    lista.hidden=false;q.setAttribute("aria-expanded","true")}
+  function marcar(){[].forEach.call(lista.children,function(li,i){li.setAttribute("aria-selected",i===act)});if(act>=0)q.setAttribute("aria-activedescendant","op-"+act)}
+  q.addEventListener("input",sugerir);q.addEventListener("focus",function(){if(q.value)sugerir()});
+  q.addEventListener("keydown",function(e){
+    if(e.key==="ArrowDown"||e.key==="ArrowUp"){if(lista.hidden)sugerir();if(!res.length)return;e.preventDefault();act=(act+(e.key==="ArrowDown"?1:-1)+res.length)%res.length;marcar()}
+    else if(e.key==="Enter"){e.preventDefault();if(res.length)elegir(res[act<0?0:act]);else if(q.value)ficha(null)}
+    else if(e.key==="Escape")cerrar()});
+  lista.addEventListener("mousedown",function(e){var li=e.target.closest("li[data-i]");if(li){e.preventDefault();elegir(res[+li.getAttribute("data-i")])}});
+  q.addEventListener("blur",function(){setTimeout(cerrar,120)});
 
   // Mapa de vista previa
   var map=O.mapa("map",{zoom:false,zoomInicial:11.5});map.dragging.disable();map.touchZoom.disable();map.doubleClickZoom.disable();map.boxZoom.disable();map.keyboard.disable();
