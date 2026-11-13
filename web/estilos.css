@@ -348,3 +348,101 @@ footer .in{padding-block:8px 32px}
   .tabla.gobt{min-width:0}.tabla.gobt .hm{display:none}
   .tabla.gobt td:first-child{min-width:0}
 }
+
+[hidden]{display:none!important}
+/* ===== Rediseño 2026-11: navegación de seis secciones, portada, mapa, informes ===== */
+.saltar{position:absolute;left:-9999px;top:8px;z-index:1000;background:var(--primary);color:var(--primary-ink);padding:10px 14px;border-radius:10px;font-weight:700}
+.saltar:focus{left:12px}
+.top nav{gap:4px 18px}
+.estado{padding:18px 0;color:var(--muted);font-size:15px}
+.estado.error{color:var(--hot);font-weight:600}
+.estado.cargando::before{content:"";display:inline-block;width:12px;height:12px;margin-right:8px;border-radius:50%;border:2px solid var(--line);border-top-color:var(--primary);animation:giro .8s linear infinite;vertical-align:-1px}
+.fuente{font-size:13px;color:var(--muted);margin-top:10px;max-width:80ch}
+.fuente b{color:var(--ink);font-weight:600}
+.etq{display:inline-block;font:700 11.5px var(--f-sans);letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:999px;background:var(--fill);color:var(--muted);vertical-align:middle}
+.etq.inc{background:color-mix(in srgb,var(--flag-y) 30%,transparent);color:var(--ink)}
+.etq.ok{background:color-mix(in srgb,var(--primary) 16%,transparent);color:var(--primary)}
+
+/* Titular de datos */
+.titular{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:32px;align-items:end}
+.titular h1{font-size:clamp(24px,3.2vw,36px)}
+.titular .cifra{font-size:clamp(56px,9vw,96px);font-weight:800;line-height:1;letter-spacing:-.04em;font-variant-numeric:tabular-nums;color:var(--primary)}
+.titular .linea{font-size:17px;margin-top:12px;max-width:52ch}
+.titular .act{font-size:13px;color:var(--muted);margin-top:14px}
+.tipos{display:flex;flex-direction:column;gap:6px}
+.tipos .hrow{cursor:default;grid-template-columns:96px minmax(0,1fr)}
+.tipos .hrow .track{height:24px}
+
+/* Buscador */
+.buscador{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.buscador input{flex:1 1 260px;min-width:0;font:600 17px var(--f-sans);padding:13px 16px;border-radius:14px;border:0;background:var(--fill);color:var(--ink)}
+.buscador input::placeholder{color:var(--muted);font-weight:500}
+.ficha{margin-top:20px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.ficha .kpi b{font-size:30px}
+.ficha .ancho{grid-column:1/-1}
+.sug{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.sug button{font:600 13px var(--f-sans);border:0;background:var(--fill);color:var(--ink);padding:7px 12px;border-radius:999px;cursor:pointer}
+.spark svg{width:100%;height:auto;display:block}
+
+/* Tarjetas de casos */
+.tarjetas{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-top:14px}
+.tarjeta{background:var(--band);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;font-size:14.5px}
+.tarjeta .cab{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+.tarjeta .lugar{font-weight:700;font-size:16px}
+.tarjeta .medios{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13.5px}
+.tarjeta .medios a{color:var(--primary);font-weight:600}
+.paginacion{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:16px;font-size:14px;color:var(--muted)}
+.paginacion button{font:600 14px var(--f-sans);border:0;background:var(--fill);color:var(--ink);padding:8px 14px;border-radius:999px;cursor:pointer}
+.paginacion button:disabled{opacity:.4;cursor:default}
+
+/* Mapa con filtros */
+.explorar{display:grid;grid-template-columns:260px minmax(0,1fr);gap:20px;align-items:start}
+.panel{display:flex;flex-direction:column;gap:14px}
+.panel label{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:600;color:var(--muted)}
+.panel select{width:100%}
+.panel .fila{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.gesto{position:absolute;inset:0;z-index:600;display:grid;place-items:center;background:rgba(0,0,0,.45);color:#fff;font:700 16px var(--f-sans);text-align:center;padding:20px;opacity:0;pointer-events:none;transition:opacity .25s}
+.gesto.on{opacity:1}
+.zlab{font:700 12px var(--f-sans);color:#1C1C1E;text-align:center;line-height:20px;text-shadow:0 0 3px rgba(255,255,255,.9)}
+.zlab.osc{color:#fff;text-shadow:0 0 3px rgba(0,0,0,.6)}
+.vista{display:inline-flex}
+#map.alto{height:640px}
+.mapa-mini{height:340px!important}
+.leg .fija{font-size:11.5px;color:var(--muted);margin-top:6px;max-width:190px;line-height:1.35}
+.leg .grad{height:12px;border-radius:6px;background:linear-gradient(90deg,#FFF4C7,#FCD45E,#F2A033,#DE5B25,#AD1F18);margin:6px 0 2px}
+.leg .gradl{display:flex;justify-content:space-between;font-size:11.5px;color:var(--muted)}
+
+/* Informes */
+.archivo{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.archivo a{font:600 13.5px var(--f-sans);text-decoration:none;padding:7px 12px;border-radius:999px;background:var(--fill)}
+.archivo a[aria-current="page"]{background:var(--primary);color:var(--primary-ink)}
+.lista-lim{margin:8px 0 0;padding-left:20px;color:var(--muted);font-size:15px}
+.lista-lim li+li{margin-top:6px}
+.resumen-txt{font-size:18px;max-width:64ch}
+.resumen-txt p+p{margin-top:10px}
+
+/* Metodología: diccionario, cita, preguntas frecuentes */
+.cita{background:var(--band);border-radius:14px;padding:14px 16px;font-size:14.5px;font-family:var(--f-mono);word-break:break-word}
+.faq details{border-bottom:.5px solid var(--line);padding:14px 0}
+.faq summary{font-weight:700;cursor:pointer;font-size:16.5px}
+.faq details p{margin-top:8px;color:var(--muted);max-width:75ch}
+.dicc h3{font-size:17px;margin:20px 0 4px}
+.dicc table{min-width:0}
+
+@media (max-width:880px){
+  .titular,.explorar{grid-template-columns:minmax(0,1fr)}
+  .ficha{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:620px){
+  .ficha{grid-template-columns:minmax(0,1fr)}
+  #map.alto{height:460px}
+  .mapa-mini{height:260px!important}
+  .panel .fila{grid-template-columns:1fr 1fr}
+  .tarjetas{grid-template-columns:minmax(0,1fr)}
+  .tablewrap.cartas table{min-width:0}
+  .tablewrap.cartas thead{display:none}
+  .tablewrap.cartas tr{display:block;background:var(--band);border-radius:14px;padding:10px 12px;margin-bottom:8px}
+  .tablewrap.cartas td{display:flex;justify-content:space-between;gap:12px;border:0;padding:3px 0}
+  .tablewrap.cartas td::before{content:attr(data-k);color:var(--muted);font-size:12.5px;font-weight:600}
+}
+@media (prefers-reduced-motion:reduce){.estado.cargando::before{animation:none}.gesto{transition:none}}

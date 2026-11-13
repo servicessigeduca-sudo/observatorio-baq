@@ -6,7 +6,8 @@ publicar, cada celda pequeña se une con la celda vecina que tenga menos casos
 una celda no tiene vecinas con casos a menos de 1,2 km, no se publica en la
 cuadrícula: sigue contando en las cifras del barrio y del municipio.
 
-La misma regla está en web/datos.js para que el mapa la aplique con filtros.
+Las zonas se calculan con todo el periodo; con filtros, el mapa muestra «menos de 3»
+cuando una zona queda con 1 o 2 casos.
 """
 
 from __future__ import annotations
