@@ -38,7 +38,7 @@ En `data/casos.json`, cambia el `estado` de un caso a `publicado` (revisado) o `
 
 ## Página web
 
-`web/` tiene una página por sección (`index.html`, `mapa.html`, `informes.html`, `estadisticas.html`, `prensa-oficial.html`, `metodologia.html`), los estilos comunes (`estilos.css`), el cambio de tema (`comun.js`), las utilidades de datos, mapa y gráficos (`datos.js`) y los gráficos de estadísticas (`estadisticas.js`). La única librería es Leaflet 1.9.4 por CDN, con el mapa base de CARTO (datos de OpenStreetMap). Las páginas leen `data/publico/` (nunca `data/casos.json`, que tiene titulares) y `data/oficiales.json`.
+`web/` tiene una página por sección (`index.html`, `mapa.html`, `informes.html`, `estadisticas.html`, `prensa-oficial.html`, `metodologia.html`), los estilos comunes (`estilos.css`), el cambio de tema (`comun.js`), las utilidades de datos, mapa y gráficos (`datos.js`) y los gráficos de estadísticas (`estadisticas.js`). La única librería es Leaflet 1.9.4 por CDN, con el mapa base gris de Esri. Las páginas leen `data/publico/` (nunca `data/casos.json`, que tiene titulares) y `data/oficiales.json`.
 
 El flujo **Página** ubica los barrios con Nominatim (máximo una consulta por segundo, con caché en `data/geocodigos.json`) y publica en GitHub Pages cada vez que cambian los datos en `main` y después de cada corrida del scraper. Para activarlo una sola vez: **Settings → Pages → Source: GitHub Actions**.
 

@@ -53,10 +53,10 @@
     var base=null,ref=null;
     function teselas(){
       if(base)map.removeLayer(base);if(ref)map.removeLayer(ref);
-      // Mapa base de CARTO (datos de OpenStreetMap), de uso libre no comercial con atribución.
-      var tono=O.isDark()?"dark":"light",u="https://{s}.basemaps.cartocdn.com/"+tono;
-      base=L.tileLayer(u+"_nolabels/{z}/{x}/{y}{r}.png",{maxZoom:18,subdomains:"abcd",attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'}).addTo(map);
-      ref=L.tileLayer(u+"_only_labels/{z}/{x}/{y}{r}.png",{maxZoom:18,subdomains:"abcd",pane:"etiquetas"}).addTo(map);
+      // Mapa base gris de Esri (claro u oscuro) con nombres de calles encima. No pide clave.
+      var tono=O.isDark()?"Dark":"Light",u="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_"+tono+"_Gray_";
+      base=L.tileLayer(u+"Base/MapServer/tile/{z}/{y}/{x}",{maxZoom:16,attribution:'Mapa base &copy; <a href="https://www.esri.com/">Esri</a>, HERE, Garmin, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
+      ref=L.tileLayer(u+"Reference/MapServer/tile/{z}/{y}/{x}",{maxZoom:16,pane:"etiquetas"}).addTo(map);
     }
     teselas();O.alCambiarTema(teselas);
     return map;
