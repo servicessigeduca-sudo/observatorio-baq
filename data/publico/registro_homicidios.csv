@@ -154,9 +154,8 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-02,Soledad,Soledad,Villa Sol,h003,Hombre,Sicariato,1
 2026-02,Soledad,Soledad,Villa Zambrano,h090,Hombre,Sicariato,1
 2026-02,Soledad,Soledad,Vista Hermosa,h027,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Vista Hermosa,h045,Hombre,Sicariato,1
+2026-02,Soledad,Soledad,Vista Hermosa,h045,Hombre,Sicariato,2
 2026-02,Soledad,Soledad,Vista Hermosa,h183,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Vista Hermoso,h045,Hombre,Sicariato,1
 2026-03,Barranquilla,Metropolitana,7 de Abril,h041,Hombre,Sicariato,2
 2026-03,Barranquilla,Metropolitana,Carrizal,h010,Hombre,Sicariato,1
 2026-03,Barranquilla,Metropolitana,Carrizal,h171,Hombre,Sicariato,1
@@ -166,7 +165,7 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-03,Barranquilla,Metropolitana,La Sierrita,h115,Hombre,Sicariato,1
 2026-03,Barranquilla,Metropolitana,Las Americas,h004,Hombre,Sicariato,1
 2026-03,Barranquilla,Metropolitana,Santa Maria,h009,Hombre,Sicariato,1
-2026-03,Barranquilla,Metropolitana,Santodomingo,h018,Hombre,Sicariato,1
+2026-03,Barranquilla,Metropolitana,Santo Domingo,h018,Hombre,Sicariato,1
 2026-03,Barranquilla,Metropolitana,Santuario,h108,Hombre,Sicariato,1
 2026-03,Barranquilla,Metropolitana,Santuario,h185,Hombre,Sicariato,1
 2026-03,Barranquilla,Metropolitana,Villa Sevilla,h015,Hombre,Sicariato,1
@@ -189,7 +188,7 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-03,Barranquilla,Suroccidente,Lucero,h205,Hombre,Sicariato,1
 2026-03,Barranquilla,Suroccidente,Olivos 1,h012,Hombre,Sicariato,1
 2026-03,Barranquilla,Suroccidente,Pinar del Rio,,Hombre,Riña,1
-2026-03,Barranquilla,Suroccidente,Santodomingo,h178,Hombre,Sicariato,1
+2026-03,Barranquilla,Suroccidente,Santo Domingo,h178,Hombre,Sicariato,1
 2026-03,Barranquilla,Suroccidente,Villacordialidad,h017,Hombre,Sicariato,1
 2026-03,Barranquilla,Suroriente,Bella Arena,h108,Hombre,Riña,1
 2026-03,Barranquilla,Suroriente,Centro,h058,Hombre,Sicariato,1
@@ -224,10 +223,10 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-03,Soledad,Soledad,Renacer,h158,Hombre,Sicariato,1
 2026-03,Soledad,Soledad,Villa Cameloth,h155,Hombre,Sicariato,1
 2026-03,Soledad,Soledad,Villa Estadio,h030,Hombre,Sicariato,1
+2026-03,Soledad,Soledad,Villa Katanga,h167,Hombre,Sicariato,1
 2026-03,Soledad,Soledad,Villa Santa,h013,Hombre,Riña,1
 2026-03,Soledad,Soledad,Villa Sol,h003,Hombre,Sicariato,3
 2026-03,Soledad,Soledad,Villa Soledad,h003,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Villakatanga,h167,Hombre,Sicariato,1
 2026-04,Barranquilla,Metropolitana,7 de Abril,h042,Hombre,Sicariato,1
 2026-04,Barranquilla,Metropolitana,7 de Abril,h102,Hombre,Sicariato,1
 2026-04,Barranquilla,Metropolitana,Carrizal,h010,Mujer,Sicariato,1
@@ -285,12 +284,12 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-04,Malambo,Malambo,Nueva Ilusion,h065,Hombre,Sicariato,1
 2026-04,Malambo,Malambo,Villa Bertha,h064,Hombre,Sicariato,1
 2026-04,Malambo,Malambo,Villa Esperanza,h063,Hombre,Sicariato,1
-2026-04,Malambo,Malambo,Villarica 2,h067,Hombre,Sicariato,1
+2026-04,Malambo,Malambo,Villa Rica 2,h067,Hombre,Sicariato,1
 2026-04,Puerto Colombia,Puerto Colombia,Sabanilla,,Hombre,Sicariato,1
 2026-04,Soledad,Soledad,Bello Horizonte,h157,Hombre,Sicariato,1
 2026-04,Soledad,Soledad,Ciudad Bonita,h032,Hombre,Sicariato,1
 2026-04,Soledad,Soledad,Costa Hermosa,h001,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,El Manaltial,h030,Hombre,Sicariato,1
+2026-04,Soledad,Soledad,El Manantial,h030,Hombre,Sicariato,1
 2026-04,Soledad,Soledad,Ferrocarril,h100,Hombre,Sicariato,1
 2026-04,Soledad,Soledad,Las Margaritas,h044,Hombre,Sicariato,1
 2026-04,Soledad,Soledad,Los Almendros,h032,Hombre,Sicariato,1
@@ -339,7 +338,7 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-05,Barranquilla,Suroccidente,Evaristo Sourdis,h054,Hombre,Sicariato,2
 2026-05,Barranquilla,Suroccidente,La Ceiba,h125,Hombre,Sicariato,1
 2026-05,Barranquilla,Suroccidente,La Esmeralda,h006,Hombre,Sicariato,2
-2026-05,Barranquilla,Suroccidente,Me Quejo,h208,Hombre,Sicariato,1
+2026-05,Barranquilla,Suroccidente,Mequejo,h208,Hombre,Sicariato,1
 2026-05,Barranquilla,Suroccidente,San Isidro,h205,Hombre,Sicariato,1
 2026-05,Barranquilla,Suroccidente,San Luis,h017,Hombre,Sicariato,1
 2026-05,Barranquilla,Suroccidente,Santo Domingo,h009,Hombre,Sicariato,1
@@ -360,7 +359,7 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-05,Malambo,Malambo,Bellavista,h150,Hombre,Sicariato,1
 2026-05,Malambo,Malambo,Cañahuate,h024,Hombre,Sicariato,1
 2026-05,Malambo,Malambo,Cañahuate,h026,Hombre,Sicariato,1
-2026-05,Malambo,Malambo,El Condcord,h074,Hombre,Sicariato,1
+2026-05,Malambo,Malambo,El Concord,h074,Hombre,Sicariato,1
 2026-05,Malambo,Malambo,El Paraiso,h025,Hombre,Sicariato,1
 2026-05,Malambo,Malambo,Malambo,h069,Hombre,Sicariato,1
 2026-05,Malambo,Malambo,Marquetalia,h150,Hombre,Sicariato,1
@@ -376,8 +375,8 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-05,Soledad,Soledad,Las Colmenas,h008,Hombre,Sicariato,1
 2026-05,Soledad,Soledad,Las Colonias,h090,Hombre,Sicariato,1
 2026-05,Soledad,Soledad,Las Moras,h095,Hombre,Sicariato,1
+2026-05,Soledad,Soledad,Las Nubes,h091,Hombre,Sicariato,1
 2026-05,Soledad,Soledad,Las Nubes,h091,Mujer,Sicariato,1
-2026-05,Soledad,Soledad,Las Nuebes,h091,Hombre,Sicariato,1
 2026-05,Soledad,Soledad,Los Almendros,h029,Hombre,Sicariato,1
 2026-05,Soledad,Soledad,Los Almendros,h036,Hombre,Sicariato,1
 2026-05,Soledad,Soledad,Los Cedros,h034,Hombre,Sicariato,2
@@ -439,7 +438,7 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-06,Barranquilla,Suroccidente,Los Olivos,h133,Hombre,Sicariato,1
 2026-06,Barranquilla,Suroccidente,Los Olivos,h133,Mujer,Sicariato,1
 2026-06,Barranquilla,Suroccidente,Los Pinos,h205,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,Me Quejo,h207,Hombre,Sicariato,2
+2026-06,Barranquilla,Suroccidente,Mequejo,h207,Hombre,Sicariato,2
 2026-06,Barranquilla,Suroccidente,Montes,h055,Hombre,Sicariato,1
 2026-06,Barranquilla,Suroccidente,Nueva Colombia,h204,Hombre,Sicariato,1
 2026-06,Barranquilla,Suroccidente,San Felipe,h134,Hombre,Sicariato,1
@@ -598,7 +597,7 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-07,Soledad,Soledad,Porvenir,h039,Hombre,Sicariato,1
 2026-07,Soledad,Soledad,Renacer,h086,Hombre,Sicariato,1
 2026-07,Soledad,Soledad,Salamanca,h044,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,San Vicentes,h080,Hombre,Sicariato,1
+2026-07,Soledad,Soledad,San Vicente,h080,Hombre,Sicariato,1
 2026-07,Soledad,Soledad,Villa Adela 2,h158,Hombre,Sicariato,1
 2026-07,Soledad,Soledad,Villa Belen,h079,Hombre,Sin dato,1
 2026-07,Soledad,Soledad,Villa Muvdi,h099,Hombre,Sicariato,1
@@ -635,9 +634,9 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-08,Barranquilla,Suroccidente,Las Malvinas,h190,Hombre,Sicariato,1
 2026-08,Barranquilla,Suroccidente,Los Corales- Sector las Cayenas,h057,Hombre,Sicariato,1
 2026-08,Barranquilla,Suroccidente,Los Olivos 2,h129,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Los Olivos Ii,h133,Hombre,Sicariato,1
+2026-08,Barranquilla,Suroccidente,Los Olivos 2,h133,Hombre,Sicariato,1
 2026-08,Barranquilla,Suroccidente,Los Rosales,h121,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Me Quejo,h207,Hombre,Sicariato,1
+2026-08,Barranquilla,Suroccidente,Mequejo,h207,Hombre,Sicariato,1
 2026-08,Barranquilla,Suroccidente,Nueva Colombia,h057,Hombre,Sicariato,1
 2026-08,Barranquilla,Suroccidente,Santa Maria,h009,Hombre,Sicariato,1
 2026-08,Barranquilla,Suroccidente,Villa Flor,h197,Hombre,Sicariato,1
@@ -654,7 +653,7 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-08,Barranquilla,Suroriente,Rebolo,h137,Hombre,Sicariato,1
 2026-08,Barranquilla,Suroriente,Rebolo,h196,Hombre,Sicariato,1
 2026-08,Barranquilla,Suroriente,San Roque,h002,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroriente,Simon Boliar,h109,Hombre,Sicariato,1
+2026-08,Barranquilla,Suroriente,Simon Bolivar,h109,Hombre,Sicariato,1
 2026-08,Galapa,Galapa,Villa Olimpica,h088,Hombre,Sicariato,1
 2026-08,Malambo,Malambo,Ciudadela Real del Caribe,h069,Hombre,Sicariato,1
 2026-08,Malambo,Malambo,Concord,h073,Hombre,Sicariato,1
@@ -673,14 +672,14 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-08,Soledad,Soledad,El Porvenir,h039,Hombre,Sicariato,1
 2026-08,Soledad,Soledad,El Triunfo,h173,Hombre,Sicariato,1
 2026-08,Soledad,Soledad,Ferrocarril,h105,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,La Arboledad,h104,Hombre,Sicariato,1
+2026-08,Soledad,Soledad,La Arboleda,h104,Hombre,Sicariato,1
 2026-08,Soledad,Soledad,Las Colonias,h035,Hombre,Sicariato,2
 2026-08,Soledad,Soledad,Las Ferias,h114,Hombre,Sicariato,1
 2026-08,Soledad,Soledad,Las Marinas,h105,Hombre,Por establecer,1
-2026-08,Soledad,Soledad,Lasc Moras,h162,Hombre,Sicariato,1
+2026-08,Soledad,Soledad,Las Moras,h162,Hombre,Sicariato,1
 2026-08,Soledad,Soledad,Los Manantiales,h082,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Los Mantiales,h089,Mujer,Sicariato,1
-2026-08,Soledad,Soledad,Los Mantiales,h159,Hombre,Sicariato,1
+2026-08,Soledad,Soledad,Los Manantiales,h089,Mujer,Sicariato,1
+2026-08,Soledad,Soledad,Los Manantiales,h159,Hombre,Sicariato,1
 2026-08,Soledad,Soledad,Manantial,h089,Hombre,Sicariato,1
 2026-08,Soledad,Soledad,Nuevo Exito,h103,Hombre,Sicariato,2
 2026-08,Soledad,Soledad,Nuevo Milenio,h083,Hombre,Sicariato,1
@@ -717,7 +716,7 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-09,Barranquilla,Norte-Centro Histórico,Ciudad Jardin,h022,Hombre,Sicariato,1
 2026-09,Barranquilla,Suroccidente,El Bosque,h122,Hombre,Sicariato,1
 2026-09,Barranquilla,Suroccidente,La Pradera,h021,Hombre,Sicariato,1
-2026-09,Barranquilla,Suroccidente,Santo Domino,h181,Hombre,Sicariato,1
+2026-09,Barranquilla,Suroccidente,Santo Domingo,h181,Hombre,Sicariato,1
 2026-09,Barranquilla,Suroriente,El Ferry,h001,Hombre,Sicariato,1
 2026-09,Barranquilla,Suroriente,La Alboraya,h019,Hombre,Sicariato,1
 2026-09,Barranquilla,Suroriente,La Alboraya,h019,Mujer,Sicariato,1
@@ -735,8 +734,7 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-09,Puerto Colombia,Puerto Colombia,Invasion Villa del Rosario,h020,Hombre,Sicariato,1
 2026-09,Soledad,Soledad,Ciudad Cortizo,h086,Hombre,Riña,1
 2026-09,Soledad,Soledad,Ciudad Paraiso,h075,Hombre,Sicariato,1
-2026-09,Soledad,Soledad,El Manaltial,h082,Hombre,Sicariato,1
-2026-09,Soledad,Soledad,El Manatial,h082,Hombre,Sicariato,1
+2026-09,Soledad,Soledad,El Manantial,h082,Hombre,Sicariato,2
 2026-09,Soledad,Soledad,Invasion Nueva Jerusalen,h046,Hombre,Sicariato,2
 2026-09,Soledad,Soledad,Juan Dominguez Romero,h092,Hombre,Sicariato,1
 2026-09,Soledad,Soledad,La Central,h013,Hombre,Sicariato,1
@@ -757,10 +755,10 @@ mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
 2026-10,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h179,Hombre,Sicariato,1
 2026-10,Barranquilla,Metropolitana,El Bosque,h116,Hombre,Sicariato,1
 2026-10,Barranquilla,Metropolitana,La Sierrita,h193,Hombre,Sicariato,1
-2026-10,Barranquilla,Metropolitana,Las America,h047,Hombre,Sicariato,1
+2026-10,Barranquilla,Metropolitana,Las Americas,h047,Hombre,Sicariato,1
 2026-10,Barranquilla,Metropolitana,Las Gardenias,h005,Hombre,Sicariato,1
 2026-10,Barranquilla,Metropolitana,Los Girasoles,h169,Hombre,Sicariato,1
-2026-10,Barranquilla,Metropolitana,Santo Domino,h111,Hombre,Sicariato,1
+2026-10,Barranquilla,Metropolitana,Santo Domingo,h111,Hombre,Sicariato,1
 2026-10,Barranquilla,Suroccidente,Caribe Verde,h117,Hombre,Sicariato,1
 2026-10,Barranquilla,Suroccidente,Cuchilla de Villate,h130,Hombre,Por establecer,1
 2026-10,Barranquilla,Suroccidente,El Bosque,h051,Hombre,Sicariato,1
