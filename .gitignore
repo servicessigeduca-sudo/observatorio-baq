@@ -4,3 +4,7 @@ __pycache__/
 .pytest_cache/
 .cache/
 _site/
+
+# Archivos originales con datos personales (capa de homicidios): nunca al repositorio
+privado/
+*query*.json

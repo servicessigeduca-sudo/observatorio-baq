@@ -38,11 +38,13 @@ jobs:
         run: |
           python -m casos --geocodificar --reporte reporte-casos.md > /dev/null
           cat reporte-casos.md >> "$GITHUB_STEP_SUMMARY"
-      - name: Guardar casos y ubicaciones
+      - name: Datos publicables (limpieza, privacidad, datos abiertos y copia fechada)
+        run: python -m publico
+      - name: Guardar casos, ubicaciones y datos publicables
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/casos.json data/geocodigos.json
+          git add data/casos.json data/geocodigos.json data/publico data/cortes
           git diff --cached --quiet && exit 0
           git commit -m "Ubicar casos en el mapa ($(date -u +%Y-%m-%dT%H:%MZ))"
           git push
@@ -51,6 +53,7 @@ jobs:
           mkdir -p _site/data
           cp web/* _site/
           cp data/casos.json _site/data/
+          cp -r data/publico _site/data/publico
           cp data/oficiales.json data/oficiales_mensual.csv _site/data/ 2>/dev/null || true
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
