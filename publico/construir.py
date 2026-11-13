@@ -273,7 +273,11 @@ def informes(internos, comp, registro, oficiales, hoy, inicio_prensa) -> tuple[l
         anterior = meses[i - 1] if i else None
         reg, reg_ant = total(mes, "registro"), total(anterior, "registro") if anterior else None
         of, pr = total(mes, "oficial"), total(mes, "prensa")
+        if not inicio_prensa or mes < _mes(inicio_prensa):
+            pr = None  # antes de la recolección diaria, la prensa no se puede comparar
         fuente_principal = "registro" if reg is not None else ("oficial" if of is not None else "prensa")
+        if reg is None and of is None and pr is None:
+            continue
         principal = {"registro": reg, "oficial": of, "prensa": pr}[fuente_principal]
         incompleto, motivos = False, []
         if mes >= _mes(hoy):
@@ -312,7 +316,7 @@ def informes(internos, comp, registro, oficiales, hoy, inicio_prensa) -> tuple[l
             "cifras": [x for x in [
                 {"etiqueta": "Homicidios (registro)", "valor": reg, "comparacion": _pct(reg, reg_ant) if reg is not None and reg_ant and not incompleto else None, "frente_a": nombre_mes(anterior) if anterior else None} if reg is not None else None,
                 {"etiqueta": "Homicidios (Policía, SIEDCO)", "valor": of, "comparacion": None, "frente_a": None} if of is not None else None,
-                {"etiqueta": "Homicidios en la prensa", "valor": pr, "comparacion": None, "frente_a": None},
+                {"etiqueta": "Homicidios en la prensa", "valor": pr, "comparacion": None, "frente_a": None} if pr is not None else None,
                 {"etiqueta": "Por sicariato", "valor": mods.get("Sicariato"), "comparacion": round(100 * mods["Sicariato"] / sum(mods.values())) if mods.get("Sicariato") else None, "frente_a": "% del total"} if mods else None,
             ] if x],
             "zonas": {"municipios": [{"nombre": m, "casos": n} for m, n in munis],

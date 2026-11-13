@@ -3,13 +3,26 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Estadísticas oficiales · Observatorio BAQ</title>
-<meta name="description" content="Delitos registrados por la Policía Nacional en Barranquilla y su área metropolitana desde el primer año disponible: tendencias, mapas de calor y comparaciones.">
+<title>Estadísticas oficiales de seguridad en Barranquilla · Observatorio BAQ</title>
+<meta name="description" content="Delitos registrados por la Policía Nacional en Barranquilla y su área metropolitana desde 2003: tendencias, mapas de calor, comparación por gobierno y perfil de las víctimas.">
+<link rel="canonical" href="https://servicessigeduca-sudo.github.io/observatorio-baq/estadisticas.html">
+<meta name="theme-color" content="#0B6B3A">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CO">
+<meta property="og:site_name" content="Observatorio BAQ">
+<meta property="og:title" content="Estadísticas oficiales de seguridad en Barranquilla · Observatorio BAQ">
+<meta property="og:description" content="Delitos registrados por la Policía Nacional en Barranquilla y su área metropolitana desde 2003: tendencias, mapas de calor, comparación por gobierno y perfil de las víctimas.">
+<meta property="og:url" content="https://servicessigeduca-sudo.github.io/observatorio-baq/estadisticas.html">
+<meta property="og:image" content="https://servicessigeduca-sudo.github.io/observatorio-baq/og.png">
+<meta property="og:image:alt" content="Observatorio BAQ: datos abiertos sobre seguridad en Barranquilla">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='6' fill='%23D3261C'/%3E%3Crect x='4' y='4' width='22' height='22' rx='3' fill='%23F6C200'/%3E%3Crect x='8' y='8' width='14' height='14' rx='2' fill='%230B6B3A'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
 <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
 <header class="top">
   <div class="in">
     <a class="logo" href="./" aria-label="Observatorio BAQ, inicio">
@@ -17,7 +30,7 @@
       Observatorio <span>BAQ</span>
     </a>
     <div class="right">
-      <nav aria-label="Principal"><a href="./">Mapa de prensa</a><a href="estadisticas.html" aria-current="page">Estadísticas oficiales</a><a href="metodologia.html">Metodología<span class="lg"> y datos</span></a></nav>
+      <nav aria-label="Principal"><a href="./">Inicio</a><a href="mapa.html">Mapa</a><a href="informes.html">Informes</a><a href="estadisticas.html" aria-current="page">Estadísticas oficiales</a><a href="prensa-oficial.html">Prensa vs. oficial</a><a href="metodologia.html">Metodología y datos</a></nav>
       <button type="button" class="theme" id="theme" aria-label="Cambiar a modo oscuro"></button>
     </div>
   </div>
@@ -28,6 +41,7 @@
   <a class="all" href="metodologia.html#datos">Datos abiertos →</a>
 </div></div>
 
+<main id="contenido">
 <section class="hero"><div class="in" style="grid-template-columns:minmax(0,1fr);padding-block:48px 32px">
   <div>
     <p class="crumb">Estadísticas oficiales · Policía Nacional</p>
@@ -122,7 +136,12 @@
   <a class="como" href="metodologia.html#calc-perfil">¿Cómo se calcula?</a>
 </div></section>
 
-<footer><div class="in"><span>Observatorio BAQ · Periodismo de datos abiertos sobre Barranquilla</span><span><a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span></div></footer>
+</main>
+
+<footer><div class="in">
+  <span>Observatorio BAQ · Datos abiertos sobre seguridad en Barranquilla y su área metropolitana · <a href="metodologia.html#licencia">Licencia CC BY 4.0 y cita sugerida</a></span>
+  <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
+</div></footer>
 
 <script src="comun.js"></script>
 <script src="estadisticas.js"></script>

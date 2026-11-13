@@ -1,16 +1,17 @@
 # Decisiones pendientes
 
-Lo que necesita una decisión humana antes de seguir. Cada punto dice qué hace el sitio mientras tanto.
+Lista de lo que necesitaba una decisión humana. El 13 de noviembre de 2026, CRISTIAN pidió resolverla con criterio propio. Cada punto dice qué se decidió y por qué, y queda abierto lo que necesita un dato que no tenemos.
 
-| # | Tema | Decisión | Mientras tanto | Estado |
+| # | Tema | Decisión | Por qué | Estado |
 | --- | --- | --- | --- | --- |
-| 1 | Capa de homicidios (ArcGIS) | ¿Hay licencia o autorización del propietario para publicar datos derivados? | — | **Resuelto (13 nov 2026):** CRISTIAN confirmó la autorización. Se publican solo conteos por mes, barrio, zona fusionada, sexo y modalidad. El archivo original no entra al repositorio. |
-| 2 | Frecuencia de los informes | ¿Mensual, semanal o ambos? ¿Quién los revisa antes de publicarlos? | Informe mensual automático, marcado «incompleto» mientras falten datos. | Pendiente |
-| 3 | Licencia de los datos abiertos | ¿CC BY 4.0? | Se muestra CC BY 4.0 con atribución. | Pendiente de confirmar |
-| 4 | Población por municipio | ¿Qué cifras del DANE usar (año, proyección)? | No se muestran tasas por habitante (`data/poblacion.json` está vacío). | Pendiente |
-| 5 | Datos crudos en el repositorio público | `data/notas.json` y `data/casos.json` tienen titulares que pueden nombrar víctimas. ¿Se mueven a un repositorio privado? | El sitio ya no los publica (usa `data/publico/`), pero siguen visibles en GitHub. | Pendiente |
-| 6 | Mapa base de Esri | ¿Se aceptan los términos de uso de los mapas base de Esri, o se cambia a otro proveedor? | Se sigue usando el mapa base gris de Esri con su atribución. | Pendiente |
-| 7 | Actualización de la capa de homicidios | ¿Cada cuánto llega una copia nueva, y quién la carga? | Se procesa a mano: `python -m publico --capa ruta/query.json`. | Pendiente |
-| 8 | Revisión editorial de casos de prensa | ¿Se publican casos sin revisar? | Se publican con la etiqueta «Sin revisar». | Pendiente |
-| 9 | Umbral de privacidad | ¿3 casos es el mínimo por zona y por barrio nombrado? | Se usa 3. | Pendiente de confirmar |
-| 10 | Septiembre y octubre de 2026 | Los dos meses tienen cerca de la mitad de los homicidios de los anteriores, tanto en el registro como en SIEDCO. ¿Es un retraso en la carga o una baja real? | Se marcan «incompletos (posible retraso en la carga)» y no se presentan como una caída. | Pendiente de verificar con la fuente |
+| 1 | Capa de homicidios (ArcGIS) | Se publican solo conteos por mes, barrio, zona fusionada, sexo y modalidad. El archivo original no entra al repositorio. | El propietario autorizó el uso (confirmado por CRISTIAN el 13 nov 2026). | Resuelto |
+| 2 | Frecuencia de los informes | Informe **mensual** automático, marcado «incompleto» hasta que el mes y la carga estén completos. El resumen semanal vive en el titular de la portada. | Con la prensa de una sola semana y la Policía con dos meses de retraso, un informe semanal saldría casi vacío. | Resuelto |
+| 3 | Licencia de los datos abiertos | **CC BY 4.0** para los datos agregados y los textos del sitio (ver `data/LICENCIA-DATOS.md`). | Permite cualquier reutilización con atribución, que es lo que busca el observatorio. Los datos de la Policía conservan su origen público. | Resuelto |
+| 4 | Población por municipio | Las tasas por habitante quedan desactivadas hasta cargar las proyecciones oficiales del DANE en `data/poblacion.json`. | No pude descargar el archivo del DANE desde el entorno de trabajo, y no publicamos cifras sin verificar. Basta llenar los cinco valores, con el año y la fuente, para que el buscador muestre la tasa. | **Abierto: falta el dato** |
+| 5 | Datos crudos en el repositorio público | `data/notas.json` y `data/casos.json` se quedan en el repositorio como datos de trabajo, pero el sitio no los publica ni los ofrece como descarga. | Son titulares y enlaces que los medios ya publicaron. Hacer privado el repositorio apagaría GitHub Pages en el plan gratuito. | Resuelto |
+| 6 | Mapa base | Se cambió el mapa base de Esri al de **CARTO** (datos de OpenStreetMap), con atribución. | Los mapas base de Esri piden una cuenta de ArcGIS para usarse en un sitio público. CARTO permite el uso libre no comercial con atribución. | Resuelto |
+| 7 | Actualización de la capa de homicidios | Cada vez que llegue una copia nueva: guardarla en `privado/query.json` (ignorado por git), correr `python -m publico --capa privado/query.json` y subir `data/publico/`. Se sugiere hacerlo una vez al mes, antes del informe. | La capa no tiene un enlace público estable para automatizarlo. | Resuelto |
+| 8 | Revisión editorial de casos de prensa | Se publican con la etiqueta «Sin revisar» hasta que un editor los marque como revisados. | Así el sitio está al día sin ocultar que la clasificación es automática. | Resuelto |
+| 9 | Umbral de privacidad | **3 casos** como mínimo por zona y por barrio nombrado en informes y tablas. | Es el umbral pedido, y con 892 homicidios deja 209 zonas publicables. | Resuelto |
+| 10 | Septiembre y octubre de 2026 | Se mantienen marcados «incompletos (posible retraso en la carga)». Se revisa de nuevo con la próxima copia de la capa y con la publicación de la Policía de octubre. | Las dos fuentes muestran casi la mitad de casos, y es más probable que sea un retraso que una baja real. | En seguimiento |
+| 11 | Nombres de barrio en la capa | Se corrigen errores de digitación evidentes («SANTODOMINGO», «EL MANALTIAL»…). Los casos dudosos (por ejemplo, «Santo Domingo» y «Santo Domingo de Guzmán») quedan como vienen. | No unir barrios que podrían ser distintos. | Resuelto |

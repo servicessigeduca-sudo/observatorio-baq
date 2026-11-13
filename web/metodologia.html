@@ -3,13 +3,26 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Metodología · Observatorio BAQ</title>
-<meta name="description" content="Cómo construye el Observatorio BAQ sus datos sobre delitos en Barranquilla, y dónde descargarlos.">
+<title>Metodología y datos abiertos · Observatorio BAQ</title>
+<meta name="description" content="Cómo construye el Observatorio BAQ sus datos sobre seguridad en Barranquilla: fuentes, privacidad, limpieza, cálculos, datos abiertos en CSV y JSON, licencia y preguntas frecuentes.">
+<link rel="canonical" href="https://servicessigeduca-sudo.github.io/observatorio-baq/metodologia.html">
+<meta name="theme-color" content="#0B6B3A">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CO">
+<meta property="og:site_name" content="Observatorio BAQ">
+<meta property="og:title" content="Metodología y datos abiertos · Observatorio BAQ">
+<meta property="og:description" content="Cómo construye el Observatorio BAQ sus datos sobre seguridad en Barranquilla: fuentes, privacidad, limpieza, cálculos, datos abiertos en CSV y JSON, licencia y preguntas frecuentes.">
+<meta property="og:url" content="https://servicessigeduca-sudo.github.io/observatorio-baq/metodologia.html">
+<meta property="og:image" content="https://servicessigeduca-sudo.github.io/observatorio-baq/og.png">
+<meta property="og:image:alt" content="Observatorio BAQ: datos abiertos sobre seguridad en Barranquilla">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='6' fill='%23D3261C'/%3E%3Crect x='4' y='4' width='22' height='22' rx='3' fill='%23F6C200'/%3E%3Crect x='8' y='8' width='14' height='14' rx='2' fill='%230B6B3A'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
 <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
 <header class="top">
   <div class="in">
     <a class="logo" href="./" aria-label="Observatorio BAQ, inicio">
@@ -17,21 +30,22 @@
       Observatorio <span>BAQ</span>
     </a>
     <div class="right">
-      <nav aria-label="Principal"><a href="./">Mapa de prensa</a><a href="estadisticas.html">Estadísticas oficiales</a><a href="metodologia.html" aria-current="page">Metodología<span class="lg"> y datos</span></a></nav>
+      <nav aria-label="Principal"><a href="./">Inicio</a><a href="mapa.html">Mapa</a><a href="informes.html">Informes</a><a href="estadisticas.html">Estadísticas oficiales</a><a href="prensa-oficial.html">Prensa vs. oficial</a><a href="metodologia.html" aria-current="page">Metodología y datos</a></nav>
       <button type="button" class="theme" id="theme" aria-label="Cambiar a modo oscuro"></button>
     </div>
   </div>
 </header>
 <div class="flag" aria-hidden="true"></div>
 <div class="subnav"><div class="in">
-  <div class="tabs"><a href="#prensa">Prensa</a><a href="#policia">Policía</a><a href="#calculos">Cómo calculamos</a><a href="#datos">Descargas</a></div>
+  <div class="tabs"><a href="#prensa">Prensa</a><a href="#registro">Registro</a><a href="#policia">Policía</a><a href="#privacidad">Privacidad</a><a href="#limpieza">Limpieza</a><a href="#calculos">Cálculos</a><a href="#datos">Descargas</a><a href="#preguntas">Preguntas</a></div>
 </div></div>
 
+<main id="contenido">
 <section class="hero"><div class="in" style="grid-template-columns:minmax(0,1fr)">
   <div>
     <p class="crumb">Metodología y datos</p>
     <h1>Cómo construimos estos datos</h1>
-    <p class="dek">El observatorio combina dos fuentes que miden cosas distintas: lo que publica la prensa local, caso por caso y con barrio, y lo que registra la Policía, completo pero solo por municipio.</p>
+    <p class="dek">El observatorio combina tres fuentes que miden cosas distintas: lo que publica la prensa local, caso por caso; el registro de homicidios de 2026, con ubicación; y lo que registra la Policía desde 2003, solo por municipio. Cada cifra del sitio dice de cuál fuente sale, cuál es su fecha de corte y qué no puede decir.</p>
   </div>
 </div></section>
 
@@ -39,14 +53,24 @@
   <p class="eyebrow">Fuente 1</p>
   <h2 style="font-size:clamp(24px,3vw,32px);margin-bottom:24px">Casos de la prensa</h2>
   <div class="method">
-    <div><h3>De dónde salen</h3><p>Un programa revisa cada día, a las 6:00 a. m., las secciones judiciales de Zona Cero, Diario La Libertad, Emisora Atlántico, Impacto News y CTV Barranquilla, respetando sus reglas de acceso. Guardamos titular, fecha, enlace y un resumen corto; la noticia completa siempre se lee en el medio original. El Heraldo y El Tiempo prohíben el scraping sin permiso escrito y no se incluyen.</p></div>
+    <div><h3>De dónde salen</h3><p>Un programa revisa cada día, a las 6:00 a. m., las secciones judiciales de Zona Cero, Diario La Libertad, Emisora Atlántico, Impacto News y CTV Barranquilla, respetando sus reglas de acceso. Guardamos titular, fecha, enlace y un resumen corto para clasificar cada nota, pero en el sitio no publicamos el titular (puede nombrar a la víctima): cada caso muestra un resumen escrito por nosotros y el enlace a la nota original. El Heraldo y El Tiempo prohíben el scraping sin permiso escrito y no se incluyen.</p></div>
     <div><h3>Cómo se ubican</h3><p>De cada noticia se extraen el tipo de delito y el barrio mencionado, y el barrio se ubica con OpenStreetMap. Si varios medios cubren el mismo hecho (mismo tipo, a 2 días o menos, mismo barrio o titulares muy parecidos), se cuenta una sola vez. Los casos sin barrio cuentan en las cifras pero no aparecen en el mapa.</p></div>
     <div><h3>Qué no muestran</h3><p>Este registro refleja lo que publica la prensa, no el total de delitos: los homicidios casi siempre son noticia, los hurtos casi nunca. La clasificación es automática y un editor la revisa; cada caso indica si ya fue revisado.</p></div>
   </div>
 </div></section>
 
-<section class="sec" id="policia"><div class="in">
+<section class="sec" id="registro"><div class="in">
   <p class="eyebrow">Fuente 2</p>
+  <h2 style="font-size:clamp(24px,3vw,32px);margin-bottom:24px">Registro de homicidios 2026</h2>
+  <div class="method">
+    <div><h3>De dónde sale</h3><p>Una capa de ArcGIS con cada homicidio del Atlántico desde el 1 de enero de 2026, con su ubicación. Su propietario autorizó publicar datos derivados. Usamos los registros de Barranquilla, Soledad, Malambo, Galapa y Puerto Colombia; los de otros municipios del departamento se descartan.</p></div>
+    <div><h3>Qué publicamos</h3><p>Solo conteos por mes, municipio, localidad, barrio, zona de cuadrícula, sexo de la víctima y modalidad. El archivo original, que tiene nombres, direcciones, horas y descripciones de los hechos, nunca sale del equipo ni entra al repositorio.</p></div>
+    <div><h3>Cuidados al leerlo</h3><p>El registro se actualiza cuando llega una copia nueva; la fecha de corte aparece en cada vista. Los meses recientes pueden estar incompletos por retraso en la carga: si un mes de los dos últimos tiene menos del 60 % de la mediana de los seis anteriores, se marca «incompleto» y no se presenta como una caída.</p></div>
+  </div>
+</div></section>
+
+<section class="sec" id="policia"><div class="in">
+  <p class="eyebrow">Fuente 3</p>
   <h2 style="font-size:clamp(24px,3vw,32px);margin-bottom:24px">Registros de la Policía Nacional</h2>
   <div class="method">
     <div><h3>De dónde salen</h3><p>La Policía publica en <a href="https://www.policia.gov.co/estadistica-delictiva">policia.gov.co/estadistica-delictiva</a> un archivo anual con un delito por fila (sistema SIEDCO). Cada mes descargamos los años 2020 a hoy y nos quedamos con Barranquilla, Soledad, Malambo, Galapa y Puerto Colombia. De 2010 a 2019 usamos los archivos por delito y año de su <a href="https://www.policia.gov.co/estadistica-delictiva-old">histórico</a>, que cubren los delitos de alto impacto. De 2003 a 2009 (y algunos años que faltan en el histórico) los datos vienen de consultas hechas directamente en SIEDCO; en los años en que coincide con los archivos públicos, las cifras son idénticas. La Policía no publicó algunos de esos archivos (por ejemplo, hurto a personas de 2017), y entre años puede haber cambios de criterio de registro, así que conviene leer los saltos bruscos con cuidado.</p></div>
@@ -54,6 +78,27 @@
     <div><h3>Cuidados al leerlos</h3><p>Son cifras provisionales hasta marzo del año siguiente y llegan con unos dos meses de retraso. Miden denuncias y registros, no todos los delitos: un aumento puede reflejar más denuncias. La media móvil de 12 meses suaviza la estacionalidad. Cuando falta el archivo de un delito en algún año, ese año aparece como «sin datos» y no como cero.</p></div>
     <div><h3>Comparar gobiernos</h3><p>Los promedios por periodo de Presidencia, Alcaldía o Gobernación dividen los casos entre los meses con datos de cada periodo, así que se pueden comparar periodos de distinta duración. El cambio de presidente es el 7 de agosto y ese mes se cuenta para el gobierno que entra. Los alcaldes de los cinco municipios tienen los mismos periodos (2001–2003 y cuatrienios desde 2004): con un municipio elegido se comparan los periodos de su alcaldía (con nombres solo para Barranquilla), y con el área metropolitana cada periodo suma los cinco municipios. Un promedio más alto no prueba por sí solo que un gobierno lo hizo peor: también cambian la población, la denuncia y la forma de registrar.</p></div>
   </div>
+</div></section>
+
+<section class="sec" id="privacidad"><div class="in">
+  <p class="eyebrow">Privacidad</p>
+  <h2 style="font-size:clamp(24px,3vw,32px);margin-bottom:24px">Qué no publicamos, y por qué no cambia el análisis</h2>
+  <div class="method">
+    <div><h3>Nada que identifique a una víctima</h3><p>No publicamos nombre, dirección exacta, descripción de los hechos ni hora. La fecha se muestra por mes y la ubicación por barrio o por zona de cuadrícula.</p></div>
+    <div id="cuadricula"><h3>Cuadrícula de 400 m con celdas fusionadas</h3><p>El área se divide en cuadros de 400 m. Un cuadro con menos de 3 casos en todo el periodo se une con el cuadro vecino que tenga menos casos, hasta que el grupo llega a 3. Un cuadro sin vecinos con casos a menos de 1,2 km no se dibuja: sigue contando en las cifras del barrio y del municipio. Con filtros, una zona puede quedar con 1 o 2 casos; se muestra como «&lt;3».</p></div>
+    <div id="calor"><h3>Mapa de calor en metros reales</h3><p>Cada zona aporta calor en un radio de 300 m reales, que se convierte a píxeles en cada nivel de zoom. La intensidad máxima es fija (10 casos), así que el mismo color significa lo mismo a cualquier escala. El calor parte del centro de la zona, nunca de la ubicación de un caso.</p></div>
+  </div>
+</div></section>
+
+<section class="sec" id="limpieza"><div class="in">
+  <p class="eyebrow">Calidad de datos</p>
+  <h2 style="font-size:clamp(24px,3vw,32px);margin-bottom:24px">Limpieza automática</h2>
+  <div class="method">
+    <div><h3>Nombres y categorías</h3><p>Corregimos municipios y localidades mal escritos («SOLEAD», «METRPOLITANA», «Pto. Colombia»), y agrupamos el sexo («MACULINO», «FEMANINO», «NO REPORTA») y la modalidad («SICARITO», «RILA», textos pegados en la columna) en pocas categorías estables. Lo que no se puede corregir queda como «Sin dato».</p></div>
+    <div><h3>Fechas</h3><p>El mes sale de la fecha y hora del hecho. Si el año o el mes digitados no coinciden con ella (por ejemplo, «20226»), se usa la fecha y el registro se marca para revisión. Los casos con fecha futura o imposible no se publican. Las notas de prensa con fecha del hecho posterior a la publicación se marcan.</p></div>
+    <div><h3>Copias fechadas</h3><p>Cada corrida guarda una copia del resumen y de los agregados en <code>data/cortes/AAAA-MM-DD.json</code>, para que cualquier análisis se pueda reproducir con los datos de ese día.</p></div>
+  </div>
+  <p class="fuente" id="calidad"></p>
 </div></section>
 
 <section class="sec" id="calculos"><div class="in">
@@ -68,6 +113,7 @@
     <div id="calc-gobiernos"><h3>Promedio por periodo de gobierno</h3><p>Casos del periodo ÷ meses del periodo con datos publicados. Así se comparan periodos de distinta duración o con años faltantes. La Presidencia cambia el 7 de agosto y ese mes se cuenta para el gobierno que entra; alcaldías y gobernaciones van de enero a diciembre. El color de las barras va de amarillo (promedio más bajo) a rojo oscuro (más alto) en cinco tramos iguales entre el mínimo y el máximo, solo entre periodos con al menos 12 meses de datos; los que tienen menos (como el gobierno en curso) salen en gris. Un promedio más alto no prueba por sí solo que un gobierno lo hizo peor.</p></div>
     <div id="calc-area"><h3>Barranquilla y el área</h3><p><b>Reparto por año</b>: casos de cada municipio ÷ casos de los cinco municipios × 100. <b>Parte de Barranquilla</b>: casos en Barranquilla en los últimos 12 meses ÷ casos del área en el mismo lapso, comparada con el primer año con datos de ese delito. En rojo, el delito con la mayor parte en Barranquilla entre los que tienen al menos 50 casos (con menos, un solo caso mueve mucho el porcentaje). <b>Por municipio</b>: últimos 12 meses frente a los 12 anteriores; en rojo, el municipio con más casos.</p></div>
     <div id="calc-perfil"><h3>Arma, género y edad</h3><p>Reparto de los casos de cada año entre los cinco valores más frecuentes en todo el periodo; el resto se agrupa en "Otros". Los grupos de edad (adultos, adolescentes, menores) son los de la Policía.</p></div>
+    <div id="comparacion"><h3>Prensa vs. oficial</h3><p>Por municipio, mes y delito: casos de prensa ÷ casos de la Policía. Solo se calcula en meses con recolección de prensa completa (desde el primer mes entero después de su inicio) y con cifras de la Policía publicadas. Hurto suma las seis categorías de hurto de la Policía.</p></div>
     <div id="calc-huecos"><h3>Años sin datos</h3><p>Si la Policía no publicó el archivo de un delito para un año, ese año se muestra como "sin datos" y no entra en sumas ni promedios: no se cuenta como cero. Las sumas de varios delitos ("Todos", "Hurtos") empiezan en el primer año que tiene datos de todos ellos. La categoría «Otros» (unas decenas de casos al año) solo existe desde 2020 y entra en «Todos» desde ese año.</p></div>
     <div id="calc-provisional"><h3>Cifras provisionales</h3><p>La Policía sigue cargando casos durante varios meses, así que los dos o tres últimos meses suelen verse más bajos de lo que serán. Las cifras se consideran definitivas en marzo del año siguiente. Cada mes volvemos a descargar todo, y los números de meses recientes pueden subir.</p></div>
   </div>
@@ -76,22 +122,77 @@
 <section class="sec" id="datos"><div class="in">
   <p class="eyebrow">Datos abiertos</p>
   <h2 style="font-size:clamp(24px,3vw,32px)">Descarga los datos</h2>
-  <p class="sub">Todos los archivos se actualizan solos y se pueden usar libremente citando al Observatorio BAQ y a las fuentes originales.</p>
-  <div class="tablewrap"><table>
-    <thead><tr><th>Archivo</th><th>Qué contiene</th><th>Formato</th></tr></thead>
+  <p class="sub">Datos agregados en CSV y JSON, actualizados solos. Cada archivo tiene su diccionario de variables abajo. <span id="corte"></span></p>
+  <div class="tablewrap cartas"><table class="tabla">
+    <thead><tr><th>Archivo</th><th>Qué contiene</th><th>Fuente</th></tr></thead>
     <tbody>
-      <tr><td><a href="data/oficiales_mensual.csv" download>oficiales_mensual.csv</a></td><td>Delitos registrados por la Policía por año, mes, municipio y tipo, desde 2003</td><td class="mono">CSV</td></tr>
-      <tr><td><a href="data/oficiales.json" download>oficiales.json</a></td><td>Lo mismo más día de la semana, arma o medio, género y edad</td><td class="mono">JSON</td></tr>
-      <tr><td><a href="data/casos.json" download>casos.json</a></td><td>Casos de la prensa: tipo, fecha, barrio, municipio, ubicación aproximada, medios y enlaces</td><td class="mono">JSON</td></tr>
-      <tr><td><a href="https://github.com/servicessigeduca-sudo/observatorio-baq/blob/main/data/notas.json">notas.json</a></td><td>Una entrada por noticia: medio, titular, fecha, enlace y resumen corto</td><td class="mono">JSON</td></tr>
+      <tr><td data-k="Archivo"><a href="data/publico/registro_homicidios.csv" download>registro_homicidios.csv</a></td><td data-k="Contiene">Homicidios de 2026 por mes, municipio, localidad, barrio, zona, sexo y modalidad</td><td data-k="Fuente">Registro de homicidios</td></tr>
+      <tr><td data-k="Archivo"><a href="data/publico/prensa_mensual.csv" download>prensa_mensual.csv</a></td><td data-k="Contiene">Casos de la prensa por mes, municipio, barrio, delito y modalidad</td><td data-k="Fuente">Prensa local</td></tr>
+      <tr><td data-k="Archivo"><a href="data/publico/prensa_vs_oficial.csv" download>prensa_vs_oficial.csv</a></td><td data-k="Contiene">Comparación por mes, municipio y delito</td><td data-k="Fuente">Las tres</td></tr>
+      <tr><td data-k="Archivo"><a href="data/oficiales_mensual.csv" download>oficiales_mensual.csv</a></td><td data-k="Contiene">Delitos registrados por la Policía por año, mes, municipio y tipo, desde 2003</td><td data-k="Fuente">Policía (SIEDCO)</td></tr>
+      <tr><td data-k="Archivo"><a href="data/publico/oficiales_perfil.csv" download>oficiales_perfil.csv</a></td><td data-k="Contiene">Sexo, edad y arma o medio por año, con valores normalizados</td><td data-k="Fuente">Policía (SIEDCO)</td></tr>
+      <tr><td data-k="Archivo"><a href="data/publico/registro.json" download>registro.json</a> · <a href="data/publico/prensa.json" download>prensa.json</a></td><td data-k="Contiene">Lo mismo en JSON, con las zonas de cuadrícula y los centros de barrio</td><td data-k="Fuente">Registro y prensa</td></tr>
+      <tr><td data-k="Archivo"><a href="data/oficiales.json" download>oficiales.json</a></td><td data-k="Contiene">Serie oficial completa: mes, día de la semana, arma, género y edad</td><td data-k="Fuente">Policía (SIEDCO)</td></tr>
+      <tr><td data-k="Archivo"><a href="data/publico/informes/index.json" download>informes/</a></td><td data-k="Contiene">Cada informe mensual en JSON</td><td data-k="Fuente">Las tres</td></tr>
     </tbody>
   </table></div>
-  <p class="sub">El código del observatorio es abierto: <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">github.com/servicessigeduca-sudo/observatorio-baq</a>.</p>
+  <div class="dicc" id="dicc"><p class="estado cargando">Cargando el diccionario de variables…</p></div>
 </div></section>
 
-<footer><div class="in"><span>Observatorio BAQ · Periodismo de datos abiertos sobre Barranquilla</span><span><a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span></div></footer>
+<section class="sec" id="licencia"><div class="in grid2 g11">
+  <div>
+    <p class="eyebrow">Licencia</p>
+    <h2 class="t">Úsalos libremente, citando la fuente</h2>
+    <p class="sub">Los datos se publican con licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons Atribución 4.0 (CC BY 4.0)</a>: puedes copiarlos, analizarlos y republicarlos, también con fines comerciales, citando al Observatorio BAQ y a la fuente original de cada dato (prensa, registro de homicidios o Policía Nacional). El código es abierto en <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">GitHub</a>. Texto completo: <a href="https://github.com/servicessigeduca-sudo/observatorio-baq/blob/main/data/LICENCIA-DATOS.md">LICENCIA-DATOS.md</a>.</p>
+  </div>
+  <div>
+    <h3 style="font-size:18px;margin-bottom:8px">Cita sugerida</h3>
+    <p class="cita" id="cita">Observatorio BAQ (2026). Datos abiertos sobre delitos en Barranquilla y su área metropolitana. https://servicessigeduca-sudo.github.io/observatorio-baq/</p>
+  </div>
+</div></section>
+
+<section class="sec faq" id="preguntas"><div class="in">
+  <p class="eyebrow">Preguntas frecuentes</p>
+  <h2 class="t" style="margin-bottom:8px">Preguntas frecuentes</h2>
+  <details><summary>¿Por qué las cifras de la prensa son más bajas que las de la Policía?</summary><p>Porque la prensa no cubre todos los casos. Los homicidios casi siempre llegan a las noticias; los hurtos y la extorsión, muchas veces no. La página «Prensa vs. oficial» mide esa diferencia.</p></details>
+  <details><summary>¿Por qué el registro de homicidios y la Policía no dan el mismo número?</summary><p>Son registros distintos, con fechas de corte, criterios y municipios asignados que pueden variar. De enero a septiembre de 2026 difieren en pocos casos al mes.</p></details>
+  <details><summary>¿Por qué el último mes se ve más bajo?</summary><p>Porque las fuentes cargan casos con retraso. Lo marcamos como «incompleto», con trama en los gráficos, para que no se lea como una baja real.</p></details>
+  <details><summary>¿Por qué no aparece mi calle ni la hora de un caso?</summary><p>Para proteger a las víctimas y a sus familias. Mostramos el barrio o una zona de 400 m y el mes. Eso basta para ver dónde y cuándo se concentran los casos.</p></details>
+  <details><summary>¿Por qué un barrio no aparece en el mapa?</summary><p>Porque tiene menos de 3 casos en total o porque la fuente no dice el barrio. Sus casos siguen contando en las cifras del municipio.</p></details>
+  <details><summary>¿Este sitio dice por qué ocurren los delitos?</summary><p>No. Los datos muestran cuántos casos hubo, dónde y cuándo. No permiten atribuir causas, y el sitio no lo hace.</p></details>
+  <details><summary>¿Cada cuánto se actualiza?</summary><p>La prensa, cada día a las 6:00 a. m. Las cifras de la Policía, el día 5 de cada mes. El registro de homicidios, cuando llega una copia nueva. Cada vista muestra su fecha de corte.</p></details>
+  <details><summary>Encontré un error. ¿Cómo lo reporto?</summary><p>Abre un reporte en <a href="https://github.com/servicessigeduca-sudo/observatorio-baq/issues">GitHub</a> con el enlace de la vista y lo que viste.</p></details>
+</div></section>
+</main>
+
+<footer><div class="in">
+  <span>Observatorio BAQ · Datos abiertos sobre seguridad en Barranquilla y su área metropolitana · <a href="metodologia.html#licencia">Licencia CC BY 4.0 y cita sugerida</a></span>
+  <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
+</div></footer>
 
 <script src="comun.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"¿Por qué las cifras de la prensa son más bajas que las de la Policía?","acceptedAnswer":{"@type":"Answer","text":"Porque la prensa no cubre todos los casos. Los homicidios casi siempre llegan a las noticias; los hurtos y la extorsión, muchas veces no."}},
+{"@type":"Question","name":"¿Por qué el último mes se ve más bajo?","acceptedAnswer":{"@type":"Answer","text":"Porque las fuentes cargan casos con retraso. Lo marcamos como incompleto para que no se lea como una baja real."}},
+{"@type":"Question","name":"¿Por qué no aparece mi calle ni la hora de un caso?","acceptedAnswer":{"@type":"Answer","text":"Para proteger a las víctimas y a sus familias. Mostramos el barrio o una zona de 400 m y el mes."}},
+{"@type":"Question","name":"¿Este sitio dice por qué ocurren los delitos en Barranquilla?","acceptedAnswer":{"@type":"Answer","text":"No. Los datos muestran cuántos casos hubo, dónde y cuándo. No permiten atribuir causas."}}]}</script>
+<script src="datos.js"></script>
+<script>
+(function(){
+  var O=OBAQ,$=O.$,esc=O.esc;
+  O.cargar("data/publico/diccionario.json").then(function(d){
+    $("cita").textContent=d.cita;
+    var c=d.corte;$("corte").textContent="Fechas de corte: prensa "+O.dia(c.prensa)+(c.registro?" · registro de homicidios "+O.dia(c.registro):"")+(c.oficial?" · Policía hasta "+O.mes(c.oficial):"")+".";
+    $("dicc").innerHTML="<h2 class=\"t\" style=\"margin-top:28px\">Diccionario de variables</h2>"+Object.keys(d.archivos).map(function(a){var x=d.archivos[a];
+      return "<h3>"+esc(a)+"</h3><p class=\"fuente\" style=\"margin-top:0\">"+esc(x.descripcion)+" Fuente: "+esc(x.fuente)+".</p><div class=\"tablewrap cartas\"><table class=\"tabla\"><thead><tr><th>Variable</th><th>Descripción</th></tr></thead><tbody>"+
+        Object.keys(x.variables).map(function(v){return "<tr><td data-k=\"Variable\"><code>"+esc(v)+"</code></td><td data-k=\"Descripción\">"+esc(x.variables[v])+"</td></tr>"}).join("")+"</tbody></table></div>"}).join("")+
+      "<p class=\"fuente\">Delitos de prensa: "+Object.keys(d.delitos).map(function(k){return "<code>"+k+"</code> = "+esc(d.delitos[k])}).join(", ")+".</p>";
+  }).catch(function(e){O.estado("dicc","error","No se pudo cargar el diccionario ("+e.message+").")});
+  O.cargar("data/publico/resumen.json").then(function(r){var q=r.calidad||{},g=q.registro,p=q.prensa||{};
+    $("calidad").textContent="Última corrida: "+(g?g.registros+" registros en la capa de homicidios, "+g.en_el_area+" en el área metropolitana, "+g.fuera_del_area+" de otros municipios descartados, "+Object.keys(g.alertas_fecha).reduce(function(t,k){return t+g.alertas_fecha[k]},0)+" con fecha para revisar. ":"")+
+      "Prensa: "+r.totales.prensa+" casos publicados"+(Object.keys(p).length?", "+Object.keys(p).map(function(k){return p[k]+" "+k.replace(/_/g," ")}).join(", "):"")+"."}).catch(function(){});
+})();
+</script>
 
 </body>
 </html>

@@ -132,3 +132,11 @@ def test_construir_sin_titulares_ni_coordenadas(tmp_path):
     assert (pub / "prensa_vs_oficial.csv").read_text().startswith("mes,municipio,delito,prensa,oficial")
     assert (data / "cortes" / "2026-11-13.json").exists()
     assert json.loads((pub / "informes" / "index.json").read_text())["informes"]
+
+
+def test_barrios_con_errores_de_digitacion():
+    from publico.registro import nombre_barrio
+    assert nombre_barrio("SANTODOMINGO") == "Santo Domingo"
+    assert nombre_barrio("EL MANALTIAL") == "El Manantial"
+    assert nombre_barrio("LOS OLIVOS II") == "Los Olivos 2"
+    assert nombre_barrio("VILLA DEL REY") == "Villa del Rey"

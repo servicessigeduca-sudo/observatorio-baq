@@ -2,9 +2,12 @@
 
 **[Ver la página → servicessigeduca-sudo.github.io/observatorio-baq](https://servicessigeduca-sudo.github.io/observatorio-baq/)**
 
-Mapa y tablero abiertos de los delitos en Barranquilla y su área metropolitana. Es un proyecto periodístico con tres secciones:
+Observatorio abierto de la seguridad en Barranquilla y su área metropolitana: un solo sitio, con el mismo análisis para todos y tres niveles de profundidad (resumen, informe completo y datos descargables). Tiene seis secciones:
 
-- **[Mapa de prensa](https://servicessigeduca-sudo.github.io/observatorio-baq/):** dónde ocurren los casos que publica la prensa local, por barrio o caso por caso, con filtros por tipo y periodo, barrios con más casos, tendencia semanal y enlace a cada noticia.
+- **[Inicio](https://servicessigeduca-sudo.github.io/observatorio-baq/):** titular de la semana que se actualiza solo, buscador por barrio o municipio, vista previa del mapa, fuentes y límites, y enlace al último informe.
+- **[Mapa](https://servicessigeduca-sudo.github.io/observatorio-baq/mapa.html):** cuadrícula de 400 m, barrios y mapa de calor en metros reales, con filtros de periodo, delito, municipio y modalidad guardados en la URL, y casos recientes de prensa.
+- **[Informes](https://servicessigeduca-sudo.github.io/observatorio-baq/informes.html):** un informe por mes con plantilla fija y archivo por fecha.
+- **[Prensa vs. oficial](https://servicessigeduca-sudo.github.io/observatorio-baq/prensa-oficial.html):** qué parte de los casos llega a los medios, por municipio y mes.
 - **[Estadísticas oficiales](https://servicessigeduca-sudo.github.io/observatorio-baq/estadisticas.html):** los delitos que registra la Policía desde 2003 en los cinco municipios del área. Tiene media móvil de 12 meses, mapas de calor por mes y por día de la semana, variación anual por tipo de delito, promedios por periodo de Presidencia, Alcaldía y Gobernación, el peso de Barranquilla frente al resto del área, y arma, género y edad. Cada vista se descarga en CSV.
 - **[Metodología y datos](https://servicessigeduca-sudo.github.io/observatorio-baq/metodologia.html):** cómo se obtienen y procesan los datos, y descargas.
 
@@ -18,7 +21,8 @@ Los datos salen de notas publicadas por Zona Cero, Diario La Libertad, Emisora A
 
 | Archivo | Qué contiene |
 | --- | --- |
-| [`data/casos.json`](data/casos.json) | Un registro por hecho: tipo, fecha, barrio, municipio, ubicación aproximada, medios y enlaces |
+| [`data/publico/`](data/publico) | Lo que publica el sitio: casos de prensa sin titulares, conteos del registro de homicidios 2026, comparación prensa vs. oficial, informes mensuales y diccionario de variables (CSV y JSON) |
+| [`data/casos.json`](data/casos.json) | Uso interno: un registro por hecho, con titulares y ubicación aproximada. El sitio no lo publica |
 | [`data/notas.json`](data/notas.json) | Una entrada por noticia: medio, titular, fecha, enlace y resumen corto |
 | [`data/oficiales.json`](data/oficiales.json) | Delitos registrados por la Policía (SIEDCO) en los cinco municipios del área desde 2003: por mes, día de la semana, arma, género y edad, y qué años cubre cada delito. Sin barrio: la Policía no lo publica |
 | [`data/oficiales_mensual.csv`](data/oficiales_mensual.csv) | La serie mensual anterior en CSV: año, mes, municipio, tipo y cantidad |
@@ -34,14 +38,14 @@ En `data/casos.json`, cambia el `estado` de un caso a `publicado` (revisado) o `
 
 ## Página web
 
-`web/` tiene las tres páginas (`index.html`, `estadisticas.html`, `metodologia.html`), los estilos comunes (`estilos.css`), el cambio de tema (`comun.js`) y los gráficos de estadísticas (`estadisticas.js`, sin librerías). `index.html` es el mapa (Leaflet con el mapa base gris de Esri), barrios con más casos, tendencia semanal y últimos casos, con modo claro y oscuro. Lee `data/casos.json`.
+`web/` tiene una página por sección (`index.html`, `mapa.html`, `informes.html`, `estadisticas.html`, `prensa-oficial.html`, `metodologia.html`), los estilos comunes (`estilos.css`), el cambio de tema (`comun.js`), las utilidades de datos, mapa y gráficos (`datos.js`) y los gráficos de estadísticas (`estadisticas.js`). La única librería es Leaflet 1.9.4 por CDN, con el mapa base de CARTO (datos de OpenStreetMap). Las páginas leen `data/publico/` (nunca `data/casos.json`, que tiene titulares) y `data/oficiales.json`.
 
 El flujo **Página** ubica los barrios con Nominatim (máximo una consulta por segundo, con caché en `data/geocodigos.json`) y publica en GitHub Pages cada vez que cambian los datos en `main` y después de cada corrida del scraper. Para activarlo una sola vez: **Settings → Pages → Source: GitHub Actions**.
 
 Para verla en local:
 
 ```bash
-python -m casos && mkdir -p _site/data && cp web/* _site/ && cp data/casos.json data/oficiales.json _site/data/
+python -m casos && python -m publico && mkdir -p _site/data && cp web/* _site/ && cp -r data/publico _site/data/ && cp data/oficiales.json data/oficiales_mensual.csv _site/data/
 python -m http.server -d _site 8000
 ```
 

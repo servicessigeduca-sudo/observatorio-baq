@@ -52,7 +52,6 @@ jobs:
         run: |
           mkdir -p _site/data
           cp web/* _site/
-          cp data/casos.json _site/data/
           cp -r data/publico _site/data/publico
           cp data/oficiales.json data/oficiales_mensual.csv _site/data/ 2>/dev/null || true
       - uses: actions/configure-pages@v5

@@ -62,10 +62,21 @@ def normalizar_localidad(texto: str | None, municipio: str) -> str:
     return _LOC_CLAVES[cerca[0]] if cerca else "Sin dato"
 
 
+# Errores de digitación evidentes en la capa (clave sin tildes y en minúsculas → nombre correcto).
+CORRECCIONES_BARRIO = {
+    "santo domino": "Santo Domingo", "santodomingo": "Santo Domingo", "simon boliar": "Simon Bolivar",
+    "me quejo": "Mequejo", "las america": "Las Americas", "el condcord": "El Concord", "villarica 2": "Villa Rica 2",
+    "el manaltial": "El Manantial", "el manatial": "El Manantial", "la arboledad": "La Arboleda", "lasc moras": "Las Moras",
+    "las nuebes": "Las Nubes", "los mantiales": "Los Manantiales", "san vicentes": "San Vicente",
+    "villakatanga": "Villa Katanga", "vista hermoso": "Vista Hermosa", "los olivos ii": "Los Olivos 2",
+}
+
+
 def nombre_barrio(texto: str | None) -> str | None:
     if not texto or not str(texto).strip():
         return None
-    t = " ".join(str(texto).split()).title()
+    t = " ".join(str(texto).split())
+    t = CORRECCIONES_BARRIO.get(normalizar(t).lower(), t).title()
     for chico in (" De ", " Del ", " La ", " Las ", " Los ", " El ", " Y "):
         t = t.replace(chico, chico.lower())
     return t

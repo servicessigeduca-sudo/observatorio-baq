@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://servicessigeduca-sudo.github.io/observatorio-baq/sitemap.xml
