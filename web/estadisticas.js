@@ -43,22 +43,23 @@
     ].map(function(x){return '<div class="kpi"><p class="k">'+x[0]+"</p><b>"+x[1]+"</b><small>"+x[2]+"</small></div>"}).join("");
   }
 
-  function grafSerie(s){
-    var r=rango(),n=r[1]-r[0]+1,W=960,H=320,m={l:44,r:12,t:16,b:30},iw=W-m.l-m.r,ih=H-m.t-m.b,bw=iw/n;
+  function grafSerie(s,Wf){
+    var r=rango(),n=r[1]-r[0]+1,W=Wf||Math.round(Math.min(960,Math.max(300,$("serie").clientWidth||960))),H=W<600?240:320,m={l:W<600?34:44,r:W<600?6:12,t:16,b:30},iw=W-m.l-m.r,ih=H-m.t-m.b,bw=iw/n;
     var vals=[],ma=[];for(var i=0;i<n;i++){var v0=s[r[0]+i];vals.push(v0===null?null:v0||0)}
     for(i=0;i<n;i++){if(i<11){ma.push(null);continue}var t=0,ok=true;for(var j=i-11;j<=i;j++){if(vals[j]===null)ok=false;t+=vals[j]||0}ma.push(ok?t/12:null)}
     var mx=Math.max.apply(null,vals.map(function(v){return v||0}).concat([1])),raw=mx/5,mag=Math.pow(10,Math.floor(Math.log10(raw||1))),step=[1,2,5,10].map(function(f){return f*mag}).filter(function(v){return v>=raw})[0]||1;step=Math.max(1,step);
-    var ymax=Math.ceil(mx/step)*step,Y=function(v){return m.t+ih-ih*v/ymax};
+    var ymax=Math.ceil(mx/step)*step,Y=function(v){return m.t+ih-ih*v/ymax},cadaA=Math.max(1,Math.ceil(34/(bw*12))),etq=function(k){return k%12===0&&Math.floor(k/12)%cadaA===0};
     var o='<svg viewBox="0 0 '+W+" "+H+'" role="img" aria-label="Serie mensual con media móvil de 12 meses">';
     for(var y=0;y<=ymax;y+=step)o+='<line class="gl" x1="'+m.l+'" x2="'+(W-m.r)+'" y1="'+Y(y)+'" y2="'+Y(y)+'"/><text x="'+(m.l-6)+'" y="'+(Y(y)+4)+'" text-anchor="end">'+nf(y)+"</text>";
     for(i=0;i<n;i++){var k=r[0]+i,x=m.l+i*bw;
-      if(vals[i]===null){o+='<rect x="'+x.toFixed(1)+'" y="'+m.t+'" width="'+bw.toFixed(1)+'" height="'+ih+'" fill="var(--band)"><title>'+etiqueta(k)+': sin datos publicados</title></rect>';if(k%12===0)o+='<text x="'+(x+2).toFixed(1)+'" y="'+(H-10)+'">'+Math.floor(k/12)+"</text>";continue}
+      if(vals[i]===null){o+='<rect x="'+x.toFixed(1)+'" y="'+m.t+'" width="'+bw.toFixed(1)+'" height="'+ih+'" fill="var(--band)"><title>'+etiqueta(k)+': sin datos publicados</title></rect>';if(etq(k))o+='<text x="'+(x+2).toFixed(1)+'" y="'+(H-10)+'">'+Math.floor(k/12)+"</text>";continue}
       o+='<rect x="'+(x+bw*.12).toFixed(1)+'" y="'+Y(vals[i]).toFixed(1)+'" width="'+(bw*.76).toFixed(1)+'" height="'+(m.t+ih-Y(vals[i])).toFixed(1)+'" fill="var(--qna)"><title>'+etiqueta(k)+": "+nf(vals[i])+(ma[i]!==null?" · media 12 meses: "+nf(ma[i]):"")+"</title></rect>";
-      if(k%12===0)o+='<text x="'+(x+2).toFixed(1)+'" y="'+(H-10)+'">'+Math.floor(k/12)+"</text>"}
+      if(etq(k))o+='<text x="'+(x+2).toFixed(1)+'" y="'+(H-10)+'">'+Math.floor(k/12)+"</text>"}
     var tramos=[[]];ma.forEach(function(v,i){if(v===null){if(tramos[tramos.length-1].length)tramos.push([]);return}tramos[tramos.length-1].push((m.l+i*bw+bw/2).toFixed(1)+","+Y(v).toFixed(1))});
     tramos.forEach(function(pts){if(pts.length>1)o+='<polyline points="'+pts.join(" ")+'" fill="none" stroke="var(--hot)" stroke-width="2.5" stroke-linejoin="round"/>'});
     var im=-1;ma.forEach(function(v,i){if(v!==null&&(im<0||v>ma[im]))im=i});
-    if(im>=0){var cx=m.l+im*bw+bw/2,cy=Y(ma[im]),der=cx>W*.7;o+='<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="5" fill="var(--hot)" stroke="var(--bg)" stroke-width="2"/><text x="'+(der?cx-9:cx+9).toFixed(1)+'" y="'+(cy-9).toFixed(1)+'" text-anchor="'+(der?"end":"start")+'" class="pico">Media más alta: '+nf(ma[im])+" ("+etiqueta(r[0]+im)+")</text>"}
+    if(im>=0){var cx=m.l+im*bw+bw/2,cy=Y(ma[im]),der=cx>W*.7;o+='<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="5" fill="var(--hot)" stroke="var(--bg)" stroke-width="2"/><text x="'+(der?cx-9:cx+9).toFixed(1)+'" y="'+(cy-9).toFixed(1)+'" text-anchor="'+(der?"end":"start")+'" class="pico">'+(W<600?"Máx.: ":"Media más alta: ")+nf(ma[im])+" ("+etiqueta(r[0]+im)+")</text>"}
+    if(Wf)return o+"</svg>";
     $("serie").innerHTML=o+"</svg>";
     var last=ma[n-1],prev=ma[n-13];
     var huecos=[];for(var a=Math.floor(r[0]/12);a<=U.anio;a++)if(!cubre(a))huecos.push(a);
@@ -142,8 +143,8 @@
       return "background:var(--q"+i+");color:"+(OBAQ.isDark()?(i>=4?"#111":"#eee"):(i>=4?"#fff":"#13201A"))};
     var o=filas.map(function(f){return '<div class="hrow"><span class="lab">'+esc(f.n)+'</span><div class="track"><div class="fill" style="width:'+(100*f.prom/mx).toFixed(1)+'%;'+color(f)+'">'+nf(f.prom)+(f===alto?" · el más alto":"")+"</div></div></div>"}).join("");
     $("gob-graf").innerHTML='<div class="gob">'+o+"</div>";
-    $("gob-tabla").innerHTML='<table class="tabla"><thead><tr><th>Periodo</th><th class="n">Meses con datos</th><th class="n">Casos</th><th class="n">Promedio mensual</th><th class="n">Frente al periodo anterior</th></tr></thead><tbody>'+
-      filas.map(function(f,i){var parcial=f.meses<f.total;return "<tr"+(parcial?' class="parcial"':"")+"><td>"+esc(f.n)+(parcial?" · "+etiqueta(f.desde)+" a "+etiqueta(f.hasta):"")+'</td><td class="n">'+f.meses+" de "+f.total+'</td><td class="n">'+nf(f.suma)+'</td><td class="n'+(f===alto?" top":"")+'"><b>'+nf(f.prom)+'</b></td><td class="n">'+(i?varHtml(pct(f.prom,filas[i-1].prom)):"—")+"</td></tr>"}).join("")+"</tbody></table>";
+    $("gob-tabla").innerHTML='<table class="tabla gobt"><thead><tr><th>Periodo</th><th class="n hm">Meses con datos</th><th class="n hm">Casos</th><th class="n">Promedio mensual</th><th class="n">Frente al periodo anterior</th></tr></thead><tbody>'+
+      filas.map(function(f,i){var parcial=f.meses<f.total;return "<tr"+(parcial?' class="parcial"':"")+"><td>"+esc(f.n)+(parcial?' <small class="rango">· '+etiqueta(f.desde)+" a "+etiqueta(f.hasta)+"</small>":"")+'</td><td class="n hm">'+f.meses+" de "+f.total+'</td><td class="n hm">'+nf(f.suma)+'</td><td class="n'+(f===alto?" top":"")+'"><b>'+nf(f.prom)+'</b></td><td class="n">'+(i?varHtml(pct(f.prom,filas[i-1].prom)):"—")+"</td></tr>"}).join("")+"</tbody></table>";
     $("gob-sub").textContent=nomSel()+" en "+(st.muni||"el área metropolitana")+", promedio de casos por mes en cada periodo de la "+P.nombre+". El color va de amarillo (promedio más bajo) a rojo oscuro (más alto) entre los periodos con al menos 12 meses de datos; en gris, los que tienen menos.";
     $("gob-nota").textContent=(P.nota?P.nota+" ":"")+"El promedio mensual permite comparar periodos de distinta duración, pero no mide por sí solo el efecto de un gobierno: también cambian la población, la denuncia (por ejemplo, la denuncia virtual) y la forma de registrar.";
   }
@@ -212,6 +213,10 @@
     $("desde").textContent="desde "+Math.floor(rangoGlobal()[0]/12);
     $("fuente").innerHTML="Fuente: Policía Nacional (SIEDCO). Datos de enero de "+Math.floor(rangoGlobal()[0]/12)+" a "+MESL[U.mes-1]+" de "+U.anio+", actualizados el "+esc(d.actualizado)+"."+(d.inicio_registro&&Math.floor(rangoGlobal()[0]/12)<d.inicio_registro?" Hasta "+(d.inicio_registro-1)+" vienen de los archivos por delito de alto impacto y de consultas a SIEDCO; desde "+d.inicio_registro+", del archivo con todos los delitos.":"")+" "+esc(d.nota.split(" dia_semana")[0])+' <a href="metodologia.html#policia">Cómo se procesan</a>.';
     OBAQ.alCambiarTema(render);
+    OBAQ.captura={contexto:function(){return nomSel()+" · "+(st.muni||"Área metropolitana")},
+      fuente:"Fuente: Policía Nacional (SIEDCO), datos a "+MESL[U.mes-1]+" de "+U.anio+".",
+      serie:function(w){return grafSerie(serie(),w)}};
+    var ancho=window.innerWidth,tm;window.addEventListener("resize",function(){if(window.innerWidth===ancho)return;ancho=window.innerWidth;clearTimeout(tm);tm=setTimeout(function(){grafSerie(serie())},150)});
     render();
   }).catch(function(e){$("titulo-sel").textContent="No se pudieron cargar los datos ("+e.message+")."});
 })();

@@ -17,7 +17,7 @@
       Observatorio <span>BAQ</span>
     </a>
     <div class="right">
-      <nav aria-label="Principal"><a href="./">Mapa de prensa</a><a href="estadisticas.html" aria-current="page">Estadísticas oficiales</a><a href="metodologia.html">Metodología y datos</a></nav>
+      <nav aria-label="Principal"><a href="./">Mapa de prensa</a><a href="estadisticas.html" aria-current="page">Estadísticas oficiales</a><a href="metodologia.html">Metodología<span class="lg"> y datos</span></a></nav>
       <button type="button" class="theme" id="theme" aria-label="Cambiar a modo oscuro"></button>
     </div>
   </div>
@@ -50,7 +50,7 @@
   <a class="como" href="metodologia.html#calc-resumen">¿Cómo se calcula?</a>
 </div></section>
 
-<section class="sec" id="tendencia"><div class="in">
+<section class="sec" id="tendencia"><div class="in" data-compartir>
   <p class="eyebrow">Tendencia</p>
   <h2 class="t">Casos por mes y media móvil de 12 meses</h2>
   <div class="chart" id="serie" style="margin-top:12px"></div>
@@ -60,14 +60,14 @@
 </div></section>
 
 <section class="sec" id="calor"><div class="in grid2 g13">
-  <div>
+  <div data-compartir>
     <p class="eyebrow">Mapa de calor</p>
     <h2 class="t">Mes a mes, año por año</h2>
     <p class="note" style="margin:4px 0 12px">Cada celda es un mes. Sirve para ver temporadas y meses atípicos.</p>
     <div class="tablewrap" style="margin-top:0"><div id="calor1"></div></div>
     <div class="scale" id="calor1-ley"></div>
   </div>
-  <div>
+  <div data-compartir>
     <p class="eyebrow">Mapa de calor</p>
     <h2 class="t">¿Qué días de la semana?</h2>
     <p class="note" style="margin:4px 0 12px">Porcentaje de los casos de cada año que ocurrió cada día.</p>
@@ -77,7 +77,7 @@
   </div>
 </div></section>
 
-<section class="sec" id="comparar"><div class="in">
+<section class="sec" id="comparar"><div class="in" data-compartir>
   <p class="eyebrow">Comparación</p>
   <h2 class="t">Variación por tipo de delito</h2>
   <p class="sub" id="variacion-sub"></p>
@@ -85,7 +85,7 @@
   <a class="como" href="metodologia.html#calc-variacion">¿Cómo se calcula?</a>
 </div></section>
 
-<section class="sec" id="gobiernos"><div class="in">
+<section class="sec" id="gobiernos"><div class="in" data-compartir>
   <p class="eyebrow">Por gobierno</p>
   <h2 class="t">Promedio mensual en cada periodo de gobierno</h2>
   <div class="seg" role="group" aria-label="Tipo de periodo" style="margin:12px 0 4px"><button type="button" data-per="presidente" aria-pressed="true">Presidencia</button><button type="button" data-per="alcalde" aria-pressed="false">Alcaldía de Barranquilla</button><button type="button" data-per="gobernador" aria-pressed="false">Gobernación del Atlántico</button></div>
@@ -98,26 +98,26 @@
 
 <section class="sec" id="area"><div class="in">
   <p class="eyebrow">Barranquilla y el área metropolitana</p>
-  <h2 class="t" id="area-titulo">¿Cuánto pesa Barranquilla?</h2>
+  <div data-compartir><h2 class="t" id="area-titulo">¿Cuánto pesa Barranquilla?</h2>
   <p class="sub">Reparto de los casos del delito elegido entre los cinco municipios, año por año.</p>
-  <div id="area-anios" style="margin-top:16px"></div>
-  <h2 class="t" style="margin-top:40px">Parte de Barranquilla en cada delito</h2>
+  <div id="area-anios" style="margin-top:16px"></div></div>
+  <div data-compartir style="margin-top:40px"><h2 class="t">Parte de Barranquilla en cada delito</h2>
   <p class="sub" id="area-sub"></p>
-  <div class="tablewrap" id="area-delitos"></div>
-  <h2 class="t" style="margin-top:40px">Por municipio</h2>
+  <div class="tablewrap" id="area-delitos"></div></div>
+  <div data-compartir style="margin-top:40px"><h2 class="t">Por municipio</h2>
   <p class="sub">Delito elegido, en los últimos 12 meses frente a los 12 anteriores.</p>
-  <div class="tablewrap" id="munis"></div>
+  <div class="tablewrap" id="munis"></div></div>
   <a class="como" href="metodologia.html#calc-area">¿Cómo se calcula?</a>
 </div></section>
 
 <section class="sec" id="perfil"><div class="in">
   <p class="eyebrow">Perfil</p>
-  <h2 class="t">Arma o medio usado, por año</h2>
+  <div data-compartir><h2 class="t">Arma o medio usado, por año</h2>
   <p class="sub">Reparto de los casos de cada año entre los cinco medios más frecuentes.</p>
-  <div id="armas" style="margin-top:16px"></div>
+  <div id="armas" style="margin-top:16px"></div></div>
   <div class="grid2 g11" style="margin-top:40px">
-    <div><h2 class="t">Género de la víctima</h2><p class="sub">Últimos tres años.</p><div id="genero" style="margin-top:16px"></div></div>
-    <div><h2 class="t">Grupo de edad</h2><p class="sub">Últimos tres años.</p><div id="edad" style="margin-top:16px"></div></div>
+    <div data-compartir><h2 class="t">Género de la víctima</h2><p class="sub">Últimos tres años.</p><div id="genero" style="margin-top:16px"></div></div>
+    <div data-compartir><h2 class="t">Grupo de edad</h2><p class="sub">Últimos tres años.</p><div id="edad" style="margin-top:16px"></div></div>
   </div>
   <a class="como" href="metodologia.html#calc-perfil">¿Cómo se calcula?</a>
 </div></section>
@@ -126,5 +126,6 @@
 
 <script src="comun.js"></script>
 <script src="estadisticas.js"></script>
+<script src="compartir.js"></script>
 </body>
 </html>
