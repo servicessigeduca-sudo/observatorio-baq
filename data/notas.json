@@ -1,6 +1,484 @@
 [
   {
     "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/recapturan-a-condenado-por-matar-a-un-hombre-dentro-de-una-iglesia-llevaba-mas-de-un-ano-profugo/",
+    "titular": "Recapturan a condenado por matar a un hombre dentro de una iglesia: llevaba más de un año prófugo - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T06:17:53-05:00",
+    "resumen": "Un hombre de 27 años, condenado a más de 20 años de prisión por un homicidio cometido dentro de una iglesia en el municipio de Dosquebradas, Risaralda, fue",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "652dd797e28eac7c264217eca6edf3094c81cef2"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/matan-a-marly-sierra-cuando-salio-a-atender-un-llamado-en-la-puerta-de-su-casa-en-santa-marta/",
+    "titular": "Matan a Marly Sierra cuando salió a atender un llamado en la puerta de su casa en Santa Marta - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T06:09:43-05:00",
+    "resumen": "El crimen ocurrió en la carrera 34 con calle 17. Según las primeras versiones, varios sujetos llegaron al inmueble, tocaron la puerta y preguntaron por una",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3181fa47101a3f553a661007d8b77a12630814dc"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/asesinan-a-pagadiario-frente-a-su-hija-en-una-cancha-del-barrio-las-flores-en-valledupar/",
+    "titular": "Asesinan a pagadiario frente a su hija en una cancha del barrio Las Flores, en Valledupar - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T06:04:58-05:00",
+    "resumen": "Un nuevo hecho de sangre se registró durante la noche del jueves 12 de noviembre en Valledupar. Un hombre, presuntamente dedicado al negocio de préstamos de",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": "Las Flores",
+    "estado": "pendiente",
+    "id": "47076726c86c013c6da7ac19bd47b1a9fbe5cae7"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/este-es-el-presunto-delincuente-que-hirio-en-atraco-una-patrullera-en-villa-campestre",
+    "titular": "Este es el presunto delincuente que hirió en atraco a una patrullera en Villa Campestre",
+    "fecha_publicacion": "2026-11-12T22:14:17-05:00",
+    "resumen": "Policía pide colaboración ciudadana para capturarlo.",
+    "fecha_captura": "2026-11-13T06:46:54-05:00",
+    "tipos_delito": [
+      "hurto",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "03f63f920b9b9e85da58d76c9d5da137a3c91f71"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/galan-descarta-simulacro-de-militarizacion-en-bogota-y-defiende-apoyo-focalizado-del-ejercito/",
+    "titular": "Galán descarta simulacro de militarización en Bogotá y defiende apoyo focalizado del Ejército - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T22:02:50-05:00",
+    "resumen": "El alcalde rechazó la propuesta de realizar un ejercicio temporal de asistencia militar en la capital, impulsada por sectores del Centro Democrático. Durante",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "565662ba710b95921c3c0d7c5270146963fb9d02"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/seleccion-colombia-busca-recuperar-confianza-en-medio-de-las-dudas-sobre-el-proceso-de-nestor-lorenzo/",
+    "titular": "Selección Colombia busca recuperar confianza en medio de las dudas sobre el proceso de Néstor Lorenzo - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T21:58:32-05:00",
+    "resumen": "La Selección Colombia afronta una nueva etapa bajo la dirección de Néstor Lorenzo, marcada por la necesidad de recuperar confianza, renovar su nómina y",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2c16314e6cab4103ff92a9f989a75f9c13f69bed"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/hombres-armados-roban-camioneta-de-la-defensoria-del-pueblo-durante-mision-humanitaria-en-cauca/",
+    "titular": "Hombres armados roban camioneta de la Defensoría del Pueblo durante misión humanitaria en Cauca - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T21:51:41-05:00",
+    "resumen": "Una camioneta institucional de la Defensoría del Pueblo fue robada por hombres armados cuando funcionarios de la entidad realizaban labores de acompañamiento",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [
+      "hurto"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ef47809f89b45e5156e7a3558ffcadf807532117"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/tres-colombianos-entre-ellos-dos-menores-de-edad-murieron-en-derrumbe-de-edificio-en-brooklyn/",
+    "titular": "Tres colombianos, entre ellos dos menores de edad, murieron en derrumbe de edificio en Brooklyn - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T21:45:49-05:00",
+    "resumen": "Tres ciudadanos colombianos murieron tras el desplome de un edificio residencial de tres pisos ocurrido el miércoles 11 de noviembre en el barrio de Flatbush,",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b054e7ceeb9be891160fade7f2c4d82b92231398"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/de-la-espriella-ordena-reversar-salarios-del-fondo-milagro-tras-polemica-por-nomina-de-765-millones/",
+    "titular": "De la Espriella ordena reversar salarios del Fondo Milagro tras polémica por nómina de $765 millones - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T21:42:13-05:00",
+    "resumen": "La nómina del Fondo Milagro, creado para coordinar la reconstrucción de las zonas afectadas por el terremoto del pasado 10 de agosto, quedó en el centro de la",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6e63c2f862d9fdc6b2f95fbd2e065b7a60a79550"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/alejandro-ordonez-anuncia-revision-de-mas-de-600-esquemas-de-seguridad-para-firmantes-de-paz/",
+    "titular": "Alejandro Ordóñez anuncia revisión de más de 600 esquemas de seguridad para firmantes de paz - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T21:32:30-05:00",
+    "resumen": "El ministro del Interior afirmó ante la JEP que la Unidad Nacional de Protección evaluará los niveles de riesgo de comparecientes y excombatientes para",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "57799906380f4a7cf850d0b449293501da2ebf2b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/flip-alerta-por-senalamientos-de-carlos-suarez-contra-medios-y-cifras-y-conceptos/",
+    "titular": "FLIP alerta por señalamientos de Carlos Suárez contra medios y Cifras y Conceptos - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T21:28:24-05:00",
+    "resumen": "La controversia por las encuestas sobre la imagen del presidente Abelardo de la Espriella llegó al debate sobre la libertad de prensa, luego de que la",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "cef92808c52623b22a24d41c4c77a6512d7b85bf"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/motociclista-quedo-gravemente-herido-tras-caerle-rama-de-arbol-en-la-via-polonuevo-pitalito/",
+    "titular": "Motociclista quedó gravemente herido tras caerle rama de árbol en la vía Polonuevo–Pitalito - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T21:20:24-05:00",
+    "resumen": "El hecho ocurrió hace pocos minutos y también dejó afectada a la persona que lo acompañaba.",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "756511e2cb08dbda7277b75f49bbd919889e0b2d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/norma-vera-denuncia-amenaza-de-muerte-en-santa-marta-dejaron-una-corona-funebre-con-su-fotografia/",
+    "titular": "Norma Vera denuncia amenaza de muerte en Santa Marta: dejaron una corona fúnebre con su fotografía - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T18:39:28-05:00",
+    "resumen": "La defensora de derechos humanos e investigadora Norma Vera Salazar denunció una nueva intimidación en su contra en Santa Marta, luego de que, según su",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9a8d7ea0b0db6eb9e9e7fd0479962d53a4f9e789"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/cuatro-militares-murieron-en-ataque-con-drones-explosivos-en-norte-de-santander/",
+    "titular": "Cuatro militares murieron en ataque con drones explosivos en Norte de Santander - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T17:57:41-05:00",
+    "resumen": "De acuerdo con la información conocida, los militares se encontraban realizando labores de patrullaje cuando fueron atacados mediante drones acondicionados",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d85bfcaa5289748886994556593f84c49e649abd"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/camara-de-seguridad-grabo-robo-previo-la-balacera-donde-una-patrullera-resulto-herida",
+    "titular": "Cámara de seguridad grabó robo previo a la balacera donde una patrullera resultó herida",
+    "fecha_publicacion": "2026-11-12T17:44:00-05:00",
+    "resumen": "El robo en el establecimiento comercial duró un minuto y 23 segundos.",
+    "fecha_captura": "2026-11-13T06:46:54-05:00",
+    "tipos_delito": [
+      "lesiones",
+      "hurto"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "58b414936175c210d1a87ca9b8c4716e2dbcd4fd"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/extienden-la-busqueda-de-la-pequena-zoe-arrastrada-por-el-arroyo-el-salao-contabiliza-mas-de-una-semana-desaparecida/",
+    "titular": "Extienden la búsqueda de la pequeña Zoé, arrastrada por el arroyo El Salao: ¡contabiliza más de una semana desaparecida!",
+    "fecha_publicacion": "2026-11-12T17:29:23-05:00",
+    "resumen": "Las esperanzas de su familia de que sea hallada con vida, con el pasar de los días, se sumergen en la resignación de los soledeños. Por: Iván Peña Ropaín. La Alcaldía de Soledad anunció que extiende la búsqueda activa de la niña Zoé Soto, desaparecida desde el pasado miércoles 4 de noviembre,…",
+    "fecha_captura": "2026-11-13T06:52:24-05:00",
+    "tipos_delito": [
+      "desaparicion"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9a67d7a1779947fb2ea49049062296a2010e4131"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/asciende-cuatro-el-numero-de-militares-muertos-en-ataque-con-dron-en-norte-de-santander",
+    "titular": "Asciende a cuatro el número de militares muertos en ataque con dron, en Norte de Santander",
+    "fecha_publicacion": "2026-11-12T17:04:00-05:00",
+    "resumen": "Dos más resultaron heridos en este hecho.",
+    "fecha_captura": "2026-11-13T06:46:54-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a773e7542be0e5597f4a5bac06b3d6f42cb38e7b"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/patrullera-resulto-herida-en-intercambio-de-disparos-con-delincuentes-que-atracaban-un-oxxo-cerca-de-la-porto-azul/",
+    "titular": "Patrullera resultó herida en intercambio de disparos con delincuentes que atracaban un Oxxo cerca de la Porto Azul",
+    "fecha_publicacion": "2026-11-12T16:26:14-05:00",
+    "resumen": "Los delincuentes alcanzaron a huir y las autoridades activaron un plan candado para localizarlos y capturarlos. Momentos de angustia se vivieron en la tarde de este jueves 12 de noviembre en las afueras de un supermercado Oxxo ubicado en carrera 51B, en inmediaciones de la clínica Porto Azul…",
+    "fecha_captura": "2026-11-13T06:52:24-05:00",
+    "tipos_delito": [
+      "lesiones",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8f838b036b3664d0bc0314c3a171ea9fedf7d517"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/sicarios-asesinaron-a-conductor-de-indrive-mientras-reparaba-su-vehiculo-en-san-isidro/",
+    "titular": "Sicarios asesinaron a conductor de InDrive mientras reparaba su vehículo en San Isidro - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T16:23:30-05:00",
+    "resumen": "La espera mientras reparaba el vehículo que utilizaba para trabajar terminó en tragedia para Arturo Quintero Roger, un conductor de la plataforma InDrive que",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b2ffbc9b0ad7cd4566bac3772ae27f8c88d24936"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/patrullera-herida-en-enfrentamiento-a-tiros-entre-policias-y-presuntos-asaltantes-en-puerto-colombia/",
+    "titular": "Patrullera herida en enfrentamiento a tiros entre policías y presuntos asaltantes en Puerto Colombia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T16:16:35-05:00",
+    "resumen": "Un procedimiento policial terminó en un intercambio de disparos durante la tarde de este jueves 12 de noviembre, en el Corredor Universitario de Puerto",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "Puerto Colombia",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "bcef59ee68d42b80008aa7a96cbaeb211b7208c7"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/motociclista-transitaba-por-la-cordialidad-cuando-hombres-armados-lo-sorprendieron-y-lo-asesinaron-de-varios-disparos/",
+    "titular": "Motociclista transitaba por la Cordialidad cuando hombres armados lo sorprendieron y lo asesinaron de varios disparos",
+    "fecha_publicacion": "2026-11-12T15:40:55-05:00",
+    "resumen": "En principio, se ventiló que se trataba de un accidente de tránsito pero luego las autoridades confirmaron que presentaba al menor dos heridas provocadas por arma de fuego. Un hecho sicarial tuvo lugar aproximadamente a las 2:00 de la tarde de este jueves 12 de noviembre en la carretera la…",
+    "fecha_captura": "2026-11-13T06:52:24-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "079310f1c4e1529f4508040bc4eea06c08643ea6"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/un-motociclista-fue-asesinado-bala-cuando-circulaba-por-la-cordialidad-en-galapa",
+    "titular": "Un motociclista fue asesinado a bala cuando circulaba por La Cordialidad, en Galapa",
+    "fecha_publicacion": "2026-11-12T15:22:00-05:00",
+    "resumen": "La víctima quedó tendida en una zona enmontada.",
+    "fecha_captura": "2026-11-13T06:46:54-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Galapa",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "603dd7edc7d51040879a0a730138feccce2435c9"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/balacera-entre-presuntos-delincuentes-y-la-policia-en-puerto-una-patrullera-herida",
+    "titular": "Balacera entre presuntos delincuentes y la Policía en Puerto: una patrullera herida",
+    "fecha_publicacion": "2026-11-12T14:58:00-05:00",
+    "resumen": "El hecho ocurrió en el Corredor Universitario. Los antisociales habrían cometido un asalto a un local comercial.",
+    "fecha_captura": "2026-11-13T06:46:54-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "02321c46f60b8e7373505343c6778b0fd51333d3"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/tres-militares-muertos-y-varios-heridos-habria-dejado-ataque-con-dron-en-norte-de",
+    "titular": "Tres militares muertos y varios heridos habría dejado ataque con dron en Norte de Santander",
+    "fecha_publicacion": "2026-11-12T14:54:00-05:00",
+    "resumen": "El ataque se presentó en la vereda Barco La Silla, en zona rural de Tibú.",
+    "fecha_captura": "2026-11-13T06:46:54-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "cf932400e64f3e38c6fa0d78006422b440f4f80d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/a-tiros-asesinan-a-un-hombre-en-una-calle-del-barrio-villa-soledad/",
+    "titular": "A tiros asesinan a un hombre en una calle del barrio Villa Soledad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T14:28:54-05:00",
+    "resumen": "Un hombre fue asesinado con arma de fuego durante la mañana de este jueves 12 de noviembre en el barrio Villa Soledad, en el municipio de Soledad, Atlántico.",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Villa Soledad",
+    "estado": "pendiente",
+    "id": "3c9fbea4071eeb4ce57281054fe161d58e9a6eb2"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/pasajeros-de-un-bus-en-barranquilla-casi-toman-justicia-por-mano-propia-contra-dos-sujetos-senalados-de-atracadores/",
+    "titular": "Pasajeros de un bus en Barranquilla casi “toman justicia por mano propia” contra dos sujetos señalados de atracadores",
+    "fecha_publicacion": "2026-11-12T13:50:42-05:00",
+    "resumen": "Las “muestras de cariño” fueron tan vehementes que los dos hombres acabaron exponiendo serias heridas, principalmente en sus cabezas. Un grupo de ciudadanos que iban a bordo de un bus del servicio público en Barranquilla por poco y lincha a dos sujetos a quienes señalaron de ser atracadores,…",
+    "fecha_captura": "2026-11-13T06:52:24-05:00",
+    "tipos_delito": [
+      "lesiones",
+      "hurto"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7215383eca11927c767a5b66271a32d294320621"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/la-camioneta-en-la-que-se-movilizaban-sonia-y-kelly-le-quitaron-el-gps-y-pretendian",
+    "titular": "A la camioneta en la que se movilizaban Sonia y Kelly le quitaron el GPS y pretendían venderla",
+    "fecha_publicacion": "2026-11-12T13:03:00-05:00",
+    "resumen": "El Gaula de la Policía se encuentra en el proceso investigativo para dar con el paradero de las mujeres.",
+    "fecha_captura": "2026-11-13T06:46:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1e814ddfced81205ddb7f21985b4458ea7c296ae"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/camioneta-de-sonia-y-kelly-fue-hallada-en-soledad-investigan-posible-intento-de-venta-del-vehiculo/",
+    "titular": "Camioneta de Sonia y Kelly fue hallada en Soledad: investigan posible intento de venta del vehículo - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T12:45:55-05:00",
+    "resumen": "La camioneta Toyota Prado en la que se movilizaban las dos mujeres fue encontrada por las autoridades en un parqueadero de Soledad, luego de un seguimiento",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "dc6b922ef530c9e268afab66514a85595fd126dd"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/eln-libero-los-agentes-del-cti-jesus-antonio-pacheco-y-rodrigo-antonio-lopez",
+    "titular": "ELN liberó a los agentes del CTI Jesús Antonio Pacheco y Rodrigo Antonio López",
+    "fecha_publicacion": "2026-11-12T12:40:00-05:00",
+    "resumen": "Los dos hombres fueron entregados a una comisión humanitaria y a sus familiares en zona rural de Arauca.",
+    "fecha_captura": "2026-11-13T06:46:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2dc4f8b70d02069d760b2ecbeac6b967708fc4cc"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/adolescente-venezolano-fue-asesinado-a-tiros-en-juan-de-acosta/",
+    "titular": "Adolescente venezolano fue asesinado a tiros en Juan de Acosta - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T12:23:42-05:00",
+    "resumen": "Un adolescente de 17 años, de nacionalidad venezolana, perdió la vida tras ser atacado con arma de fuego en el municipio de Juan de Acosta, Atlántico.",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d9791e114e6ee29e4892b3ca587106129105a3ed"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/gobernacion-del-atlantico-reforzara-atencion-a-mujeres-victimas-25-estan-protegidas-por-riesgo-de-feminicidio/",
+    "titular": "Gobernación del Atlántico reforzará atención a mujeres víctimas: 25 están protegidas por riesgo de feminicidio - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T11:40:54-05:00",
+    "resumen": "Uno de los principales datos del encuentro corresponde a la Casa Refugio departamental. Durante 2026, este espacio ha brindado protección a 25 mujeres que",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [
+      "feminicidio",
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4452cea9a2b330138ff5f8d19dc1c4ee5b3bba35"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/patrulla-purpura-reporta-mas-de-1-700-intervenciones-y-1-320-campanas-contra-la-violencia-en-barranquilla/",
+    "titular": "Patrulla Púrpura reporta más de 1.700 intervenciones y 1.320 campañas contra la violencia en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T11:26:33-05:00",
+    "resumen": "Las acciones buscan identificar situaciones de riesgo, orientar a las víctimas y facilitar el acceso a las rutas institucionales de atención. Para ello, los",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b7417f03796dee0e9163502fc4f3e257041a5aa7"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/12/fiscalia-acusa-a-exgobernador-del-cesar-por-contrato-del-parque-la-casa-en-el-aire/",
+    "titular": "Fiscalía acusa a exgobernador del Cesar por contrato del parque ‘La Casa en el Aire’ - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-12T11:22:59-05:00",
+    "resumen": "La acusación fue presentada por una fiscal delegada ante la Corte Suprema de Justicia. El exmandatario deberá responder como presunto responsable del delito",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "557f8428ea8f23689b2c1c0fb7f558f916194535"
+  },
+  {
+    "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/12/capturan-en-usiacuri-a-alias-el-chirrio-con-mas-de-700-gramos-de-droga/",
     "titular": "Capturan en Usiacurí a alias ‘El Chirrío’ con más de 700 gramos de droga - Diario La Libertad.",
     "fecha_publicacion": "2026-11-12T10:45:29-05:00",
@@ -571,6 +1049,22 @@
     "id": "71213478eac15d877843d2690d3f13524a5ddcd5"
   },
   {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/murio-mujer-baleada-en-negocio-de-venta-de-huevos-el-sicario-fingio-ser-un-cliente",
+    "titular": "Murió mujer baleada en negocio de venta de huevos: el sicario fingió ser un cliente",
+    "fecha_publicacion": "2026-11-11T08:13:00-05:00",
+    "resumen": "Con este caso, ya son 8 las mujeres asesinadas en lo que va de noviembre en Barranquilla y el área metropolitana.",
+    "fecha_captura": "2026-11-13T06:46:54-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e7135c30b29168412938020724e2d68b7bf3af52"
+  },
+  {
     "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/11/mas-de-1-000-policias-seran-desplegados-durante-las-fiestas-de-la-independencia-en-cartagena/",
     "titular": "Más de 1.000 policías serán desplegados durante las Fiestas de la Independencia en Cartagena. - Diario La Libertad.",
@@ -805,6 +1299,50 @@
     "id": "353d19beef5d93dd262da764e4654e4383261f02"
   },
   {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/10/extorsion-y-amenazas-mantienen-en-zozobra-a-los-habitantes-de-malambo-300-mil-semanales-o-bala-el-terror-de-las-extorsiones-que-denuncian-en-el-barrio-mesolandia/",
+    "titular": "Extorsión y amenazas mantienen en zozobra a los habitantes de Malambo: ¡$300 mil semanales o bala! El terror de las extorsiones que denuncian en el barrio Mesolandia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-10T16:51:58-05:00",
+    "resumen": "Una creciente preocupación por las extorsiones y amenazas denuncian los habitantes del barrio Mesolandia, en el municipio de Malambo, Atlántico, donde, según",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [
+      "extorsion"
+    ],
+    "municipio": "Malambo",
+    "barrio": "Mesolandia",
+    "estado": "pendiente",
+    "id": "1ff76f7eba1bacd7a994807b85629326e67e3e26"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/10/barranquilla-entre-las-balas-y-el-miedo-quien-esta-ganando-la-guerra-por-el-control-de-las-calles/",
+    "titular": "Barranquilla, entre las balas y el miedo: ¿quién está ganando la guerra por el control de las calles? - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-10T16:49:39-05:00",
+    "resumen": "Barranquilla enfrenta una problemática de seguridad que cada vez genera mayores interrogantes sobre la capacidad de respuesta de las autoridades. El",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2facf79b985ef4e58e658072177c24c7104d6e0b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/10/ataque-con-drones-contra-canton-militar-en-santa-rosa-del-sur-dejo-tres-muertos-y-47-heridos/",
+    "titular": "Ataque con drones contra cantón militar en Santa Rosa del Sur dejó tres muertos y 47 heridos - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-10T15:32:56-05:00",
+    "resumen": "Un ataque con drones cargados con explosivos contra el Cantón Militar de Santa Rosa del Sur, Bolívar, dejó un saldo de tres personas muertas y 47 heridas,",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7632f19f12f4d53799e52fc723f218e2c546eca2"
+  },
+  {
     "medio": "Zona Cero",
     "url": "https://zonacero.com/judiciales/mataron-bala-hombre-cuando-caminaba-por-una-calle-de-la-esmeralda",
     "titular": "Mataron a bala a hombre cuando caminaba por una calle de La Esmeralda",
@@ -820,6 +1358,21 @@
     "id": "19562c3d453f980645c9de4815f1fe25692a4652"
   },
   {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/10/asesinan-a-tiros-a-vigilante-informal-en-el-barrio-ciudad-paraiso-de-soledad/",
+    "titular": "Asesinan a tiros a vigilante informal en el barrio Ciudad Paraíso de Soledad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-10T14:21:50-05:00",
+    "resumen": "Un hombre que se desempeñaba como vigilante informal fue asesinado durante la madrugada de este lunes en el barrio Ciudad Paraíso, en el municipio de Soledad,",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Ciudad Paraíso",
+    "estado": "pendiente",
+    "id": "0db50bd8459ea9a1131c415eb96b577325cede74"
+  },
+  {
     "medio": "Zona Cero",
     "url": "https://zonacero.com/judiciales/un-hombre-fue-asesinado-bala-en-el-barrio-las-flores",
     "titular": "Un hombre fue asesinado a bala en el barrio Las Flores",
@@ -833,6 +1386,34 @@
     "barrio": "Las Flores",
     "estado": "pendiente",
     "id": "eefd5e47dd2d6cdb4b2fc97b3df6c6fb564187c6"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/10/cinco-anos-de-prision-para-hombre-que-amenazo-a-tendero-para-extorsionarlo-en-juan-de-acosta/",
+    "titular": "Cinco años de prisión para hombre que amenazó a tendero para extorsionarlo en Juan de Acosta - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-10T13:50:09-05:00",
+    "resumen": "Un intento de extorsión contra un comerciante del municipio de Juan de Acosta terminó con una condena de cinco años y tres meses de prisión para Jhoan David",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [
+      "extorsion"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9c2ffa0a66eeac466d43f39d99a18a1829718127"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/10/policia-avanza-en-las-investigaciones-por-desaparicion-de-dos-mujeres-en-barranquilla/",
+    "titular": "Policía avanza en las investigaciones por desaparición de dos mujeres en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-10T13:34:46-05:00",
+    "resumen": "Las autoridades de Barranquilla avanzan en la recolección de información y las labores de verificación para esclarecer la desaparición de dos mujeres en el",
+    "fecha_captura": "2026-11-13T06:47:40-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4b35971082ccecee65b42d0f8c69762237676e36"
   },
   {
     "medio": "Zona Cero",

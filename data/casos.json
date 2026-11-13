@@ -1,5 +1,35 @@
 [
   {
+    "caso_id": "df541ebcb5e3",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones"
+    ],
+    "fecha": "2026-11-12",
+    "municipio": "Puerto Colombia",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "bcef59ee68d42b80008aa7a96cbaeb211b7208c7"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/12/patrullera-herida-en-enfrentamiento-a-tiros-entre-policias-y-presuntos-asaltantes-en-puerto-colombia/",
+        "titular": "Patrullera herida en enfrentamiento a tiros entre policías y presuntos asaltantes en Puerto Colombia - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "83a26c2ea911"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
     "caso_id": "d0d0ce95266d",
     "tipo": "desaparicion",
     "tipos": [
@@ -33,6 +63,65 @@
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "c8ac5198e920",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones"
+    ],
+    "fecha": "2026-11-12",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "8f838b036b3664d0bc0314c3a171ea9fedf7d517"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/patrullera-resulto-herida-en-intercambio-de-disparos-con-delincuentes-que-atracaban-un-oxxo-cerca-de-la-porto-azul/",
+        "titular": "Patrullera resultó herida en intercambio de disparos con delincuentes que atracaban un Oxxo cerca de la Porto Azul"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "83a26c2ea911"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "b83607e76435",
+    "tipo": "feminicidio",
+    "tipos": [
+      "feminicidio",
+      "homicidio"
+    ],
+    "fecha": "2026-11-12",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "4452cea9a2b330138ff5f8d19dc1c4ee5b3bba35"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/12/gobernacion-del-atlantico-reforzara-atencion-a-mujeres-victimas-25-estan-protegidas-por-riesgo-de-feminicidio/",
+        "titular": "Gobernación del Atlántico reforzará atención a mujeres víctimas: 25 están protegidas por riesgo de feminicidio - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "b294913472e7",
@@ -92,6 +181,68 @@
     "confianza_ubicacion": "alta"
   },
   {
+    "caso_id": "83a26c2ea911",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones"
+    ],
+    "fecha": "2026-11-12",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "02321c46f60b8e7373505343c6778b0fd51333d3"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/balacera-entre-presuntos-delincuentes-y-la-policia-en-puerto-una-patrullera-herida",
+        "titular": "Balacera entre presuntos delincuentes y la Policía en Puerto: una patrullera herida"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "df541ebcb5e3",
+      "c8ac5198e920",
+      "40b1f1bb0e6b"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "79f0554c3b5b",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-12",
+    "municipio": "Galapa",
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "603dd7edc7d51040879a0a730138feccce2435c9"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/un-motociclista-fue-asesinado-bala-cuando-circulaba-por-la-cordialidad-en-galapa",
+        "titular": "Un motociclista fue asesinado a bala cuando circulaba por La Cordialidad, en Galapa"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "5955f2f57ec4"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
     "caso_id": "6daa3e735adf",
     "tipo": "homicidio",
     "tipos": [
@@ -101,11 +252,13 @@
     "municipio": "Barranquilla",
     "barrio": "San Isidro",
     "medios": [
+      "Diario La Libertad",
       "Emisora Atlántico",
       "Zona Cero"
     ],
     "notas": [
       "1fcb36d1efb9958228763da246a0e06e50ea51ae",
+      "b2ffbc9b0ad7cd4566bac3772ae27f8c88d24936",
       "f98acbef5449b71364d1c32ea8b47afaa6f4a255"
     ],
     "fuentes": [
@@ -118,6 +271,11 @@
         "medio": "Emisora Atlántico",
         "url": "https://emisoraatlantico.com.co/judiciales/asesinan-a-tiros-a-hombre-mientras-reparaba-su-vehiculo-en-el-barrio-san-isidro-de-barranquilla/",
         "titular": "Asesinan a tiros a hombre mientras reparaba su vehículo en el barrio San Isidro de Barranquilla"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/12/sicarios-asesinaron-a-conductor-de-indrive-mientras-reparaba-su-vehiculo-en-san-isidro/",
+        "titular": "Sicarios asesinaron a conductor de InDrive mientras reparaba su vehículo en San Isidro - Diario La Libertad."
       }
     ],
     "estado": "pendiente",
@@ -125,6 +283,63 @@
     "lat": 10.97028,
     "lon": -74.79435,
     "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "62475d6eb404",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones",
+      "hurto"
+    ],
+    "fecha": "2026-11-12",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "7215383eca11927c767a5b66271a32d294320621"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/pasajeros-de-un-bus-en-barranquilla-casi-toman-justicia-por-mano-propia-contra-dos-sujetos-senalados-de-atracadores/",
+        "titular": "Pasajeros de un bus en Barranquilla casi “toman justicia por mano propia” contra dos sujetos señalados de atracadores"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "5dc51f9ab69f",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-12",
+    "municipio": "Soledad",
+    "barrio": "Villa Soledad",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "3c9fbea4071eeb4ce57281054fe161d58e9a6eb2"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/12/a-tiros-asesinan-a-un-hombre-en-una-calle-del-barrio-villa-soledad/",
+        "titular": "A tiros asesinan a un hombre en una calle del barrio Villa Soledad - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "5a4a9df17b23",
@@ -154,6 +369,65 @@
     "lat": 10.97115,
     "lon": -74.78022,
     "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "40b1f1bb0e6b",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones",
+      "hurto"
+    ],
+    "fecha": "2026-11-12",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "58b414936175c210d1a87ca9b8c4716e2dbcd4fd"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/camara-de-seguridad-grabo-robo-previo-la-balacera-donde-una-patrullera-resulto-herida",
+        "titular": "Cámara de seguridad grabó robo previo a la balacera donde una patrullera resultó herida"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "83a26c2ea911"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "2a058f78439c",
+    "tipo": "desaparicion",
+    "tipos": [
+      "desaparicion"
+    ],
+    "fecha": "2026-11-12",
+    "municipio": "Soledad",
+    "barrio": null,
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "9a67d7a1779947fb2ea49049062296a2010e4131"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/extienden-la-busqueda-de-la-pequena-zoe-arrastrada-por-el-arroyo-el-salao-contabiliza-mas-de-una-semana-desaparecida/",
+        "titular": "Extienden la búsqueda de la pequeña Zoé, arrastrada por el arroyo El Salao: ¡contabiliza más de una semana desaparecida!"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "25663f2cd7d1",
@@ -212,6 +486,63 @@
     "confianza_ubicacion": "municipio"
   },
   {
+    "caso_id": "13eb21292591",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-12",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "079310f1c4e1529f4508040bc4eea06c08643ea6"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/motociclista-transitaba-por-la-cordialidad-cuando-hombres-armados-lo-sorprendieron-y-lo-asesinaron-de-varios-disparos/",
+        "titular": "Motociclista transitaba por la Cordialidad cuando hombres armados lo sorprendieron y lo asesinaron de varios disparos"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "106eb7ccc413",
+    "tipo": "hurto",
+    "tipos": [
+      "hurto"
+    ],
+    "fecha": "2026-11-12",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "03f63f920b9b9e85da58d76c9d5da137a3c91f71"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/este-es-el-presunto-delincuente-que-hirio-en-atraco-una-patrullera-en-villa-campestre",
+        "titular": "Este es el presunto delincuente que hirió en atraco a una patrullera en Villa Campestre"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
     "caso_id": "faee548d6c67",
     "tipo": "hurto",
     "tipos": [
@@ -266,6 +597,35 @@
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "acadaed7ad40",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-11",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "e7135c30b29168412938020724e2d68b7bf3af52"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/murio-mujer-baleada-en-negocio-de-venta-de-huevos-el-sicario-fingio-ser-un-cliente",
+        "titular": "Murió mujer baleada en negocio de venta de huevos: el sicario fingió ser un cliente"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "a5a4af263ec2",
@@ -460,9 +820,11 @@
     "municipio": "Soledad",
     "barrio": "Ciudad Paraíso",
     "medios": [
+      "Diario La Libertad",
       "Zona Cero"
     ],
     "notas": [
+      "0db50bd8459ea9a1131c415eb96b577325cede74",
       "454edc88168002452877cf4ca666b4f233dbe92e"
     ],
     "fuentes": [
@@ -470,6 +832,11 @@
         "medio": "Zona Cero",
         "url": "https://zonacero.com/judiciales/un-vigilante-informal-fue-asesinado-en-el-barrio-ciudad-paraiso-en-soledad",
         "titular": "Un vigilante informal fue asesinado en el barrio Ciudad Paraíso, en Soledad"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/10/asesinan-a-tiros-a-vigilante-informal-en-el-barrio-ciudad-paraiso-de-soledad/",
+        "titular": "Asesinan a tiros a vigilante informal en el barrio Ciudad Paraíso de Soledad - Diario La Libertad."
       }
     ],
     "estado": "pendiente",
@@ -507,8 +874,10 @@
         "titular": "Violencia criminal en el suroccidente de Barranquilla: Sicariato en Las Flores: asesinan a alias ‘Moncho’, presunto integrante de ‘Los Costeños’ - Diario La Libertad."
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "79f0554c3b5b"
+    ],
     "lat": 11.04154,
     "lon": -74.82663,
     "confianza_ubicacion": "alta"
@@ -540,6 +909,34 @@
     "lat": 10.96722,
     "lon": -74.81923,
     "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "2f493d99b57a",
+    "tipo": "extorsion",
+    "tipos": [
+      "extorsion"
+    ],
+    "fecha": "2026-11-10",
+    "municipio": "Malambo",
+    "barrio": "Mesolandia",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "1ff76f7eba1bacd7a994807b85629326e67e3e26"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/10/extorsion-y-amenazas-mantienen-en-zozobra-a-los-habitantes-de-malambo-300-mil-semanales-o-bala-el-terror-de-las-extorsiones-que-denuncian-en-el-barrio-mesolandia/",
+        "titular": "Extorsión y amenazas mantienen en zozobra a los habitantes de Malambo: ¡$300 mil semanales o bala! El terror de las extorsiones que denuncian en el barrio Mesolandia - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "18d458bdafb4",
