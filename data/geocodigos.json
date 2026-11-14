@@ -65,6 +65,11 @@
     "lon": -74.78022,
     "nombre_osm": "San Roque, Localidad Suroriente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 080012, Colombia"
   },
+  "santo domingo|Barranquilla": {
+    "lat": 10.97732,
+    "lon": -74.8014,
+    "nombre_osm": "Santo Domingo, Localidad Suroccidente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
+  },
   "torre del pescado|Barranquilla": null,
   "villa cecilia|Soledad": {
     "lat": 10.92985,

@@ -11,13 +11,15 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-06,,,hom,Sin dato,1
 2026-06,Soledad,,hom,Sin dato,1
 2026-11,,,hom,Arma de fuego,1
-2026-11,,,hom,Sin dato,4
-2026-11,,,hur,Sin dato,1
+2026-11,,,hom,Sin dato,6
+2026-11,,,hur,Sin dato,2
 2026-11,,,les,Arma de fuego,3
+2026-11,,,otr,Sin dato,3
 2026-11,,El Limón,hom,Arma de fuego,1
 2026-11,,El Valle,hom,Arma de fuego,1
 2026-11,,Evaristo Sourdis,hom,Arma de fuego,1
 2026-11,,La Esmeralda,hom,Arma de fuego,1
+2026-11,,Santo Domingo,hom,Arma de fuego,1
 2026-11,,Villa María,hom,Arma de fuego,1
 2026-11,Barranquilla,,hom,Arma de fuego,1
 2026-11,Barranquilla,,hur,Sin dato,1
@@ -29,8 +31,10 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-11,Barranquilla,San Roque,hom,Arma de fuego,1
 2026-11,Barranquilla,Torre del Pescado,hom,Arma de fuego,1
 2026-11,Galapa,,hom,Arma de fuego,1
+2026-11,Galapa,,hom,Sin dato,1
 2026-11,Malambo,Mesolandia,ext,Arma de fuego,1
 2026-11,Puerto Colombia,,les,Arma de fuego,1
+2026-11,Soledad,,ext,Sin dato,1
 2026-11,Soledad,,hom,Arma de fuego,1
 2026-11,Soledad,,hom,Sin dato,1
 2026-11,Soledad,,otr,Sin dato,2
