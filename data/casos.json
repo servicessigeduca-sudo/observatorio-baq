@@ -1,5 +1,273 @@
 [
   {
+    "caso_id": "cbd9e04d80e2",
+    "tipo": "extorsion",
+    "tipos": [
+      "extorsion"
+    ],
+    "fecha": "2026-11-13",
+    "municipio": "Soledad",
+    "barrio": null,
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "82a2dd47a4a03f9e4be04f788e68a89b681486ad"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/policia-capturo-a-dos-presuntos-extorsionistas-en-villa-muvdi-en-soledad-dinero-en-efectivo-y-celulares-les-fueron-incautados/",
+        "titular": "Policía capturó a dos presuntos extorsionistas en Villa Muvdi, Soledad: dinero en efectivo y celulares les fueron incautados"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "c4a5640269eb",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-13",
+    "municipio": "Galapa",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "e76cbf3611c675c29993dcd805d479e840abd50e"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/13/asesinan-a-alias-el-wason-mientras-trabajaba-como-mototaxista-en-la-via-a-galapa/",
+        "titular": "Asesinan a alias ‘El Wason’ mientras trabajaba como mototaxista en la vía a Galapa - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "abe9dc62a49a",
+    "tipo": "secuestro",
+    "tipos": [
+      "secuestro"
+    ],
+    "fecha": "2026-11-13",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "775dbf42b9346955acd10ebf0f3acaf69efd4445"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/subteniente-secuestrada-por-el-eln-pide-de-la-espriella-evitar-un-rescate-militar",
+        "titular": "Subteniente secuestrada por el ELN pide a De La Espriella evitar un rescate militar"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "14826db5995f"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "97496d25ac2d",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones",
+      "extorsion"
+    ],
+    "fecha": "2026-11-13",
+    "municipio": null,
+    "barrio": "Santo Domingo",
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "5cecb3f0c87abcce48fae03bfbb9ba2a4bcc96b0"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/joven-fue-asesinado-mientras-laboraba-en-una-barberia-del-barrio-santo-domingo-el-cliente-al-que-motilaba-tambien-resulto-herido/",
+        "titular": "Joven fue asesinado mientras laboraba en una barbería del barrio Santo Domingo: ¡el cliente al que motilaba resultó herido!"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "77a3de1610d5",
+    "tipo": "hurto",
+    "tipos": [
+      "hurto"
+    ],
+    "fecha": "2026-11-13",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "1dfeb3771b3bac249da2e9f4a3bab1b80849d799"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/13/petrolero-embistio-y-volco-un-crucero-con-129-pasajeros-en-el-rio-misisipi/",
+        "titular": "Petrolero embistió y volcó un crucero con 129 pasajeros en el río Misisipi - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "76002fcbe07a",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-13",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "224b097b517a39fd24fb10a091ece2eb562ad8d3"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/identifican-al-hombre-asesinado-en-la-cordialidad-era-mototaxista",
+        "titular": "Identifican al hombre asesinado en La Cordialidad: era mototaxista"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "a5a4af263ec2",
+      "79f0554c3b5b"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "713c2ebc9809",
+    "tipo": "secuestro",
+    "tipos": [
+      "secuestro"
+    ],
+    "fecha": "2026-11-13",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "9f591ecdeed243812b51c5ae1b0fd170d24095b8"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/13/pacho-el-gato-que-acompano-a-dos-funcionarios-del-cti-durante-18-meses-de-secuestro-y-tambien-recupero-su-libertad/",
+        "titular": "Pacho, el gato que acompañó a dos funcionarios del CTI durante 18 meses de secuestro y también recuperó su libertad - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "5c1f646baaa2",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-13",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "d610efcfda3a0a04f8d63ca49d02daeabd007756"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/13/encuentran-sin-vida-a-darisnel-acosta-polo-en-una-trocha-hacia-caracoli/",
+        "titular": "Encuentran sin vida a Darisnel Acosta Polo en una trocha hacia Caracolí - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "14826db5995f",
+    "tipo": "secuestro",
+    "tipos": [
+      "secuestro"
+    ],
+    "fecha": "2026-11-13",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad",
+      "Zona Cero"
+    ],
+    "notas": [
+      "03f94483afeeda9b62b20f98af1d7e5435143891",
+      "32ceec80dc0528636d3969903b9acc2575c7b17b"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/entre-lagrimas-subteniente-secuestrada-por-el-eln-envio-conmovedor-mensaje-su-familia",
+        "titular": "Entre lágrimas, subteniente secuestrada por el ELN envió conmovedor mensaje a su familia"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/13/entre-lagrimas-subteniente-secuestrada-por-el-eln-pidio-a-su-familia-mantener-la-calma/",
+        "titular": "Entre lágrimas, subteniente secuestrada por el ELN pidió a su familia mantener la calma - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "abe9dc62a49a"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
     "caso_id": "df541ebcb5e3",
     "tipo": "lesiones",
     "tipos": [
@@ -236,7 +504,8 @@
     ],
     "estado": "posible_duplicado",
     "posible_duplicado_de": [
-      "5955f2f57ec4"
+      "5955f2f57ec4",
+      "76002fcbe07a"
     ],
     "lat": null,
     "lon": null,
@@ -662,8 +931,10 @@
         "titular": "Identifican a vigilante informal asesinado por sicarios en el barrio El Santuario: tenía 70 años - Diario La Libertad."
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "76002fcbe07a"
+    ],
     "lat": 10.94585,
     "lon": -74.80224,
     "confianza_ubicacion": "alta"

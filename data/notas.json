@@ -1,6 +1,497 @@
 [
   {
     "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/fondo-milagro-salarios-de-hasta-39-millones-desatan-criticas-y-reclamos-en-redes-sociales/",
+    "titular": "Fondo Milagro: salarios de hasta $39 millones desatan críticas y reclamos en redes sociales - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T22:24:58-05:00",
+    "resumen": "La nómina del Fondo Milagro se convirtió en el centro de una controversia nacional. Mientras las familias damnificadas por el terremoto del 10 de agosto",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "587caef68c48fc046058dc13e342fc0cfb36c3ef"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/petrolero-embistio-y-volco-un-crucero-con-129-pasajeros-en-el-rio-misisipi/",
+    "titular": "Petrolero embistió y volcó un crucero con 129 pasajeros en el río Misisipi - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T22:16:02-05:00",
+    "resumen": "La embarcación American Heritage estaba atracada en el puerto de Nueva Orleans cuando fue impactada por el tanquero Atlantic Asphalt. Las 180 personas que",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [
+      "hurto"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1dfeb3771b3bac249da2e9f4a3bab1b80849d799"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/consejo-de-estado-niega-tutela-contra-de-la-espriella-por-actos-religiosos-y-descarta-vulneracion-del-estado-laico/",
+    "titular": "Consejo de Estado niega tutela contra De la Espriella por actos religiosos y descarta vulneración del Estado laico - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T22:01:27-05:00",
+    "resumen": "El Consejo de Estado negó la acción de tutela presentada por Román Camilo Díaz Fernández contra el presidente Abelardo de la Espriella, el entonces ministro",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "900d75f98ecff8e3d6188cf51279a90301831800"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/equipos-antidrones-incautados-en-el-catatumbo-reabren-el-debate-sobre-la-defensa-tecnologica-de-colombia/",
+    "titular": "Equipos antidrones incautados en el Catatumbo reabren el debate sobre la defensa tecnológica de Colombia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T21:57:45-05:00",
+    "resumen": "La supuesta incautación de equipos especializados para detectar, interferir y alterar señales de drones en el Catatumbo volvió a poner sobre la mesa una",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6fd3f42581598ff882a7cc28dd81aa05ef2cfafe"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/pacho-el-gato-que-acompano-a-dos-funcionarios-del-cti-durante-18-meses-de-secuestro-y-tambien-recupero-su-libertad/",
+    "titular": "Pacho, el gato que acompañó a dos funcionarios del CTI durante 18 meses de secuestro y también recuperó su libertad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T21:36:07-05:00",
+    "resumen": "Jesús Antonio Pacheco Oviedo y Rodrigo Antonio López Estrada regresaron a la libertad junto al pequeño felino que los acompañó durante su cautiverio en",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9f591ecdeed243812b51c5ae1b0fd170d24095b8"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/hallan-sin-vida-a-adulto-mayor-que-llevaba-dos-dias-desaparecido-en-zona-rural-de-baranoa/",
+    "titular": "Hallan sin vida a adulto mayor que llevaba dos días desaparecido en zona rural de Baranoa - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T21:32:09-05:00",
+    "resumen": "Darisnel Acosta Polo, de 62 años, fue encontrado muerto en una trocha de Baranoa, Atlántico, luego de que sus familiares reportaran su desaparición. Sus",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9695e2050d532502f5ad42cabf7086b08cad6d14"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/ecuador-investiga-presunto-plan-para-atentar-contra-daniel-noboa-alias-loco-ovidio-estaria-en-colombia/",
+    "titular": "Ecuador investiga presunto plan para atentar contra Daniel Noboa; alias ‘Loco Ovidio’ estaría en Colombia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T21:28:15-05:00",
+    "resumen": "El ministro del Interior de Ecuador, John Reimberg, denunció la existencia de una investigación sobre un supuesto plan para atentar contra el presidente",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "5ea83f6c04e9bf4061fa0991e0731e992103dc8a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/con-entrega-de-ayudas-humanitarias-gobernacion-del-magdalena-le-cumple-a-cerca-de-100-familias-afectadas-por-vendaval-en-san-sebastian/",
+    "titular": "Con entrega de ayudas humanitarias, Gobernación del Magdalena le cumple a cerca de 100 familias afectadas por vendaval en San Sebastián - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T20:36:31-05:00",
+    "resumen": "El Gobierno con Más y Mejores Resultados con la Gente suministró materiales de ferretería para apoyar la recuperación de las viviendas afectadas por los",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "cfe0afc025406aba7341a2bbde8112baf6548ff7"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/alertan-por-presunta-modalidad-de-robo-de-taxistas-en-valledupar-pasajeros-denuncian-la-maniobra-de-la-puerta-dura/",
+    "titular": "Alertan por presunta modalidad de robo de taxistas en Valledupar: pasajeros denuncian la maniobra de la “puerta dura” - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T20:22:32-05:00",
+    "resumen": "Dos mujeres denunciaron que habrían sido víctimas de hurtos durante carreras de taxi en Valledupar. Según sus relatos, el conductor utiliza supuestas fallas",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [
+      "hurto"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d8d15471f566a3ac30ab809bb82e0ce609bf281d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/corte-constitucional-ratifica-la-ley-no-mas-ole-corridas-de-toros-terminaran-en-2027/",
+    "titular": "Corte Constitucional ratifica la Ley No Más Olé: corridas de toros terminarán en 2027 - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T19:55:48-05:00",
+    "resumen": "La Corte Constitucional ratificó la constitucionalidad de la Ley 2385 de 2024, conocida como Ley No Más Olé, que establece la prohibición progresiva de",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6fe611ab8075bb5bca9a26ebc99f34d5c8bb6d99"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/gobernadora-del-choco-revela-que-gana-14-millones-y-pide-que-el-fondo-milagro-funcione/",
+    "titular": "Gobernadora del Chocó revela que gana $14 millones y pide que el Fondo Milagro funcione - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T19:17:58-05:00",
+    "resumen": "La gobernadora del Chocó, Nubia Carolina Córdoba, reveló que recibe un salario mensual de aproximadamente 14 millones de pesos, al ser consultada por las",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7351ba2ff53a018e39b66313e9eebf503970ceb7"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/capturan-a-alias-pequenas-cosas-con-arma-artesanal-y-1-500-gramos-de-marihuana-en-barranquilla/",
+    "titular": "Capturan a alias ‘Pequeñas Cosas’ con arma artesanal y 1.500 gramos de marihuana en Barranquilla",
+    "fecha_publicacion": "2026-11-13T19:13:00-05:00",
+    "resumen": "Un hombre de 20 años, conocido con el alias de ‘Pequeñas Cosas’, fue capturado en flagrancia por la Policía Nacional durante un procedimiento de registro y control en el suroccidente de Barranquilla. El operativo fue realizado por uniformados de la Estación de Policía El Bosque, en la calle 145…",
+    "fecha_captura": "2026-11-14T06:32:53-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "El Bosque",
+    "estado": "pendiente",
+    "id": "87da12274546c24e071dbe7cdbd309cde4a60ca4"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/a-la-carcel-carlos-oyola-exfuncionario-de-la-dni-por-presunto-fraude-informatico-en-la-unad/",
+    "titular": "A la cárcel Carlos Oyola, exfuncionario de la DNI, por presunto fraude informático en la UNAD - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T19:12:24-05:00",
+    "resumen": "La Fiscalía le atribuye 41 inconsistencias en sus registros académicos y movimientos financieros sin soporte que superarían los $35 millones. La investigación",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8eaad1700d6faa3f891e58dea98715c0b93e593d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/estados-unidos-suspende-despegues-en-todos-sus-aeropuertos-por-falla-de-comunicaciones-aereas/",
+    "titular": "Estados Unidos suspende despegues en todos sus aeropuertos por falla de comunicaciones aéreas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T18:45:47-05:00",
+    "resumen": "Una falla en las comunicaciones de los centros de control del tráfico aéreo obligó este viernes 13 de noviembre a la Administración Federal de Aviación de",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "100a9058057fc268223bc4f8722f9ea0876a6751"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/policia-capturo-a-dos-presuntos-extorsionistas-en-villa-muvdi-en-soledad-dinero-en-efectivo-y-celulares-les-fueron-incautados/",
+    "titular": "Policía capturó a dos presuntos extorsionistas en Villa Muvdi, Soledad: dinero en efectivo y celulares les fueron incautados",
+    "fecha_publicacion": "2026-11-13T18:01:19-05:00",
+    "resumen": "La brigadier general Sandra Liliana Rodríguez Castro, comandante de la Policía Metropolitana de Barranquilla (Mebar), les expresó a los barranquilleros, especialmente a los comerciantes, que no bajarán la guardia con los operativos para desarticular las redes delincuenciales que los azotan. Tras…",
+    "fecha_captura": "2026-11-14T06:32:54-05:00",
+    "tipos_delito": [
+      "extorsion"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "82a2dd47a4a03f9e4be04f788e68a89b681486ad"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/adulto-mayor-reportado-por-su-familia-como-desaparecido-fue-hallado-sin-vida-en-una-trocha-en-baranoa-atlantico/",
+    "titular": "Adulto mayor reportado por su familia como desaparecido fue hallado sin vida en una trocha en Baranoa, Atlántico",
+    "fecha_publicacion": "2026-11-13T17:34:45-05:00",
+    "resumen": "Familiares del occiso aseguraron que su muerte habría sido ocasionada por un vehículo que lo arrolló, denuncia a la que los investigadores deberán ponerle la lupa. Tras haber sido reportado como desaparecido desde hacía dos días, la familia recibió la tarde de este viernes la triste noticia de que…",
+    "fecha_captura": "2026-11-14T06:32:54-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "5ef3bbabc33889f91581121df6f333dc40928141"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/dos-hombres-fueron-asesinados-a-tiros-en-juan-de-acosta-ya-son-tres-homicidios-en-menos-de-24-horas/",
+    "titular": "Dos hombres fueron asesinados a tiros en Juan de Acosta; ya son tres homicidios en menos de 24 horas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T16:12:02-05:00",
+    "resumen": "La violencia volvió a cobrar vidas en el municipio de Juan de Acosta, Atlántico. En la madrugada de este viernes 13 de noviembre, dos hombres fueron",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ba94edbc6f9f6e149d02dd4ec0794343748774e6"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/3-000-policias-reforzaran-la-seguridad-en-barranquilla-y-soledad-durante-el-puente-festivo/",
+    "titular": "3.000 policías reforzarán la seguridad en Barranquilla y Soledad durante el puente festivo - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T15:47:56-05:00",
+    "resumen": "Un dispositivo de 3.000 uniformados fue dispuesto para reforzar la vigilancia en Barranquilla y los municipios de su área metropolitana durante el puente",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "abbc4a41db45d8f5617789cf76c822770a869eff"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/hallan-muerto-hombre-desaparecido-desde-el-11-de-noviembre-fue-arrollado-por-un-vehiculo",
+    "titular": "Hallan muerto a hombre desaparecido desde el 11 de noviembre: fue arrollado por un vehículo",
+    "fecha_publicacion": "2026-11-13T15:28:00-05:00",
+    "resumen": "Darisnel Acosto Polo, de 62 años, estaba desaparecido cuando se bajó de un vehículo con familiares mientras se desplazaba de Baranoa a Barranquilla.",
+    "fecha_captura": "2026-11-14T06:28:19-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "cce87abe91e40fa285fecb39398c7d6a3d3ef530"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/joven-fue-asesinado-mientras-laboraba-en-una-barberia-del-barrio-santo-domingo-el-cliente-al-que-motilaba-tambien-resulto-herido/",
+    "titular": "Joven fue asesinado mientras laboraba en una barbería del barrio Santo Domingo: ¡el cliente al que motilaba resultó herido!",
+    "fecha_publicacion": "2026-11-13T14:43:50-05:00",
+    "resumen": "Las autoridades competentes buscan establecer si el ataque a bala habría sido motivado por extorsiones, como lo aseguran fuentes anónimas, o si, por el contrario, obedeció a otros móviles que ahora son materia de investigación. La rutina de barbería que el joven identificado, preliminarmente, como…",
+    "fecha_captura": "2026-11-14T06:32:54-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones",
+      "extorsion"
+    ],
+    "municipio": null,
+    "barrio": "Santo Domingo",
+    "estado": "pendiente",
+    "id": "5cecb3f0c87abcce48fae03bfbb9ba2a4bcc96b0"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/subteniente-secuestrada-por-el-eln-pide-de-la-espriella-evitar-un-rescate-militar",
+    "titular": "Subteniente secuestrada por el ELN pide a De La Espriella evitar un rescate militar",
+    "fecha_publicacion": "2026-11-13T13:31:27-05:00",
+    "resumen": "La uniformada solicitó priorizar una salida humanitaria.",
+    "fecha_captura": "2026-11-14T06:28:19-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "775dbf42b9346955acd10ebf0f3acaf69efd4445"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/encuentran-sin-vida-a-darisnel-acosta-polo-en-una-trocha-hacia-caracoli/",
+    "titular": "Encuentran sin vida a Darisnel Acosta Polo en una trocha hacia Caracolí - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T12:57:59-05:00",
+    "resumen": "La búsqueda de Darisnel Acosta Polo terminó este viernes 13 de noviembre con un desenlace fatal. El hombre fue encontrado sin vida durante la mañana en una",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d610efcfda3a0a04f8d63ca49d02daeabd007756"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/jep-condena-cinco-exmilitares-trabajos-restaurativos-por-35-falsos-positivos",
+    "titular": "JEP condena a cinco exmilitares a trabajos restaurativos, por 35 'falsos positivos'",
+    "fecha_publicacion": "2026-11-13T12:24:00-05:00",
+    "resumen": "Las penas oscilan entre cinco años, seis meses y diez días y los seis años y seis meses.",
+    "fecha_captura": "2026-11-14T06:28:19-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6b99fb258899e43272990a1e4a521ffaa95d58b0"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/entre-lagrimas-subteniente-secuestrada-por-el-eln-pidio-a-su-familia-mantener-la-calma/",
+    "titular": "Entre lágrimas, subteniente secuestrada por el ELN pidió a su familia mantener la calma - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T12:14:30-05:00",
+    "resumen": "Un nuevo mensaje de la subteniente del Ejército María Camila Pantoja Hernández se conoció este viernes, luego de que el ELN difundiera un video en el que",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "03f94483afeeda9b62b20f98af1d7e5435143891"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/capturan-en-bogota-a-alias-el-temible-senalado-cabecilla-de-los-pachenca-en-cienaga/",
+    "titular": "Capturan en Bogotá a alias ‘El Temible’, señalado cabecilla de Los Pachenca en Ciénaga - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T11:55:59-05:00",
+    "resumen": "La detención se produjo durante labores de patrullaje, registro y control en el sector de La María. Los uniformados identificaron al hombre, de 50 años, y al",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8934514e41d1adcc33ff2f6a6ea4827813b03e36"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/entre-lagrimas-subteniente-secuestrada-por-el-eln-envio-conmovedor-mensaje-su-familia",
+    "titular": "Entre lágrimas, subteniente secuestrada por el ELN envió conmovedor mensaje a su familia",
+    "fecha_publicacion": "2026-11-13T10:03:55-05:00",
+    "resumen": "La guerrilla entregó el video como prueba de supervivencia.",
+    "fecha_captura": "2026-11-14T06:28:19-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "32ceec80dc0528636d3969903b9acc2575c7b17b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/cayo-presunto-agresor-senalado-de-golpear-a-su-expareja-frente-a-su-hija-de-tres-anos-en-bolivar/",
+    "titular": "Cayó presunto agresor señalado de golpear a su expareja frente a su hija de tres años en Bolívar - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T09:49:14-05:00",
+    "resumen": "Hay heridas que no siempre quedan marcadas en la piel, pero que permanecen en la memoria de quienes las presencian. En un hogar del sur de Bolívar, una mujer",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "320a52d6843f349ea07ba422581e9f2b36c1ea27"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/tres-jovenes-asesinados-en-dos-dias-crece-la-preocupacion-en-juan-de-acosta/",
+    "titular": "Tres jóvenes asesinados en dos días: crece la preocupación en Juan de Acosta - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T09:23:07-05:00",
+    "resumen": "Una de las víctimas fue identificada como Martín de Jesús Arteta Charris, mientras que el segundo joven era conocido como Yesinio. De acuerdo con la",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b14f7f40c590695bc18829cc1ebdef79ebabc633"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/doble-crimen-en-juan-de-acosta-le-dispararon-dos-hombres-uno-era-habitante-de-calle",
+    "titular": "Doble crimen en Juan de Acosta: le dispararon a dos hombres, uno era habitante de calle",
+    "fecha_publicacion": "2026-11-13T09:11:00-05:00",
+    "resumen": "Tres homicidios en menos de 24 horas en el municipio.",
+    "fecha_captura": "2026-11-14T06:28:19-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a86aead26a11b84fefa0648d749d89d79c6c2bd0"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/dos-incendios-en-barranquilla-6-casas-reducidas-cenizas-en-el-bosque",
+    "titular": "Dos incendios en Barranquilla: 6 casas reducidas a cenizas en El Bosque",
+    "fecha_publicacion": "2026-11-13T08:02:00-05:00",
+    "resumen": "Otra emergencia se registró en el barrio San Felipe en un almacén.",
+    "fecha_captura": "2026-11-14T06:28:19-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": "El Bosque",
+    "estado": "pendiente",
+    "id": "2a50f51e224e26a2753618576579200f5aa62736"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/identifican-al-hombre-asesinado-en-la-cordialidad-era-mototaxista",
+    "titular": "Identifican al hombre asesinado en La Cordialidad: era mototaxista",
+    "fecha_publicacion": "2026-11-13T07:20:00-05:00",
+    "resumen": "Tenía 34 años de edad.",
+    "fecha_captura": "2026-11-14T06:28:19-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "224b097b517a39fd24fb10a091ece2eb562ad8d3"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/asesinado-chonchito-en-santa-marta-su-familia-acababa-de-despedir-a-su-padre/",
+    "titular": "Asesinado ‘Chonchito’ en Santa Marta: su familia acababa de despedir a su padre - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T06:39:36-05:00",
+    "resumen": "De acuerdo con versiones de testigos, el joven caminaba por una vía pública cuando fue interceptado por dos hombres que se movilizaban en una motocicleta. Uno",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0cf72c998936f554dd328f84b0f6a6c6834e27c1"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/carro-quedo-destrozado-tras-chocar-contra-una-vaca-en-la-via-paradero-maicao/",
+    "titular": "Carro quedó destrozado tras chocar contra una vaca en la vía Paradero-Maicao - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T06:35:48-05:00",
+    "resumen": "Un accidente de tránsito se registró durante la noche del jueves 12 de noviembre en la vía que comunica al corregimiento de Paradero con el municipio de",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "13f774755d0143d84da34594f13209ed5a8abb10"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/13/asesinan-a-alias-el-wason-mientras-trabajaba-como-mototaxista-en-la-via-a-galapa/",
+    "titular": "Asesinan a alias ‘El Wason’ mientras trabajaba como mototaxista en la vía a Galapa - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-13T06:23:23-05:00",
+    "resumen": "Un nuevo homicidio se registró durante la tarde del jueves 12 de noviembre en la avenida Cordialidad, en el tramo que comunica a Barranquilla con el municipio",
+    "fecha_captura": "2026-11-14T06:28:54-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Galapa",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e76cbf3611c675c29993dcd805d479e840abd50e"
+  },
+  {
+    "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/13/recapturan-a-condenado-por-matar-a-un-hombre-dentro-de-una-iglesia-llevaba-mas-de-un-ano-profugo/",
     "titular": "Recapturan a condenado por matar a un hombre dentro de una iglesia: llevaba más de un año prófugo - Diario La Libertad.",
     "fecha_publicacion": "2026-11-13T06:17:53-05:00",
