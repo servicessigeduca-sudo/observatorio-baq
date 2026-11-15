@@ -1,6 +1,532 @@
 [
   {
     "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/ivan-cepeda-denunciara-a-alejandro-ordonez-ante-la-fiscalia-y-la-procuraduria-por-cuatro-presuntos-delitos/",
+    "titular": "Iván Cepeda denunciará a Alejandro Ordóñez ante la Fiscalía y la Procuraduría por cuatro presuntos delitos - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T22:08:08-05:00",
+    "resumen": "Un nuevo enfrentamiento entre el Gobierno de Abelardo De la Espriella y la oposición llegó al terreno judicial. El senador Iván Cepeda anunció que denunciará",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a683dc386ce22a20ba3ce3e82f1ba056ea67318d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/dni-pago-649-millones-mas-en-arriendos-durante-2025-pese-a-reducir-a-la-mitad-sus-inmuebles/",
+    "titular": "DNI pagó $649 millones más en arriendos durante 2025, pese a reducir a la mitad sus inmuebles - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T22:04:27-05:00",
+    "resumen": "La Dirección Nacional de Inteligencia (DNI) quedó bajo nuevos cuestionamientos por el manejo de sus recursos administrativos, luego de conocerse que durante",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "33ee1204143e31a87f8fe91cc8dcb0786d2989ee"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/capturan-a-alias-kamo-por-presunto-plan-de-atentado-contra-la-alcaldia-de-hato-corozal/",
+    "titular": "Capturan a alias ‘Kamo’ por presunto plan de atentado contra la Alcaldía de Hato Corozal - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T21:28:37-05:00",
+    "resumen": "Un presunto atentado contra la Alcaldía de Hato Corozal, Casanare, fue frustrado por las autoridades tras una investigación que permitió identificar un plan",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "lesiones",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "53cd3fbdec782c9d01c210729267b0be7c53275a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/ataque-israeli-contra-hospital-en-gaza-dejo-seis-muertos-entre-ellos-un-medico-y-un-nino/",
+    "titular": "Ataque israelí contra hospital en Gaza dejó seis muertos, entre ellos un médico y un niño - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T21:18:27-05:00",
+    "resumen": "La tragedia ocurrió durante la madrugada del jueves 12 de noviembre, cuando un ataque aéreo israelí alcanzó el complejo médico Nasser, en el sur de Gaza. El",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ee78e48d71a15619af0e01663c8b367fb8cf682f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/de-la-espriella-cumple-100-dias-con-una-politica-de-seguridad-sin-negociaciones-de-paz/",
+    "titular": "De la Espriella cumple 100 días con una política de seguridad sin negociaciones de paz - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T21:12:01-05:00",
+    "resumen": "La política de seguridad del presidente Abelardo de la Espriella tiene un principio central: no negociar políticamente con organizaciones armadas ilegales. Al",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "cee7d73be2ea7c9d046827c5df2e64f145c5b0e6"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/incautan-58-celulares-y-armas-cortopunzantes-en-carcel-el-buen-pastor-de-bogota/",
+    "titular": "Incautan 58 celulares y armas cortopunzantes en cárcel El Buen Pastor de Bogotá - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T20:51:45-05:00",
+    "resumen": "58 teléfonos celulares.",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4299bd99b864f12c3c399f375c808f465290ee1a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/capturan-en-monteria-a-alias-pata-de-palo-senalado-segundo-cabecilla-del-clan-del-golfo/",
+    "titular": "Capturan en Montería a alias ‘Pata de Palo’, señalado segundo cabecilla del Clan del Golfo - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T20:42:22-05:00",
+    "resumen": "La Policía Nacional capturó este sábado 14 de noviembre a Francisco Miguel Pacheco, conocido con el alias de ‘Pata de Palo’, señalado como segundo cabecilla",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "356bb8b293d86997a7513c7f9cd942d78719cbeb"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/propietarios-en-compania-de-abogados-y-policia-frustran-intento-de-invasion-al-norte-de-barranquilla/",
+    "titular": "Propietarios en compañía de abogados y policía, frustran intento de invasión al norte de Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T19:49:01-05:00",
+    "resumen": "Propietarios en compañía de abogados y policía, frustran intento de invasión al norte de Barranquilla by DiarioLaLibertad",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "5ba697903644cbef2144fe8d8d9c736ce18c7a24"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/en-sus-primeros-100-dias-de-la-espriella-mueve-sus-fichas-para-conquistar-las-regiones-y-disputar-el-poder-en-2027/",
+    "titular": "En sus primeros 100 días, De la Espriella mueve sus fichas para conquistar las regiones y disputar el poder en 2027 - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T19:48:33-05:00",
+    "resumen": "El presidente busca convertir su capital político nacional en una estructura territorial capaz de competir por alcaldías, gobernaciones, concejos y asambleas.",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2a93abaae4c970aa0e8462f2b1db19afff0ac9bd"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/milagro-week-en-nueva-york-gobierno-busca-atraer-inversiones-por-mas-de-us20-000-millones/",
+    "titular": "Milagro Week en Nueva York: Gobierno busca atraer inversiones por más de US$20.000 millones - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T19:47:49-05:00",
+    "resumen": "El Gobierno del presidente Abelardo De la Espriella se prepara para presentar ante inversionistas internacionales una de sus principales apuestas económicas:",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e823fc0c099605bdcf595f2aaaaa2c02e7d14a3a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/asi-era-el-dron-de-alta-gama-que-utilizaba-alias-primo-gay-para-vigilar-a-las-tropas-en-antioquia/",
+    "titular": "Así era el dron de alta gama que utilizaba alias ‘Primo Gay’ para vigilar a las tropas en Antioquia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T19:45:35-05:00",
+    "resumen": "La captura de Néider Yesid Uñates López, conocido como alias ‘Primo Gay’, volvió a poner en evidencia el uso de tecnología avanzada por parte de estructuras",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "872dd6fa2152a5b04312118878ab23290c450fc2"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/16-heridos-en-accidente-de-bus-que-transportaba-estudiantes-en-norte-de-santander",
+    "titular": "16 heridos en accidente de bus que transportaba estudiantes, en Norte de Santander",
+    "fecha_publicacion": "2026-11-14T19:10:00-05:00",
+    "resumen": "Los heridos fueron trasladados al municipio de Ocaña para recibir atención médica.",
+    "fecha_captura": "2026-11-15T06:29:50-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "860c46a1acacaaf9292b2f5f2e1ae6c8d8e07557"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/alias-primo-gay-el-capturado-cabecilla-de-las-disidencias-que-vinculan-con-el-clan-del",
+    "titular": "Alias ‘Primo Gay’, el capturado cabecilla de las disidencias que vinculan con el 'Clan del Golfo'",
+    "fecha_publicacion": "2026-11-14T19:02:00-05:00",
+    "resumen": "Por él ofrecían 200 millones de pesos de recompensa.",
+    "fecha_captura": "2026-11-15T06:29:50-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "850a212d5f924b916a298154f662147292faeead"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/bus-de-transporte-publico-cayo-a-un-abismo-en-san-calixto-norte-de-santander-reportan-16-menores-heridos/",
+    "titular": "Bus de transporte público cayó a un abismo en San Calixto, Norte de Santander: reportan 16 menores heridos - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T18:45:02-05:00",
+    "resumen": "Un grave accidente de tránsito se registró en el municipio de San Calixto, Norte de Santander, donde un bus de transporte público cayó a un abismo, dejando un",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2739d0832470626fa7409f774926dca02a1052bf"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/conductor-de-tractocamion-fue-asesinado-en-ataque-armado-en-la-panamericana",
+    "titular": "Conductor de tractocamión fue asesinado en ataque armado, en la Vía Panamericana",
+    "fecha_publicacion": "2026-11-14T17:43:00-05:00",
+    "resumen": "El Gobierno Nacional, a través de los ministerios de Defensa y Transporte, rechazó el hecho de violencia.",
+    "fecha_captura": "2026-11-15T06:29:50-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9d2c85899603284a2f0dfc4d7b35e8469694663d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/tragedia-vial-en-huila-siete-muertos-y-mas-de-15-heridos-tras-volcamiento-de-bus-que-viajaba-de-florencia-a-bogota/",
+    "titular": "Tragedia vial en Huila: siete muertos y más de 15 heridos tras volcamiento de bus que viajaba de Florencia a Bogotá - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T16:20:01-05:00",
+    "resumen": "Un grave accidente de tránsito registrado durante la madrugada de este sábado 14 de noviembre dejó siete personas muertas y más de 15 heridas luego de que un",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "dc470d03980ce0792e4329bbd1d92aebc108da22"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/asesinan-un-joven-cuando-lavaba-una-motocicleta-frente-su-casa",
+    "titular": "Asesinan a un joven cuando lavaba una motocicleta frente a su casa",
+    "fecha_publicacion": "2026-11-14T15:43:51-05:00",
+    "resumen": "En el barrio Villa Carmen Etapa 2, en Soledad.",
+    "fecha_captura": "2026-11-15T06:29:50-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Villa Carmen Etapa 2",
+    "estado": "pendiente",
+    "id": "c01832766b15bf845a60f95bf0ff66f57c23c8fd"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/investigan-muerte-de-vendedor-de-frutas-hallado-cerca-de-la-linea-ferrea-en-santa-marta/",
+    "titular": "Investigan muerte de vendedor de frutas hallado cerca de la línea férrea en Santa Marta - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T15:03:13-05:00",
+    "resumen": "Las autoridades judiciales de Santa Marta investigan las circunstancias de la muerte de Luis Alfredo Martínez Ortega, de 54 años, cuyo cuerpo fue encontrado",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8612b8fe907b74bc6f4cee9756b93caf74f6d7b3"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/murio-cajera-herida-bala-en-la-olimpica-de-la-17",
+    "titular": "Murió cajera herida a bala en la Olímpica de la 17",
+    "fecha_publicacion": "2026-11-14T13:02:00-05:00",
+    "resumen": "Su deceso se conoció este sábado.",
+    "fecha_captura": "2026-11-15T06:29:50-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "56529fc5e216883c7e5e0ac3302c111bc1d0e012"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/seis-muertos-y-once-heridos-deja-volcamiento-de-bus-en-huila",
+    "titular": "Seis muertos y once heridos deja volcamiento de bus en Huila",
+    "fecha_publicacion": "2026-11-14T12:01:00-05:00",
+    "resumen": "El fatal accidente ocurrió en la madrugada de este sábado.",
+    "fecha_captura": "2026-11-15T06:29:50-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ca046dea1ca1e6bb58c24ab64db20c220cb64920"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/dos-hombres-fueron-asesinados-a-tiros-en-ataques-sicariales-en-soledad-y-barranquilla/",
+    "titular": "Dos hombres fueron asesinados a tiros en ataques sicariales en Soledad y Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T11:56:37-05:00",
+    "resumen": "Dos homicidios registrados durante la noche del viernes son investigados por las autoridades en el área metropolitana de Barranquilla. Los casos ocurrieron en",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e7f91a9ac064385aa237da35c2626a3abf380087"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/capturan-en-antioquia-alias-primo-gay-cabecilla-de-subestructura-de-disidencias-de-las",
+    "titular": "Capturan en Antioquia a alias ‘Primo Gay’, cabecilla de subestructura de disidencias de las FARC",
+    "fecha_publicacion": "2026-11-14T11:34:00-05:00",
+    "resumen": "Junto a otro integrante de la organización criminal.",
+    "fecha_captura": "2026-11-15T06:29:50-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "283798c2aae18b0afe1414e924f2182092613f49"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/identifican-a-mujer-asesinada-a-tiros-dentro-de-un-despacho-parroquial-en-villavicencio/",
+    "titular": "Identifican a mujer asesinada a tiros dentro de un despacho parroquial en Villavicencio - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T11:33:35-05:00",
+    "resumen": "Como Alejandra Ramírez Garzón, de 31 años, fue identificada la mujer asesinada a tiros durante la tarde del jueves en un despacho parroquial de Villavicencio,",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "edba6846c141a9c0e7a5f7307844107b6773c9ae"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/atacan-con-explosivos-lanzados-desde-un-dron-a-tanqueta-del-ejercito-en-curumani-un-soldado-herido/",
+    "titular": "Atacan con explosivos lanzados desde un dron a tanqueta del Ejército en Curumaní: un soldado herido - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T11:12:44-05:00",
+    "resumen": "La violencia contra la Fuerza Pública volvió a encender las alarmas en el departamento del Cesar. Esta vez, una tanqueta del Ejército Nacional fue blanco de",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "01cae54ec0cb61eb12ed23dc0b2d08cece3dc87d"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/un-herido-deja-ataque-cerca-de-una-estacion-de-policia-en-cali",
+    "titular": "Un herido deja ataque cerca de una estación de Policía, en Cali",
+    "fecha_publicacion": "2026-11-14T11:09:00-05:00",
+    "resumen": "Es el segundo atentado que ocurre en Cali en una semana. El jueves se perpetró uno en cercanías a la escuela de Carabineros.",
+    "fecha_captura": "2026-11-15T06:29:50-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d70c9225120f18f0fc22709971df3022af50b8d9"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/nuevo-ataque-en-curumani-lanzaron-explosivos-desde-un-dron-contra-una-tanqueta-del",
+    "titular": "Nuevo ataque en Curumaní: lanzaron explosivos desde un dron contra una tanqueta del Ejército",
+    "fecha_publicacion": "2026-11-14T11:07:00-05:00",
+    "resumen": "Un soldado resultó herido.",
+    "fecha_captura": "2026-11-15T06:29:50-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "306209ed6f34cabfccc2b83d24836a86bd89a97d"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/ataques-sicariales-dejan-dos-muertos-en-las-moras-y-santa-maria",
+    "titular": "Ataques sicariales dejan dos muertos en Las Moras y Santa María",
+    "fecha_publicacion": "2026-11-14T10:34:00-05:00",
+    "resumen": "Los dos casos se presentaron en la noche del viernes.",
+    "fecha_captura": "2026-11-15T06:29:50-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c05385287f7f568aeb6b567459e05ffe91ffcefa"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/rescatan-sano-y-salvo-a-odontologo-secuestrado-en-cucuta-tres-personas-fueron-capturadas/",
+    "titular": "Rescatan sano y salvo a odontólogo secuestrado en Cúcuta: tres personas fueron capturadas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T10:24:37-05:00",
+    "resumen": "Un odontólogo que había sido secuestrado en Cúcuta fue rescatado con vida por unidades del Gaula de la Policía Nacional, en un operativo que terminó con la",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "secuestro",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7bfe8a04d15daccfd05998584b54276f9b3a869f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/ordenan-libertad-inmediata-para-pareja-sentimental-de-alias-pinocho-tras-anular-medida-de-aseguramiento/",
+    "titular": "Ordenan libertad inmediata para pareja sentimental de alias ‘Pinocho’ tras anular medida de aseguramiento - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T10:15:05-05:00",
+    "resumen": "Un giro en el proceso judicial de Yolima Johana Murgas Guzmán, señalada como pareja sentimental de Freddy Castillo Carrillo, alias ‘Pinocho’, se produjo en",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "01940135472e07bb78fd3360234faf6939b73f42"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/anulan-medida-de-aseguramiento-y-ordenan-libertad-para-pareja-sentimental-de-alias",
+    "titular": "Anulan medida de aseguramiento y ordenan libertad para pareja sentimental de alias ‘Pinocho’",
+    "fecha_publicacion": "2026-11-14T09:53:00-05:00",
+    "resumen": "Luego de que un juez en segunda instancia decretara la nulidad de la audiencia de medida de aseguramiento.",
+    "fecha_captura": "2026-11-15T06:29:50-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c0eaed038dfa4764a5436ef38eb8fb1acc339c37"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/en-ofensiva-contra-el-delito-policia-recupera-14-automotores-robados-en-barranquilla-y-su-area-metropolitana/",
+    "titular": "En ofensiva contra el delito, Policía recupera 14 automotores robados en Barranquilla y su área metropolitana",
+    "fecha_publicacion": "2026-11-14T09:52:43-05:00",
+    "resumen": "Mediante labores investigativas y planes de control, la Seccional de Investigación Criminal logró recuperar ocho carros y seis motocicletas que habían sido hurtados. En el marco de la estrategia Sin Tregua al Delito, la Policía Nacional logró recuperar 14 automotores que habían sido hurtados en…",
+    "fecha_captura": "2026-11-15T06:34:47-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b016b70575ead55b2b236ff60f3ae3d16fe8b451"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/policia-rescato-con-vida-odontologo-secuestrado-en-cucuta-hay-tres-capturados",
+    "titular": "Policía rescató con vida a odontólogo secuestrado en Cúcuta: hay tres capturados",
+    "fecha_publicacion": "2026-11-14T09:11:00-05:00",
+    "resumen": "Al parecer, los captores eran integrantes del 'Tren de Aragua'.",
+    "fecha_captura": "2026-11-15T06:29:50-05:00",
+    "tipos_delito": [
+      "secuestro",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "5314337ced67b604f9819e3018984ad4a3e926c5"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/capturan-a-presunto-ladron-de-celulares-durante-el-desfile-del-bando-en-cartagena/",
+    "titular": "Capturan a presunto ladrón de celulares durante el Desfile del Bando en Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T09:04:13-05:00",
+    "resumen": "Un hombre de 28 años fue capturado por la Policía Nacional durante los operativos de seguridad realizados en el Gran Desfile del Bando, en Cartagena, luego de",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2c651d904a8c4476ab96b75c0584d491da77b02a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/explosion-cerca-de-estacion-de-policia-en-cali-deja-un-herido-y-danos-en-viviendas/",
+    "titular": "Explosión cerca de estación de Policía en Cali deja un herido y daños en viviendas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T08:42:03-05:00",
+    "resumen": "Una persona lesionada y varios daños materiales dejó una explosión registrada durante la madrugada de este sábado 14 de noviembre en el oriente de Cali, cerca",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7f333663d0a9c741cb3f1cec2a0ae7abb8efb8e9"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/ataque-con-cinco-granadas-contra-estacion-de-policia-en-san-roque-dejo-dos-uniformados-heridos/",
+    "titular": "Ataque con cinco granadas contra estación de Policía en San Roque dejó dos uniformados heridos - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T07:35:44-05:00",
+    "resumen": "Un ataque con artefactos explosivos contra la estación de Policía de San Roque dejó dos uniformados heridos durante la tarde de este jueves 12 de noviembre,",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": "San Roque",
+    "estado": "pendiente",
+    "id": "8e8dd403baf590f126ad38d243b46a269502c9a0"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/14/operativo-policial-en-santa-marta-termino-con-varias-capturas-tras-interceptar-un-taxi/",
+    "titular": "Operativo policial en Santa Marta terminó con varias capturas tras interceptar un taxi - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-14T07:01:39-05:00",
+    "resumen": "Un operativo de la Policía Nacional terminó con varias personas capturadas luego de que uniformados interceptaran un vehículo de servicio público en Santa",
+    "fecha_captura": "2026-11-15T06:30:51-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ce431d2dc058035cd916677e8906d8c039b36540"
+  },
+  {
+    "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/13/fondo-milagro-salarios-de-hasta-39-millones-desatan-criticas-y-reclamos-en-redes-sociales/",
     "titular": "Fondo Milagro: salarios de hasta $39 millones desatan críticas y reclamos en redes sociales - Diario La Libertad.",
     "fecha_publicacion": "2026-11-13T22:24:58-05:00",

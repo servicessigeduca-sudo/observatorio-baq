@@ -1,5 +1,207 @@
 [
   {
+    "caso_id": "caa16d826ecd",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-14",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "ee78e48d71a15619af0e01663c8b367fb8cf682f"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/14/ataque-israeli-contra-hospital-en-gaza-dejo-seis-muertos-entre-ellos-un-medico-y-un-nino/",
+        "titular": "Ataque israelí contra hospital en Gaza dejó seis muertos, entre ellos un médico y un niño - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "c57bc740fc1e",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-14",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "9d2c85899603284a2f0dfc4d7b35e8469694663d"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/conductor-de-tractocamion-fue-asesinado-en-ataque-armado-en-la-panamericana",
+        "titular": "Conductor de tractocamión fue asesinado en ataque armado, en la Vía Panamericana"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "b98b7c8b3e37",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-14",
+    "municipio": "Soledad",
+    "barrio": "Villa Carmen Etapa 2",
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "c01832766b15bf845a60f95bf0ff66f57c23c8fd"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/asesinan-un-joven-cuando-lavaba-una-motocicleta-frente-su-casa",
+        "titular": "Asesinan a un joven cuando lavaba una motocicleta frente a su casa"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "b4d47b631f10",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-14",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "c05385287f7f568aeb6b567459e05ffe91ffcefa"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/ataques-sicariales-dejan-dos-muertos-en-las-moras-y-santa-maria",
+        "titular": "Ataques sicariales dejan dos muertos en Las Moras y Santa María"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "909f479c9157",
+      "0ca4e1493807"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "b0210881bbb7",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-14",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "56529fc5e216883c7e5e0ac3302c111bc1d0e012"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/murio-cajera-herida-bala-en-la-olimpica-de-la-17",
+        "titular": "Murió cajera herida a bala en la Olímpica de la 17"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "4f662531c3a4",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones"
+    ],
+    "fecha": "2026-11-14",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "306209ed6f34cabfccc2b83d24836a86bd89a97d"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/nuevo-ataque-en-curumani-lanzaron-explosivos-desde-un-dron-contra-una-tanqueta-del",
+        "titular": "Nuevo ataque en Curumaní: lanzaron explosivos desde un dron contra una tanqueta del Ejército"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "0ca4e1493807",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-14",
+    "municipio": "Soledad",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "e7f91a9ac064385aa237da35c2626a3abf380087"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/14/dos-hombres-fueron-asesinados-a-tiros-en-ataques-sicariales-en-soledad-y-barranquilla/",
+        "titular": "Dos hombres fueron asesinados a tiros en ataques sicariales en Soledad y Barranquilla - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "b4d47b631f10"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
     "caso_id": "cbd9e04d80e2",
     "tipo": "extorsion",
     "tipos": [
@@ -442,8 +644,10 @@
         "titular": "Un hombre asesinado y otro herido, tras ataques sicariales en San Roque y Evaristo Sourdís"
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "b4d47b631f10"
+    ],
     "lat": 10.95972,
     "lon": -74.82444,
     "confianza_ubicacion": "alta"
@@ -621,9 +825,11 @@
     "municipio": "Barranquilla",
     "barrio": "San Roque",
     "medios": [
+      "Diario La Libertad",
       "Emisora Atlántico"
     ],
     "notas": [
+      "8e8dd403baf590f126ad38d243b46a269502c9a0",
       "babb6b4c29140dab49665c40c94334a00578829f"
     ],
     "fuentes": [
@@ -631,6 +837,11 @@
         "medio": "Emisora Atlántico",
         "url": "https://emisoraatlantico.com.co/judiciales/muere-hombre-de-29-anos-tras-ataque-a-bala-en-el-barrio-san-roque-de-barranquilla/",
         "titular": "Muere hombre de 29 años tras ataque a bala en el barrio San Roque de Barranquilla"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/14/ataque-con-cinco-granadas-contra-estacion-de-policia-en-san-roque-dejo-dos-uniformados-heridos/",
+        "titular": "Ataque con cinco granadas contra estación de Policía en San Roque dejó dos uniformados heridos - Diario La Libertad."
       }
     ],
     "estado": "pendiente",
