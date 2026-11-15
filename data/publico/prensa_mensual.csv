@@ -10,10 +10,11 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-05,Soledad,Los Almendros,hom,Arma de fuego,1
 2026-06,,,hom,Sin dato,1
 2026-06,Soledad,,hom,Sin dato,1
-2026-11,,,hom,Arma de fuego,1
-2026-11,,,hom,Sin dato,6
+2026-11,,,hom,Arma de fuego,3
+2026-11,,,hom,Sin dato,8
 2026-11,,,hur,Sin dato,2
 2026-11,,,les,Arma de fuego,3
+2026-11,,,les,Sin dato,1
 2026-11,,,otr,Sin dato,3
 2026-11,,El Limón,hom,Arma de fuego,1
 2026-11,,El Valle,hom,Arma de fuego,1
@@ -35,9 +36,10 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-11,Malambo,Mesolandia,ext,Arma de fuego,1
 2026-11,Puerto Colombia,,les,Arma de fuego,1
 2026-11,Soledad,,ext,Sin dato,1
-2026-11,Soledad,,hom,Arma de fuego,1
+2026-11,Soledad,,hom,Arma de fuego,2
 2026-11,Soledad,,hom,Sin dato,1
 2026-11,Soledad,,otr,Sin dato,2
 2026-11,Soledad,Ciudad Paraíso,hom,Arma de fuego,1
+2026-11,Soledad,Villa Carmen Etapa 2,hom,Sin dato,1
 2026-11,Soledad,Villa Cecilia,hom,Sin dato,1
 2026-11,Soledad,Villa Soledad,hom,Arma de fuego,1
