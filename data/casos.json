@@ -1,5 +1,195 @@
 [
   {
+    "caso_id": "d8a72af96acb",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-15",
+    "municipio": "Soledad",
+    "barrio": "Ciudad Paraíso",
+    "medios": [
+      "Diario La Libertad",
+      "Impacto News",
+      "Zona Cero"
+    ],
+    "notas": [
+      "1d8b2fdfdb22b96a5d27b28910908e8d7f15aec8",
+      "74ea3bb0303794fc77ca7c94399ff8940fd48bdb",
+      "7ae5c55b044c02114616900dfb6a636c36ae497d"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/sicarios-en-motocicleta-asesinaron-a-tiros-a-un-hombre-en-el-barrio-ciudad-paraiso-de-soledad/",
+        "titular": "Sicarios en motocicleta asesinaron a tiros a un hombre en el barrio Ciudad Paraíso de Soledad"
+      },
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/un-hombre-fue-asesinado-por-criminales-en-moto-en-ciudad-paraiso-soledad",
+        "titular": "Un hombre fue asesinado por criminales en moto en Ciudad Paraíso, Soledad"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/15/asesinan-a-tiros-a-hombre-en-plena-via-publica-de-ciudad-paraiso-soledad/",
+        "titular": "Asesinan a tiros a hombre en plena vía pública de Ciudad Paraíso, Soledad - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": 10.88638,
+    "lon": -74.79236,
+    "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "a7db83c5aca0",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-15",
+    "municipio": "Barranquilla",
+    "barrio": "Conidec",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "5736f66cb4068895f96561c5ab28cc191f08cf07"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/15/rina-en-el-barrio-conidec-termino-con-un-hombre-muerto-en-barranquilla/",
+        "titular": "Riña en el barrio Conidec terminó con un hombre muerto en Barranquilla - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "4596785ce505",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-15",
+    "municipio": null,
+    "barrio": "Rebolo",
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "e59573c04d7476d53c0f7487d35e8376f7519d1e"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/tras-cinco-dias-de-agonia-en-una-uci-fallecio-cajera-de-supermercado-atacada-a-tiros-en-rebolo/",
+        "titular": "Tras cinco días de agonía en una UCI, falleció cajera de supermercado atacada a tiros en Rebolo"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "28bf68b250e0",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-15",
+    "municipio": "Soledad",
+    "barrio": "Villa Carmen II",
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "2ba093ba85f6c8c60e1055f15503d009e4a9c2b4"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/discusiones-y-presuntas-amenazas-rodean-el-asesinato-de-brayan-rodriguez-mientras-lavaba-una-moto-en-soledad/",
+        "titular": "Discusiones y presuntas amenazas rodean el asesinato de Brayan Rodríguez mientras lavaba una moto en Soledad"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "098330ac73af",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-15",
+    "municipio": null,
+    "barrio": "Las Nieves",
+    "medios": [
+      "Diario La Libertad",
+      "Zona Cero"
+    ],
+    "notas": [
+      "3f26e57b397460edbf9f32d70425951aba850a64",
+      "d35a4ab56d93262834c2840a9c02e94e5c72a7c5"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/en-la-terraza-de-su-casa-asesinan-tia-de-alias-kevin-masacre-en-el-barrio-las-nieves",
+        "titular": "En la terraza de su casa asesinan a tía de alias ‘Kevin Masacre’ en el barrio Las Nieves"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/15/sicarios-asesinan-a-tia-de-alias-kevin-masacre-en-el-barrio-las-nieves/",
+        "titular": "Sicarios asesinan a tía de alias ‘Kevin Masacre’ en el barrio Las Nieves - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "03b7ccf82a59",
+    "tipo": "desaparicion",
+    "tipos": [
+      "desaparicion"
+    ],
+    "fecha": "2026-11-15",
+    "municipio": null,
+    "barrio": "Buenos Aires",
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "e09c31d0aa2b814fbcdcaf43262fe1aec296332e"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/buscan-adulto-mayor-de-83-anos-desaparecido-desde-el-8-de-noviembre",
+        "titular": "Buscan a adulto mayor de 83 años desaparecido desde el 8 de noviembre"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
     "caso_id": "caa16d826ecd",
     "tipo": "homicidio",
     "tipos": [

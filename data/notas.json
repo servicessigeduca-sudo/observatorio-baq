@@ -1,5 +1,266 @@
 [
   {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/yo-la-reemplazo-yo-ya-vivi-el-clamor-del-papa-de-la-subteniente-maria-camila-pantoja",
+    "titular": "“Yo la reemplazo, yo ya viví”, el clamor del papá de la subteniente María Camila Pantoja",
+    "fecha_publicacion": "2026-11-15T18:09:26-05:00",
+    "resumen": "La uniformada está privada de su libertad desde el 4 de noviembre.",
+    "fecha_captura": "2026-11-15T18:32:49-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "40bc9456e2c63c82548847417074c8adbbbc2645"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/salario-minimo-de-2027-nuevos-negociadores-y-primer-pulso-del-gobierno-de-de-la-espriella/",
+    "titular": "Salario mínimo de 2027: nuevos negociadores y primer pulso del Gobierno de De la Espriella - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T17:31:46-05:00",
+    "resumen": "La negociación del salario mínimo para 2027 comenzará el próximo miércoles 18 de noviembre con una nueva composición en la mesa de concertación tripartita.",
+    "fecha_captura": "2026-11-15T18:33:30-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "38a0da98546a8266203842f9650a565aac4d3339"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/juez-compulsa-copias-comision-de-investigacion-y-acusacion-por-trato-despectivo-de-de-la",
+    "titular": "Juez compulsa copias a Comisión de Investigación y Acusación por trato “despectivo” de De La Espriella a ‘Primo Gay’",
+    "fecha_publicacion": "2026-11-15T15:54:38-05:00",
+    "resumen": "También compulsó copias a la Procuraduría para indagar sobre funcionarios públicos que presuntamente ordenaron la autorización, organizaron o ejecutaron esa exhibición.",
+    "fecha_captura": "2026-11-15T18:32:49-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e37babe076abe541dfacea8529be296b9d8450ee"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/invias-reporta-196-puentes-en-estado-critico-y-no-calcula-cuanto-cuesta-repararlos/",
+    "titular": "Invías reporta 196 puentes en estado crítico y no calcula cuánto cuesta repararlos - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T15:54:13-05:00",
+    "resumen": "El Instituto Nacional de Vías (Invías) tiene identificados 196 puentes en estado crítico o susceptibles de falla entre los 1.744 que están bajo su",
+    "fecha_captura": "2026-11-15T18:33:30-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "11f13b7538cc77660be483c582ac95085dc2fe35"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/asesinan-a-tiros-a-hombre-en-plena-via-publica-de-ciudad-paraiso-soledad/",
+    "titular": "Asesinan a tiros a hombre en plena vía pública de Ciudad Paraíso, Soledad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T15:39:41-05:00",
+    "resumen": "El homicidio ocurrió hacia las 10:05 p. m. en la calle 53B con carrera 1E. Según el reporte preliminar, el parrillero descendió de la moto y disparó contra la",
+    "fecha_captura": "2026-11-15T18:33:30-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Ciudad Paraíso",
+    "estado": "pendiente",
+    "id": "1d8b2fdfdb22b96a5d27b28910908e8d7f15aec8"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/rina-en-el-barrio-conidec-termino-con-un-hombre-muerto-en-barranquilla/",
+    "titular": "Riña en el barrio Conidec terminó con un hombre muerto en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T15:26:41-05:00",
+    "resumen": "Un hombre identificado como Moisés David Montenegro Quintero murió en las primeras horas de este domingo 15 de noviembre, luego de resultar herido con un pico",
+    "fecha_captura": "2026-11-15T18:33:30-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Conidec",
+    "estado": "pendiente",
+    "id": "5736f66cb4068895f96561c5ab28cc191f08cf07"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/sicarios-asesinan-a-tia-de-alias-kevin-masacre-en-el-barrio-las-nieves/",
+    "titular": "Sicarios asesinan a tía de alias ‘Kevin Masacre’ en el barrio Las Nieves - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T14:16:35-05:00",
+    "resumen": "La víctima fue identificada como Omaira Luz Castrillón Redondo, tía de Kevin David Moscote Redondo, conocido con el alias de ‘Kevin Masacre’.",
+    "fecha_captura": "2026-11-15T18:33:30-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "Las Nieves",
+    "estado": "pendiente",
+    "id": "3f26e57b397460edbf9f32d70425951aba850a64"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/de-la-espriella-pide-la-renuncia-de-jaime-vives-a-la-presidencia-de-coljuegos-por-presuntas-irregularidades-en-su-titulo-de-posgrado/",
+    "titular": "De La Espriella pide la renuncia de Jaime Vives a la presidencia de Coljuegos por presuntas irregularidades en su título de posgrado - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T14:10:27-05:00",
+    "resumen": "“Jaime Vives tiene que irse”, sentenció el mandatario este domingo 15 de noviembre tras revelarse cuestionamientos sobre una especialización obtenida en 21",
+    "fecha_captura": "2026-11-15T18:33:30-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "024751146857a3781246348b49e5f2c1a7b63db8"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/en-la-terraza-de-su-casa-asesinan-tia-de-alias-kevin-masacre-en-el-barrio-las-nieves",
+    "titular": "En la terraza de su casa asesinan a tía de alias ‘Kevin Masacre’ en el barrio Las Nieves",
+    "fecha_publicacion": "2026-11-15T14:02:43-05:00",
+    "resumen": "La mujer estaba en actividades domésticas cuando fue atacada por un sicario que llegó en moto a la puerta del inmueble.",
+    "fecha_captura": "2026-11-15T18:32:49-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "Las Nieves",
+    "estado": "pendiente",
+    "id": "d35a4ab56d93262834c2840a9c02e94e5c72a7c5"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/un-muerto-y-un-herido-en-ataque-bala-frente-un-billar-en-simon-bolivar",
+    "titular": "Un muerto y un herido en ataque a bala frente a un billar en Simón Bolívar",
+    "fecha_publicacion": "2026-11-15T12:10:57-05:00",
+    "resumen": "El herido es vigilante del establecimiento.",
+    "fecha_captura": "2026-11-15T18:32:49-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": "Simón Bolívar",
+    "estado": "pendiente",
+    "id": "2717e837f33f2aaa1ccbd695b5b974c6203c8e54"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/buscan-adulto-mayor-de-83-anos-desaparecido-desde-el-8-de-noviembre",
+    "titular": "Buscan a adulto mayor de 83 años desaparecido desde el 8 de noviembre",
+    "fecha_publicacion": "2026-11-15T11:37:00-05:00",
+    "resumen": "Lo vieron por última vez en el barrio Buenos Aires.",
+    "fecha_captura": "2026-11-15T18:32:49-05:00",
+    "tipos_delito": [
+      "desaparicion"
+    ],
+    "municipio": null,
+    "barrio": "Buenos Aires",
+    "estado": "pendiente",
+    "id": "e09c31d0aa2b814fbcdcaf43262fe1aec296332e"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/tragico-accidente-de-motocicleta-en-el-rodadero-sur-deja-un-joven-muerto-y-otro-gravemente-herido/",
+    "titular": "Trágico accidente de motocicleta en El Rodadero Sur deja un joven muerto y otro gravemente herido - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T10:56:40-05:00",
+    "resumen": "Un grave accidente de tránsito registrado durante la madrugada de este domingo en Santa Marta dejó como saldo un joven fallecido y otro gravemente herido,",
+    "fecha_captura": "2026-11-15T18:33:30-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8e1dd3c1ea283bfddff1ddeef869f70be597a604"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/adulto-mayor-de-82-anos-murio-arrastrado-por-la-creciente-del-rio-guachaca-en-santa-marta/",
+    "titular": "Adulto mayor de 82 años murió arrastrado por la creciente del río Guachaca en Santa Marta - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T10:15:18-05:00",
+    "resumen": "Un adulto mayor de 82 años perdió la vida tras ser arrastrado por la fuerte corriente del río Guachaca, en la zona rural de Santa Marta, Magdalena, cuando",
+    "fecha_captura": "2026-11-15T18:33:30-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "71c9e3cceb3e1bdadc0005599ce919270189d106"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/un-hombre-fue-asesinado-por-criminales-en-moto-en-ciudad-paraiso-soledad",
+    "titular": "Un hombre fue asesinado por criminales en moto en Ciudad Paraíso, Soledad",
+    "fecha_publicacion": "2026-11-15T10:02:00-05:00",
+    "resumen": "En la noche del sábado.",
+    "fecha_captura": "2026-11-15T18:32:49-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Ciudad Paraíso",
+    "estado": "pendiente",
+    "id": "74ea3bb0303794fc77ca7c94399ff8940fd48bdb"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/sicarios-en-motocicleta-asesinaron-a-tiros-a-un-hombre-en-el-barrio-ciudad-paraiso-de-soledad/",
+    "titular": "Sicarios en motocicleta asesinaron a tiros a un hombre en el barrio Ciudad Paraíso de Soledad",
+    "fecha_publicacion": "2026-11-15T09:45:53-05:00",
+    "resumen": "Los hechos son materia de investigación por las autoridades. Un nuevo hecho de sangre se registró en el municipio de Soledad, Atlántico. La noche del sábado 14 de noviembre, un hombre identificado como Octavio Solano Elías fue asesinado con arma de fuego en el barrio Ciudad Paraíso, en…",
+    "fecha_captura": "2026-11-15T18:34:52-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Ciudad Paraíso",
+    "estado": "pendiente",
+    "id": "7ae5c55b044c02114616900dfb6a636c36ae497d"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/alias-primo-gay-candidato-la-carcel-en-altamar-o-la-extradicion-eeuu",
+    "titular": "Alias ‘Primo Gay’, “candidato” a la cárcel en altamar o a la extradición a EE.UU.",
+    "fecha_publicacion": "2026-11-15T08:37:00-05:00",
+    "resumen": "El Presidente Abelardo De La Espriella confrontó a Neider Uñates López, uno de los cabecillas de las disidencias de alias 'Calarcá'.",
+    "fecha_captura": "2026-11-15T18:32:49-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c7773cf0ca98d2964dcd00d6a704aba38154ca29"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/discusiones-y-presuntas-amenazas-rodean-el-asesinato-de-brayan-rodriguez-mientras-lavaba-una-moto-en-soledad/",
+    "titular": "Discusiones y presuntas amenazas rodean el asesinato de Brayan Rodríguez mientras lavaba una moto en Soledad",
+    "fecha_publicacion": "2026-11-15T07:30:14-05:00",
+    "resumen": "Las personas con las que la víctima había discutido previamente son de origen venezolano y residían frente a su vivienda, pero el viernes se mudaron. Un hecho de sangre se registró en la tarde del sábado 14 de noviembre en el barrio Villa Carmen II etapa, en el municipio de Soledad. La víctima fue…",
+    "fecha_captura": "2026-11-15T18:34:52-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Villa Carmen II",
+    "estado": "pendiente",
+    "id": "2ba093ba85f6c8c60e1055f15503d009e4a9c2b4"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/tras-cinco-dias-de-agonia-en-una-uci-fallecio-cajera-de-supermercado-atacada-a-tiros-en-rebolo/",
+    "titular": "Tras cinco días de agonía en una UCI, falleció cajera de supermercado atacada a tiros en Rebolo",
+    "fecha_publicacion": "2026-11-15T06:58:08-05:00",
+    "resumen": "La mujer había sido impactada en la región lumbar y llevaba cinco días internada en un centro médico. Es la femenina número 76 asesinada en el Atlántico en lo que va de 2026. Una lamentable noticia se conoció hace algunas horas sobre el caso de Gellis Yulieth Rambo Martínez, de 34 años, quien…",
+    "fecha_captura": "2026-11-15T18:34:52-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "Rebolo",
+    "estado": "pendiente",
+    "id": "e59573c04d7476d53c0f7487d35e8376f7519d1e"
+  },
+  {
     "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/14/ivan-cepeda-denunciara-a-alejandro-ordonez-ante-la-fiscalia-y-la-procuraduria-por-cuatro-presuntos-delitos/",
     "titular": "Iván Cepeda denunciará a Alejandro Ordóñez ante la Fiscalía y la Procuraduría por cuatro presuntos delitos - Diario La Libertad.",
@@ -197,6 +458,19 @@
     "barrio": null,
     "estado": "pendiente",
     "id": "2739d0832470626fa7409f774926dca02a1052bf"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/policia-recupera-14-vehiculos-que-habian-sido-robados-en-barranquilla",
+    "titular": "Policía recupera 14 vehículos que habían sido robados en Barranquilla",
+    "fecha_publicacion": "2026-11-14T18:17:00-05:00",
+    "resumen": "La recuperación se produjo luego de labores de investigativas y planes especiales adelantados por unidades de la Seccional de Investigación Criminal.",
+    "fecha_captura": "2026-11-15T18:32:49-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d520bb937266e598138c9b198ae9fa3f7f576cd7"
   },
   {
     "medio": "Zona Cero",
