@@ -1,8 +1,18 @@
 {
+  "buenos aires|Barranquilla": {
+    "lat": 10.94081,
+    "lon": -74.79921,
+    "nombre_osm": "Buenos Aires, Localidad Metropolitana, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
+  },
   "ciudad paraiso|Soledad": {
     "lat": 10.88638,
     "lon": -74.79236,
     "nombre_osm": "Ciudad Paraíso, Soledad, Atlántico, RAP Caribe, 083010, Colombia"
+  },
+  "conidec|Barranquilla": {
+    "lat": 10.92553,
+    "lon": -74.81094,
+    "nombre_osm": "Centro de Vida - Conidec, 48E, Carrera 6B Sur, Ciudadela 20 de Julio, Localidad Metropolitana, Perímetro Urbano Barranqu"
   },
   "el bosque|Barranquilla": {
     "lat": 10.95276,
@@ -40,6 +50,11 @@
     "lon": -74.82663,
     "nombre_osm": "Las Flores, Localidad Riomar, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 080020, Colombia"
   },
+  "las nieves|Barranquilla": {
+    "lat": 10.95257,
+    "lon": -74.77918,
+    "nombre_osm": "Las Nieves, Localidad Suroriente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 083002, Colombia"
+  },
   "los almendros|Soledad": {
     "lat": 10.9201,
     "lon": -74.81592,
@@ -54,6 +69,11 @@
     "lat": 10.88704,
     "lon": -74.76679,
     "nombre_osm": "Mesolandia, Malambo, Atlántico, RAP Caribe, Colombia"
+  },
+  "rebolo|Barranquilla": {
+    "lat": 10.96307,
+    "lon": -74.77469,
+    "nombre_osm": "Rebolo, Localidad Suroriente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 083002, Colombia"
   },
   "san isidro|Barranquilla": {
     "lat": 10.97028,
@@ -72,6 +92,11 @@
   },
   "torre del pescado|Barranquilla": null,
   "villa carmen etapa 2|Soledad": null,
+  "villa carmen ii|Soledad": {
+    "lat": 10.89682,
+    "lon": -74.80052,
+    "nombre_osm": "Villa Carmen II, Soledad, Atlántico, RAP Caribe, 083010, Colombia"
+  },
   "villa cecilia|Soledad": {
     "lat": 10.92985,
     "lon": -74.79137,

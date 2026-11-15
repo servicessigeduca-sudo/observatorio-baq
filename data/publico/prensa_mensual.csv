@@ -16,16 +16,20 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-11,,,les,Arma de fuego,3
 2026-11,,,les,Sin dato,1
 2026-11,,,otr,Sin dato,3
+2026-11,,Buenos Aires,otr,Sin dato,1
 2026-11,,El Limón,hom,Arma de fuego,1
 2026-11,,El Valle,hom,Arma de fuego,1
 2026-11,,Evaristo Sourdis,hom,Arma de fuego,1
 2026-11,,La Esmeralda,hom,Arma de fuego,1
+2026-11,,Las Nieves,hom,Arma de fuego,1
+2026-11,,Rebolo,hom,Arma de fuego,1
 2026-11,,Santo Domingo,hom,Arma de fuego,1
 2026-11,,Villa María,hom,Arma de fuego,1
 2026-11,Barranquilla,,hom,Arma de fuego,1
 2026-11,Barranquilla,,hur,Sin dato,1
 2026-11,Barranquilla,,les,Sin dato,2
 2026-11,Barranquilla,,otr,Sin dato,1
+2026-11,Barranquilla,Conidec,hom,Sin dato,1
 2026-11,Barranquilla,El Santuario,hom,Arma de fuego,1
 2026-11,Barranquilla,Las Flores,hom,Arma de fuego,1
 2026-11,Barranquilla,San Isidro,hom,Arma de fuego,1
@@ -39,7 +43,8 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-11,Soledad,,hom,Arma de fuego,2
 2026-11,Soledad,,hom,Sin dato,1
 2026-11,Soledad,,otr,Sin dato,2
-2026-11,Soledad,Ciudad Paraíso,hom,Arma de fuego,1
+2026-11,Soledad,Ciudad Paraíso,hom,Arma de fuego,2
 2026-11,Soledad,Villa Carmen Etapa 2,hom,Sin dato,1
+2026-11,Soledad,Villa Carmen II,hom,Sin dato,1
 2026-11,Soledad,Villa Cecilia,hom,Sin dato,1
 2026-11,Soledad,Villa Soledad,hom,Arma de fuego,1
