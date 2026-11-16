@@ -55,13 +55,19 @@
       "Diario La Libertad"
     ],
     "notas": [
-      "5736f66cb4068895f96561c5ab28cc191f08cf07"
+      "5736f66cb4068895f96561c5ab28cc191f08cf07",
+      "dc1056aa4e9a6b1a3e34ca7b6da9caac7c8a930b"
     ],
     "fuentes": [
       {
         "medio": "Diario La Libertad",
         "url": "https://diariolalibertad.com/2026/11/15/rina-en-el-barrio-conidec-termino-con-un-hombre-muerto-en-barranquilla/",
         "titular": "Riña en el barrio Conidec terminó con un hombre muerto en Barranquilla - Diario La Libertad."
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/16/rina-en-el-barrio-conidec-termino-con-la-muerte-de-moises-david-montenegro-en-barranquilla/",
+        "titular": "Riña en el barrio Conidec terminó con la muerte de Moisés David Montenegro en Barranquilla - Diario La Libertad."
       }
     ],
     "estado": "pendiente",
@@ -69,6 +75,34 @@
     "lat": 10.92553,
     "lon": -74.81094,
     "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "a25e7190d98c",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-15",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "15d6405880c90a4309981eec077d7058872dc79f"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/15/indepaz-reporta-26-masacres-y-87-victimas-en-los-primeros-100-dias-del-gobierno-de-la-espriella/",
+        "titular": "Indepaz reporta 26 masacres y 87 víctimas en los primeros 100 días del Gobierno De la Espriella - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "4596785ce505",
@@ -125,6 +159,42 @@
     "lat": 10.89682,
     "lon": -74.80052,
     "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "0e5b3e37b767",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-15",
+    "municipio": "Barranquilla",
+    "barrio": "Los Girasoles",
+    "medios": [
+      "Diario La Libertad",
+      "Zona Cero"
+    ],
+    "notas": [
+      "a544880fe44cf409d194d720fdc923769bf05a5a",
+      "f6a78774f09b6279632a5d436b1cae364adc0076"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/ataque-criminal-deja-un-joven-muerto-y-un-hombre-de-36-anos-herido-en-los-girasoles",
+        "titular": "Ataque criminal deja un joven muerto y un hombre de 36 años herido en Los Girasoles"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/16/ataque-sicarial-en-los-girasoles-deja-un-joven-de-18-anos-muerto-y-otro-hombre-herido/",
+        "titular": "Ataque sicarial en Los Girasoles deja un joven de 18 años muerto y otro hombre herido - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "098330ac73af",

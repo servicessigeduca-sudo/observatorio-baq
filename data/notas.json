@@ -1,5 +1,272 @@
 [
   {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/16/accidente-de-transito-en-la-via-juan-mina-carrera-38-deja-varios-lesionados/",
+    "titular": "Accidente de tránsito en la vía Juan Mina-Carrera 38 deja varios lesionados - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-16T06:44:30-05:00",
+    "resumen": "Un grave accidente de tránsito fue reportado en la vía que comunica al corregimiento de Juan Mina con la carrera 38, en Barranquilla.",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "bff1da505f36c731ba89d61d133fd589e1e27e3c"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/16/ataque-a-bala-frente-a-billar-en-simon-bolivar-deja-un-hombre-muerto-y-un-vigilante-herido/",
+    "titular": "Ataque a bala frente a billar en Simón Bolívar deja un hombre muerto y un vigilante herido - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-16T06:38:54-05:00",
+    "resumen": "Un ataque con arma de fuego ocurrido en la madrugada de este domingo 15 de noviembre frente a un establecimiento de billar en el barrio Simón Bolívar, en",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": "Simón Bolívar",
+    "estado": "pendiente",
+    "id": "6298e958b762dfd3a99692f8eb12e7baf5a38167"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/16/ataque-sicarial-en-los-girasoles-deja-un-joven-de-18-anos-muerto-y-otro-hombre-herido/",
+    "titular": "Ataque sicarial en Los Girasoles deja un joven de 18 años muerto y otro hombre herido - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-16T06:35:55-05:00",
+    "resumen": "Un nuevo hecho de violencia se registró en el barrio Los Girasoles, en Barranquilla, donde un ataque con arma de fuego dejó un joven muerto y un hombre herido.",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Los Girasoles",
+    "estado": "pendiente",
+    "id": "f6a78774f09b6279632a5d436b1cae364adc0076"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/16/rina-en-el-barrio-conidec-termino-con-la-muerte-de-moises-david-montenegro-en-barranquilla/",
+    "titular": "Riña en el barrio Conidec terminó con la muerte de Moisés David Montenegro en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-16T06:33:23-05:00",
+    "resumen": "Un hombre identificado como Moisés David Montenegro Quintero falleció durante la madrugada de este domingo 15 de noviembre, luego de resultar gravemente",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Conidec",
+    "estado": "pendiente",
+    "id": "dc1056aa4e9a6b1a3e34ca7b6da9caac7c8a930b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/sofia-araujo-denuncia-que-le-pidieron-400-millones-por-18-000-votos-durante-su-campana/",
+    "titular": "Sofía Araujo denuncia que le pidieron $400 millones por 18.000 votos durante su campaña - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T22:14:43-05:00",
+    "resumen": "Sofía Araujo Mejía contó que durante su campaña le solicitaron 400 millones de pesos a cambio de garantizarle 18.000 votos, una propuesta que, según el relato",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "62080cabdd560df55399532cfdcbb9a0aef46ab1"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/periodista-tachi-nieto-logra-fallo-juridico-que-ordeno-a-la-alcaldia-municipal-iluminar-el-barrio-6-de-enero-y-denuncia-cobro-indebido-por-mas-de-20-anos/",
+    "titular": "PERIODISTA TACHI NIETO LOGRA FALLO JURÍDICO QUE ORDENÓ A LA ALCALDÍA MUNICIPAL, ILUMINAR EL BARRIO 6 DE ENERO Y DENUNCIA COBRO INDEBIDO POR MÁS DE 20 AÑOS - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T22:10:15-05:00",
+    "resumen": "Gracias a una Acción Popular del periodista Tachi Nieto, el Juzgado Segundo Administrativo de Santa Marta ordenó a la Alcaldía transferir 80 millones de pesos",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0b33b1a31dcc41e8534219234b8c4bc2b6f346bb"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/alcaldia-de-fundacion-adelanta-acciones-para-recuperar-recursos-publicos-por-incumplimientos-en-contratos-de-obras-de-administraciones-anteriores/",
+    "titular": "ALCALDÍA DE FUNDACIÓN ADELANTA ACCIONES PARA RECUPERAR RECURSOS PÚBLICOS POR INCUMPLIMIENTOS EN CONTRATOS DE OBRAS DE ADMINISTRACIONES ANTERIORES - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T22:05:36-05:00",
+    "resumen": "Los contratos de placa huella y baterías sanitarias, iniciados en administraciones anteriores, presentaron incumplimientos en su ejecución. La actual",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c89d64034b8406e4793b3682a104f0cde05588eb"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/balean-a-hombre-en-zaragocilla-cartagena-lo-relacionan-con-un-robo-de-22-millones-en-sincelejo/",
+    "titular": "Balean a hombre en Zaragocilla, Cartagena: lo relacionan con un robo de $22 millones en Sincelejo - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T21:34:03-05:00",
+    "resumen": "Un nuevo ataque con arma de fuego se registró en Cartagena. Eduardo Luis Soto Mercado, de 28 años, resultó gravemente herido la noche del sábado 14 de",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [
+      "lesiones",
+      "hurto"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8c7b98c08a611df7e3be0056487f49cf3b94eaff"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/el-flaco-solorzano-denuncia-cobro-de-45-000-por-un-taxi-entre-el-dorado-y-el-puente-aereo/",
+    "titular": "‘El Flaco’ Solórzano denuncia cobro de $45.000 por un taxi entre El Dorado y el Puente Aéreo - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T21:21:43-05:00",
+    "resumen": "El actor Fernando ‘El Flaco’ Solórzano expresó su molestia en redes sociales después de asegurar que varios taxistas le pidieron $45.000 por trasladarlo desde",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b9c455b55456edadbd5d9ca616c3002a7d099c6e"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/en-alocucion-seguridad-terremoto-salud-y-reforma-tributaria-hablo-de-la-espriella-y-presento-el-balance-de-sus-primeros-100-dias/",
+    "titular": "En Alocución: Seguridad, terremoto, salud y reforma tributaria habló, De la Espriella y presentó el balance de sus primeros 100 días - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T21:02:34-05:00",
+    "resumen": "El presidente Abelardo de la Espriella realiza una alocución nacional para explicar las principales decisiones de su administración. La intervención aborda la",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0251736231a1afbab62738df94a1e4d90e3fa075"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/bid-aprueba-credito-de-us450-millones-para-fortalecer-el-sector-electrico-colombiano/",
+    "titular": "BID aprueba crédito de US$450 millones para fortalecer el sector eléctrico colombiano - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T20:57:09-05:00",
+    "resumen": "El préstamo tendrá un plazo de amortización de 20 años y un periodo de gracia de cinco años y medio. Los recursos respaldarán reformas para atraer inversión,",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "57d70807ef617968b0eb87f3587a7be21150017c"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/barranquilla-recupera-sus-fuentes-ornamentales-asi-quedo-la-del-parque-sagrado-corazon/",
+    "titular": "Barranquilla recupera sus fuentes ornamentales: así quedó la del parque Sagrado Corazón - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T20:51:22-05:00",
+    "resumen": "Barranquilla avanza en la recuperación de sus fuentes ornamentales como parte de una estrategia para revitalizar los espacios públicos, mejorar el entorno",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a0478d0fe3af6537bb156b82ec7de3545da18b10"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/indepaz-reporta-26-masacres-y-87-victimas-en-los-primeros-100-dias-del-gobierno-de-la-espriella/",
+    "titular": "Indepaz reporta 26 masacres y 87 víctimas en los primeros 100 días del Gobierno De la Espriella - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T20:46:24-05:00",
+    "resumen": "Los primeros 100 días del Gobierno de Abelardo de la Espriella estuvieron marcados por 26 masacres que dejaron 87 personas asesinadas, entre ellas cinco",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "15d6405880c90a4309981eec077d7058872dc79f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/incautan-26-toneladas-de-cocaina-ocultas-en-banano-y-cafe-con-destino-a-belgica/",
+    "titular": "Incautan 2,6 toneladas de cocaína ocultas en banano y café con destino a Bélgica - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T20:41:35-05:00",
+    "resumen": "La Policía decomisó 1.680 kilos de droga en el puerto de Urabá y otros 1.000 kilos en Cartagena. Los cargamentos estaban camuflados en contenedores de",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b99383e8e1c73ad29be931989bf1a318c89bc7e1"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/alias-primo-gay-y-otro-detenido-fueron-enviados-a-prision-en-antioquia/",
+    "titular": "Alias ‘Primo Gay’ y otro detenido fueron enviados a prisión en Antioquia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T19:56:16-05:00",
+    "resumen": "Néider Yesid Uñates López, conocido con el alias de ‘Primo Gay’, y Henry Sneyder Herrón Serna fueron enviados a prisión por decisión de un juez de control de",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f6fbdf3209ae85d86189e18b3631d674dc48c54a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/juez-pide-investigar-a-de-la-espriella-por-exposicion-publica-de-alias-primo-gay/",
+    "titular": "Juez pide investigar a De la Espriella por exposición pública de alias ‘Primo Gay’ - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T19:32:59-05:00",
+    "resumen": "El funcionario judicial compulsó copias a la Comisión de Investigación y Acusación de la Cámara de Representantes para que examine la actuación del",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "662f5fb222eb4b5e8359d3110e0b9c2ec595504f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/15/apturan-a-10-presuntos-integrantes-de-los-cocos-tras-cuatro-allanamientos-en-inirida/",
+    "titular": "apturan a 10 presuntos integrantes de Los Cocos tras cuatro allanamientos en Inírida - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-15T19:28:41-05:00",
+    "resumen": "El operativo conjunto del Ejército, la Policía y la Fiscalía permitió incautar armas de fuego, armas blancas, municiones, estupefacientes, celulares y dinero",
+    "fecha_captura": "2026-11-16T06:57:57-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9dcdc9ec9af7e53baa06af23b157834bd0dab259"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/incautan-una-tonelada-de-clorhidrato-de-cocaina-escondida-en-un-contenedor-con-cafe",
+    "titular": "Incautan una tonelada de clorhidrato de cocaína escondida en un contenedor con café",
+    "fecha_publicacion": "2026-11-15T18:40:00-05:00",
+    "resumen": "Se dirigía del puerto de Cartagena a Bélgica.",
+    "fecha_captura": "2026-11-16T06:57:47-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3764ef18d0d38a0653d0284c0d14b67f9ac5fd6a"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/ataque-criminal-deja-un-joven-muerto-y-un-hombre-de-36-anos-herido-en-los-girasoles",
+    "titular": "Ataque criminal deja un joven muerto y un hombre de 36 años herido en Los Girasoles",
+    "fecha_publicacion": "2026-11-15T18:31:00-05:00",
+    "resumen": "El responsable llegó a pie al lugar donde estaban sus víctimas.",
+    "fecha_captura": "2026-11-16T06:57:47-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a544880fe44cf409d194d720fdc923769bf05a5a"
+  },
+  {
     "medio": "Zona Cero",
     "url": "https://zonacero.com/judiciales/yo-la-reemplazo-yo-ya-vivi-el-clamor-del-papa-de-la-subteniente-maria-camila-pantoja",
     "titular": "“Yo la reemplazo, yo ya viví”, el clamor del papá de la subteniente María Camila Pantoja",
