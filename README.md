@@ -5,7 +5,7 @@
 Observatorio abierto de la seguridad en Barranquilla y su área metropolitana: un solo sitio, con el mismo análisis para todos y tres niveles de profundidad (resumen, informe completo y datos descargables). Tiene seis secciones:
 
 - **[Inicio](https://servicessigeduca-sudo.github.io/observatorio-baq/):** titular de la semana que se actualiza solo, buscador por barrio o municipio, vista previa del mapa, fuentes y límites, y enlace al último informe.
-- **[Mapa](https://servicessigeduca-sudo.github.io/observatorio-baq/mapa.html):** cuadrícula de 400 m, barrios y mapa de calor en metros reales, con filtros de periodo, delito, municipio y modalidad guardados en la URL, y casos recientes de prensa.
+- **[Mapa](https://servicessigeduca-sudo.github.io/observatorio-baq/mapa.html):** un punto aproximado por caso (al azar dentro de su zona), homicidios por barrio con los límites de OpenStreetMap y mapa de calor en metros reales, con filtros de periodo, delito, municipio y modalidad guardados en la URL, y casos recientes de prensa.
 - **[Informes](https://servicessigeduca-sudo.github.io/observatorio-baq/informes.html):** un informe por mes con plantilla fija y archivo por fecha.
 - **[Prensa vs. oficial](https://servicessigeduca-sudo.github.io/observatorio-baq/prensa-oficial.html):** qué parte de los casos llega a los medios, por municipio y mes.
 - **[Estadísticas oficiales](https://servicessigeduca-sudo.github.io/observatorio-baq/estadisticas.html):** los delitos que registra la Policía desde 2003 en los cinco municipios del área. Tiene media móvil de 12 meses, mapas de calor por mes y por día de la semana, variación anual por tipo de delito, promedios por periodo de Presidencia, Alcaldía y Gobernación, el peso de Barranquilla frente al resto del área, y arma, género y edad. Cada vista se descarga en CSV.
@@ -26,6 +26,7 @@ Los datos salen de notas publicadas por Zona Cero, Diario La Libertad, Emisora A
 | [`data/notas.json`](data/notas.json) | Una entrada por noticia: medio, titular, fecha, enlace y resumen corto |
 | [`data/oficiales.json`](data/oficiales.json) | Delitos registrados por la Policía (SIEDCO) en los cinco municipios del área desde 2003: por mes, día de la semana, arma, género y edad, y qué años cubre cada delito. Sin barrio: la Policía no lo publica |
 | [`data/oficiales_mensual.csv`](data/oficiales_mensual.csv) | La serie mensual anterior en CSV: año, mes, municipio, tipo y cantidad |
+| [`data/publico/barrios.geojson`](data/publico/barrios.geojson) | Límites de barrio de OpenStreetMap (ODbL) para el mapa por barrio. Lo arma el flujo **Límites de barrios** cada mes; los nombres que no coinciden se unen a mano en [`data/barrios_alias.json`](data/barrios_alias.json) |
 | [`data/geocodigos.json`](data/geocodigos.json) | Coordenadas de cada barrio según OpenStreetMap, corregibles a mano |
 
 ## Cómo revisar casos

@@ -460,3 +460,5 @@ footer .in{padding-block:8px 32px}
 .lista-q li:hover,.lista-q li[aria-selected="true"]{background:var(--fill)}
 .lista-q li.vacio{color:var(--muted);cursor:default}
 .lista-q li.vacio:hover{background:none}
+.tabla .lnk{background:none;border:0;padding:0;font:inherit;color:var(--primary);text-decoration:underline;text-underline-offset:2px;cursor:pointer;text-align:left}
+.tabla tr.sel td{background:color-mix(in srgb,var(--primary) 10%,transparent)}

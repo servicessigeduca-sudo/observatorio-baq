@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="estilos.css?v=20261113c">
+<link rel="stylesheet" href="estilos.css?v=20261116a">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -76,8 +76,8 @@
     <div><p class="eyebrow">Mapa</p><h2 class="t" id="m-tit">Dónde se concentran los homicidios de 2026</h2></div>
     <a class="btn" href="mapa.html">Explorar el mapa</a>
   </div>
-  <div class="mapcard"><div id="map" class="mapa-mini" role="img" aria-label="Vista previa del mapa de homicidios de 2026 por zonas de 400 metros"></div><div class="leg" id="leg"></div></div>
-  <p class="fuente" id="m-nota">Cada cuadro es una zona de 400 m. Las zonas con menos de 3 casos se unen con su vecina para no señalar hechos puntuales.</p>
+  <div class="mapcard"><div id="map" class="mapa-mini" role="img" aria-label="Vista previa del mapa de homicidios de 2026, un punto aproximado por caso"></div><div class="leg" id="leg"></div></div>
+  <p class="fuente" id="m-nota">Cada punto es un homicidio puesto al azar dentro de su zona (cuadros de 400 m unidos hasta tener al menos 3 casos), para no señalar el lugar exacto.</p>
 </div></section>
 
 <section class="sec" id="fuentes"><div class="in grid2">
@@ -105,9 +105,9 @@
   <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261113c"></script>
+<script src="comun.js?v=20261116a"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="datos.js?v=20261113c"></script>
+<script src="datos.js?v=20261116a"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc,D={};
@@ -198,10 +198,9 @@
   // Mapa de vista previa
   var map=O.mapa("map",{zoom:false,zoomInicial:11.5});map.dragging.disable();map.touchZoom.disable();map.doubleClickZoom.disable();map.boxZoom.disable();map.keyboard.disable();
   var capa=L.layerGroup().addTo(map);
-  function mapa(){capa.clearLayers();if(!D.reg)return;var por={};D.reg.filas.forEach(function(f){if(f[4])por[f[4]]=(por[f[4]]||0)+f[7]});
-    var DLAT=400/111320,DLON=400/(111320*Math.cos(10.97*Math.PI/180));
-    D.reg.zonas.forEach(function(z){var n=por[z.id]||0;if(!n)return;z.celdas.forEach(function(c){L.rectangle([[c[0]*DLAT,c[1]*DLON],[(c[0]+1)*DLAT,(c[1]+1)*DLON]],{stroke:false,fillColor:O.color(n),fillOpacity:.85,interactive:false}).addTo(capa)})});
-    $("leg").innerHTML="<h4>Homicidios por zona</h4><p>2026, hasta el "+O.dia(D.reg.corte)+"</p><ul>"+O.BINS.map(function(b,i){return '<li><i style="background:var(--q'+(i+1)+')"></i>'+b[2]+"</li>"}).join("")+"</ul>"}
+  function mapa(){capa.clearLayers();if(!D.reg)return;var casos={},col=O.css("--c-hom");D.reg.filas.forEach(function(f){if(!f[4])return;var l=casos[f[4]]=casos[f[4]]||[];for(var i=0;i<f[7];i++)l.push(col)});
+    O.puntos(capa,D.reg.zonas,casos,{interactivo:false,radio:3});
+    $("leg").innerHTML="<h4>Homicidios 2026</h4><p>Hasta el "+O.dia(D.reg.corte)+'</p><ul><li><i class="dot" style="background:var(--c-hom)"></i>Un caso, ubicación aproximada</li></ul>'}
   O.alCambiarTema(mapa);
 
   Promise.all([O.cargar("data/publico/resumen.json"),O.cargar("data/publico/prensa.json"),O.cargar("data/publico/registro.json").catch(function(){return null}),O.cargar("data/publico/informes/index.json")])

@@ -19,7 +19,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='6' fill='%23D3261C'/%3E%3Crect x='4' y='4' width='22' height='22' rx='3' fill='%23F6C200'/%3E%3Crect x='8' y='8' width='14' height='14' rx='2' fill='%230B6B3A'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
-<link rel="stylesheet" href="estilos.css?v=20261113c">
+<link rel="stylesheet" href="estilos.css?v=20261116a">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -85,7 +85,8 @@
   <h2 style="font-size:clamp(24px,3vw,32px);margin-bottom:24px">Qué no publicamos, y por qué no cambia el análisis</h2>
   <div class="method">
     <div><h3>Nada que identifique a una víctima</h3><p>No publicamos nombre, dirección exacta, descripción de los hechos ni hora. La fecha se muestra por mes y la ubicación por barrio o por zona de cuadrícula.</p></div>
-    <div id="cuadricula"><h3>Cuadrícula de 400 m con celdas fusionadas</h3><p>El área se divide en cuadros de 400 m. Un cuadro con menos de 3 casos en todo el periodo se une con el cuadro vecino que tenga menos casos, hasta que el grupo llega a 3. Un cuadro sin vecinos con casos a menos de 1,2 km no se dibuja: sigue contando en las cifras del barrio y del municipio. Con filtros, una zona puede quedar con 1 o 2 casos; se muestra como «&lt;3».</p></div>
+    <div id="cuadricula"><h3>Cuadrícula de 400 m con celdas fusionadas</h3><p>El área se divide en cuadros de 400 m. Un cuadro con menos de 3 casos en todo el periodo se une con el cuadro vecino que tenga menos casos, hasta que el grupo llega a 3. Un cuadro sin vecinos con casos a menos de 1,2 km no se dibuja: sigue contando en las cifras del barrio y del municipio. Con filtros, una zona puede quedar con 1 o 2 casos; se muestra como «&lt;3».</p><p>En el mapa de puntos, cada caso es un punto puesto al azar (siempre en el mismo sitio) dentro de los cuadros de su zona: el punto nunca marca el lugar del hecho.</p></div>
+    <div id="barrios"><h3>Homicidios por barrio</h3><p>El mapa por barrio colorea cada barrio según sus casos en el periodo elegido. Los límites de barrio vienen de OpenStreetMap (© colaboradores de OpenStreetMap, licencia ODbL) y se actualizan cada mes. Un barrio de los datos sin límite en OpenStreetMap se muestra como un círculo punteado en su centro. Los barrios con 1 o 2 casos se muestran como «menos de 3» y no se nombran en la tabla.</p></div>
     <div id="calor"><h3>Mapa de calor en metros reales</h3><p>Cada zona aporta calor en un radio de 300 m reales, que se convierte a píxeles en cada nivel de zoom. La intensidad máxima es fija (10 casos), así que el mismo color significa lo mismo a cualquier escala. El calor parte del centro de la zona, nunca de la ubicación de un caso.</p></div>
   </div>
 </div></section>
@@ -131,7 +132,7 @@
       <tr><td data-k="Archivo"><a href="data/publico/prensa_vs_oficial.csv" download>prensa_vs_oficial.csv</a></td><td data-k="Contiene">Comparación por mes, municipio y delito</td><td data-k="Fuente">Las tres</td></tr>
       <tr><td data-k="Archivo"><a href="data/oficiales_mensual.csv" download>oficiales_mensual.csv</a></td><td data-k="Contiene">Delitos registrados por la Policía por año, mes, municipio y tipo, desde 2003</td><td data-k="Fuente">Policía (SIEDCO)</td></tr>
       <tr><td data-k="Archivo"><a href="data/publico/oficiales_perfil.csv" download>oficiales_perfil.csv</a></td><td data-k="Contiene">Sexo, edad y arma o medio por año, con valores normalizados</td><td data-k="Fuente">Policía (SIEDCO)</td></tr>
-      <tr><td data-k="Archivo"><a href="data/publico/registro.json" download>registro.json</a> · <a href="data/publico/prensa.json" download>prensa.json</a></td><td data-k="Contiene">Lo mismo en JSON, con las zonas de cuadrícula y los centros de barrio</td><td data-k="Fuente">Registro y prensa</td></tr>
+      <tr><td data-k="Archivo"><a href="data/publico/registro.json" download>registro.json</a> · <a href="data/publico/prensa.json" download>prensa.json</a></td><td data-k="Contiene">Lo mismo en JSON, con las zonas de cuadrícula y los centros de barrio. Límites de barrio: <a href="data/publico/barrios.geojson" download>barrios.geojson</a> (OpenStreetMap, ODbL)</td><td data-k="Fuente">Registro y prensa</td></tr>
       <tr><td data-k="Archivo"><a href="data/oficiales.json" download>oficiales.json</a></td><td data-k="Contiene">Serie oficial completa: mes, día de la semana, arma, género y edad</td><td data-k="Fuente">Policía (SIEDCO)</td></tr>
       <tr><td data-k="Archivo"><a href="data/publico/informes/index.json" download>informes/</a></td><td data-k="Contiene">Cada informe mensual en JSON</td><td data-k="Fuente">Las tres</td></tr>
     </tbody>
@@ -170,13 +171,13 @@
   <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261113c"></script>
+<script src="comun.js?v=20261116a"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"¿Por qué las cifras de la prensa son más bajas que las de la Policía?","acceptedAnswer":{"@type":"Answer","text":"Porque la prensa no cubre todos los casos. Los homicidios casi siempre llegan a las noticias; los hurtos y la extorsión, muchas veces no."}},
 {"@type":"Question","name":"¿Por qué el último mes se ve más bajo?","acceptedAnswer":{"@type":"Answer","text":"Porque las fuentes cargan casos con retraso. Lo marcamos como incompleto para que no se lea como una baja real."}},
 {"@type":"Question","name":"¿Por qué no aparece mi calle ni la hora de un caso?","acceptedAnswer":{"@type":"Answer","text":"Para proteger a las víctimas y a sus familias. Mostramos el barrio o una zona de 400 m y el mes."}},
 {"@type":"Question","name":"¿Este sitio dice por qué ocurren los delitos en Barranquilla?","acceptedAnswer":{"@type":"Answer","text":"No. Los datos muestran cuántos casos hubo, dónde y cuándo. No permiten atribuir causas."}}]}</script>
-<script src="datos.js?v=20261113c"></script>
+<script src="datos.js?v=20261116a"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc;
