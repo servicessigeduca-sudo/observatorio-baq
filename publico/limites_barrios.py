@@ -30,8 +30,8 @@ from collections import defaultdict
 from pathlib import Path
 
 import requests
-from shapely.geometry import LineString, Polygon, mapping, shape
-from shapely.ops import linemerge, polygonize, unary_union
+from shapely.geometry import LineString, MultiPoint, Point, Polygon, mapping, shape
+from shapely.ops import linemerge, polygonize, unary_union, voronoi_diagram
 
 from scraper.clasificar import normalizar
 
@@ -48,6 +48,7 @@ CONSULTA = f"""[out:json][timeout:240];
   relation["place"~"^(neighbourhood|suburb|quarter)$"]({CAJA});
   way["landuse"="residential"]["name"]({CAJA});
   relation["landuse"="residential"]["name"]({CAJA});
+  node["place"~"^(neighbourhood|suburb|quarter)$"]["name"]({CAJA});
 );
 out geom;"""
 AREA_MIN_KM2, AREA_MAX_KM2 = 0.004, 6.0
@@ -91,13 +92,49 @@ def descargar() -> dict:
     raise SystemExit("No se pudo descargar de Overpass")
 
 
-def construir(datos: dict, alias: dict[str, str] | None = None) -> dict:
+RADIO_APROX = 0.004  # ~440 m: una zona aproximada nunca va más lejos de su punto
+SIN_APROX = {"Barranquilla"}  # Barranquilla ya tiene la capa completa del POT
+
+
+def aproximar(m: str, muni, ocupado, semillas: list[tuple[str, float, float]]) -> list[tuple[str, object]]:
+    """Zonas aproximadas para barrios que solo tienen un punto.
+
+    Reparte el espacio libre del municipio (sin los barrios que ya tienen límite)
+    entre los puntos, como un diagrama de Voronoi, y corta cada zona a ~440 m de
+    su punto para no inventar barrios en zonas rurales.
+    """
+    libres = muni.difference(ocupado) if ocupado is not None else muni
+    pts = [(n, Point(lon, lat)) for n, lat, lon in semillas if libres.contains(Point(lon, lat))]
+    if not pts:
+        return []
+    if len(pts) == 1:
+        celdas = [pts[0][1].buffer(RADIO_APROX)]
+    else:
+        celdas = list(voronoi_diagram(MultiPoint([p for _, p in pts]), envelope=muni.envelope.buffer(0.05)).geoms)
+    out = []
+    for n, p in pts:
+        celda = next((c for c in celdas if c.contains(p)), None)
+        if celda is None:
+            continue
+        g = celda.intersection(p.buffer(RADIO_APROX, quad_segs=8)).intersection(libres)
+        if not g.is_empty and g.area * KM2_POR_GRADO2 >= AREA_MIN_KM2:
+            out.append((n, g))
+    return out
+
+
+def construir(datos: dict, alias: dict[str, str] | None = None, centros: list[dict] | None = None) -> dict:
+    """centros: [{"municipio", "barrio", "centro": [lat, lon]}] de los datos (registro), para barrios sin punto en OSM."""
     munis = {}
     candidatos = []
+    puntos = []
     for el in datos.get("elements", []):
         t = el.get("tags", {})
         nombre = (t.get("name") or "").strip()
         if not nombre:
+            continue
+        if el["type"] == "node":
+            if "lat" in el:
+                puntos.append((nombre, el["lat"], el["lon"]))
             continue
         nivel = t.get("admin_level")
         if t.get("boundary") == "administrative" and nivel in ("6", "7"):
@@ -124,13 +161,38 @@ def construir(datos: dict, alias: dict[str, str] | None = None) -> dict:
         m, nombre = k.split("|", 1)
         otros[(m, clave(v))].append(clave(nombre))
     feats = []
+    hechos = defaultdict(list)
     for (m, k), lista in sorted(grupos.items()):
         mejor = min(p for p, _, _ in lista)
         g = unary_union([g for p, _, g in lista if p == mejor]).simplify(0.00004, preserve_topology=True)
+        hechos[m].append(g)
         nombre = next(n for p, n, _ in lista if p == mejor)
         geo = json.loads(json.dumps(mapping(g)), parse_float=lambda x: round(float(x), 5))
         feats.append({"type": "Feature", "properties": {"barrio": nombre, "municipio": m, "clave": k, "otros": otros.get((m, k), [])},
                       "geometry": geo})
+    # Barrios con punto pero sin límite: zona aproximada. Primero los puntos de OSM, luego los centros de los datos.
+    semillas = defaultdict(dict)
+    for nombre, lat, lon in puntos:
+        pt = Point(lon, lat)
+        m = next((x for x, mg in munis.items() if mg.contains(pt)), None)
+        if m:
+            semillas[m].setdefault(clave(nombre), (nombre, lat, lon))
+    alias_de = {(m, a): k for (m, k), lista in otros.items() for a in lista}
+    for c in centros or []:
+        m, k = c["municipio"], clave(c["barrio"])
+        if c.get("centro") and m in munis:
+            semillas[m].setdefault(alias_de.get((m, k), k), (c["barrio"], c["centro"][0], c["centro"][1]))
+    for m, porclave in sorted(semillas.items()):
+        if m in SIN_APROX:
+            continue
+        faltan = [v for k, v in porclave.items() if (m, k) not in grupos]
+        ocupado = unary_union(hechos[m]) if hechos[m] else None
+        for nombre, g in aproximar(m, munis[m], ocupado, faltan):
+            g = g.simplify(0.00004, preserve_topology=True)
+            geo = json.loads(json.dumps(mapping(g)), parse_float=lambda x: round(float(x), 5))
+            feats.append({"type": "Feature", "properties": {"barrio": nombre, "municipio": m, "clave": clave(nombre),
+                                                            "otros": otros.get((m, clave(nombre)), []), "aprox": True},
+                          "geometry": geo})
     return {"type": "FeatureCollection", "fuente": "© colaboradores de OpenStreetMap (ODbL), vía Overpass",
             "generado": time.strftime("%Y-%m-%d"), "municipios": sorted(munis), "features": feats}
 
@@ -200,13 +262,16 @@ def main() -> int:
     if "--sin-red" in sys.argv[1:]:
         fc = json.loads(destino.read_text(encoding="utf-8"))
     else:
-        fc = construir(descargar(), alias)
+        ruta_reg = raiz / "data" / "publico" / "registro.json"
+        centros = json.loads(ruta_reg.read_text(encoding="utf-8")).get("barrios", []) if ruta_reg.exists() else []
+        fc = construir(descargar(), alias, centros)
     ruta_pot = raiz / "data" / "barrios_pot.geojson"
     if ruta_pot.exists():
         fc = con_pot(fc, json.loads(ruta_pot.read_text(encoding="utf-8")), alias)
     destino.write_text(json.dumps(fc, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     con, total, faltan = cobertura(fc, raiz)
-    print(f"{len(fc['features'])} barrios con límite en {', '.join(fc['municipios'])} ({destino.stat().st_size // 1024} KB).")
+    aprox = sum(1 for f in fc["features"] if f["properties"].get("aprox"))
+    print(f"{len(fc['features'])} barrios con límite en {', '.join(fc['municipios'])}, {aprox} de ellos aproximados ({destino.stat().st_size // 1024} KB).")
     if total:
         print(f"\nHomicidios del registro en barrios con límite: {con} de {total} ({100 * con / total:.0f} %).")
         print("\nBarrios del registro sin límite (agregar en data/barrios_alias.json si OSM lo tiene con otro nombre):\n")

@@ -136,6 +136,7 @@
   // Polígonos de barrio (OpenStreetMap) por municipio|clave; los alias de data/barrios_alias.json van en "otros".
   function poligonos(){var idx={};if(D.geo)D.geo.features.forEach(function(f){var p=f.properties;[p.clave].concat(p.otros||[]).forEach(function(c){idx[p.municipio+"|"+c]=f})});return idx}
   function sinBarrio(){return filas().filter(function(r){return (!st.d||r.mes>=st.d)&&(!st.h||r.mes<=st.h)&&(!st.t||r.grupo===st.t)&&(!st.m||r.municipio===st.m)&&(!st.mod||r.modalidad===st.mod)})}
+  var mPrev=null;
   function pintarMapa(sel){
     capa.clearLayers();if(map.hasLayer(calor))map.removeLayer(calor);
     var f=fuente(),total=sel.reduce(function(t,r){return t+r.n},0),sinZona=0,porZona={},casos={};
@@ -151,10 +152,10 @@
       var porB={},nombre={};sinBarrio().forEach(function(r){if(!r.barrio)return;var k=r.municipio+"|"+O.claveBarrio(r.barrio);porB[k]=(porB[k]||0)+r.n;nombre[k]=r.barrio});
       var idx=poligonos(),dibujados={},fuera=0,selK=st.b?(st.m||"")+"|"+O.claveBarrio(st.b):null,resaltar=null;
       Object.keys(porB).forEach(function(k){var ft=idx[k];if(ft){var id=ft.properties.municipio+"|"+ft.properties.clave,d=dibujados[id]=dibujados[id]||{f:ft,n:0,nombres:[]};d.n+=porB[k];d.nombres.push(nombre[k])}});
-      if(D.geo)L.geoJSON(D.geo,{filter:function(ft){return !st.m||ft.properties.municipio===st.m},
-        style:function(ft){var d=dibujados[ft.properties.municipio+"|"+ft.properties.clave];return d?{fillColor:O.color(d.n),fillOpacity:.8,color:oscuro?"#000":"#fff",weight:.8}:{fillOpacity:0,color:O.css("--muted"),weight:.4,opacity:.5}},
+      var gl=null;if(D.geo)gl=L.geoJSON(D.geo,{filter:function(ft){return !st.m||ft.properties.municipio===st.m},
+        style:function(ft){var d=dibujados[ft.properties.municipio+"|"+ft.properties.clave];var ap=ft.properties.aprox;return d?{fillColor:O.color(d.n),fillOpacity:ap?.6:.8,color:ap?O.css("--muted"):oscuro?"#000":"#fff",weight:ap?1:.8,dashArray:ap?"4 3":null}:{fillOpacity:0,color:O.css("--muted"),weight:.4,opacity:.5,dashArray:ap?"4 3":null}},
         onEachFeature:function(ft,ly){var p=ft.properties,d=dibujados[p.municipio+"|"+p.clave];
-          ly.bindTooltip("<strong>"+esc(p.barrio)+"</strong><br>"+esc(p.municipio)+"<br>"+(d?(d.n<3?"Menos de 3 casos":d.n+" casos"):"Sin casos con estos filtros"),{sticky:true});
+          ly.bindTooltip("<strong>"+esc(p.barrio)+"</strong><br>"+esc(p.municipio)+"<br>"+(d?(d.n<3?"Menos de 3 casos":d.n+" casos"):"Sin casos con estos filtros")+(p.aprox?"<br><small>Límite aproximado</small>":""),{sticky:true});
           if(d){ly.on("click",function(){st.m=p.municipio;cambia("b",d.nombres[0])});
             if(selK&&d.nombres.some(function(x){return p.municipio+"|"+O.claveBarrio(x)===st.m+"|"+O.claveBarrio(st.b)}))resaltar=ly}}}).addTo(capa);
       // Barrios con casos pero sin límite en OpenStreetMap: círculo en su centro, con borde punteado.
@@ -162,8 +163,10 @@
       Object.keys(porB).forEach(function(k){if(idx[k])return;var n=porB[k],c=centros[k];if(!c){fuera+=n;return}
         var m=L.circleMarker(c,{radius:5+2.6*Math.sqrt(n),fillColor:O.color(n),fillOpacity:.88,color:oscuro?"#fff":"#1C1C1E",weight:1.2,dashArray:"3 2"}).bindTooltip("<strong>"+esc(nombre[k])+"</strong><br>"+esc(k.split("|")[0])+"<br>"+(n<3?"Menos de 3 casos":n+" casos")+"<br><small>Sin límite de barrio en el mapa (se dibuja en su centro)</small>").addTo(capa);
         m.on("click",function(){st.m=k.split("|")[0];cambia("b",nombre[k])});if(selK&&k===st.m+"|"+O.claveBarrio(st.b))resaltar=m});
+      // Al cambiar de municipio, acerca el mapa a sus barrios.
+      if(gl&&st.m&&st.m!==mPrev&&gl.getLayers().length)map.fitBounds(gl.getBounds(),{maxZoom:14});mPrev=st.m;
       if(resaltar){resaltar.setStyle({weight:3.5,color:O.css("--ink"),opacity:1});if(resaltar.bringToFront)resaltar.bringToFront()}
-      $("leg").innerHTML="<h4>"+(st.f==="registro"?"Homicidios":"Casos")+" por barrio</h4><p>Total del periodo elegido</p><ul>"+O.BINS.map(function(b,i){return '<li><i style="background:var(--q'+(i+1)+')"></i>'+b[2]+"</li>"}).join("")+'</ul><p class="fija">Toca un barrio para ver su tendencia. Círculo punteado: barrio sin límite en el mapa.</p>';
+      $("leg").innerHTML="<h4>"+(st.f==="registro"?"Homicidios":"Casos")+" por barrio</h4><p>Total del periodo elegido</p><ul>"+O.BINS.map(function(b,i){return '<li><i style="background:var(--q'+(i+1)+')"></i>'+b[2]+"</li>"}).join("")+'</ul><p class="fija">Toca un barrio para ver su tendencia. Borde punteado: límite aproximado. Círculo: barrio sin límite.</p>';
       var nb=Object.keys(porB).length,np=Object.keys(porB).filter(function(k){return idx[k]}).length;
       nota=(D.geo?np+" de "+nb+" barrios con casos tienen su límite dibujado. ":"No se pudieron cargar los límites de barrio; se muestran círculos. ")+(fuera?O.num(fuera)+" casos están en barrios sin ubicación y no se dibujan. ":"")+(st.b?"Resaltado: "+st.b+".":"");
       total=sinBarrio().reduce(function(t,r){return t+r.n},0);
