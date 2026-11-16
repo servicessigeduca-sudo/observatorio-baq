@@ -1,7 +1,12 @@
-"""Límites de barrios del área metropolitana desde OpenStreetMap (Overpass).
+"""Límites de barrios del área metropolitana: POT de Barranquilla + OpenStreetMap.
 
 Uso:
-    python -m publico.limites_barrios          # descarga y escribe data/publico/barrios.geojson
+    python -m publico.limites_barrios           # descarga OSM y escribe data/publico/barrios.geojson
+    python -m publico.limites_barrios --sin-red # solo rehace Barranquilla con el POT y los alias
+
+Barranquilla usa la capa oficial «Barrios de Barranquilla según POT» (Alcaldía,
+datos.gov.co), guardada simplificada en data/barrios_pot.geojson. Los otros cuatro
+municipios usan OpenStreetMap.
 
 Toma, en este orden de preferencia, los límites administrativos de barrio
 (admin_level 9 o 10), las áreas marcadas como barrio o sector (place=neighbourhood,
@@ -130,6 +135,47 @@ def construir(datos: dict, alias: dict[str, str] | None = None) -> dict:
             "generado": time.strftime("%Y-%m-%d"), "municipios": sorted(munis), "features": feats}
 
 
+MINUSCULAS = {"de", "del", "la", "las", "los", "el", "y", "e"}
+
+
+def titulo(nombre: str) -> str:
+    """«VILLA SAN PEDRO II» → «Villa San Pedro II»."""
+    pal = nombre.strip().split()
+    out = []
+    for i, w in enumerate(pal):
+        lw = w.lower()
+        if re.fullmatch(r"[ivx]+", lw):
+            out.append(w.upper())
+        elif i and lw in MINUSCULAS:
+            out.append(lw)
+        else:
+            out.append(lw[:1].upper() + lw[1:])
+    return " ".join(out)
+
+
+def con_pot(fc: dict, pot: dict, alias: dict[str, str] | None = None) -> dict:
+    """Reemplaza los barrios de Barranquilla por los del POT (la capa oficial)."""
+    otros = defaultdict(list)
+    for k, v in (alias or {}).items():
+        m, nombre = k.split("|", 1)
+        if m == "Barranquilla":
+            otros[clave(v)].append(clave(nombre))
+    feats = [f for f in fc["features"] if f["properties"]["municipio"] != "Barranquilla"]
+    vistos = set()
+    for f in pot["features"]:
+        nombre = titulo(f["properties"]["nombre"])
+        k = clave(nombre)
+        if k in vistos:
+            continue
+        vistos.add(k)
+        feats.append({"type": "Feature", "properties": {"barrio": nombre, "municipio": "Barranquilla", "clave": k, "otros": otros.get(k, [])},
+                      "geometry": f["geometry"]})
+    feats.sort(key=lambda f: (f["properties"]["municipio"], f["properties"]["clave"]))
+    return {**fc, "fuente": "Barranquilla: Barrios según POT (Alcaldía de Barranquilla, datos.gov.co). "
+                            "Soledad, Malambo, Galapa y Puerto Colombia: © colaboradores de OpenStreetMap (ODbL).",
+            "municipios": sorted(set(fc.get("municipios", [])) | {"Barranquilla"}), "features": feats}
+
+
 def cobertura(fc: dict, raiz: Path) -> tuple[int, int, list[str]]:
     """Cuántos barrios del registro (con casos) tienen polígono."""
     claves = {(f["properties"]["municipio"], c) for f in fc["features"] for c in [f["properties"]["clave"], *f["properties"]["otros"]]}
@@ -150,8 +196,14 @@ def main() -> int:
     raiz = Path(".")
     ruta_alias = raiz / "data" / "barrios_alias.json"
     alias = json.loads(ruta_alias.read_text(encoding="utf-8")) if ruta_alias.exists() else {}
-    fc = construir(descargar(), alias)
     destino = raiz / "data" / "publico" / "barrios.geojson"
+    if "--sin-red" in sys.argv[1:]:
+        fc = json.loads(destino.read_text(encoding="utf-8"))
+    else:
+        fc = construir(descargar(), alias)
+    ruta_pot = raiz / "data" / "barrios_pot.geojson"
+    if ruta_pot.exists():
+        fc = con_pot(fc, json.loads(ruta_pot.read_text(encoding="utf-8")), alias)
     destino.write_text(json.dumps(fc, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     con, total, faltan = cobertura(fc, raiz)
     print(f"{len(fc['features'])} barrios con límite en {', '.join(fc['municipios'])} ({destino.stat().st_size // 1024} KB).")

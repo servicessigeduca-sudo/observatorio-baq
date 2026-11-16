@@ -160,10 +160,10 @@
       // Barrios con casos pero sin límite en OpenStreetMap: círculo en su centro, con borde punteado.
       var centros={};(f.barrios||[]).forEach(function(b){if(b.centro)centros[b.municipio+"|"+O.claveBarrio(b.barrio)]=b.centro});
       Object.keys(porB).forEach(function(k){if(idx[k])return;var n=porB[k],c=centros[k];if(!c){fuera+=n;return}
-        var m=L.circleMarker(c,{radius:5+2.6*Math.sqrt(n),fillColor:O.color(n),fillOpacity:.88,color:oscuro?"#fff":"#1C1C1E",weight:1.2,dashArray:"3 2"}).bindTooltip("<strong>"+esc(nombre[k])+"</strong><br>"+esc(k.split("|")[0])+"<br>"+(n<3?"Menos de 3 casos":n+" casos")+"<br><small>Sin límite de barrio en el mapa</small>").addTo(capa);
+        var m=L.circleMarker(c,{radius:5+2.6*Math.sqrt(n),fillColor:O.color(n),fillOpacity:.88,color:oscuro?"#fff":"#1C1C1E",weight:1.2,dashArray:"3 2"}).bindTooltip("<strong>"+esc(nombre[k])+"</strong><br>"+esc(k.split("|")[0])+"<br>"+(n<3?"Menos de 3 casos":n+" casos")+"<br><small>Sin límite de barrio en el mapa (se dibuja en su centro)</small>").addTo(capa);
         m.on("click",function(){st.m=k.split("|")[0];cambia("b",nombre[k])});if(selK&&k===st.m+"|"+O.claveBarrio(st.b))resaltar=m});
       if(resaltar){resaltar.setStyle({weight:3.5,color:O.css("--ink"),opacity:1});if(resaltar.bringToFront)resaltar.bringToFront()}
-      $("leg").innerHTML="<h4>"+(st.f==="registro"?"Homicidios":"Casos")+" por barrio</h4><p>Total del periodo elegido</p><ul>"+O.BINS.map(function(b,i){return '<li><i style="background:var(--q'+(i+1)+')"></i>'+b[2]+"</li>"}).join("")+'</ul><p class="fija">Toca un barrio para ver su tendencia. Círculo punteado: barrio sin límite en OpenStreetMap.</p>';
+      $("leg").innerHTML="<h4>"+(st.f==="registro"?"Homicidios":"Casos")+" por barrio</h4><p>Total del periodo elegido</p><ul>"+O.BINS.map(function(b,i){return '<li><i style="background:var(--q'+(i+1)+')"></i>'+b[2]+"</li>"}).join("")+'</ul><p class="fija">Toca un barrio para ver su tendencia. Círculo punteado: barrio sin límite en el mapa.</p>';
       var nb=Object.keys(porB).length,np=Object.keys(porB).filter(function(k){return idx[k]}).length;
       nota=(D.geo?np+" de "+nb+" barrios con casos tienen su límite dibujado. ":"No se pudieron cargar los límites de barrio; se muestran círculos. ")+(fuera?O.num(fuera)+" casos están en barrios sin ubicación y no se dibujan. ":"")+(st.b?"Resaltado: "+st.b+".":"");
       total=sinBarrio().reduce(function(t,r){return t+r.n},0);

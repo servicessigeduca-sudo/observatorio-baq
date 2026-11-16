@@ -30,3 +30,23 @@ def test_construir_asigna_municipio_y_prefiere_limite_administrativo():
     assert por["el bosque"]["geometry"]["coordinates"][0][0][0] < -74.84  # el administrativo, no la urbanización
     assert por["las nieves"]["properties"]["otros"] == ["nieves"]
     assert fc["municipios"] == ["Barranquilla"]
+
+
+def test_titulo():
+    from publico.limites_barrios import titulo
+    assert titulo("VILLA SAN PEDRO II") == "Villa San Pedro II"
+    assert titulo("LAS NIEVES") == "Las Nieves"
+    assert titulo("BARRIO DE LA PAZ") == "Barrio de la Paz"
+
+
+def test_con_pot_reemplaza_barranquilla():
+    from publico.limites_barrios import con_pot
+    cuadro = {"type": "Polygon", "coordinates": [[[0, 0], [1, 0], [1, 1], [0, 0]]]}
+    fc = {"municipios": ["Barranquilla", "Soledad"], "features": [
+        {"properties": {"barrio": "Osm", "municipio": "Barranquilla", "clave": "osm", "otros": []}, "geometry": cuadro},
+        {"properties": {"barrio": "Ferrocarril", "municipio": "Soledad", "clave": "ferrocarril", "otros": []}, "geometry": cuadro}]}
+    pot = {"features": [{"properties": {"nombre": "EL SANTUARIO"}, "geometry": cuadro}]}
+    out = con_pot(fc, pot, {"Barranquilla|Santuario": "El Santuario"})
+    claves = {(f["properties"]["municipio"], f["properties"]["clave"]) for f in out["features"]}
+    assert claves == {("Barranquilla", "el santuario"), ("Soledad", "ferrocarril")}
+    assert next(f for f in out["features"] if f["properties"]["clave"] == "el santuario")["properties"]["otros"] == ["santuario"]

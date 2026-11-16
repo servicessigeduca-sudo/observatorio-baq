@@ -26,7 +26,7 @@ Los datos salen de notas publicadas por Zona Cero, Diario La Libertad, Emisora A
 | [`data/notas.json`](data/notas.json) | Una entrada por noticia: medio, titular, fecha, enlace y resumen corto |
 | [`data/oficiales.json`](data/oficiales.json) | Delitos registrados por la Policía (SIEDCO) en los cinco municipios del área desde 2003: por mes, día de la semana, arma, género y edad, y qué años cubre cada delito. Sin barrio: la Policía no lo publica |
 | [`data/oficiales_mensual.csv`](data/oficiales_mensual.csv) | La serie mensual anterior en CSV: año, mes, municipio, tipo y cantidad |
-| [`data/publico/barrios.geojson`](data/publico/barrios.geojson) | Límites de barrio de OpenStreetMap (ODbL) para el mapa por barrio. Lo arma el flujo **Límites de barrios** cada mes; los nombres que no coinciden se unen a mano en [`data/barrios_alias.json`](data/barrios_alias.json) |
+| [`data/publico/barrios.geojson`](data/publico/barrios.geojson) | Límites de barrio para el mapa por barrio: Barranquilla con la capa oficial del POT ([`data/barrios_pot.geojson`](data/barrios_pot.geojson), Alcaldía de Barranquilla en datos.gov.co) y los otros municipios con OpenStreetMap (ODbL). Lo arma el flujo **Límites de barrios** cada mes; los nombres que no coinciden se unen a mano en [`data/barrios_alias.json`](data/barrios_alias.json) |
 | [`data/geocodigos.json`](data/geocodigos.json) | Coordenadas de cada barrio según OpenStreetMap, corregibles a mano |
 
 ## Cómo revisar casos
