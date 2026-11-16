@@ -5,7 +5,7 @@ name: Límites de barrios
 # el primer día de cada mes, o a mano.
 on:
   push:
-    paths: ["publico/limites_barrios.py", "data/barrios_alias.json", ".github/workflows/barrios.yml"]
+    paths: ["publico/limites_barrios.py", "data/barrios_alias.json", "data/barrios_pot.geojson", ".github/workflows/barrios.yml"]
   schedule:
     - cron: "17 9 1 * *"
   workflow_dispatch:
