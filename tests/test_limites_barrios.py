@@ -50,3 +50,27 @@ def test_con_pot_reemplaza_barranquilla():
     claves = {(f["properties"]["municipio"], f["properties"]["clave"]) for f in out["features"]}
     assert claves == {("Barranquilla", "el santuario"), ("Soledad", "ferrocarril")}
     assert next(f for f in out["features"] if f["properties"]["clave"] == "el santuario")["properties"]["otros"] == ["santuario"]
+
+
+def test_zonas_aproximadas_para_barrios_con_solo_un_punto():
+    muni = {"type": "relation", "id": 1, "tags": {"name": "Soledad", "boundary": "administrative", "admin_level": "6"},
+            "members": [{"type": "way", "role": "outer", "geometry": [{"lon": a, "lat": b} for a, b in
+                         [(-74.80, 10.88), (-74.76, 10.88), (-74.76, 10.92), (-74.80, 10.92), (-74.80, 10.88)]]}]}
+    datos = {"elements": [
+        muni,
+        _way(2, "Con Limite", -74.79, 10.90, d=0.004, place="neighbourhood"),
+        {"type": "node", "id": 3, "lat": 10.905, "lon": -74.775, "tags": {"name": "Ferrocarril", "place": "neighbourhood"}},
+        {"type": "node", "id": 4, "lat": 10.905, "lon": -74.770, "tags": {"name": "Pumarejo", "place": "neighbourhood"}},
+        {"type": "node", "id": 5, "lat": 10.902, "lon": -74.788, "tags": {"name": "Con Limite", "place": "neighbourhood"}},
+    ]}
+    fc = construir(datos, {}, [{"municipio": "Soledad", "barrio": "Las Moras", "centro": [10.89, -74.775]},
+                               {"municipio": "Soledad", "barrio": "Pumarejo", "centro": [10.885, -74.79]}])
+    por = {f["properties"]["clave"]: f["properties"] for f in fc["features"]}
+    assert set(por) == {"con limite", "ferrocarril", "pumarejo", "las moras"}
+    assert not por["con limite"].get("aprox")
+    assert por["ferrocarril"]["aprox"] and por["las moras"]["aprox"]
+    from shapely.geometry import Point, shape
+    geo = {f["properties"]["clave"]: shape(f["geometry"]) for f in fc["features"]}
+    assert geo["pumarejo"].contains(Point(-74.770, 10.905))  # el punto de OSM gana al centro de los datos
+    assert not geo["ferrocarril"].intersects(geo["pumarejo"].buffer(-1e-6))
+    assert geo["ferrocarril"].bounds[2] - geo["ferrocarril"].bounds[0] < 0.009  # cortada a ~440 m
