@@ -11,7 +11,7 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-06,,,hom,Sin dato,1
 2026-06,Soledad,,hom,Sin dato,1
 2026-11,,,hom,Arma de fuego,3
-2026-11,,,hom,Sin dato,8
+2026-11,,,hom,Sin dato,9
 2026-11,,,hur,Sin dato,2
 2026-11,,,les,Arma de fuego,3
 2026-11,,,les,Sin dato,1
@@ -32,6 +32,7 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-11,Barranquilla,Conidec,hom,Sin dato,1
 2026-11,Barranquilla,El Santuario,hom,Arma de fuego,1
 2026-11,Barranquilla,Las Flores,hom,Arma de fuego,1
+2026-11,Barranquilla,Los Girasoles,hom,Arma de fuego,1
 2026-11,Barranquilla,San Isidro,hom,Arma de fuego,1
 2026-11,Barranquilla,San Roque,hom,Arma de fuego,1
 2026-11,Barranquilla,Torre del Pescado,hom,Arma de fuego,1

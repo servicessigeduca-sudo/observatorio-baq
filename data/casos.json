@@ -192,9 +192,9 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
+    "lat": 10.92486,
+    "lon": -74.805,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "098330ac73af",
