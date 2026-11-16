@@ -103,4 +103,20 @@
         s+='<rect x="'+x.toFixed(1)+'" y="'+(m.t+ih-h).toFixed(1)+'" width="'+Math.max(1,sw-1).toFixed(1)+'" height="'+h.toFixed(1)+'" fill="'+(inc?"url(#trama-"+el.id+")":se.color)+'"'+(inc?' stroke="'+se.color+'" stroke-width="1.5"':"")+'><title>'+O.esc(se.nombre+", "+O.mes(d.mes)+": "+O.num(v)+(inc?" (incompleto)":""))+"</title></rect>"});
       if((datos.length-1-i)%cada===0)s+='<text x="'+(x0+bw*.39).toFixed(1)+'" y="'+(H-10)+'" text-anchor="middle">'+O.mes(d.mes,true)+"</text>"});
     el.innerHTML=s+"</svg>"};
+  // Puntos aproximados: cada caso es un punto puesto al azar (con semilla fija) dentro de los
+  // cuadros de su zona fusionada. Nunca usa la ubicación exacta; dos visitas ven lo mismo.
+  O.DLAT=400/111320;O.DLON=400/(111320*Math.cos(10.97*Math.PI/180));
+  function semilla(t){var h=2166136261;for(var i=0;i<t.length;i++){h^=t.charCodeAt(i);h=Math.imul(h,16777619)}
+    return function(){h=h+0x6D2B79F5|0;var x=Math.imul(h^h>>>15,1|h);x=x+Math.imul(x^x>>>7,61|x)^x;return((x^x>>>14)>>>0)/4294967296}}
+  // zonas: [{id, celdas}], casos: {idZona: [color, color, …]}
+  O.puntos=function(capa,zonas,casos,opc){opc=opc||{};var r=L.canvas({padding:.3}),borde=O.isDark()?"rgba(0,0,0,.7)":"rgba(255,255,255,.9)";
+    zonas.forEach(function(z){var cs=casos[z.id];if(!cs||!cs.length)return;var rnd=semilla(z.id),n=cs.length;
+      var txt=opc.interactivo===false?null:(n<3?"Menos de 3 casos":O.num(n)+" casos")+" en esta zona.<br>Cada punto es un caso puesto al azar dentro de la zona, no el lugar del hecho.";
+      cs.forEach(function(col){var c=z.celdas[Math.floor(rnd()*z.celdas.length)],la=(c[0]+.1+.8*rnd())*O.DLAT,lo=(c[1]+.1+.8*rnd())*O.DLON;
+        var m=L.circleMarker([la,lo],{renderer:r,radius:opc.radio||4,fillColor:col,fillOpacity:.85,color:borde,weight:.8,interactive:!!txt});
+        if(txt)m.bindTooltip(txt);m.addTo(capa)})})};
+
+  // Clave de barrio para unir nombres de los datos con los de OpenStreetMap (igual que publico/limites_barrios.py).
+  O.claveBarrio=function(t){return String(t||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9ñ]+/g," ").trim()
+    .replace(/^(barrio|urbanizacion|urb|conjunto residencial|conjunto|ciudadela|sector|asentamiento)\s+/,"").replace(/\s+/g," ")};
 })();
