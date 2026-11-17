@@ -1,5 +1,253 @@
 [
   {
+    "caso_id": "be7db89f77bd",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "fecha": "2026-11-16",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "d7583466064a4923760ff4dceea44a1a2f192c8c"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/16/encuentran-sin-vida-a-hombre-reportado-como-desaparecido-en-zona-rural-de-aracataca/",
+        "titular": "Encuentran sin vida a hombre reportado como desaparecido en zona rural de Aracataca - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "7509d2205d9b"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "7509d2205d9b",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "secuestro"
+    ],
+    "fecha": "2026-11-16",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "93bfae1170c1092d341227bd166263582dbe8572"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/16/encuentran-asesinado-en-sitionuevo-a-barranquillero-que-habia-sido-secuestrado-en-villanueva/",
+        "titular": "Encuentran asesinado en Sitionuevo a barranquillero que había sido secuestrado en Villanueva - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "be7db89f77bd"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "644610753115",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-16",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "eb97f514d2ad84ab3c787eaa11fb3f8bc1796d34"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/16/murio-miguel-angel-felix-gallardo-fundador-del-cartel-de-guadalajara/",
+        "titular": "Murió Miguel Ángel Félix Gallardo, fundador del Cartel de Guadalajara - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "5b280dab9d0c",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-16",
+    "municipio": null,
+    "barrio": "Siete de Abril",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "5fce71131515cea3f5fb239551471ca4778158c3"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/16/rina-en-el-barrio-siete-de-abril-termino-en-tragedia-joven-murio-tras-ataque-con-pico-de-botella/",
+        "titular": "Riña en el barrio Siete de Abril terminó en tragedia: joven murió tras ataque con pico de botella - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "5993fcb34d34",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-16",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad",
+      "Zona Cero"
+    ],
+    "notas": [
+      "ac1a2ab99290bccb7ec4b90bcb37f0bebee8b404",
+      "b17859c2536fb13b5e68f44fa23db7a27da91311"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/cali-y-bogota-con-mas-mujeres-asesinadas-en-2026-barranquilla-registra-34-homicidios",
+        "titular": "Cali y Bogotá, con más mujeres asesinadas en 2026: Barranquilla registra 34 homicidios"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/16/atlantico-registra-77-mujeres-asesinadas-en-2026-defensoria-alerta-por-escalada-de-violencia/",
+        "titular": "Atlántico registra 77 mujeres asesinadas en 2026: Defensoría alerta por escalada de violencia - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "57183fddc4cc",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-16",
+    "municipio": "Barranquilla",
+    "barrio": "Simón Bolívar",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "6595802c86a1df7428fade3d6b12479123f8d012",
+      "8be73548fc911387a48f41e1ef2214b6d6d86724"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/16/sicarios-asesinan-a-alias-kevin-toyota-senalado-jefe-militar-de-los-del-freseo-frente-a-un-billar-en-el-suroriente-de-barranquilla/",
+        "titular": "Sicarios asesinan a alias ‘Kevin Toyota’, señalado jefe militar de ‘Los del Freseo’, frente a un billar en el suroriente de Barranquilla - Diario La Libertad."
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/16/asesinan-a-alias-kevin-toyota-senalado-jefe-militar-de-los-del-freseo-frente-a-billares-elite-en-barranquilla/",
+        "titular": "Asesinan a alias ‘Kevin Toyota’, señalado jefe militar de ‘Los del Freseo’, frente a Billares Élite en Barranquilla - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "098330ac73af"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "2e34f4bb21a8",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-16",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "0b4ffabbfa4b7b1ec15855379e968145d47fe36c"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/ataque-sicarial-contra-nucleo-familiar-de-alias-kevin-masacre-asesinaron-a-su-tia-cuando-hacia-oficios-en-su-casa/",
+        "titular": "Ataque sicarial contra núcleo familiar de alias Kevin Masacre: asesinaron a su tía cuando hacía oficios en su casa"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "098330ac73af"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "0ef5bb60ad8d",
+    "tipo": "desaparicion",
+    "tipos": [
+      "desaparicion"
+    ],
+    "fecha": "2026-11-16",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "b7df69f43175912513964a9354a77a6dfe9d7c51"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/16/familia-de-kelly-acosta-pide-ayuda-a-de-la-espriella-para-encontrar-a-las-dos-mujeres-desaparecidas/",
+        "titular": "Familia de Kelly Acosta pide ayuda a De La Espriella para encontrar a las dos mujeres desaparecidas - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
     "caso_id": "d8a72af96acb",
     "tipo": "homicidio",
     "tipos": [
@@ -142,16 +390,23 @@
     "municipio": "Soledad",
     "barrio": "Villa Carmen II",
     "medios": [
+      "Diario La Libertad",
       "Impacto News"
     ],
     "notas": [
-      "2ba093ba85f6c8c60e1055f15503d009e4a9c2b4"
+      "2ba093ba85f6c8c60e1055f15503d009e4a9c2b4",
+      "abd67d61f56bc50530e0a93aeee168c9c7db37bc"
     ],
     "fuentes": [
       {
         "medio": "Impacto News",
         "url": "https://impactonews.co/discusiones-y-presuntas-amenazas-rodean-el-asesinato-de-brayan-rodriguez-mientras-lavaba-una-moto-en-soledad/",
         "titular": "Discusiones y presuntas amenazas rodean el asesinato de Brayan Rodríguez mientras lavaba una moto en Soledad"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/16/asesinan-a-joven-mientras-lavaba-una-moto-en-soledad-vecinos-hablan-de-amenazas-y-discusiones-previas/",
+        "titular": "Asesinan a joven mientras lavaba una moto en Soledad: vecinos hablan de amenazas y discusiones previas - Diario La Libertad."
       }
     ],
     "estado": "pendiente",
@@ -225,8 +480,11 @@
         "titular": "Sicarios asesinan a tía de alias ‘Kevin Masacre’ en el barrio Las Nieves - Diario La Libertad."
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "2e34f4bb21a8",
+      "57183fddc4cc"
+    ],
     "lat": 10.95257,
     "lon": -74.77918,
     "confianza_ubicacion": "alta"
