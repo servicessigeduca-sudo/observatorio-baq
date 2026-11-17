@@ -95,6 +95,12 @@
     "lon": -74.8014,
     "nombre_osm": "Santo Domingo, Localidad Suroccidente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
   },
+  "siete de abril|Barranquilla": null,
+  "simon bolivar|Barranquilla": {
+    "lat": 10.94428,
+    "lon": -74.77722,
+    "nombre_osm": "Simón Bolívar, Localidad Suroriente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 083002, Colombi"
+  },
   "torre del pescado|Barranquilla": null,
   "villa carmen etapa 2|Soledad": null,
   "villa carmen ii|Soledad": {

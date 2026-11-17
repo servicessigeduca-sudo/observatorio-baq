@@ -11,11 +11,11 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-06,,,hom,Sin dato,1
 2026-06,Soledad,,hom,Sin dato,1
 2026-11,,,hom,Arma de fuego,3
-2026-11,,,hom,Sin dato,9
+2026-11,,,hom,Sin dato,11
 2026-11,,,hur,Sin dato,2
 2026-11,,,les,Arma de fuego,3
 2026-11,,,les,Sin dato,1
-2026-11,,,otr,Sin dato,3
+2026-11,,,otr,Sin dato,4
 2026-11,,Buenos Aires,otr,Sin dato,1
 2026-11,,El Limón,hom,Arma de fuego,1
 2026-11,,El Valle,hom,Arma de fuego,1
@@ -24,8 +24,10 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-11,,Las Nieves,hom,Arma de fuego,1
 2026-11,,Rebolo,hom,Arma de fuego,1
 2026-11,,Santo Domingo,hom,Arma de fuego,1
+2026-11,,Siete de Abril,hom,Sin dato,1
 2026-11,,Villa María,hom,Arma de fuego,1
-2026-11,Barranquilla,,hom,Arma de fuego,1
+2026-11,Barranquilla,,hom,Arma de fuego,2
+2026-11,Barranquilla,,hom,Sin dato,2
 2026-11,Barranquilla,,hur,Sin dato,1
 2026-11,Barranquilla,,les,Sin dato,2
 2026-11,Barranquilla,,otr,Sin dato,1
@@ -35,6 +37,7 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-11,Barranquilla,Los Girasoles,hom,Arma de fuego,1
 2026-11,Barranquilla,San Isidro,hom,Arma de fuego,1
 2026-11,Barranquilla,San Roque,hom,Arma de fuego,1
+2026-11,Barranquilla,Simón Bolívar,hom,Arma de fuego,1
 2026-11,Barranquilla,Torre del Pescado,hom,Arma de fuego,1
 2026-11,Galapa,,hom,Arma de fuego,1
 2026-11,Galapa,,hom,Sin dato,1
@@ -46,6 +49,6 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-11,Soledad,,otr,Sin dato,2
 2026-11,Soledad,Ciudad Paraíso,hom,Arma de fuego,2
 2026-11,Soledad,Villa Carmen Etapa 2,hom,Sin dato,1
-2026-11,Soledad,Villa Carmen II,hom,Sin dato,1
+2026-11,Soledad,Villa Carmen II,hom,Arma de fuego,1
 2026-11,Soledad,Villa Cecilia,hom,Sin dato,1
 2026-11,Soledad,Villa Soledad,hom,Arma de fuego,1

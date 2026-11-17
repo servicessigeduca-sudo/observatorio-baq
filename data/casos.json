@@ -185,9 +185,9 @@
     "posible_duplicado_de": [
       "098330ac73af"
     ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
+    "lat": 10.94428,
+    "lon": -74.77722,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "2e34f4bb21a8",
