@@ -1,5 +1,295 @@
 [
   {
+    "caso_id": "d05163e681f1",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones"
+    ],
+    "fecha": "2026-11-18",
+    "municipio": "Barranquilla",
+    "barrio": "El Bosque",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "1719e9d9eb4ff90a33e9be3808c73343c6e09e64"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/18/joven-resulta-gravemente-herida-tras-ser-baleada-en-el-barrio-el-bosque-de-barranquilla/",
+        "titular": "Joven resulta gravemente herida tras ser baleada en el barrio El Bosque de Barranquilla - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": 10.95276,
+    "lon": -74.81664,
+    "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "eea9d849fbd6",
+    "tipo": "extorsion",
+    "tipos": [
+      "extorsion"
+    ],
+    "fecha": "2026-11-17",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "212f16350cb278c52de6bf0da0d7cfd5e8f0638d"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/17/golpe-a-la-extorsion-en-cienaga-cinco-presuntos-integrantes-de-los-conquistadores-de-la-sierra-capturados-en-sevillano/",
+        "titular": "Golpe a la extorsión en Ciénaga: Cinco presuntos integrantes de los conquistadores de la sierra capturados en Sevillano - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "e887dd986881",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "fecha": "2026-11-17",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad",
+      "Zona Cero"
+    ],
+    "notas": [
+      "316f3399c8761acc71cadcb2076fb4aa86e298ec",
+      "45e80039ae17c97d15d57dd6a8a704b95cc4f291"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/ola-golpeo-lancha-en-la-alta-guajira-un-muerto-cuatro-desaparecidos-y-ocho-rescatados",
+        "titular": "Ola golpeó lancha en la Alta Guajira: un muerto, cuatro desaparecidos y ocho rescatados"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/17/tragedia-en-la-alta-guajira-una-ola-hundio-una-lancha-dejo-un-menor-muerto-y-cuatro-personas-desaparecidas/",
+        "titular": "Tragedia en la Alta Guajira: una ola hundió una lancha, dejó un menor muerto y cuatro personas desaparecidas - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "e7c44fb42f62",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-17",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "a16c88a48a0354d810fb1da6a721a74013c3e944"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/17/hallan-muerto-en-madrid-a-nielson-de-souza-vilela-abogado-de-el-pollo-carvajal/",
+        "titular": "Hallan muerto en Madrid a Nielson de Souza Vilela, abogado de ‘El Pollo’ Carvajal - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "e3d1711b3b96",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "fecha": "2026-11-17",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "7ff253324ff790bb016a9297f343ac057b6aea3e"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/hallan-muerto-en-trocha-de-palermo-hombre-desaparecido-en-barranquilla",
+        "titular": "Hallan muerto en trocha de Palermo a hombre desaparecido en Barranquilla"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "c9a7ad70fb92",
+    "tipo": "hurto",
+    "tipos": [
+      "hurto"
+    ],
+    "fecha": "2026-11-17",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "2a09d194ae273488c8b3e3aad73cb15a064332cb"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/17/le-salio-mal-la-jugada-cayo-alias-breyner-con-un-revolver-en-magangue/",
+        "titular": "¡Le salió mal la jugada! Cayó alias ‘Breyner’ con un revólver en Magangué - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "bd9affe302af",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-17",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "ddc97468a1adc6890b1c772da5c1c4a31ea0ab92"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/una-mujer-de-inteligencia-la-mejor-policia-de-colombia-en-los-premios-excelencia",
+        "titular": "Una mujer de inteligencia, la mejor policía de Colombia en los Premios Excelencia Policial 2026"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "a4d56171329f",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-17",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "4117bb520c98dd339164d10b512a4813150cd38d"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/sicarios-atacan-bala-una-pareja-en-7-de-abril-el-hombre-murio-y-la-mujer-esta-herida",
+        "titular": "Sicarios atacan a bala a una pareja en 7 de Abril: el hombre murió y la mujer está herida"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "87e28dc8cc03",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-17",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "584c071ff5f313a1362c0383653acf87bb82e2c4"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/dos-hombres-fueron-asesinados-en-hechos-aislados-en-nuevo-milenio-y-villas-de-san-pablo",
+        "titular": "Dos hombres fueron asesinados en hechos aislados en Nuevo Milenio y Villas de San Pablo"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "4e76b06e57db",
+    "tipo": "violencia_sexual",
+    "tipos": [
+      "violencia_sexual"
+    ],
+    "fecha": "2026-11-17",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "9b02fb352bd9ba7b83fb6dd7b4859848ad44f929"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/fiscalia-imputo-hollman-morris-por-acto-sexual-violento-agravado-contra-una-periodista",
+        "titular": "Fiscalía imputó a Hollman Morris por acto sexual violento agravado contra una periodista"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
     "caso_id": "be7db89f77bd",
     "tipo": "homicidio",
     "tipos": [
@@ -431,6 +721,7 @@
     ],
     "notas": [
       "a544880fe44cf409d194d720fdc923769bf05a5a",
+      "e685c7f888ccfa9cf4e1e9828f125425dfd8b467",
       "f6a78774f09b6279632a5d436b1cae364adc0076"
     ],
     "fuentes": [
@@ -443,6 +734,11 @@
         "medio": "Diario La Libertad",
         "url": "https://diariolalibertad.com/2026/11/16/ataque-sicarial-en-los-girasoles-deja-un-joven-de-18-anos-muerto-y-otro-hombre-herido/",
         "titular": "Ataque sicarial en Los Girasoles deja un joven de 18 años muerto y otro hombre herido - Diario La Libertad."
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/18/ataque-sicarial-en-restaurante-de-alfonso-lopez-deja-un-hombre-muerto-y-una-mujer-herida/",
+        "titular": "Ataque sicarial en restaurante de Alfonso López deja un hombre muerto y una mujer herida - Diario La Libertad."
       }
     ],
     "estado": "pendiente",

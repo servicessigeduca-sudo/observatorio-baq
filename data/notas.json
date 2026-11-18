@@ -1,6 +1,520 @@
 [
   {
     "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/ataque-sicarial-en-restaurante-de-alfonso-lopez-deja-un-hombre-muerto-y-una-mujer-herida/",
+    "titular": "Ataque sicarial en restaurante de Alfonso López deja un hombre muerto y una mujer herida - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T06:32:52-05:00",
+    "resumen": "El hecho ocurrió en la carrera 22 con calle 47B, en inmediaciones del restaurante La Mona, donde, según los primeros reportes ciudadanos, se produjo el",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e685c7f888ccfa9cf4e1e9828f125425dfd8b467"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/joven-resulta-gravemente-herida-tras-ser-baleada-en-el-barrio-el-bosque-de-barranquilla/",
+    "titular": "Joven resulta gravemente herida tras ser baleada en el barrio El Bosque de Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T06:14:32-05:00",
+    "resumen": "El hecho ocurrió en el sector comprendido entre Carrefour y el colegio Tierra Santa, cerca de la antigua Telefónica del Bosque, a la altura del",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "El Bosque",
+    "estado": "pendiente",
+    "id": "1719e9d9eb4ff90a33e9be3808c73343c6e09e64"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/una-mujer-de-inteligencia-fue-elegida-como-la-mejor-policia-de-colombia-infiltro-organizacion-criminal-de-alias-max-max/",
+    "titular": "Una mujer de inteligencia fue elegida como la mejor policía de Colombia: infiltró organización criminal de alias ‘Max Max’ - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T22:51:25-05:00",
+    "resumen": "Una mujer integrante de la Dirección de Inteligencia Policial (DIPOL) fue elegida como la Mejor Policía de Colombia 2026, luego de obtener la mayor votación",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2ebb74e8a2583ead27da2414f862e67d55ea021a"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/una-mujer-de-inteligencia-la-mejor-policia-de-colombia-en-los-premios-excelencia",
+    "titular": "Una mujer de inteligencia, la mejor policía de Colombia en los Premios Excelencia Policial 2026",
+    "fecha_publicacion": "2026-11-17T22:18:51-05:00",
+    "resumen": "Infiltró la organización criminal de alias ‘Max Max’, aportando información determinante en el operativo en que fue abatido el explosivista de las disidencias de ‘Iván Mordisco'.",
+    "fecha_captura": "2026-11-18T06:51:55-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ddc97468a1adc6890b1c772da5c1c4a31ea0ab92"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/italika-llegara-a-barranquilla-empresa-mexicana-instalara-ensambladora-de-motocicletas-y-proyecta-1-000-empleos/",
+    "titular": "Italika llegará a Barranquilla: empresa mexicana instalará ensambladora de motocicletas y proyecta 1.000 empleos - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T22:07:59-05:00",
+    "resumen": "Barranquilla se prepara para recibir una nueva inversión extranjera. La empresa mexicana Italika, especializada en la fabricación y comercialización de",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "620b2ab75d17b396205243efb4d73472bb002f00"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/corte-constitucional-tumba-restricciones-a-las-encuestas-electorales-y-protege-la-identidad-de-los-encuestados/",
+    "titular": "Corte Constitucional tumba restricciones a las encuestas electorales y protege la identidad de los encuestados - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T22:02:45-05:00",
+    "resumen": "La Corte Constitucional de Colombia declaró inexequibles varios apartes de la Ley 2494 de 2025, normativa que establece medidas para la elaboración,",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e44bb83075695d538a7ccb3a9f0613d9b48da77f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/hallan-muerto-en-madrid-a-nielson-de-souza-vilela-abogado-de-el-pollo-carvajal/",
+    "titular": "Hallan muerto en Madrid a Nielson de Souza Vilela, abogado de ‘El Pollo’ Carvajal - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T21:45:40-05:00",
+    "resumen": "La muerte de Nielson de Souza Vilela, abogado que ejerció en España la defensa del exjefe de la inteligencia militar venezolana Hugo Armando Carvajal Barrios,",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a16c88a48a0354d810fb1da6a721a74013c3e944"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/abelardo-de-la-espriella-exalta-a-la-policia-nacional-y-promete-respaldo-a-los-uniformados-no-volvere-a-permitir-que-sean-maltratados/",
+    "titular": "Abelardo De la Espriella exalta a la Policía Nacional y promete respaldo a los uniformados: “No volveré a permitir que sean maltratados” - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T21:42:22-05:00",
+    "resumen": "Audio Presidente De la Espriella",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e9d3d2b1bce238ea2c39722a023fc71a55f32c98"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/ataque-sicarial-en-riohacha-dejo-un-muerto-y-un-herido-en-el-barrio-las-tunas/",
+    "titular": "Ataque sicarial en Riohacha dejó un muerto y un herido en el barrio Las Tunas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T21:20:59-05:00",
+    "resumen": "Un nuevo hecho de violencia sacudió a Riohacha, La Guajira, luego de que un ataque armado registrado en el barrio Las Tunas dejara como saldo un hombre muerto",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": "Las Tunas",
+    "estado": "pendiente",
+    "id": "f577988b98b75bf32f5fc40167d092ff90ccb7a5"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/fiscalia-imputo-hollman-morris-por-acto-sexual-violento-agravado-contra-una-periodista",
+    "titular": "Fiscalía imputó a Hollman Morris por acto sexual violento agravado contra una periodista",
+    "fecha_publicacion": "2026-11-17T15:55:00-05:00",
+    "resumen": "Los hechos habrían ocurrido en Madrid, España, en 2011.",
+    "fecha_captura": "2026-11-18T06:51:55-05:00",
+    "tipos_delito": [
+      "violencia_sexual"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9b02fb352bd9ba7b83fb6dd7b4859848ad44f929"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/hallan-muerto-en-trocha-de-palermo-hombre-desaparecido-en-barranquilla",
+    "titular": "Hallan muerto en trocha de Palermo a hombre desaparecido en Barranquilla",
+    "fecha_publicacion": "2026-11-17T15:52:00-05:00",
+    "resumen": "Fue encontrado con impactos de bala.",
+    "fecha_captura": "2026-11-18T06:51:55-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7ff253324ff790bb016a9297f343ac057b6aea3e"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/dieron-la-orden-tarazona-senala-petro-y-maduro-del-crimen-de-miguel-uribe-turbay",
+    "titular": "\"Dieron la orden\": Tarazona señala a Petro y Maduro del crimen de Miguel Uribe Turbay",
+    "fecha_publicacion": "2026-11-17T14:12:00-05:00",
+    "resumen": "Calificó al exmandatario colombiano de \"'narcopresidente'\".",
+    "fecha_captura": "2026-11-18T06:51:55-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6b67ca9b8a58761600cf6e95bfb4b7b14a2740c4"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/siete-militares-fueron-judicializados-por-presunto-desvio-de-mas-de-10-millones-en-viaticos/",
+    "titular": "Siete militares fueron judicializados por presunto desvío de más de $10 millones en viáticos - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T14:09:12-05:00",
+    "resumen": "Sin embargo, la Fiscalía encontró diferencias entre las actividades consignadas en los informes y los registros institucionales de las unidades militares",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8e8829f859900224596a1f3ff94f3a1124ebcd2b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/bajo-la-lupa-contrato-de-9-000-millones-para-vivienda-rural-por-presuntas-irregularidades-detectadas-por-la-contraloria/",
+    "titular": "Bajo la lupa contrato de $9.000 millones para vivienda rural por presuntas irregularidades detectadas por la Contraloría - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T13:57:31-05:00",
+    "resumen": "Un contrato de consultoría por $9.000 millones, suscrito por el Ministerio de Agricultura para verificar un programa de subsidios de vivienda rural, quedó",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ae6661df7aeb3f40533a140bc3c69027d0fad3b8"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/neutralizan-taxi-cargado-con-mas-de-60-kilos-de-explosivos-en-la-el-espinal-girardot",
+    "titular": "Neutralizan taxi cargado con más de 60 kilos de explosivos en la vía El Espinal - Girardot",
+    "fecha_publicacion": "2026-11-17T13:40:00-05:00",
+    "resumen": "El vehículo había sido robado en El Espinal por una pareja que solicitó un servicio.",
+    "fecha_captura": "2026-11-18T06:51:55-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e9c30d2ff88884c312f9ba1d55b04dfaf32dabf6"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/tragedia-en-la-alta-guajira-una-ola-hundio-una-lancha-dejo-un-menor-muerto-y-cuatro-personas-desaparecidas/",
+    "titular": "Tragedia en la Alta Guajira: una ola hundió una lancha, dejó un menor muerto y cuatro personas desaparecidas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T13:37:19-05:00",
+    "resumen": "Una tragedia marítima se registró en aguas del mar Caribe, en la Alta Guajira, luego de que una fuerte ola golpeara una lancha que cubría la ruta entre Puerto",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "316f3399c8761acc71cadcb2076fb4aa86e298ec"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/funcionario-de-la-alcaldia-de-cali-habria-lanzado-insultos-racistas-contra-auxiliar-de-policia/",
+    "titular": "Funcionario de la Alcaldía de Cali habría lanzado insultos racistas contra auxiliar de Policía - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T13:29:49-05:00",
+    "resumen": "Un funcionario vinculado a una entidad descentralizada de la Alcaldía de Cali sería el responsable de los insultos racistas dirigidos contra una joven",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c14f9d0cb439024bd5841c989faa75e0564d56a7"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/golpe-a-la-extorsion-en-cienaga-cinco-presuntos-integrantes-de-los-conquistadores-de-la-sierra-capturados-en-sevillano/",
+    "titular": "Golpe a la extorsión en Ciénaga: Cinco presuntos integrantes de los conquistadores de la sierra capturados en Sevillano - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T13:24:54-05:00",
+    "resumen": "La Policía Nacional, mediante un trabajo articulado en el corregimiento de Sevillano, logró la captura en flagrancia de cinco personas por los delitos de",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [
+      "extorsion",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "212f16350cb278c52de6bf0da0d7cfd5e8f0638d"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/ola-golpeo-lancha-en-la-alta-guajira-un-muerto-cuatro-desaparecidos-y-ocho-rescatados",
+    "titular": "Ola golpeó lancha en la Alta Guajira: un muerto, cuatro desaparecidos y ocho rescatados",
+    "fecha_publicacion": "2026-11-17T12:11:00-05:00",
+    "resumen": "La Armada Nacional se encuentra en las labores de búsqueda.",
+    "fecha_captura": "2026-11-18T06:51:55-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "45e80039ae17c97d15d57dd6a8a704b95cc4f291"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/le-salio-mal-la-jugada-cayo-alias-breyner-con-un-revolver-en-magangue/",
+    "titular": "¡Le salió mal la jugada! Cayó alias ‘Breyner’ con un revólver en Magangué - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T10:31:39-05:00",
+    "resumen": "Lo que parecía ser otro robo a mano armada terminó de la peor manera para alias ‘Breyner’. El hombre, de 27 años, fue reducido por varios ciudadanos que lo",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [
+      "hurto"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2a09d194ae273488c8b3e3aad73cb15a064332cb"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/imputan-cargos-7-miembros-del-ejercito-por-presunta-apropiacion-de-viaticos",
+    "titular": "Imputan cargos a 7 miembros del Ejército por presunta apropiación de viáticos",
+    "fecha_publicacion": "2026-11-17T10:16:00-05:00",
+    "resumen": "Ninguno aceptó los cargos.",
+    "fecha_captura": "2026-11-18T06:51:55-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6274cbaf15b1d2385687e126aa59cdd8d8fe10ce"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/huyeron-en-motocicleta-y-dejaron-un-bolso-con-municiones-y-panfletos-de-las-agc-en-gambote/",
+    "titular": "Huyeron en motocicleta y dejaron un bolso con municiones y panfletos de las AGC en Gambote - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T09:54:28-05:00",
+    "resumen": "Lo que parecía una motocicleta estacionada cerca de un puesto de control terminó despertando las sospechas de varios uniformados. Minutos después, dos hombres",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6979cf2b1a79c426ba1dac1834fa6f6e1b7af484"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/les-frenaron-el-negocio-carabineros-recuperaron-50-reses-avaluadas-en-mas-de-90-millones-en-magangue/",
+    "titular": "¡Les frenaron el negocio! Carabineros recuperaron 50 reses avaluadas en más de $90 millones en Magangué - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T09:53:19-05:00",
+    "resumen": "Lo que parecía un negocio redondo terminó en manos de la justicia. En medio de los caminos rurales de Magangué, donde cada res representa meses de esfuerzo y",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4901a5a5095c6737a031fbd3e3c00fd53439e3cb"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/siete-militares-son-procesados-por-presunto-desvio-de-viaticos-en-batallon-de-cucuta/",
+    "titular": "Siete militares son procesados por presunto desvío de viáticos en batallón de Cúcuta - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T09:47:45-05:00",
+    "resumen": "Un capitán y seis suboficiales del Ejército Nacional fueron capturados y judicializados por su presunta participación en irregularidades relacionadas con el",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8b6cbf9d0779a3e38fc0893ab4b8d5bf14c755d0"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/dos-hombres-fueron-asesinados-en-hechos-aislados-en-nuevo-milenio-y-villas-de-san-pablo",
+    "titular": "Dos hombres fueron asesinados en hechos aislados en Nuevo Milenio y Villas de San Pablo",
+    "fecha_publicacion": "2026-11-17T08:45:00-05:00",
+    "resumen": "Una de las víctimas fue atacada a bala y la otra con arma blanca.",
+    "fecha_captura": "2026-11-18T06:51:55-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "584c071ff5f313a1362c0383653acf87bb82e2c4"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/fiscalia-ocupa-bienes-de-los-pelusos-avaluados-en-10-100-millones/",
+    "titular": "Fiscalía ocupa bienes de ‘Los Pelusos’ avaluados en $10.100 millones - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T08:44:20-05:00",
+    "resumen": "La Fiscalía General de la Nación impuso medidas cautelares con fines de extinción de dominio sobre 17 bienes que presuntamente harían parte del patrimonio",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "bfe0500759b5aa509ca0d9a3b17262a8ceda4bcf"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/ganadero-atacado-a-tiros-tendria-mas-de-15-anotaciones-judiciales/",
+    "titular": "Ganadero atacado a tiros tendría más de 15 anotaciones judiciales - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T08:31:02-05:00",
+    "resumen": "Según la información conocida, varios hombres habrían llegado al lugar con la intención de dispararle directamente a Troncoso. El ataque se produjo mientras",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "14563da597276e76cbcba79a13d0e77a0f35e703"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/35-capturados-y-siete-vehiculos-recuperados-en-operativos-de-la-policia-en-santa-marta/",
+    "titular": "35 capturados y siete vehículos recuperados en operativos de la Policía en Santa Marta - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T07:59:36-05:00",
+    "resumen": "Según el informe entregado por la institución, entre los delitos relacionados con las capturas figuran fabricación, tráfico, porte o tenencia de armas de",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4d825837758a6a2f37e360ef19ddb33311688712"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/sicarios-atacan-bala-una-pareja-en-7-de-abril-el-hombre-murio-y-la-mujer-esta-herida",
+    "titular": "Sicarios atacan a bala a una pareja en 7 de Abril: el hombre murió y la mujer está herida",
+    "fecha_publicacion": "2026-11-17T07:54:00-05:00",
+    "resumen": "El ataque sicarial ocurrió en la noche del lunes festivo. La pareja se movilizaba en una motocicleta.",
+    "fecha_captura": "2026-11-18T06:51:55-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4117bb520c98dd339164d10b512a4813150cd38d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/tragedia-en-sahagun-lina-paola-murio-en-accidente-seis-anos-despues-de-perder-a-su-esposo-y-a-su-hijo/",
+    "titular": "Tragedia en Sahagún: Lina Paola murió en accidente, seis años después de perder a su esposo y a su hijo - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T07:37:07-05:00",
+    "resumen": "Una nueva tragedia enluta a una familia de Sahagún, Córdoba. Lina Paola Buelvas Bedoya falleció la mañana del lunes 16 de noviembre en un accidente de",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "5f85fbe5943e2773505b125a64fa5c44c0f56ee5"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/hallan-cadaver-de-mujer-en-la-circunvalar-de-la-prosperidad-en-galapa",
+    "titular": "Hallan cadáver de mujer en la Circunvalar de La Prosperidad, en Galapa",
+    "fecha_publicacion": "2026-11-17T07:33:00-05:00",
+    "resumen": "En el puente de la intersección con La Cordialidad.",
+    "fecha_captura": "2026-11-18T06:51:55-05:00",
+    "tipos_delito": [],
+    "municipio": "Galapa",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "18ece3c5ce9f65c43f21187f36da9d0e1392b219"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/consternacion-en-pivijay-magdalena-por-el-fallecimiento-de-un-menor-tras-sufrir-grave-accidente-con-un-animal-en-zona-rural/",
+    "titular": "Consternación en Pivijay, Magdalena, por el fallecimiento de un menor tras sufrir grave accidente con un animal en zona rural - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T07:29:39-05:00",
+    "resumen": "Una profunda tristeza embarga a los habitantes del municipio de Pivijay, en el departamento del Magdalena, tras confirmarse el fallecimiento del menor Luis",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f0bada3abb8e25c5acb5d864e4303e07488983c0"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/luto-en-barranquilla-y-su-area-metropolitana-racha-de-crimenes-contra-mujeres-enciende-las-alarmas-y-abre-debate-frente-a-las-cifras-oficiales/",
+    "titular": "Luto en Barranquilla y su área metropolitana: racha de crímenes contra mujeres enciende las alarmas y abre debate frente a las cifras oficiales - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T07:18:00-05:00",
+    "resumen": "Una preocupante secuencia de hechos violentos ha puesto de luto a Barranquilla y su área metropolitana, reavivando la exigencia ciudadana por garantías",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "aa06084fc950d73f57bee20361a60da87703d959"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/conmocion-en-cartagena-y-bayunca-sicarios-asesinaron-a-balazos-a-un-mototaxista-en-medio-del-inicio-de-las-fiestas-de-independencia/",
+    "titular": "Conmoción en Cartagena y Bayunca: Sicarios asesinaron a balazos a un mototaxista en medio del inicio de las Fiestas de Independencia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T07:05:29-05:00",
+    "resumen": "Erick Alonso Ahumada Espriella, de ocupación mototaxista y menor de cinco hermanos, fue atacado a quema ropa por sujetos en motocicleta en el corregimiento de",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "72ebad124fc8aec08bf8c1cede61bc20b68cd264"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/creador-de-contenido-murio-tras-ser-apunalado-en-el-barrio-olaya-herrera-cartagena/",
+    "titular": "Creador de contenido murió tras ser apuñalado en el barrio Olaya Herrera, Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T06:59:40-05:00",
+    "resumen": "Según las primeras versiones, la víctima compartía con varias personas cuando se presentó una situación que terminó en una agresión. En medio del altercado,",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": "Olaya Herrera",
+    "estado": "pendiente",
+    "id": "bf9a3a865838e0fdcf0cefb2bd0cabc9f149ff83"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/17/joven-recibio-tres-disparos-en-parque-de-corregimiento-de-pijino-del-carmen/",
+    "titular": "Joven recibió tres disparos en parque de corregimiento de Pijiño del Carmen - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-17T06:47:17-05:00",
+    "resumen": "De acuerdo con las primeras versiones, el hecho habría ocurrido cuando el hombre presuntamente agredía a su novia. En ese momento, el padre de la joven llegó",
+    "fecha_captura": "2026-11-18T06:52:46-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "72be920d5737c42e4b516ee681c882b0b8393ad8"
+  },
+  {
+    "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/17/ataque-con-dron-cargado-de-explosivos-contra-estacion-de-policia-en-huila/",
     "titular": "Ataque con dron cargado de explosivos contra estación de Policía en Huila - Diario La Libertad.",
     "fecha_publicacion": "2026-11-17T06:36:58-05:00",
