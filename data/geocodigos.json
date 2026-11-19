@@ -90,6 +90,11 @@
     "lon": -74.78022,
     "nombre_osm": "San Roque, Localidad Suroriente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 080012, Colombia"
   },
+  "santa maria|Barranquilla": {
+    "lat": 10.93227,
+    "lon": -74.82409,
+    "nombre_osm": "Santa María, Localidad Metropolitana, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
+  },
   "santo domingo|Barranquilla": {
     "lat": 10.97732,
     "lon": -74.8014,
@@ -114,6 +119,11 @@
     "nombre_osm": "Villa Cecilia, Soledad, Atlántico, RAP Caribe, 083001, Colombia"
   },
   "villa maria|Barranquilla": null,
+  "villa maria|Soledad": {
+    "lat": 10.89269,
+    "lon": -74.79475,
+    "nombre_osm": "Villa María, Soledad, Atlántico, RAP Caribe, Colombia"
+  },
   "villa soledad|Soledad": {
     "lat": 10.9115,
     "lon": -74.79152,
