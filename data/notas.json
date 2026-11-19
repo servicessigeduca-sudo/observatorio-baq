@@ -1,6 +1,521 @@
 [
   {
     "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/investigan-posible-movil-pasional-en-el-asesinato-de-katy-mendoza-de-18-anos-en-barranquilla/",
+    "titular": "Investigan posible móvil pasional en el asesinato de Katy Mendoza, de 18 años, en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T06:20:15-05:00",
+    "resumen": "Katy Julieth Mendoza Vides, de 18 años, fue asesinada a tiros la noche del martes 17 de noviembre en el barrio El Bosque, en Barranquilla. El ataque ocurrió",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "El Bosque",
+    "estado": "pendiente",
+    "id": "0991bfe3f472402c98a8ee136da5da61c67a623b"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/desaparicion-de-sonia-y-kelly-en-barranquilla-investigan-presunto-secuestro-por-una-deuda-millonaria/",
+    "titular": "Desaparición de Sonia y Kelly en Barranquilla: investigan presunto secuestro por una deuda millonaria",
+    "fecha_publicacion": "2026-11-18T22:56:59-05:00",
+    "resumen": "Las investigaciones por la desaparición de Sonia Margarita Sanjuan Peñaranda, de 41 años, y Kelly Johana Acosta Restrepo, de 43, apuntan a un presunto secuestro relacionado con el cobro de una deuda millonaria cuyo monto todavía no ha sido establecido por las autoridades. Las dos mujeres…",
+    "fecha_captura": "2026-11-19T06:55:04-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a1909d499d10e18085ef79315cc2706088d86aff"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/muere-mujer-alcanzada-por-una-bala-durante-ataque-contra-vigilante-en-las-nieves/",
+    "titular": "Muere mujer alcanzada por una bala durante ataque contra vigilante en Las Nieves - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T21:58:20-05:00",
+    "resumen": "La noche del miércoles terminó en tragedia para dos personas que se encontraban dentro de un establecimiento comercial del barrio Las Nieves, en Barranquilla.",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": "Las Nieves",
+    "estado": "pendiente",
+    "id": "3dee2737b431b6140271e20a81b314c6c0158ba3"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/doble-homicidio-en-supermercado-olimpica-de-barranquilla-asesinan-a-vigilante-y-trabajadora-en-las-nieves/",
+    "titular": "Doble homicidio en supermercado Olímpica de Barranquilla: asesinan a vigilante y trabajadora en Las Nieves",
+    "fecha_publicacion": "2026-11-18T21:40:52-05:00",
+    "resumen": "Se conocen las identidades de las dos víctimas mortales del ataque armado perpetrado hacia las 5:00 de la tarde de este miércoles 18 de noviembre en el interior de una supertienda Olímpica, ubicada en la calle 24 con carrera 12, en el barrio Las Nieves, al suroccidente de Barranquilla. Se trata de…",
+    "fecha_captura": "2026-11-19T06:55:04-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Las Nieves",
+    "estado": "pendiente",
+    "id": "ccbd7f9e576b05f497d04eee3b24614d6377901d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/de-la-espriella-desmiente-al-new-york-times-y-asegura-que-colombia-mantiene-cooperacion-militar-con-ee-uu/",
+    "titular": "De La Espriella desmiente al New York Times y asegura que Colombia mantiene cooperación militar con EE. UU. - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T21:35:49-05:00",
+    "resumen": "El presidente Abelardo De La Espriella salió al paso de una información publicada por The New York Times que señalaba un supuesto rechazo de Colombia a un",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "24caaef9a04dcac68f517da04b2121af62318863"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/murio-mujer-herida-en-atentado-bala-en-la-olimpica-de-las-nieves",
+    "titular": "Murió mujer herida en atentado a bala en la Olímpica de Las Nieves",
+    "fecha_publicacion": "2026-11-18T21:34:46-05:00",
+    "resumen": "Identificadas las dos víctimas.",
+    "fecha_captura": "2026-11-19T06:50:57-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": "Las Nieves",
+    "estado": "pendiente",
+    "id": "42301b988f116a3fb0b51f56afc57f71c1ec19b6"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/una-deuda-millonaria-seria-el-origen-de-la-desaparicion-de-sonia-y-kelly-en-barranquilla/",
+    "titular": "Una deuda millonaria sería el origen de la desaparición de Sonia y Kelly en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T20:28:55-05:00",
+    "resumen": "La investigación por la desaparición de Sonia Margarita Sanjuan Peñaranda, de 41 años, y Kelly Johana Acosta Restrepo, de 43, comienza a revelar nuevos",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e693355b13b946fa173f2f0f48108c60a6b9c794"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/por-cobro-de-una-deuda-las-dos-mujeres-se-las-llevaron-bendicion-de-dios-y-las",
+    "titular": "Por cobro de una deuda, a las dos mujeres se las llevaron a ‘Bendición de Dios’ y las desaparecieron",
+    "fecha_publicacion": "2026-11-18T20:01:02-05:00",
+    "resumen": "Tras la captura de dos hombres, que se llevaron la camioneta y la guardaron en un parqueadero de Costa Hermosa, en Soledad, se le sigue la pista. Alias ‘El gato’, supuesto capo dueño de la deuda.",
+    "fecha_captura": "2026-11-19T06:50:57-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e42c9b01bb80ac9db5b97c3518e122782b5164e7"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/mujer-fue-asesinada-a-tiros-en-villa-maria-y-eleva-a-80-los-homicidios-de-mujeres-en-atlantico/",
+    "titular": "Mujer fue asesinada a tiros en Villa María y eleva a 80 los homicidios de mujeres en Atlántico - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T18:18:11-05:00",
+    "resumen": "Un nuevo homicidio se registró durante la tarde de este miércoles 18 de noviembre en el barrio Villa María, en el municipio de Soledad, donde una mujer fue",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Villa María",
+    "estado": "pendiente",
+    "id": "54b96ce64f6bbb8367f9e3e4d962b15273428f88"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/un-hombre-y-una-mujer-habrian-resultado-heridos-tras-ataque-sicarial-en-supermercado-del-barrio-las-nieves-barranquilla/",
+    "titular": "Un hombre y una mujer habrían resultado heridos tras ataque sicarial en supermercado del barrio Las Nieves, Barranquilla",
+    "fecha_publicacion": "2026-11-18T18:16:22-05:00",
+    "resumen": "El pasado lunes 9 de noviembre, una cajera de la Supertienda Olímpica de Rebolo fue víctima de los sicarios y murió el sábado siguiente, después de luchar varios días por su vida. Un ataque sicarial acaecido la tarde de este miércoles en la Supertienda Olímpica de la calle 24 con carrera 12,…",
+    "fecha_captura": "2026-11-19T06:55:04-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Las Nieves",
+    "estado": "pendiente",
+    "id": "7dd91081cae764b095bd0fda103b05e4d0006f9f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/vigilante-murio-y-trabajadora-resulto-herida-en-ataque-a-bala-dentro-de-una-olimpica-en-las-nieves/",
+    "titular": "Vigilante murió y trabajadora resultó herida en ataque a bala dentro de una Olímpica en Las Nieves - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T18:04:32-05:00",
+    "resumen": "Un ataque armado registrado en la tarde de este miércoles 18 de noviembre, en una Supertienda Olímpica ubicada en la calle 24 con carrera 12, en el barrio Las",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": "Las Nieves",
+    "estado": "pendiente",
+    "id": "a922a39d2f92d52487e5ea47100cb99bff2752f3"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/un-vigilante-muerto-y-una-trabajadora-herida-tras-atentado-en-la-olimpica-de-las-nieves",
+    "titular": "Un vigilante muerto y una trabajadora herida, tras atentado en la Olímpica de Las Nieves",
+    "fecha_publicacion": "2026-11-18T17:41:00-05:00",
+    "resumen": "La mujer fue trasladada a un centro asistencial.",
+    "fecha_captura": "2026-11-19T06:50:57-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": "Las Nieves",
+    "estado": "pendiente",
+    "id": "f09cb5d35eea8f83949e7062805ddd9564357ba5"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/yeiner-mena-hacedor-del-carnaval-comienza-a-recuperar-su-movilidad-con-el-apoyo-de-salwa-maloof/",
+    "titular": "Yeiner Mena, hacedor del Carnaval, comienza a recuperar su movilidad con el apoyo de Salwa Maloof - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T17:25:17-05:00",
+    "resumen": "El regreso a la actividad física es uno de los principales objetivos en el proceso de recuperación de Yeiner Mena, bailarín de la agrupación Son Calimba y",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0519cd1e4685d9b483193764306cca83383899cc"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/ordenan-captura-de-hombre-de-79-anos-senalado-de-asesinar-su-hijo-de-51-en-luruaco",
+    "titular": "Ordenan captura de hombre de 79 años señalado de asesinar a su hijo de 51, en Luruaco",
+    "fecha_publicacion": "2026-11-18T17:12:00-05:00",
+    "resumen": "Habría cometido el homicidio en medio de una disputa familiar. Quedó el día que lo capturaron en libertad porque un juez de primera instancia consideró que no hubo flagrancia.",
+    "fecha_captura": "2026-11-19T06:50:57-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e539bce08510fb410fcbee4ac7eadf9c097176fe"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/una-racha-que-preocupa-mujer-fue-asesinada-en-soledad-y-paso-a-ser-la-victima-80-en-2026/",
+    "titular": "¡Una racha que preocupa! Mujer fue asesinada en Soledad y pasó a ser la víctima 80 en 2026",
+    "fecha_publicacion": "2026-11-18T16:44:24-05:00",
+    "resumen": "La víctima se hallaba en vía pública cuando un criminal la atacó sin piedad. Noviembre ha sido uno de los meses que más vidas de mujeres ha cobrado este año por temas de violencia en el departamento del Atlántico. La tarde de este miércoles 18 de noviembre una fémina fue ultimada a tiros en el […]…",
+    "fecha_captura": "2026-11-19T06:55:04-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f9427100ef2190d4375661ca7d70159bc9d4b895"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/sin-rastros-de-zoe-soto-castro-alcaldia-de-soledad-desmiente-rumores-sobre-el-hallazgo-de-la-menor/",
+    "titular": "Sin rastros de Zoe Soto Castro: Alcaldía de Soledad desmiente rumores sobre el hallazgo de la menor - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T15:55:52-05:00",
+    "resumen": "La búsqueda de Zoe Soto Castro, la niña que fue arrastrada por la corriente del arroyo El Salao el pasado 4 de noviembre, continúa sin resultados. La Alcaldía",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "01dc81bf9d69aa6186a045644bc3dbef7877233d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/violencia-contra-las-mujeres-enciende-las-alarmas-en-el-atlantico/",
+    "titular": "Violencia contra las mujeres enciende las alarmas en el Atlántico - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T15:50:42-05:00",
+    "resumen": "Con este caso se encienden las alarmas con los asesinatos de mujeres en el Atlántico: ya serían 80 víctimas en 2026",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "fd9e92b1e738d8c3c8f1ae63dfbbd925c0f0d727"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/estaba-trabajando-cuando-lo-atacaron-a-bala-joven-murio-en-hecho-de-sicariato-en-santa-maria-barranquilla/",
+    "titular": "“Estaba trabajando cuando lo atacaron a bala”: joven murió en hecho de sicariato en Santa María, Barranquilla",
+    "fecha_publicacion": "2026-11-18T15:50:17-05:00",
+    "resumen": "La víctima pintaba las rejas de una casa cuando lo sorprendieron los sicarios. Otro homicidio, que pasa a engrosar el largo listado de muertes violentas del 2026, se registró en horas de la tarde de este miércoles 18 de noviembre en la calle 91B con carrera 6A Sur, del barrio Santa María, de la…",
+    "fecha_captura": "2026-11-19T06:55:04-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Santa María",
+    "estado": "pendiente",
+    "id": "4021b7a4dd9b0fe2d29d8bfac77a61153f3925ab"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/asesinan-a-bala-a-un-hombre-en-el-sector-de-la-cascada-barrio-santa-maria/",
+    "titular": "Asesinan a bala a un hombre en el sector de La Cascada, barrio Santa María - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T15:45:30-05:00",
+    "resumen": "La víctima ingresó sin signos vitales al Camino Santa María, luego de resultar gravemente herida en un ataque armado ocurrido en inmediaciones de la calle 91",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": "Santa María",
+    "estado": "pendiente",
+    "id": "4fd9eb368fbc27219e94d3dbc89d14d94ae95e57"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/asesinan-bala-una-mujer-en-villa-maria-la-numero-80-en-lo-que-va-del-2026-en-atlantico",
+    "titular": "Asesinan a bala a una mujer en Villa María: la número 80 en lo que va del 2026 en Atlántico",
+    "fecha_publicacion": "2026-11-18T15:30:00-05:00",
+    "resumen": "Aunque fue trasladada a un centro asistencial, ya no presentaba signos vitales.",
+    "fecha_captura": "2026-11-19T06:50:57-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "Villa María",
+    "estado": "pendiente",
+    "id": "6a14765c3deb54f4dd86ac76598f43f56cfd8935"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/asesinan-un-hombre-que-pintaba-una-casa-en-el-barrio-santa-maria",
+    "titular": "Asesinan a un hombre que pintaba una casa en el barrio Santa María",
+    "fecha_publicacion": "2026-11-18T15:11:00-05:00",
+    "resumen": "Según testigos, cuatro sicarios en dos motos llegaron al lugar y le dispararon.",
+    "fecha_captura": "2026-11-19T06:50:57-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "Santa María",
+    "estado": "pendiente",
+    "id": "17cd2f48f8a9c4dab1ea7d2ca449ac6c8b7fa511"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/hallan-muerto-un-hombre-en-una-trocha-de-sabanalarga",
+    "titular": "Hallan muerto a un hombre en una trocha de Sabanalarga",
+    "fecha_publicacion": "2026-11-18T14:13:00-05:00",
+    "resumen": "El CTI de la Fiscalía se encargó de la inspección del cuerpo.",
+    "fecha_captura": "2026-11-19T06:50:57-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4c9b37b4d8e086e1b974d00cabb4e73adf31fcf2"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/encuentran-sin-vida-a-reconocido-hombre-en-una-finca-de-sabanalarga/",
+    "titular": "Encuentran sin vida a reconocido hombre en una finca de Sabanalarga - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T13:11:18-05:00",
+    "resumen": "Un hallazgo que generó consternación entre los habitantes de Sabanalarga, Atlántico, se registró durante las primeras horas de este miércoles 18 de noviembre,",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "326641d03bcf10d5a062e5d6e4d4bb634448731e"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/manana-accidentada-en-la-cordialidad-un-furgon-volcado-y-dos-mas-chocaron",
+    "titular": "Mañana accidentada en La Cordialidad: un furgón volcado y dos más chocaron",
+    "fecha_publicacion": "2026-11-18T12:11:00-05:00",
+    "resumen": "Los accidentes se presentaron en Galapa y Sabanalarga.",
+    "fecha_captura": "2026-11-19T06:50:57-05:00",
+    "tipos_delito": [],
+    "municipio": "Galapa",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "51b73373352dca52171ab97b028c3b1da2043c5c"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/rosibel-recibio-una-llamada-y-salio-de-casa-de-una-amiga-dos-dias-despues-aparecio-muerta/",
+    "titular": "Rosibel recibió una llamada y salió de casa de una amiga: dos días después apareció muerta - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T11:43:52-05:00",
+    "resumen": "La joven había salido el domingo por la tarde con unas amigas. Mientras se encontraba en la vivienda de una de ellas, recibió una llamada telefónica y decidió",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "163da1d79315a19407424364a3d7a7056aa8ed10"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/rosibel-habia-desaparecido-el-domingo-estaba-con-unas-amigas-recibio-una-llamada-y-salio",
+    "titular": "Rosibel había desaparecido el domingo: estaba con unas amigas, recibió una llamada y salió",
+    "fecha_publicacion": "2026-11-18T10:52:00-05:00",
+    "resumen": "Hace 15 días vivía con su mamá después de separarse de su novio.",
+    "fecha_captura": "2026-11-19T06:50:57-05:00",
+    "tipos_delito": [
+      "desaparicion"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1206d60ad235119cac127be4c6f0e84c7c1e7eeb"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/accidente-entre-un-bus-interdepartamental-y-un-furgon-en-la-via-la-cordialidad-a-la-altura-de-la-entrada-al-corregimiento-de-colombia-sabanalarga/",
+    "titular": "Accidente entre un bus interdepartamental y un furgón en la vía La Cordialidad, a la altura de la entrada al corregimiento de Colombia (Sabanalarga) - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T10:45:27-05:00",
+    "resumen": "Un accidente de tránsito que involucró a un bus de servicio interdepartamental y a un vehículo tipo furgón se registró durante la mañana de este miércoles",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7bdf65b8f6db2940643f8688fdc825e093f73f22"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/de-ocho-disparos-acribillan-joven-barbero-dentro-de-su-vivienda-en-7-de-abril",
+    "titular": "De ocho disparos acribillan a joven barbero dentro de su vivienda en 7 de Abril",
+    "fecha_publicacion": "2026-11-18T09:44:30-05:00",
+    "resumen": "El sicario entró hasta el cuarto de la víctima y le disparó.",
+    "fecha_captura": "2026-11-19T06:50:57-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "954e551e30d94b893e7749391bca6181cdc5a1f2"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/identificado-comerciante-asesinado-frente-a-un-restaurante-donde-quedo-herida-a-una-nina-en-alfonso-lopez/",
+    "titular": "Identificado comerciante asesinado frente a un restaurante donde quedó herida a una niña en Alfonso López - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T09:42:51-05:00",
+    "resumen": "La víctima fue identificada como .Rodrigo Manuel González Gómez El ataque ocurrió en la calle 47B con carrera 22, cuando el comerciante se disponía a ingresar",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f796e83a2d8d5c4eda43716d0f7d9fce2717b87f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/aseguran-a-cuatro-presuntos-integrantes-de-los-cabros-por-homicidio-de-adolescente/",
+    "titular": "Aseguran a cuatro presuntos integrantes de ‘Los Cabros’ por homicidio de adolescente - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T08:55:48-05:00",
+    "resumen": "Entre los procesados figura Rudeiker Antonio Rodríguez Fría, señalado de pertenecer al grupo delincuencial conocido como ‘Los Cabros’. Los otros tres",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "30877db2dcacae8a95574d128cf21944447d4874"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/identifican-a-adolescente-de-17-anos-hallada-muerta-en-puente-de-la-prosperidad/",
+    "titular": "Identifican a adolescente de 17 años hallada muerta en puente de La Prosperidad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T08:40:03-05:00",
+    "resumen": "La identificación se logró mediante varios tatuajes que tenía en el cuerpo. Entre ellos, uno en el brazo derecho con figuras de flores y una mariposa.",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "52a606b2347ab4b0378d671e8ba75087ffaf487b"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/sicario-ultimo-comerciante-que-ingresaba-restaurante-en-el-barrio-alfonso-lopez",
+    "titular": "Sicario ultimó a comerciante que ingresaba a restaurante en el barrio Alfonso López",
+    "fecha_publicacion": "2026-11-18T08:35:00-05:00",
+    "resumen": "Una menor, de 12 años, fue impactada por una bala ‘perdida’.",
+    "fecha_captura": "2026-11-19T06:50:57-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": "Alfonso López",
+    "estado": "pendiente",
+    "id": "c9fec748e9bd00cd097492cb74c6e0c6de1f343e"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/investigan-si-amenazas-por-relacion-sentimental-estarian-detras-del-crimen-de-katy-mendoza/",
+    "titular": "Investigan si amenazas por relación sentimental estarían detrás del crimen de Katy Mendoza - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T08:30:54-05:00",
+    "resumen": "El homicidio ocurrió en inmediaciones de la carrera 6 con calle 60. De acuerdo con la información preliminar, la joven recibió dos impactos de bala en la",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0958d902f2ffa4299559aca4c014553f0d05f695"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/18/condenan-a-10-anos-a-adolescente-que-asesino-a-punaladas-a-su-novio/",
+    "titular": "Condenan a 10 años a adolescente que asesinó a puñaladas a su novio - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-18T07:59:22-05:00",
+    "resumen": "El homicidio ocurrió el 26 de noviembre de 2025 en Remedios de Escalada, partido bonaerense de Lanús, Argentina. El joven fue encontrado gravemente herido en",
+    "fecha_captura": "2026-11-19T06:51:57-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c0fe5aab3415f65ef954ccaf4e69ae121cf13fb1"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/identifican-adolescente-que-fue-hallada-muerta-en-puente-de-la-circunvalar-de-la",
+    "titular": "Identifican a adolescente que fue hallada muerta en puente de la Circunvalar de La Prosperidad",
+    "fecha_publicacion": "2026-11-18T07:59:00-05:00",
+    "resumen": "Tenía 17 años de edad.",
+    "fecha_captura": "2026-11-19T06:50:57-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c5b2ba7abf1d7d84b729a6a1f88939734b8c43a9"
+  },
+  {
+    "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/18/ataque-sicarial-en-restaurante-de-alfonso-lopez-deja-un-hombre-muerto-y-una-mujer-herida/",
     "titular": "Ataque sicarial en restaurante de Alfonso López deja un hombre muerto y una mujer herida - Diario La Libertad.",
     "fecha_publicacion": "2026-11-18T06:32:52-05:00",

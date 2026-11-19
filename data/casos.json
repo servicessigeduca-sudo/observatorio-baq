@@ -1,9 +1,45 @@
 [
   {
+    "caso_id": "f3de656f2168",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-18",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad",
+      "Zona Cero"
+    ],
+    "notas": [
+      "52a606b2347ab4b0378d671e8ba75087ffaf487b",
+      "c5b2ba7abf1d7d84b729a6a1f88939734b8c43a9"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/identifican-adolescente-que-fue-hallada-muerta-en-puente-de-la-circunvalar-de-la",
+        "titular": "Identifican a adolescente que fue hallada muerta en puente de la Circunvalar de La Prosperidad"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/18/identifican-a-adolescente-de-17-anos-hallada-muerta-en-puente-de-la-prosperidad/",
+        "titular": "Identifican a adolescente de 17 años hallada muerta en puente de La Prosperidad - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
     "caso_id": "d05163e681f1",
     "tipo": "lesiones",
     "tipos": [
-      "lesiones"
+      "lesiones",
+      "homicidio"
     ],
     "fecha": "2026-11-18",
     "municipio": "Barranquilla",
@@ -12,6 +48,7 @@
       "Diario La Libertad"
     ],
     "notas": [
+      "0991bfe3f472402c98a8ee136da5da61c67a623b",
       "1719e9d9eb4ff90a33e9be3808c73343c6e09e64"
     ],
     "fuentes": [
@@ -19,13 +56,396 @@
         "medio": "Diario La Libertad",
         "url": "https://diariolalibertad.com/2026/11/18/joven-resulta-gravemente-herida-tras-ser-baleada-en-el-barrio-el-bosque-de-barranquilla/",
         "titular": "Joven resulta gravemente herida tras ser baleada en el barrio El Bosque de Barranquilla - Diario La Libertad."
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/19/investigan-posible-movil-pasional-en-el-asesinato-de-katy-mendoza-de-18-anos-en-barranquilla/",
+        "titular": "Investigan posible móvil pasional en el asesinato de Katy Mendoza, de 18 años, en Barranquilla - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "53a5e8c9cbee"
+    ],
+    "lat": 10.95276,
+    "lon": -74.81664,
+    "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "9eb712f68d59",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-18",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "30877db2dcacae8a95574d128cf21944447d4874"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/18/aseguran-a-cuatro-presuntos-integrantes-de-los-cabros-por-homicidio-de-adolescente/",
+        "titular": "Aseguran a cuatro presuntos integrantes de ‘Los Cabros’ por homicidio de adolescente - Diario La Libertad."
       }
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
-    "lat": 10.95276,
-    "lon": -74.81664,
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "79db678f76cd",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-18",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "c0fe5aab3415f65ef954ccaf4e69ae121cf13fb1"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/18/condenan-a-10-anos-a-adolescente-que-asesino-a-punaladas-a-su-novio/",
+        "titular": "Condenan a 10 años a adolescente que asesinó a puñaladas a su novio - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "6e4ddf90ebbf",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-18",
+    "municipio": "Soledad",
+    "barrio": "Villa María",
+    "medios": [
+      "Diario La Libertad",
+      "Zona Cero"
+    ],
+    "notas": [
+      "54b96ce64f6bbb8367f9e3e4d962b15273428f88",
+      "6a14765c3deb54f4dd86ac76598f43f56cfd8935"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/asesinan-bala-una-mujer-en-villa-maria-la-numero-80-en-lo-que-va-del-2026-en-atlantico",
+        "titular": "Asesinan a bala a una mujer en Villa María: la número 80 en lo que va del 2026 en Atlántico"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/18/mujer-fue-asesinada-a-tiros-en-villa-maria-y-eleva-a-80-los-homicidios-de-mujeres-en-atlantico/",
+        "titular": "Mujer fue asesinada a tiros en Villa María y eleva a 80 los homicidios de mujeres en Atlántico - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "6cad1a89756d",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-18",
+    "municipio": "Barranquilla",
+    "barrio": "Las Nieves",
+    "medios": [
+      "Diario La Libertad",
+      "Emisora Atlántico",
+      "Impacto News",
+      "Zona Cero"
+    ],
+    "notas": [
+      "42301b988f116a3fb0b51f56afc57f71c1ec19b6",
+      "7dd91081cae764b095bd0fda103b05e4d0006f9f",
+      "a922a39d2f92d52487e5ea47100cb99bff2752f3",
+      "ccbd7f9e576b05f497d04eee3b24614d6377901d",
+      "f09cb5d35eea8f83949e7062805ddd9564357ba5"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/un-vigilante-muerto-y-una-trabajadora-herida-tras-atentado-en-la-olimpica-de-las-nieves",
+        "titular": "Un vigilante muerto y una trabajadora herida, tras atentado en la Olímpica de Las Nieves"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/18/vigilante-murio-y-trabajadora-resulto-herida-en-ataque-a-bala-dentro-de-una-olimpica-en-las-nieves/",
+        "titular": "Vigilante murió y trabajadora resultó herida en ataque a bala dentro de una Olímpica en Las Nieves - Diario La Libertad."
+      },
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/un-hombre-y-una-mujer-habrian-resultado-heridos-tras-ataque-sicarial-en-supermercado-del-barrio-las-nieves-barranquilla/",
+        "titular": "Un hombre y una mujer habrían resultado heridos tras ataque sicarial en supermercado del barrio Las Nieves, Barranquilla"
+      },
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/murio-mujer-herida-en-atentado-bala-en-la-olimpica-de-las-nieves",
+        "titular": "Murió mujer herida en atentado a bala en la Olímpica de Las Nieves"
+      },
+      {
+        "medio": "Emisora Atlántico",
+        "url": "https://emisoraatlantico.com.co/judiciales/doble-homicidio-en-supermercado-olimpica-de-barranquilla-asesinan-a-vigilante-y-trabajadora-en-las-nieves/",
+        "titular": "Doble homicidio en supermercado Olímpica de Barranquilla: asesinan a vigilante y trabajadora en Las Nieves"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "a4d56171329f"
+    ],
+    "lat": 10.95257,
+    "lon": -74.77918,
     "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "5e08a14deb1d",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-18",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "fd9e92b1e738d8c3c8f1ae63dfbbd925c0f0d727"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/18/violencia-contra-las-mujeres-enciende-las-alarmas-en-el-atlantico/",
+        "titular": "Violencia contra las mujeres enciende las alarmas en el Atlántico - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "5993fcb34d34"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "57614e412e32",
+    "tipo": "homicidio",
+    "tipos": [
+      "desaparicion",
+      "homicidio"
+    ],
+    "fecha": "2026-11-18",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad",
+      "Zona Cero"
+    ],
+    "notas": [
+      "1206d60ad235119cac127be4c6f0e84c7c1e7eeb",
+      "163da1d79315a19407424364a3d7a7056aa8ed10"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/rosibel-habia-desaparecido-el-domingo-estaba-con-unas-amigas-recibio-una-llamada-y-salio",
+        "titular": "Rosibel había desaparecido el domingo: estaba con unas amigas, recibió una llamada y salió"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/18/rosibel-recibio-una-llamada-y-salio-de-casa-de-una-amiga-dos-dias-despues-aparecio-muerta/",
+        "titular": "Rosibel recibió una llamada y salió de casa de una amiga: dos días después apareció muerta - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "53a5e8c9cbee",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-18",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "0958d902f2ffa4299559aca4c014553f0d05f695"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/18/investigan-si-amenazas-por-relacion-sentimental-estarian-detras-del-crimen-de-katy-mendoza/",
+        "titular": "Investigan si amenazas por relación sentimental estarían detrás del crimen de Katy Mendoza - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "d05163e681f1"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "503df59b6b51",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-18",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "f796e83a2d8d5c4eda43716d0f7d9fce2717b87f"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/18/identificado-comerciante-asesinado-frente-a-un-restaurante-donde-quedo-herida-a-una-nina-en-alfonso-lopez/",
+        "titular": "Identificado comerciante asesinado frente a un restaurante donde quedó herida a una niña en Alfonso López - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "0e5b3e37b767"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "4d19e6eb7780",
+    "tipo": "secuestro",
+    "tipos": [
+      "secuestro"
+    ],
+    "fecha": "2026-11-18",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Emisora Atlántico"
+    ],
+    "notas": [
+      "a1909d499d10e18085ef79315cc2706088d86aff"
+    ],
+    "fuentes": [
+      {
+        "medio": "Emisora Atlántico",
+        "url": "https://emisoraatlantico.com.co/judiciales/desaparicion-de-sonia-y-kelly-en-barranquilla-investigan-presunto-secuestro-por-una-deuda-millonaria/",
+        "titular": "Desaparición de Sonia y Kelly en Barranquilla: investigan presunto secuestro por una deuda millonaria"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "17ea324552a7",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-18",
+    "municipio": "Soledad",
+    "barrio": null,
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "f9427100ef2190d4375661ca7d70159bc9d4b895"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/una-racha-que-preocupa-mujer-fue-asesinada-en-soledad-y-paso-a-ser-la-victima-80-en-2026/",
+        "titular": "¡Una racha que preocupa! Mujer fue asesinada en Soledad y pasó a ser la víctima 80 en 2026"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "0f999b5d21e7",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-18",
+    "municipio": "Barranquilla",
+    "barrio": "Santa María",
+    "medios": [
+      "Diario La Libertad",
+      "Impacto News",
+      "Zona Cero"
+    ],
+    "notas": [
+      "17cd2f48f8a9c4dab1ea7d2ca449ac6c8b7fa511",
+      "4021b7a4dd9b0fe2d29d8bfac77a61153f3925ab",
+      "4fd9eb368fbc27219e94d3dbc89d14d94ae95e57"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/asesinan-un-hombre-que-pintaba-una-casa-en-el-barrio-santa-maria",
+        "titular": "Asesinan a un hombre que pintaba una casa en el barrio Santa María"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/18/asesinan-a-bala-a-un-hombre-en-el-sector-de-la-cascada-barrio-santa-maria/",
+        "titular": "Asesinan a bala a un hombre en el sector de La Cascada, barrio Santa María - Diario La Libertad."
+      },
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/estaba-trabajando-cuando-lo-atacaron-a-bala-joven-murio-en-hecho-de-sicariato-en-santa-maria-barranquilla/",
+        "titular": "“Estaba trabajando cuando lo atacaron a bala”: joven murió en hecho de sicariato en Santa María, Barranquilla"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "eea9d849fbd6",
@@ -227,8 +647,10 @@
         "titular": "Sicarios atacan a bala a una pareja en 7 de Abril: el hombre murió y la mujer está herida"
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "6cad1a89756d"
+    ],
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "baja"
@@ -436,8 +858,10 @@
         "titular": "Atlántico registra 77 mujeres asesinadas en 2026: Defensoría alerta por escalada de violencia - Diario La Libertad."
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "5e08a14deb1d"
+    ],
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "municipio"
@@ -741,8 +1165,10 @@
         "titular": "Ataque sicarial en restaurante de Alfonso López deja un hombre muerto y una mujer herida - Diario La Libertad."
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "503df59b6b51"
+    ],
     "lat": 10.92486,
     "lon": -74.805,
     "confianza_ubicacion": "alta"
