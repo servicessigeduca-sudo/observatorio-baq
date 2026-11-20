@@ -1,5 +1,446 @@
 [
   {
+    "caso_id": "a0377b382498",
+    "tipo": "feminicidio",
+    "tipos": [
+      "feminicidio",
+      "homicidio"
+    ],
+    "fecha": "2026-11-20",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "369f08aa9edca51275e97fd5ca7ff0fdd4e69305"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/20/atlantico-registra-80-mujeres-asesinadas-en-2026-y-piden-acciones-urgentes/",
+        "titular": "Atlántico registra 80 mujeres asesinadas en 2026 y piden acciones urgentes - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "88b7afa41f8a"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "d387a9c612b4",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-19",
+    "municipio": "Barranquilla",
+    "barrio": "Siete de Abril",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "3b90014ffba0ef0b60917ff592558e6d61655e75",
+      "82bed86385bb20ab53c01ef18c9a41a151fc325d"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/19/nuevo-hecho-de-sangre-en-el-area-metropolitana-de-barranquilla-mientras-hacia-ejercicio-asesinan-a-joven-de-19-anos-en-el-barrio-siete-de-abril/",
+        "titular": "Nuevo hecho de sangre en el área metropolitana de Barranquilla: Mientras hacía ejercicio, asesinan a joven de 19 años en el barrio Siete de Abril - Diario La Libertad."
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/19/asesinan-a-joven-de-19-anos-mientras-entrenaba-en-una-cancha-del-barrio-siete-de-abril-en-barranquilla/",
+        "titular": "Asesinan a joven de 19 años mientras entrenaba en una cancha del barrio Siete de Abril, en Barranquilla - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "b5c71cd99f03",
+    "tipo": "desaparicion",
+    "tipos": [
+      "desaparicion"
+    ],
+    "fecha": "2026-11-19",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "230d6e268a39d37e4677e97bc50ea61fd34bcfa6"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/19/desaparicion-de-sonia-sanjuan-y-kelly-acosta-dos-hombres-fueron-capturados-en-barranquilla/",
+        "titular": "Desaparición de Sonia Sanjuan y Kelly Acosta: dos hombres fueron capturados en Barranquilla - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "4d19e6eb7780"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "b349c3008a22",
+    "tipo": "homicidio",
+    "tipos": [
+      "lesiones",
+      "homicidio"
+    ],
+    "fecha": "2026-11-19",
+    "municipio": "Soledad",
+    "barrio": "El Ferry",
+    "medios": [
+      "Diario La Libertad",
+      "Zona Cero"
+    ],
+    "notas": [
+      "523f99baff4022bb471e62d036fcb14fef793ed1",
+      "9f7b67a5475baa54dbfcbb00b8090e4f9f2becf6"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/19/ataque-sicarial-en-el-barrio-el-ferry-en-soledad-hombre-quedo-herido-en-plena-via-publica/",
+        "titular": "Ataque sicarial en el barrio El Ferry, en Soledad: hombre quedó herido en plena vía pública - Diario La Libertad."
+      },
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/dos-hombres-uno-adolescente-fueron-asesinados-en-7-de-abril-y-el-ferry",
+        "titular": "Dos hombres, uno adolescente, fueron asesinados en 7 de Abril y El Ferry"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "87e28dc8cc03"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "a318b8d245f3",
+    "tipo": "hurto",
+    "tipos": [
+      "hurto"
+    ],
+    "fecha": "2026-11-19",
+    "municipio": null,
+    "barrio": "Los Almendros",
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "7189ea04988004ed0840b73eac7bb1febf6d81bc"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/hieren-en-atraco-un-hombre-que-habia-sacado-dinero-de-cajero-automatico-en-los-robles",
+        "titular": "Hieren en atraco a un hombre que había sacado dinero de cajero automático en Los Robles"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "9a45a5f2371c",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-19",
+    "municipio": "Barranquilla",
+    "barrio": "Nueva Colombia",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "c6ef9d2501f26c5a35b6f7b8b5a5beb8a0ac00aa"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/19/violencia-en-el-suroccidente-de-barranquilla-ataque-sicarial-deja-un-hombre-muerto-en-limites-de-san-felipe-y-nueva-colombia/",
+        "titular": "Violencia en el suroccidente de Barranquilla: Ataque sicarial deja un hombre muerto en límites de San Felipe y Nueva Colombia - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "0e5b3e37b767"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "8c2c6a800450",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones",
+      "hurto"
+    ],
+    "fecha": "2026-11-19",
+    "municipio": "Soledad",
+    "barrio": "Los Robles",
+    "medios": [
+      "Diario La Libertad",
+      "Emisora Atlántico"
+    ],
+    "notas": [
+      "888a6a59e36460374d3a0b448e7b80a22845d198",
+      "8a38fefbc2df732060851178165868eaca889c2f",
+      "ec8350becfb250af42d0dcd740f6ad93e403549a"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/19/reportan-ataque-a-bala-cerca-de-la-olimpica-de-los-robles-en-soledad/",
+        "titular": "Reportan ataque a bala cerca de la Olímpica de Los Robles, en Soledad - Diario La Libertad."
+      },
+      {
+        "medio": "Emisora Atlántico",
+        "url": "https://emisoraatlantico.com.co/judiciales/hombre-resulto-herido-durante-atraco-al-salir-de-una-supertienda-olimpica-en-soledad/",
+        "titular": "Hombre resultó herido durante atraco al salir de una Supertienda Olímpica en Soledad"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/20/identificado-hombre-baleado-durante-atraco-al-salir-de-una-olimpica-en-soledad/",
+        "titular": "Identificado hombre baleado durante atraco al salir de una Olímpica en Soledad - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "88b7afa41f8a",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-19",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "52239ed60e093b895de09e0fa9a5af4c6d029581"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/19/alerta-en-el-atlantico-80-mujeres-han-sido-asesinadas-en-2026-y-organizaciones-exigen-medidas-urgentes/",
+        "titular": "Alerta en el Atlántico: 80 mujeres han sido asesinadas en 2026 y organizaciones exigen medidas urgentes - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "a0377b382498"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "63d40e4c6988",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-19",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "63582e4d23fd3aa3e3463da8d0745beb575f54f1"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/joven-murio-en-accidente-en-moto-en-la-circunvalar",
+        "titular": "Joven murió en accidente en moto en la Circunvalar"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "19808fea1c97"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "3f9f39ba89e0",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-19",
+    "municipio": "Soledad",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "7eab3c802520f02c292b033b6a1ed79ca1e938a6"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/19/violencia-contra-las-mujeres-en-el-atlantico-identifican-a-mujer-asesinada-a-tiros-en-villa-sol-soledad-llego-sin-vida-al-hospital/",
+        "titular": "VIOLENCIA CONTRA LAS MUJERES EN EL ATLÁNTICO Identifican a mujer asesinada a tiros en Villa Sol, Soledad: llegó sin vida al hospital - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "6e4ddf90ebbf"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "2bc28ad60e4a",
+    "tipo": "feminicidio",
+    "tipos": [
+      "feminicidio",
+      "homicidio"
+    ],
+    "fecha": "2026-11-19",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "754785df6700d930bae77ab5e12cc945ad15cac5"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/19/feminicidio-de-priscila-lacerda-la-joven-de-24-anos-fue-asesinada-cuando-devolvia-una-camioneta-a-su-expareja-en-brasil/",
+        "titular": "Feminicidio de Priscila Lacerda: la joven de 24 años fue asesinada cuando devolvía una camioneta a su expareja en Brasil - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "19808fea1c97",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-19",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "54d826ecb265c099c90c87ae4d87c45fda69560e"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/19/joven-de-22-anos-murio-al-chocar-su-motocicleta-contra-camion-que-realizaba-trabajos-de-senalizacion-en-la-circunvalar/",
+        "titular": "Joven de 22 años murió al chocar su motocicleta contra camión que realizaba trabajos de señalización en la Circunvalar - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "63d40e4c6988"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "13aca3519a5b",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "fecha": "2026-11-19",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "b24ae593c1c868ba27b09bf0be4bedba7a1ac703"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/19/el-caso-que-sacude-a-barranquilla-una-deuda-millonaria-dos-mujeres-desaparecidas-y-un-hombre-asesinado-las-cinco-capturas-que-rodean-el-misterio-de-sonia-y-kelly/",
+        "titular": "EL CASO QUE SACUDE A BARRANQUILLA: Una deuda millonaria, dos mujeres desaparecidas y un hombre asesinado: las cinco capturas que rodean el misterio de Sonia y Kelly - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "4d19e6eb7780"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "0318c6550d80",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-19",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "d86a08f40af1a1122939691b791167d19a61aed6"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/no-merecias-morir-asi-dolor-e-impotencia-por-crimen-de-vigilante-de-olimpica",
+        "titular": "\"No merecías morir así\": dolor e impotencia por crimen de vigilante de Olímpica"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
     "caso_id": "f3de656f2168",
     "tipo": "homicidio",
     "tipos": [
@@ -45,17 +486,24 @@
     "municipio": "Barranquilla",
     "barrio": "El Bosque",
     "medios": [
-      "Diario La Libertad"
+      "Diario La Libertad",
+      "Zona Cero"
     ],
     "notas": [
       "0991bfe3f472402c98a8ee136da5da61c67a623b",
-      "1719e9d9eb4ff90a33e9be3808c73343c6e09e64"
+      "1719e9d9eb4ff90a33e9be3808c73343c6e09e64",
+      "3051947cd7bb5dfa29760d8887c038dcc9988425"
     ],
     "fuentes": [
       {
         "medio": "Diario La Libertad",
         "url": "https://diariolalibertad.com/2026/11/18/joven-resulta-gravemente-herida-tras-ser-baleada-en-el-barrio-el-bosque-de-barranquilla/",
         "titular": "Joven resulta gravemente herida tras ser baleada en el barrio El Bosque de Barranquilla - Diario La Libertad."
+      },
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/asesinan-mujer-en-el-bosque-habia-sido-amenazada-horas-antes-del-ataque",
+        "titular": "Asesinan a mujer en El Bosque: había sido amenazada horas antes del ataque"
       },
       {
         "medio": "Diario La Libertad",
@@ -139,11 +587,14 @@
     "barrio": "Villa María",
     "medios": [
       "Diario La Libertad",
+      "Emisora Atlántico",
       "Zona Cero"
     ],
     "notas": [
       "54b96ce64f6bbb8367f9e3e4d962b15273428f88",
-      "6a14765c3deb54f4dd86ac76598f43f56cfd8935"
+      "6a14765c3deb54f4dd86ac76598f43f56cfd8935",
+      "db9c53abee179081d649e4d5644c269ccd50c51b",
+      "e68d6f2168c204e462d38552a5405e102fd65a7e"
     ],
     "fuentes": [
       {
@@ -155,10 +606,22 @@
         "medio": "Diario La Libertad",
         "url": "https://diariolalibertad.com/2026/11/18/mujer-fue-asesinada-a-tiros-en-villa-maria-y-eleva-a-80-los-homicidios-de-mujeres-en-atlantico/",
         "titular": "Mujer fue asesinada a tiros en Villa María y eleva a 80 los homicidios de mujeres en Atlántico - Diario La Libertad."
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/19/ataque-sicarial-en-el-municipio-de-soledad-asesinan-a-tiros-a-motocarrista-en-villa-maria-la-victima-seria-conocida-con-el-alias-de-yeye/",
+        "titular": "Ataque sicarial en el municipio de Soledad Asesinan a tiros a motocarrista en Villa María: la víctima sería conocida con el alias de ‘Yeye' - Diario La Libertad."
+      },
+      {
+        "medio": "Emisora Atlántico",
+        "url": "https://emisoraatlantico.com.co/judiciales/sicarios-en-moto-asesinan-a-hombre-mientras-reparaba-un-motocarro-en-soledad/",
+        "titular": "Sicarios en moto asesinan a hombre mientras reparaba un motocarro en Soledad"
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "3f9f39ba89e0"
+    ],
     "lat": 10.89269,
     "lon": -74.79475,
     "confianza_ubicacion": "alta"
@@ -370,8 +833,11 @@
         "titular": "Desaparición de Sonia y Kelly en Barranquilla: investigan presunto secuestro por una deuda millonaria"
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "13aca3519a5b",
+      "b5c71cd99f03"
+    ],
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "municipio"
@@ -677,8 +1143,10 @@
         "titular": "Dos hombres fueron asesinados en hechos aislados en Nuevo Milenio y Villas de San Pablo"
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "b349c3008a22"
+    ],
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "baja"
@@ -1167,7 +1635,8 @@
     ],
     "estado": "posible_duplicado",
     "posible_duplicado_de": [
-      "503df59b6b51"
+      "503df59b6b51",
+      "9a45a5f2371c"
     ],
     "lat": 10.92486,
     "lon": -74.805,

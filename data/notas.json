@@ -1,6 +1,653 @@
 [
   {
     "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/identificado-hombre-baleado-durante-atraco-al-salir-de-una-olimpica-en-soledad/",
+    "titular": "Identificado hombre baleado durante atraco al salir de una Olímpica en Soledad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T06:21:27-05:00",
+    "resumen": "De acuerdo con la información preliminar, Guerra había retirado dinero de un cajero automático ubicado dentro de una Supertienda Olímpica y llevaba una cadena",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "lesiones",
+      "hurto"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8a38fefbc2df732060851178165868eaca889c2f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/atlantico-registra-80-mujeres-asesinadas-en-2026-y-piden-acciones-urgentes/",
+    "titular": "Atlántico registra 80 mujeres asesinadas en 2026 y piden acciones urgentes - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T06:15:55-05:00",
+    "resumen": "La exigencia incluye aplicar la Ley 1761 de 2015, conocida como Ley Rosa Elvira Cely, que tipifica el feminicidio como delito autónomo, y revisar el",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "feminicidio",
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "369f08aa9edca51275e97fd5ca7ff0fdd4e69305"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/primer-dia-del-fan-fest-en-el-gran-malecon-convierte-a-barranquilla-en-epicentro-de-la-previa-entre-boca-juniors-y-atletico-mineiro/",
+    "titular": "Primer día del Fan Fest en el Gran Malecón convierte a Barranquilla en epicentro de la previa entre Boca Juniors y Atlético Mineiro - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T06:05:54-05:00",
+    "resumen": "Este jueves 19 de noviembre se cumplió con éxito el primer día del Fan Fest en el Gran Malecón de BarranquillaHacer clic para abrir el panel lateral y obtener",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e088c8645dba89f95fbc28bb9ba58c7865da20e1"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/hombre-resulto-herido-durante-atraco-al-salir-de-una-supertienda-olimpica-en-soledad/",
+    "titular": "Hombre resultó herido durante atraco al salir de una Supertienda Olímpica en Soledad",
+    "fecha_publicacion": "2026-11-19T22:25:00-05:00",
+    "resumen": "Un hombre resultó herido durante un atraco registrado la noche de este miércoles en el barrio Los Robles, en el municipio de Soledad, luego de retirar dinero de un cajero automático ubicado dentro de una Supertienda Olímpica. De acuerdo con el reporte de las autoridades, la víctima también llevaba…",
+    "fecha_captura": "2026-11-20T06:55:43-05:00",
+    "tipos_delito": [
+      "lesiones",
+      "hurto"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Los Robles",
+    "estado": "pendiente",
+    "id": "888a6a59e36460374d3a0b448e7b80a22845d198"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/armada-reporta-la-captura-de-26-presuntos-integrantes-de-estructuras-criminales-en-el-caribe/",
+    "titular": "Armada reporta la captura de 26 presuntos integrantes de estructuras criminales en el Caribe - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T22:13:10-05:00",
+    "resumen": "El balance fue entregado por la Fuerza Naval del Caribe en un comunicado fechado el 19 de noviembre de 2026. Según el reporte, 15 de los capturados serían",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9454f9a9df0f49a709a383336609366195f98d76"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/reportan-ataque-a-bala-cerca-de-la-olimpica-de-los-robles-en-soledad/",
+    "titular": "Reportan ataque a bala cerca de la Olímpica de Los Robles, en Soledad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T22:00:44-05:00",
+    "resumen": "Un nuevo hecho de violencia fue reportado en el sector de la Olímpica del barrio Los Robles, en el municipio de Soledad, Atlántico, donde, según información",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Los Robles",
+    "estado": "pendiente",
+    "id": "ec8350becfb250af42d0dcd740f6ad93e403549a"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/hieren-en-atraco-un-hombre-que-habia-sacado-dinero-de-cajero-automatico-en-los-robles",
+    "titular": "Hieren en atraco a un hombre que había sacado dinero de cajero automático en Los Robles",
+    "fecha_publicacion": "2026-11-19T21:54:16-05:00",
+    "resumen": "De urgencia fue llevado a la Clínica Los Almendros.",
+    "fecha_captura": "2026-11-20T06:49:41-05:00",
+    "tipos_delito": [
+      "hurto"
+    ],
+    "municipio": null,
+    "barrio": "Los Almendros",
+    "estado": "pendiente",
+    "id": "7189ea04988004ed0840b73eac7bb1febf6d81bc"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/camara-aplaza-votacion-de-recursos-para-colombia-mayor-tras-ruptura-del-cuorum-tres-millones-de-adultos-mayores-esperan-los-giros/",
+    "titular": "Cámara aplaza votación de recursos para Colombia Mayor tras ruptura del cuórum; tres millones de adultos mayores esperan los giros - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T21:51:48-05:00",
+    "resumen": "La financiación del programa Colombia Mayor quedó nuevamente en el centro de la controversia política en el Congreso. La plenaria de la Cámara de",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "032cf45cac53edc1cb3fd4a0bacb6be8e0383b0b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/disciplina-judicial-ordena-revisar-actuacion-del-juez-que-pidio-investigar-a-de-la-espriella-por-el-caso-primo-gay/",
+    "titular": "Disciplina Judicial ordena revisar actuación del juez que pidió investigar a De la Espriella por el caso ‘Primo Gay’ - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T21:47:45-05:00",
+    "resumen": "La Comisión Nacional de Disciplina Judicial ordenó adelantar actuaciones disciplinarias contra el juez de control de garantías que compulsó copias contra el",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "12dda11971a40b797440d0d1380a8cfb76e69033"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/cancilleria-viajara-a-ucrania-para-visitar-a-colombianos-detenidos-en-medio-de-la-guerra-con-rusia/",
+    "titular": "Cancillería viajará a Ucrania para visitar a colombianos detenidos en medio de la guerra con Rusia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T21:37:47-05:00",
+    "resumen": "La misión consular estará en territorio ucraniano entre el 23 y el 26 de noviembre para conocer las condiciones de los connacionales, atender sus necesidades",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e2318d3c8bef54aedf1cf74de80622d2421efe17"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/varios-docentes-afectados-por-gases-lacrimogenos-durante-intervencion-del-esmad-en-barranquilla/",
+    "titular": "Varios docentes afectados por gases lacrimógenos durante intervención del Esmad en Barranquilla",
+    "fecha_publicacion": "2026-11-19T21:37:00-05:00",
+    "resumen": "Entre seis y siete docentes resultaron afectados por la inhalación de gases lacrimógenos durante la intervención del Escuadrón Móvil Antidisturbios (Esmad), al cierre de la marcha obrera realizada en Barranquilla, según un balance preliminar entregado por el magisterio. Los educadores tuvieron que…",
+    "fecha_captura": "2026-11-20T06:55:43-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c9d9cf50e57d444595114c1141c03c050217f027"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/medellin-tendra-por-primera-vez-a-un-mayor-activo-de-la-policia-como-secretario-de-seguridad/",
+    "titular": "Medellín tendrá por primera vez a un mayor activo de la Policía como secretario de Seguridad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T21:28:29-05:00",
+    "resumen": "El alcalde Federico Gutiérrez designó a Juan Camilo Amazará Grisales para dirigir la Secretaría de Seguridad y Convivencia. El oficial reemplazará a Manuel",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6c1b8c5c3c1a601bbfd934aa7e89f724dd173765"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/la-fiscalia-acusa-al-reguetonero-blessd-de-intimidar-y-amenazar-un-imitador",
+    "titular": "La Fiscalía acusa al reguetonero Blessd de intimidar y amenazar a un imitador",
+    "fecha_publicacion": "2026-11-19T21:20:35-05:00",
+    "resumen": "Igual a otras tres personas, entre ellas su mánager.",
+    "fecha_captura": "2026-11-20T06:49:41-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "5e053eda1c1c1dbb5d0499ab1a175e8eb8adee8e"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/ciberataques-al-sector-financiero-britanico-alcanzan-uno-de-sus-niveles-mas-altos-en-cinco-anos/",
+    "titular": "Ciberataques al sector financiero británico alcanzan uno de sus niveles más altos en cinco años - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T21:10:12-05:00",
+    "resumen": "La Autoridad de Conducta Financiera del Reino Unido recibió 38 reportes de incidentes cibernéticos durante octubre de 2026. En respuesta, la FCA, el Banco de",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d3ecbccc551b5b624125b84ce073d28935c4d577"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/petro-llama-a-movilizacion-permanente-en-cali-y-desata-polemica-por-su-mensaje-contra-el-gobierno/",
+    "titular": "Petro llama a movilización permanente en Cali y desata polémica por su mensaje contra el Gobierno - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T20:53:23-05:00",
+    "resumen": "El expresidente Gustavo Petro generó una nueva controversia política durante su intervención en las movilizaciones realizadas el jueves 19 de noviembre en",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e20b4ec28ee007c2a6915a93f032d6a417d532d3"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/cienaga-instala-camaras-de-seguridad-y-comienza-pruebas-del-nuevo-sistema-de-videovigilancia/",
+    "titular": "Ciénaga instala cámaras de seguridad y comienza pruebas del nuevo sistema de videovigilancia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T20:45:20-05:00",
+    "resumen": "El municipio de Ciénaga, Magdalena, avanza en la implementación de un nuevo sistema de cámaras de seguridad con el que busca fortalecer la vigilancia y",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "01dea3bc98127a080cd34f60009fdebb6ba24360"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/feminicidio-de-priscila-lacerda-la-joven-de-24-anos-fue-asesinada-cuando-devolvia-una-camioneta-a-su-expareja-en-brasil/",
+    "titular": "Feminicidio de Priscila Lacerda: la joven de 24 años fue asesinada cuando devolvía una camioneta a su expareja en Brasil - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T20:41:18-05:00",
+    "resumen": "Priscila Lacerda Custódio murió tras recibir disparos en una propiedad rural de Rifaina, en el estado de São Paulo. El principal sospechoso era João Roberto",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "feminicidio",
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "754785df6700d930bae77ab5e12cc945ad15cac5"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/sicarios-en-moto-asesinan-a-hombre-mientras-reparaba-un-motocarro-en-soledad/",
+    "titular": "Sicarios en moto asesinan a hombre mientras reparaba un motocarro en Soledad",
+    "fecha_publicacion": "2026-11-19T20:40:00-05:00",
+    "resumen": "Un nuevo homicidio se registró en la tarde de este jueves en el barrio Villa María, en Soledad, donde un hombre fue asesinado a bala por sicarios que se movilizaban en motocicleta. De acuerdo con la información preliminar, la víctima se encontraba realizando labores de mecánica a un motocarro…",
+    "fecha_captura": "2026-11-20T06:55:43-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Villa María",
+    "estado": "pendiente",
+    "id": "e68d6f2168c204e462d38552a5405e102fd65a7e"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/capturan-a-mujer-que-intento-ingresar-droga-y-un-celular-ocultos-en-sandalias-a-centro-de-detencion-en-barranquilla/",
+    "titular": "Capturan a mujer que intentó ingresar droga y un celular ocultos en sandalias a centro de detención en Barranquilla",
+    "fecha_publicacion": "2026-11-19T20:38:00-05:00",
+    "resumen": "Una mujer de 41 años fue capturada cuando presuntamente intentaba ingresar estupefacientes y un teléfono celular al Centro de Detención Transitoria del barrio Las Estrellas, en Barranquilla. De acuerdo con el informe oficial de la Policía, la mujer llevaba marihuana, cocaína y un celular ocultos…",
+    "fecha_captura": "2026-11-20T06:55:43-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Las Estrellas",
+    "estado": "pendiente",
+    "id": "cc99f19e3c55f3d6d266a5ff71978c9c45e434b7"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/expresan-solidaridad-con-la-diputada-mallath-martinez-tras-situacion-que-genera-preocupacion-por-su-seguridad/",
+    "titular": "Expresan solidaridad con la diputada Mallath Martínez tras situación que genera preocupación por su seguridad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T20:37:27-05:00",
+    "resumen": "Un mensaje de respaldo a la diputada Mallath Martínez rechazó cualquier forma de intimidación o amenaza contra ella y su familia.",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "21bbca4ce0dcc7ffd863b374f1b84f0cef5f02b8"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/asesinan-a-joven-de-19-anos-mientras-entrenaba-en-una-cancha-del-barrio-siete-de-abril-en-barranquilla/",
+    "titular": "Asesinan a joven de 19 años mientras entrenaba en una cancha del barrio Siete de Abril, en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T20:34:05-05:00",
+    "resumen": "Un joven identificado como Sebastián Ahumada Martínez, de 19 años, murió tras ser víctima de un ataque con arma de fuego mientras realizaba actividad física",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Siete de Abril",
+    "estado": "pendiente",
+    "id": "82bed86385bb20ab53c01ef18c9a41a151fc325d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/luz-veronica-estrada-enfrenta-tres-indagaciones-penales-por-presuntas-irregularidades-en-sus-documentos-academicos/",
+    "titular": "Luz Verónica Estrada enfrenta tres indagaciones penales por presuntas irregularidades en sus documentos académicos - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T20:30:57-05:00",
+    "resumen": "La representante a la Cámara por Antioquia Luz Verónica Estrada Holguín, integrante del Pacto Histórico, enfrenta cuestionamientos por la autenticidad de los",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d4c2c2b31af48b84531a114cbe918ab6e22cfdca"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/identifican-a-las-dos-victimas-de-doble-homicidio-en-zona-rural-de-villanueva-la-guajira/",
+    "titular": "Identifican a las dos víctimas de doble homicidio en zona rural de Villanueva, La Guajira - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T19:51:28-05:00",
+    "resumen": "Las autoridades avanzan en la investigación por el doble homicidio registrado en zona rural de Villanueva, La Guajira, donde fueron encontrados sin vida dos",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "68854c43238990b392a042f501aef07a5b2498ff"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/desaparicion-de-sonia-sanjuan-y-kelly-acosta-dos-hombres-fueron-capturados-en-barranquilla/",
+    "titular": "Desaparición de Sonia Sanjuan y Kelly Acosta: dos hombres fueron capturados en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T19:39:09-05:00",
+    "resumen": "Por ahora, Sonia Sanjuan y Kelly Acosta continúan desaparecidas. El hallazgo de la camioneta y las capturas representan avances en el proceso, pero no han",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "desaparicion",
+      "captura"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "230d6e268a39d37e4677e97bc50ea61fd34bcfa6"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/alerta-en-el-atlantico-80-mujeres-han-sido-asesinadas-en-2026-y-organizaciones-exigen-medidas-urgentes/",
+    "titular": "Alerta en el Atlántico: 80 mujeres han sido asesinadas en 2026 y organizaciones exigen medidas urgentes - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T19:13:12-05:00",
+    "resumen": "La organización FUNCRASSULA denunció el aumento de la violencia contra las mujeres en el Atlántico y reclamó investigaciones con perspectiva de género, mayor",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "52239ed60e093b895de09e0fa9a5af4c6d029581"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/capturan-mujer-que-intento-ingresar-estupefacientes-y-un-celular-en-sandalias-centro-de",
+    "titular": "Capturan mujer que intentó ingresar estupefacientes y un celular en sandalias a Centro de Detención Transitoria",
+    "fecha_publicacion": "2026-11-19T18:39:56-05:00",
+    "resumen": "En el barrio Las Estrellas.",
+    "fecha_captura": "2026-11-20T06:49:41-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": "Las Estrellas",
+    "estado": "pendiente",
+    "id": "42a24cda728ce68890f138ee9474ac58c5eb5e9a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/incautan-1-200-galones-de-gasolina-durante-operativo-en-zona-rural-de-aguachica/",
+    "titular": "Incautan 1.200 galones de gasolina durante operativo en zona rural de Aguachica - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T17:50:31-05:00",
+    "resumen": "Un cargamento de aproximadamente 1.200 galones de gasolina fue incautado por las autoridades durante un operativo realizado en la vereda El Faro, zona rural",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "aa6c002285b1f4b24e8e8ef2e8ab729e8041fb04"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/yo-se-que-mi-hijo-esta-vivo-madre-de-barranquillero-desaparecido-desde-2023-en-santa-marta/",
+    "titular": "“Yo sé que mi hijo está vivo”: madre de barranquillero desaparecido desde 2023 en Santa Marta",
+    "fecha_publicacion": "2026-11-19T17:35:06-05:00",
+    "resumen": "La mujer, quien espera volver a ver a su ser querido, hizo un llamado al presidente Abelardo de la Espriella para que la ayude con el caso. Por: Laura Rocco C. Han pasado más de tres años desde la desaparición de Carlos Mario Vargas Fonseca, pero Diana, su progenitora, no pierde la esperanza de…",
+    "fecha_captura": "2026-11-20T06:55:43-05:00",
+    "tipos_delito": [
+      "desaparicion"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4c3f47c2410609a4ad8e2928e9ba277bf4b5a346"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/no-puede-haber-autonomia-con-una-rama-judicial-asfixiada-en-el-presupuesto-jueces-se",
+    "titular": "“No puede haber autonomía con una rama judicial asfixiada en el presupuesto”: jueces se unieron al paro",
+    "fecha_publicacion": "2026-11-19T17:23:00-05:00",
+    "resumen": "Destacaron que en la rama judicial no hay colores, no hay banderas, por eso el color de la toga es negro, porque no tiene partidos.",
+    "fecha_captura": "2026-11-20T06:49:41-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "bb51d0ff08ad55684bdc55a293fd9e2330de873c"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/segundo-crimen-en-24-horas-en-el-barrio-villa-maria-ultimaron-bala-un-hombre",
+    "titular": "Segundo crimen en 24 horas en el barrio Villa María: ultimaron a bala a un hombre",
+    "fecha_publicacion": "2026-11-19T15:56:00-05:00",
+    "resumen": "El crimen ocurrió alrededor de las 2 de la tarde de este jueves.",
+    "fecha_captura": "2026-11-20T06:49:41-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": "Villa María",
+    "estado": "pendiente",
+    "id": "c666abf903629dbdcdb459095d28334ced9eb3a8"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/ataque-sicarial-en-el-municipio-de-soledad-asesinan-a-tiros-a-motocarrista-en-villa-maria-la-victima-seria-conocida-con-el-alias-de-yeye/",
+    "titular": "Ataque sicarial en el municipio de Soledad Asesinan a tiros a motocarrista en Villa María: la víctima sería conocida con el alias de ‘Yeye' - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T15:31:23-05:00",
+    "resumen": "Un nuevo ataque con arma de fuego se registró en el barrio Villa María, en el municipio de Soledad, Atlántico. Esta vez, la víctima fue un hombre que se",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Villa María",
+    "estado": "pendiente",
+    "id": "db9c53abee179081d649e4d5644c269ccd50c51b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/violencia-contra-las-mujeres-en-el-atlantico-identifican-a-mujer-asesinada-a-tiros-en-villa-sol-soledad-llego-sin-vida-al-hospital/",
+    "titular": "VIOLENCIA CONTRA LAS MUJERES EN EL ATLÁNTICO Identifican a mujer asesinada a tiros en Villa Sol, Soledad: llegó sin vida al hospital - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T15:03:48-05:00",
+    "resumen": "Redacción Judicial",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7eab3c802520f02c292b033b6a1ed79ca1e938a6"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/violencia-en-el-suroccidente-de-barranquilla-ataque-sicarial-deja-un-hombre-muerto-en-limites-de-san-felipe-y-nueva-colombia/",
+    "titular": "Violencia en el suroccidente de Barranquilla: Ataque sicarial deja un hombre muerto en límites de San Felipe y Nueva Colombia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T14:59:39-05:00",
+    "resumen": "Un nuevo hecho de sangre se registró en el suroccidente de Barranquilla, donde un hombre perdió la vida tras ser víctima de un ataque con arma de fuego en el",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Nueva Colombia",
+    "estado": "pendiente",
+    "id": "c6ef9d2501f26c5a35b6f7b8b5a5beb8a0ac00aa"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/nuevo-hecho-de-sangre-en-el-area-metropolitana-de-barranquilla-mientras-hacia-ejercicio-asesinan-a-joven-de-19-anos-en-el-barrio-siete-de-abril/",
+    "titular": "Nuevo hecho de sangre en el área metropolitana de Barranquilla: Mientras hacía ejercicio, asesinan a joven de 19 años en el barrio Siete de Abril - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T14:52:34-05:00",
+    "resumen": "Redacción Judicial",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Siete de Abril",
+    "estado": "pendiente",
+    "id": "3b90014ffba0ef0b60917ff592558e6d61655e75"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/el-caso-que-sacude-a-barranquilla-una-deuda-millonaria-dos-mujeres-desaparecidas-y-un-hombre-asesinado-las-cinco-capturas-que-rodean-el-misterio-de-sonia-y-kelly/",
+    "titular": "EL CASO QUE SACUDE A BARRANQUILLA: Una deuda millonaria, dos mujeres desaparecidas y un hombre asesinado: las cinco capturas que rodean el misterio de Sonia y Kelly - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T14:49:05-05:00",
+    "resumen": "La historia comenzó con un café en el norte de Barranquilla. Dos mujeres, una camioneta de alta gama y un encuentro que, aparentemente, hacía parte de su",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "desaparicion",
+      "captura"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b24ae593c1c868ba27b09bf0be4bedba7a1ac703"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/joven-de-22-anos-murio-al-chocar-su-motocicleta-contra-camion-que-realizaba-trabajos-de-senalizacion-en-la-circunvalar/",
+    "titular": "Joven de 22 años murió al chocar su motocicleta contra camión que realizaba trabajos de señalización en la Circunvalar - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T14:06:56-05:00",
+    "resumen": "Un trágico accidente de tránsito cobró la vida de un joven motociclista en la noche del miércoles 18 de noviembre, en la avenida Circunvalar de Barranquilla,",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "54d826ecb265c099c90c87ae4d87c45fda69560e"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/esmad-intervino-marcha-en-barranquilla-por-presunto-bloqueo-en-la-calle-30-con-carrera-8-gases-lacrimogenos-y-caos/",
+    "titular": "Esmad intervino marcha en Barranquilla por presunto bloqueo en la calle 30 con carrera 8: ¡gases lacrimógenos y caos!",
+    "fecha_publicacion": "2026-11-19T14:06:47-05:00",
+    "resumen": "En otras ciudades, como Bogotá, donde se concentra la principal movilización, los bloqueos de vías también desataron alteraciones del orden público cuando intervino la fuerza pública. Barranquilla no fue ajena a las movilizaciones convocadas para este jueves 19 de noviembre por las centrales…",
+    "fecha_captura": "2026-11-20T06:55:43-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c1b078e36d4b1689c095d749872d02a241571556"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/autoridades-alertan-que-es-falso-el-panfleto-atribuido-a-la-nueva-generacion-del-freseo-que-amenaza-a-supermercados-olimpica/",
+    "titular": "Autoridades alertan que es falso el panfleto atribuido a ‘La Nueva Generación del Freseo’ que amenaza a supermercados Olímpica - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T14:04:15-05:00",
+    "resumen": "La violencia que golpeó nuevamente a trabajadores de la cadena de supermercados Olímpica en Barranquilla ha generado preocupación, no solamente por el doble",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e19da2181e2bed724312ff1be7b1eda5a37decdd"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/policia-lanzo-gases-lacrimogenos-cuando-la-marcha-llego-la-calle-30-con-8",
+    "titular": "Policía lanzó gases lacrimógenos cuando la marcha llegó a la calle 30 con 8",
+    "fecha_publicacion": "2026-11-19T12:20:00-05:00",
+    "resumen": "Para dispersar la manifestación, sin que se hubiese ningún acto violento.",
+    "fecha_captura": "2026-11-20T06:49:41-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f98ffa7f396b21aa768589be294676bbf1a0b35d"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/no-merecias-morir-asi-dolor-e-impotencia-por-crimen-de-vigilante-de-olimpica",
+    "titular": "\"No merecías morir así\": dolor e impotencia por crimen de vigilante de Olímpica",
+    "fecha_publicacion": "2026-11-19T11:36:00-05:00",
+    "resumen": "En los mismos hechos una mujer también murió.",
+    "fecha_captura": "2026-11-20T06:49:41-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d86a08f40af1a1122939691b791167d19a61aed6"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/joven-murio-en-accidente-en-moto-en-la-circunvalar",
+    "titular": "Joven murió en accidente en moto en la Circunvalar",
+    "fecha_publicacion": "2026-11-19T10:59:00-05:00",
+    "resumen": "El suceso ocurrió a las 10:30 de la noche del miércoles.",
+    "fecha_captura": "2026-11-20T06:49:41-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "63582e4d23fd3aa3e3463da8d0745beb575f54f1"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/dos-hombres-uno-adolescente-fueron-asesinados-en-7-de-abril-y-el-ferry",
+    "titular": "Dos hombres, uno adolescente, fueron asesinados en 7 de Abril y El Ferry",
+    "fecha_publicacion": "2026-11-19T10:40:00-05:00",
+    "resumen": "En hechos aislados.",
+    "fecha_captura": "2026-11-20T06:49:41-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "El Ferry",
+    "estado": "pendiente",
+    "id": "9f7b67a5475baa54dbfcbb00b8090e4f9f2becf6"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/policia-recupero-tractocamion-cargado-con-227-bultos-de-cafe-de-exportacion-en-bolivar/",
+    "titular": "Policía recuperó tractocamión cargado con 227 bultos de café de exportación en Bolívar - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T08:15:46-05:00",
+    "resumen": "Lo que parecía ser un millonario golpe contra el transporte de carga terminó con la recuperación de un tractocamión y 227 bultos de café tipo exportación. El",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "90f962cfa870071b6774afa3381869d12902f0e8"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/ataque-sicarial-en-el-barrio-el-ferry-en-soledad-hombre-quedo-herido-en-plena-via-publica/",
+    "titular": "Ataque sicarial en el barrio El Ferry, en Soledad: hombre quedó herido en plena vía pública - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T07:07:47-05:00",
+    "resumen": "Según los primeros reportes, la víctima recibió varios impactos de arma de fuego y quedó tendida en plena vía pública. Los responsables habrían escapado del",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "Soledad",
+    "barrio": "El Ferry",
+    "estado": "pendiente",
+    "id": "523f99baff4022bb471e62d036fcb14fef793ed1"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/19/capturan-a-tres-presuntos-integrantes-del-clan-del-golfo-senalados-de-varios-homicidios-en-cesar/",
+    "titular": "Capturan a tres presuntos integrantes del Clan del Golfo señalados de varios homicidios en Cesar - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-19T07:02:34-05:00",
+    "resumen": "El procedimiento fue realizado por tropas de la Décima Brigada del Ejército Nacional, en coordinación con la Policía. Según información de inteligencia",
+    "fecha_captura": "2026-11-20T06:50:32-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b48e902b237b3ad48fa40fc0909073cc11245a4e"
+  },
+  {
+    "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/19/investigan-posible-movil-pasional-en-el-asesinato-de-katy-mendoza-de-18-anos-en-barranquilla/",
     "titular": "Investigan posible móvil pasional en el asesinato de Katy Mendoza, de 18 años, en Barranquilla - Diario La Libertad.",
     "fecha_publicacion": "2026-11-19T06:20:15-05:00",
@@ -513,6 +1160,21 @@
     "barrio": null,
     "estado": "pendiente",
     "id": "c5b2ba7abf1d7d84b729a6a1f88939734b8c43a9"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/asesinan-mujer-en-el-bosque-habia-sido-amenazada-horas-antes-del-ataque",
+    "titular": "Asesinan a mujer en El Bosque: había sido amenazada horas antes del ataque",
+    "fecha_publicacion": "2026-11-18T07:50:00-05:00",
+    "resumen": "En la mañana del martes había sido amenazada por otra mujer y en la noche, un hombre le pidió que subiera a una moto y después de recorrer varias cuadras, la asesinó.",
+    "fecha_captura": "2026-11-20T06:49:41-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "El Bosque",
+    "estado": "pendiente",
+    "id": "3051947cd7bb5dfa29760d8887c038dcc9988425"
   },
   {
     "medio": "Diario La Libertad",
