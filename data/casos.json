@@ -156,9 +156,9 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
+    "lat": 11.0451,
+    "lon": -74.82789,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "9a45a5f2371c",
@@ -186,9 +186,9 @@
     "posible_duplicado_de": [
       "0e5b3e37b767"
     ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
+    "lat": 10.97094,
+    "lon": -74.81759,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "8c2c6a800450",
@@ -228,9 +228,9 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
+    "lat": 10.92033,
+    "lon": -74.81161,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "88b7afa41f8a",

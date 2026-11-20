@@ -19,6 +19,7 @@
     "lon": -74.81664,
     "nombre_osm": "El Bosque, Localidad Suroccidente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
   },
+  "el ferry|Soledad": null,
   "el limon|Barranquilla": null,
   "el santuario|Barranquilla": {
     "lat": 10.94585,
@@ -55,6 +56,11 @@
     "lon": -74.77918,
     "nombre_osm": "Las Nieves, Localidad Suroriente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 083002, Colombia"
   },
+  "los almendros|Barranquilla": {
+    "lat": 11.0451,
+    "lon": -74.82789,
+    "nombre_osm": "Los Almendros del Río, Calle 106, Las Flores, Localidad Riomar, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, "
+  },
   "los almendros|Soledad": {
     "lat": 10.9201,
     "lon": -74.81592,
@@ -70,10 +76,20 @@
     "lon": -74.805,
     "nombre_osm": "Los Girasoles, Localidad Metropolitana, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
   },
+  "los robles|Soledad": {
+    "lat": 10.92033,
+    "lon": -74.81161,
+    "nombre_osm": "Los Robles, Soledad, Atlántico, RAP Caribe, Colombia"
+  },
   "mesolandia|Malambo": {
     "lat": 10.88704,
     "lon": -74.76679,
     "nombre_osm": "Mesolandia, Malambo, Atlántico, RAP Caribe, Colombia"
+  },
+  "nueva colombia|Barranquilla": {
+    "lat": 10.97094,
+    "lon": -74.81759,
+    "nombre_osm": "Nueva Colombia, Localidad Suroccidente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
   },
   "rebolo|Barranquilla": {
     "lat": 10.96307,
