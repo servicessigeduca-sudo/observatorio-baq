@@ -1,36 +1,5 @@
 [
   {
-    "caso_id": "a0377b382498",
-    "tipo": "feminicidio",
-    "tipos": [
-      "feminicidio",
-      "homicidio"
-    ],
-    "fecha": "2026-11-20",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "369f08aa9edca51275e97fd5ca7ff0fdd4e69305"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/20/atlantico-registra-80-mujeres-asesinadas-en-2026-y-piden-acciones-urgentes/",
-        "titular": "Atlántico registra 80 mujeres asesinadas en 2026 y piden acciones urgentes - Diario La Libertad."
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "88b7afa41f8a"
-    ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
     "caso_id": "d387a9c612b4",
     "tipo": "homicidio",
     "tipos": [
@@ -233,66 +202,6 @@
     "confianza_ubicacion": "alta"
   },
   {
-    "caso_id": "88b7afa41f8a",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-19",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "52239ed60e093b895de09e0fa9a5af4c6d029581"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/19/alerta-en-el-atlantico-80-mujeres-han-sido-asesinadas-en-2026-y-organizaciones-exigen-medidas-urgentes/",
-        "titular": "Alerta en el Atlántico: 80 mujeres han sido asesinadas en 2026 y organizaciones exigen medidas urgentes - Diario La Libertad."
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "a0377b382498"
-    ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
-    "caso_id": "63d40e4c6988",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-19",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Zona Cero"
-    ],
-    "notas": [
-      "63582e4d23fd3aa3e3463da8d0745beb575f54f1"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/joven-murio-en-accidente-en-moto-en-la-circunvalar",
-        "titular": "Joven murió en accidente en moto en la Circunvalar"
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "19808fea1c97"
-    ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
     "caso_id": "3f9f39ba89e0",
     "tipo": "homicidio",
     "tipos": [
@@ -317,65 +226,6 @@
     "estado": "posible_duplicado",
     "posible_duplicado_de": [
       "6e4ddf90ebbf"
-    ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
-  },
-  {
-    "caso_id": "2bc28ad60e4a",
-    "tipo": "feminicidio",
-    "tipos": [
-      "feminicidio",
-      "homicidio"
-    ],
-    "fecha": "2026-11-19",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "754785df6700d930bae77ab5e12cc945ad15cac5"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/19/feminicidio-de-priscila-lacerda-la-joven-de-24-anos-fue-asesinada-cuando-devolvia-una-camioneta-a-su-expareja-en-brasil/",
-        "titular": "Feminicidio de Priscila Lacerda: la joven de 24 años fue asesinada cuando devolvía una camioneta a su expareja en Brasil - Diario La Libertad."
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
-    "caso_id": "19808fea1c97",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-19",
-    "municipio": "Barranquilla",
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "54d826ecb265c099c90c87ae4d87c45fda69560e"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/19/joven-de-22-anos-murio-al-chocar-su-motocicleta-contra-camion-que-realizaba-trabajos-de-senalizacion-en-la-circunvalar/",
-        "titular": "Joven de 22 años murió al chocar su motocicleta contra camión que realizaba trabajos de señalización en la Circunvalar - Diario La Libertad."
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "63d40e4c6988"
     ],
     "lat": null,
     "lon": null,
@@ -477,7 +327,7 @@
   },
   {
     "caso_id": "d05163e681f1",
-    "tipo": "lesiones",
+    "tipo": "homicidio",
     "tipos": [
       "lesiones",
       "homicidio"
@@ -490,6 +340,7 @@
       "Zona Cero"
     ],
     "notas": [
+      "0958d902f2ffa4299559aca4c014553f0d05f695",
       "0991bfe3f472402c98a8ee136da5da61c67a623b",
       "1719e9d9eb4ff90a33e9be3808c73343c6e09e64",
       "3051947cd7bb5dfa29760d8887c038dcc9988425"
@@ -507,74 +358,20 @@
       },
       {
         "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/18/investigan-si-amenazas-por-relacion-sentimental-estarian-detras-del-crimen-de-katy-mendoza/",
+        "titular": "Investigan si amenazas por relación sentimental estarían detrás del crimen de Katy Mendoza - Diario La Libertad."
+      },
+      {
+        "medio": "Diario La Libertad",
         "url": "https://diariolalibertad.com/2026/11/19/investigan-posible-movil-pasional-en-el-asesinato-de-katy-mendoza-de-18-anos-en-barranquilla/",
         "titular": "Investigan posible móvil pasional en el asesinato de Katy Mendoza, de 18 años, en Barranquilla - Diario La Libertad."
       }
     ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "53a5e8c9cbee"
-    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
     "lat": 10.95276,
     "lon": -74.81664,
     "confianza_ubicacion": "alta"
-  },
-  {
-    "caso_id": "9eb712f68d59",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-18",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "30877db2dcacae8a95574d128cf21944447d4874"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/18/aseguran-a-cuatro-presuntos-integrantes-de-los-cabros-por-homicidio-de-adolescente/",
-        "titular": "Aseguran a cuatro presuntos integrantes de ‘Los Cabros’ por homicidio de adolescente - Diario La Libertad."
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
-    "caso_id": "79db678f76cd",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio",
-      "lesiones"
-    ],
-    "fecha": "2026-11-18",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "c0fe5aab3415f65ef954ccaf4e69ae121cf13fb1"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/18/condenan-a-10-anos-a-adolescente-que-asesino-a-punaladas-a-su-novio/",
-        "titular": "Condenan a 10 años a adolescente que asesinó a puñaladas a su novio - Diario La Libertad."
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "6e4ddf90ebbf",
@@ -588,19 +385,26 @@
     "medios": [
       "Diario La Libertad",
       "Emisora Atlántico",
+      "Impacto News",
       "Zona Cero"
     ],
     "notas": [
       "54b96ce64f6bbb8367f9e3e4d962b15273428f88",
       "6a14765c3deb54f4dd86ac76598f43f56cfd8935",
       "db9c53abee179081d649e4d5644c269ccd50c51b",
-      "e68d6f2168c204e462d38552a5405e102fd65a7e"
+      "e68d6f2168c204e462d38552a5405e102fd65a7e",
+      "f9427100ef2190d4375661ca7d70159bc9d4b895"
     ],
     "fuentes": [
       {
         "medio": "Zona Cero",
         "url": "https://zonacero.com/judiciales/asesinan-bala-una-mujer-en-villa-maria-la-numero-80-en-lo-que-va-del-2026-en-atlantico",
         "titular": "Asesinan a bala a una mujer en Villa María: la número 80 en lo que va del 2026 en Atlántico"
+      },
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/una-racha-que-preocupa-mujer-fue-asesinada-en-soledad-y-paso-a-ser-la-victima-80-en-2026/",
+        "titular": "¡Una racha que preocupa! Mujer fue asesinada en Soledad y pasó a ser la víctima 80 en 2026"
       },
       {
         "medio": "Diario La Libertad",
@@ -685,36 +489,6 @@
     "confianza_ubicacion": "alta"
   },
   {
-    "caso_id": "5e08a14deb1d",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-18",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "fd9e92b1e738d8c3c8f1ae63dfbbd925c0f0d727"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/18/violencia-contra-las-mujeres-enciende-las-alarmas-en-el-atlantico/",
-        "titular": "Violencia contra las mujeres enciende las alarmas en el Atlántico - Diario La Libertad."
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "5993fcb34d34"
-    ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
     "caso_id": "57614e412e32",
     "tipo": "homicidio",
     "tipos": [
@@ -746,36 +520,6 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
-    "caso_id": "53a5e8c9cbee",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-18",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "0958d902f2ffa4299559aca4c014553f0d05f695"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/18/investigan-si-amenazas-por-relacion-sentimental-estarian-detras-del-crimen-de-katy-mendoza/",
-        "titular": "Investigan si amenazas por relación sentimental estarían detrás del crimen de Katy Mendoza - Diario La Libertad."
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "d05163e681f1"
-    ],
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "baja"
@@ -843,34 +587,6 @@
     "confianza_ubicacion": "municipio"
   },
   {
-    "caso_id": "17ea324552a7",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-18",
-    "municipio": "Soledad",
-    "barrio": null,
-    "medios": [
-      "Impacto News"
-    ],
-    "notas": [
-      "f9427100ef2190d4375661ca7d70159bc9d4b895"
-    ],
-    "fuentes": [
-      {
-        "medio": "Impacto News",
-        "url": "https://impactonews.co/una-racha-que-preocupa-mujer-fue-asesinada-en-soledad-y-paso-a-ser-la-victima-80-en-2026/",
-        "titular": "¡Una racha que preocupa! Mujer fue asesinada en Soledad y pasó a ser la víctima 80 en 2026"
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
-  },
-  {
     "caso_id": "0f999b5d21e7",
     "tipo": "homicidio",
     "tipos": [
@@ -912,98 +628,6 @@
     "lat": 10.93227,
     "lon": -74.82409,
     "confianza_ubicacion": "alta"
-  },
-  {
-    "caso_id": "eea9d849fbd6",
-    "tipo": "extorsion",
-    "tipos": [
-      "extorsion"
-    ],
-    "fecha": "2026-11-17",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "212f16350cb278c52de6bf0da0d7cfd5e8f0638d"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/17/golpe-a-la-extorsion-en-cienaga-cinco-presuntos-integrantes-de-los-conquistadores-de-la-sierra-capturados-en-sevillano/",
-        "titular": "Golpe a la extorsión en Ciénaga: Cinco presuntos integrantes de los conquistadores de la sierra capturados en Sevillano - Diario La Libertad."
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
-    "caso_id": "e887dd986881",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio",
-      "desaparicion"
-    ],
-    "fecha": "2026-11-17",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad",
-      "Zona Cero"
-    ],
-    "notas": [
-      "316f3399c8761acc71cadcb2076fb4aa86e298ec",
-      "45e80039ae17c97d15d57dd6a8a704b95cc4f291"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/ola-golpeo-lancha-en-la-alta-guajira-un-muerto-cuatro-desaparecidos-y-ocho-rescatados",
-        "titular": "Ola golpeó lancha en la Alta Guajira: un muerto, cuatro desaparecidos y ocho rescatados"
-      },
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/17/tragedia-en-la-alta-guajira-una-ola-hundio-una-lancha-dejo-un-menor-muerto-y-cuatro-personas-desaparecidas/",
-        "titular": "Tragedia en la Alta Guajira: una ola hundió una lancha, dejó un menor muerto y cuatro personas desaparecidas - Diario La Libertad."
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
-    "caso_id": "e7c44fb42f62",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-17",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "a16c88a48a0354d810fb1da6a721a74013c3e944"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/17/hallan-muerto-en-madrid-a-nielson-de-souza-vilela-abogado-de-el-pollo-carvajal/",
-        "titular": "Hallan muerto en Madrid a Nielson de Souza Vilela, abogado de ‘El Pollo’ Carvajal - Diario La Libertad."
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "e3d1711b3b96",
@@ -1054,34 +678,6 @@
         "medio": "Diario La Libertad",
         "url": "https://diariolalibertad.com/2026/11/17/le-salio-mal-la-jugada-cayo-alias-breyner-con-un-revolver-en-magangue/",
         "titular": "¡Le salió mal la jugada! Cayó alias ‘Breyner’ con un revólver en Magangué - Diario La Libertad."
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
-    "caso_id": "bd9affe302af",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-17",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Zona Cero"
-    ],
-    "notas": [
-      "ddc97468a1adc6890b1c772da5c1c4a31ea0ab92"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/una-mujer-de-inteligencia-la-mejor-policia-de-colombia-en-los-premios-excelencia",
-        "titular": "Una mujer de inteligencia, la mejor policía de Colombia en los Premios Excelencia Policial 2026"
       }
     ],
     "estado": "pendiente",
@@ -1152,124 +748,6 @@
     "confianza_ubicacion": "baja"
   },
   {
-    "caso_id": "4e76b06e57db",
-    "tipo": "violencia_sexual",
-    "tipos": [
-      "violencia_sexual"
-    ],
-    "fecha": "2026-11-17",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Zona Cero"
-    ],
-    "notas": [
-      "9b02fb352bd9ba7b83fb6dd7b4859848ad44f929"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/fiscalia-imputo-hollman-morris-por-acto-sexual-violento-agravado-contra-una-periodista",
-        "titular": "Fiscalía imputó a Hollman Morris por acto sexual violento agravado contra una periodista"
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
-    "caso_id": "be7db89f77bd",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio",
-      "desaparicion"
-    ],
-    "fecha": "2026-11-16",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "d7583466064a4923760ff4dceea44a1a2f192c8c"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/16/encuentran-sin-vida-a-hombre-reportado-como-desaparecido-en-zona-rural-de-aracataca/",
-        "titular": "Encuentran sin vida a hombre reportado como desaparecido en zona rural de Aracataca - Diario La Libertad."
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "7509d2205d9b"
-    ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
-    "caso_id": "7509d2205d9b",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio",
-      "secuestro"
-    ],
-    "fecha": "2026-11-16",
-    "municipio": "Barranquilla",
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "93bfae1170c1092d341227bd166263582dbe8572"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/16/encuentran-asesinado-en-sitionuevo-a-barranquillero-que-habia-sido-secuestrado-en-villanueva/",
-        "titular": "Encuentran asesinado en Sitionuevo a barranquillero que había sido secuestrado en Villanueva - Diario La Libertad."
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "be7db89f77bd"
-    ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
-  },
-  {
-    "caso_id": "644610753115",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-16",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "eb97f514d2ad84ab3c787eaa11fb3f8bc1796d34"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/16/murio-miguel-angel-felix-gallardo-fundador-del-cartel-de-guadalajara/",
-        "titular": "Murió Miguel Ángel Félix Gallardo, fundador del Cartel de Guadalajara - Diario La Libertad."
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
     "caso_id": "5b280dab9d0c",
     "tipo": "homicidio",
     "tipos": [
@@ -1296,110 +774,6 @@
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "baja"
-  },
-  {
-    "caso_id": "5993fcb34d34",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-16",
-    "municipio": "Barranquilla",
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad",
-      "Zona Cero"
-    ],
-    "notas": [
-      "ac1a2ab99290bccb7ec4b90bcb37f0bebee8b404",
-      "b17859c2536fb13b5e68f44fa23db7a27da91311"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/cali-y-bogota-con-mas-mujeres-asesinadas-en-2026-barranquilla-registra-34-homicidios",
-        "titular": "Cali y Bogotá, con más mujeres asesinadas en 2026: Barranquilla registra 34 homicidios"
-      },
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/16/atlantico-registra-77-mujeres-asesinadas-en-2026-defensoria-alerta-por-escalada-de-violencia/",
-        "titular": "Atlántico registra 77 mujeres asesinadas en 2026: Defensoría alerta por escalada de violencia - Diario La Libertad."
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "5e08a14deb1d"
-    ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
-  },
-  {
-    "caso_id": "57183fddc4cc",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio",
-      "lesiones"
-    ],
-    "fecha": "2026-11-16",
-    "municipio": "Barranquilla",
-    "barrio": "Simón Bolívar",
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "6595802c86a1df7428fade3d6b12479123f8d012",
-      "8be73548fc911387a48f41e1ef2214b6d6d86724"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/16/sicarios-asesinan-a-alias-kevin-toyota-senalado-jefe-militar-de-los-del-freseo-frente-a-un-billar-en-el-suroriente-de-barranquilla/",
-        "titular": "Sicarios asesinan a alias ‘Kevin Toyota’, señalado jefe militar de ‘Los del Freseo’, frente a un billar en el suroriente de Barranquilla - Diario La Libertad."
-      },
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/16/asesinan-a-alias-kevin-toyota-senalado-jefe-militar-de-los-del-freseo-frente-a-billares-elite-en-barranquilla/",
-        "titular": "Asesinan a alias ‘Kevin Toyota’, señalado jefe militar de ‘Los del Freseo’, frente a Billares Élite en Barranquilla - Diario La Libertad."
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "098330ac73af"
-    ],
-    "lat": 10.94428,
-    "lon": -74.77722,
-    "confianza_ubicacion": "alta"
-  },
-  {
-    "caso_id": "2e34f4bb21a8",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-16",
-    "municipio": "Barranquilla",
-    "barrio": null,
-    "medios": [
-      "Impacto News"
-    ],
-    "notas": [
-      "0b4ffabbfa4b7b1ec15855379e968145d47fe36c"
-    ],
-    "fuentes": [
-      {
-        "medio": "Impacto News",
-        "url": "https://impactonews.co/ataque-sicarial-contra-nucleo-familiar-de-alias-kevin-masacre-asesinaron-a-su-tia-cuando-hacia-oficios-en-su-casa/",
-        "titular": "Ataque sicarial contra núcleo familiar de alias Kevin Masacre: asesinaron a su tía cuando hacía oficios en su casa"
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "098330ac73af"
-    ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "0ef5bb60ad8d",
@@ -1507,32 +881,55 @@
     "confianza_ubicacion": "alta"
   },
   {
-    "caso_id": "a25e7190d98c",
+    "caso_id": "57183fddc4cc",
     "tipo": "homicidio",
     "tipos": [
-      "homicidio"
+      "homicidio",
+      "lesiones"
     ],
     "fecha": "2026-11-15",
-    "municipio": null,
-    "barrio": null,
+    "municipio": "Barranquilla",
+    "barrio": "Simón Bolívar",
     "medios": [
-      "Diario La Libertad"
+      "Diario La Libertad",
+      "Zona Cero"
     ],
     "notas": [
-      "15d6405880c90a4309981eec077d7058872dc79f"
+      "2717e837f33f2aaa1ccbd695b5b974c6203c8e54",
+      "6298e958b762dfd3a99692f8eb12e7baf5a38167",
+      "6595802c86a1df7428fade3d6b12479123f8d012",
+      "8be73548fc911387a48f41e1ef2214b6d6d86724"
     ],
     "fuentes": [
       {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/un-muerto-y-un-herido-en-ataque-bala-frente-un-billar-en-simon-bolivar",
+        "titular": "Un muerto y un herido en ataque a bala frente a un billar en Simón Bolívar"
+      },
+      {
         "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/15/indepaz-reporta-26-masacres-y-87-victimas-en-los-primeros-100-dias-del-gobierno-de-la-espriella/",
-        "titular": "Indepaz reporta 26 masacres y 87 víctimas en los primeros 100 días del Gobierno De la Espriella - Diario La Libertad."
+        "url": "https://diariolalibertad.com/2026/11/16/ataque-a-bala-frente-a-billar-en-simon-bolivar-deja-un-hombre-muerto-y-un-vigilante-herido/",
+        "titular": "Ataque a bala frente a billar en Simón Bolívar deja un hombre muerto y un vigilante herido - Diario La Libertad."
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/16/sicarios-asesinan-a-alias-kevin-toyota-senalado-jefe-militar-de-los-del-freseo-frente-a-un-billar-en-el-suroriente-de-barranquilla/",
+        "titular": "Sicarios asesinan a alias ‘Kevin Toyota’, señalado jefe militar de ‘Los del Freseo’, frente a un billar en el suroriente de Barranquilla - Diario La Libertad."
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/16/asesinan-a-alias-kevin-toyota-senalado-jefe-militar-de-los-del-freseo-frente-a-billares-elite-en-barranquilla/",
+        "titular": "Asesinan a alias ‘Kevin Toyota’, señalado jefe militar de ‘Los del Freseo’, frente a Billares Élite en Barranquilla - Diario La Libertad."
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "0e5b3e37b767",
+      "098330ac73af"
+    ],
+    "lat": 10.94428,
+    "lon": -74.77722,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "4596785ce505",
@@ -1635,6 +1032,7 @@
     ],
     "estado": "posible_duplicado",
     "posible_duplicado_de": [
+      "57183fddc4cc",
       "503df59b6b51",
       "9a45a5f2371c"
     ],
@@ -1649,13 +1047,15 @@
       "homicidio"
     ],
     "fecha": "2026-11-15",
-    "municipio": null,
+    "municipio": "Barranquilla",
     "barrio": "Las Nieves",
     "medios": [
       "Diario La Libertad",
+      "Impacto News",
       "Zona Cero"
     ],
     "notas": [
+      "0b4ffabbfa4b7b1ec15855379e968145d47fe36c",
       "3f26e57b397460edbf9f32d70425951aba850a64",
       "d35a4ab56d93262834c2840a9c02e94e5c72a7c5"
     ],
@@ -1669,11 +1069,15 @@
         "medio": "Diario La Libertad",
         "url": "https://diariolalibertad.com/2026/11/15/sicarios-asesinan-a-tia-de-alias-kevin-masacre-en-el-barrio-las-nieves/",
         "titular": "Sicarios asesinan a tía de alias ‘Kevin Masacre’ en el barrio Las Nieves - Diario La Libertad."
+      },
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/ataque-sicarial-contra-nucleo-familiar-de-alias-kevin-masacre-asesinaron-a-su-tia-cuando-hacia-oficios-en-su-casa/",
+        "titular": "Ataque sicarial contra núcleo familiar de alias Kevin Masacre: asesinaron a su tía cuando hacía oficios en su casa"
       }
     ],
     "estado": "posible_duplicado",
     "posible_duplicado_de": [
-      "2e34f4bb21a8",
       "57183fddc4cc"
     ],
     "lat": 10.95257,
@@ -1707,62 +1111,6 @@
     "lat": 10.94081,
     "lon": -74.79921,
     "confianza_ubicacion": "alta"
-  },
-  {
-    "caso_id": "caa16d826ecd",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-14",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "ee78e48d71a15619af0e01663c8b367fb8cf682f"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/14/ataque-israeli-contra-hospital-en-gaza-dejo-seis-muertos-entre-ellos-un-medico-y-un-nino/",
-        "titular": "Ataque israelí contra hospital en Gaza dejó seis muertos, entre ellos un médico y un niño - Diario La Libertad."
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
-    "caso_id": "c57bc740fc1e",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-14",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Zona Cero"
-    ],
-    "notas": [
-      "9d2c85899603284a2f0dfc4d7b35e8469694663d"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/conductor-de-tractocamion-fue-asesinado-en-ataque-armado-en-la-panamericana",
-        "titular": "Conductor de tractocamión fue asesinado en ataque armado, en la Vía Panamericana"
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "b98b7c8b3e37",
@@ -2027,34 +1375,6 @@
     "confianza_ubicacion": "alta"
   },
   {
-    "caso_id": "77a3de1610d5",
-    "tipo": "hurto",
-    "tipos": [
-      "hurto"
-    ],
-    "fecha": "2026-11-13",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "1dfeb3771b3bac249da2e9f4a3bab1b80849d799"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/13/petrolero-embistio-y-volco-un-crucero-con-129-pasajeros-en-el-rio-misisipi/",
-        "titular": "Petrolero embistió y volcó un crucero con 129 pasajeros en el río Misisipi - Diario La Libertad."
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
     "caso_id": "76002fcbe07a",
     "tipo": "homicidio",
     "tipos": [
@@ -2269,35 +1589,6 @@
     "posible_duplicado_de": [
       "83a26c2ea911"
     ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
-    "caso_id": "b83607e76435",
-    "tipo": "feminicidio",
-    "tipos": [
-      "feminicidio",
-      "homicidio"
-    ],
-    "fecha": "2026-11-12",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "4452cea9a2b330138ff5f8d19dc1c4ee5b3bba35"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/12/gobernacion-del-atlantico-reforzara-atencion-a-mujeres-victimas-25-estan-protegidas-por-riesgo-de-feminicidio/",
-        "titular": "Gobernación del Atlántico reforzará atención a mujeres víctimas: 25 están protegidas por riesgo de feminicidio - Diario La Libertad."
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "baja"
@@ -2760,34 +2051,6 @@
     "confianza_ubicacion": "municipio"
   },
   {
-    "caso_id": "f63172fbff93",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-11",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Zona Cero"
-    ],
-    "notas": [
-      "60e793cc8242fbe963c9b32e5f930f891bc68630"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/indagacion-previa-marcos-calarca-y-sandra-ramirez-por-homicidio-de-miguel-uribe-turbay",
-        "titular": "A indagación previa ‘Marcos Calarcá’ y Sandra Ramírez por homicidio de Miguel Uribe Turbay"
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
     "caso_id": "acadaed7ad40",
     "tipo": "homicidio",
     "tipos": [
@@ -2908,34 +2171,6 @@
         "medio": "Zona Cero",
         "url": "https://zonacero.com/judiciales/asesinan-bala-una-mujer-cuando-salia-de-una-tienda-cerca-la-torre-del-pescado",
         "titular": "Asesinan a bala a una mujer cuando salía de una tienda cerca a la ‘Torre del pescado’"
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
-  },
-  {
-    "caso_id": "740ebefd74dd",
-    "tipo": "lesiones",
-    "tipos": [
-      "lesiones"
-    ],
-    "fecha": "2026-11-11",
-    "municipio": "Barranquilla",
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "23b7d3b16e3dd9ea87246047e7f6b4d095aa1a19"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/11/uniformado-de-la-policia-resulto-herido-tras-choque-entre-patrulla-y-camioneta-en-barranquilla/",
-        "titular": "Uniformado de la Policía resultó herido tras choque entre patrulla y camioneta en Barranquilla - Diario La Libertad."
       }
     ],
     "estado": "pendiente",
@@ -3193,34 +2428,6 @@
     "confianza_ubicacion": "baja"
   },
   {
-    "caso_id": "146f5f5aed29",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-09",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "Zona Cero"
-    ],
-    "notas": [
-      "0067eeb2a164534ad0bef02a1e20fdfcf5b1e5d4"
-    ],
-    "fuentes": [
-      {
-        "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/fiscalia-seguira-investigando-al-expresidente-uribe-por-dos-masacres-y-un-homicidio",
-        "titular": "Fiscalía seguirá investigando al expresidente Uribe por dos masacres y un homicidio"
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
-  },
-  {
     "caso_id": "8997b02b1ed1",
     "tipo": "homicidio",
     "tipos": [
@@ -3418,34 +2625,6 @@
     "lat": 10.91567,
     "lon": -74.80778,
     "confianza_ubicacion": "alta"
-  },
-  {
-    "caso_id": "8fb6de1dadd6",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-04-10",
-    "municipio": null,
-    "barrio": null,
-    "medios": [
-      "CTV Barranquilla"
-    ],
-    "notas": [
-      "f47dc21defe06a357d21e47364099da232d2c71c"
-    ],
-    "fuentes": [
-      {
-        "medio": "CTV Barranquilla",
-        "url": "https://ctvbarranquilla.com/article/atl-ntico-en-alerta-26-mujeres-asesinadas-y-4-masacres-encienden-alarmas-en-2026",
-        "titular": "AtlÃ¡ntico en alerta: 26 mujeres asesinadas y 4 masacres encienden alarmas en 2026"
-      }
-    ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "10ce265fbfe8",
