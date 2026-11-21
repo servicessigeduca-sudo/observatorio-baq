@@ -61,4 +61,6 @@ jobs:
           git add data/notas.json data/casos.json
           git diff --cached --quiet && echo "Sin notas nuevas" && exit 0
           git commit -m "Actualizar notas y casos ($(date -u +%Y-%m-%dT%H:%MZ))"
+          # Otro flujo pudo subir algo mientras corría (p. ej., Página o Datos oficiales).
+          git pull --rebase origin main
           git push

@@ -38,7 +38,9 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Descargar y agregar
-        run: python -m oficiales | tee -a "$GITHUB_STEP_SUMMARY"
+        run: |
+          set -o pipefail
+          python -m oficiales | tee -a "$GITHUB_STEP_SUMMARY"
       - name: Guardar en el repositorio
         run: |
           git config user.name "github-actions[bot]"
