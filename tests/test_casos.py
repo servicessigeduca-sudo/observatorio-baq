@@ -103,3 +103,63 @@ def test_barrio_nombrado_sin_la_palabra_barrio():
 def test_excluye_notas_de_otros_departamentos():
     notas = [nota("a", "ctv", "Ataque contra la Policía en Casanare: un uniformado muerto", "2026-11-12", ["homicidio"], municipio=None)]
     assert agrupar(notas) == []
+
+
+def test_misma_persona_o_alias_une_aunque_cambie_el_barrio():
+    notas = [
+        nota("a", "zona-cero", "En la terraza de su casa asesinan a tía de alias ‘Kevin Masacre’ en el barrio Las Nieves", "2026-11-15", ["homicidio"], "Las Nieves", None),
+        nota("b", "impacto", "Ataque sicarial contra núcleo familiar de alias Kevin Masacre: asesinaron a su tía", "2026-11-16", ["homicidio"]),
+        nota("c", "la-libertad", "Investigan posible móvil pasional en el asesinato de Katy Mendoza, de 18 años", "2026-11-18", ["homicidio"], "El Bosque"),
+        nota("d", "la-libertad", "Investigan si amenazas estarían detrás del crimen de Katy Mendoza", "2026-11-18", ["homicidio"], "La Paz"),
+    ]
+    casos = agrupar(notas)
+    assert sorted(len(c["notas"]) for c in casos) == [2, 2]
+
+
+def test_mismo_numero_de_victima_une():
+    notas = [
+        nota("a", "zona-cero", "Asesinan a bala a una mujer en Villa María: la número 80 en lo que va del 2026", "2026-11-18", ["homicidio"], "Villa María", "Soledad"),
+        nota("b", "impacto", "Mujer fue asesinada en Soledad y pasó a ser la víctima 80 en 2026", "2026-11-18", ["homicidio"], None, "Soledad"),
+    ]
+    assert len(agrupar(notas)) == 1
+
+
+def test_no_une_nombres_de_barrio_como_si_fueran_personas():
+    notas = [
+        nota("a", "zona-cero", "Asesinan a mototaxista en Alfonso López", "2026-11-10", ["homicidio"], None, None),
+        nota("b", "ctv", "Hallan muerta a una mujer en Alfonso López", "2026-11-10", ["homicidio"], None, None),
+    ]
+    assert len(agrupar(notas)) == 2
+
+
+def test_excluye_balances_seguimientos_accidentes_y_otros_paises():
+    titulares = [
+        "Atlántico registra 80 mujeres asesinadas en 2026 y piden acciones urgentes",
+        "Indepaz reporta 26 masacres y 87 víctimas en los primeros 100 días",
+        "Condenan a 10 años a adolescente que asesinó a puñaladas a su novio",
+        "Aseguran a cuatro presuntos integrantes de ‘Los Cabros’ por homicidio de adolescente",
+        "Joven murió en accidente en moto en la Circunvalar",
+        "Ataque israelí contra hospital en Gaza dejó seis muertos",
+        "Encuentran asesinado en Sitionuevo a barranquillero que había sido secuestrado",
+    ]
+    notas = [nota(str(i), "ctv", t, "2026-11-12", ["homicidio"]) for i, t in enumerate(titulares)]
+    assert agrupar(notas) == []
+
+
+def test_simon_bolivar_es_un_barrio_del_area():
+    notas = [nota("a", "ctv", "Un muerto y un herido en ataque a bala frente a un billar en Simón Bolívar", "2026-11-15", ["homicidio"], municipio=None)]
+    assert len(agrupar(notas)) == 1
+
+
+def test_no_arrastra_uniones_automaticas_de_corridas_anteriores():
+    notas = [
+        nota("a", "zona-cero", "Asesinan a mujer en Villa María", "2026-11-18", ["homicidio"], None, "Soledad"),
+        nota("b", "ctv", "Asesinan a motocarrista en Malambo", "2026-11-18", ["homicidio"], None, "Malambo"),
+    ]
+    previos = [{"caso_id": "x", "notas": ["a", "b"], "estado": "posible_duplicado"}]
+    casos = agrupar(notas, previos)
+    assert len(casos) == 2
+    assert len({c["caso_id"] for c in casos}) == 2
+    # Si el editor las unió, siguen juntas.
+    previos[0]["estado"] = "publicado"
+    assert len(agrupar(notas, previos)) == 1

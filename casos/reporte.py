@@ -4,6 +4,8 @@ from __future__ import annotations
 
 from collections import Counter
 
+from .agrupar import motivo_exclusion, tipo_principal
+
 NOMBRES = {
     "homicidio": "Homicidio", "feminicidio": "Feminicidio", "lesiones": "Lesiones",
     "hurto": "Hurto", "extorsion": "Extorsión", "secuestro": "Secuestro",
@@ -28,6 +30,7 @@ def generar(notas: list[dict], casos: list[dict]) -> str:
     dudas = sum(1 for c in casos if c["estado"] == "posible_duplicado")
     sin_barrio = sum(1 for c in casos if not c["barrio"])
     en_casos = sum(len(c["notas"]) for c in casos)
+    fuera = Counter(m for n in notas if tipo_principal(n) and n.get("estado") != "publicado" and (m := motivo_exclusion(n)))
     out = [
         "## Casos",
         "",
@@ -37,6 +40,9 @@ def generar(notas: list[dict], casos: list[dict]) -> str:
         f"- {len(multi)} casos reúnen notas de más de un medio o más de una nota.",
         f"- {dudas} quedan como posible duplicado para que el editor decida.",
         f"- {sin_barrio} no tienen barrio identificado.",
+        f"- {sum(fuera.values())} notas con delito no cuentan como caso: {fuera['fuera_del_area']} de fuera del área, "
+        f"{fuera['balance']} balances o cifras acumuladas, {fuera['seguimiento_judicial']} seguimientos judiciales "
+        f"y {fuera['accidente']} accidentes.",
         "",
     ]
     out += _tabla("Tipo", Counter(NOMBRES.get(c["tipo"], c["tipo"]) for c in casos), total)
