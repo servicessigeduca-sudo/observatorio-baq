@@ -10,6 +10,7 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-05,Soledad,Los Almendros,hom,Arma de fuego,1
 2026-06,,,hom,Sin dato,1
 2026-06,Soledad,,hom,Sin dato,1
+2026-11,,,ext,Sin dato,1
 2026-11,,,hom,Arma de fuego,5
 2026-11,,,hom,Sin dato,7
 2026-11,,,hur,Arma de fuego,1
@@ -27,6 +28,7 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-11,,Santo Domingo,hom,Arma de fuego,1
 2026-11,,Siete de Abril,hom,Sin dato,1
 2026-11,,Villa María,hom,Arma de fuego,1
+2026-11,Barranquilla,,ext,Sin dato,1
 2026-11,Barranquilla,,hom,Arma de fuego,2
 2026-11,Barranquilla,,hom,Sin dato,1
 2026-11,Barranquilla,,hur,Sin dato,1
@@ -46,7 +48,7 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-11,Barranquilla,Simón Bolívar,hom,Arma de fuego,1
 2026-11,Barranquilla,Torre del Pescado,hom,Arma de fuego,1
 2026-11,Galapa,,hom,Arma de fuego,1
-2026-11,Galapa,,hom,Sin dato,1
+2026-11,Galapa,,hom,Sin dato,2
 2026-11,Malambo,Mesolandia,ext,Arma de fuego,1
 2026-11,Puerto Colombia,,les,Arma de fuego,1
 2026-11,Soledad,,ext,Sin dato,1
@@ -55,6 +57,7 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-11,Soledad,,otr,Sin dato,2
 2026-11,Soledad,Ciudad Paraíso,hom,Arma de fuego,2
 2026-11,Soledad,El Ferry,hom,Arma de fuego,1
+2026-11,Soledad,Las Nubes,hom,Arma de fuego,1
 2026-11,Soledad,Los Robles,les,Arma de fuego,1
 2026-11,Soledad,Villa Carmen Etapa 2,hom,Sin dato,1
 2026-11,Soledad,Villa Carmen II,hom,Arma de fuego,1

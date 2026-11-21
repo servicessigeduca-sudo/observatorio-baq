@@ -202,8 +202,8 @@ mes,municipio,delito,prensa,oficial,registro,proporcion_prensa,notas
 2026-11,Barranquilla,hom,17,,,,prensa_parcial
 2026-11,Barranquilla,les,1,,,,prensa_parcial
 2026-11,Barranquilla,hur,1,,,,prensa_parcial
-2026-11,Barranquilla,ext,0,,,,prensa_parcial
-2026-11,Soledad,hom,12,,,,prensa_parcial
+2026-11,Barranquilla,ext,1,,,,prensa_parcial
+2026-11,Soledad,hom,13,,,,prensa_parcial
 2026-11,Soledad,les,1,,,,prensa_parcial
 2026-11,Soledad,hur,0,,,,prensa_parcial
 2026-11,Soledad,ext,1,,,,prensa_parcial
@@ -211,7 +211,7 @@ mes,municipio,delito,prensa,oficial,registro,proporcion_prensa,notas
 2026-11,Malambo,les,0,,,,prensa_parcial
 2026-11,Malambo,hur,0,,,,prensa_parcial
 2026-11,Malambo,ext,1,,,,prensa_parcial
-2026-11,Galapa,hom,2,,,,prensa_parcial
+2026-11,Galapa,hom,3,,,,prensa_parcial
 2026-11,Galapa,les,0,,,,prensa_parcial
 2026-11,Galapa,hur,0,,,,prensa_parcial
 2026-11,Galapa,ext,0,,,,prensa_parcial
