@@ -1,6 +1,396 @@
 [
   {
     "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/menores-de-edad-estarian-detras-de-exigencias-extorsivas-tras-hallazgo-de-panfletos-y-una-granada-en-barranquilla/",
+    "titular": "Menores de edad estarían detrás de exigencias extorsivas tras hallazgo de panfletos y una granada en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T06:25:14-05:00",
+    "resumen": "Entre los elementos incautados apareció una granada de aturdimiento, además de varios panfletos cuyo contenido estaría relacionado con amenazas y exigencias",
+    "fecha_captura": "2026-11-21T06:38:39-05:00",
+    "tipos_delito": [
+      "extorsion"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "54309751c5ab509dbdf50eb4cc1ac7af3d72c757"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/universidad-del-atlantico-eligio-representantes-de-las-directivas-academicas-ante-el-consejo-superior/",
+    "titular": "Universidad del Atlántico eligió representantes de las directivas académicas ante el Consejo Superior - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T22:40:29-05:00",
+    "resumen": "La Universidad del Atlántico eligió a Claudia Patricia Rodríguez Albor como representante principal de las directivas académicas ante el Consejo Superior",
+    "fecha_captura": "2026-11-21T06:38:39-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "09ff4c5caef25fd3718c765f6ce297b1c6b9020d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/trump-califica-a-venezuela-como-una-nueva-adquisicion-de-estados-unidos-y-destaca-su-riqueza-petrolera/",
+    "titular": "Trump califica a Venezuela como una «nueva adquisición» de Estados Unidos y destaca su riqueza petrolera - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T22:03:25-05:00",
+    "resumen": "El presidente de Estados Unidos, Donald Trump, calificó a Venezuela como una «nueva adquisición» estadounidense durante una reunión bilateral con el",
+    "fecha_captura": "2026-11-21T06:38:39-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ab476b09766a5d8bb8ea3befb0f2954ce0ee7726"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/fiscalia-imputara-al-exgerente-de-campana-de-carolina-corcho-por-presuntas-facturas-falsas/",
+    "titular": "Fiscalía imputará al exgerente de campaña de Carolina Corcho por presuntas facturas falsas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T21:39:24-05:00",
+    "resumen": "La Fiscalía General de la Nación solicitó audiencia de formulación de imputación contra Nelson Emiro Linares Zárate, quien se desempeñó como gerente de la",
+    "fecha_captura": "2026-11-21T06:38:39-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8edf00c03017f6dc5a6ccd7adee14f53f9496e9e"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/judicializan-a-mujer-senalada-de-drogar-a-conductores-de-plataformas-para-robarles-sus-motocicletas-en-risaralda/",
+    "titular": "Judicializan a mujer señalada de drogar a conductores de plataformas para robarles sus motocicletas en Risaralda - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T21:33:58-05:00",
+    "resumen": "Una mujer fue judicializada por su presunta participación en una serie de hurtos contra conductores de plataformas digitales en Pereira y Dosquebradas. Según",
+    "fecha_captura": "2026-11-21T06:38:39-05:00",
+    "tipos_delito": [
+      "hurto"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c5910cd48a5fa238f31a4f70819ac92ab6217f16"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/aprehenden-dos-adolescentes-con-una-granada-de-aturdimiento-y-panfletos-extorsivos",
+    "titular": "Aprehenden a dos adolescentes con una granada de aturdimiento y panfletos extorsivos",
+    "fecha_publicacion": "2026-11-20T21:06:39-05:00",
+    "resumen": "Uno de los menores confesó estar siendo “instrumentalizado” por la banda criminal ‘Los Costeños’.",
+    "fecha_captura": "2026-11-21T06:37:38-05:00",
+    "tipos_delito": [
+      "extorsion"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7aac57ae9c82d27f607fae81e1109b10a5119624"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/josias-fiesco-enfrenta-demanda-por-30-millones-tras-los-escrutinios-electorales/",
+    "titular": "Josías Fiesco enfrenta demanda por $30 millones tras los escrutinios electorales - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T20:17:55-05:00",
+    "resumen": "El excandidato del Centro Democrático a la Cámara de Representantes por Bogotá, Josías Fiesco Agudelo, enfrenta una reclamación judicial por 30 millones de",
+    "fecha_captura": "2026-11-21T06:38:39-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e147f5bf3b3fe7ff8480e119806dfe2a2d557c27"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/asesinan-a-un-hombre-cuando-salia-de-su-vivienda-en-el-barrio-las-nubes-de-soledad/",
+    "titular": "Asesinan a un hombre cuando salía de su vivienda en el barrio Las Nubes de Soledad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T16:35:21-05:00",
+    "resumen": "Un hombre de 31 años fue asesinado a tiros cuando salía de su vivienda en el barrio Las Nubes, en el municipio de Soledad, Atlántico.",
+    "fecha_captura": "2026-11-21T06:38:39-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Las Nubes",
+    "estado": "pendiente",
+    "id": "754a4704394151e8cc7b89a98bfbf5e5c01267cb"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/a-prision-cinco-hombres-senalados-de-transportar-mas-de-15-toneladas-de-cocaina-por-el-caribe/",
+    "titular": "A prisión cinco hombres señalados de transportar más de 1,5 toneladas de cocaína por el Caribe - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T16:23:01-05:00",
+    "resumen": "Los procesados fueron identificados como Leonardo Martínez Marín, Leonel Charles Moreno Andrade, Jhon Larry Vásquez Cuesta, Noel Mosquera Mosquera y Miguel",
+    "fecha_captura": "2026-11-21T06:38:39-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ccf50b763528a02416df2cc2b05e27a730141f41"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/carcel-para-5-imputados-por-transportar-tonelada-y-media-de-cocaina-en-una-lancha-por-el",
+    "titular": "Cárcel para 5 imputados por transportar tonelada y media de cocaína en una lancha por el Mar Caribe",
+    "fecha_publicacion": "2026-11-20T15:28:00-05:00",
+    "resumen": "Fueron capturados en altamar.",
+    "fecha_captura": "2026-11-21T06:37:38-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1d1f7bb70a6bdf05f10fee8ca3f5c848d359b8f5"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/capturan-a-presunto-responsable-de-dejar-restos-humanos-frente-a-la-carcel-la-modelo-de-barranquilla/",
+    "titular": "Capturan a presunto responsable de dejar restos humanos frente a la cárcel La Modelo de Barranquilla",
+    "fecha_publicacion": "2026-11-20T15:27:06-05:00",
+    "resumen": "El individuo fue ubicado mediante seguimiento y análisis de cámaras de seguridad. Registra varias anotaciones, según lo informado por las autoridades. Las autoridades identificaron y capturaron al hombre que estaría detrás del macabro hallazgo de una cabeza y una mano humanas abandonadas frente a…",
+    "fecha_captura": "2026-11-21T06:41:06-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d53cb7012f8ec5e9542b9c1ff808b6a83ad6be3c"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/este-es-el-capturado-por-presuntamente-dejar-restos-humanos-en-la-modelo-seria",
+    "titular": "Este es el capturado por presuntamente dejar restos humanos en la Modelo: sería integrante de 'Los Pepes’",
+    "fecha_publicacion": "2026-11-20T14:24:00-05:00",
+    "resumen": "La motocicleta también fue inmovilizada.",
+    "fecha_captura": "2026-11-21T06:37:38-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a179841c49c28dd56acd904c4f5308d85cc7fbc4"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/camaras-de-seguridad-permitieron-ubicar-en-barlovento-a-sospechoso-por-caso-de-restos-humanos-en-la-modelo/",
+    "titular": "Cámaras de seguridad permitieron ubicar en Barlovento a sospechoso por caso de restos humanos en La Modelo - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T14:02:29-05:00",
+    "resumen": "El procedimiento se realizó este viernes en el sector conocido como ‘La Isla’, en Barlovento, específicamente en la zona de la calle 10 con carrera 50. Hasta",
+    "fecha_captura": "2026-11-21T06:38:39-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d0c07ad84835a2acfe836071de0d5d9f5791d4c6"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/el-es-inocente-esta-en-un-centro-terapeutico-madre-del-novio-de-la-adolescente-hallada-sin-vida-en-galapa/",
+    "titular": "“Él es inocente, está en un centro terapéutico”: madre del novio de la adolescente hallada sin vida en Galapa",
+    "fecha_publicacion": "2026-11-20T14:02:01-05:00",
+    "resumen": "La mujer asegura que su hijo no tiene relación con los hechos que rodearon la muerte de la menor de 17 años. De manera enfática, la madre del novio de Rosibel Riquett Ortiz, menor de 17 años hallada sin vida el pasado martes 17 de noviembre en inmediaciones del puente de la Prosperidad, en Galapa,…",
+    "fecha_captura": "2026-11-21T06:41:06-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Galapa",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a01e7c36cbc09e452b6e5b8fef62fccbe33ef17e"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/asesinan-un-hombre-cuando-salia-de-su-casa-en-el-barrio-las-nubes",
+    "titular": "Asesinan a un hombre cuando salía de su casa en el barrio Las Nubes",
+    "fecha_publicacion": "2026-11-20T13:46:00-05:00",
+    "resumen": "En el municipio de Soledad.",
+    "fecha_captura": "2026-11-21T06:37:38-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Las Nubes",
+    "estado": "pendiente",
+    "id": "4db062f86ccc72d8825a4010419f913e2600adbd"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/capturan-en-barlovento-presunto-responsable-de-dejar-partes-humanas-en-la-modelo",
+    "titular": "Capturan en Barlovento a presunto responsable de dejar partes humanas en la Modelo",
+    "fecha_publicacion": "2026-11-20T13:13:26-05:00",
+    "resumen": "La motocicleta había sido robada.",
+    "fecha_captura": "2026-11-21T06:37:38-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "75fddccc046afdf887a25ff8bae8c31b133bce35"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/identifican-caracteristicas-del-hombre-que-dejo-restos-humanos-y-amenazas-frente-a-la-modelo-de-barranquilla/",
+    "titular": "Identifican características del hombre que dejó restos humanos y amenazas frente a La Modelo de Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T12:28:58-05:00",
+    "resumen": "La Policía Metropolitana de Barranquilla avanza en la investigación por el hallazgo de restos humanos y panfletos amenazantes frente a la cárcel Modelo,",
+    "fecha_captura": "2026-11-21T06:38:39-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b8ef1d9a3792631d6547832fe1834396ee858938"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/identifican-rasgos-morfologicos-de-hombre-que-dejo-abandonada-cava-con-mano-humana-en-la",
+    "titular": "Identifican rasgos morfológicos de hombre que dejó abandonada cava con mano humana en La Modelo",
+    "fecha_publicacion": "2026-11-20T11:34:00-05:00",
+    "resumen": "La General Liliana Rodríguez precisó que “en esta ciudad no habrá lugar donde esconderse”.",
+    "fecha_captura": "2026-11-21T06:37:38-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8933957d41bc54224bb2dfd5d998005ed9186774"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/fiscalia-imputara-gerente-de-la-campana-de-carolina-corcho-para-la-consulta-interna-del",
+    "titular": "Fiscalía imputará a gerente de la campaña de Carolina Corcho para la consulta interna del Pacto",
+    "fecha_publicacion": "2026-11-20T11:25:00-05:00",
+    "resumen": "También será imputada otra persona que cumplía funciones administrativas y contables en una empresa que proveía diversas actividades de tipo logístico.",
+    "fecha_captura": "2026-11-21T06:37:38-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "48889138c6807c8d58e9faf9c3b8d4761a5426d7"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/en-video-quedo-grabado-el-hombre-que-dejo-cava-con-mano-humana-en-la-puerta-de-la-modelo",
+    "titular": "En video quedó grabado el hombre que dejó cava con mano humana en la puerta de La Modelo",
+    "fecha_publicacion": "2026-11-20T10:44:00-05:00",
+    "resumen": "El CTI ubicó una bolsa negra a pocos metros con una cabeza humana. El sindicato del Inpec rechazó las amenazas y pidió acciones del Gobierno Nacional.",
+    "fecha_captura": "2026-11-21T06:37:38-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8eb6f255436713774a418f24c5558f091e95a0bf"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/cti-investiga-muerte-de-detenido-en-estacion-de-policia-de-malambo",
+    "titular": "CTI investiga muerte de detenido en estación de Policía de Malambo",
+    "fecha_publicacion": "2026-11-20T10:11:00-05:00",
+    "resumen": "Su deceso se produjo en el Hospital Universidad del Norte.",
+    "fecha_captura": "2026-11-21T06:37:38-05:00",
+    "tipos_delito": [],
+    "municipio": "Malambo",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ca4c92040cf9c90714ce14f0af42de423e08d75a"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/capturan-alias-la-cigarra-senalado-de-8-asaltos-viviendas-en-barranquilla-y-puerto",
+    "titular": "Capturan a alias ‘La cigarra’: señalado de 8 asaltos a viviendas en Barranquilla y Puerto",
+    "fecha_publicacion": "2026-11-20T09:50:00-05:00",
+    "resumen": "Registra 21 anotaciones judiciales.",
+    "fecha_captura": "2026-11-21T06:37:38-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a619754ec08d453b772eddf5d677cad854c5d1a1"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/macabro-dejan-cava-de-icopor-y-una-bolsa-en-la-puerta-de-la-modelo-con-una-cabeza-y-una",
+    "titular": "Macabro: dejan cava de icopor y una bolsa en la puerta de la Modelo, con una cabeza y una mano humanas",
+    "fecha_publicacion": "2026-11-20T09:14:00-05:00",
+    "resumen": "Los dejaron con panfletos amenazando a los guardias del Inpec.",
+    "fecha_captura": "2026-11-21T06:37:38-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3b8e8048350c22340c9db9420e39928290cdcda5"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/abandonan-caja-con-una-mano-y-una-cabeza-humana-frente-a-la-carcel-modelo-de-barranquilla/",
+    "titular": "Abandonan caja con una mano y una cabeza humana frente a la cárcel Modelo de Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T09:09:59-05:00",
+    "resumen": "Redacción Judicial",
+    "fecha_captura": "2026-11-21T06:38:39-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "bab2d127952e54fd1cc37b6065ca13829d959ae1"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/fuerte-accidente-en-el-norte-vehiculo-colisiono-contra-poste-y-dejo-sin-energia-el",
+    "titular": "Fuerte accidente en el norte: vehículo colisionó contra poste y dejó sin energía el sector",
+    "fecha_publicacion": "2026-11-20T07:55:00-05:00",
+    "resumen": "En la madrugada de este viernes.",
+    "fecha_captura": "2026-11-21T06:37:38-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a01fbbac37723c4cabfb893e9844ef12025b842d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/armada-de-colombia-logra-la-captura-de-26-integrantes-del-clan-del-golfo-y-del-gao/",
+    "titular": "Armada de Colombia logra la Captura de 26 integrantes del Clan del Golfo y del GAO - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T07:25:33-05:00",
+    "resumen": "La Armada Nacional, a través de la Fuerza Naval del Caribe, logró la captura de 26 presuntos integrantes de organizaciones delictivas en los departamentos de",
+    "fecha_captura": "2026-11-21T06:38:39-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8d5921172ff93b2f3be590bf107affdeed972f3f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/fiscalia-llamo-a-juicio-al-cantante-blessd-por-presunto-constrenimiento-ilegal/",
+    "titular": "Fiscalía llamó a juicio al cantante Blessd por presunto constreñimiento ilegal - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T06:52:50-05:00",
+    "resumen": "El cantante de música urbana Stiven Mesa Londoño, conocido artísticamente como Blessd, fue llamado a juicio por la Fiscalía General de la Nación dentro de una",
+    "fecha_captura": "2026-11-21T06:38:39-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7feed87262cd6aaad1c57c99cdc94d3dcc04b624"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/20/capturan-en-cali-a-alias-blue-senalada-de-participar-en-actos-violentos-durante-protestas/",
+    "titular": "Capturan en Cali a alias ‘Blue’, señalada de participar en actos violentos durante protestas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-20T06:35:55-05:00",
+    "resumen": "De acuerdo con el informe oficial, la detenida es señalada de participar en hechos violentos durante manifestaciones, ataques contra servidores públicos,",
+    "fecha_captura": "2026-11-21T06:38:39-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "42908dd47c7e98e8a7da10b8b90d6e3a14ed6e1e"
+  },
+  {
+    "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/20/identificado-hombre-baleado-durante-atraco-al-salir-de-una-olimpica-en-soledad/",
     "titular": "Identificado hombre baleado durante atraco al salir de una Olímpica en Soledad - Diario La Libertad.",
     "fecha_publicacion": "2026-11-20T06:21:27-05:00",

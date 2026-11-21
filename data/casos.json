@@ -1,5 +1,124 @@
 [
   {
+    "caso_id": "7aed8fda43b0",
+    "tipo": "extorsion",
+    "tipos": [
+      "extorsion"
+    ],
+    "fecha": "2026-11-21",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "54309751c5ab509dbdf50eb4cc1ac7af3d72c757"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/21/menores-de-edad-estarian-detras-de-exigencias-extorsivas-tras-hallazgo-de-panfletos-y-una-granada-en-barranquilla/",
+        "titular": "Menores de edad estarían detrás de exigencias extorsivas tras hallazgo de panfletos y una granada en Barranquilla - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "ba4d7e44dce3",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-20",
+    "municipio": "Soledad",
+    "barrio": "Las Nubes",
+    "medios": [
+      "Diario La Libertad",
+      "Zona Cero"
+    ],
+    "notas": [
+      "4db062f86ccc72d8825a4010419f913e2600adbd",
+      "754a4704394151e8cc7b89a98bfbf5e5c01267cb"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/asesinan-un-hombre-cuando-salia-de-su-casa-en-el-barrio-las-nubes",
+        "titular": "Asesinan a un hombre cuando salía de su casa en el barrio Las Nubes"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/20/asesinan-a-un-hombre-cuando-salia-de-su-vivienda-en-el-barrio-las-nubes-de-soledad/",
+        "titular": "Asesinan a un hombre cuando salía de su vivienda en el barrio Las Nubes de Soledad - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "9d71b03a44e6",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-20",
+    "municipio": "Galapa",
+    "barrio": null,
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "a01e7c36cbc09e452b6e5b8fef62fccbe33ef17e"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/el-es-inocente-esta-en-un-centro-terapeutico-madre-del-novio-de-la-adolescente-hallada-sin-vida-en-galapa/",
+        "titular": "“Él es inocente, está en un centro terapéutico”: madre del novio de la adolescente hallada sin vida en Galapa"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "55327a6535d4",
+    "tipo": "extorsion",
+    "tipos": [
+      "extorsion"
+    ],
+    "fecha": "2026-11-20",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "7aac57ae9c82d27f607fae81e1109b10a5119624"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/aprehenden-dos-adolescentes-con-una-granada-de-aturdimiento-y-panfletos-extorsivos",
+        "titular": "Aprehenden a dos adolescentes con una granada de aturdimiento y panfletos extorsivos"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
     "caso_id": "d387a9c612b4",
     "tipo": "homicidio",
     "tipos": [
