@@ -88,7 +88,9 @@ Quedan fuera El Heraldo y El Tiempo, porque prohíben el scraping sin permiso es
 python -m casos --reporte reporte-casos.md
 ```
 
-Lee `data/notas.json` y escribe `data/casos.json`: un caso por hecho, con las notas de todos los medios que lo cubrieron. Dos notas se unen cuando el tipo de delito es compatible (un herido que luego muere sigue siendo el mismo hecho), las fechas están a 2 días o menos y el barrio coincide o los textos se parecen mucho. Los pares dudosos no se unen: quedan con estado `posible_duplicado` para que el editor decida. Las capturas sin otro delito y las notas de fuera del área metropolitana no generan casos.
+Lee `data/notas.json` y escribe `data/casos.json`: un caso por hecho, con las notas de todos los medios que lo cubrieron. Dos notas se unen cuando el tipo de delito es compatible (un herido que luego muere sigue siendo el mismo hecho), las fechas están a 2 días o menos y el barrio coincide o los textos se parecen mucho. También se unen cuando las dos notas nombran a la misma persona, el mismo alias o el mismo número de víctima ("la mujer 80 asesinada en 2026"). Los pares dudosos no se unen: quedan con estado `posible_duplicado` para que el editor decida. Las capturas sin otro delito, las notas de fuera del área metropolitana o de otros países, los balances con cifras acumuladas, los seguimientos judiciales (condenas, imputaciones) y los accidentes no generan casos.
+
+Cada corrida vuelve a agrupar todas las notas con las reglas vigentes, así que una nota que se vuelve a leer otro día no crea un caso nuevo (cada nota se guarda una sola vez por su URL). Solo se mantienen fijas las uniones de los casos que el editor ya revisó (`publicado` o `descartado`).
 
 Cada caso empieza como `pendiente`. Si el editor cambia el `estado` (`publicado`, `descartado`), el tipo o el barrio en `data/casos.json`, la siguiente corrida conserva esos cambios.
 
