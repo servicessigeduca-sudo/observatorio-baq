@@ -13209,204 +13209,260 @@ anio,mes,municipio,categoria,cantidad
 2025,9,Soledad,transito,27
 2025,9,Soledad,violencia_intrafamiliar,118
 2025,9,Soledad,violencia_sexual,23
-2026,1,Barranquilla,amenazas,77
-2026,1,Barranquilla,extorsion,56
+2026,1,Barranquilla,amenazas,80
+2026,1,Barranquilla,extorsion,57
 2026,1,Barranquilla,homicidio,48
-2026,1,Barranquilla,hurto_carros,24
-2026,1,Barranquilla,hurto_comercio,60
-2026,1,Barranquilla,hurto_motos,65
-2026,1,Barranquilla,hurto_personas,764
-2026,1,Barranquilla,hurto_residencias,47
-2026,1,Barranquilla,lesiones,121
-2026,1,Barranquilla,transito,105
-2026,1,Barranquilla,violencia_intrafamiliar,283
-2026,1,Barranquilla,violencia_sexual,27
+2026,1,Barranquilla,hurto_carros,27
+2026,1,Barranquilla,hurto_comercio,62
+2026,1,Barranquilla,hurto_motos,68
+2026,1,Barranquilla,hurto_personas,762
+2026,1,Barranquilla,hurto_residencias,44
+2026,1,Barranquilla,lesiones,164
+2026,1,Barranquilla,transito,126
+2026,1,Barranquilla,violencia_intrafamiliar,284
+2026,1,Barranquilla,violencia_sexual,28
 2026,1,Galapa,amenazas,3
 2026,1,Galapa,homicidio,4
-2026,1,Galapa,hurto_carros,4
+2026,1,Galapa,hurto_carros,5
 2026,1,Galapa,hurto_comercio,3
-2026,1,Galapa,hurto_motos,4
+2026,1,Galapa,hurto_motos,7
 2026,1,Galapa,hurto_personas,7
 2026,1,Galapa,lesiones,12
 2026,1,Galapa,transito,4
 2026,1,Galapa,violencia_intrafamiliar,8
 2026,1,Galapa,violencia_sexual,1
-2026,1,Malambo,amenazas,3
-2026,1,Malambo,extorsion,8
+2026,1,Malambo,amenazas,5
+2026,1,Malambo,extorsion,9
 2026,1,Malambo,homicidio,6
 2026,1,Malambo,hurto_carros,1
 2026,1,Malambo,hurto_comercio,1
-2026,1,Malambo,hurto_motos,6
-2026,1,Malambo,hurto_personas,25
+2026,1,Malambo,hurto_motos,7
+2026,1,Malambo,hurto_personas,24
 2026,1,Malambo,hurto_residencias,2
-2026,1,Malambo,lesiones,9
-2026,1,Malambo,transito,14
+2026,1,Malambo,lesiones,11
+2026,1,Malambo,transito,16
 2026,1,Malambo,violencia_intrafamiliar,15
 2026,1,Malambo,violencia_sexual,5
-2026,1,Puerto Colombia,amenazas,2
+2026,1,Puerto Colombia,amenazas,4
 2026,1,Puerto Colombia,homicidio,4
 2026,1,Puerto Colombia,hurto_comercio,3
 2026,1,Puerto Colombia,hurto_motos,3
-2026,1,Puerto Colombia,hurto_personas,21
+2026,1,Puerto Colombia,hurto_personas,24
 2026,1,Puerto Colombia,hurto_residencias,1
-2026,1,Puerto Colombia,lesiones,6
+2026,1,Puerto Colombia,lesiones,8
 2026,1,Puerto Colombia,transito,4
 2026,1,Puerto Colombia,violencia_intrafamiliar,11
 2026,1,Soledad,amenazas,35
 2026,1,Soledad,extorsion,25
 2026,1,Soledad,homicidio,28
-2026,1,Soledad,hurto_carros,10
-2026,1,Soledad,hurto_comercio,18
-2026,1,Soledad,hurto_motos,36
-2026,1,Soledad,hurto_personas,222
+2026,1,Soledad,hurto_carros,12
+2026,1,Soledad,hurto_comercio,19
+2026,1,Soledad,hurto_motos,42
+2026,1,Soledad,hurto_personas,219
 2026,1,Soledad,hurto_residencias,12
-2026,1,Soledad,lesiones,46
-2026,1,Soledad,transito,22
-2026,1,Soledad,violencia_intrafamiliar,123
-2026,1,Soledad,violencia_sexual,13
-2026,2,Barranquilla,amenazas,102
-2026,2,Barranquilla,extorsion,45
+2026,1,Soledad,lesiones,62
+2026,1,Soledad,transito,25
+2026,1,Soledad,violencia_intrafamiliar,124
+2026,1,Soledad,violencia_sexual,15
+2026,10,Barranquilla,amenazas,211
+2026,10,Barranquilla,extorsion,73
+2026,10,Barranquilla,homicidio,27
+2026,10,Barranquilla,hurto_carros,17
+2026,10,Barranquilla,hurto_comercio,55
+2026,10,Barranquilla,hurto_motos,63
+2026,10,Barranquilla,hurto_personas,761
+2026,10,Barranquilla,hurto_residencias,31
+2026,10,Barranquilla,lesiones,215
+2026,10,Barranquilla,transito,87
+2026,10,Barranquilla,violencia_intrafamiliar,211
+2026,10,Barranquilla,violencia_sexual,31
+2026,10,Galapa,amenazas,7
+2026,10,Galapa,extorsion,1
+2026,10,Galapa,homicidio,4
+2026,10,Galapa,hurto_comercio,1
+2026,10,Galapa,hurto_motos,4
+2026,10,Galapa,hurto_personas,8
+2026,10,Galapa,hurto_residencias,3
+2026,10,Galapa,lesiones,7
+2026,10,Galapa,transito,3
+2026,10,Galapa,violencia_intrafamiliar,15
+2026,10,Galapa,violencia_sexual,1
+2026,10,Malambo,amenazas,22
+2026,10,Malambo,extorsion,8
+2026,10,Malambo,homicidio,10
+2026,10,Malambo,hurto_carros,1
+2026,10,Malambo,hurto_comercio,3
+2026,10,Malambo,hurto_motos,1
+2026,10,Malambo,hurto_personas,24
+2026,10,Malambo,hurto_residencias,4
+2026,10,Malambo,lesiones,23
+2026,10,Malambo,transito,7
+2026,10,Malambo,violencia_intrafamiliar,13
+2026,10,Malambo,violencia_sexual,4
+2026,10,Puerto Colombia,amenazas,8
+2026,10,Puerto Colombia,hurto_carros,6
+2026,10,Puerto Colombia,hurto_comercio,3
+2026,10,Puerto Colombia,hurto_motos,3
+2026,10,Puerto Colombia,hurto_personas,31
+2026,10,Puerto Colombia,hurto_residencias,2
+2026,10,Puerto Colombia,lesiones,9
+2026,10,Puerto Colombia,transito,7
+2026,10,Puerto Colombia,violencia_intrafamiliar,9
+2026,10,Puerto Colombia,violencia_sexual,2
+2026,10,Soledad,amenazas,58
+2026,10,Soledad,extorsion,21
+2026,10,Soledad,homicidio,22
+2026,10,Soledad,hurto_carros,2
+2026,10,Soledad,hurto_comercio,6
+2026,10,Soledad,hurto_motos,27
+2026,10,Soledad,hurto_personas,192
+2026,10,Soledad,hurto_residencias,8
+2026,10,Soledad,lesiones,52
+2026,10,Soledad,transito,35
+2026,10,Soledad,violencia_intrafamiliar,107
+2026,10,Soledad,violencia_sexual,29
+2026,2,Barranquilla,amenazas,107
+2026,2,Barranquilla,extorsion,44
 2026,2,Barranquilla,homicidio,45
 2026,2,Barranquilla,hurto_carros,34
-2026,2,Barranquilla,hurto_comercio,56
+2026,2,Barranquilla,hurto_comercio,59
 2026,2,Barranquilla,hurto_entidades,1
-2026,2,Barranquilla,hurto_motos,88
-2026,2,Barranquilla,hurto_personas,1014
+2026,2,Barranquilla,hurto_motos,97
+2026,2,Barranquilla,hurto_personas,998
 2026,2,Barranquilla,hurto_residencias,39
-2026,2,Barranquilla,lesiones,168
-2026,2,Barranquilla,transito,113
-2026,2,Barranquilla,violencia_intrafamiliar,295
+2026,2,Barranquilla,lesiones,234
+2026,2,Barranquilla,transito,130
+2026,2,Barranquilla,violencia_intrafamiliar,293
 2026,2,Barranquilla,violencia_sexual,40
-2026,2,Galapa,amenazas,7
+2026,2,Galapa,amenazas,9
 2026,2,Galapa,extorsion,1
 2026,2,Galapa,hurto_carros,2
 2026,2,Galapa,hurto_comercio,1
-2026,2,Galapa,hurto_motos,2
-2026,2,Galapa,hurto_personas,12
+2026,2,Galapa,hurto_motos,3
+2026,2,Galapa,hurto_personas,13
 2026,2,Galapa,hurto_residencias,1
-2026,2,Galapa,lesiones,3
+2026,2,Galapa,lesiones,5
 2026,2,Galapa,transito,4
-2026,2,Galapa,violencia_intrafamiliar,14
+2026,2,Galapa,violencia_intrafamiliar,15
 2026,2,Galapa,violencia_sexual,3
-2026,2,Malambo,amenazas,16
+2026,2,Malambo,amenazas,12
 2026,2,Malambo,extorsion,7
 2026,2,Malambo,homicidio,10
 2026,2,Malambo,hurto_carros,2
 2026,2,Malambo,hurto_comercio,6
-2026,2,Malambo,hurto_motos,5
-2026,2,Malambo,hurto_personas,22
-2026,2,Malambo,hurto_residencias,1
-2026,2,Malambo,lesiones,14
+2026,2,Malambo,hurto_motos,7
+2026,2,Malambo,hurto_personas,24
+2026,2,Malambo,lesiones,16
 2026,2,Malambo,transito,5
 2026,2,Malambo,violencia_intrafamiliar,17
 2026,2,Malambo,violencia_sexual,2
 2026,2,Puerto Colombia,extorsion,1
 2026,2,Puerto Colombia,homicidio,1
-2026,2,Puerto Colombia,hurto_carros,1
-2026,2,Puerto Colombia,hurto_comercio,3
-2026,2,Puerto Colombia,hurto_motos,4
-2026,2,Puerto Colombia,hurto_personas,23
+2026,2,Puerto Colombia,hurto_carros,2
+2026,2,Puerto Colombia,hurto_comercio,4
+2026,2,Puerto Colombia,hurto_motos,3
+2026,2,Puerto Colombia,hurto_personas,26
 2026,2,Puerto Colombia,hurto_residencias,3
 2026,2,Puerto Colombia,lesiones,6
-2026,2,Puerto Colombia,transito,3
+2026,2,Puerto Colombia,transito,4
 2026,2,Puerto Colombia,violencia_intrafamiliar,14
 2026,2,Puerto Colombia,violencia_sexual,2
 2026,2,Soledad,amenazas,33
-2026,2,Soledad,extorsion,32
+2026,2,Soledad,extorsion,33
 2026,2,Soledad,homicidio,28
-2026,2,Soledad,hurto_carros,10
+2026,2,Soledad,hurto_carros,11
 2026,2,Soledad,hurto_comercio,10
-2026,2,Soledad,hurto_motos,28
+2026,2,Soledad,hurto_motos,29
 2026,2,Soledad,hurto_personas,217
 2026,2,Soledad,hurto_residencias,8
-2026,2,Soledad,lesiones,48
-2026,2,Soledad,transito,30
-2026,2,Soledad,violencia_intrafamiliar,111
+2026,2,Soledad,lesiones,55
+2026,2,Soledad,transito,36
+2026,2,Soledad,violencia_intrafamiliar,112
 2026,2,Soledad,violencia_sexual,27
-2026,3,Barranquilla,amenazas,116
-2026,3,Barranquilla,extorsion,72
+2026,3,Barranquilla,amenazas,114
+2026,3,Barranquilla,extorsion,71
 2026,3,Barranquilla,homicidio,48
-2026,3,Barranquilla,hurto_carros,39
-2026,3,Barranquilla,hurto_comercio,66
+2026,3,Barranquilla,hurto_carros,41
+2026,3,Barranquilla,hurto_comercio,71
 2026,3,Barranquilla,hurto_entidades,1
-2026,3,Barranquilla,hurto_motos,65
-2026,3,Barranquilla,hurto_personas,703
-2026,3,Barranquilla,hurto_residencias,42
-2026,3,Barranquilla,lesiones,132
-2026,3,Barranquilla,transito,87
-2026,3,Barranquilla,violencia_intrafamiliar,292
-2026,3,Barranquilla,violencia_sexual,55
-2026,3,Galapa,amenazas,6
+2026,3,Barranquilla,hurto_motos,70
+2026,3,Barranquilla,hurto_personas,698
+2026,3,Barranquilla,hurto_residencias,41
+2026,3,Barranquilla,lesiones,192
+2026,3,Barranquilla,transito,163
+2026,3,Barranquilla,violencia_intrafamiliar,293
+2026,3,Barranquilla,violencia_sexual,56
+2026,3,Galapa,amenazas,5
 2026,3,Galapa,extorsion,1
 2026,3,Galapa,homicidio,1
-2026,3,Galapa,hurto_carros,1
+2026,3,Galapa,hurto_carros,2
 2026,3,Galapa,hurto_comercio,1
 2026,3,Galapa,hurto_motos,4
 2026,3,Galapa,hurto_personas,12
 2026,3,Galapa,hurto_residencias,2
-2026,3,Galapa,lesiones,5
+2026,3,Galapa,lesiones,6
 2026,3,Galapa,transito,3
 2026,3,Galapa,violencia_intrafamiliar,7
 2026,3,Galapa,violencia_sexual,1
-2026,3,Malambo,amenazas,14
-2026,3,Malambo,extorsion,8
+2026,3,Malambo,amenazas,13
+2026,3,Malambo,extorsion,9
 2026,3,Malambo,homicidio,9
 2026,3,Malambo,hurto_carros,4
 2026,3,Malambo,hurto_comercio,3
-2026,3,Malambo,hurto_motos,5
+2026,3,Malambo,hurto_motos,9
 2026,3,Malambo,hurto_personas,25
 2026,3,Malambo,hurto_residencias,3
-2026,3,Malambo,lesiones,12
-2026,3,Malambo,transito,3
+2026,3,Malambo,lesiones,13
+2026,3,Malambo,transito,5
 2026,3,Malambo,violencia_intrafamiliar,26
 2026,3,Malambo,violencia_sexual,6
 2026,3,Puerto Colombia,amenazas,1
 2026,3,Puerto Colombia,extorsion,5
 2026,3,Puerto Colombia,homicidio,4
 2026,3,Puerto Colombia,hurto_carros,1
-2026,3,Puerto Colombia,hurto_comercio,3
+2026,3,Puerto Colombia,hurto_comercio,6
 2026,3,Puerto Colombia,hurto_motos,1
-2026,3,Puerto Colombia,hurto_personas,18
+2026,3,Puerto Colombia,hurto_personas,20
 2026,3,Puerto Colombia,hurto_residencias,1
-2026,3,Puerto Colombia,lesiones,12
-2026,3,Puerto Colombia,transito,8
+2026,3,Puerto Colombia,lesiones,16
+2026,3,Puerto Colombia,transito,10
 2026,3,Puerto Colombia,violencia_intrafamiliar,7
 2026,3,Puerto Colombia,violencia_sexual,3
-2026,3,Soledad,amenazas,30
+2026,3,Soledad,amenazas,34
 2026,3,Soledad,extorsion,29
 2026,3,Soledad,homicidio,22
-2026,3,Soledad,hurto_carros,14
+2026,3,Soledad,hurto_carros,15
 2026,3,Soledad,hurto_comercio,16
 2026,3,Soledad,hurto_motos,42
-2026,3,Soledad,hurto_personas,207
+2026,3,Soledad,hurto_personas,201
 2026,3,Soledad,hurto_residencias,13
-2026,3,Soledad,lesiones,48
-2026,3,Soledad,transito,44
-2026,3,Soledad,violencia_intrafamiliar,133
+2026,3,Soledad,lesiones,58
+2026,3,Soledad,transito,49
+2026,3,Soledad,violencia_intrafamiliar,134
 2026,3,Soledad,violencia_sexual,30
-2026,4,Barranquilla,amenazas,132
+2026,4,Barranquilla,amenazas,133
 2026,4,Barranquilla,extorsion,74
 2026,4,Barranquilla,homicidio,54
-2026,4,Barranquilla,hurto_carros,26
-2026,4,Barranquilla,hurto_comercio,55
-2026,4,Barranquilla,hurto_motos,61
-2026,4,Barranquilla,hurto_personas,664
-2026,4,Barranquilla,hurto_residencias,19
-2026,4,Barranquilla,lesiones,128
-2026,4,Barranquilla,transito,75
+2026,4,Barranquilla,hurto_carros,30
+2026,4,Barranquilla,hurto_comercio,62
+2026,4,Barranquilla,hurto_motos,62
+2026,4,Barranquilla,hurto_personas,649
+2026,4,Barranquilla,hurto_residencias,18
+2026,4,Barranquilla,lesiones,171
+2026,4,Barranquilla,transito,99
 2026,4,Barranquilla,violencia_intrafamiliar,265
 2026,4,Barranquilla,violencia_sexual,42
 2026,4,Galapa,amenazas,9
 2026,4,Galapa,homicidio,4
-2026,4,Galapa,hurto_carros,1
+2026,4,Galapa,hurto_carros,2
 2026,4,Galapa,hurto_comercio,2
 2026,4,Galapa,hurto_motos,3
-2026,4,Galapa,hurto_personas,11
+2026,4,Galapa,hurto_personas,12
 2026,4,Galapa,lesiones,9
 2026,4,Galapa,transito,3
-2026,4,Galapa,violencia_intrafamiliar,34
+2026,4,Galapa,violencia_intrafamiliar,31
 2026,4,Galapa,violencia_sexual,1
-2026,4,Malambo,amenazas,10
+2026,4,Malambo,amenazas,7
 2026,4,Malambo,extorsion,13
 2026,4,Malambo,homicidio,10
 2026,4,Malambo,hurto_carros,2
@@ -13415,313 +13471,321 @@ anio,mes,municipio,categoria,cantidad
 2026,4,Malambo,hurto_personas,16
 2026,4,Malambo,hurto_residencias,4
 2026,4,Malambo,lesiones,13
-2026,4,Malambo,transito,4
+2026,4,Malambo,transito,5
 2026,4,Malambo,violencia_intrafamiliar,31
 2026,4,Malambo,violencia_sexual,6
 2026,4,Puerto Colombia,amenazas,5
 2026,4,Puerto Colombia,extorsion,6
 2026,4,Puerto Colombia,homicidio,1
-2026,4,Puerto Colombia,hurto_comercio,3
-2026,4,Puerto Colombia,hurto_personas,7
-2026,4,Puerto Colombia,lesiones,4
-2026,4,Puerto Colombia,transito,10
+2026,4,Puerto Colombia,hurto_carros,1
+2026,4,Puerto Colombia,hurto_comercio,4
+2026,4,Puerto Colombia,hurto_motos,1
+2026,4,Puerto Colombia,hurto_personas,13
+2026,4,Puerto Colombia,lesiones,6
+2026,4,Puerto Colombia,transito,13
 2026,4,Puerto Colombia,violencia_intrafamiliar,10
 2026,4,Puerto Colombia,violencia_sexual,2
-2026,4,Soledad,amenazas,35
-2026,4,Soledad,extorsion,40
+2026,4,Soledad,amenazas,36
+2026,4,Soledad,extorsion,39
 2026,4,Soledad,homicidio,16
 2026,4,Soledad,hurto_carros,8
-2026,4,Soledad,hurto_comercio,11
-2026,4,Soledad,hurto_motos,31
-2026,4,Soledad,hurto_personas,210
+2026,4,Soledad,hurto_comercio,14
+2026,4,Soledad,hurto_motos,29
+2026,4,Soledad,hurto_personas,209
 2026,4,Soledad,hurto_residencias,8
-2026,4,Soledad,lesiones,35
-2026,4,Soledad,transito,40
-2026,4,Soledad,violencia_intrafamiliar,96
+2026,4,Soledad,lesiones,46
+2026,4,Soledad,transito,46
+2026,4,Soledad,violencia_intrafamiliar,92
 2026,4,Soledad,violencia_sexual,26
-2026,5,Barranquilla,amenazas,196
+2026,5,Barranquilla,amenazas,140
 2026,5,Barranquilla,extorsion,66
 2026,5,Barranquilla,homicidio,60
-2026,5,Barranquilla,hurto_carros,19
-2026,5,Barranquilla,hurto_comercio,52
+2026,5,Barranquilla,hurto_carros,22
+2026,5,Barranquilla,hurto_comercio,72
 2026,5,Barranquilla,hurto_entidades,1
-2026,5,Barranquilla,hurto_motos,49
-2026,5,Barranquilla,hurto_personas,675
-2026,5,Barranquilla,hurto_residencias,42
-2026,5,Barranquilla,lesiones,182
-2026,5,Barranquilla,transito,102
-2026,5,Barranquilla,violencia_intrafamiliar,289
+2026,5,Barranquilla,hurto_motos,48
+2026,5,Barranquilla,hurto_personas,630
+2026,5,Barranquilla,hurto_residencias,41
+2026,5,Barranquilla,lesiones,211
+2026,5,Barranquilla,transito,128
+2026,5,Barranquilla,violencia_intrafamiliar,291
 2026,5,Barranquilla,violencia_sexual,61
-2026,5,Galapa,amenazas,12
+2026,5,Galapa,amenazas,10
 2026,5,Galapa,extorsion,2
-2026,5,Galapa,hurto_carros,2
-2026,5,Galapa,hurto_comercio,2
+2026,5,Galapa,hurto_carros,3
+2026,5,Galapa,hurto_comercio,3
 2026,5,Galapa,hurto_motos,4
 2026,5,Galapa,hurto_personas,7
 2026,5,Galapa,hurto_residencias,2
-2026,5,Galapa,lesiones,4
-2026,5,Galapa,transito,4
+2026,5,Galapa,lesiones,5
+2026,5,Galapa,transito,7
 2026,5,Galapa,violencia_intrafamiliar,21
 2026,5,Galapa,violencia_sexual,1
-2026,5,Malambo,amenazas,23
-2026,5,Malambo,extorsion,11
+2026,5,Malambo,amenazas,14
+2026,5,Malambo,extorsion,12
 2026,5,Malambo,homicidio,16
 2026,5,Malambo,hurto_carros,1
-2026,5,Malambo,hurto_comercio,5
+2026,5,Malambo,hurto_comercio,6
 2026,5,Malambo,hurto_motos,3
-2026,5,Malambo,hurto_personas,17
+2026,5,Malambo,hurto_personas,16
 2026,5,Malambo,hurto_residencias,3
 2026,5,Malambo,lesiones,8
 2026,5,Malambo,transito,8
 2026,5,Malambo,violencia_intrafamiliar,31
 2026,5,Malambo,violencia_sexual,8
-2026,5,Puerto Colombia,amenazas,5
+2026,5,Puerto Colombia,amenazas,4
 2026,5,Puerto Colombia,extorsion,4
-2026,5,Puerto Colombia,hurto_comercio,1
+2026,5,Puerto Colombia,hurto_comercio,2
 2026,5,Puerto Colombia,hurto_motos,2
 2026,5,Puerto Colombia,hurto_personas,21
 2026,5,Puerto Colombia,hurto_residencias,6
-2026,5,Puerto Colombia,lesiones,1
-2026,5,Puerto Colombia,transito,20
+2026,5,Puerto Colombia,lesiones,4
+2026,5,Puerto Colombia,transito,17
 2026,5,Puerto Colombia,violencia_intrafamiliar,11
 2026,5,Puerto Colombia,violencia_sexual,1
-2026,5,Soledad,amenazas,43
-2026,5,Soledad,extorsion,28
+2026,5,Soledad,amenazas,26
+2026,5,Soledad,extorsion,29
 2026,5,Soledad,homicidio,32
-2026,5,Soledad,hurto_carros,6
-2026,5,Soledad,hurto_comercio,11
-2026,5,Soledad,hurto_motos,42
-2026,5,Soledad,hurto_personas,182
+2026,5,Soledad,hurto_carros,7
+2026,5,Soledad,hurto_comercio,13
+2026,5,Soledad,hurto_motos,41
+2026,5,Soledad,hurto_personas,186
 2026,5,Soledad,hurto_residencias,7
-2026,5,Soledad,lesiones,62
-2026,5,Soledad,transito,51
-2026,5,Soledad,violencia_intrafamiliar,122
+2026,5,Soledad,lesiones,60
+2026,5,Soledad,transito,60
+2026,5,Soledad,violencia_intrafamiliar,118
 2026,5,Soledad,violencia_sexual,32
-2026,6,Barranquilla,amenazas,258
-2026,6,Barranquilla,extorsion,62
+2026,6,Barranquilla,amenazas,146
+2026,6,Barranquilla,extorsion,66
 2026,6,Barranquilla,homicidio,65
-2026,6,Barranquilla,hurto_carros,22
-2026,6,Barranquilla,hurto_comercio,33
-2026,6,Barranquilla,hurto_motos,56
-2026,6,Barranquilla,hurto_personas,711
-2026,6,Barranquilla,hurto_residencias,40
-2026,6,Barranquilla,lesiones,256
-2026,6,Barranquilla,transito,91
-2026,6,Barranquilla,violencia_intrafamiliar,248
-2026,6,Barranquilla,violencia_sexual,42
-2026,6,Galapa,amenazas,15
+2026,6,Barranquilla,hurto_carros,26
+2026,6,Barranquilla,hurto_comercio,70
+2026,6,Barranquilla,hurto_motos,54
+2026,6,Barranquilla,hurto_personas,599
+2026,6,Barranquilla,hurto_residencias,39
+2026,6,Barranquilla,lesiones,227
+2026,6,Barranquilla,transito,90
+2026,6,Barranquilla,violencia_intrafamiliar,249
+2026,6,Barranquilla,violencia_sexual,43
+2026,6,Galapa,amenazas,13
 2026,6,Galapa,extorsion,3
 2026,6,Galapa,homicidio,1
 2026,6,Galapa,hurto_carros,2
-2026,6,Galapa,hurto_comercio,1
+2026,6,Galapa,hurto_comercio,2
 2026,6,Galapa,hurto_motos,2
-2026,6,Galapa,hurto_personas,11
+2026,6,Galapa,hurto_personas,10
 2026,6,Galapa,hurto_residencias,2
 2026,6,Galapa,lesiones,10
 2026,6,Galapa,transito,8
-2026,6,Galapa,violencia_intrafamiliar,15
-2026,6,Malambo,amenazas,22
+2026,6,Galapa,violencia_intrafamiliar,12
+2026,6,Malambo,amenazas,15
 2026,6,Malambo,extorsion,9
 2026,6,Malambo,homicidio,10
+2026,6,Malambo,hurto_comercio,2
 2026,6,Malambo,hurto_motos,9
-2026,6,Malambo,hurto_personas,21
+2026,6,Malambo,hurto_personas,17
 2026,6,Malambo,hurto_residencias,1
-2026,6,Malambo,lesiones,27
+2026,6,Malambo,lesiones,25
 2026,6,Malambo,transito,21
 2026,6,Malambo,violencia_intrafamiliar,23
 2026,6,Malambo,violencia_sexual,5
-2026,6,Puerto Colombia,amenazas,4
+2026,6,Puerto Colombia,amenazas,1
 2026,6,Puerto Colombia,extorsion,4
 2026,6,Puerto Colombia,homicidio,5
 2026,6,Puerto Colombia,hurto_carros,1
-2026,6,Puerto Colombia,hurto_comercio,1
-2026,6,Puerto Colombia,hurto_motos,2
+2026,6,Puerto Colombia,hurto_comercio,3
+2026,6,Puerto Colombia,hurto_motos,3
 2026,6,Puerto Colombia,hurto_personas,23
 2026,6,Puerto Colombia,hurto_residencias,4
-2026,6,Puerto Colombia,lesiones,9
+2026,6,Puerto Colombia,lesiones,8
 2026,6,Puerto Colombia,transito,8
 2026,6,Puerto Colombia,violencia_intrafamiliar,12
 2026,6,Puerto Colombia,violencia_sexual,3
-2026,6,Soledad,amenazas,74
-2026,6,Soledad,extorsion,37
+2026,6,Soledad,amenazas,45
+2026,6,Soledad,extorsion,40
 2026,6,Soledad,homicidio,49
 2026,6,Soledad,hurto_carros,4
-2026,6,Soledad,hurto_comercio,4
-2026,6,Soledad,hurto_motos,26
-2026,6,Soledad,hurto_personas,197
+2026,6,Soledad,hurto_comercio,8
+2026,6,Soledad,hurto_motos,27
+2026,6,Soledad,hurto_personas,180
 2026,6,Soledad,hurto_residencias,8
-2026,6,Soledad,lesiones,88
+2026,6,Soledad,lesiones,77
 2026,6,Soledad,transito,37
-2026,6,Soledad,violencia_intrafamiliar,109
+2026,6,Soledad,violencia_intrafamiliar,108
 2026,6,Soledad,violencia_sexual,37
-2026,7,Barranquilla,amenazas,293
-2026,7,Barranquilla,extorsion,63
-2026,7,Barranquilla,homicidio,66
-2026,7,Barranquilla,hurto_carros,33
-2026,7,Barranquilla,hurto_comercio,26
-2026,7,Barranquilla,hurto_motos,68
-2026,7,Barranquilla,hurto_personas,764
-2026,7,Barranquilla,hurto_residencias,36
-2026,7,Barranquilla,lesiones,220
+2026,7,Barranquilla,amenazas,182
+2026,7,Barranquilla,extorsion,69
+2026,7,Barranquilla,homicidio,67
+2026,7,Barranquilla,hurto_carros,40
+2026,7,Barranquilla,hurto_comercio,74
+2026,7,Barranquilla,hurto_motos,71
+2026,7,Barranquilla,hurto_personas,679
+2026,7,Barranquilla,hurto_residencias,34
+2026,7,Barranquilla,lesiones,197
 2026,7,Barranquilla,secuestro,1
-2026,7,Barranquilla,transito,114
-2026,7,Barranquilla,violencia_intrafamiliar,278
+2026,7,Barranquilla,transito,113
+2026,7,Barranquilla,violencia_intrafamiliar,276
 2026,7,Barranquilla,violencia_sexual,23
-2026,7,Galapa,amenazas,5
+2026,7,Galapa,amenazas,3
 2026,7,Galapa,extorsion,1
 2026,7,Galapa,homicidio,2
 2026,7,Galapa,hurto_carros,2
-2026,7,Galapa,hurto_comercio,1
-2026,7,Galapa,hurto_personas,20
+2026,7,Galapa,hurto_comercio,2
+2026,7,Galapa,hurto_motos,1
+2026,7,Galapa,hurto_personas,18
 2026,7,Galapa,hurto_residencias,1
 2026,7,Galapa,lesiones,13
 2026,7,Galapa,transito,6
 2026,7,Galapa,violencia_intrafamiliar,9
 2026,7,Galapa,violencia_sexual,3
-2026,7,Malambo,amenazas,17
+2026,7,Malambo,amenazas,15
 2026,7,Malambo,extorsion,12
 2026,7,Malambo,homicidio,8
-2026,7,Malambo,hurto_carros,1
-2026,7,Malambo,hurto_motos,4
+2026,7,Malambo,hurto_carros,2
+2026,7,Malambo,hurto_comercio,1
+2026,7,Malambo,hurto_motos,5
 2026,7,Malambo,hurto_personas,29
-2026,7,Malambo,hurto_residencias,4
-2026,7,Malambo,lesiones,33
+2026,7,Malambo,hurto_residencias,3
+2026,7,Malambo,lesiones,29
 2026,7,Malambo,transito,6
 2026,7,Malambo,violencia_intrafamiliar,15
 2026,7,Malambo,violencia_sexual,5
-2026,7,Puerto Colombia,amenazas,13
+2026,7,Puerto Colombia,amenazas,10
 2026,7,Puerto Colombia,extorsion,1
 2026,7,Puerto Colombia,homicidio,4
 2026,7,Puerto Colombia,hurto_carros,3
-2026,7,Puerto Colombia,hurto_comercio,3
+2026,7,Puerto Colombia,hurto_comercio,5
 2026,7,Puerto Colombia,hurto_motos,2
-2026,7,Puerto Colombia,hurto_personas,20
+2026,7,Puerto Colombia,hurto_personas,18
 2026,7,Puerto Colombia,hurto_residencias,3
-2026,7,Puerto Colombia,lesiones,6
+2026,7,Puerto Colombia,lesiones,4
 2026,7,Puerto Colombia,secuestro,1
 2026,7,Puerto Colombia,transito,3
 2026,7,Puerto Colombia,violencia_intrafamiliar,11
-2026,7,Soledad,amenazas,74
-2026,7,Soledad,extorsion,29
+2026,7,Soledad,amenazas,39
+2026,7,Soledad,extorsion,32
 2026,7,Soledad,homicidio,27
 2026,7,Soledad,hurto_carros,6
-2026,7,Soledad,hurto_comercio,2
+2026,7,Soledad,hurto_comercio,11
 2026,7,Soledad,hurto_motos,32
-2026,7,Soledad,hurto_personas,217
+2026,7,Soledad,hurto_personas,196
 2026,7,Soledad,hurto_residencias,9
-2026,7,Soledad,lesiones,65
+2026,7,Soledad,lesiones,58
 2026,7,Soledad,transito,28
-2026,7,Soledad,violencia_intrafamiliar,117
+2026,7,Soledad,violencia_intrafamiliar,114
 2026,7,Soledad,violencia_sexual,24
-2026,8,Barranquilla,amenazas,270
-2026,8,Barranquilla,extorsion,63
-2026,8,Barranquilla,homicidio,58
-2026,8,Barranquilla,hurto_carros,31
-2026,8,Barranquilla,hurto_comercio,26
+2026,8,Barranquilla,amenazas,136
+2026,8,Barranquilla,extorsion,68
+2026,8,Barranquilla,homicidio,59
+2026,8,Barranquilla,hurto_carros,38
+2026,8,Barranquilla,hurto_comercio,69
 2026,8,Barranquilla,hurto_entidades,1
-2026,8,Barranquilla,hurto_motos,56
-2026,8,Barranquilla,hurto_personas,923
-2026,8,Barranquilla,hurto_residencias,40
-2026,8,Barranquilla,lesiones,230
-2026,8,Barranquilla,transito,123
-2026,8,Barranquilla,violencia_intrafamiliar,248
-2026,8,Barranquilla,violencia_sexual,39
-2026,8,Galapa,amenazas,6
+2026,8,Barranquilla,hurto_motos,60
+2026,8,Barranquilla,hurto_personas,866
+2026,8,Barranquilla,hurto_residencias,41
+2026,8,Barranquilla,lesiones,201
+2026,8,Barranquilla,transito,133
+2026,8,Barranquilla,violencia_intrafamiliar,252
+2026,8,Barranquilla,violencia_sexual,44
+2026,8,Galapa,amenazas,4
+2026,8,Galapa,extorsion,2
 2026,8,Galapa,homicidio,1
 2026,8,Galapa,hurto_carros,2
-2026,8,Galapa,hurto_comercio,1
+2026,8,Galapa,hurto_comercio,2
 2026,8,Galapa,hurto_motos,7
-2026,8,Galapa,hurto_personas,24
+2026,8,Galapa,hurto_personas,26
 2026,8,Galapa,hurto_residencias,2
-2026,8,Galapa,lesiones,14
+2026,8,Galapa,lesiones,13
 2026,8,Galapa,transito,1
-2026,8,Galapa,violencia_intrafamiliar,12
+2026,8,Galapa,violencia_intrafamiliar,11
 2026,8,Galapa,violencia_sexual,3
-2026,8,Malambo,amenazas,18
+2026,8,Malambo,amenazas,7
 2026,8,Malambo,extorsion,12
 2026,8,Malambo,homicidio,9
-2026,8,Malambo,hurto_carros,1
-2026,8,Malambo,hurto_comercio,1
-2026,8,Malambo,hurto_motos,2
-2026,8,Malambo,hurto_personas,27
+2026,8,Malambo,hurto_carros,2
+2026,8,Malambo,hurto_comercio,7
+2026,8,Malambo,hurto_motos,3
+2026,8,Malambo,hurto_personas,25
 2026,8,Malambo,hurto_residencias,1
-2026,8,Malambo,lesiones,18
-2026,8,Malambo,transito,16
+2026,8,Malambo,lesiones,16
+2026,8,Malambo,transito,17
 2026,8,Malambo,violencia_intrafamiliar,11
 2026,8,Malambo,violencia_sexual,6
-2026,8,Puerto Colombia,amenazas,10
+2026,8,Puerto Colombia,amenazas,3
 2026,8,Puerto Colombia,extorsion,3
 2026,8,Puerto Colombia,homicidio,2
-2026,8,Puerto Colombia,hurto_comercio,1
+2026,8,Puerto Colombia,hurto_carros,1
+2026,8,Puerto Colombia,hurto_comercio,5
 2026,8,Puerto Colombia,hurto_motos,1
-2026,8,Puerto Colombia,hurto_personas,30
+2026,8,Puerto Colombia,hurto_personas,31
 2026,8,Puerto Colombia,hurto_residencias,3
-2026,8,Puerto Colombia,lesiones,8
-2026,8,Puerto Colombia,transito,11
+2026,8,Puerto Colombia,lesiones,5
+2026,8,Puerto Colombia,transito,10
 2026,8,Puerto Colombia,violencia_intrafamiliar,10
-2026,8,Soledad,amenazas,76
-2026,8,Soledad,extorsion,33
+2026,8,Soledad,amenazas,35
+2026,8,Soledad,extorsion,37
 2026,8,Soledad,homicidio,41
-2026,8,Soledad,hurto_carros,4
-2026,8,Soledad,hurto_comercio,3
+2026,8,Soledad,hurto_carros,8
+2026,8,Soledad,hurto_comercio,14
 2026,8,Soledad,hurto_entidades,1
-2026,8,Soledad,hurto_motos,25
-2026,8,Soledad,hurto_personas,201
+2026,8,Soledad,hurto_motos,30
+2026,8,Soledad,hurto_personas,189
 2026,8,Soledad,hurto_residencias,8
-2026,8,Soledad,lesiones,80
-2026,8,Soledad,transito,25
+2026,8,Soledad,lesiones,69
+2026,8,Soledad,transito,29
 2026,8,Soledad,violencia_intrafamiliar,88
-2026,8,Soledad,violencia_sexual,35
-2026,9,Barranquilla,amenazas,270
-2026,9,Barranquilla,extorsion,43
+2026,8,Soledad,violencia_sexual,37
+2026,9,Barranquilla,amenazas,272
+2026,9,Barranquilla,extorsion,78
 2026,9,Barranquilla,homicidio,28
-2026,9,Barranquilla,hurto_carros,24
-2026,9,Barranquilla,hurto_comercio,24
-2026,9,Barranquilla,hurto_motos,50
-2026,9,Barranquilla,hurto_personas,891
-2026,9,Barranquilla,hurto_residencias,37
-2026,9,Barranquilla,lesiones,229
-2026,9,Barranquilla,transito,95
-2026,9,Barranquilla,violencia_intrafamiliar,224
-2026,9,Barranquilla,violencia_sexual,43
-2026,9,Galapa,amenazas,10
+2026,9,Barranquilla,hurto_carros,29
+2026,9,Barranquilla,hurto_comercio,74
+2026,9,Barranquilla,hurto_motos,52
+2026,9,Barranquilla,hurto_personas,919
+2026,9,Barranquilla,hurto_residencias,41
+2026,9,Barranquilla,lesiones,231
+2026,9,Barranquilla,transito,128
+2026,9,Barranquilla,violencia_intrafamiliar,241
+2026,9,Barranquilla,violencia_sexual,49
+2026,9,Galapa,amenazas,12
 2026,9,Galapa,extorsion,1
 2026,9,Galapa,hurto_carros,1
+2026,9,Galapa,hurto_comercio,4
 2026,9,Galapa,hurto_motos,3
-2026,9,Galapa,hurto_personas,17
+2026,9,Galapa,hurto_personas,19
 2026,9,Galapa,hurto_residencias,2
 2026,9,Galapa,lesiones,10
-2026,9,Galapa,transito,11
-2026,9,Galapa,violencia_intrafamiliar,18
-2026,9,Galapa,violencia_sexual,3
-2026,9,Malambo,amenazas,29
-2026,9,Malambo,extorsion,4
+2026,9,Galapa,transito,12
+2026,9,Galapa,violencia_intrafamiliar,19
+2026,9,Galapa,violencia_sexual,4
+2026,9,Malambo,amenazas,26
+2026,9,Malambo,extorsion,9
 2026,9,Malambo,homicidio,7
-2026,9,Malambo,hurto_comercio,2
+2026,9,Malambo,hurto_comercio,7
 2026,9,Malambo,hurto_motos,2
-2026,9,Malambo,hurto_personas,30
+2026,9,Malambo,hurto_personas,32
 2026,9,Malambo,hurto_residencias,1
-2026,9,Malambo,lesiones,10
+2026,9,Malambo,lesiones,11
 2026,9,Malambo,transito,12
 2026,9,Malambo,violencia_intrafamiliar,20
 2026,9,Malambo,violencia_sexual,5
 2026,9,Puerto Colombia,amenazas,11
 2026,9,Puerto Colombia,homicidio,1
-2026,9,Puerto Colombia,hurto_carros,5
-2026,9,Puerto Colombia,hurto_personas,23
+2026,9,Puerto Colombia,hurto_carros,7
+2026,9,Puerto Colombia,hurto_personas,26
 2026,9,Puerto Colombia,lesiones,10
 2026,9,Puerto Colombia,transito,11
 2026,9,Puerto Colombia,violencia_intrafamiliar,8
 2026,9,Puerto Colombia,violencia_sexual,2
-2026,9,Soledad,amenazas,71
-2026,9,Soledad,extorsion,20
+2026,9,Soledad,amenazas,65
+2026,9,Soledad,extorsion,28
 2026,9,Soledad,homicidio,19
-2026,9,Soledad,hurto_carros,4
-2026,9,Soledad,hurto_comercio,1
-2026,9,Soledad,hurto_motos,27
-2026,9,Soledad,hurto_personas,181
+2026,9,Soledad,hurto_carros,6
+2026,9,Soledad,hurto_comercio,10
+2026,9,Soledad,hurto_motos,29
+2026,9,Soledad,hurto_personas,193
 2026,9,Soledad,hurto_residencias,7
-2026,9,Soledad,lesiones,63
-2026,9,Soledad,transito,32
-2026,9,Soledad,violencia_intrafamiliar,97
-2026,9,Soledad,violencia_sexual,14
+2026,9,Soledad,lesiones,64
+2026,9,Soledad,transito,38
+2026,9,Soledad,violencia_intrafamiliar,108
+2026,9,Soledad,violencia_sexual,16
