@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Revisar casos · Observatorio BAQ</title>
+<meta name="theme-color" content="#0B6B3A">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='6' fill='%23D3261C'/%3E%3Crect x='4' y='4' width='22' height='22' rx='3' fill='%23F6C200'/%3E%3Crect x='8' y='8' width='14' height='14' rx='2' fill='%230B6B3A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
+<link rel="stylesheet" href="estilos.css?v=20261116a">
+<style>
+.rv-top{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;margin-bottom:16px}
+.rv-top .seg{max-width:100%}
+.rv-filtros{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.rv-filtros input,.rv-filtros select,.rv-campos input,.rv-campos select,.rv-login input{font:500 15px var(--f-sans);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 12px;min-width:0}
+.rv-filtros input{width:min(260px,100%)}
+.rv-lista{display:grid;gap:14px}
+.rv-caso{border:1px solid var(--line);border-radius:16px;padding:16px;background:var(--surface);display:grid;gap:12px}
+.rv-caso.cambiado{border-color:var(--primary);box-shadow:0 0 0 1px var(--primary)}
+.rv-cab{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.rv-cab b{font-size:17px}
+.rv-et{font:600 12px var(--f-sans);padding:3px 9px;border-radius:999px;background:var(--fill);color:var(--ink)}
+.rv-et.hom{background:var(--c-hom);color:#fff}.rv-et.dup{background:var(--flag-y);color:#1C1C1E}
+.rv-et.pub{background:var(--primary);color:var(--primary-ink)}.rv-et.des{background:var(--muted);color:var(--surface)}
+.rv-fuentes{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.rv-fuentes li{border-left:3px solid var(--line);padding-left:10px}
+.rv-fuentes a{font-weight:600;color:var(--ink)}
+.rv-fuentes small{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+.rv-campos{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.rv-campos label{display:grid;gap:4px;font:600 12px var(--f-sans);color:var(--muted)}
+.rv-acc{display:flex;flex-wrap:wrap;gap:8px}
+.rv-b{font:700 14px var(--f-sans);border:0;border-radius:10px;padding:10px 16px;cursor:pointer;background:var(--fill);color:var(--ink)}
+.rv-b.si{background:var(--primary);color:var(--primary-ink)}
+.rv-b.no{background:var(--hot);color:#fff}
+.rv-b[disabled]{opacity:.5;cursor:default}
+.rv-dup{border:1px dashed var(--line);border-radius:12px;padding:10px 12px;display:grid;gap:8px;font-size:14px}
+.rv-barra{position:sticky;bottom:0;z-index:20;background:var(--bar);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid var(--line);padding:12px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.rv-barra[hidden]{display:none}
+.rv-login{display:grid;gap:12px;max-width:560px}
+.rv-login ol{margin:0;padding-left:20px;display:grid;gap:4px}
+.rv-msg{font-size:14px;color:var(--muted)}
+.rv-msg.err{color:var(--hot)}
+.rv-vacio{color:var(--muted);padding:24px 0;text-align:center}
+</style>
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="top">
+  <div class="in">
+    <a class="logo" href="./" aria-label="Observatorio BAQ, inicio">
+      <svg viewBox="0 0 30 30" aria-hidden="true"><rect width="30" height="30" rx="6" fill="var(--flag-r)"/><rect x="4" y="4" width="22" height="22" rx="3" fill="var(--flag-y)"/><rect x="8" y="8" width="14" height="14" rx="2" fill="var(--flag-g)"/><path d="M15 10.2l1.3 2.9 3.1.3-2.4 2 .8 3-2.8-1.6-2.8 1.6.8-3-2.4-2 3.1-.3z" fill="#fff"/></svg>
+      Observatorio <span>BAQ</span>
+    </a>
+    <div class="right">
+      <nav aria-label="Principal"><a href="./">Inicio</a><a href="mapa.html">Mapa</a><a href="informes.html">Informes</a><a href="metodologia.html">Metodología y datos</a></nav>
+      <button type="button" class="theme" id="theme" aria-label="Cambiar a modo oscuro"></button>
+    </div>
+  </div>
+</header>
+<div class="flag" aria-hidden="true"></div>
+
+<main id="contenido">
+<section class="hero"><div class="in" style="grid-template-columns:minmax(0,1fr);padding-block:32px 12px">
+  <div>
+    <p class="crumb">Uso interno del equipo</p>
+    <h1>Revisar casos</h1>
+    <p class="dek" id="dek">Publica, descarta o corrige los casos que arma el scraper. Los cambios se guardan en el repositorio y la página se actualiza sola en unos minutos.</p>
+  </div>
+</div></section>
+
+<section class="sec" id="s-login"><div class="in">
+  <div class="rv-login">
+    <p class="eyebrow">Entrar</p>
+    <p>Para guardar cambios necesitas una clave de GitHub con permiso de escritura en el repositorio. Se crea una sola vez:</p>
+    <ol>
+      <li>Abre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → Fine-grained token</a>.</li>
+      <li>En <b>Repository access</b> elige <b>Only select repositories</b> → <code>observatorio-baq</code>.</li>
+      <li>En <b>Permissions → Contents</b> elige <b>Read and write</b>.</li>
+      <li>Crea la clave, cópiala y pégala aquí.</li>
+    </ol>
+    <input type="password" id="clave" autocomplete="off" placeholder="github_pat_…" aria-label="Clave de GitHub">
+    <label style="display:flex;gap:8px;align-items:center;font-size:14px"><input type="checkbox" id="recordar" checked> Recordar en este dispositivo</label>
+    <div class="rv-acc"><button type="button" class="rv-b si" id="entrar">Entrar</button></div>
+    <p class="rv-msg" id="msg-login" role="status"></p>
+  </div>
+</div></section>
+
+<section class="sec" id="s-panel" hidden><div class="in">
+  <div class="rv-top">
+    <div class="seg" id="vista" role="group" aria-label="Qué casos ver">
+      <button type="button" data-v="pendientes" aria-pressed="true">Sin revisar</button>
+      <button type="button" data-v="duplicados" aria-pressed="false">Posibles duplicados</button>
+      <button type="button" data-v="revisados" aria-pressed="false">Revisados</button>
+      <button type="button" data-v="todos" aria-pressed="false">Todos</button>
+    </div>
+    <div class="rv-filtros">
+      <input type="search" id="buscar" placeholder="Buscar titular, barrio o medio" aria-label="Buscar">
+      <select id="f-tipo" aria-label="Tipo de delito"><option value="">Todos los delitos</option></select>
+      <button type="button" class="rv-b" id="salir">Salir</button>
+    </div>
+  </div>
+  <p class="rv-msg" id="conteo" role="status"></p>
+  <div class="rv-lista" id="lista"></div>
+</div></section>
+</main>
+
+<div class="rv-barra" id="barra" hidden>
+  <span id="barra-txt"></span>
+  <div class="rv-acc">
+    <button type="button" class="rv-b" id="descartar-cambios">Deshacer todo</button>
+    <button type="button" class="rv-b si" id="guardar">Guardar</button>
+  </div>
+</div>
+
+<script src="comun.js?v=20261116a"></script>
+<script src="revisar.js?v=20261122a"></script>
+</body>
+</html>

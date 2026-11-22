@@ -31,7 +31,11 @@ Los datos salen de notas publicadas por Zona Cero, Diario La Libertad, Emisora A
 
 ## Cómo revisar casos
 
-En `data/casos.json`, cambia el `estado` de un caso a `publicado` (revisado) o `descartado`, o corrige su `tipo` o `barrio`. La corrida diaria conserva esos cambios. Si un barrio sale en un lugar equivocado del mapa, corrige sus coordenadas en `data/geocodigos.json`.
+Entra al **[panel de revisión](https://servicessigeduca-sudo.github.io/observatorio-baq/revisar.html)** (no aparece en el menú ni en buscadores). La primera vez pide una clave de GitHub: créala en [Fine-grained tokens](https://github.com/settings/personal-access-tokens/new) solo para este repositorio, con **Contents: Read and write**, y pégala; el navegador la recuerda.
+
+El panel muestra los casos sin revisar con sus notas. Por cada uno puedes **Publicar**, **Descartar**, corregir tipo, municipio, barrio o fecha, y en los posibles duplicados **unirlo** con el otro caso. Al pulsar **Guardar** se sube un solo commit a `data/casos.json` y la página pública se actualiza en unos 2 minutos. La corrida diaria conserva esas decisiones.
+
+También se puede editar `data/casos.json` a mano: cambia el `estado` a `publicado` o `descartado`, o corrige `tipo` o `barrio`. Si un barrio sale en un lugar equivocado del mapa, corrige sus coordenadas en `data/geocodigos.json`.
 
 ---
 
@@ -88,7 +92,7 @@ Quedan fuera El Heraldo y El Tiempo, porque prohíben el scraping sin permiso es
 python -m casos --reporte reporte-casos.md
 ```
 
-Lee `data/notas.json` y escribe `data/casos.json`: un caso por hecho, con las notas de todos los medios que lo cubrieron. Dos notas se unen cuando el tipo de delito es compatible (un herido que luego muere sigue siendo el mismo hecho), las fechas están a 2 días o menos y el barrio coincide o los textos se parecen mucho. También se unen cuando las dos notas nombran a la misma persona, el mismo alias o el mismo número de víctima ("la mujer 80 asesinada en 2026"). Los pares dudosos no se unen: quedan con estado `posible_duplicado` para que el editor decida. Las capturas sin otro delito, las notas de fuera del área metropolitana o de otros países, los balances con cifras acumuladas, los seguimientos judiciales (condenas, imputaciones) y los accidentes no generan casos.
+Lee `data/notas.json` y escribe `data/casos.json`: un caso por hecho, con las notas de todos los medios que lo cubrieron. Dos notas se unen cuando el tipo de delito es compatible (un herido que luego muere sigue siendo el mismo hecho), las fechas están a 2 días o menos y coinciden el barrio, el nombre o alias de la víctima, o el texto y la edad. Si nombran a la misma persona (o coinciden edad y barrio), se unen aunque estén hasta 30 días separadas, porque un herido puede morir días después. Dos notas con edades distintas no se unen por parecido del texto. También se unen cuando las dos notas nombran a la misma persona, el mismo alias o el mismo número de víctima ("la mujer 80 asesinada en 2026"). Los pares dudosos no se unen: quedan con estado `posible_duplicado` para que el editor decida. Las capturas sin otro delito, las notas de fuera del área metropolitana o de otros países, los balances con cifras acumuladas, los seguimientos judiciales (condenas, imputaciones) y los accidentes no generan casos.
 
 Cada corrida vuelve a agrupar todas las notas con las reglas vigentes, así que una nota que se vuelve a leer otro día no crea un caso nuevo (cada nota se guarda una sola vez por su URL). Solo se mantienen fijas las uniones de los casos que el editor ya revisó (`publicado` o `descartado`).
 

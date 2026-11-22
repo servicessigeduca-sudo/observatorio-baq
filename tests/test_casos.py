@@ -163,3 +163,63 @@ def test_no_arrastra_uniones_automaticas_de_corridas_anteriores():
     # Si el editor las unió, siguen juntas.
     previos[0]["estado"] = "publicado"
     assert len(agrupar(notas, previos)) == 1
+
+
+def test_herido_que_muere_dias_despues_se_une_si_es_la_misma_persona():
+    notas = [
+        nota("a", "zona-cero", "Hieren a bala a Yeison Mercado en Rebolo", "2026-11-01", ["lesiones"], "Rebolo"),
+        nota("b", "ctv", "Murió en el hospital Yeison Mercado, baleado la semana pasada", "2026-11-09", ["homicidio"]),
+    ]
+    casos = agrupar(notas)
+    assert len(casos) == 1
+    assert casos[0]["tipo"] == "homicidio"
+    assert casos[0]["fecha"] == "2026-11-01"
+
+
+def test_misma_persona_muy_lejos_en_el_tiempo_no_se_une():
+    notas = [
+        nota("a", "zona-cero", "Hieren a bala a Yeison Mercado en Rebolo", "2026-09-01", ["lesiones"], "Rebolo"),
+        nota("b", "ctv", "Asesinan a Yeison Mercado en Rebolo", "2026-11-09", ["homicidio"], "Rebolo"),
+    ]
+    assert len(agrupar(notas)) == 2
+
+
+def test_union_del_editor_conserva_su_caso_si_se_suma_otra_nota():
+    a = nota("a", "zona-cero", "Asesinan a mototaxista en Rebolo", "2026-11-10", ["homicidio"], "Rebolo")
+    b = nota("b", "ctv", "Hallan cuerpo de hombre en la vía", "2026-11-10", ["homicidio"])
+    c = nota("c", "impacto", "Mototaxista asesinado en el barrio Rebolo", "2026-11-11", ["homicidio"], "Rebolo")
+    previos = [
+        {"caso_id": "otro", "notas": ["c"], "estado": "pendiente"},
+        {"caso_id": "editor", "notas": ["a", "b"], "estado": "publicado", "revisado_por": "yo", "barrio": "Rebolo"},
+    ]
+    casos = agrupar([a, b, c], previos)
+    assert len(casos) == 1
+    assert casos[0]["caso_id"] == "editor"
+    assert casos[0]["estado"] == "publicado"
+
+
+def test_misma_edad_sola_queda_como_posible_duplicado():
+    notas = [
+        nota("a", "zona-cero", "Matan a un hombre de 42 años en Soledad", "2026-11-10", ["homicidio"], municipio="Soledad"),
+        nota("b", "ctv", "Sicarios asesinan a hombre de 42 años frente a su casa en Soledad", "2026-11-10", ["homicidio"], municipio="Soledad"),
+    ]
+    casos = agrupar(notas)
+    # Solo coincide la edad: no se unen solos, pero quedan para que el editor decida.
+    assert len(casos) == 2
+    assert all(c["estado"] == "posible_duplicado" for c in casos)
+
+
+def test_edades_distintas_no_se_unen_aunque_el_texto_se_parezca():
+    notas = [
+        nota("a", "zona-cero", "Asesinan a mototaxista de 25 años en el sur de Barranquilla", "2026-11-10", ["homicidio"]),
+        nota("b", "ctv", "Asesinan a mototaxista de 52 años en el sur de Barranquilla", "2026-11-10", ["homicidio"]),
+    ]
+    assert len(agrupar(notas)) == 2
+
+
+def test_herido_que_muere_dias_despues_misma_edad_y_barrio():
+    notas = [
+        nota("a", "zona-cero", "Hieren a bala a joven de 19 años en Rebolo", "2026-11-01", ["lesiones"], "Rebolo"),
+        nota("b", "ctv", "Murió el joven de 19 años baleado en Rebolo", "2026-11-07", ["homicidio"], "Rebolo"),
+    ]
+    assert len(agrupar(notas)) == 1

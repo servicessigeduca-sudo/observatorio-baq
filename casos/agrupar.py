@@ -42,6 +42,9 @@ COMPATIBLES = [
 ]
 
 DIAS_MAX = 2
+# Un herido puede morir días después en el hospital: si las notas nombran a la
+# misma persona o alias, se unen aunque estén más separadas.
+DIAS_MAX_MISMA_PERSONA = 30
 UMBRAL_UNIR = 0.35  # similitud con la que se unen notas aunque no haya barrio
 UMBRAL_DUDA = 0.20  # similitud desde la que se marca posible duplicado
 
@@ -149,6 +152,21 @@ def _identidad(nota: dict) -> set[str]:
     return marcas
 
 
+_EDAD = re.compile(
+    r"(?:\bde|,)\s+(\d{1,2})\s+anos\b(?!\s+de\s+(?:prision|carcel|condena|creacion|fundacion|historia|servicio|trayectoria))"
+)
+
+
+def _edades(nota: dict) -> set[str]:
+    """Edades de las víctimas que menciona la nota ("un hombre de 42 años")."""
+    return set(_EDAD.findall(normalizar(f"{nota.get('titular', '')}. {nota.get('resumen', '')}")))
+
+
+def _persona(nota: dict) -> set[str]:
+    """Solo nombre y alias: sirven para unir notas separadas por varios días."""
+    return {m for m in _identidad(nota) if m.startswith(("nombre:", "alias:"))}
+
+
 def _palabras(texto: str) -> set[str]:
     return {w for w in re.findall(r"[a-z0-9]+", normalizar(texto)) if len(w) > 2 and w not in VACIAS}
 
@@ -202,8 +220,16 @@ def comparar(a: dict, b: dict, pa: tuple[set[str], set[str]], pb: tuple[set[str]
     if not ta or not tb or not _compatibles(ta, tb):
         return "distinto"
     fa, fb = _fecha(a), _fecha(b)
-    if not fa or not fb or abs((fa - fb).days) > DIAS_MAX:
+    if not fa or not fb:
         return "distinto"
+    dias = abs((fa - fb).days)
+    if dias > DIAS_MAX:
+        if dias > DIAS_MAX_MISMA_PERSONA or (a.get("municipio") and b.get("municipio") and a["municipio"] != b["municipio"]):
+            return "distinto"
+        if _persona(a) & _persona(b):
+            return "unir"
+        # Misma edad y mismo barrio también identifican a la víctima.
+        return "unir" if _edades(a) & _edades(b) and _mismo_barrio(a, b) else "distinto"
     if (a.get("municipio") and b.get("municipio") and a["municipio"] != b["municipio"]):
         return "distinto"
     barrio = _mismo_barrio(a, b)
@@ -214,13 +240,23 @@ def comparar(a: dict, b: dict, pa: tuple[set[str], set[str]], pb: tuple[set[str]
         return "unir"
     if barrio is False:
         return "distinto"
+    ea, eb = _edades(a), _edades(b)
+    if ea and eb and not ea & eb:
+        # Edades distintas: son víctimas distintas aunque el texto se parezca.
+        return "distinto"
     if barrio is True:
         # Mismo barrio, tipo compatible y a 2 días o menos: casi siempre es el
         # mismo hecho contado por otro medio o en una nota de seguimiento.
         return "unir"
     if sim >= UMBRAL_UNIR:
         return "unir"
+    if ea & eb and sim >= UMBRAL_DUDA:
+        # Texto parecido y la misma edad de la víctima.
+        return "unir"
     if sim >= UMBRAL_DUDA:
+        return "duda"
+    if ea & eb:
+        # Solo coincide la edad: puede ser otra víctima, que lo decida el editor.
         return "duda"
     return "distinto"
 
@@ -274,7 +310,7 @@ def agrupar(notas: list[dict], previos: list[dict] | None = None) -> list[dict]:
         fi = _fecha(cand[i])
         for j in range(i + 1, len(cand)):
             fj = _fecha(cand[j])
-            if fi and fj and (fj - fi).days > DIAS_MAX:
+            if fi and fj and (fj - fi).days > DIAS_MAX_MISMA_PERSONA:
                 break
             r = comparar(cand[i], cand[j], pal[i], pal[j])
             if r == "unir":
@@ -315,7 +351,9 @@ def agrupar(notas: list[dict], previos: list[dict] | None = None) -> list[dict]:
             "estado": "pendiente",
             "posible_duplicado_de": [],
         }
-        prev = next((previo_por_nota[i] for i in ids if i in previo_por_nota and previo_por_nota[i].get("caso_id") not in usados), None)
+        # Si el grupo toca varios casos previos, manda el que revisó el editor.
+        previos_grupo = [previo_por_nota[i] for i in ids if i in previo_por_nota and previo_por_nota[i].get("caso_id") not in usados]
+        prev = next((c for c in previos_grupo if _revisado(c)), previos_grupo[0] if previos_grupo else None)
         if prev:
             campos = ("caso_id", "estado", "tipo", "barrio", "municipio", "fecha", "revisado_por", "revisado_en") if _revisado(prev) else ("caso_id",)
             for campo in campos:
