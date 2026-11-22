@@ -260,8 +260,10 @@
         "titular": "“Él es inocente, está en un centro terapéutico”: madre del novio de la adolescente hallada sin vida en Galapa"
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "f3de656f2168"
+    ],
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "municipio"
@@ -324,36 +326,6 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
-  },
-  {
-    "caso_id": "b5c71cd99f03",
-    "tipo": "desaparicion",
-    "tipos": [
-      "desaparicion"
-    ],
-    "fecha": "2026-11-19",
-    "municipio": "Barranquilla",
-    "barrio": null,
-    "medios": [
-      "Diario La Libertad"
-    ],
-    "notas": [
-      "230d6e268a39d37e4677e97bc50ea61fd34bcfa6"
-    ],
-    "fuentes": [
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/19/desaparicion-de-sonia-sanjuan-y-kelly-acosta-dos-hombres-fueron-capturados-en-barranquilla/",
-        "titular": "Desaparición de Sonia Sanjuan y Kelly Acosta: dos hombres fueron capturados en Barranquilla - Diario La Libertad."
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "4d19e6eb7780"
-    ],
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "municipio"
@@ -455,7 +427,7 @@
     ],
     "estado": "posible_duplicado",
     "posible_duplicado_de": [
-      "0e5b3e37b767"
+      "97d00fc2ba0c"
     ],
     "lat": 10.97094,
     "lon": -74.81759,
@@ -558,7 +530,7 @@
     ],
     "estado": "posible_duplicado",
     "posible_duplicado_de": [
-      "4d19e6eb7780"
+      "62efa4f3da11"
     ],
     "lat": null,
     "lon": null,
@@ -621,8 +593,10 @@
         "titular": "Identifican a adolescente de 17 años hallada muerta en puente de La Prosperidad - Diario La Libertad."
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "9d71b03a44e6"
+    ],
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "baja"
@@ -851,42 +825,11 @@
     ],
     "estado": "posible_duplicado",
     "posible_duplicado_de": [
-      "0e5b3e37b767"
+      "97d00fc2ba0c"
     ],
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "baja"
-  },
-  {
-    "caso_id": "4d19e6eb7780",
-    "tipo": "secuestro",
-    "tipos": [
-      "secuestro"
-    ],
-    "fecha": "2026-11-18",
-    "municipio": "Barranquilla",
-    "barrio": null,
-    "medios": [
-      "Emisora Atlántico"
-    ],
-    "notas": [
-      "a1909d499d10e18085ef79315cc2706088d86aff"
-    ],
-    "fuentes": [
-      {
-        "medio": "Emisora Atlántico",
-        "url": "https://emisoraatlantico.com.co/judiciales/desaparicion-de-sonia-y-kelly-en-barranquilla-investigan-presunto-secuestro-por-una-deuda-millonaria/",
-        "titular": "Desaparición de Sonia y Kelly en Barranquilla: investigan presunto secuestro por una deuda millonaria"
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "13aca3519a5b",
-      "b5c71cd99f03"
-    ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "0f999b5d21e7",
@@ -1050,6 +993,45 @@
     "confianza_ubicacion": "baja"
   },
   {
+    "caso_id": "97d00fc2ba0c",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-16",
+    "municipio": "Barranquilla",
+    "barrio": "Los Girasoles",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "e685c7f888ccfa9cf4e1e9828f125425dfd8b467",
+      "f6a78774f09b6279632a5d436b1cae364adc0076"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/16/ataque-sicarial-en-los-girasoles-deja-un-joven-de-18-anos-muerto-y-otro-hombre-herido/",
+        "titular": "Ataque sicarial en Los Girasoles deja un joven de 18 años muerto y otro hombre herido - Diario La Libertad."
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/18/ataque-sicarial-en-restaurante-de-alfonso-lopez-deja-un-hombre-muerto-y-una-mujer-herida/",
+        "titular": "Ataque sicarial en restaurante de Alfonso López deja un hombre muerto y una mujer herida - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "57183fddc4cc",
+      "503df59b6b51",
+      "9a45a5f2371c"
+    ],
+    "lat": 10.92486,
+    "lon": -74.805,
+    "confianza_ubicacion": "alta"
+  },
+  {
     "caso_id": "5b280dab9d0c",
     "tipo": "homicidio",
     "tipos": [
@@ -1084,12 +1066,13 @@
       "desaparicion"
     ],
     "fecha": "2026-11-16",
-    "municipio": null,
+    "municipio": "Barranquilla",
     "barrio": null,
     "medios": [
       "Diario La Libertad"
     ],
     "notas": [
+      "230d6e268a39d37e4677e97bc50ea61fd34bcfa6",
       "b7df69f43175912513964a9354a77a6dfe9d7c51"
     ],
     "fuentes": [
@@ -1097,13 +1080,20 @@
         "medio": "Diario La Libertad",
         "url": "https://diariolalibertad.com/2026/11/16/familia-de-kelly-acosta-pide-ayuda-a-de-la-espriella-para-encontrar-a-las-dos-mujeres-desaparecidas/",
         "titular": "Familia de Kelly Acosta pide ayuda a De La Espriella para encontrar a las dos mujeres desaparecidas - Diario La Libertad."
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/19/desaparicion-de-sonia-sanjuan-y-kelly-acosta-dos-hombres-fueron-capturados-en-barranquilla/",
+        "titular": "Desaparición de Sonia Sanjuan y Kelly Acosta: dos hombres fueron capturados en Barranquilla - Diario La Libertad."
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "62efa4f3da11"
+    ],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "d8a72af96acb",
@@ -1227,7 +1217,8 @@
     "estado": "posible_duplicado",
     "posible_duplicado_de": [
       "0e5b3e37b767",
-      "098330ac73af"
+      "098330ac73af",
+      "97d00fc2ba0c"
     ],
     "lat": 10.94428,
     "lon": -74.77722,
@@ -1304,43 +1295,28 @@
       "lesiones"
     ],
     "fecha": "2026-11-15",
-    "municipio": "Barranquilla",
-    "barrio": "Los Girasoles",
+    "municipio": null,
+    "barrio": null,
     "medios": [
-      "Diario La Libertad",
       "Zona Cero"
     ],
     "notas": [
-      "a544880fe44cf409d194d720fdc923769bf05a5a",
-      "e685c7f888ccfa9cf4e1e9828f125425dfd8b467",
-      "f6a78774f09b6279632a5d436b1cae364adc0076"
+      "a544880fe44cf409d194d720fdc923769bf05a5a"
     ],
     "fuentes": [
       {
         "medio": "Zona Cero",
         "url": "https://zonacero.com/judiciales/ataque-criminal-deja-un-joven-muerto-y-un-hombre-de-36-anos-herido-en-los-girasoles",
         "titular": "Ataque criminal deja un joven muerto y un hombre de 36 años herido en Los Girasoles"
-      },
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/16/ataque-sicarial-en-los-girasoles-deja-un-joven-de-18-anos-muerto-y-otro-hombre-herido/",
-        "titular": "Ataque sicarial en Los Girasoles deja un joven de 18 años muerto y otro hombre herido - Diario La Libertad."
-      },
-      {
-        "medio": "Diario La Libertad",
-        "url": "https://diariolalibertad.com/2026/11/18/ataque-sicarial-en-restaurante-de-alfonso-lopez-deja-un-hombre-muerto-y-una-mujer-herida/",
-        "titular": "Ataque sicarial en restaurante de Alfonso López deja un hombre muerto y una mujer herida - Diario La Libertad."
       }
     ],
     "estado": "posible_duplicado",
     "posible_duplicado_de": [
-      "57183fddc4cc",
-      "503df59b6b51",
-      "9a45a5f2371c"
+      "57183fddc4cc"
     ],
-    "lat": 10.92486,
-    "lon": -74.805,
-    "confianza_ubicacion": "alta"
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "098330ac73af",
@@ -2485,26 +2461,37 @@
     "caso_id": "62efa4f3da11",
     "tipo": "desaparicion",
     "tipos": [
-      "desaparicion"
+      "desaparicion",
+      "secuestro"
     ],
     "fecha": "2026-11-11",
     "municipio": "Barranquilla",
     "barrio": null,
     "medios": [
+      "Emisora Atlántico",
       "Zona Cero"
     ],
     "notas": [
-      "83c344ff29b18c184e8f050298155df02c045367"
+      "83c344ff29b18c184e8f050298155df02c045367",
+      "a1909d499d10e18085ef79315cc2706088d86aff"
     ],
     "fuentes": [
       {
         "medio": "Zona Cero",
         "url": "https://zonacero.com/judiciales/30-millones-de-recompensa-por-informacion-sobre-sonia-y-kelly-desaparecidas-en-el-norte",
         "titular": "$30 millones de recompensa por información sobre Sonia y Kelly, desaparecidas en el norte de Barranquilla"
+      },
+      {
+        "medio": "Emisora Atlántico",
+        "url": "https://emisoraatlantico.com.co/judiciales/desaparicion-de-sonia-y-kelly-en-barranquilla-investigan-presunto-secuestro-por-una-deuda-millonaria/",
+        "titular": "Desaparición de Sonia y Kelly en Barranquilla: investigan presunto secuestro por una deuda millonaria"
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "13aca3519a5b",
+      "0ef5bb60ad8d"
+    ],
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "municipio"
