@@ -1,5 +1,334 @@
 [
   {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/el-atraco-no-era-contra-jeimison-ochoa-abatido-presunto-atracador-en-inmediaciones-de-una-emisora/",
+    "titular": "“El atraco no era contra Jeimison Ochoa”: abatido presunto delincuente en inmediaciones de una emisora",
+    "fecha_publicacion": "2026-11-21T23:18:03-05:00",
+    "resumen": "“Lamentamos que se estén difundiendo versiones equivocadas que desvirtúan lo sucedido y generan desinformación entre nuestros seguidores y la ciudadanía”. En la noche de este sábado 21 de noviembre, mientras la ciudad de Barranquilla era el epicentro de celebración por la conquista de la Copa…",
+    "fecha_captura": "2026-11-22T06:40:34-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "hurto"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "69ae61b716041414924829575c3f11967f4bad5b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/felipe-pedraza-advierte-que-habria-mas-casos-de-titulos-academicos-cuestionados-en-el-estado/",
+    "titular": "Felipe Pedraza advierte que habría más casos de títulos académicos cuestionados en el Estado - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T21:11:37-05:00",
+    "resumen": "La polémica por los presuntos documentos académicos irregulares de la representante a la Cámara Verónica Estrada, del Pacto Histórico, tomó un nuevo rumbo",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1ba7a5b106ee840a2a3ce36e938c9f5419943031"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/biblioteca-nacional-denuncian-maltratos-amenazas-y-renuncias-durante-la-gestion-de-julia-daza/",
+    "titular": "Biblioteca Nacional: denuncian maltratos, amenazas y renuncias durante la gestión de Julia Daza - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T20:00:04-05:00",
+    "resumen": "La Biblioteca Nacional de Colombia quedó nuevamente en el centro de la controversia. Esta vez, las denuncias apuntan al ambiente laboral que habría",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [
+      "violencia_intrafamiliar"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "eb21eb100e9f156108f1aa34340c09163e4e0e6a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/con-ataques-y-disparos-buscan-apropiarse-de-un-terreno-al-norte-de-barranquilla-familia-esper-fayad-pide-intervencion-urgente-del-presidente-abelardo-de-la-espriella/",
+    "titular": "¡Con ataques y disparos buscan apropiarse de un terreno al norte de Barranquilla! Familia Esper Fayad pide intervención urgente del presidente Abelardo De La Espriella - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T19:30:18-05:00",
+    "resumen": "La preocupación y el temor regresaron a una reconocida familia de Barranquilla. Este viernes 20 de noviembre, a altas horas de la noche, nuevamente se",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f1977958bcb61ac4a047a08cdf78e126d7331263"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/tercer-ataque-contra-tiendas-olimpica-en-menos-de-dos-semanas-dispararon-contra-sede-en-barranquilla/",
+    "titular": "Tercer ataque contra tiendas Olímpica en menos de dos semanas: dispararon contra sede en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T19:26:21-05:00",
+    "resumen": "El nuevo atentado se registró en la carrera 30 con calle 39, en el barrio Chiquinquirá. No hubo personas heridas y, de manera preliminar, se reportó la",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Chiquinquirá",
+    "estado": "pendiente",
+    "id": "496bf66d383da05123ac026739a1be9e5fc564ba"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/gobierno-plantea-reducir-de-18-a-10-o-12-ministerios-sara-castellanos-revela-detalles-del-ajuste-fiscal/",
+    "titular": "Gobierno plantea reducir de 18 a 10 o 12 ministerios: Sara Castellanos revela detalles del ajuste fiscal - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T19:23:34-05:00",
+    "resumen": "La reforma de las finanzas públicas del Gobierno de Abelardo De La Espriella contempla una transformación de la estructura administrativa del Estado. Así lo",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1c77cbd6392cafc293f07ada28bc736a9b1a3274"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/amenazas-contra-trabajadores-de-olimpica-elevan-la-preocupacion-en-barranquilla-y-soledad/",
+    "titular": "Amenazas contra trabajadores de Olímpica elevan la preocupación en Barranquilla y Soledad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T19:19:46-05:00",
+    "resumen": "Un panfleto atribuido a la denominada Nueva Generación del Freseo advierte sobre posibles ataques contra vigilantes, cajeros y clientes. La Policía habría",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0acd52c650027489529beb5a50c5879d260dbb28"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/de-la-espriella-cuestiona-el-acuerdo-de-paz-y-exige-recuperar-bienes-de-las-farc-para-indemnizar-a-las-victimas/",
+    "titular": "De la Espriella cuestiona el Acuerdo de Paz y exige recuperar bienes de las Farc para indemnizar a las víctimas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T19:16:02-05:00",
+    "resumen": "El presidente Abelardo De La Espriella volvió a cuestionar el Acuerdo de Paz firmado entre el Estado colombiano y las antiguas Farc, al considerar que los",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "addd112748a45a627553ea52344c8f94b95b24b0"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/disparan-contra-la-olimpica-de-chiquinquira-tercer-ataque-en-menos-de-2-semanas",
+    "titular": "Disparan contra la Olímpica de Chiquinquirá, tercer ataque en menos de 2 semanas",
+    "fecha_publicacion": "2026-11-21T19:00:52-05:00",
+    "resumen": "El hecho no dejó personas heridas.",
+    "fecha_captura": "2026-11-22T06:37:10-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "fa72495b8097cfd642862b08f3a5a8219110735e"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/ofrecen-hasta-30-millones-de-recompensa-por-responsables-del-asesinato-de-comerciante-en-minca/",
+    "titular": "Ofrecen hasta $30 millones de recompensa por responsables del asesinato de comerciante en Minca - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T17:38:10-05:00",
+    "resumen": "El alcalde de Santa Marta, Carlos Pinedo Cuello, rechazó y condenó el asesinato del comerciante Rafael Uribe, ocurrido en el corregimiento de Minca, y anunció",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c49d5ef56a789234614683d1d8cba4cff9db5d9f"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/accidente-dejo-una-mujer-muerta-y-dos-hombres-heridos-en-puente-de-cordialidad",
+    "titular": "Accidente dejó una mujer muerta y dos hombres heridos en puente de Cordialidad",
+    "fecha_publicacion": "2026-11-21T16:42:48-05:00",
+    "resumen": "La mujer fue embestida por un bus intermunicipal.",
+    "fecha_captura": "2026-11-22T06:37:10-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4e88ea93ba576b7eeac4490a90139edbc5f631a3"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/asesinan-a-dos-adolescentes-de-15-anos-en-carmen-de-apicala-tolima-uno-era-hijo-de-un-concejal/",
+    "titular": "Asesinan a dos adolescentes de 15 años en Carmen de Apicalá, Tolima: uno era hijo de un concejal - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T14:02:31-05:00",
+    "resumen": "Un ataque armado ocurrido en Carmen de Apicalá, Tolima, dejó dos adolescentes de 15 años muertos y un tercer menor de edad herido. El crimen se registró",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "af34396dfbb3544cd422cef74f784ced9d4ef0f4"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/deicy-jimenez-senala-a-jessica-gonzalez-y-asegura-que-entregara-pruebas-sobre-supuesto-vinculo-con-petro/",
+    "titular": "Deicy Jiménez señala a Jessica González y asegura que entregará pruebas sobre supuesto vínculo con Petro - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T12:22:31-05:00",
+    "resumen": "La controversia por los llamados ‘sexocontratos’ sumó un nuevo capítulo este sábado 21 de noviembre, luego de que Deicy Jiménez se pronunciara sobre Jessica",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4daa136111fe6d38e357f1e3c2a555175e56588c"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/salio-del-colegio-y-no-llego-a-casa-reportan-desaparicion-de-menor-de-14-anos-en-barranquilla/",
+    "titular": "“Salió del colegio y no llegó a casa”: reportan desaparición de menor de 14 años en Barranquilla",
+    "fecha_publicacion": "2026-11-21T11:55:17-05:00",
+    "resumen": "No se tiene pista sobre la ubicación de la adolescente desde el pasado 13 de noviembre. ¿Qué pasó con Anyelis? Es la pregunta que no deja dormir a su familia, la cual desconoce su paradero desde el pasado viernes 13 de noviembre cuando salió de una institución educativa en el barrio Montes, en el…",
+    "fecha_captura": "2026-11-22T06:40:34-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": "Montes",
+    "estado": "pendiente",
+    "id": "3be4b1c33598be98652b66c999c14394283cd4b4"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/dos-asesinatos-en-soledad-encienden-las-alarmas-victimas-fueron-atacadas-cerca-de-sus-casas/",
+    "titular": "Dos asesinatos en Soledad encienden las alarmas: víctimas fueron atacadas cerca de sus casas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T11:31:32-05:00",
+    "resumen": "La violencia volvió a dejar víctimas en el municipio de Soledad. En hechos independientes, pero con características similares, dos hombres fueron asesinados",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f94579bc381d4753e2232e32027e320905a21361"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/tres-capturados-con-483-gramos-de-marihuana-durante-operativo-en-siape/",
+    "titular": "Tres capturados con 483 gramos de marihuana durante operativo en Siape - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T11:06:22-05:00",
+    "resumen": "Tres hombres fueron capturados por la Policía Metropolitana de Barranquilla durante un procedimiento realizado en la madrugada del pasado 19 de noviembre en",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "749b79d578bf958eceacf572e5aff14530acb9d5"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/cuarta-division-43-anos-de-historia-compromiso-y-servicio-por-la-seguridad-del-suroriente-colombiano/",
+    "titular": "Cuarta División: 43 años de historia, compromiso y servicio por la seguridad del suroriente colombiano - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T10:39:39-05:00",
+    "resumen": "La Cuarta División del Ejército Nacional conmemora 43 años de creación, consolidándose como una unidad estratégica para la defensa y seguridad del suroriente",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f965c0c47baf42a53b059f4471241285a8f3ff36"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/cinco-presuntos-guerrilleros-muertos-en-nuevo-bombardeo-de-las-fuerzas-militares-en-el",
+    "titular": "Cinco presuntos guerrilleros muertos en nuevo bombardeo de las Fuerzas Militares en el Meta",
+    "fecha_publicacion": "2026-11-21T10:08:00-05:00",
+    "resumen": "También fue incautado abundante material de guerra.",
+    "fecha_captura": "2026-11-22T06:37:10-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d50d705fe96929f5aab805167101f89442ba067b"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/dos-hombres-fueron-asesinados-en-la-parte-externa-de-sus-viviendas-en-soledad",
+    "titular": "Dos hombres fueron asesinados en la parte externa de sus viviendas en Soledad",
+    "fecha_publicacion": "2026-11-21T09:30:00-05:00",
+    "resumen": "Uno de los casos ocurrió en el barrio Los Almendros y el otro en Renacer.",
+    "fecha_captura": "2026-11-22T06:37:10-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Los Almendros",
+    "estado": "pendiente",
+    "id": "41b1086fdff01d19f39881e612fb4f6dc11e6831"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/capturan-en-soledad-a-alias-la-cigarra-requerido-por-hurto-y-porte-ilegal-de-armas/",
+    "titular": "Capturan en Soledad a alias ‘La Cigarra’, requerido por hurto y porte ilegal de armas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T08:07:04-05:00",
+    "resumen": "Un hombre de 42 años, conocido con el alias de ‘La Cigarra’, fue capturado por unidades de la Policía Metropolitana de Barranquilla durante un procedimiento",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [
+      "hurto",
+      "captura"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "24097990544fa2f9a67edc1e4836fed6884c50a8"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/capturan-a-26-presuntos-integrantes-de-estructuras-criminales-en-operativos-en-el-caribe/",
+    "titular": "Capturan a 26 presuntos integrantes de estructuras criminales en operativos en el Caribe - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T07:57:27-05:00",
+    "resumen": "Un operativo conjunto de la Armada Nacional y la Policía permitió la captura de 26 personas señaladas de pertenecer a estructuras dedicadas a actividades",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "bca5d5c449dee399450ca3a44cd7e1b566f06f18"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/golpe-a-la-mineria-ilegal-del-clan-del-golfo-inhabilitan-tres-unidades-en-antioquia/",
+    "titular": "Golpe a la minería ilegal del Clan del Golfo: inhabilitan tres unidades en Antioquia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T07:49:33-05:00",
+    "resumen": "De acuerdo con las autoridades, la infraestructura intervenida estaría presuntamente relacionada con la Subestructura Pacificadores de Samaná del Clan del",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f1d591ad82868c9dbf55cb4b234969eca5161bd1"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/21/incendio-genero-alarma-en-conjunto-residencial-quintas-del-jardin/",
+    "titular": "Incendio generó alarma en conjunto residencial Quintas del Jardín - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-21T07:38:27-05:00",
+    "resumen": "Una emergencia se registró durante la noche de este viernes en el conjunto residencial Quintas del Jardín, ubicado en inmediaciones de la carrera 38 con calle",
+    "fecha_captura": "2026-11-22T06:37:36-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "fec8c3e576c9b63a4f20ef58b4400baf13cd4bf8"
+  },
+  {
     "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/21/menores-de-edad-estarian-detras-de-exigencias-extorsivas-tras-hallazgo-de-panfletos-y-una-granada-en-barranquilla/",
     "titular": "Menores de edad estarían detrás de exigencias extorsivas tras hallazgo de panfletos y una granada en Barranquilla - Diario La Libertad.",
@@ -345,6 +674,21 @@
     "barrio": null,
     "estado": "pendiente",
     "id": "a01fbbac37723c4cabfb893e9844ef12025b842d"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/matan-hombre-delante-de-su-hijo-en-nueva-colombia-los-citaron-para-el-mantenimiento-de",
+    "titular": "Matan a hombre delante de su hijo en Nueva Colombia: los citaron para el mantenimiento de un aire",
+    "fecha_publicacion": "2026-11-20T07:28:00-05:00",
+    "resumen": "Al llegar al lugar fueron sorprendidos por antisociales en moto.",
+    "fecha_captura": "2026-11-22T06:37:10-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "Nueva Colombia",
+    "estado": "pendiente",
+    "id": "41e80401e3e6a060bd1c870c1243f1a6c6832d20"
   },
   {
     "medio": "Diario La Libertad",

@@ -1,5 +1,62 @@
 [
   {
+    "caso_id": "b6cc00080aeb",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "hurto"
+    ],
+    "fecha": "2026-11-21",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "69ae61b716041414924829575c3f11967f4bad5b"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/el-atraco-no-era-contra-jeimison-ochoa-abatido-presunto-atracador-en-inmediaciones-de-una-emisora/",
+        "titular": "“El atraco no era contra Jeimison Ochoa”: abatido presunto delincuente en inmediaciones de una emisora"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "a4133bd781fe",
+    "tipo": "hurto",
+    "tipos": [
+      "hurto"
+    ],
+    "fecha": "2026-11-21",
+    "municipio": "Soledad",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "24097990544fa2f9a67edc1e4836fed6884c50a8"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/21/capturan-en-soledad-a-alias-la-cigarra-requerido-por-hurto-y-porte-ilegal-de-armas/",
+        "titular": "Capturan en Soledad a alias ‘La Cigarra’, requerido por hurto y porte ilegal de armas - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
     "caso_id": "7aed8fda43b0",
     "tipo": "extorsion",
     "tipos": [
@@ -19,6 +76,125 @@
         "medio": "Diario La Libertad",
         "url": "https://diariolalibertad.com/2026/11/21/menores-de-edad-estarian-detras-de-exigencias-extorsivas-tras-hallazgo-de-panfletos-y-una-granada-en-barranquilla/",
         "titular": "Menores de edad estarían detrás de exigencias extorsivas tras hallazgo de panfletos y una granada en Barranquilla - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "79e16a30d7ce",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-21",
+    "municipio": "Soledad",
+    "barrio": "Los Almendros",
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "41b1086fdff01d19f39881e612fb4f6dc11e6831"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/dos-hombres-fueron-asesinados-en-la-parte-externa-de-sus-viviendas-en-soledad",
+        "titular": "Dos hombres fueron asesinados en la parte externa de sus viviendas en Soledad"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": 10.9201,
+    "lon": -74.81592,
+    "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "4a1b3152a654",
+    "tipo": "violencia_intrafamiliar",
+    "tipos": [
+      "violencia_intrafamiliar"
+    ],
+    "fecha": "2026-11-21",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "eb21eb100e9f156108f1aa34340c09163e4e0e6a"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/21/biblioteca-nacional-denuncian-maltratos-amenazas-y-renuncias-durante-la-gestion-de-julia-daza/",
+        "titular": "Biblioteca Nacional: denuncian maltratos, amenazas y renuncias durante la gestión de Julia Daza - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "3804703f834e",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-21",
+    "municipio": "Soledad",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "f94579bc381d4753e2232e32027e320905a21361"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/21/dos-asesinatos-en-soledad-encienden-las-alarmas-victimas-fueron-atacadas-cerca-de-sus-casas/",
+        "titular": "Dos asesinatos en Soledad encienden las alarmas: víctimas fueron atacadas cerca de sus casas - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "1801ee6be939",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones"
+    ],
+    "fecha": "2026-11-21",
+    "municipio": "Barranquilla",
+    "barrio": "Chiquinquirá",
+    "medios": [
+      "Diario La Libertad",
+      "Zona Cero"
+    ],
+    "notas": [
+      "496bf66d383da05123ac026739a1be9e5fc564ba",
+      "fa72495b8097cfd642862b08f3a5a8219110735e"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/disparan-contra-la-olimpica-de-chiquinquira-tercer-ataque-en-menos-de-2-semanas",
+        "titular": "Disparan contra la Olímpica de Chiquinquirá, tercer ataque en menos de 2 semanas"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/21/tercer-ataque-contra-tiendas-olimpica-en-menos-de-dos-semanas-dispararon-contra-sede-en-barranquilla/",
+        "titular": "Tercer ataque contra tiendas Olímpica en menos de dos semanas: dispararon contra sede en Barranquilla - Diario La Libertad."
       }
     ],
     "estado": "pendiente",
@@ -258,9 +434,11 @@
     "municipio": "Barranquilla",
     "barrio": "Nueva Colombia",
     "medios": [
-      "Diario La Libertad"
+      "Diario La Libertad",
+      "Zona Cero"
     ],
     "notas": [
+      "41e80401e3e6a060bd1c870c1243f1a6c6832d20",
       "c6ef9d2501f26c5a35b6f7b8b5a5beb8a0ac00aa"
     ],
     "fuentes": [
@@ -268,6 +446,11 @@
         "medio": "Diario La Libertad",
         "url": "https://diariolalibertad.com/2026/11/19/violencia-en-el-suroccidente-de-barranquilla-ataque-sicarial-deja-un-hombre-muerto-en-limites-de-san-felipe-y-nueva-colombia/",
         "titular": "Violencia en el suroccidente de Barranquilla: Ataque sicarial deja un hombre muerto en límites de San Felipe y Nueva Colombia - Diario La Libertad."
+      },
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/matan-hombre-delante-de-su-hijo-en-nueva-colombia-los-citaron-para-el-mantenimiento-de",
+        "titular": "Matan a hombre delante de su hijo en Nueva Colombia: los citaron para el mantenimiento de un aire"
       }
     ],
     "estado": "posible_duplicado",
