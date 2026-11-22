@@ -1,204 +1,204 @@
 mes,municipio,delito,prensa,oficial,registro,proporcion_prensa,notas
 2026-01,Barranquilla,hom,0,48,48,,prensa_parcial
-2026-01,Barranquilla,les,0,121,,,prensa_parcial
-2026-01,Barranquilla,hur,0,960,,,prensa_parcial
-2026-01,Barranquilla,ext,0,56,,,prensa_parcial
+2026-01,Barranquilla,les,0,164,,,prensa_parcial
+2026-01,Barranquilla,hur,0,963,,,prensa_parcial
+2026-01,Barranquilla,ext,0,57,,,prensa_parcial
 2026-01,Soledad,hom,0,28,28,,prensa_parcial
-2026-01,Soledad,les,0,46,,,prensa_parcial
-2026-01,Soledad,hur,0,298,,,prensa_parcial
+2026-01,Soledad,les,0,62,,,prensa_parcial
+2026-01,Soledad,hur,0,304,,,prensa_parcial
 2026-01,Soledad,ext,0,25,,,prensa_parcial
 2026-01,Malambo,hom,0,6,6,,prensa_parcial
-2026-01,Malambo,les,0,9,,,prensa_parcial
+2026-01,Malambo,les,0,11,,,prensa_parcial
 2026-01,Malambo,hur,0,35,,,prensa_parcial
-2026-01,Malambo,ext,0,8,,,prensa_parcial
+2026-01,Malambo,ext,0,9,,,prensa_parcial
 2026-01,Galapa,hom,0,4,4,,prensa_parcial
 2026-01,Galapa,les,0,12,,,prensa_parcial
-2026-01,Galapa,hur,0,18,,,prensa_parcial
+2026-01,Galapa,hur,0,22,,,prensa_parcial
 2026-01,Galapa,ext,0,0,,,prensa_parcial
 2026-01,Puerto Colombia,hom,0,4,4,,prensa_parcial
-2026-01,Puerto Colombia,les,0,6,,,prensa_parcial
-2026-01,Puerto Colombia,hur,0,28,,,prensa_parcial
+2026-01,Puerto Colombia,les,0,8,,,prensa_parcial
+2026-01,Puerto Colombia,hur,0,31,,,prensa_parcial
 2026-01,Puerto Colombia,ext,0,0,,,prensa_parcial
 2026-02,Barranquilla,hom,0,45,46,,prensa_parcial
-2026-02,Barranquilla,les,0,168,,,prensa_parcial
-2026-02,Barranquilla,hur,0,1232,,,prensa_parcial
-2026-02,Barranquilla,ext,0,45,,,prensa_parcial
+2026-02,Barranquilla,les,0,234,,,prensa_parcial
+2026-02,Barranquilla,hur,0,1228,,,prensa_parcial
+2026-02,Barranquilla,ext,0,44,,,prensa_parcial
 2026-02,Soledad,hom,0,28,28,,prensa_parcial
-2026-02,Soledad,les,0,48,,,prensa_parcial
-2026-02,Soledad,hur,0,273,,,prensa_parcial
-2026-02,Soledad,ext,0,32,,,prensa_parcial
+2026-02,Soledad,les,0,55,,,prensa_parcial
+2026-02,Soledad,hur,0,275,,,prensa_parcial
+2026-02,Soledad,ext,0,33,,,prensa_parcial
 2026-02,Malambo,hom,0,10,10,,prensa_parcial
-2026-02,Malambo,les,0,14,,,prensa_parcial
-2026-02,Malambo,hur,0,36,,,prensa_parcial
+2026-02,Malambo,les,0,16,,,prensa_parcial
+2026-02,Malambo,hur,0,39,,,prensa_parcial
 2026-02,Malambo,ext,0,7,,,prensa_parcial
 2026-02,Galapa,hom,0,0,0,,prensa_parcial
-2026-02,Galapa,les,0,3,,,prensa_parcial
-2026-02,Galapa,hur,0,18,,,prensa_parcial
+2026-02,Galapa,les,0,5,,,prensa_parcial
+2026-02,Galapa,hur,0,20,,,prensa_parcial
 2026-02,Galapa,ext,0,1,,,prensa_parcial
 2026-02,Puerto Colombia,hom,0,1,2,,prensa_parcial
 2026-02,Puerto Colombia,les,0,6,,,prensa_parcial
-2026-02,Puerto Colombia,hur,0,34,,,prensa_parcial
+2026-02,Puerto Colombia,hur,0,38,,,prensa_parcial
 2026-02,Puerto Colombia,ext,0,1,,,prensa_parcial
 2026-03,Barranquilla,hom,1,48,45,,prensa_parcial
-2026-03,Barranquilla,les,0,132,,,prensa_parcial
-2026-03,Barranquilla,hur,0,916,,,prensa_parcial
-2026-03,Barranquilla,ext,0,72,,,prensa_parcial
+2026-03,Barranquilla,les,0,192,,,prensa_parcial
+2026-03,Barranquilla,hur,0,922,,,prensa_parcial
+2026-03,Barranquilla,ext,0,71,,,prensa_parcial
 2026-03,Soledad,hom,0,22,22,,prensa_parcial
-2026-03,Soledad,les,0,48,,,prensa_parcial
-2026-03,Soledad,hur,0,292,,,prensa_parcial
+2026-03,Soledad,les,0,58,,,prensa_parcial
+2026-03,Soledad,hur,0,287,,,prensa_parcial
 2026-03,Soledad,ext,0,29,,,prensa_parcial
 2026-03,Malambo,hom,2,9,9,,prensa_parcial
-2026-03,Malambo,les,0,12,,,prensa_parcial
-2026-03,Malambo,hur,0,40,,,prensa_parcial
-2026-03,Malambo,ext,0,8,,,prensa_parcial
+2026-03,Malambo,les,0,13,,,prensa_parcial
+2026-03,Malambo,hur,0,44,,,prensa_parcial
+2026-03,Malambo,ext,0,9,,,prensa_parcial
 2026-03,Galapa,hom,0,1,1,,prensa_parcial
-2026-03,Galapa,les,0,5,,,prensa_parcial
-2026-03,Galapa,hur,0,20,,,prensa_parcial
+2026-03,Galapa,les,0,6,,,prensa_parcial
+2026-03,Galapa,hur,0,21,,,prensa_parcial
 2026-03,Galapa,ext,0,1,,,prensa_parcial
 2026-03,Puerto Colombia,hom,0,4,3,,prensa_parcial
-2026-03,Puerto Colombia,les,0,12,,,prensa_parcial
-2026-03,Puerto Colombia,hur,0,24,,,prensa_parcial
+2026-03,Puerto Colombia,les,0,16,,,prensa_parcial
+2026-03,Puerto Colombia,hur,0,29,,,prensa_parcial
 2026-03,Puerto Colombia,ext,0,5,,,prensa_parcial
 2026-04,Barranquilla,hom,0,54,57,,prensa_parcial
-2026-04,Barranquilla,les,0,128,,,prensa_parcial
-2026-04,Barranquilla,hur,0,825,,,prensa_parcial
+2026-04,Barranquilla,les,0,171,,,prensa_parcial
+2026-04,Barranquilla,hur,0,821,,,prensa_parcial
 2026-04,Barranquilla,ext,0,74,,,prensa_parcial
 2026-04,Soledad,hom,1,16,17,,prensa_parcial
-2026-04,Soledad,les,0,35,,,prensa_parcial
+2026-04,Soledad,les,0,46,,,prensa_parcial
 2026-04,Soledad,hur,0,268,,,prensa_parcial
-2026-04,Soledad,ext,0,40,,,prensa_parcial
+2026-04,Soledad,ext,0,39,,,prensa_parcial
 2026-04,Malambo,hom,0,10,10,,prensa_parcial
 2026-04,Malambo,les,0,13,,,prensa_parcial
 2026-04,Malambo,hur,0,31,,,prensa_parcial
 2026-04,Malambo,ext,0,13,,,prensa_parcial
 2026-04,Galapa,hom,0,4,4,,prensa_parcial
 2026-04,Galapa,les,0,9,,,prensa_parcial
-2026-04,Galapa,hur,0,17,,,prensa_parcial
+2026-04,Galapa,hur,0,19,,,prensa_parcial
 2026-04,Galapa,ext,0,0,,,prensa_parcial
 2026-04,Puerto Colombia,hom,0,1,1,,prensa_parcial
-2026-04,Puerto Colombia,les,0,4,,,prensa_parcial
-2026-04,Puerto Colombia,hur,0,10,,,prensa_parcial
+2026-04,Puerto Colombia,les,0,6,,,prensa_parcial
+2026-04,Puerto Colombia,hur,0,19,,,prensa_parcial
 2026-04,Puerto Colombia,ext,0,6,,,prensa_parcial
 2026-05,Barranquilla,hom,1,60,57,,prensa_parcial
-2026-05,Barranquilla,les,0,182,,,prensa_parcial
-2026-05,Barranquilla,hur,0,838,,,prensa_parcial
+2026-05,Barranquilla,les,0,211,,,prensa_parcial
+2026-05,Barranquilla,hur,0,814,,,prensa_parcial
 2026-05,Barranquilla,ext,0,66,,,prensa_parcial
 2026-05,Soledad,hom,1,32,29,,prensa_parcial
-2026-05,Soledad,les,0,62,,,prensa_parcial
-2026-05,Soledad,hur,0,248,,,prensa_parcial
-2026-05,Soledad,ext,0,28,,,prensa_parcial
+2026-05,Soledad,les,0,60,,,prensa_parcial
+2026-05,Soledad,hur,0,254,,,prensa_parcial
+2026-05,Soledad,ext,0,29,,,prensa_parcial
 2026-05,Malambo,hom,0,16,14,,prensa_parcial
 2026-05,Malambo,les,0,8,,,prensa_parcial
 2026-05,Malambo,hur,0,29,,,prensa_parcial
-2026-05,Malambo,ext,0,11,,,prensa_parcial
+2026-05,Malambo,ext,0,12,,,prensa_parcial
 2026-05,Galapa,hom,0,0,0,,prensa_parcial
-2026-05,Galapa,les,0,4,,,prensa_parcial
-2026-05,Galapa,hur,0,17,,,prensa_parcial
+2026-05,Galapa,les,0,5,,,prensa_parcial
+2026-05,Galapa,hur,0,19,,,prensa_parcial
 2026-05,Galapa,ext,0,2,,,prensa_parcial
 2026-05,Puerto Colombia,hom,0,0,0,,prensa_parcial
-2026-05,Puerto Colombia,les,0,1,,,prensa_parcial
-2026-05,Puerto Colombia,hur,0,30,,,prensa_parcial
+2026-05,Puerto Colombia,les,0,4,,,prensa_parcial
+2026-05,Puerto Colombia,hur,0,31,,,prensa_parcial
 2026-05,Puerto Colombia,ext,0,4,,,prensa_parcial
 2026-06,Barranquilla,hom,0,65,65,,prensa_parcial
-2026-06,Barranquilla,les,0,256,,,prensa_parcial
-2026-06,Barranquilla,hur,0,862,,,prensa_parcial
-2026-06,Barranquilla,ext,0,62,,,prensa_parcial
+2026-06,Barranquilla,les,0,227,,,prensa_parcial
+2026-06,Barranquilla,hur,0,788,,,prensa_parcial
+2026-06,Barranquilla,ext,0,66,,,prensa_parcial
 2026-06,Soledad,hom,1,49,49,,prensa_parcial
-2026-06,Soledad,les,0,88,,,prensa_parcial
-2026-06,Soledad,hur,0,239,,,prensa_parcial
-2026-06,Soledad,ext,0,37,,,prensa_parcial
+2026-06,Soledad,les,0,77,,,prensa_parcial
+2026-06,Soledad,hur,0,227,,,prensa_parcial
+2026-06,Soledad,ext,0,40,,,prensa_parcial
 2026-06,Malambo,hom,0,10,11,,prensa_parcial
-2026-06,Malambo,les,0,27,,,prensa_parcial
-2026-06,Malambo,hur,0,31,,,prensa_parcial
+2026-06,Malambo,les,0,25,,,prensa_parcial
+2026-06,Malambo,hur,0,29,,,prensa_parcial
 2026-06,Malambo,ext,0,9,,,prensa_parcial
 2026-06,Galapa,hom,0,1,1,,prensa_parcial
 2026-06,Galapa,les,0,10,,,prensa_parcial
 2026-06,Galapa,hur,0,18,,,prensa_parcial
 2026-06,Galapa,ext,0,3,,,prensa_parcial
 2026-06,Puerto Colombia,hom,0,5,5,,prensa_parcial
-2026-06,Puerto Colombia,les,0,9,,,prensa_parcial
-2026-06,Puerto Colombia,hur,0,31,,,prensa_parcial
+2026-06,Puerto Colombia,les,0,8,,,prensa_parcial
+2026-06,Puerto Colombia,hur,0,34,,,prensa_parcial
 2026-06,Puerto Colombia,ext,0,4,,,prensa_parcial
-2026-07,Barranquilla,hom,0,66,66,,prensa_parcial
-2026-07,Barranquilla,les,0,220,,,prensa_parcial
-2026-07,Barranquilla,hur,0,927,,,prensa_parcial
-2026-07,Barranquilla,ext,0,63,,,prensa_parcial
+2026-07,Barranquilla,hom,0,67,66,,prensa_parcial
+2026-07,Barranquilla,les,0,197,,,prensa_parcial
+2026-07,Barranquilla,hur,0,898,,,prensa_parcial
+2026-07,Barranquilla,ext,0,69,,,prensa_parcial
 2026-07,Soledad,hom,0,27,27,,prensa_parcial
-2026-07,Soledad,les,0,65,,,prensa_parcial
-2026-07,Soledad,hur,0,266,,,prensa_parcial
-2026-07,Soledad,ext,0,29,,,prensa_parcial
+2026-07,Soledad,les,0,58,,,prensa_parcial
+2026-07,Soledad,hur,0,254,,,prensa_parcial
+2026-07,Soledad,ext,0,32,,,prensa_parcial
 2026-07,Malambo,hom,0,8,8,,prensa_parcial
-2026-07,Malambo,les,0,33,,,prensa_parcial
-2026-07,Malambo,hur,0,38,,,prensa_parcial
+2026-07,Malambo,les,0,29,,,prensa_parcial
+2026-07,Malambo,hur,0,40,,,prensa_parcial
 2026-07,Malambo,ext,0,12,,,prensa_parcial
 2026-07,Galapa,hom,0,2,2,,prensa_parcial
 2026-07,Galapa,les,0,13,,,prensa_parcial
 2026-07,Galapa,hur,0,24,,,prensa_parcial
 2026-07,Galapa,ext,0,1,,,prensa_parcial
 2026-07,Puerto Colombia,hom,0,4,4,,prensa_parcial
-2026-07,Puerto Colombia,les,0,6,,,prensa_parcial
+2026-07,Puerto Colombia,les,0,4,,,prensa_parcial
 2026-07,Puerto Colombia,hur,0,31,,,prensa_parcial
 2026-07,Puerto Colombia,ext,0,1,,,prensa_parcial
-2026-08,Barranquilla,hom,0,58,57,,prensa_parcial oficial_provisional
-2026-08,Barranquilla,les,0,230,,,prensa_parcial oficial_provisional
-2026-08,Barranquilla,hur,0,1077,,,prensa_parcial oficial_provisional
-2026-08,Barranquilla,ext,0,63,,,prensa_parcial oficial_provisional
-2026-08,Soledad,hom,0,41,40,,prensa_parcial oficial_provisional
-2026-08,Soledad,les,0,80,,,prensa_parcial oficial_provisional
-2026-08,Soledad,hur,0,242,,,prensa_parcial oficial_provisional
-2026-08,Soledad,ext,0,33,,,prensa_parcial oficial_provisional
-2026-08,Malambo,hom,0,9,9,,prensa_parcial oficial_provisional
-2026-08,Malambo,les,0,18,,,prensa_parcial oficial_provisional
-2026-08,Malambo,hur,0,32,,,prensa_parcial oficial_provisional
-2026-08,Malambo,ext,0,12,,,prensa_parcial oficial_provisional
-2026-08,Galapa,hom,0,1,1,,prensa_parcial oficial_provisional
-2026-08,Galapa,les,0,14,,,prensa_parcial oficial_provisional
-2026-08,Galapa,hur,0,36,,,prensa_parcial oficial_provisional
-2026-08,Galapa,ext,0,0,,,prensa_parcial
-2026-08,Puerto Colombia,hom,0,2,2,,prensa_parcial oficial_provisional
-2026-08,Puerto Colombia,les,0,8,,,prensa_parcial oficial_provisional
-2026-08,Puerto Colombia,hur,0,35,,,prensa_parcial oficial_provisional
-2026-08,Puerto Colombia,ext,0,3,,,prensa_parcial oficial_provisional
+2026-08,Barranquilla,hom,0,59,57,,prensa_parcial
+2026-08,Barranquilla,les,0,201,,,prensa_parcial
+2026-08,Barranquilla,hur,0,1075,,,prensa_parcial
+2026-08,Barranquilla,ext,0,68,,,prensa_parcial
+2026-08,Soledad,hom,0,41,40,,prensa_parcial
+2026-08,Soledad,les,0,69,,,prensa_parcial
+2026-08,Soledad,hur,0,250,,,prensa_parcial
+2026-08,Soledad,ext,0,37,,,prensa_parcial
+2026-08,Malambo,hom,0,9,9,,prensa_parcial
+2026-08,Malambo,les,0,16,,,prensa_parcial
+2026-08,Malambo,hur,0,38,,,prensa_parcial
+2026-08,Malambo,ext,0,12,,,prensa_parcial
+2026-08,Galapa,hom,0,1,1,,prensa_parcial
+2026-08,Galapa,les,0,13,,,prensa_parcial
+2026-08,Galapa,hur,0,39,,,prensa_parcial
+2026-08,Galapa,ext,0,2,,,prensa_parcial
+2026-08,Puerto Colombia,hom,0,2,2,,prensa_parcial
+2026-08,Puerto Colombia,les,0,5,,,prensa_parcial
+2026-08,Puerto Colombia,hur,0,41,,,prensa_parcial
+2026-08,Puerto Colombia,ext,0,3,,,prensa_parcial
 2026-09,Barranquilla,hom,0,28,24,,prensa_parcial oficial_provisional
-2026-09,Barranquilla,les,0,229,,,prensa_parcial oficial_provisional
-2026-09,Barranquilla,hur,0,1026,,,prensa_parcial oficial_provisional
-2026-09,Barranquilla,ext,0,43,,,prensa_parcial oficial_provisional
+2026-09,Barranquilla,les,0,231,,,prensa_parcial oficial_provisional
+2026-09,Barranquilla,hur,0,1115,,,prensa_parcial oficial_provisional
+2026-09,Barranquilla,ext,0,78,,,prensa_parcial oficial_provisional
 2026-09,Soledad,hom,0,19,19,,prensa_parcial oficial_provisional
-2026-09,Soledad,les,0,63,,,prensa_parcial oficial_provisional
-2026-09,Soledad,hur,0,220,,,prensa_parcial oficial_provisional
-2026-09,Soledad,ext,0,20,,,prensa_parcial oficial_provisional
+2026-09,Soledad,les,0,64,,,prensa_parcial oficial_provisional
+2026-09,Soledad,hur,0,245,,,prensa_parcial oficial_provisional
+2026-09,Soledad,ext,0,28,,,prensa_parcial oficial_provisional
 2026-09,Malambo,hom,0,7,7,,prensa_parcial oficial_provisional
-2026-09,Malambo,les,0,10,,,prensa_parcial oficial_provisional
-2026-09,Malambo,hur,0,35,,,prensa_parcial oficial_provisional
-2026-09,Malambo,ext,0,4,,,prensa_parcial oficial_provisional
+2026-09,Malambo,les,0,11,,,prensa_parcial oficial_provisional
+2026-09,Malambo,hur,0,42,,,prensa_parcial oficial_provisional
+2026-09,Malambo,ext,0,9,,,prensa_parcial oficial_provisional
 2026-09,Galapa,hom,0,0,0,,prensa_parcial
 2026-09,Galapa,les,0,10,,,prensa_parcial oficial_provisional
-2026-09,Galapa,hur,0,23,,,prensa_parcial oficial_provisional
+2026-09,Galapa,hur,0,29,,,prensa_parcial oficial_provisional
 2026-09,Galapa,ext,0,1,,,prensa_parcial oficial_provisional
 2026-09,Puerto Colombia,hom,0,1,1,,prensa_parcial oficial_provisional
 2026-09,Puerto Colombia,les,0,10,,,prensa_parcial oficial_provisional
-2026-09,Puerto Colombia,hur,0,28,,,prensa_parcial oficial_provisional
+2026-09,Puerto Colombia,hur,0,33,,,prensa_parcial oficial_provisional
 2026-09,Puerto Colombia,ext,0,0,,,prensa_parcial
-2026-10,Barranquilla,hom,0,,21,,prensa_parcial registro_incompleto
-2026-10,Barranquilla,les,0,,,,prensa_parcial
-2026-10,Barranquilla,hur,0,,,,prensa_parcial
-2026-10,Barranquilla,ext,0,,,,prensa_parcial
-2026-10,Soledad,hom,0,,19,,prensa_parcial registro_incompleto
-2026-10,Soledad,les,0,,,,prensa_parcial
-2026-10,Soledad,hur,0,,,,prensa_parcial
-2026-10,Soledad,ext,0,,,,prensa_parcial
-2026-10,Malambo,hom,0,,8,,prensa_parcial registro_incompleto
-2026-10,Malambo,les,0,,,,prensa_parcial
-2026-10,Malambo,hur,0,,,,prensa_parcial
-2026-10,Malambo,ext,0,,,,prensa_parcial
-2026-10,Galapa,hom,0,,1,,prensa_parcial registro_incompleto
-2026-10,Galapa,les,0,,,,prensa_parcial
-2026-10,Galapa,hur,0,,,,prensa_parcial
-2026-10,Galapa,ext,0,,,,prensa_parcial
-2026-10,Puerto Colombia,hom,0,,0,,prensa_parcial registro_incompleto
-2026-10,Puerto Colombia,les,0,,,,prensa_parcial
-2026-10,Puerto Colombia,hur,0,,,,prensa_parcial
-2026-10,Puerto Colombia,ext,0,,,,prensa_parcial
+2026-10,Barranquilla,hom,0,27,21,,prensa_parcial oficial_provisional registro_incompleto
+2026-10,Barranquilla,les,0,215,,,prensa_parcial oficial_provisional
+2026-10,Barranquilla,hur,0,927,,,prensa_parcial oficial_provisional
+2026-10,Barranquilla,ext,0,73,,,prensa_parcial oficial_provisional
+2026-10,Soledad,hom,0,22,19,,prensa_parcial oficial_provisional registro_incompleto
+2026-10,Soledad,les,0,52,,,prensa_parcial oficial_provisional
+2026-10,Soledad,hur,0,235,,,prensa_parcial oficial_provisional
+2026-10,Soledad,ext,0,21,,,prensa_parcial oficial_provisional
+2026-10,Malambo,hom,0,10,8,,prensa_parcial oficial_provisional registro_incompleto
+2026-10,Malambo,les,0,23,,,prensa_parcial oficial_provisional
+2026-10,Malambo,hur,0,33,,,prensa_parcial oficial_provisional
+2026-10,Malambo,ext,0,8,,,prensa_parcial oficial_provisional
+2026-10,Galapa,hom,0,4,1,,prensa_parcial oficial_provisional registro_incompleto
+2026-10,Galapa,les,0,7,,,prensa_parcial oficial_provisional
+2026-10,Galapa,hur,0,16,,,prensa_parcial oficial_provisional
+2026-10,Galapa,ext,0,1,,,prensa_parcial oficial_provisional
+2026-10,Puerto Colombia,hom,0,0,0,,prensa_parcial registro_incompleto
+2026-10,Puerto Colombia,les,0,9,,,prensa_parcial oficial_provisional
+2026-10,Puerto Colombia,hur,0,45,,,prensa_parcial oficial_provisional
+2026-10,Puerto Colombia,ext,0,0,,,prensa_parcial
 2026-11,Barranquilla,hom,18,,,,prensa_parcial
 2026-11,Barranquilla,les,2,,,,prensa_parcial
 2026-11,Barranquilla,hur,1,,,,prensa_parcial

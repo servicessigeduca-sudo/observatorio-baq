@@ -10026,305 +10026,313 @@ anio,municipio,categoria,variable,valor,cantidad
 2025,Soledad,violencia_sexual,sexo,Mujer,220
 2025,Soledad,violencia_sexual,sexo,Sin dato,8
 2026,Barranquilla,amenazas,edad,De 0 a 14 años,10
-2026,Barranquilla,amenazas,edad,De 14 a 17 años,31
-2026,Barranquilla,amenazas,edad,De 18 años y más,1669
-2026,Barranquilla,amenazas,edad,Sin dato,4
-2026,Barranquilla,amenazas,modalidad,Contundente,5
-2026,Barranquilla,amenazas,modalidad,Sin arma,1709
-2026,Barranquilla,amenazas,sexo,Hombre,994
-2026,Barranquilla,amenazas,sexo,Mujer,708
+2026,Barranquilla,amenazas,edad,De 14 a 17 años,23
+2026,Barranquilla,amenazas,edad,De 18 años y más,1483
+2026,Barranquilla,amenazas,edad,Sin dato,5
+2026,Barranquilla,amenazas,modalidad,Contundente,3
+2026,Barranquilla,amenazas,modalidad,Sin arma,1518
+2026,Barranquilla,amenazas,sexo,Hombre,893
+2026,Barranquilla,amenazas,sexo,Mujer,616
 2026,Barranquilla,amenazas,sexo,Sin dato,12
 2026,Barranquilla,extorsion,edad,De 14 a 17 años,12
-2026,Barranquilla,extorsion,edad,De 18 años y más,431
-2026,Barranquilla,extorsion,edad,Sin dato,101
-2026,Barranquilla,extorsion,modalidad,Otra,520
-2026,Barranquilla,extorsion,modalidad,Sin arma,24
-2026,Barranquilla,extorsion,sexo,Hombre,263
-2026,Barranquilla,extorsion,sexo,Mujer,152
-2026,Barranquilla,extorsion,sexo,Sin dato,129
-2026,Barranquilla,homicidio,edad,De 14 a 17 años,26
-2026,Barranquilla,homicidio,edad,De 18 años y más,446
-2026,Barranquilla,homicidio,modalidad,Arma blanca,27
-2026,Barranquilla,homicidio,modalidad,Arma de fuego,435
-2026,Barranquilla,homicidio,modalidad,Contundente,10
-2026,Barranquilla,homicidio,sexo,Hombre,449
-2026,Barranquilla,homicidio,sexo,Mujer,23
+2026,Barranquilla,extorsion,edad,De 18 años y más,532
+2026,Barranquilla,extorsion,edad,Sin dato,122
+2026,Barranquilla,extorsion,modalidad,Otra,630
+2026,Barranquilla,extorsion,modalidad,Sin arma,36
+2026,Barranquilla,extorsion,sexo,Hombre,315
+2026,Barranquilla,extorsion,sexo,Mujer,191
+2026,Barranquilla,extorsion,sexo,Sin dato,160
+2026,Barranquilla,homicidio,edad,De 14 a 17 años,35
+2026,Barranquilla,homicidio,edad,De 18 años y más,466
+2026,Barranquilla,homicidio,modalidad,Arma blanca,29
+2026,Barranquilla,homicidio,modalidad,Arma de fuego,459
+2026,Barranquilla,homicidio,modalidad,Contundente,13
+2026,Barranquilla,homicidio,sexo,Hombre,475
+2026,Barranquilla,homicidio,sexo,Mujer,26
 2026,Barranquilla,hurto_carros,edad,De 14 a 17 años,1
-2026,Barranquilla,hurto_carros,edad,De 18 años y más,251
-2026,Barranquilla,hurto_carros,modalidad,Arma de fuego,32
-2026,Barranquilla,hurto_carros,modalidad,Otra,35
-2026,Barranquilla,hurto_carros,modalidad,Sin arma,185
-2026,Barranquilla,hurto_carros,sexo,Hombre,198
-2026,Barranquilla,hurto_carros,sexo,Mujer,54
-2026,Barranquilla,hurto_comercio,edad,De 14 a 17 años,3
-2026,Barranquilla,hurto_comercio,edad,De 18 años y más,333
-2026,Barranquilla,hurto_comercio,edad,Sin dato,62
-2026,Barranquilla,hurto_comercio,modalidad,Arma blanca,2
-2026,Barranquilla,hurto_comercio,modalidad,Arma de fuego,57
-2026,Barranquilla,hurto_comercio,modalidad,Contundente,11
-2026,Barranquilla,hurto_comercio,modalidad,Sin arma,320
-2026,Barranquilla,hurto_comercio,modalidad,Sin dato,8
-2026,Barranquilla,hurto_comercio,sexo,Sin dato,398
+2026,Barranquilla,hurto_carros,edad,De 18 años y más,303
+2026,Barranquilla,hurto_carros,modalidad,Arma de fuego,40
+2026,Barranquilla,hurto_carros,modalidad,Otra,42
+2026,Barranquilla,hurto_carros,modalidad,Sin arma,222
+2026,Barranquilla,hurto_carros,sexo,Hombre,233
+2026,Barranquilla,hurto_carros,sexo,Mujer,71
+2026,Barranquilla,hurto_comercio,edad,De 14 a 17 años,4
+2026,Barranquilla,hurto_comercio,edad,De 18 años y más,593
+2026,Barranquilla,hurto_comercio,edad,Sin dato,71
+2026,Barranquilla,hurto_comercio,modalidad,Arma blanca,4
+2026,Barranquilla,hurto_comercio,modalidad,Arma de fuego,104
+2026,Barranquilla,hurto_comercio,modalidad,Contundente,17
+2026,Barranquilla,hurto_comercio,modalidad,Otra,1
+2026,Barranquilla,hurto_comercio,modalidad,Sin arma,533
+2026,Barranquilla,hurto_comercio,modalidad,Sin dato,9
+2026,Barranquilla,hurto_comercio,sexo,Sin dato,668
 2026,Barranquilla,hurto_entidades,edad,De 18 años y más,4
 2026,Barranquilla,hurto_entidades,modalidad,Arma de fuego,4
 2026,Barranquilla,hurto_entidades,sexo,Sin dato,4
-2026,Barranquilla,hurto_motos,edad,De 14 a 17 años,2
-2026,Barranquilla,hurto_motos,edad,De 18 años y más,554
+2026,Barranquilla,hurto_motos,edad,De 14 a 17 años,4
+2026,Barranquilla,hurto_motos,edad,De 18 años y más,639
 2026,Barranquilla,hurto_motos,edad,Sin dato,2
-2026,Barranquilla,hurto_motos,modalidad,Arma blanca,18
-2026,Barranquilla,hurto_motos,modalidad,Arma de fuego,121
+2026,Barranquilla,hurto_motos,modalidad,Arma blanca,21
+2026,Barranquilla,hurto_motos,modalidad,Arma de fuego,145
 2026,Barranquilla,hurto_motos,modalidad,Contundente,3
-2026,Barranquilla,hurto_motos,modalidad,Otra,66
-2026,Barranquilla,hurto_motos,modalidad,Sin arma,337
+2026,Barranquilla,hurto_motos,modalidad,Otra,94
+2026,Barranquilla,hurto_motos,modalidad,Sin arma,369
 2026,Barranquilla,hurto_motos,modalidad,Sin dato,13
-2026,Barranquilla,hurto_motos,sexo,Hombre,496
-2026,Barranquilla,hurto_motos,sexo,Mujer,60
+2026,Barranquilla,hurto_motos,sexo,Hombre,565
+2026,Barranquilla,hurto_motos,sexo,Mujer,78
 2026,Barranquilla,hurto_motos,sexo,Sin dato,2
-2026,Barranquilla,hurto_personas,edad,De 0 a 14 años,7
-2026,Barranquilla,hurto_personas,edad,De 14 a 17 años,83
-2026,Barranquilla,hurto_personas,edad,De 18 años y más,7019
-2026,Barranquilla,hurto_personas,modalidad,Arma blanca,643
-2026,Barranquilla,hurto_personas,modalidad,Arma de fuego,3029
-2026,Barranquilla,hurto_personas,modalidad,Contundente,92
-2026,Barranquilla,hurto_personas,modalidad,Otra,4
-2026,Barranquilla,hurto_personas,modalidad,Sin arma,2922
-2026,Barranquilla,hurto_personas,modalidad,Sin dato,419
-2026,Barranquilla,hurto_personas,sexo,Hombre,4148
-2026,Barranquilla,hurto_personas,sexo,Mujer,2956
-2026,Barranquilla,hurto_personas,sexo,Sin dato,5
-2026,Barranquilla,hurto_residencias,edad,De 14 a 17 años,1
-2026,Barranquilla,hurto_residencias,edad,De 18 años y más,341
+2026,Barranquilla,hurto_personas,edad,De 0 a 14 años,9
+2026,Barranquilla,hurto_personas,edad,De 14 a 17 años,84
+2026,Barranquilla,hurto_personas,edad,De 18 años y más,7468
+2026,Barranquilla,hurto_personas,modalidad,Arma blanca,684
+2026,Barranquilla,hurto_personas,modalidad,Arma de fuego,3288
+2026,Barranquilla,hurto_personas,modalidad,Contundente,94
+2026,Barranquilla,hurto_personas,modalidad,Otra,10
+2026,Barranquilla,hurto_personas,modalidad,Sin arma,3047
+2026,Barranquilla,hurto_personas,modalidad,Sin dato,438
+2026,Barranquilla,hurto_personas,sexo,Hombre,4408
+2026,Barranquilla,hurto_personas,sexo,Mujer,3150
+2026,Barranquilla,hurto_personas,sexo,Sin dato,3
+2026,Barranquilla,hurto_residencias,edad,De 0 a 14 años,2
+2026,Barranquilla,hurto_residencias,edad,De 14 a 17 años,2
+2026,Barranquilla,hurto_residencias,edad,De 18 años y más,365
 2026,Barranquilla,hurto_residencias,modalidad,Arma blanca,3
-2026,Barranquilla,hurto_residencias,modalidad,Arma de fuego,20
-2026,Barranquilla,hurto_residencias,modalidad,Contundente,8
-2026,Barranquilla,hurto_residencias,modalidad,Otra,2
-2026,Barranquilla,hurto_residencias,modalidad,Sin arma,303
+2026,Barranquilla,hurto_residencias,modalidad,Arma de fuego,24
+2026,Barranquilla,hurto_residencias,modalidad,Contundente,15
+2026,Barranquilla,hurto_residencias,modalidad,Otra,4
+2026,Barranquilla,hurto_residencias,modalidad,Sin arma,317
 2026,Barranquilla,hurto_residencias,modalidad,Sin dato,6
-2026,Barranquilla,hurto_residencias,sexo,Hombre,169
-2026,Barranquilla,hurto_residencias,sexo,Mujer,173
-2026,Barranquilla,lesiones,edad,De 0 a 14 años,20
-2026,Barranquilla,lesiones,edad,De 14 a 17 años,51
-2026,Barranquilla,lesiones,edad,De 18 años y más,1595
-2026,Barranquilla,lesiones,modalidad,Arma blanca,116
-2026,Barranquilla,lesiones,modalidad,Arma de fuego,212
-2026,Barranquilla,lesiones,modalidad,Contundente,524
-2026,Barranquilla,lesiones,modalidad,Otra,16
-2026,Barranquilla,lesiones,modalidad,Sin arma,798
-2026,Barranquilla,lesiones,sexo,Hombre,1085
-2026,Barranquilla,lesiones,sexo,Mujer,569
-2026,Barranquilla,lesiones,sexo,Sin dato,12
+2026,Barranquilla,hurto_residencias,sexo,Hombre,184
+2026,Barranquilla,hurto_residencias,sexo,Mujer,185
+2026,Barranquilla,lesiones,edad,De 0 a 14 años,22
+2026,Barranquilla,lesiones,edad,De 14 a 17 años,84
+2026,Barranquilla,lesiones,edad,De 18 años y más,1936
+2026,Barranquilla,lesiones,edad,Sin dato,1
+2026,Barranquilla,lesiones,modalidad,Arma blanca,139
+2026,Barranquilla,lesiones,modalidad,Arma de fuego,235
+2026,Barranquilla,lesiones,modalidad,Contundente,603
+2026,Barranquilla,lesiones,modalidad,Otra,18
+2026,Barranquilla,lesiones,modalidad,Sin arma,1048
+2026,Barranquilla,lesiones,sexo,Hombre,1318
+2026,Barranquilla,lesiones,sexo,Mujer,711
+2026,Barranquilla,lesiones,sexo,Sin dato,14
 2026,Barranquilla,secuestro,edad,De 18 años y más,1
 2026,Barranquilla,secuestro,modalidad,Sin arma,1
 2026,Barranquilla,secuestro,sexo,Hombre,1
-2026,Barranquilla,transito,edad,De 0 a 14 años,8
-2026,Barranquilla,transito,edad,De 14 a 17 años,19
-2026,Barranquilla,transito,edad,De 18 años y más,877
+2026,Barranquilla,transito,edad,De 0 a 14 años,15
+2026,Barranquilla,transito,edad,De 14 a 17 años,12
+2026,Barranquilla,transito,edad,De 18 años y más,1169
 2026,Barranquilla,transito,edad,Sin dato,1
 2026,Barranquilla,transito,modalidad,Otra,73
-2026,Barranquilla,transito,modalidad,Sin arma,759
-2026,Barranquilla,transito,modalidad,Sin dato,73
-2026,Barranquilla,transito,sexo,Hombre,634
-2026,Barranquilla,transito,sexo,Mujer,265
+2026,Barranquilla,transito,modalidad,Sin arma,1042
+2026,Barranquilla,transito,modalidad,Sin dato,82
+2026,Barranquilla,transito,sexo,Hombre,839
+2026,Barranquilla,transito,sexo,Mujer,352
 2026,Barranquilla,transito,sexo,Sin dato,6
-2026,Barranquilla,violencia_intrafamiliar,edad,De 0 a 14 años,33
-2026,Barranquilla,violencia_intrafamiliar,edad,De 14 a 17 años,33
-2026,Barranquilla,violencia_intrafamiliar,edad,De 18 años y más,2345
-2026,Barranquilla,violencia_intrafamiliar,edad,Sin dato,11
-2026,Barranquilla,violencia_intrafamiliar,modalidad,Arma blanca,31
+2026,Barranquilla,violencia_intrafamiliar,edad,De 0 a 14 años,32
+2026,Barranquilla,violencia_intrafamiliar,edad,De 14 a 17 años,56
+2026,Barranquilla,violencia_intrafamiliar,edad,De 18 años y más,2553
+2026,Barranquilla,violencia_intrafamiliar,edad,Sin dato,14
+2026,Barranquilla,violencia_intrafamiliar,modalidad,Arma blanca,32
 2026,Barranquilla,violencia_intrafamiliar,modalidad,Arma de fuego,11
-2026,Barranquilla,violencia_intrafamiliar,modalidad,Contundente,474
-2026,Barranquilla,violencia_intrafamiliar,modalidad,Sin arma,1906
-2026,Barranquilla,violencia_intrafamiliar,sexo,Hombre,808
-2026,Barranquilla,violencia_intrafamiliar,sexo,Mujer,1599
-2026,Barranquilla,violencia_intrafamiliar,sexo,Sin dato,15
-2026,Barranquilla,violencia_sexual,edad,De 0 a 14 años,53
-2026,Barranquilla,violencia_sexual,edad,De 14 a 17 años,46
-2026,Barranquilla,violencia_sexual,edad,De 18 años y más,273
+2026,Barranquilla,violencia_intrafamiliar,modalidad,Contundente,498
+2026,Barranquilla,violencia_intrafamiliar,modalidad,Sin arma,2114
+2026,Barranquilla,violencia_intrafamiliar,sexo,Hombre,880
+2026,Barranquilla,violencia_intrafamiliar,sexo,Mujer,1758
+2026,Barranquilla,violencia_intrafamiliar,sexo,Sin dato,17
+2026,Barranquilla,violencia_sexual,edad,De 0 a 14 años,65
+2026,Barranquilla,violencia_sexual,edad,De 14 a 17 años,47
+2026,Barranquilla,violencia_sexual,edad,De 18 años y más,304
+2026,Barranquilla,violencia_sexual,edad,Sin dato,1
 2026,Barranquilla,violencia_sexual,modalidad,Arma blanca,2
 2026,Barranquilla,violencia_sexual,modalidad,Contundente,6
-2026,Barranquilla,violencia_sexual,modalidad,Sin arma,364
-2026,Barranquilla,violencia_sexual,sexo,Hombre,58
-2026,Barranquilla,violencia_sexual,sexo,Mujer,307
-2026,Barranquilla,violencia_sexual,sexo,Sin dato,7
-2026,Galapa,amenazas,edad,De 14 a 17 años,1
-2026,Galapa,amenazas,edad,De 18 años y más,72
+2026,Barranquilla,violencia_sexual,modalidad,Sin arma,409
+2026,Barranquilla,violencia_sexual,sexo,Hombre,65
+2026,Barranquilla,violencia_sexual,sexo,Mujer,344
+2026,Barranquilla,violencia_sexual,sexo,Sin dato,8
+2026,Galapa,amenazas,edad,De 14 a 17 años,2
+2026,Galapa,amenazas,edad,De 18 años y más,73
 2026,Galapa,amenazas,modalidad,Arma blanca,1
-2026,Galapa,amenazas,modalidad,Sin arma,72
-2026,Galapa,amenazas,sexo,Hombre,40
-2026,Galapa,amenazas,sexo,Mujer,32
-2026,Galapa,amenazas,sexo,Sin dato,1
-2026,Galapa,extorsion,edad,De 18 años y más,9
-2026,Galapa,extorsion,modalidad,Otra,8
+2026,Galapa,amenazas,modalidad,Sin arma,74
+2026,Galapa,amenazas,sexo,Hombre,41
+2026,Galapa,amenazas,sexo,Mujer,34
+2026,Galapa,extorsion,edad,De 18 años y más,11
+2026,Galapa,extorsion,edad,Sin dato,1
+2026,Galapa,extorsion,modalidad,Otra,11
 2026,Galapa,extorsion,modalidad,Sin arma,1
-2026,Galapa,extorsion,sexo,Hombre,2
-2026,Galapa,extorsion,sexo,Mujer,7
-2026,Galapa,homicidio,edad,De 18 años y más,13
-2026,Galapa,homicidio,modalidad,Arma de fuego,13
-2026,Galapa,homicidio,sexo,Hombre,10
-2026,Galapa,homicidio,sexo,Mujer,3
-2026,Galapa,hurto_carros,edad,De 18 años y más,17
-2026,Galapa,hurto_carros,modalidad,Arma de fuego,7
-2026,Galapa,hurto_carros,modalidad,Otra,1
-2026,Galapa,hurto_carros,modalidad,Sin arma,8
+2026,Galapa,extorsion,sexo,Hombre,3
+2026,Galapa,extorsion,sexo,Mujer,8
+2026,Galapa,extorsion,sexo,Sin dato,1
+2026,Galapa,homicidio,edad,De 18 años y más,17
+2026,Galapa,homicidio,modalidad,Arma de fuego,16
+2026,Galapa,homicidio,modalidad,Contundente,1
+2026,Galapa,homicidio,sexo,Hombre,13
+2026,Galapa,homicidio,sexo,Mujer,4
+2026,Galapa,hurto_carros,edad,De 18 años y más,21
+2026,Galapa,hurto_carros,modalidad,Arma de fuego,9
+2026,Galapa,hurto_carros,modalidad,Otra,2
+2026,Galapa,hurto_carros,modalidad,Sin arma,9
 2026,Galapa,hurto_carros,modalidad,Sin dato,1
-2026,Galapa,hurto_carros,sexo,Hombre,15
+2026,Galapa,hurto_carros,sexo,Hombre,19
 2026,Galapa,hurto_carros,sexo,Mujer,2
-2026,Galapa,hurto_comercio,edad,De 18 años y más,9
-2026,Galapa,hurto_comercio,edad,Sin dato,3
-2026,Galapa,hurto_comercio,modalidad,Arma de fuego,3
+2026,Galapa,hurto_comercio,edad,De 18 años y más,17
+2026,Galapa,hurto_comercio,edad,Sin dato,4
+2026,Galapa,hurto_comercio,modalidad,Arma blanca,1
+2026,Galapa,hurto_comercio,modalidad,Arma de fuego,4
 2026,Galapa,hurto_comercio,modalidad,Contundente,1
-2026,Galapa,hurto_comercio,modalidad,Sin arma,8
-2026,Galapa,hurto_comercio,sexo,Sin dato,12
-2026,Galapa,hurto_motos,edad,De 18 años y más,29
+2026,Galapa,hurto_comercio,modalidad,Sin arma,15
+2026,Galapa,hurto_comercio,sexo,Sin dato,21
+2026,Galapa,hurto_motos,edad,De 18 años y más,38
 2026,Galapa,hurto_motos,modalidad,Arma blanca,1
-2026,Galapa,hurto_motos,modalidad,Arma de fuego,15
+2026,Galapa,hurto_motos,modalidad,Arma de fuego,16
 2026,Galapa,hurto_motos,modalidad,Otra,1
-2026,Galapa,hurto_motos,modalidad,Sin arma,11
-2026,Galapa,hurto_motos,modalidad,Sin dato,1
-2026,Galapa,hurto_motos,sexo,Hombre,23
-2026,Galapa,hurto_motos,sexo,Mujer,6
+2026,Galapa,hurto_motos,modalidad,Sin arma,18
+2026,Galapa,hurto_motos,modalidad,Sin dato,2
+2026,Galapa,hurto_motos,sexo,Hombre,33
+2026,Galapa,hurto_motos,sexo,Mujer,5
 2026,Galapa,hurto_personas,edad,De 14 a 17 años,1
-2026,Galapa,hurto_personas,edad,De 18 años y más,120
-2026,Galapa,hurto_personas,modalidad,Arma blanca,21
-2026,Galapa,hurto_personas,modalidad,Arma de fuego,51
+2026,Galapa,hurto_personas,edad,De 18 años y más,131
+2026,Galapa,hurto_personas,modalidad,Arma blanca,22
+2026,Galapa,hurto_personas,modalidad,Arma de fuego,59
 2026,Galapa,hurto_personas,modalidad,Contundente,2
-2026,Galapa,hurto_personas,modalidad,Sin arma,43
-2026,Galapa,hurto_personas,modalidad,Sin dato,4
-2026,Galapa,hurto_personas,sexo,Hombre,80
+2026,Galapa,hurto_personas,modalidad,Sin arma,46
+2026,Galapa,hurto_personas,modalidad,Sin dato,3
+2026,Galapa,hurto_personas,sexo,Hombre,91
 2026,Galapa,hurto_personas,sexo,Mujer,41
 2026,Galapa,hurto_residencias,edad,De 14 a 17 años,1
-2026,Galapa,hurto_residencias,edad,De 18 años y más,11
+2026,Galapa,hurto_residencias,edad,De 18 años y más,14
 2026,Galapa,hurto_residencias,modalidad,Arma blanca,1
 2026,Galapa,hurto_residencias,modalidad,Arma de fuego,4
 2026,Galapa,hurto_residencias,modalidad,Contundente,1
-2026,Galapa,hurto_residencias,modalidad,Sin arma,6
-2026,Galapa,hurto_residencias,sexo,Hombre,10
-2026,Galapa,hurto_residencias,sexo,Mujer,2
+2026,Galapa,hurto_residencias,modalidad,Sin arma,9
+2026,Galapa,hurto_residencias,sexo,Hombre,12
+2026,Galapa,hurto_residencias,sexo,Mujer,3
 2026,Galapa,lesiones,edad,De 0 a 14 años,3
 2026,Galapa,lesiones,edad,De 14 a 17 años,3
-2026,Galapa,lesiones,edad,De 18 años y más,74
-2026,Galapa,lesiones,modalidad,Arma blanca,9
+2026,Galapa,lesiones,edad,De 18 años y más,84
+2026,Galapa,lesiones,modalidad,Arma blanca,10
 2026,Galapa,lesiones,modalidad,Arma de fuego,3
-2026,Galapa,lesiones,modalidad,Contundente,22
+2026,Galapa,lesiones,modalidad,Contundente,23
 2026,Galapa,lesiones,modalidad,Otra,1
-2026,Galapa,lesiones,modalidad,Sin arma,45
-2026,Galapa,lesiones,sexo,Hombre,57
+2026,Galapa,lesiones,modalidad,Sin arma,53
+2026,Galapa,lesiones,sexo,Hombre,67
 2026,Galapa,lesiones,sexo,Mujer,23
-2026,Galapa,transito,edad,De 0 a 14 años,2
-2026,Galapa,transito,edad,De 14 a 17 años,3
-2026,Galapa,transito,edad,De 18 años y más,39
-2026,Galapa,transito,modalidad,Sin arma,38
-2026,Galapa,transito,modalidad,Sin dato,6
-2026,Galapa,transito,sexo,Hombre,31
-2026,Galapa,transito,sexo,Mujer,12
+2026,Galapa,transito,edad,De 14 a 17 años,1
+2026,Galapa,transito,edad,De 18 años y más,50
+2026,Galapa,transito,modalidad,Sin arma,44
+2026,Galapa,transito,modalidad,Sin dato,7
+2026,Galapa,transito,sexo,Hombre,34
+2026,Galapa,transito,sexo,Mujer,16
 2026,Galapa,transito,sexo,Sin dato,1
-2026,Galapa,violencia_intrafamiliar,edad,De 0 a 14 años,3
-2026,Galapa,violencia_intrafamiliar,edad,De 14 a 17 años,3
-2026,Galapa,violencia_intrafamiliar,edad,De 18 años y más,132
-2026,Galapa,violencia_intrafamiliar,modalidad,Arma blanca,2
+2026,Galapa,violencia_intrafamiliar,edad,De 0 a 14 años,6
+2026,Galapa,violencia_intrafamiliar,edad,De 14 a 17 años,2
+2026,Galapa,violencia_intrafamiliar,edad,De 18 años y más,140
+2026,Galapa,violencia_intrafamiliar,modalidad,Arma blanca,3
 2026,Galapa,violencia_intrafamiliar,modalidad,Arma de fuego,2
-2026,Galapa,violencia_intrafamiliar,modalidad,Contundente,23
-2026,Galapa,violencia_intrafamiliar,modalidad,Sin arma,111
-2026,Galapa,violencia_intrafamiliar,sexo,Hombre,40
-2026,Galapa,violencia_intrafamiliar,sexo,Mujer,98
-2026,Galapa,violencia_sexual,edad,De 0 a 14 años,1
-2026,Galapa,violencia_sexual,edad,De 14 a 17 años,3
-2026,Galapa,violencia_sexual,edad,De 18 años y más,12
-2026,Galapa,violencia_sexual,modalidad,Sin arma,16
-2026,Galapa,violencia_sexual,sexo,Mujer,15
+2026,Galapa,violencia_intrafamiliar,modalidad,Contundente,25
+2026,Galapa,violencia_intrafamiliar,modalidad,Sin arma,118
+2026,Galapa,violencia_intrafamiliar,sexo,Hombre,44
+2026,Galapa,violencia_intrafamiliar,sexo,Mujer,104
+2026,Galapa,violencia_sexual,edad,De 0 a 14 años,3
+2026,Galapa,violencia_sexual,edad,De 14 a 17 años,4
+2026,Galapa,violencia_sexual,edad,De 18 años y más,11
+2026,Galapa,violencia_sexual,modalidad,Sin arma,18
+2026,Galapa,violencia_sexual,sexo,Mujer,17
 2026,Galapa,violencia_sexual,sexo,Sin dato,1
+2026,Malambo,amenazas,edad,De 0 a 14 años,4
 2026,Malambo,amenazas,edad,De 14 a 17 años,2
-2026,Malambo,amenazas,edad,De 18 años y más,150
-2026,Malambo,amenazas,modalidad,Sin arma,152
-2026,Malambo,amenazas,sexo,Hombre,88
-2026,Malambo,amenazas,sexo,Mujer,64
+2026,Malambo,amenazas,edad,De 18 años y más,130
+2026,Malambo,amenazas,modalidad,Sin arma,136
+2026,Malambo,amenazas,sexo,Hombre,85
+2026,Malambo,amenazas,sexo,Mujer,51
+2026,Malambo,extorsion,edad,De 0 a 14 años,1
 2026,Malambo,extorsion,edad,De 14 a 17 años,1
-2026,Malambo,extorsion,edad,De 18 años y más,68
-2026,Malambo,extorsion,edad,Sin dato,15
-2026,Malambo,extorsion,modalidad,Otra,83
+2026,Malambo,extorsion,edad,De 18 años y más,80
+2026,Malambo,extorsion,edad,Sin dato,18
+2026,Malambo,extorsion,modalidad,Otra,99
 2026,Malambo,extorsion,modalidad,Sin arma,1
-2026,Malambo,extorsion,sexo,Hombre,42
-2026,Malambo,extorsion,sexo,Mujer,16
-2026,Malambo,extorsion,sexo,Sin dato,26
+2026,Malambo,extorsion,sexo,Hombre,46
+2026,Malambo,extorsion,sexo,Mujer,20
+2026,Malambo,extorsion,sexo,Sin dato,34
 2026,Malambo,homicidio,edad,De 14 a 17 años,14
-2026,Malambo,homicidio,edad,De 18 años y más,71
+2026,Malambo,homicidio,edad,De 18 años y más,81
 2026,Malambo,homicidio,modalidad,Arma blanca,3
-2026,Malambo,homicidio,modalidad,Arma de fuego,79
+2026,Malambo,homicidio,modalidad,Arma de fuego,89
 2026,Malambo,homicidio,modalidad,Contundente,3
-2026,Malambo,homicidio,sexo,Hombre,81
+2026,Malambo,homicidio,sexo,Hombre,91
 2026,Malambo,homicidio,sexo,Mujer,4
-2026,Malambo,hurto_carros,edad,De 18 años y más,12
-2026,Malambo,hurto_carros,modalidad,Arma de fuego,7
+2026,Malambo,hurto_carros,edad,De 18 años y más,15
+2026,Malambo,hurto_carros,modalidad,Arma de fuego,10
 2026,Malambo,hurto_carros,modalidad,Sin arma,5
-2026,Malambo,hurto_carros,sexo,Hombre,11
-2026,Malambo,hurto_carros,sexo,Mujer,1
-2026,Malambo,hurto_comercio,edad,De 18 años y más,17
+2026,Malambo,hurto_carros,sexo,Hombre,13
+2026,Malambo,hurto_carros,sexo,Mujer,2
+2026,Malambo,hurto_comercio,edad,De 18 años y más,35
 2026,Malambo,hurto_comercio,edad,Sin dato,3
-2026,Malambo,hurto_comercio,modalidad,Arma de fuego,3
+2026,Malambo,hurto_comercio,modalidad,Arma de fuego,4
 2026,Malambo,hurto_comercio,modalidad,Contundente,2
 2026,Malambo,hurto_comercio,modalidad,Otra,1
-2026,Malambo,hurto_comercio,modalidad,Sin arma,14
-2026,Malambo,hurto_comercio,sexo,Sin dato,20
-2026,Malambo,hurto_motos,edad,De 18 años y más,43
+2026,Malambo,hurto_comercio,modalidad,Sin arma,31
+2026,Malambo,hurto_comercio,sexo,Sin dato,38
+2026,Malambo,hurto_motos,edad,De 18 años y más,53
 2026,Malambo,hurto_motos,modalidad,Arma blanca,2
-2026,Malambo,hurto_motos,modalidad,Arma de fuego,29
+2026,Malambo,hurto_motos,modalidad,Arma de fuego,35
 2026,Malambo,hurto_motos,modalidad,Contundente,1
-2026,Malambo,hurto_motos,modalidad,Otra,2
+2026,Malambo,hurto_motos,modalidad,Otra,6
 2026,Malambo,hurto_motos,modalidad,Sin arma,8
 2026,Malambo,hurto_motos,modalidad,Sin dato,1
-2026,Malambo,hurto_motos,sexo,Hombre,33
-2026,Malambo,hurto_motos,sexo,Mujer,10
+2026,Malambo,hurto_motos,sexo,Hombre,41
+2026,Malambo,hurto_motos,sexo,Mujer,12
 2026,Malambo,hurto_personas,edad,De 14 a 17 años,2
-2026,Malambo,hurto_personas,edad,De 18 años y más,210
-2026,Malambo,hurto_personas,modalidad,Arma blanca,19
-2026,Malambo,hurto_personas,modalidad,Arma de fuego,121
+2026,Malambo,hurto_personas,edad,De 18 años y más,230
+2026,Malambo,hurto_personas,modalidad,Arma blanca,18
+2026,Malambo,hurto_personas,modalidad,Arma de fuego,132
 2026,Malambo,hurto_personas,modalidad,Contundente,4
-2026,Malambo,hurto_personas,modalidad,Sin arma,54
-2026,Malambo,hurto_personas,modalidad,Sin dato,14
-2026,Malambo,hurto_personas,sexo,Hombre,150
-2026,Malambo,hurto_personas,sexo,Mujer,62
-2026,Malambo,hurto_residencias,edad,De 18 años y más,20
+2026,Malambo,hurto_personas,modalidad,Sin arma,65
+2026,Malambo,hurto_personas,modalidad,Sin dato,13
+2026,Malambo,hurto_personas,sexo,Hombre,162
+2026,Malambo,hurto_personas,sexo,Mujer,70
+2026,Malambo,hurto_residencias,edad,De 18 años y más,22
 2026,Malambo,hurto_residencias,modalidad,Arma de fuego,5
-2026,Malambo,hurto_residencias,modalidad,Sin arma,15
-2026,Malambo,hurto_residencias,sexo,Hombre,11
-2026,Malambo,hurto_residencias,sexo,Mujer,9
+2026,Malambo,hurto_residencias,modalidad,Sin arma,17
+2026,Malambo,hurto_residencias,sexo,Hombre,10
+2026,Malambo,hurto_residencias,sexo,Mujer,12
 2026,Malambo,lesiones,edad,De 0 a 14 años,1
-2026,Malambo,lesiones,edad,De 14 a 17 años,3
-2026,Malambo,lesiones,edad,De 18 años y más,140
+2026,Malambo,lesiones,edad,De 14 a 17 años,5
+2026,Malambo,lesiones,edad,De 18 años y más,159
 2026,Malambo,lesiones,modalidad,Arma blanca,5
-2026,Malambo,lesiones,modalidad,Arma de fuego,25
-2026,Malambo,lesiones,modalidad,Contundente,40
-2026,Malambo,lesiones,modalidad,Sin arma,74
-2026,Malambo,lesiones,sexo,Hombre,92
-2026,Malambo,lesiones,sexo,Mujer,50
-2026,Malambo,lesiones,sexo,Sin dato,2
-2026,Malambo,transito,edad,De 0 a 14 años,1
-2026,Malambo,transito,edad,De 14 a 17 años,3
-2026,Malambo,transito,edad,De 18 años y más,85
+2026,Malambo,lesiones,modalidad,Arma de fuego,28
+2026,Malambo,lesiones,modalidad,Contundente,43
+2026,Malambo,lesiones,modalidad,Sin arma,89
+2026,Malambo,lesiones,sexo,Hombre,104
+2026,Malambo,lesiones,sexo,Mujer,60
+2026,Malambo,lesiones,sexo,Sin dato,1
+2026,Malambo,transito,edad,De 0 a 14 años,4
+2026,Malambo,transito,edad,De 18 años y más,98
 2026,Malambo,transito,modalidad,Otra,1
-2026,Malambo,transito,modalidad,Sin arma,56
-2026,Malambo,transito,modalidad,Sin dato,32
-2026,Malambo,transito,sexo,Hombre,63
-2026,Malambo,transito,sexo,Mujer,26
-2026,Malambo,violencia_intrafamiliar,edad,De 14 a 17 años,9
-2026,Malambo,violencia_intrafamiliar,edad,De 18 años y más,180
+2026,Malambo,transito,modalidad,Sin arma,67
+2026,Malambo,transito,modalidad,Sin dato,34
+2026,Malambo,transito,sexo,Hombre,73
+2026,Malambo,transito,sexo,Mujer,29
+2026,Malambo,violencia_intrafamiliar,edad,De 0 a 14 años,6
+2026,Malambo,violencia_intrafamiliar,edad,De 14 a 17 años,4
+2026,Malambo,violencia_intrafamiliar,edad,De 18 años y más,192
 2026,Malambo,violencia_intrafamiliar,modalidad,Arma de fuego,1
 2026,Malambo,violencia_intrafamiliar,modalidad,Contundente,63
-2026,Malambo,violencia_intrafamiliar,modalidad,Sin arma,125
-2026,Malambo,violencia_intrafamiliar,sexo,Hombre,60
-2026,Malambo,violencia_intrafamiliar,sexo,Mujer,129
-2026,Malambo,violencia_sexual,edad,De 0 a 14 años,6
+2026,Malambo,violencia_intrafamiliar,modalidad,Sin arma,138
+2026,Malambo,violencia_intrafamiliar,sexo,Hombre,65
+2026,Malambo,violencia_intrafamiliar,sexo,Mujer,137
+2026,Malambo,violencia_sexual,edad,De 0 a 14 años,7
 2026,Malambo,violencia_sexual,edad,De 14 a 17 años,6
-2026,Malambo,violencia_sexual,edad,De 18 años y más,36
+2026,Malambo,violencia_sexual,edad,De 18 años y más,39
 2026,Malambo,violencia_sexual,modalidad,Arma blanca,5
-2026,Malambo,violencia_sexual,modalidad,Sin arma,43
+2026,Malambo,violencia_sexual,modalidad,Sin arma,47
 2026,Malambo,violencia_sexual,sexo,Hombre,5
-2026,Malambo,violencia_sexual,sexo,Mujer,41
-2026,Malambo,violencia_sexual,sexo,Sin dato,2
-2026,Puerto Colombia,amenazas,edad,De 18 años y más,51
-2026,Puerto Colombia,amenazas,modalidad,Sin arma,51
+2026,Malambo,violencia_sexual,sexo,Mujer,44
+2026,Malambo,violencia_sexual,sexo,Sin dato,3
+2026,Puerto Colombia,amenazas,edad,De 18 años y más,47
+2026,Puerto Colombia,amenazas,modalidad,Sin arma,47
 2026,Puerto Colombia,amenazas,sexo,Hombre,37
-2026,Puerto Colombia,amenazas,sexo,Mujer,14
+2026,Puerto Colombia,amenazas,sexo,Mujer,10
 2026,Puerto Colombia,extorsion,edad,De 18 años y más,22
 2026,Puerto Colombia,extorsion,edad,Sin dato,2
 2026,Puerto Colombia,extorsion,modalidad,Otra,22
@@ -10332,183 +10340,193 @@ anio,municipio,categoria,variable,valor,cantidad
 2026,Puerto Colombia,extorsion,sexo,Hombre,12
 2026,Puerto Colombia,extorsion,sexo,Mujer,10
 2026,Puerto Colombia,extorsion,sexo,Sin dato,2
-2026,Puerto Colombia,homicidio,edad,De 14 a 17 años,1
-2026,Puerto Colombia,homicidio,edad,De 18 años y más,21
+2026,Puerto Colombia,homicidio,edad,De 14 a 17 años,3
+2026,Puerto Colombia,homicidio,edad,De 18 años y más,19
 2026,Puerto Colombia,homicidio,modalidad,Arma blanca,1
 2026,Puerto Colombia,homicidio,modalidad,Arma de fuego,21
 2026,Puerto Colombia,homicidio,sexo,Hombre,21
 2026,Puerto Colombia,homicidio,sexo,Mujer,1
-2026,Puerto Colombia,hurto_carros,edad,De 18 años y más,11
-2026,Puerto Colombia,hurto_carros,modalidad,Arma de fuego,2
+2026,Puerto Colombia,hurto_carros,edad,De 18 años y más,22
+2026,Puerto Colombia,hurto_carros,modalidad,Arma de fuego,3
 2026,Puerto Colombia,hurto_carros,modalidad,Otra,1
-2026,Puerto Colombia,hurto_carros,modalidad,Sin arma,8
-2026,Puerto Colombia,hurto_carros,sexo,Hombre,9
-2026,Puerto Colombia,hurto_carros,sexo,Mujer,2
-2026,Puerto Colombia,hurto_comercio,edad,De 18 años y más,14
+2026,Puerto Colombia,hurto_carros,modalidad,Sin arma,18
+2026,Puerto Colombia,hurto_carros,sexo,Hombre,15
+2026,Puerto Colombia,hurto_carros,sexo,Mujer,7
+2026,Puerto Colombia,hurto_comercio,edad,De 18 años y más,31
 2026,Puerto Colombia,hurto_comercio,edad,Sin dato,4
-2026,Puerto Colombia,hurto_comercio,modalidad,Arma de fuego,3
+2026,Puerto Colombia,hurto_comercio,modalidad,Arma de fuego,5
 2026,Puerto Colombia,hurto_comercio,modalidad,Contundente,1
-2026,Puerto Colombia,hurto_comercio,modalidad,Sin arma,14
-2026,Puerto Colombia,hurto_comercio,sexo,Sin dato,18
-2026,Puerto Colombia,hurto_motos,edad,De 18 años y más,15
+2026,Puerto Colombia,hurto_comercio,modalidad,Sin arma,29
+2026,Puerto Colombia,hurto_comercio,sexo,Sin dato,35
+2026,Puerto Colombia,hurto_motos,edad,De 18 años y más,19
+2026,Puerto Colombia,hurto_motos,modalidad,Arma blanca,1
 2026,Puerto Colombia,hurto_motos,modalidad,Arma de fuego,2
 2026,Puerto Colombia,hurto_motos,modalidad,Otra,1
-2026,Puerto Colombia,hurto_motos,modalidad,Sin arma,12
-2026,Puerto Colombia,hurto_motos,sexo,Hombre,15
+2026,Puerto Colombia,hurto_motos,modalidad,Sin arma,15
+2026,Puerto Colombia,hurto_motos,sexo,Hombre,18
+2026,Puerto Colombia,hurto_motos,sexo,Mujer,1
 2026,Puerto Colombia,hurto_personas,edad,De 14 a 17 años,4
-2026,Puerto Colombia,hurto_personas,edad,De 18 años y más,182
-2026,Puerto Colombia,hurto_personas,modalidad,Arma blanca,17
-2026,Puerto Colombia,hurto_personas,modalidad,Arma de fuego,68
-2026,Puerto Colombia,hurto_personas,modalidad,Contundente,2
-2026,Puerto Colombia,hurto_personas,modalidad,Sin arma,94
+2026,Puerto Colombia,hurto_personas,edad,De 18 años y más,229
+2026,Puerto Colombia,hurto_personas,modalidad,Arma blanca,25
+2026,Puerto Colombia,hurto_personas,modalidad,Arma de fuego,89
+2026,Puerto Colombia,hurto_personas,modalidad,Contundente,3
+2026,Puerto Colombia,hurto_personas,modalidad,Sin arma,111
 2026,Puerto Colombia,hurto_personas,modalidad,Sin dato,5
-2026,Puerto Colombia,hurto_personas,sexo,Hombre,114
-2026,Puerto Colombia,hurto_personas,sexo,Mujer,72
-2026,Puerto Colombia,hurto_residencias,edad,De 18 años y más,21
-2026,Puerto Colombia,hurto_residencias,modalidad,Arma de fuego,3
+2026,Puerto Colombia,hurto_personas,sexo,Hombre,140
+2026,Puerto Colombia,hurto_personas,sexo,Mujer,93
+2026,Puerto Colombia,hurto_residencias,edad,De 18 años y más,23
+2026,Puerto Colombia,hurto_residencias,modalidad,Arma de fuego,5
 2026,Puerto Colombia,hurto_residencias,modalidad,Contundente,1
 2026,Puerto Colombia,hurto_residencias,modalidad,Otra,1
 2026,Puerto Colombia,hurto_residencias,modalidad,Sin arma,16
-2026,Puerto Colombia,hurto_residencias,sexo,Hombre,17
-2026,Puerto Colombia,hurto_residencias,sexo,Mujer,4
-2026,Puerto Colombia,lesiones,edad,De 14 a 17 años,6
-2026,Puerto Colombia,lesiones,edad,De 18 años y más,56
-2026,Puerto Colombia,lesiones,modalidad,Arma blanca,3
-2026,Puerto Colombia,lesiones,modalidad,Arma de fuego,10
-2026,Puerto Colombia,lesiones,modalidad,Contundente,19
-2026,Puerto Colombia,lesiones,modalidad,Sin arma,30
-2026,Puerto Colombia,lesiones,sexo,Hombre,47
-2026,Puerto Colombia,lesiones,sexo,Mujer,15
+2026,Puerto Colombia,hurto_residencias,sexo,Hombre,18
+2026,Puerto Colombia,hurto_residencias,sexo,Mujer,5
+2026,Puerto Colombia,lesiones,edad,De 0 a 14 años,2
+2026,Puerto Colombia,lesiones,edad,De 14 a 17 años,1
+2026,Puerto Colombia,lesiones,edad,De 18 años y más,73
+2026,Puerto Colombia,lesiones,modalidad,Arma blanca,5
+2026,Puerto Colombia,lesiones,modalidad,Arma de fuego,11
+2026,Puerto Colombia,lesiones,modalidad,Contundente,27
+2026,Puerto Colombia,lesiones,modalidad,Otra,1
+2026,Puerto Colombia,lesiones,modalidad,Sin arma,32
+2026,Puerto Colombia,lesiones,sexo,Hombre,50
+2026,Puerto Colombia,lesiones,sexo,Mujer,26
 2026,Puerto Colombia,secuestro,edad,De 18 años y más,1
 2026,Puerto Colombia,secuestro,modalidad,Sin arma,1
 2026,Puerto Colombia,secuestro,sexo,Hombre,1
+2026,Puerto Colombia,transito,edad,De 0 a 14 años,1
 2026,Puerto Colombia,transito,edad,De 14 a 17 años,3
-2026,Puerto Colombia,transito,edad,De 18 años y más,75
+2026,Puerto Colombia,transito,edad,De 18 años y más,83
 2026,Puerto Colombia,transito,modalidad,Otra,5
-2026,Puerto Colombia,transito,modalidad,Sin arma,54
+2026,Puerto Colombia,transito,modalidad,Sin arma,63
 2026,Puerto Colombia,transito,modalidad,Sin dato,19
-2026,Puerto Colombia,transito,sexo,Hombre,60
-2026,Puerto Colombia,transito,sexo,Mujer,18
-2026,Puerto Colombia,violencia_intrafamiliar,edad,De 14 a 17 años,3
-2026,Puerto Colombia,violencia_intrafamiliar,edad,De 18 años y más,91
+2026,Puerto Colombia,transito,sexo,Hombre,64
+2026,Puerto Colombia,transito,sexo,Mujer,23
+2026,Puerto Colombia,violencia_intrafamiliar,edad,De 0 a 14 años,2
+2026,Puerto Colombia,violencia_intrafamiliar,edad,De 14 a 17 años,2
+2026,Puerto Colombia,violencia_intrafamiliar,edad,De 18 años y más,99
 2026,Puerto Colombia,violencia_intrafamiliar,modalidad,Arma blanca,4
-2026,Puerto Colombia,violencia_intrafamiliar,modalidad,Contundente,15
-2026,Puerto Colombia,violencia_intrafamiliar,modalidad,Sin arma,75
-2026,Puerto Colombia,violencia_intrafamiliar,sexo,Hombre,23
-2026,Puerto Colombia,violencia_intrafamiliar,sexo,Mujer,71
-2026,Puerto Colombia,violencia_sexual,edad,De 18 años y más,13
-2026,Puerto Colombia,violencia_sexual,modalidad,Sin arma,13
-2026,Puerto Colombia,violencia_sexual,sexo,Mujer,13
-2026,Soledad,amenazas,edad,De 0 a 14 años,3
-2026,Soledad,amenazas,edad,De 14 a 17 años,11
-2026,Soledad,amenazas,edad,De 18 años y más,456
+2026,Puerto Colombia,violencia_intrafamiliar,modalidad,Contundente,17
+2026,Puerto Colombia,violencia_intrafamiliar,modalidad,Sin arma,82
+2026,Puerto Colombia,violencia_intrafamiliar,sexo,Hombre,25
+2026,Puerto Colombia,violencia_intrafamiliar,sexo,Mujer,78
+2026,Puerto Colombia,violencia_sexual,edad,De 0 a 14 años,3
+2026,Puerto Colombia,violencia_sexual,edad,De 14 a 17 años,3
+2026,Puerto Colombia,violencia_sexual,edad,De 18 años y más,9
+2026,Puerto Colombia,violencia_sexual,modalidad,Sin arma,15
+2026,Puerto Colombia,violencia_sexual,sexo,Mujer,15
+2026,Soledad,amenazas,edad,De 0 a 14 años,1
+2026,Soledad,amenazas,edad,De 14 a 17 años,14
+2026,Soledad,amenazas,edad,De 18 años y más,390
 2026,Soledad,amenazas,edad,Sin dato,1
 2026,Soledad,amenazas,modalidad,Arma blanca,1
-2026,Soledad,amenazas,modalidad,Sin arma,470
-2026,Soledad,amenazas,sexo,Hombre,241
-2026,Soledad,amenazas,sexo,Mujer,224
-2026,Soledad,amenazas,sexo,Sin dato,6
-2026,Soledad,extorsion,edad,De 18 años y más,220
-2026,Soledad,extorsion,edad,Sin dato,53
-2026,Soledad,extorsion,modalidad,Otra,261
-2026,Soledad,extorsion,modalidad,Sin arma,8
+2026,Soledad,amenazas,modalidad,Sin arma,405
+2026,Soledad,amenazas,sexo,Hombre,209
+2026,Soledad,amenazas,sexo,Mujer,193
+2026,Soledad,amenazas,sexo,Sin dato,4
+2026,Soledad,extorsion,edad,De 14 a 17 años,1
+2026,Soledad,extorsion,edad,De 18 años y más,254
+2026,Soledad,extorsion,edad,Sin dato,58
+2026,Soledad,extorsion,modalidad,Otra,299
+2026,Soledad,extorsion,modalidad,Sin arma,10
 2026,Soledad,extorsion,modalidad,Sin dato,4
-2026,Soledad,extorsion,sexo,Hombre,135
-2026,Soledad,extorsion,sexo,Mujer,64
-2026,Soledad,extorsion,sexo,Sin dato,74
-2026,Soledad,homicidio,edad,De 14 a 17 años,21
-2026,Soledad,homicidio,edad,De 18 años y más,241
-2026,Soledad,homicidio,modalidad,Arma blanca,11
-2026,Soledad,homicidio,modalidad,Arma de fuego,249
-2026,Soledad,homicidio,modalidad,Contundente,2
-2026,Soledad,homicidio,sexo,Hombre,250
-2026,Soledad,homicidio,sexo,Mujer,12
-2026,Soledad,hurto_carros,edad,De 18 años y más,66
-2026,Soledad,hurto_carros,modalidad,Arma de fuego,7
+2026,Soledad,extorsion,sexo,Hombre,154
+2026,Soledad,extorsion,sexo,Mujer,78
+2026,Soledad,extorsion,sexo,Sin dato,81
+2026,Soledad,homicidio,edad,De 14 a 17 años,20
+2026,Soledad,homicidio,edad,De 18 años y más,264
+2026,Soledad,homicidio,modalidad,Arma blanca,12
+2026,Soledad,homicidio,modalidad,Arma de fuego,269
+2026,Soledad,homicidio,modalidad,Contundente,3
+2026,Soledad,homicidio,sexo,Hombre,270
+2026,Soledad,homicidio,sexo,Mujer,14
+2026,Soledad,hurto_carros,edad,De 18 años y más,79
+2026,Soledad,hurto_carros,modalidad,Arma de fuego,9
 2026,Soledad,hurto_carros,modalidad,Contundente,1
-2026,Soledad,hurto_carros,modalidad,Otra,4
-2026,Soledad,hurto_carros,modalidad,Sin arma,53
+2026,Soledad,hurto_carros,modalidad,Otra,6
+2026,Soledad,hurto_carros,modalidad,Sin arma,62
 2026,Soledad,hurto_carros,modalidad,Sin dato,1
-2026,Soledad,hurto_carros,sexo,Hombre,57
-2026,Soledad,hurto_carros,sexo,Mujer,9
-2026,Soledad,hurto_comercio,edad,De 18 años y más,69
-2026,Soledad,hurto_comercio,edad,Sin dato,7
-2026,Soledad,hurto_comercio,modalidad,Arma de fuego,27
+2026,Soledad,hurto_carros,sexo,Hombre,69
+2026,Soledad,hurto_carros,sexo,Mujer,10
+2026,Soledad,hurto_comercio,edad,De 18 años y más,109
+2026,Soledad,hurto_comercio,edad,Sin dato,12
+2026,Soledad,hurto_comercio,modalidad,Arma de fuego,50
 2026,Soledad,hurto_comercio,modalidad,Contundente,1
 2026,Soledad,hurto_comercio,modalidad,Otra,1
-2026,Soledad,hurto_comercio,modalidad,Sin arma,45
-2026,Soledad,hurto_comercio,modalidad,Sin dato,2
-2026,Soledad,hurto_comercio,sexo,Sin dato,76
+2026,Soledad,hurto_comercio,modalidad,Sin arma,68
+2026,Soledad,hurto_comercio,modalidad,Sin dato,1
+2026,Soledad,hurto_comercio,sexo,Sin dato,121
 2026,Soledad,hurto_entidades,edad,De 18 años y más,1
 2026,Soledad,hurto_entidades,modalidad,Arma de fuego,1
 2026,Soledad,hurto_entidades,sexo,Sin dato,1
-2026,Soledad,hurto_motos,edad,De 14 a 17 años,4
-2026,Soledad,hurto_motos,edad,De 18 años y más,285
-2026,Soledad,hurto_motos,modalidad,Arma blanca,6
-2026,Soledad,hurto_motos,modalidad,Arma de fuego,103
-2026,Soledad,hurto_motos,modalidad,Otra,9
-2026,Soledad,hurto_motos,modalidad,Sin arma,166
+2026,Soledad,hurto_motos,edad,De 14 a 17 años,6
+2026,Soledad,hurto_motos,edad,De 18 años y más,322
+2026,Soledad,hurto_motos,modalidad,Arma blanca,7
+2026,Soledad,hurto_motos,modalidad,Arma de fuego,117
+2026,Soledad,hurto_motos,modalidad,Otra,13
+2026,Soledad,hurto_motos,modalidad,Sin arma,186
 2026,Soledad,hurto_motos,modalidad,Sin dato,5
-2026,Soledad,hurto_motos,sexo,Hombre,255
-2026,Soledad,hurto_motos,sexo,Mujer,34
-2026,Soledad,hurto_personas,edad,De 14 a 17 años,20
-2026,Soledad,hurto_personas,edad,De 18 años y más,1814
-2026,Soledad,hurto_personas,modalidad,Arma blanca,179
-2026,Soledad,hurto_personas,modalidad,Arma de fuego,984
-2026,Soledad,hurto_personas,modalidad,Contundente,25
-2026,Soledad,hurto_personas,modalidad,Sin arma,540
-2026,Soledad,hurto_personas,modalidad,Sin dato,106
-2026,Soledad,hurto_personas,sexo,Hombre,1084
-2026,Soledad,hurto_personas,sexo,Mujer,750
+2026,Soledad,hurto_motos,sexo,Hombre,288
+2026,Soledad,hurto_motos,sexo,Mujer,40
+2026,Soledad,hurto_personas,edad,De 0 a 14 años,1
+2026,Soledad,hurto_personas,edad,De 14 a 17 años,22
+2026,Soledad,hurto_personas,edad,De 18 años y más,1959
+2026,Soledad,hurto_personas,modalidad,Arma blanca,190
+2026,Soledad,hurto_personas,modalidad,Arma de fuego,1103
+2026,Soledad,hurto_personas,modalidad,Contundente,24
+2026,Soledad,hurto_personas,modalidad,Sin arma,547
+2026,Soledad,hurto_personas,modalidad,Sin dato,118
+2026,Soledad,hurto_personas,sexo,Hombre,1163
+2026,Soledad,hurto_personas,sexo,Mujer,819
 2026,Soledad,hurto_residencias,edad,De 14 a 17 años,1
-2026,Soledad,hurto_residencias,edad,De 18 años y más,79
+2026,Soledad,hurto_residencias,edad,De 18 años y más,87
 2026,Soledad,hurto_residencias,modalidad,Arma blanca,1
 2026,Soledad,hurto_residencias,modalidad,Arma de fuego,2
 2026,Soledad,hurto_residencias,modalidad,Otra,1
-2026,Soledad,hurto_residencias,modalidad,Sin arma,74
+2026,Soledad,hurto_residencias,modalidad,Sin arma,82
 2026,Soledad,hurto_residencias,modalidad,Sin dato,2
-2026,Soledad,hurto_residencias,sexo,Hombre,44
-2026,Soledad,hurto_residencias,sexo,Mujer,36
-2026,Soledad,lesiones,edad,De 0 a 14 años,1
-2026,Soledad,lesiones,edad,De 14 a 17 años,33
-2026,Soledad,lesiones,edad,De 18 años y más,500
+2026,Soledad,hurto_residencias,sexo,Hombre,50
+2026,Soledad,hurto_residencias,sexo,Mujer,38
+2026,Soledad,lesiones,edad,De 0 a 14 años,3
+2026,Soledad,lesiones,edad,De 14 a 17 años,38
+2026,Soledad,lesiones,edad,De 18 años y más,559
 2026,Soledad,lesiones,edad,Sin dato,1
-2026,Soledad,lesiones,modalidad,Arma blanca,38
-2026,Soledad,lesiones,modalidad,Arma de fuego,91
-2026,Soledad,lesiones,modalidad,Contundente,141
+2026,Soledad,lesiones,modalidad,Arma blanca,46
+2026,Soledad,lesiones,modalidad,Arma de fuego,105
+2026,Soledad,lesiones,modalidad,Contundente,164
 2026,Soledad,lesiones,modalidad,Otra,5
-2026,Soledad,lesiones,modalidad,Sin arma,260
-2026,Soledad,lesiones,sexo,Hombre,328
-2026,Soledad,lesiones,sexo,Mujer,204
+2026,Soledad,lesiones,modalidad,Sin arma,281
+2026,Soledad,lesiones,sexo,Hombre,362
+2026,Soledad,lesiones,sexo,Mujer,236
 2026,Soledad,lesiones,sexo,Sin dato,3
-2026,Soledad,transito,edad,De 0 a 14 años,3
-2026,Soledad,transito,edad,De 14 a 17 años,5
-2026,Soledad,transito,edad,De 18 años y más,300
-2026,Soledad,transito,edad,Sin dato,1
+2026,Soledad,transito,edad,De 0 a 14 años,4
+2026,Soledad,transito,edad,De 14 a 17 años,8
+2026,Soledad,transito,edad,De 18 años y más,368
+2026,Soledad,transito,edad,Sin dato,3
 2026,Soledad,transito,modalidad,Otra,4
-2026,Soledad,transito,modalidad,Sin arma,281
-2026,Soledad,transito,modalidad,Sin dato,24
-2026,Soledad,transito,sexo,Hombre,209
-2026,Soledad,transito,sexo,Mujer,96
-2026,Soledad,transito,sexo,Sin dato,4
-2026,Soledad,violencia_intrafamiliar,edad,De 0 a 14 años,21
-2026,Soledad,violencia_intrafamiliar,edad,De 14 a 17 años,17
-2026,Soledad,violencia_intrafamiliar,edad,De 18 años y más,955
-2026,Soledad,violencia_intrafamiliar,edad,Sin dato,3
+2026,Soledad,transito,modalidad,Sin arma,353
+2026,Soledad,transito,modalidad,Sin dato,26
+2026,Soledad,transito,sexo,Hombre,251
+2026,Soledad,transito,sexo,Mujer,126
+2026,Soledad,transito,sexo,Sin dato,6
+2026,Soledad,violencia_intrafamiliar,edad,De 0 a 14 años,15
+2026,Soledad,violencia_intrafamiliar,edad,De 14 a 17 años,22
+2026,Soledad,violencia_intrafamiliar,edad,De 18 años y más,1064
+2026,Soledad,violencia_intrafamiliar,edad,Sin dato,4
 2026,Soledad,violencia_intrafamiliar,modalidad,Arma blanca,10
-2026,Soledad,violencia_intrafamiliar,modalidad,Arma de fuego,8
-2026,Soledad,violencia_intrafamiliar,modalidad,Contundente,187
-2026,Soledad,violencia_intrafamiliar,modalidad,Sin arma,791
-2026,Soledad,violencia_intrafamiliar,sexo,Hombre,254
-2026,Soledad,violencia_intrafamiliar,sexo,Mujer,733
+2026,Soledad,violencia_intrafamiliar,modalidad,Arma de fuego,9
+2026,Soledad,violencia_intrafamiliar,modalidad,Contundente,190
+2026,Soledad,violencia_intrafamiliar,modalidad,Sin arma,896
+2026,Soledad,violencia_intrafamiliar,sexo,Hombre,280
+2026,Soledad,violencia_intrafamiliar,sexo,Mujer,816
 2026,Soledad,violencia_intrafamiliar,sexo,Sin dato,9
-2026,Soledad,violencia_sexual,edad,De 0 a 14 años,19
-2026,Soledad,violencia_sexual,edad,De 14 a 17 años,20
-2026,Soledad,violencia_sexual,edad,De 18 años y más,199
+2026,Soledad,violencia_sexual,edad,De 0 a 14 años,30
+2026,Soledad,violencia_sexual,edad,De 14 a 17 años,29
+2026,Soledad,violencia_sexual,edad,De 18 años y más,214
 2026,Soledad,violencia_sexual,modalidad,Arma blanca,19
 2026,Soledad,violencia_sexual,modalidad,Contundente,1
 2026,Soledad,violencia_sexual,modalidad,Otra,1
-2026,Soledad,violencia_sexual,modalidad,Sin arma,217
-2026,Soledad,violencia_sexual,sexo,Hombre,36
-2026,Soledad,violencia_sexual,sexo,Mujer,199
-2026,Soledad,violencia_sexual,sexo,Sin dato,3
+2026,Soledad,violencia_sexual,modalidad,Sin arma,252
+2026,Soledad,violencia_sexual,sexo,Hombre,42
+2026,Soledad,violencia_sexual,sexo,Mujer,226
+2026,Soledad,violencia_sexual,sexo,Sin dato,5
