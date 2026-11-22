@@ -47,6 +47,7 @@ jobs:
           git add data/casos.json data/geocodigos.json data/publico data/cortes
           git diff --cached --quiet && exit 0
           git commit -m "Ubicar casos en el mapa ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git pull --rebase origin main
           git push
       - name: Armar el sitio
         run: |

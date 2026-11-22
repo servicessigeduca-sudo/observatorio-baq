@@ -12,6 +12,7 @@ import csv
 import io
 import json
 import re
+import time
 import zipfile
 from collections import Counter
 from datetime import datetime, timezone
@@ -77,6 +78,21 @@ def escribir(tablas: dict[str, Counter], fuentes: list[str], actualizado: str, c
     print(f"Escrito {salida}: {len(t['filas'])} filas mensuales, último mes {datos['ultimo_mes']}")
 
 
+def descargar(sesion: requests.Session, url: str, intentos: int = 4) -> bytes:
+    """Descarga un archivo grande; la Policía a veces corta la conexión a mitad."""
+    for i in range(1, intentos + 1):
+        try:
+            r = sesion.get(url, timeout=900)
+            r.raise_for_status()
+            return r.content
+        except (requests.ConnectionError, requests.exceptions.ChunkedEncodingError, requests.Timeout) as e:
+            if i == intentos:
+                raise
+            print(f"Descarga cortada ({e.__class__.__name__}), reintento {i}/{intentos - 1}: {url}")
+            time.sleep(30 * i)
+    raise AssertionError("inalcanzable")
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="oficiales")
     ap.add_argument("--anios", default="2020-2026")
@@ -93,9 +109,7 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Sin archivo a nivel de registro para: {faltan}")
     tablas: dict[str, Counter] = {k: Counter() for k in COLUMNAS}
     for anio, url in sorted(urls.items()):
-        r = sesion.get(url, timeout=900)
-        r.raise_for_status()
-        for nombre, libro in libros(r.content, url):
+        for nombre, libro in libros(descargar(sesion, url), url):
             df = leer(libro)
             parcial = agregar(df)
             for k, c in parcial.items():
