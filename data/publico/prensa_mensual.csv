@@ -3,8 +3,8 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-03,Malambo,,hom,Sin dato,2
 2026-04,,,hom,Arma de fuego,1
 2026-04,,,hom,Sin dato,1
-2026-04,,Evaristo Sourdis,hom,Arma de fuego,1
-2026-04,,Las Estrellas,hom,Arma de fuego,1
+2026-04,Barranquilla,Evaristo Sourdis,hom,Arma de fuego,1
+2026-04,Barranquilla,Las Estrellas,hom,Arma de fuego,1
 2026-04,Soledad,Los Cedros,hom,Arma de fuego,1
 2026-05,Barranquilla,El Bosque,hom,Arma de fuego,1
 2026-05,Soledad,Los Almendros,hom,Arma de fuego,1
@@ -14,19 +14,11 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-11,,,hom,Arma de fuego,6
 2026-11,,,hom,Sin dato,9
 2026-11,,,hur,Arma de fuego,1
-2026-11,,,hur,Sin dato,1
+2026-11,,,hur,Sin dato,2
 2026-11,,,les,Arma de fuego,3
 2026-11,,,les,Sin dato,1
 2026-11,,,otr,Sin dato,4
-2026-11,,Buenos Aires,otr,Sin dato,1
-2026-11,,El Limón,hom,Arma de fuego,1
-2026-11,,El Valle,hom,Arma de fuego,1
-2026-11,,Evaristo Sourdis,hom,Arma de fuego,1
 2026-11,,La Esmeralda,hom,Arma de fuego,1
-2026-11,,Los Almendros,hur,Sin dato,1
-2026-11,,Rebolo,hom,Arma de fuego,1
-2026-11,,Santo Domingo,hom,Arma de fuego,1
-2026-11,,Siete de Abril,hom,Sin dato,1
 2026-11,,Villa María,hom,Arma de fuego,1
 2026-11,Barranquilla,,ext,Sin dato,1
 2026-11,Barranquilla,,hom,Arma de fuego,3
@@ -35,21 +27,28 @@ mes,municipio,barrio,delito,modalidad,casos
 2026-11,Barranquilla,,les,Arma de fuego,1
 2026-11,Barranquilla,,les,Sin dato,1
 2026-11,Barranquilla,,otr,Sin dato,2
+2026-11,Barranquilla,Buenos Aires,otr,Sin dato,1
 2026-11,Barranquilla,Chiquinquirá,les,Arma de fuego,1
 2026-11,Barranquilla,Colombia,hom,Arma de fuego,1
 2026-11,Barranquilla,Conidec,hom,Sin dato,1
 2026-11,Barranquilla,El Bosque,hom,Arma de fuego,1
+2026-11,Barranquilla,El Limón,hom,Arma de fuego,1
 2026-11,Barranquilla,El Prado,ext,Arma de fuego,1
 2026-11,Barranquilla,El Santuario,hom,Arma de fuego,2
+2026-11,Barranquilla,El Valle,hom,Arma de fuego,1
+2026-11,Barranquilla,Evaristo Sourdis,hom,Arma de fuego,1
 2026-11,Barranquilla,La Sierrita,hom,Arma de fuego,1
 2026-11,Barranquilla,Las Flores,hom,Arma de fuego,1
 2026-11,Barranquilla,Las Nieves,hom,Arma de fuego,2
 2026-11,Barranquilla,Los Girasoles,hom,Arma de fuego,1
 2026-11,Barranquilla,Nueva Colombia,hom,Arma de fuego,1
+2026-11,Barranquilla,Rebolo,hom,Arma de fuego,1
 2026-11,Barranquilla,San Isidro,hom,Arma de fuego,1
 2026-11,Barranquilla,San Roque,hom,Arma de fuego,1
 2026-11,Barranquilla,Santa María,hom,Arma de fuego,1
+2026-11,Barranquilla,Santo Domingo,hom,Arma de fuego,1
 2026-11,Barranquilla,Siete de Abril,hom,Arma de fuego,1
+2026-11,Barranquilla,Siete de Abril,hom,Sin dato,1
 2026-11,Barranquilla,Simón Bolívar,hom,Arma de fuego,1
 2026-11,Barranquilla,Torre del Pescado,hom,Arma de fuego,1
 2026-11,Galapa,,hom,Arma de fuego,1

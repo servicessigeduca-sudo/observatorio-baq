@@ -59,7 +59,7 @@ mes,municipio,delito,prensa,oficial,registro,proporcion_prensa,notas
 2026-03,Puerto Colombia,les,0,16,,,prensa_parcial
 2026-03,Puerto Colombia,hur,0,29,,,prensa_parcial
 2026-03,Puerto Colombia,ext,0,5,,,prensa_parcial
-2026-04,Barranquilla,hom,0,54,57,,prensa_parcial
+2026-04,Barranquilla,hom,2,54,57,,prensa_parcial
 2026-04,Barranquilla,les,0,171,,,prensa_parcial
 2026-04,Barranquilla,hur,0,821,,,prensa_parcial
 2026-04,Barranquilla,ext,0,74,,,prensa_parcial
@@ -199,7 +199,7 @@ mes,municipio,delito,prensa,oficial,registro,proporcion_prensa,notas
 2026-10,Puerto Colombia,les,0,9,,,prensa_parcial oficial_provisional
 2026-10,Puerto Colombia,hur,0,45,,,prensa_parcial oficial_provisional
 2026-10,Puerto Colombia,ext,0,0,,,prensa_parcial
-2026-11,Barranquilla,hom,22,,,,prensa_parcial
+2026-11,Barranquilla,hom,28,,,,prensa_parcial
 2026-11,Barranquilla,les,3,,,,prensa_parcial
 2026-11,Barranquilla,hur,1,,,,prensa_parcial
 2026-11,Barranquilla,ext,2,,,,prensa_parcial

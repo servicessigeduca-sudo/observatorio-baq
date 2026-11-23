@@ -166,9 +166,9 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
+    "lat": 10.9978,
+    "lon": -74.79687,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "1739406c4d47",
@@ -205,9 +205,9 @@
     "posible_duplicado_de": [
       "9d71b03a44e6"
     ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
+    "lat": 10.94771,
+    "lon": -74.81146,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "149226c3a482",
@@ -386,9 +386,9 @@
     "posible_duplicado_de": [
       "bb4bf56da48c"
     ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja"
+    "lat": 11.01682,
+    "lon": -74.86217,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "3804703f834e",
@@ -641,7 +641,7 @@
     ],
     "fecha": "2026-11-19",
     "municipio": null,
-    "barrio": "Los Almendros",
+    "barrio": null,
     "medios": [
       "Zona Cero"
     ],
@@ -657,9 +657,9 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
-    "lat": 11.0451,
-    "lon": -74.82789,
-    "confianza_ubicacion": "alta"
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "9a45a5f2371c",
@@ -1303,7 +1303,7 @@
       "homicidio"
     ],
     "fecha": "2026-11-16",
-    "municipio": null,
+    "municipio": "Barranquilla",
     "barrio": "Siete de Abril",
     "medios": [
       "Diario La Libertad"
@@ -1320,9 +1320,10 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
+    "municipio_deducido": true,
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "0ef5bb60ad8d",
@@ -1496,7 +1497,7 @@
       "homicidio"
     ],
     "fecha": "2026-11-15",
-    "municipio": null,
+    "municipio": "Barranquilla",
     "barrio": "Rebolo",
     "medios": [
       "Impacto News"
@@ -1513,6 +1514,7 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
+    "municipio_deducido": true,
     "lat": 10.96307,
     "lon": -74.77469,
     "confianza_ubicacion": "alta"
@@ -1634,7 +1636,7 @@
       "desaparicion"
     ],
     "fecha": "2026-11-15",
-    "municipio": null,
+    "municipio": "Barranquilla",
     "barrio": "Buenos Aires",
     "medios": [
       "Zona Cero"
@@ -1651,6 +1653,7 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
+    "municipio_deducido": true,
     "lat": 10.94081,
     "lon": -74.79921,
     "confianza_ubicacion": "alta"
@@ -1896,7 +1899,7 @@
       "extorsion"
     ],
     "fecha": "2026-11-13",
-    "municipio": null,
+    "municipio": "Barranquilla",
     "barrio": "Santo Domingo",
     "medios": [
       "Impacto News"
@@ -1913,6 +1916,7 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
+    "municipio_deducido": true,
     "lat": 10.97732,
     "lon": -74.8014,
     "confianza_ubicacion": "alta"
@@ -2172,7 +2176,7 @@
       "lesiones"
     ],
     "fecha": "2026-11-12",
-    "municipio": null,
+    "municipio": "Barranquilla",
     "barrio": "Evaristo Sourdis",
     "medios": [
       "Zona Cero"
@@ -2191,6 +2195,7 @@
     "posible_duplicado_de": [
       "b4d47b631f10"
     ],
+    "municipio_deducido": true,
     "lat": 10.95972,
     "lon": -74.82444,
     "confianza_ubicacion": "alta"
@@ -2673,7 +2678,7 @@
       "lesiones"
     ],
     "fecha": "2026-11-11",
-    "municipio": null,
+    "municipio": "Barranquilla",
     "barrio": "El Valle",
     "medios": [
       "Diario La Libertad"
@@ -2690,6 +2695,7 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
+    "municipio_deducido": true,
     "lat": 10.96627,
     "lon": -74.81026,
     "confianza_ubicacion": "alta"
@@ -2886,9 +2892,9 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
-    "lat": 10.96722,
-    "lon": -74.81923,
-    "confianza_ubicacion": "alta"
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "2f493d99b57a",
@@ -2954,7 +2960,7 @@
       "lesiones"
     ],
     "fecha": "2026-11-09",
-    "municipio": null,
+    "municipio": "Barranquilla",
     "barrio": "El Limón",
     "medios": [
       "Zona Cero"
@@ -2977,9 +2983,10 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
+    "municipio_deducido": true,
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "8997b02b1ed1",
@@ -3130,7 +3137,7 @@
       "lesiones"
     ],
     "fecha": "2026-04-14",
-    "municipio": null,
+    "municipio": "Barranquilla",
     "barrio": "Las Estrellas",
     "medios": [
       "CTV Barranquilla"
@@ -3147,6 +3154,7 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
+    "municipio_deducido": true,
     "lat": 10.98151,
     "lon": -74.83403,
     "confianza_ubicacion": "alta"
@@ -3215,7 +3223,7 @@
       "homicidio"
     ],
     "fecha": "2026-04-08",
-    "municipio": null,
+    "municipio": "Barranquilla",
     "barrio": "Evaristo Sourdis",
     "medios": [
       "CTV Barranquilla"
@@ -3232,6 +3240,7 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
+    "municipio_deducido": true,
     "lat": 10.95972,
     "lon": -74.82444,
     "confianza_ubicacion": "alta"

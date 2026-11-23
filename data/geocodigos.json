@@ -14,6 +14,11 @@
     "lon": -74.79236,
     "nombre_osm": "Ciudad Paraíso, Soledad, Atlántico, RAP Caribe, 083010, Colombia"
   },
+  "colombia|Barranquilla": {
+    "lat": 11.01682,
+    "lon": -74.86217,
+    "nombre_osm": "Templo de Barranquilla, Colombia, Vía Barranquilla - Cartagena, La Playa, Puerto Colombia, Atlántico, RAP Caribe, 081007"
+  },
   "conidec|Barranquilla": {
     "lat": 10.92553,
     "lon": -74.81094,
@@ -26,6 +31,11 @@
   },
   "el ferry|Soledad": null,
   "el limon|Barranquilla": null,
+  "el prado|Barranquilla": {
+    "lat": 10.9978,
+    "lon": -74.79687,
+    "nombre_osm": "El Prado, Localidad Norte - Centro Histórico, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 080002"
+  },
   "el santuario|Barranquilla": {
     "lat": 10.94585,
     "lon": -74.80224,
@@ -45,6 +55,11 @@
     "lat": 10.96722,
     "lon": -74.81923,
     "nombre_osm": "La Esmeralda, Localidad Suroccidente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
+  },
+  "la sierrita|Barranquilla": {
+    "lat": 10.94771,
+    "lon": -74.81146,
+    "nombre_osm": "La Sierrita, Localidad Metropolitana, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
   },
   "las estrellas|Barranquilla": {
     "lat": 10.98151,
