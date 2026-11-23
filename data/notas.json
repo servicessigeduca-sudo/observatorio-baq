@@ -1405,7 +1405,7 @@
       "hurto"
     ],
     "municipio": null,
-    "barrio": "Los Almendros",
+    "barrio": null,
     "estado": "pendiente",
     "id": "7189ea04988004ed0840b73eac7bb1febf6d81bc"
   },
@@ -4774,7 +4774,7 @@
       "captura"
     ],
     "municipio": "Barranquilla",
-    "barrio": "El Bosque",
+    "barrio": null,
     "estado": "pendiente",
     "id": "87da12274546c24e071dbe7cdbd309cde4a60ca4"
   },

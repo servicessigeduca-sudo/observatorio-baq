@@ -22,7 +22,7 @@ REGLAS: list[tuple[str, list[str]]] = [
         r"asesina", r"\bmatan\b", r"\bmataron\b", r"\bmato\b", r"homicid", r"sicariato",
         r"(muri[oó]|fallec|muerto|muerta|muertos|sin vida)", r"masacre", r"abatid",
     ]),
-    ("lesiones", [r"herid[oa]s?\b", r"balead[oa]", r"apu[nñ]alad", r"atentado", r"ataque a bala", r"lesiones"]),
+    ("lesiones", [r"herid[oa]s?\b", r"\bhier(e|en)\b", r"balead[oa]", r"apu[nñ]alad", r"atentado", r"ataque a bala", r"lesiones"]),
     ("violencia_sexual", [r"abuso sexual", r"violacion", r"acceso carnal", r"acto sexual"]),
     ("extorsion", [r"extorsi"]),
     ("secuestro", [r"secuestr"]),
@@ -93,6 +93,10 @@ _PATRON_BARRIO = re.compile(
     r"((?:[A-ZÁÉÍÓÚÑ0-9][\wáéíóúñ'’]*)(?:\s+(?:de|del|la|las|los|el|y|[A-ZÁÉÍÓÚÑ0-9IVX][\wáéíóúñ'’]*))*)"
 )
 _FINALES = {"de", "del", "la", "las", "los", "el", "y", "en"}
+_INSTITUCION = re.compile(
+    r"\b(clinica|hospital|ips|eps|caminos?|centro comercial|c\. ?c\.|colegio|institucion educativa|universidad|"
+    r"estacion( de policia)?|cai|iglesia|parroquia|cementerio|centro de salud|puesto de salud|uci)\s+(de\s+)?$"
+)
 
 
 def barrio(texto: str) -> str | None:
@@ -111,8 +115,10 @@ def barrio(texto: str) -> str | None:
             return " ".join(palabras).rstrip(",.:;")
     t = normalizar(texto)
     for clave, nombre in _BARRIOS_N:
-        if re.search(rf"\b{re.escape(clave)}\b", t):
-            return nombre
+        for m in re.finditer(rf"\b{re.escape(clave)}\b", t):
+            # «Clínica Los Almendros» o «colegio La Victoria» no dicen dónde ocurrió el hecho.
+            if not _INSTITUCION.search(t[: m.start()]):
+                return nombre
     return None
 
 

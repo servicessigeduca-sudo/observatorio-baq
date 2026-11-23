@@ -117,7 +117,13 @@
         var m=L.circleMarker([la,lo],{renderer:r,radius:opc.radio||4,fillColor:col,fillOpacity:.85,color:borde,weight:.8,interactive:!!txt});
         if(txt)m.bindTooltip(txt);m.addTo(capa)})})};
 
-  // Clave de barrio para unir nombres de los datos con los de OpenStreetMap (igual que publico/limites_barrios.py).
-  O.claveBarrio=function(t){return String(t||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9ñ]+/g," ").trim()
-    .replace(/^(barrio|urbanizacion|urb|conjunto residencial|conjunto|ciudadela|sector|asentamiento)\s+/,"").replace(/\s+/g," ")};
+  // Clave de barrio para unir nombres de los datos con los límites. Igual que clave() en publico/nombres_barrio.py:
+  // sin tildes ni signos, sin «barrio», «urbanización» ni «etapa», y números en cifras («Siete» → 7, «II» → 2).
+  var NUM={uno:"1",primero:"1",dos:"2",tres:"3",cuatro:"4",cinco:"5",seis:"6",siete:"7",ocho:"8",nueve:"9",diez:"10",once:"11",doce:"12",trece:"13",catorce:"14",quince:"15",veinte:"20",
+    i:"1",ii:"2",iii:"3",iv:"4",v:"5",vi:"6",vii:"7",viii:"8",ix:"9",x:"10"};
+  O.claveBarrio=function(t){var k=String(t||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9ñ]+/g," ").trim()
+    .replace(/^(barrio|urbanizacion|urb|conjunto residencial|conjunto|ciudadela|sector|asentamiento)\s+/,"");
+    return k.split(" ").filter(function(w){return w&&w!=="etapa"}).map(function(w){return NUM[w]||w}).join(" ")};
+  // Misma clave sin artículo inicial («El Limón» → «limon»), para el segundo intento.
+  O.sinArticulo=function(k){return k.replace(/^(el|la|los|las) /,"")};
 })();

@@ -56,7 +56,8 @@ def geocodificar(casos: list[dict], cache_ruta: Path, consultar_red: bool = True
     for c in casos:
         c["lat"] = c["lon"] = None
         c["confianza_ubicacion"] = "baja"
-        if c.get("barrio"):
+        # Sin municipio no se busca el barrio: el mismo nombre puede estar en varios municipios.
+        if c.get("barrio") and c.get("municipio"):
             k = clave(c["barrio"], c.get("municipio"))
             if k not in cache and consultar_red:
                 try:
