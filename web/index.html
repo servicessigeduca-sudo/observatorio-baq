@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="estilos.css?v=20261123b">
+<link rel="stylesheet" href="estilos.css?v=20261123c">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -84,7 +84,7 @@
     <a class="btn" href="mapa.html">Abrir el mapa</a>
   </div>
   <a class="mapcard" href="mapa.html" aria-label="Abrir el mapa completo"><div id="map" class="mapa-mini" role="img" aria-label="Vista previa del mapa de homicidios de 2026"></div><div class="leg" id="leg"></div></a>
-  <p class="fuente">Cada punto es un homicidio en una ubicación aproximada, nunca la dirección exacta, para proteger a las víctimas y a sus familias.</p>
+  <p class="fuente">Cada punto es un homicidio, en una ubicación aproximada. <a class="porque" href="metodologia.html#ubicacion">¿Por qué?</a></p>
 </div></section>
 
 <section class="sec" id="fuentes"><div class="in grid2">
@@ -111,15 +111,15 @@
   <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261123b"></script>
+<script src="comun.js?v=20261123c"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="datos.js?v=20261123b"></script>
-<script src="compartir.js?v=20261123b"></script>
+<script src="datos.js?v=20261123c"></script>
+<script src="compartir.js?v=20261123c"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc,D={};
   O.estado("ficha","cargando","Cargando datos…");
-  function mayus(t){return t.charAt(0).toUpperCase()+t.slice(1)}
+  var PQ='<a class="porque" href="metodologia.html#rayadas">¿Por qué?</a>';
   function plural(n,uno,varios){return O.num(n)+" "+(n===1?uno:varios)}
   function rango(desde,hasta){var a=desde.split("-"),b=hasta.split("-");
     return a[0]===b[0]?"entre "+O.MESES[+a[1]-1]+" y "+O.MESES[+b[1]-1]+" de "+b[0]:"entre "+O.mes(desde)+" y "+O.mes(hasta)}
@@ -134,7 +134,7 @@
       (horas?'<span class="ritmo">'+(horas<=1?"Más de uno por hora":"Uno cada <b>"+horas+" horas</b>")+"</span>":"");
     var inc=h.por_mes.filter(function(d){return d.incompleto});
     O.barrasMes("c-serie",h.por_mes.map(function(d){return {mes:d.mes,casos:d.casos,incompleto:d.incompleto?["casos"]:[]}}),[{clave:"casos",nombre:"Homicidios",color:"var(--c-hom)"}],{alt:"Homicidios por mes en el área metropolitana, últimos 24 meses"});
-    $("c-fuente").textContent="Homicidios por mes, últimos 24 meses. Fuente: Policía Nacional (SIEDCO)."+(inc.length?" "+mayus(inc.length===1?O.MESES[+inc[0].mes.slice(5)-1]+" aún no está completo":inc.map(function(d){return O.MESES[+d.mes.slice(5)-1]}).join(", ").replace(/, ([^,]*)$/," y $1")+" aún no están completos")+" (barras rayadas), por eso no entran en la cifra.":"");
+    $("c-fuente").innerHTML="Homicidios por mes. Fuente: Policía Nacional (SIEDCO)."+(inc.length?" Rayado: "+inc.map(function(d){return O.MESES[+d.mes.slice(5)-1]}).join(", ").replace(/, ([^,]*)$/," y $1")+", aún incompletos y sin sumar. "+PQ:"");
     return true;
   }
 
@@ -200,11 +200,12 @@
       '<p class="eyebrow">'+(x.tipo==="barrio"?"Barrio":"Municipio")+'</p><h3 class="f-h">'+esc(x.nombre)+(x.tipo==="barrio"&&x.municipio?' <span class="etq">'+esc(x.municipio)+"</span>":"")+'</h3>'+
       '<div class="ficha">'+k1+k2+k3+'</div>'+
       '<p class="k f-k">Homicidios por mes en 2026</p><div class="chart spark" id="spark"></div><p class="fuente" id="spark-txt"></p></div>'+
+      '<p class="f-mapa"><a class="btn" href="mapa.html?'+esc(new URLSearchParams(x.tipo==="barrio"&&x.municipio?{v:"barrios",m:x.municipio,b:x.nombre}:{v:"barrios",m:x.nombre}).toString())+'#mapa-ver">Ver '+esc(x.nombre)+' en el mapa</a></p>'+
       '<div class="f-prensa"><p class="k f-k">En las noticias</p>'+(casos.length?'<div class="tarjetas">'+casos.map(tarjeta).join("")+"</div>":'<p class="estado">No hay noticias recientes de este lugar en los medios que seguimos.</p>')+"</div>";
     var datos=meses.map(function(m){return {mes:m,registro:x.mes[m]||0,incompleto:D.incompletos[m]?["registro"]:[]}});
     O.barrasMes("spark",datos,[{clave:"registro",nombre:"Homicidios",color:"var(--c-hom)"}],{alt:"Homicidios por mes en "+x.nombre});
     var mx=datos.reduce(function(a,d){return d.registro>a.registro?d:a},datos[0]||{});
-    $("spark-txt").textContent=(mx&&mx.registro?"El mes con más homicidios fue "+O.mes(mx.mes)+", con "+mx.registro+".":"Sin homicidios registrados en 2026.")+(incs.length?" Los datos de "+incs.join(" y ")+" aún están incompletos: no indican una baja.":"");
+    $("spark-txt").innerHTML=(mx&&mx.registro?"El mes con más homicidios fue "+O.mes(mx.mes)+", con "+mx.registro+".":"Sin homicidios registrados en 2026.")+(incs.length?" "+incs.join(" y ").replace(/^./,function(c){return c.toUpperCase()})+" aún están incompletos. "+PQ:"");
     if(O.compartible)O.compartible($("f-bloque"));
   }
   function tarjeta(c){return '<article class="tarjeta"><div class="cab"><span class="tag"><i style="background:var(--c-'+c.grupo+')"></i>'+esc(O.TIPOS[c.grupo]||c.tipo)+'</span><span>'+O.mes(c.mes)+'</span></div><div class="lugar">'+esc(c.barrio||c.municipio||"Sin lugar identificado")+'</div><p>'+esc(c.resumen)+'</p><div class="medios">'+c.medios.map(function(m){return '<a href="'+esc(m.url)+'" target="_blank" rel="noopener">'+esc(m.medio)+" ↗</a>"}).join("")+'</div>'+(c.revisado?'<span class="etq ok">Revisado</span>':"")+"</article>"}
