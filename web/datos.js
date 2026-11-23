@@ -93,7 +93,7 @@
   // Gráfico de barras por mes en SVG, accesible. series: [{clave, nombre, color}], datos: [{mes, ...}]
   O.barrasMes=function(el,datos,series,opc){opc=opc||{};if(typeof el==="string")el=O.$(el);
     el._barras=[datos,series,opc]; // para volver a dibujarlo al ancho de la imagen compartida
-    var W=Math.round(Math.min(760,Math.max(300,el.clientWidth||640))),H=W<500?220:260,m={l:36,r:20,t:14,b:30};
+    var W=Math.round(Math.min(760,Math.max(300,el.clientWidth||640))),H=opc.alto||(W<500?220:260),m={l:36,r:20,t:14,b:30};
     var max=1;datos.forEach(function(d){series.forEach(function(s){if(d[s.clave]>max)max=d[s.clave]})});
     var step=max>200?50:max>80?20:max>40?10:max>16?5:max>6?2:1,ymax=Math.ceil(max/step)*step,iw=W-m.l-m.r,ih=H-m.t-m.b,bw=iw/Math.max(1,datos.length),sw=bw*.78/series.length;
     var s='<svg viewBox="0 0 '+W+" "+H+'" role="img" aria-label="'+O.esc(opc.alt||"")+'"><defs><pattern id="trama-'+el.id+'" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="var(--surface)"/><line x1="0" y1="0" x2="0" y2="6" stroke="var(--muted)" stroke-width="3"/></pattern></defs>';
