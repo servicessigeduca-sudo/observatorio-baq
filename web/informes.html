@@ -19,7 +19,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='6' fill='%23D3261C'/%3E%3Crect x='4' y='4' width='22' height='22' rx='3' fill='%23F6C200'/%3E%3Crect x='8' y='8' width='14' height='14' rx='2' fill='%230B6B3A'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
-<link rel="stylesheet" href="estilos.css?v=20261123b">
+<link rel="stylesheet" href="estilos.css?v=20261123c">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -98,8 +98,8 @@
   <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261123b"></script>
-<script src="datos.js?v=20261123b"></script>
+<script src="comun.js?v=20261123c"></script>
+<script src="datos.js?v=20261123c"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc;
@@ -129,7 +129,7 @@
     $("t-key").innerHTML=series.map(function(s){return '<span><i style="background:'+s.color+'"></i>'+s.nombre+"</span>"}).join("")+(inc?'<span><i style="background:repeating-linear-gradient(45deg,var(--muted) 0 2px,transparent 2px 5px)"></i>Mes incompleto</span>':"");
     var comp=t.filter(function(x){return x.mes!==inc&&x.registro!=null}),top=comp.reduce(function(a,x){return !a||x.registro>a.registro?x:a},null);
     if(top){$("t-tit").textContent=O.mes(top.mes).replace(/^./,function(c){return c.toUpperCase()})+" fue el mes con más homicidios del periodo";
-      $("t-txt").textContent="Entre los meses completos de los últimos doce, el registro contó entre "+Math.min.apply(null,comp.map(function(x){return x.registro}))+" y "+top.registro+" homicidios por mes."+(inc?" El último mes está incompleto y se dibuja con trama.":"")}
+      $("t-txt").innerHTML="Entre los meses completos de los últimos doce, el registro contó entre "+Math.min.apply(null,comp.map(function(x){return x.registro}))+" y "+top.registro+" homicidios por mes."+(inc?' Rayado: mes incompleto. <a class="porque" href="metodologia.html#rayadas">¿Por qué?</a>':"")}
     var u=t[t.length-1];
     $("c-tit").textContent=u.oficial==null?"La Policía aún no publica las cifras de este mes":"Las fuentes difieren en "+Math.abs((u.registro||0)-u.oficial)+" casos este mes";
     $("comp").innerHTML='<div class="tablewrap cartas"><table class="tabla"><thead><tr><th>Fuente</th><th class="n">'+esc(O.mes(d.periodo))+"</th></tr></thead><tbody>"+

@@ -19,7 +19,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='6' fill='%23D3261C'/%3E%3Crect x='4' y='4' width='22' height='22' rx='3' fill='%23F6C200'/%3E%3Crect x='8' y='8' width='14' height='14' rx='2' fill='%230B6B3A'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
-<link rel="stylesheet" href="estilos.css?v=20261123b">
+<link rel="stylesheet" href="estilos.css?v=20261123c">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -92,8 +92,8 @@
   <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261123b"></script>
-<script src="datos.js?v=20261123b"></script>
+<script src="comun.js?v=20261123c"></script>
+<script src="datos.js?v=20261123c"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc,D,st=O.leerURL({t:"hom",m:""});
@@ -122,8 +122,8 @@
     $("g-key").innerHTML=series.map(function(s){return '<span><i style="background:'+s.color+'"></i>'+s.nombre+"</span>"}).join("")+'<span><i style="background:repeating-linear-gradient(45deg,var(--muted) 0 2px,transparent 2px 5px)"></i>Parcial o provisional</span>';
     if(regOf.length){var r=regOf.reduce(function(t,x){return t+x.registro},0),o2=regOf.reduce(function(t,x){return t+x.oficial},0),dif=O.pct(r,o2);
       $("g-tit").textContent=Math.abs(dif)<=5?"El registro de homicidios y la Policía casi coinciden":"El registro de homicidios y la Policía difieren en "+Math.abs(dif)+" %";
-      $("g-txt").textContent="De "+O.mes(regOf[0].mes)+" a "+O.mes(regOf[regOf.length-1].mes)+", el registro suma "+O.num(r)+" homicidios en "+lugar+" y la Policía "+O.num(o2)+" ("+O.signo(dif)+"). Las barras con trama son meses parciales o provisionales."}
-    else{$("g-tit").textContent="Casos de "+nombre+" por mes según cada fuente";$("g-txt").textContent="Las barras con trama son meses parciales o provisionales."}
+      $("g-txt").textContent="De "+O.mes(regOf[0].mes)+" a "+O.mes(regOf[regOf.length-1].mes)+", el registro suma "+O.num(r)+" homicidios en "+lugar+" y la Policía "+O.num(o2)+" ("+O.signo(dif)+"). Rayado: meses incompletos o provisionales."}
+    else{$("g-tit").textContent="Casos de "+nombre+" por mes según cada fuente";$("g-txt").innerHTML='Rayado: meses incompletos o provisionales. <a class="porque" href="metodologia.html#rayadas">¿Por qué?</a>'}
     var munis=st.m?[st.m]:O.MUNICIPIOS,ms=meses.map(function(x){return x.mes});
     $("tabla").innerHTML='<table class="tabla"><thead><tr><th>Municipio</th>'+ms.map(function(m){return '<th class="n">'+O.mes(m,true)+"</th>"}).join("")+"</tr></thead><tbody>"+
       munis.map(function(mu){return "<tr><td>"+esc(mu)+"</td>"+ms.map(function(m){var f=D.filas.filter(function(f){return f.mes===m&&f.municipio===mu&&f.delito===st.t})[0]||{};

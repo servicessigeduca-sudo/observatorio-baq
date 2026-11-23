@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="estilos.css?v=20261123b">
+<link rel="stylesheet" href="estilos.css?v=20261123c">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -39,17 +39,25 @@
 <div class="flag" aria-hidden="true"></div>
 
 <main id="contenido">
-<section class="hero"><div class="in" style="grid-template-columns:minmax(0,1fr);padding-block:32px 16px">
+<section class="hero"><div class="in" style="grid-template-columns:minmax(0,1fr);padding-block:28px 12px">
   <div>
     <p class="crumb">Mapa</p>
-    <h1>Dónde se concentran los casos</h1>
-    <p class="dek">Elige la fuente, el periodo, el delito, el municipio y la modalidad: el mapa, el gráfico y la tabla se actualizan juntos, y el enlace de la página guarda tu selección para compartirla.</p>
+    <h1>Dónde ocurren los homicidios</h1>
+    <p class="dek">Elige tu barrio para verlo en el mapa y conocer su tendencia.</p>
   </div>
 </div></section>
 
-<section class="sec"><div class="in explorar">
+<section class="sec" id="mapa-ver"><div class="in explorar">
+  <div class="barra-mapa">
+    <label class="filtro-b" for="f-b">Tu barrio <select id="f-b"><option value="">Todos los barrios</option></select></label>
+    <div class="seg" role="group" aria-label="Cómo ver el mapa" id="vista">
+      <button type="button" data-v="puntos" aria-pressed="true">Puntos</button><button type="button" data-v="barrios" aria-pressed="false">Barrios</button><button type="button" data-v="calor" aria-pressed="false">Calor</button>
+    </div>
+  </div>
   <form class="panel" id="filtros" aria-label="Filtros" onsubmit="return false">
-    <label>Fuente <select id="f-f"><option value="registro">Registro de homicidios 2026</option><option value="prensa">Prensa local (todos los delitos)</option></select></label>
+    <details id="mas-filtros"><summary><span>Más filtros</span><small id="f-resumen"></small></summary>
+    <div class="panel-in">
+    <label>Fuente <select id="f-f"><option value="registro">Registro de homicidios 2026</option><option value="prensa">Noticias locales (todos los delitos)</option></select></label>
     <div class="fila">
       <label>Desde <select id="f-d"></select></label>
       <label>Hasta <select id="f-h"></select></label>
@@ -57,22 +65,21 @@
     <label>Delito <select id="f-t"><option value="">Todos</option></select></label>
     <label>Municipio <select id="f-m"><option value="">Área metropolitana</option></select></label>
     <label>Modalidad <select id="f-mod"><option value="">Todas</option></select></label>
-    <div>
-      <p style="font-size:13px;font-weight:600;color:var(--muted);margin-bottom:6px" id="vista-l">Vista</p>
-      <div class="seg" role="group" aria-labelledby="vista-l" id="vista">
-        <button type="button" data-v="puntos" aria-pressed="true">Puntos</button><button type="button" data-v="barrios" aria-pressed="false">Barrios</button><button type="button" data-v="calor" aria-pressed="false">Calor</button>
-      </div>
+    <button type="button" class="btn2" id="limpiar">Quitar filtros</button>
     </div>
-    <button type="button" class="btn2" id="copiar">Copiar enlace de esta vista</button>
-    <p class="fuente" id="f-fuente"></p>
+    </details>
   </form>
-  <div>
-    <div class="mapcard"><div id="map" class="alto" role="region" aria-label="Mapa de casos"></div><div class="leg" id="leg"></div></div>
+  <div class="mapa-col">
+    <div class="mapcard"><div id="map" class="alto" role="region" aria-label="Mapa de casos"></div>
+      <div class="chip-sel" id="chip" hidden><span id="chip-t"></span><button type="button" id="chip-x" aria-label="Quitar la selección del barrio">✕</button></div>
+      <div class="leg" id="leg"></div></div>
     <p class="fuente" id="m-nota" aria-live="polite"></p>
+    <p class="bajo-mapa"><button type="button" class="btn2" id="copiar">Copiar el enlace de esta vista</button></p>
+    <p class="fuente" id="f-fuente"></p>
   </div>
 </div></section>
 
-<section class="sec"><div class="in">
+<section class="sec" id="tendencia"><div class="in">
   <p class="eyebrow">Tendencia</p>
   <h2 class="t" id="g-tit">Casos por mes</h2>
   <div class="chart" id="g" style="margin-top:12px"></div>
@@ -82,9 +89,6 @@
 <section class="sec" id="tabla"><div class="in">
   <p class="eyebrow" id="tb-eye">Barrios</p>
   <h2 class="t" id="tb-tit">Barrios con más casos</h2>
-  <div class="filters" id="tb-filtros" style="margin-top:10px">
-    <label class="filtro-b">Ver un barrio <select id="tb-b"><option value="">Todos</option></select></label>
-  </div>
   <div id="tb" aria-live="polite"></div>
   <div class="paginacion" id="pag" hidden><button type="button" id="ant">Anteriores</button><span id="pag-t"></span><button type="button" id="sig">Siguientes</button></div>
 </div></section>
@@ -95,9 +99,9 @@
   <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261123b"></script>
+<script src="comun.js?v=20261123c"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="datos.js?v=20261123b"></script>
+<script src="datos.js?v=20261123c"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc,D={},DEF={f:"registro",v:"puntos",d:"",h:"",t:"",m:"",mod:"",b:""},st=O.leerURL(DEF),pag=0,POR_PAG=12;
@@ -136,7 +140,7 @@
   // Polígonos de barrio (OpenStreetMap) por municipio|clave; los alias de data/barrios_alias.json van en "otros".
   function poligonos(){var idx={};if(D.geo)D.geo.features.forEach(function(f){var p=f.properties;[p.clave].concat(p.otros||[]).forEach(function(c){idx[p.municipio+"|"+c]=f})});return idx}
   function sinBarrio(){return filas().filter(function(r){return (!st.d||r.mes>=st.d)&&(!st.h||r.mes<=st.h)&&(!st.t||r.grupo===st.t)&&(!st.m||r.municipio===st.m)&&(!st.mod||r.modalidad===st.mod)})}
-  var mPrev=null;
+  var mPrev=null,bPrev="",todo=null;
   function pintarMapa(sel){
     capa.clearLayers();if(map.hasLayer(calor))map.removeLayer(calor);
     var f=fuente(),total=sel.reduce(function(t,r){return t+r.n},0),sinZona=0,porZona={},casos={};
@@ -145,8 +149,8 @@
     if(st.v==="puntos"){
       O.puntos(capa,f.zonas,casos,{radio:map.getZoom()>=14?5:4});
       var gr={};sel.forEach(function(r){if(r.zona)gr[r.grupo]=1});
-      $("leg").innerHTML="<h4>Un punto por caso</h4><p>Ubicación aproximada</p><ul>"+Object.keys(O.TIPOS).filter(function(k){return gr[k]}).map(function(k){return '<li><i class="dot" style="background:var(--c-'+k+')"></i>'+O.TIPOS[k]+"</li>"}).join("")+'</ul><p class="fija">Cada punto se ubica cerca, no en el lugar exacto del hecho, para proteger a las víctimas.</p>';
-      nota=sinZona?O.num(sinZona)+" de ellos no tienen un lugar que se pueda mostrar sin identificar a nadie y no aparecen en el mapa.":"";
+      $("leg").innerHTML="<h4>Un punto por caso</h4><p>Ubicación aproximada</p><ul>"+Object.keys(O.TIPOS).filter(function(k){return gr[k]}).map(function(k){return '<li><i class="dot" style="background:var(--c-'+k+')"></i>'+O.TIPOS[k]+"</li>"}).join("")+'</ul><p class="fija"><a class="porque" href="metodologia.html#ubicacion">¿Por qué no es el lugar exacto?</a></p>';
+      nota=sinZona?O.num(sinZona)+" no aparecen en el mapa. <a class=\"porque\" href=\"metodologia.html#faltan\">¿Por qué?</a>":"";
     }else if(st.v==="barrios"){
       // El mapa de barrios ignora el filtro de barrio: lo resalta.
       var porB={},nombre={};sinBarrio().forEach(function(r){if(!r.barrio)return;var k=r.municipio+"|"+O.claveBarrio(r.barrio);porB[k]=(porB[k]||0)+r.n;nombre[k]=r.barrio});
@@ -156,27 +160,31 @@
         style:function(ft){var d=dibujados[ft.properties.municipio+"|"+ft.properties.clave];var ap=ft.properties.aprox;return d?{fillColor:O.color(d.n),fillOpacity:ap?.6:.8,color:ap?O.css("--muted"):oscuro?"#000":"#fff",weight:ap?1:.8,dashArray:ap?"4 3":null}:{fillOpacity:0,color:O.css("--muted"),weight:.4,opacity:.5,dashArray:ap?"4 3":null}},
         onEachFeature:function(ft,ly){var p=ft.properties,d=dibujados[p.municipio+"|"+p.clave];
           ly.bindTooltip("<strong>"+esc(p.barrio)+"</strong><br>"+esc(p.municipio)+"<br>"+(d?(d.n<3?"Menos de 3 casos":d.n+" casos"):"Sin casos con estos filtros")+(p.aprox?"<br><small>Límite aproximado</small>":""),{sticky:true});
-          if(d){ly.on("click",function(){st.m=p.municipio;cambia("b",d.nombres[0])});
+          if(d){ly.on("click",function(){elegirBarrio(p.municipio,d.nombres[0])});
             if(selK&&d.nombres.some(function(x){return p.municipio+"|"+O.claveBarrio(x)===st.m+"|"+O.claveBarrio(st.b)}))resaltar=ly}}}).addTo(capa);
       // Barrios con casos pero sin límite en OpenStreetMap: círculo en su centro, con borde punteado.
       var centros={};(f.barrios||[]).forEach(function(b){if(b.centro)centros[b.municipio+"|"+O.claveBarrio(b.barrio)]=b.centro});
       Object.keys(porB).forEach(function(k){if(idx[k])return;var n=porB[k],c=centros[k];if(!c){fuera+=n;return}
         var m=L.circleMarker(c,{radius:5+2.6*Math.sqrt(n),fillColor:O.color(n),fillOpacity:.88,color:oscuro?"#fff":"#1C1C1E",weight:1.2,dashArray:"3 2"}).bindTooltip("<strong>"+esc(nombre[k])+"</strong><br>"+esc(k.split("|")[0])+"<br>"+(n<3?"Menos de 3 casos":n+" casos")+"<br><small>Sin límite de barrio en el mapa (se dibuja en su centro)</small>").addTo(capa);
-        m.on("click",function(){st.m=k.split("|")[0];cambia("b",nombre[k])});if(selK&&k===st.m+"|"+O.claveBarrio(st.b))resaltar=m});
+        m.on("click",function(){elegirBarrio(k.split("|")[0],nombre[k])});if(selK&&k===st.m+"|"+O.claveBarrio(st.b))resaltar=m});
       // Al cambiar de municipio, acerca el mapa a sus barrios.
       if(gl&&st.m&&st.m!==mPrev&&gl.getLayers().length)map.fitBounds(gl.getBounds(),{maxZoom:14});mPrev=st.m;
-      if(resaltar){resaltar.setStyle({weight:3.5,color:O.css("--ink"),opacity:1});if(resaltar.bringToFront)resaltar.bringToFront()}
-      $("leg").innerHTML="<h4>"+(st.f==="registro"?"Homicidios":"Casos")+" por barrio</h4><p>Total del periodo elegido</p><ul>"+O.BINS.map(function(b,i){return '<li><i style="background:var(--q'+(i+1)+')"></i>'+b[2]+"</li>"}).join("")+'</ul><p class="fija">Toca un barrio para ver su tendencia. Borde punteado: límite aproximado. Círculo: barrio sin límite.</p>';
+      if(resaltar){resaltar.setStyle({weight:3.5,color:O.css("--ink"),opacity:1});if(resaltar.bringToFront)resaltar.bringToFront();
+        if(st.b!==bPrev){if(resaltar.getBounds)map.fitBounds(resaltar.getBounds(),{maxZoom:14,padding:[60,60]});else map.setView(resaltar.getLatLng(),14)}}
+      else if(!st.b&&bPrev&&todo)map.fitBounds(todo,{maxZoom:13});
+      bPrev=st.b;
+      $("leg").innerHTML="<h4>"+(st.f==="registro"?"Homicidios":"Casos")+" por barrio</h4><p>Total del periodo elegido</p><ul>"+O.BINS.map(function(b,i){return '<li><i style="background:var(--q'+(i+1)+')"></i>'+b[2]+"</li>"}).join("")+'</ul><p class="fija">Toca un barrio para elegirlo. <a class="porque" href="metodologia.html#faltan">¿Bordes punteados?</a></p>';
       var nb=Object.keys(porB).length,np=Object.keys(porB).filter(function(k){return idx[k]}).length;
-      nota=(D.geo?"":"No se pudieron cargar los límites de barrio; se muestran círculos. ")+(fuera?O.num(fuera)+" casos están en barrios que no pudimos ubicar y no se dibujan. ":"")+(st.b?"Resaltado: "+st.b+".":"");
+      nota=(D.geo?"":"No se pudieron cargar los límites de barrio. ")+(fuera?O.num(fuera)+" no aparecen en el mapa. <a class=\"porque\" href=\"metodologia.html#faltan\">¿Por qué?</a>":"");
       total=sinBarrio().reduce(function(t,r){return t+r.n},0);
     }else{
       var pts=f.zonas.filter(function(z){return porZona[z.id]}).map(function(z){return [z.centro[0],z.centro[1],porZona[z.id]]});
       calor.setPuntos(pts);calor.addTo(map);
-      $("leg").innerHTML='<h4>Mapa de calor</h4><p>Radio de 300 m reales</p><div class="grad"></div><div class="gradl"><span>Pocos</span><span>10 o más</span></div><p class="fija">Intensidad fija: el rojo oscuro siempre significa 10 casos o más a menos de 300 m, a cualquier zoom.</p>';
-      nota="El calor usa ubicaciones aproximadas, nunca la dirección exacta de un caso."+(sinZona?" "+O.num(sinZona)+" casos sin lugar conocido no aparecen.":"");
+      $("leg").innerHTML='<h4>Mapa de calor</h4><p>Radio de 300 m reales</p><div class="grad"></div><div class="gradl"><span>Pocos</span><span>10 o más</span></div><p class="fija"><a class="porque" href="metodologia.html#leer-calor">¿Cómo se lee?</a></p>';
+      nota=sinZona?O.num(sinZona)+" no aparecen en el mapa. <a class=\"porque\" href=\"metodologia.html#faltan\">¿Por qué?</a>":"";
     }
-    $("m-nota").textContent=O.num(total)+" casos con estos filtros. "+nota;
+    var enB=st.b?sel.reduce(function(t,r){return t+r.n},0):null;
+    $("m-nota").innerHTML=st.b?"<b>"+esc(st.b)+":</b> "+O.num(enB)+" "+(enB===1?"caso":"casos")+". <a href=\"#tendencia\">Ver su tendencia</a>":"<b>"+O.num(total)+"</b> casos con estos filtros. "+nota;
   }
 
   function pintarGrafico(sel){
@@ -186,7 +194,8 @@
     var comp=datos.filter(function(d){return !inc[d.mes]}),mx=comp.reduce(function(a,d){return !a||d.v>a.v?d:a},null);
     $("g-tit").textContent=st.b&&mx&&mx.v?"En "+st.b+", "+O.mes(mx.mes)+" fue el mes con más casos":mx&&mx.v?O.mes(mx.mes).replace(/^./,function(c){return c.toUpperCase()})+" fue el mes con más casos entre los meses completos":"Casos por mes";
     var ninc=datos.filter(function(d){return inc[d.mes]}).map(function(d){return O.mes(d.mes,true)});
-    $("g-txt").textContent=(mx&&mx.v?"Con estos filtros, "+O.mes(mx.mes)+" tuvo "+mx.v+" casos. ":"Sin casos con estos filtros. ")+(ninc.length?"Las barras rayadas ("+ninc.join(" y ")+") son meses con datos aún incompletos: no indican una baja.":"");
+    $("g-txt").textContent=(mx&&mx.v?O.mes(mx.mes).replace(/^./,function(c){return c.toUpperCase()})+": "+mx.v+" casos. ":"Sin casos con estos filtros. ")+"";
+    if(ninc.length)$("g-txt").insertAdjacentHTML("beforeend","Rayado: "+esc(ninc.join(" y "))+", aún incompletos. "+'<a class="porque" href="metodologia.html#rayadas">¿Por qué?</a>');
   }
 
   function pintarTabla(sel){
@@ -198,8 +207,8 @@
       lista.forEach(function(x){if(x[1]>=3&&x[0].indexOf("Sin barrio")!==0)filasT.push(x);else otros+=x[1]});
       el.innerHTML=tot?'<div class="tablewrap cartas"><table class="tabla"><thead><tr><th>Barrio</th><th>Municipio</th><th class="n">Casos</th><th class="n">% del total</th></tr></thead><tbody>'+
         filasT.slice(0,st.b?filasT.length:25).map(function(x){var p=x[0].split("|"),on=st.b===p[0]&&st.m===p[1];return '<tr'+(on?' class="sel"':"")+'><td data-k="Barrio"><button type="button" class="lnk" data-b="'+esc(p[0])+'" data-m="'+esc(p[1])+'"'+(on?' aria-current="true"':"")+">"+esc(p[0])+'</button></td><td data-k="Municipio">'+esc(p[1])+'</td><td class="n" data-k="Casos">'+x[1]+'</td><td class="n" data-k="% del total">'+(100*x[1]/tot).toFixed(1)+" %</td></tr>"}).join("")+
-        (otros?'<tr><td data-k="Barrio">Otros barrios y casos sin barrio</td><td data-k="Municipio">—</td><td class="n" data-k="Casos">'+otros+'</td><td class="n" data-k="% del total">'+(100*otros/tot).toFixed(1)+" %</td></tr>":"")+
-        '</tbody></table></div><p class="fuente">Solo se nombran los barrios con 3 casos o más, para proteger a las víctimas. Toca un barrio para ver su tendencia y resaltarlo en el mapa.</p>':'<p class="estado">No hay casos con estos filtros.</p>';
+        (otros?'<tr><td data-k="Barrio">Otros barrios</td><td data-k="Municipio">—</td><td class="n" data-k="Casos">'+otros+'</td><td class="n" data-k="% del total">'+(100*otros/tot).toFixed(1)+" %</td></tr>":"")+
+        '</tbody></table></div><p class="fuente">Toca un barrio para verlo en el mapa. <a class="porque" href="metodologia.html#faltan">¿Falta tu barrio?</a></p>':'<p class="estado">No hay casos con estos filtros.</p>';
       return;
     }
     $("tb-eye").textContent="Casos recientes";$("tb-tit").textContent="Casos reportados en la prensa";opcionesBarrio();
@@ -208,26 +217,41 @@
     $("pag").hidden=np<2;$("pag-t").textContent="Página "+(pag+1)+" de "+np;$("ant").disabled=pag===0;$("sig").disabled=pag>=np-1;
   }
   // Lista de barrios del filtro: los de la fuente elegida, en el municipio elegido.
-  function opcionesBarrio(){var bs={};filas().forEach(function(r){if(r.barrio&&(!st.m||r.municipio===st.m))bs[r.barrio]=1});
-    $("tb-b").innerHTML='<option value="">Todos</option>'+Object.keys(bs).sort(function(a,b){return a.localeCompare(b,"es")}).map(function(b){return '<option'+(b===st.b?" selected":"")+">"+esc(b)+"</option>"}).join("")}
+  // Selector «Tu barrio»: los barrios de la fuente elegida, agrupados por municipio.
+  function opcionesBarrio(){var bs={};filas().forEach(function(r){if(r.barrio&&r.municipio&&(!st.m||mAuto||r.municipio===st.m))(bs[r.municipio]=bs[r.municipio]||{})[r.barrio]=1});
+    $("f-b").innerHTML='<option value="">Todos los barrios</option>'+O.MUNICIPIOS.filter(function(m){return bs[m]}).map(function(m){
+      return '<optgroup label="'+esc(m)+'">'+Object.keys(bs[m]).sort(function(a,b){return a.localeCompare(b,"es")}).map(function(b){var v=m+"|"+b;return '<option value="'+esc(v)+'"'+(st.b===b&&st.m===m?" selected":"")+">"+esc(b)+"</option>"}).join("")+"</optgroup>"}).join("")}
+  // Elegir y quitar un barrio. Si el municipio se eligió solo por el barrio, se quita con él.
+  var mAuto=!!st.b;
+  function elegirBarrio(m,b){if(!st.m||mAuto){mAuto=true}st.m=m;if(st.v==="puntos")st.v="barrios";cambia("b",b)}
+  function quitarBarrio(){if(mAuto){st.m="";mAuto=false}cambia("b","")}
   function tarjeta(c){return '<article class="tarjeta"><div class="cab"><span class="tag"><i style="background:var(--c-'+c.grupo+')"></i>'+esc(O.TIPOS[c.grupo]||c.tipo)+'</span><span>'+O.mes(c.mes)+'</span></div><div class="lugar">'+esc(c.barrio||c.municipio||"Sin lugar identificado")+'</div><p>'+esc(c.resumen)+'</p><div class="medios">'+c.medios.map(function(m){return '<a href="'+esc(m.url)+'" target="_blank" rel="noopener">Leer en '+esc(m.medio)+" ↗</a>"}).join("")+'</div>'+(c.revisado?'<span class="etq ok">Revisado</span>':"")+"</article>"}
 
-  function render(){O.escribirURL(st,DEF);opciones();var sel=filtradas();pintarMapa(sel);pintarGrafico(sel);pintarTabla(sel)}
+  function render(){O.escribirURL(st,DEF);opciones();opcionesBarrio();var sel=filtradas();pintarMapa(sel);pintarGrafico(sel);pintarTabla(sel);
+    $("chip").hidden=!st.b;$("chip-t").textContent=st.b?st.b+(st.m?" · "+st.m:""):"";
+    var r=rango(),corto=function(m){return O.MES3[+m.slice(5)-1]+" "+m.slice(2,4)},partes=[corto(st.d||r[0]||"2026-01")+"–"+corto(st.h||r[r.length-1]||"2026-01")];
+    if(st.m&&!mAuto)partes.push(st.m);if(st.t)partes.push(O.TIPOS[st.t]);if(st.mod)partes.push(st.mod);if(st.f==="prensa")partes.unshift("Noticias");
+    $("f-resumen").textContent=partes.join(" · ")}
   function cambia(k,v){st[k]=v;pag=0;render()}
   $("f-f").onchange=function(){st={f:this.value,v:st.v,d:"",h:"",t:"",m:st.m,mod:"",b:""};pag=0;render()};
   $("f-d").onchange=function(){cambia("d",this.value)};$("f-h").onchange=function(){cambia("h",this.value)};
-  $("f-t").onchange=function(){cambia("t",this.value)};$("f-m").onchange=function(){st.b="";cambia("m",this.value)};
-  $("f-mod").onchange=function(){cambia("mod",this.value)};$("tb-b").onchange=function(){var b=this.value;if(b&&!st.m){var r=filas().filter(function(x){return x.barrio===b})[0];if(r)st.m=r.municipio}cambia("b",b)};
-  $("tb").addEventListener("click",function(e){var x=e.target.closest("button[data-b]");if(!x)return;st.m=x.getAttribute("data-m");if(st.v==="puntos")st.v="barrios";cambia("b",x.getAttribute("data-b"));$("map").scrollIntoView({behavior:"smooth",block:"center"})});
+  $("f-t").onchange=function(){cambia("t",this.value)};$("f-m").onchange=function(){st.b="";mAuto=false;cambia("m",this.value)};
+  $("f-mod").onchange=function(){cambia("mod",this.value)};
+  $("f-b").onchange=function(){var v=this.value;if(!v){quitarBarrio();return}var p=v.split("|");elegirBarrio(p[0],p[1])};
+  $("chip-x").onclick=quitarBarrio;
+  $("limpiar").onclick=function(){st={f:st.f,v:st.v,d:"",h:"",t:"",m:"",mod:"",b:""};mAuto=false;pag=0;render()};
+  document.addEventListener("keydown",function(e){if(e.key==="Escape"&&st.b)quitarBarrio()});
+  if(window.matchMedia("(min-width:881px)").matches)$("mas-filtros").open=true;
+  $("tb").addEventListener("click",function(e){var x=e.target.closest("button[data-b]");if(!x)return;elegirBarrio(x.getAttribute("data-m"),x.getAttribute("data-b"));$("map").scrollIntoView({behavior:"smooth",block:"center"})});
   [].forEach.call(document.querySelectorAll("#vista button"),function(b){b.onclick=function(){cambia("v",b.getAttribute("data-v"))}});
   $("ant").onclick=function(){pag--;pintarTabla(filtradas());$("tabla").scrollIntoView()};$("sig").onclick=function(){pag++;pintarTabla(filtradas());$("tabla").scrollIntoView()};
-  $("copiar").onclick=function(){var b=this,u=location.href;(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(function(){b.textContent="Enlace copiado"},function(){prompt("Copia este enlace:",u)});setTimeout(function(){b.textContent="Copiar enlace de esta vista"},2000)};
+  $("copiar").onclick=function(){var b=this,u=location.href;(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(function(){b.textContent="Enlace copiado"},function(){prompt("Copia este enlace:",u)});setTimeout(function(){b.textContent="Copiar el enlace de esta vista"},2000)};
   O.alCambiarTema(function(){if(D.res)render()});
   var zPrev=null;map.on("zoomend",function(){var z=map.getZoom()>=14;if(D.res&&st.v!=="calor"&&z!==zPrev){zPrev=z;pintarMapa(filtradas())}});
 
   Promise.all([O.cargar("data/publico/resumen.json"),O.cargar("data/publico/prensa.json"),O.cargar("data/publico/registro.json").catch(function(){return null}),O.cargar("data/publico/informes/index.json"),O.cargar("data/publico/barrios.geojson").catch(function(){return null})])
   .then(function(r){D.res=r[0];D.prensa=r[1];D.reg=r[2];D.inf=r[3];D.geo=r[4];if(!D.reg){st.f="prensa";$("f-f").options[0].disabled=true}
-    var b=[];(D.reg?D.reg.zonas:D.prensa.zonas).forEach(function(z){b.push(z.centro)});if(b.length)map.fitBounds(L.latLngBounds(b).pad(0.05),{maxZoom:13});
+    var b=[];(D.reg?D.reg.zonas:D.prensa.zonas).forEach(function(z){b.push(z.centro)});if(b.length){todo=L.latLngBounds(b).pad(0.05);map.fitBounds(todo,{maxZoom:13})}
     render()})
   .catch(function(e){O.estado("tb","error","No se pudieron cargar los datos ("+e.message+"). Intenta de nuevo en unos minutos.");$("m-nota").textContent="No se pudieron cargar los datos del mapa."});
 })();
