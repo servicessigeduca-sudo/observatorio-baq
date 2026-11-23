@@ -462,3 +462,52 @@ footer .in{padding-block:8px 32px}
 .lista-q li.vacio:hover{background:none}
 .tabla .lnk{background:none;border:0;padding:0;font:inherit;color:var(--primary);text-decoration:underline;text-underline-offset:2px;cursor:pointer;text-align:left}
 .tabla tr.sel td{background:color-mix(in srgb,var(--primary) 10%,transparent)}
+
+/* ===== Portada 2026-11-23: la respuesta primero, lista para compartir ===== */
+.oculto{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.portada .in{width:min(1148px,calc(100% - 32px));margin:20px auto;display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:20px;align-items:stretch}
+.pcard{background:var(--surface);border-radius:22px;padding:28px;box-shadow:0 1px 2px rgba(0,0,0,.04);min-width:0}
+.cifra-card h1{font-size:clamp(22px,2.6vw,30px);line-height:1.2;letter-spacing:-.02em;margin-top:4px}
+.cifra-card .cifra{display:block;font-size:clamp(68px,10vw,104px);font-weight:800;line-height:1;letter-spacing:-.045em;color:var(--c-hom);font-variant-numeric:tabular-nums}
+.cifra-card .cifra:empty{display:none}
+.c-var{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;font-size:16px;margin-top:10px;color:var(--muted)}
+.c-var .up{color:var(--hot);font-weight:800}.c-var .dn{color:var(--primary);font-weight:800}
+.c-var .ritmo{color:var(--ink);font-weight:600}
+.cifra-card .chart{margin-top:18px}
+.semana-card{display:flex;flex-direction:column;gap:12px}
+.semana-card .s-h{font-size:20px;line-height:1.25;letter-spacing:-.01em}
+.semana-card .cifra-s{font-size:40px;font-weight:800;letter-spacing:-.03em;font-variant-numeric:tabular-nums;margin-right:4px}
+.semana-card .s-linea{font-size:15px}
+.semana-card .s-linea:empty{display:none}
+.semana-card .fuente{margin-top:auto}
+.atajos{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.atajos a{display:flex;flex-direction:column;gap:2px;background:var(--surface);border-radius:16px;padding:14px 16px;text-decoration:none;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.atajos b{color:var(--primary);font-size:16px}
+.atajos span{color:var(--muted);font-size:13px}
+.sug-eti{font-size:13px;color:var(--muted);margin-top:12px}
+.sug-eti+.sug{margin-top:6px}
+.fbloque{margin-top:20px;padding-top:4px}
+.fbloque .f-h{font-size:24px;letter-spacing:-.02em}
+.fbloque .ficha{margin-top:14px}
+.f-k{font-weight:600;font-size:14px;color:var(--muted);margin:18px 0 4px}
+.f-prensa{margin-top:8px}
+a.mapcard{display:block;color:inherit;text-decoration:none}
+/* La lista de sugerencias era translúcida y dejaba ver los botones de atrás. */
+.lista-q{background:var(--surface);-webkit-backdrop-filter:none;backdrop-filter:none;max-height:min(60vh,330px);overflow-y:auto}
+.lista-q li{padding:11px 12px;font-size:16px}
+.sug button{padding:9px 14px;font-size:14px}
+@media (max-width:880px){
+  .portada .in{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:620px){
+  .portada .in{width:calc(100% - 20px);margin:12px auto;gap:12px}
+  .pcard{padding:20px 16px;border-radius:18px}
+  .cifra-card .cifra{font-size:76px}
+  .c-var{font-size:15px}
+  .atajos{gap:8px}
+  .atajos a{padding:12px;border-radius:14px}
+  .atajos b{font-size:15px}
+  .atajos span{font-size:12px}
+  /* El menú se desliza de lado: un degradado avisa que hay más opciones. */
+  .top nav{-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent);padding-right:24px}
+}
