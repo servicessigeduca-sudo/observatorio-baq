@@ -79,6 +79,9 @@ def _pct(a: float, b: float) -> int | None:
 
 # ---------------------------------------------------------------- prensa
 
+FUENTE_REGISTRO = "Base de homicidios 2026 (capa ArcGIS del Atlántico), usada con autorización de su propietario"
+
+
 def oficializar_registro(registro: dict | None, ref: Referencia) -> dict | None:
     """Une las grafías de un mismo barrio del registro («Santo Domingo» y «Santo Domingo de Guzman»)
     bajo el nombre más usado, para que un barrio no se cuente partido en dos."""
@@ -341,14 +344,14 @@ def informes(internos, comp, registro, oficiales, hoy, inicio_prensa) -> tuple[l
             incompleto, motivos = True, ["El mes no ha terminado."]
         if registro and mes == registro["corte"][:7] and registro["corte"] < _fin_de_mes(mes).isoformat():
             incompleto = True
-            motivos.append(f"El registro de homicidios llega hasta el {int(registro['corte'][8:])} de {nombre_mes(mes)}.")
+            motivos.append(f"La base de homicidios llega hasta el {int(registro['corte'][8:])} de {nombre_mes(mes)}.")
         if of is not None and mes == ultimo_oficial:
             motivos.append("Las cifras de la Policía de este mes son provisionales y suelen subir en los meses siguientes.")
         if registro and reg is not None and mes >= _mes(date.fromisoformat(registro["corte"]) - timedelta(days=62)) and posible_retraso(reg, [total(m, "registro") for m in meses[max(0, i - 6):i]]):
             incompleto = True
             motivos.append("Posible retraso en la carga: el mes tiene muchos menos casos que los seis anteriores, así que puede no ser una caída real.")
         top = reg_barrios[mes].most_common(5)
-        nombre_fuente = {"registro": "el registro de homicidios", "oficial": "la Policía (SIEDCO)", "prensa": "la prensa local"}[fuente_principal]
+        nombre_fuente = {"registro": "la base de homicidios", "oficial": "la Policía Nacional", "prensa": "la prensa local"}[fuente_principal]
         frases = []
         if principal is not None:
             frases.append(f"En {nombre_mes(mes)} {nombre_fuente} contó {principal} homicidios en el área metropolitana"
@@ -359,7 +362,7 @@ def informes(internos, comp, registro, oficiales, hoy, inicio_prensa) -> tuple[l
         if top and top[0][1] >= 3:
             frases.append(f"El barrio con más casos fue {top[0][0][0]} ({top[0][0][1]}), con {top[0][1]}.")
         if of is not None and reg is not None:
-            frases.append(f"La Policía registró {of} en el mismo mes; la comparación entre fuentes está en «Prensa vs. oficial».")
+            frases.append(f"La Policía Nacional registró {of} en el mismo mes; la comparación entre fuentes está al final del informe.")
         munis = sorted(((m, v[fuente_principal]) for m, v in por_mes[mes].items() if v[fuente_principal]), key=lambda x: -x[1])
         tendencia = [{"mes": m, "registro": total(m, "registro"), "oficial": total(m, "oficial"),
                       "prensa": total(m, "prensa") if inicio_prensa and date.fromisoformat(m + "-01") >= inicio_prensa.replace(day=1) else None}
@@ -371,8 +374,8 @@ def informes(internos, comp, registro, oficiales, hoy, inicio_prensa) -> tuple[l
             "generado": hoy.isoformat(), "fuente_principal": fuente_principal,
             "resumen": frases,
             "cifras": [x for x in [
-                {"etiqueta": "Homicidios (registro)", "valor": reg, "comparacion": _pct(reg, reg_ant) if reg is not None and reg_ant and not incompleto else None, "frente_a": nombre_mes(anterior) if anterior else None} if reg is not None else None,
-                {"etiqueta": "Homicidios (Policía, SIEDCO)", "valor": of, "comparacion": None, "frente_a": None} if of is not None else None,
+                {"etiqueta": "Homicidios en la base 2026", "valor": reg, "comparacion": _pct(reg, reg_ant) if reg is not None and reg_ant and not incompleto else None, "frente_a": nombre_mes(anterior) if anterior else None} if reg is not None else None,
+                {"etiqueta": "Homicidios según la Policía", "valor": of, "comparacion": None, "frente_a": None} if of is not None else None,
                 {"etiqueta": "Homicidios en la prensa", "valor": pr, "comparacion": None, "frente_a": None} if pr is not None else None,
                 {"etiqueta": "Por sicariato", "valor": mods.get("Sicariato"), "comparacion": round(100 * mods["Sicariato"] / sum(mods.values())) if mods.get("Sicariato") else None, "frente_a": "% del total"} if mods else None,
             ] if x],
@@ -382,10 +385,10 @@ def informes(internos, comp, registro, oficiales, hoy, inicio_prensa) -> tuple[l
             "tendencia": tendencia,
             "limitaciones": [
                 "La prensa no cubre todos los casos: sus cifras muestran lo que llega a los medios, no el total.",
-                "El registro de homicidios y las cifras de la Policía pueden diferir por fecha de corte, criterio de registro y municipio asignado.",
+                "La base de homicidios y las cifras de la Policía pueden diferir por fecha de corte, criterio de registro y municipio asignado.",
                 "Los barrios con menos de 3 casos en el mes no se nombran.",
                 "Los datos no permiten atribuir causas: muestran cuántos casos hubo, dónde y cuándo.",
-            ] + (["La cobertura automática de prensa empezó el " + inicio_prensa.isoformat() + "; antes de esa fecha solo hay notas sueltas."] if inicio_prensa and date.fromisoformat(mes + "-01") < inicio_prensa else []),
+            ] + ([f"La cobertura automática de prensa empezó el {inicio_prensa.day} de {MESES[inicio_prensa.month - 1]} de {inicio_prensa.year}" + "; antes de esa fecha solo hay notas sueltas."] if inicio_prensa and date.fromisoformat(mes + "-01") < inicio_prensa else []),
         }
         docs[mes] = doc
         lista.append({"periodo": mes, "titulo": doc["titulo"], "estado": doc["estado"], "homicidios": principal, "fuente": fuente_principal})
@@ -411,13 +414,13 @@ def diccionario(corte: dict) -> dict:
                 "variables": {"mes": "Año y mes del hecho (AAAA-MM)", "municipio": "Municipio del área metropolitana; vacío si la nota no lo dice",
                               "barrio": "Barrio mencionado en la nota; vacío si no lo dice", "delito": "hom, les, hur, ext u otr (ver «delitos»)",
                               "modalidad": "Arma de fuego, Arma blanca o Sin dato, deducida del titular", "casos": "Número de casos (un hecho cubierto por varios medios cuenta una vez)"}},
-            "registro_homicidios.csv": {"fuente": "Capa de homicidios 2026 (ArcGIS), con autorización del propietario",
-                "descripcion": "Homicidios del registro en los cinco municipios, contados por mes, ubicación agregada, sexo y modalidad. Sin nombres, direcciones, horas ni descripciones.",
+            "registro_homicidios.csv": {"fuente": FUENTE_REGISTRO,
+                "descripcion": "Homicidios de la base 2026 en los cinco municipios, contados por mes, ubicación agregada, sexo y modalidad. Sin nombres, direcciones, horas ni descripciones.",
                 "variables": {"mes": "Año y mes del hecho (AAAA-MM), según la fecha y hora del registro", "municipio": "Municipio",
                               "localidad": "Localidad de Barranquilla, o el municipio", "barrio": "Barrio del registro, con mayúsculas normalizadas",
                               "zona": f"Zona de cuadrícula de {TAMANO_M} m: celdas con menos de 3 casos fusionadas con sus vecinas (ver zonas en registro.json); vacía si la celda quedó aislada",
                               "sexo": "Hombre, Mujer o Sin dato", "modalidad": "Sicariato, Riña, Hurto, Por establecer o Sin dato (errores de digitación corregidos)", "casos": "Número de homicidios"}},
-            "prensa_vs_oficial.csv": {"fuente": "Prensa, Policía Nacional (SIEDCO) y registro de homicidios",
+            "prensa_vs_oficial.csv": {"fuente": "Prensa, Policía Nacional (SIEDCO) y base de homicidios 2026",
                 "descripcion": "Comparación por mes, municipio y delito.",
                 "variables": {"mes": "AAAA-MM", "municipio": "Municipio", "delito": "hom, les, hur o ext", "prensa": "Casos en la prensa",
                               "oficial": "Casos registrados por la Policía; vacío si aún no se publican", "registro": "Homicidios del registro (solo hom)",
@@ -442,6 +445,8 @@ def construir(raiz: Path, hoy: date | None = None, ahora: datetime | None = None
     pub = d / "publico"
     ref = Referencia.desde(raiz)
     registro = oficializar_registro(leer(pub / "registro.json", None), ref)
+    if registro:
+        registro["fuente"] = FUENTE_REGISTRO
     poblacion = leer(d / "poblacion.json", {})
 
     capturas = [n.get("fecha_captura") for n in notas if n.get("fecha_captura")]

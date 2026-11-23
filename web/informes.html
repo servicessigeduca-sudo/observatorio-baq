@@ -19,7 +19,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='6' fill='%23D3261C'/%3E%3Crect x='4' y='4' width='22' height='22' rx='3' fill='%23F6C200'/%3E%3Crect x='8' y='8' width='14' height='14' rx='2' fill='%230B6B3A'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
-<link rel="stylesheet" href="estilos.css?v=20261123g">
+<link rel="stylesheet" href="estilos.css?v=20261123h">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -30,7 +30,7 @@
       Observatorio <span>BAQ</span>
     </a>
     <div class="right">
-      <nav aria-label="Principal"><a href="./">Inicio</a><a href="mapa.html">Mapa</a><a href="informes.html" aria-current="page">Informes</a><a href="estadisticas.html">Estadísticas oficiales</a><a href="prensa-oficial.html">Prensa vs. oficial</a><a href="metodologia.html">Metodología y datos</a></nav>
+      <nav aria-label="Principal"><a href="./">Inicio</a><a href="mapa.html">Mapa</a><a href="informes.html" aria-current="page">Informes</a><a href="estadisticas.html">Estadísticas oficiales</a><a href="metodologia.html">Metodología y datos</a><a href="preguntas.html">Preguntas</a></nav>
       <button type="button" class="theme" id="theme" aria-label="Cambiar a modo oscuro"></button>
     </div>
   </div>
@@ -40,7 +40,7 @@
 <main id="contenido">
 <section class="hero"><div class="in" style="grid-template-columns:minmax(0,1fr);padding-block:32px 12px">
   <div>
-    <p class="crumb">Informes mensuales</p>
+    <p class="crumb">Informes mensuales · <a href="prensa-oficial.html">Noticias frente a cifras oficiales</a></p>
     <h1 id="titulo">Informes</h1>
     <p class="dek" id="estado-inf">Cargando el informe…</p>
     <nav class="archivo" id="archivo" aria-label="Archivo de informes"></nav>
@@ -79,9 +79,9 @@
 
 <section class="sec"><div class="in">
   <p class="eyebrow">5 · Comparación con cifras oficiales</p>
-  <h2 class="t" id="c-tit">Registro, Policía y prensa</h2>
+  <h2 class="t" id="c-tit">Las tres fuentes en el mismo mes</h2>
   <div id="comp"></div>
-  <p style="margin-top:10px"><a class="link" href="prensa-oficial.html">Ver la comparación completa por municipio</a></p>
+  <p style="margin-top:10px"><a class="link" href="prensa-oficial.html">Ver noticias frente a cifras oficiales, por municipio y mes</a></p>
 </div></section>
 
 <section class="sec"><div class="in">
@@ -95,26 +95,26 @@
 
 <footer><div class="in">
   <span>Observatorio BAQ · Datos abiertos sobre seguridad en Barranquilla y su área metropolitana · <a href="metodologia.html#licencia">Licencia CC BY 4.0 y cita sugerida</a></span>
-  <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
+  <span><a href="preguntas.html">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261123g"></script>
-<script src="datos.js?v=20261123g"></script>
+<script src="comun.js?v=20261123h"></script>
+<script src="datos.js?v=20261123h"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc;
-  var FUENTE={registro:"el registro de homicidios",oficial:"la Policía (SIEDCO)",prensa:"la prensa local"};
+  var FUENTE={registro:"la base de homicidios",oficial:"la Policía Nacional",prensa:"la prensa local"};
   O.cargar("data/publico/informes/index.json").then(function(idx){
     var lista=idx.informes||[];if(!lista.length)throw new Error("sin informes");
     var p=new URLSearchParams(location.search).get("p"),sel=lista.filter(function(i){return i.periodo===p})[0]||lista.filter(function(i){return i.estado==="completo"})[0]||lista[0];
-    $("archivo").innerHTML=lista.map(function(i){return '<a href="?p='+i.periodo+'"'+(i===sel?' aria-current="page"':"")+">"+O.mes(i.periodo)+(i.estado==="incompleto"?" · incompleto":"")+"</a>"}).join("");
+    $("archivo").innerHTML=lista.map(function(i){return '<a href="?p='+i.periodo+'"'+(i===sel?' aria-current="page"':"")+">"+O.mes(i.periodo)+(i.estado==="incompleto"?" · aún llegan datos":"")+"</a>"}).join("");
     $("cita").textContent="Observatorio BAQ ("+sel.periodo.slice(0,4)+"). Informe de "+O.mes(sel.periodo)+". Datos abiertos sobre delitos en Barranquilla y su área metropolitana. "+location.origin+location.pathname+"?p="+sel.periodo;
     $("json").href="data/publico/informes/"+sel.periodo+".json";
     return O.cargar("data/publico/informes/"+sel.periodo+".json");
   }).then(function(d){
     document.title=d.titulo+" · Observatorio BAQ";
-    $("titulo").innerHTML=esc(d.titulo)+' <span class="etq'+(d.estado==="incompleto"?" inc":" ok")+'">'+(d.estado==="incompleto"?"Incompleto":"Completo")+"</span>";
-    $("estado-inf").textContent=(d.estado==="incompleto"?"Este periodo todavía no está completo. ":"")+d.motivos.join(" ")+" Fuente principal: "+FUENTE[d.fuente_principal]+". Generado el "+O.dia(d.generado)+".";
+    $("titulo").innerHTML=esc(d.titulo)+' <span class="etq'+(d.estado==="incompleto"?" inc":" ok")+'">'+(d.estado==="incompleto"?"Aún llegan datos":"Mes cerrado")+"</span>";
+    $("estado-inf").textContent=(d.estado==="incompleto"?"A este mes todavía le llegan datos. ":"")+d.motivos.join(" ")+" Fuente principal: "+FUENTE[d.fuente_principal]+". Generado el "+O.dia(d.generado)+".";
     $("resumen").innerHTML=d.resumen.length?d.resumen.map(function(f){return "<p>"+esc(f)+"</p>"}).join(""):'<p class="estado">Sin datos para este mes.</p>';
     $("cifras").innerHTML=d.cifras.map(function(c){return '<div class="kpi"><span class="k">'+esc(c.etiqueta)+'</span><b>'+(c.valor==null?"—":O.num(c.valor))+"</b><small>"+
       (c.comparacion==null?(c.valor==null?"Aún no publicado":""):(c.frente_a&&c.frente_a.charAt(0)==="%"?c.comparacion+" "+esc(c.frente_a):'<span class="'+(c.comparacion>0?"up":"dn")+'">'+O.signo(c.comparacion)+"</span> frente a "+esc(c.frente_a)))+"</small></div>"}).join("");
@@ -124,16 +124,16 @@
     $("barrios").innerHTML=d.zonas.barrios.length?'<table class="tabla" style="min-width:0"><thead><tr><th>Barrio</th><th>Municipio</th><th class="n">Casos</th></tr></thead><tbody>'+d.zonas.barrios.map(function(b){return "<tr><td>"+esc(b.nombre)+"</td><td>"+esc(b.municipio)+'</td><td class="n">'+b.casos+"</td></tr>"}).join("")+"</tbody></table>"
       :'<p class="estado">Ningún barrio tuvo 3 casos o más este mes, así que no se nombra ninguno.</p>';
     var t=d.tendencia,inc=d.estado==="incompleto"?d.periodo:null;
-    var series=[{clave:"registro",nombre:"Registro",color:"var(--c-hom)"},{clave:"oficial",nombre:"Policía (SIEDCO)",color:"var(--qna)"},{clave:"prensa",nombre:"Prensa",color:"var(--c-les)"}].filter(function(s){return t.some(function(x){return x[s.clave]!=null})});
+    var series=[{clave:"registro",nombre:"Base de homicidios",color:"var(--c-hom)"},{clave:"oficial",nombre:"Policía Nacional",color:"var(--qna)"},{clave:"prensa",nombre:"Prensa",color:"var(--c-les)"}].filter(function(s){return t.some(function(x){return x[s.clave]!=null})});
     O.barrasMes("tend",t.map(function(x){return {mes:x.mes,registro:x.registro,oficial:x.oficial,prensa:x.prensa,incompleto:x.mes===inc?["registro","oficial","prensa"]:[]}}),series,{alt:"Homicidios por mes según cada fuente"});
     $("t-key").innerHTML=series.map(function(s){return '<span><i style="background:'+s.color+'"></i>'+s.nombre+"</span>"}).join("")+(inc?'<span><i style="background:repeating-linear-gradient(45deg,var(--muted) 0 2px,transparent 2px 5px)"></i>Mes incompleto</span>':"");
     var comp=t.filter(function(x){return x.mes!==inc&&x.registro!=null}),top=comp.reduce(function(a,x){return !a||x.registro>a.registro?x:a},null);
     if(top){$("t-tit").textContent=O.mes(top.mes).replace(/^./,function(c){return c.toUpperCase()})+" fue el mes con más homicidios del periodo";
-      $("t-txt").innerHTML="Entre los meses completos de los últimos doce, el registro contó entre "+Math.min.apply(null,comp.map(function(x){return x.registro}))+" y "+top.registro+" homicidios por mes."+(inc?' Rayado: mes incompleto. <a class="porque" href="metodologia.html#rayadas">¿Por qué?</a>':"")}
+      $("t-txt").innerHTML="Entre los meses completos de los últimos doce, la base contó entre "+Math.min.apply(null,comp.map(function(x){return x.registro}))+" y "+top.registro+" homicidios por mes."+(inc?' Rayado: mes incompleto. <a class="porque" href="preguntas.html#rayadas">¿Por qué?</a>':"")}
     var u=t[t.length-1];
     $("c-tit").textContent=u.oficial==null?"La Policía aún no publica las cifras de este mes":"Las fuentes difieren en "+Math.abs((u.registro||0)-u.oficial)+" casos este mes";
     $("comp").innerHTML='<div class="tablewrap cartas"><table class="tabla"><thead><tr><th>Fuente</th><th class="n">'+esc(O.mes(d.periodo))+"</th></tr></thead><tbody>"+
-      [["Registro de homicidios",u.registro],["Policía (SIEDCO)",u.oficial],["Prensa local",u.prensa]].map(function(r){return '<tr><td data-k="Fuente">'+r[0]+'</td><td class="n" data-k="Casos">'+(r[1]==null?"Aún no disponible":O.num(r[1]))+"</td></tr>"}).join("")+"</tbody></table></div>"+
+      [["Base de homicidios",u.registro],["Policía Nacional",u.oficial],["Prensa local",u.prensa]].map(function(r){return '<tr><td data-k="Fuente">'+r[0]+'</td><td class="n" data-k="Casos">'+(r[1]==null?"Aún no disponible":O.num(r[1]))+"</td></tr>"}).join("")+"</tbody></table></div>"+
       '<p class="fuente">Un vacío significa que la fuente aún no tiene ese mes, no que hubo cero casos.</p>';
     $("lim").innerHTML=d.limitaciones.map(function(l){return "<li>"+esc(l)+"</li>"}).join("");
   }).catch(function(e){$("titulo").textContent="No se pudo cargar el informe";$("estado-inf").textContent="Intenta de nuevo en unos minutos ("+e.message+").";O.estado("resumen","error","No se pudo cargar el informe.")});

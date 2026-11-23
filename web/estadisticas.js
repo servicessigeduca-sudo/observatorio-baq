@@ -1,7 +1,7 @@
 /* Estadísticas oficiales: Policía Nacional (SIEDCO), área metropolitana de Barranquilla. */
 (function(){
   var $=function(id){return document.getElementById(id)},esc=OBAQ.esc;
-  var NOM={todos:"Todos los delitos",homicidio:"Homicidio intencional",lesiones:"Lesiones personales",hurto:"Hurtos (todos)",hurto_personas:"Hurto a personas",hurto_motos:"Hurto de motos",hurto_carros:"Hurto de carros",hurto_comercio:"Hurto a comercio",hurto_residencias:"Hurto a residencias",hurto_entidades:"Hurto a entidades financieras",extorsion:"Extorsión",violencia_intrafamiliar:"Violencia intrafamiliar",violencia_sexual:"Delitos sexuales",amenazas:"Amenazas",secuestro:"Secuestro",transito:"Tránsito (muertes y lesiones)",otros:"Otros"};
+  var NOM={todos:"Todos los delitos",homicidio:"Homicidio",lesiones:"Lesiones personales",hurto:"Hurtos (todos)",hurto_personas:"Hurto a personas",hurto_motos:"Hurto de motos",hurto_carros:"Hurto de carros",hurto_comercio:"Hurto a comercio",hurto_residencias:"Hurto a residencias",hurto_entidades:"Hurto a entidades financieras",extorsion:"Extorsión",violencia_intrafamiliar:"Violencia intrafamiliar",violencia_sexual:"Delitos sexuales",amenazas:"Amenazas",secuestro:"Secuestro",transito:"Tránsito (muertes y lesiones)",otros:"Otros"};
   var MES=["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
   var MESL=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
   var DIAS=["Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo"];
@@ -49,23 +49,23 @@
     for(i=0;i<n;i++){if(i<11){ma.push(null);continue}var t=0,ok=true;for(var j=i-11;j<=i;j++){if(vals[j]===null)ok=false;t+=vals[j]||0}ma.push(ok?t/12:null)}
     var mx=Math.max.apply(null,vals.map(function(v){return v||0}).concat([1])),raw=mx/5,mag=Math.pow(10,Math.floor(Math.log10(raw||1))),step=[1,2,5,10].map(function(f){return f*mag}).filter(function(v){return v>=raw})[0]||1;step=Math.max(1,step);
     var ymax=Math.ceil(mx/step)*step,Y=function(v){return m.t+ih-ih*v/ymax},cadaA=Math.max(1,Math.ceil(34/(bw*12))),etq=function(k){return k%12===0&&Math.floor(k/12)%cadaA===0};
-    var o='<svg viewBox="0 0 '+W+" "+H+'" role="img" aria-label="Serie mensual con media móvil de 12 meses">';
+    var o='<svg viewBox="0 0 '+W+" "+H+'" role="img" aria-label="Serie mensual con promedio de los últimos 12 meses">';
     for(var y=0;y<=ymax;y+=step)o+='<line class="gl" x1="'+m.l+'" x2="'+(W-m.r)+'" y1="'+Y(y)+'" y2="'+Y(y)+'"/><text x="'+(m.l-6)+'" y="'+(Y(y)+4)+'" text-anchor="end">'+nf(y)+"</text>";
     for(i=0;i<n;i++){var k=r[0]+i,x=m.l+i*bw;
       if(vals[i]===null){o+='<rect x="'+x.toFixed(1)+'" y="'+m.t+'" width="'+bw.toFixed(1)+'" height="'+ih+'" fill="var(--band)"><title>'+etiqueta(k)+': sin datos publicados</title></rect>';if(etq(k))o+='<text x="'+(x+2).toFixed(1)+'" y="'+(H-10)+'">'+Math.floor(k/12)+"</text>";continue}
-      o+='<rect x="'+(x+bw*.12).toFixed(1)+'" y="'+Y(vals[i]).toFixed(1)+'" width="'+(bw*.76).toFixed(1)+'" height="'+(m.t+ih-Y(vals[i])).toFixed(1)+'" fill="var(--qna)"><title>'+etiqueta(k)+": "+nf(vals[i])+(ma[i]!==null?" · media 12 meses: "+nf(ma[i]):"")+"</title></rect>";
+      o+='<rect x="'+(x+bw*.12).toFixed(1)+'" y="'+Y(vals[i]).toFixed(1)+'" width="'+(bw*.76).toFixed(1)+'" height="'+(m.t+ih-Y(vals[i])).toFixed(1)+'" fill="var(--qna)"><title>'+etiqueta(k)+": "+nf(vals[i])+(ma[i]!==null?" · promedio 12 meses: "+nf(ma[i]):"")+"</title></rect>";
       if(etq(k))o+='<text x="'+(x+2).toFixed(1)+'" y="'+(H-10)+'">'+Math.floor(k/12)+"</text>"}
     var tramos=[[]];ma.forEach(function(v,i){if(v===null){if(tramos[tramos.length-1].length)tramos.push([]);return}tramos[tramos.length-1].push((m.l+i*bw+bw/2).toFixed(1)+","+Y(v).toFixed(1))});
     tramos.forEach(function(pts){if(pts.length>1)o+='<polyline points="'+pts.join(" ")+'" fill="none" stroke="var(--hot)" stroke-width="2.5" stroke-linejoin="round"/>'});
     var im=-1;ma.forEach(function(v,i){if(v!==null&&(im<0||v>ma[im]))im=i});
-    if(im>=0){var cx=m.l+im*bw+bw/2,cy=Y(ma[im]),der=cx>W*.7;o+='<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="5" fill="var(--hot)" stroke="var(--bg)" stroke-width="2"/><text x="'+(der?cx-9:cx+9).toFixed(1)+'" y="'+(cy-9).toFixed(1)+'" text-anchor="'+(der?"end":"start")+'" class="pico">'+(W<600?"Máx.: ":"Media más alta: ")+nf(ma[im])+" ("+etiqueta(r[0]+im)+")</text>"}
+    if(im>=0){var cx=m.l+im*bw+bw/2,cy=Y(ma[im]),der=cx>W*.7;o+='<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="5" fill="var(--hot)" stroke="var(--bg)" stroke-width="2"/><text x="'+(der?cx-9:cx+9).toFixed(1)+'" y="'+(cy-9).toFixed(1)+'" text-anchor="'+(der?"end":"start")+'" class="pico">'+(W<600?"Máx.: ":"Promedio más alto: ")+nf(ma[im])+" ("+etiqueta(r[0]+im)+")</text>"}
     if(Wf)return o+"</svg>";
     $("serie").innerHTML=o+"</svg>";
     var last=ma[n-1],prev=ma[n-13];
     var huecos=[];for(var a=Math.floor(r[0]/12);a<=U.anio;a++)if(!cubre(a))huecos.push(a);
     var g0=Math.floor(rangoGlobal()[0]/12),a0=Math.floor(r[0]/12),ini="";
     if(a0>g0)ini=(st.cat==="todos"||st.cat==="hurto"?"Esta suma empieza en "+a0+" porque antes faltan los archivos de algunos delitos; elige un delito para ver su historia desde "+g0+". ":"La serie empieza en "+a0+", el primer año con archivo publicado. ");
-    $("serie-nota").innerHTML=ini+(huecos.length?"La Policía no publicó el archivo de "+(huecos.length>1?"los años "+huecos.slice(0,-1).join(", ")+" y "+huecos[huecos.length-1]:huecos[0])+" para este delito; esos meses aparecen en gris y no entran en los promedios. ":"")+"La media móvil promedia los 12 meses anteriores a cada punto, así que no la afectan las temporadas. Hoy está en <b>"+(last!==null?nf(last):"—")+"</b> casos por mes"+(prev!=null?", "+varHtml(pct(last,prev))+" frente a hace un año.":".");
+    $("serie-nota").innerHTML=ini+(huecos.length?"La Policía no publicó el archivo de "+(huecos.length>1?"los años "+huecos.slice(0,-1).join(", ")+" y "+huecos[huecos.length-1]:huecos[0])+" para este delito; esos meses aparecen en gris y no entran en los promedios. ":"")+"El promedio de los últimos 12 meses no se mueve con las temporadas. Hoy está en <b>"+(last!==null?nf(last):"—")+"</b> casos por mes"+(prev!=null?", "+varHtml(pct(last,prev))+" frente a hace un año.":".");
   }
 
   function escala(vals){var v=vals.filter(function(x){return x>0}).sort(function(a,b){return a-b});
@@ -81,7 +81,7 @@
     for(var a=a0;a<=U.anio;a++){var tot=0,hay=cubre(a);o+='<tr><th class="r">'+a+"</th>";
       for(var mm=0;mm<12;mm++){var k=a*12+mm;if(k>r[1]){o+='<td class="v"></td>';continue}if(!hay){o+='<td class="v" title="Sin datos publicados">s. d.</td>';continue}var x=s[k]||0;tot+=x;o+=celda(x,b(x),nf(x))}
       o+='<td class="v"><b>'+(hay?nf(tot):"—")+"</b></td></tr>"}
-    $("calor1").innerHTML=o+"</tbody></table>";leyenda("calor1-ley","colores por quintiles de todos los meses");
+    $("calor1").innerHTML=o+"</tbody></table>";leyenda("calor1-ley","más oscuro, más casos");
   }
 
   function calorDias(){
@@ -221,10 +221,10 @@
     $("descargar").onclick=csv;
     [].forEach.call(document.querySelectorAll("[data-per]"),function(b){b.onclick=function(){per=b.dataset.per;[].forEach.call(document.querySelectorAll("[data-per]"),function(x){x.setAttribute("aria-pressed",x===b)});gobiernos(serie())}});
     $("desde").textContent="desde "+Math.floor(rangoGlobal()[0]/12);
-    $("fuente").innerHTML="Fuente: Policía Nacional (SIEDCO). Datos de enero de "+Math.floor(rangoGlobal()[0]/12)+" a "+MESL[U.mes-1]+" de "+U.anio+", actualizados el "+esc(d.actualizado)+"."+(d.inicio_registro&&Math.floor(rangoGlobal()[0]/12)<d.inicio_registro?" Hasta "+(d.inicio_registro-1)+" vienen de los archivos por delito de alto impacto y de consultas a SIEDCO; desde "+d.inicio_registro+", del archivo con todos los delitos.":"")+" "+esc(d.nota.split(" dia_semana")[0])+' <a href="metodologia.html#policia">Cómo se procesan</a>.';
+    $("fuente").innerHTML="Fuente: Policía Nacional. Datos de enero de "+Math.floor(rangoGlobal()[0]/12)+" a "+MESL[U.mes-1]+" de "+U.anio+", actualizados el "+(/^\d{4}-\d{2}-\d{2}/.test(d.actualizado||"")?+d.actualizado.slice(8,10)+" de "+MESL[+d.actualizado.slice(5,7)-1]+" de "+d.actualizado.slice(0,4):esc(d.actualizado))+"."+(d.inicio_registro&&Math.floor(rangoGlobal()[0]/12)<d.inicio_registro?" Hasta "+(d.inicio_registro-1)+" vienen de los archivos por delito de alto impacto y de consultas a SIEDCO; desde "+d.inicio_registro+", del archivo con todos los delitos.":"")+" "+esc(d.nota.split(" dia_semana")[0])+' <a href="metodologia.html#policia">Cómo se procesan</a>.';
     OBAQ.alCambiarTema(render);
     OBAQ.captura={contexto:function(){return nomSel()+" · "+(st.muni||"Área metropolitana")},
-      fuente:"Fuente: Policía Nacional (SIEDCO), datos a "+MESL[U.mes-1]+" de "+U.anio+".",
+      fuente:"Fuente: Policía Nacional, datos a "+MESL[U.mes-1]+" de "+U.anio+".",
       serie:function(w){return grafSerie(serie(),w)}};
     var ancho=window.innerWidth,tm;window.addEventListener("resize",function(){if(window.innerWidth===ancho)return;ancho=window.innerWidth;clearTimeout(tm);tm=setTimeout(function(){grafSerie(serie())},150)});
     render();

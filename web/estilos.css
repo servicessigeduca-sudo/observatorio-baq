@@ -578,3 +578,6 @@ a.porque{color:var(--primary);font-weight:600;white-space:nowrap}
 .captura.vertical .ficha .kpi .k,.captura.vertical .ficha .kpi small{font-size:17px}
 .captura.vertical .f-k{font-size:20px;margin-top:36px}
 .captura.vertical .cap-ctx{font-size:18px}
+/* Bloque plegable dentro de una sección (p. ej. Estadísticas › Dónde ocurre) */
+details.mas>summary{cursor:pointer;font-weight:700;font-size:15px;color:var(--ink)}
+details.mas>summary:hover{text-decoration:underline}
