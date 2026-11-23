@@ -168,7 +168,7 @@
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "1739406c4d47",
@@ -207,7 +207,7 @@
     ],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "149226c3a482",
@@ -388,7 +388,7 @@
     ],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "3804703f834e",
