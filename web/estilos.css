@@ -556,3 +556,7 @@ a.porque{color:var(--primary);font-weight:600;white-space:nowrap}
 }
 .bajo-mapa{margin-top:12px}
 .f-mapa{margin-top:16px}
+/* La imagen compartida usa siempre el diseño ancho, aunque se cree desde el celular. */
+.captura .ficha{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.captura .c-var{font-size:17px}
+.captura .cifra-card .cifra{font-size:104px}
