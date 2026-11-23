@@ -29,6 +29,11 @@
     "lon": -74.81664,
     "nombre_osm": "El Bosque, Localidad Suroccidente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
   },
+  "el ferry|Barranquilla": {
+    "lat": 10.9459,
+    "lon": -74.76568,
+    "nombre_osm": "Primero de Mayo | El Ferry, Localidad Suroriente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Co"
+  },
   "el ferry|Soledad": null,
   "el limon|Barranquilla": null,
   "el prado|Barranquilla": {

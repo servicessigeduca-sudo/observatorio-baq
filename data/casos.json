@@ -603,7 +603,7 @@
       "homicidio"
     ],
     "fecha": "2026-11-19",
-    "municipio": "Soledad",
+    "municipio": "Barranquilla",
     "barrio": "El Ferry",
     "medios": [
       "Diario La Libertad",
@@ -629,9 +629,10 @@
     "posible_duplicado_de": [
       "87e28dc8cc03"
     ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
+    "municipio_deducido": true,
+    "lat": 10.9459,
+    "lon": -74.76568,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "a318b8d245f3",
