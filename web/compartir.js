@@ -26,7 +26,15 @@
     [].forEach.call(copia.querySelectorAll(".comp,.como"),function(e){e.remove()});
     [].forEach.call(copia.querySelectorAll("[id]:not(pattern)"),function(e){e.removeAttribute("id")});
     copia.removeAttribute("data-compartir");copia.style.margin="0";
+    // En la imagen no sirven los enlaces de ayuda, y la fuente ya va en el pie.
+    [].forEach.call(copia.querySelectorAll(".porque,[data-sin-captura]"),function(e){e.remove()});
     caja.appendChild(copia);
+    // Los gráficos se vuelven a dibujar al ancho de la imagen: dibujados al ancho del
+    // celular y luego ampliados, los textos salían enormes.
+    var orig=bloque.querySelectorAll(".chart"),dest=copia.querySelectorAll(".chart");
+    [].forEach.call(orig,function(o,i){if(!o._barras||!dest[i]||!window.OBAQ||!OBAQ.barrasMes)return;
+      var t=document.createElement("div");t.id="cap-"+(o.id||i);t.style.width="984px";caja.appendChild(t);
+      OBAQ.barrasMes(t,o._barras[0],o._barras[1],o._barras[2]);dest[i].innerHTML=t.innerHTML;t.remove()});
     var pie=document.createElement("div");pie.className="cap-pie";
     pie.innerHTML="<span></span><b></b>";pie.firstChild.textContent=(bloque.getAttribute("data-fuente")||(C?C.fuente:""))+" Cifras provisionales.";pie.lastChild.textContent=sitio();
     caja.appendChild(pie);

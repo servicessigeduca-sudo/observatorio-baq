@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="estilos.css?v=20261123c">
+<link rel="stylesheet" href="estilos.css?v=20261123d">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -111,10 +111,10 @@
   <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261123c"></script>
+<script src="comun.js?v=20261123d"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="datos.js?v=20261123c"></script>
-<script src="compartir.js?v=20261123c"></script>
+<script src="datos.js?v=20261123d"></script>
+<script src="compartir.js?v=20261123d"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc,D={};
@@ -134,7 +134,7 @@
       (horas?'<span class="ritmo">'+(horas<=1?"Más de uno por hora":"Uno cada <b>"+horas+" horas</b>")+"</span>":"");
     var inc=h.por_mes.filter(function(d){return d.incompleto});
     O.barrasMes("c-serie",h.por_mes.map(function(d){return {mes:d.mes,casos:d.casos,incompleto:d.incompleto?["casos"]:[]}}),[{clave:"casos",nombre:"Homicidios",color:"var(--c-hom)"}],{alt:"Homicidios por mes en el área metropolitana, últimos 24 meses"});
-    $("c-fuente").innerHTML="Homicidios por mes. Fuente: Policía Nacional (SIEDCO)."+(inc.length?" Rayado: "+inc.map(function(d){return O.MESES[+d.mes.slice(5)-1]}).join(", ").replace(/, ([^,]*)$/," y $1")+", aún incompletos y sin sumar. "+PQ:"");
+    $("c-fuente").innerHTML="Homicidios por mes.<span data-sin-captura> Fuente: Policía Nacional (SIEDCO).</span>"+(inc.length?" Rayado: "+inc.map(function(d){return O.MESES[+d.mes.slice(5)-1]}).join(", ").replace(/, ([^,]*)$/," y $1")+", aún incompletos y sin sumar. "+PQ:"");
     return true;
   }
 

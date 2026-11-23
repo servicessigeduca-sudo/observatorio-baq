@@ -92,6 +92,7 @@
 
   // Gráfico de barras por mes en SVG, accesible. series: [{clave, nombre, color}], datos: [{mes, ...}]
   O.barrasMes=function(el,datos,series,opc){opc=opc||{};if(typeof el==="string")el=O.$(el);
+    el._barras=[datos,series,opc]; // para volver a dibujarlo al ancho de la imagen compartida
     var W=Math.round(Math.min(760,Math.max(300,el.clientWidth||640))),H=W<500?220:260,m={l:36,r:20,t:14,b:30};
     var max=1;datos.forEach(function(d){series.forEach(function(s){if(d[s.clave]>max)max=d[s.clave]})});
     var step=max>200?50:max>80?20:max>40?10:max>16?5:max>6?2:1,ymax=Math.ceil(max/step)*step,iw=W-m.l-m.r,ih=H-m.t-m.b,bw=iw/Math.max(1,datos.length),sw=bw*.78/series.length;
