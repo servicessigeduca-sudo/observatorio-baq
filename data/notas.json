@@ -1,5 +1,575 @@
 [
   {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/cinco-muertos-y-nueve-heridos-dejo-accidente-de-camion-de-carga-en-tolima",
+    "titular": "Cinco muertos y nueve heridos dejó accidente de camión de carga, en Tolima",
+    "fecha_publicacion": "2026-11-23T06:41:00-05:00",
+    "resumen": "Sucedió en la vía Panamericana, en el municipio de Cajamarca.",
+    "fecha_captura": "2026-11-23T06:46:46-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "985b0daa81f1076c668c8cfe0d05778b0e3fd949"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/atacan-con-drones-al-comando-de-policia-en-norte-de-santander",
+    "titular": "Atacan con drones al Comando de Policía en Norte de Santander",
+    "fecha_publicacion": "2026-11-23T06:28:00-05:00",
+    "resumen": "Inmuebles vecinos al comando resultaron afectados.",
+    "fecha_captura": "2026-11-23T06:46:46-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8f1dcda0ebe5de39809a79aa4ed83e59d5a26b01"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/murio-eduardo-luis-soto-ocho-dias-despues-de-ser-baleado-por-sicarios-en-cartagena/",
+    "titular": "Murió Eduardo Luis Soto, ocho días después de ser baleado por sicarios en Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T06:22:17-05:00",
+    "resumen": "El joven fue baleado el sábado 14 de noviembre en el barrio Zaragocilla, en Cartagena. Según las versiones preliminares, se encontraba en plena vía pública,",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": "Zaragocilla",
+    "estado": "pendiente",
+    "id": "699010157878860e3025eec437492087055e3379"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/investigan-panfleto-que-declara-objetivo-militar-a-empleados-de-olimpica-en-barranquilla-y-soledad/",
+    "titular": "Investigan panfleto que declara objetivo militar a empleados de Olímpica en Barranquilla y Soledad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T06:19:49-05:00",
+    "resumen": "El documento, que circula en redes sociales y habría sido distribuido físicamente en algunos sectores, advierte que vigilantes, cajeras y compradores de la",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "57546b4e7eeafa09c5c6ce8428d09832e3ee0c33"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/armado-con-pistola-delincuente-atraco-a-un-cliente-dentro-de-reconocido-negocio-de-comidas-en-cartagena/",
+    "titular": "Armado con pistola, delincuente atracó a un cliente dentro de reconocido negocio de comidas en Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T06:16:58-05:00",
+    "resumen": "El atraco ocurrió hacia las 11:00 de la mañana de este domingo 22 de noviembre, cuando un hombre se encontraba consumiendo alimentos en compañía de otras",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [
+      "hurto"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d9021d9eb98d30b86944a2633cbedc02aaf9d6b7"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/joven-universitaria-murio-arrollada-por-una-chiva-rumbera-tras-accidente-de-motocicletas-en-ibague/",
+    "titular": "Joven universitaria murió arrollada por una chiva rumbera tras accidente de motocicletas en Ibagué - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T06:12:00-05:00",
+    "resumen": "El siniestro ocurrió en la calle 37, entre carreras Quinta y Sexta, donde, según las primeras versiones, la joven se movilizaba en una motocicleta Honda roja",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "be26638ba6149631d4a5d18c49f8d8eecda42cac"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/complejo-deportivo-de-la-universidad-del-atlantico-en-sabanalarga/",
+    "titular": "Complejo deportivo de la Universidad del Atlántico en Sabanalarga - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T22:18:26-05:00",
+    "resumen": "La construcción del complejo deportivo de la Universidad del Atlántico, en su sede regional de Sabanalarga, registra un avance del 40 %. Durante una visita de",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3ed19ddf0409ae0ea0a918e2c7d9353e111723cc"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/mujer-fue-capturada-tras-ataque-con-arma-blanca-contra-un-hombre-en-un-estadero-de-el-banco/",
+    "titular": "Mujer fue capturada tras ataque con arma blanca contra un hombre en un estadero de El Banco - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T22:12:33-05:00",
+    "resumen": "Un ataque con arma blanca registrado durante la tarde de este domingo en el municipio de El Banco, Magdalena, terminó con la captura en flagrancia de una",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c6f57fa75f4c11961cb021b08d31605d95496a2f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/alcaldia-de-santa-marta-investiga-presuntas-fallas-en-atencion-de-emergencia-tras-muerte-de-alvaro-rodriguez/",
+    "titular": "Alcaldía de Santa Marta investiga presuntas fallas en atención de emergencia tras muerte de Álvaro Rodríguez - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T22:00:02-05:00",
+    "resumen": "La muerte de Álvaro Rodríguez, ocurrida este domingo 22 de noviembre en Santa Marta, llevó a la Alcaldía Distrital a anunciar una investigación para",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "042c5c17fe80ea49cb553e4b63bd5899f292a092"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/buscan-a-joven-de-27-anos-desaparecido-en-las-playas-de-puerto-velero-su-familia-pide-ayuda-para-encontrarlo/",
+    "titular": "Buscan a joven de 27 años desaparecido en las playas de Puerto Velero; su familia pide ayuda para encontrarlo - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T21:44:30-05:00",
+    "resumen": "La búsqueda de Arlinton González, un joven de 27 años, se mantiene como una prioridad para sus familiares, luego de que desapareciera durante la mañana de",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [
+      "desaparicion"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "73a6cff41893d483178c598bdbb43faf7844571e"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/adolescente-de-16-anos-muere-tras-intentar-cometer-un-atraco-en-el-barrio-colombia-en-barranquilla/",
+    "titular": "Adolescente de 16 años muere tras intentar cometer un atraco en el barrio Colombia, en Barranquilla",
+    "fecha_publicacion": "2026-11-22T21:21:00-05:00",
+    "resumen": "Un presunto delincuente de 16 años murió tras recibir un disparo cuando, al parecer, intentaba cometer un atraco en el barrio Colombia, en Barranquilla. El hecho ocurrió la noche de este sábado en la calle 72 con carrera 48. De acuerdo con la información conocida, varias personas se encontraban en…",
+    "fecha_captura": "2026-11-23T06:51:16-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "hurto"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Colombia",
+    "estado": "pendiente",
+    "id": "e893f774fd4db2b93a82f883827ecc84ada17037"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/nuevo-ataque-a-bala-contra-supertienda-olimpica-en-barranquilla-es-el-tercero-en-menos-de-dos-semanas/",
+    "titular": "Nuevo ataque a bala contra Supertienda Olímpica en Barranquilla: es el tercero en menos de dos semanas",
+    "fecha_publicacion": "2026-11-22T21:16:00-05:00",
+    "resumen": "Un nuevo ataque armado contra una Supertienda Olímpica en Barranquilla se registró la tarde de este sábado. El atentado ocurrió en el establecimiento ubicado en la carrera 30 con calle 39, en el barrio Chiquinquirá, donde desconocidos dispararon contra la fachada del negocio. El hecho no dejó…",
+    "fecha_captura": "2026-11-23T06:51:16-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Chiquinquirá",
+    "estado": "pendiente",
+    "id": "b9bce48feabbf1c652f618c20e59f518f4d7d524"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/local/robo-de-cables-en-subestacion-baranoa-afecta-el-servicio-de-energia-en-varios-municipios-del-atlantico/",
+    "titular": "Robo de cables en subestación Baranoa afecta el servicio de energía en varios municipios del Atlántico",
+    "fecha_publicacion": "2026-11-22T20:25:00-05:00",
+    "resumen": "El robo de cables y otros elementos esenciales de la subestación eléctrica de Baranoa afectó el suministro de energía en varios municipios del Atlántico, según denunció Air-e Intervenida. El hecho se registró en las instalaciones ubicadas cerca de la carretera La Cordialidad, a la altura del…",
+    "fecha_captura": "2026-11-23T06:51:16-05:00",
+    "tipos_delito": [
+      "hurto"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "60dbf52c7d244e747ce07d920d1a0d2844c0e912"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/abaten-a-presunto-extorsionista-de-17-anos-tras-ataque-a-bala-en-el-barrio-la-sierrita/",
+    "titular": "Abaten a presunto extorsionista de 17 años tras ataque a bala en el barrio La Sierrita",
+    "fecha_publicacion": "2026-11-22T20:18:00-05:00",
+    "resumen": "Un presunto extorsionista de 17 años fue abatido por la Policía Metropolitana de Barranquilla luego de un ataque a bala contra un establecimiento comercial en el barrio La Sierrita, en el suroccidente de la ciudad. El hecho ocurrió la noche de este sábado, cuando dos jóvenes que se movilizaban en…",
+    "fecha_captura": "2026-11-23T06:51:16-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones",
+      "extorsion"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "La Sierrita",
+    "estado": "pendiente",
+    "id": "4d10de6c8687b1b0c3a680b557e85c7a42145e39"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/veronica-estrada-podria-ser-suspendida-hasta-180-dias-por-la-comision-de-etica-de-la-camara/",
+    "titular": "Verónica Estrada podría ser suspendida hasta 180 días por la Comisión de Ética de la Cámara - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T20:04:56-05:00",
+    "resumen": "La controversia por los presuntos títulos académicos irregulares de la representante a la Cámara Luz Verónica Estrada Holguín, del Pacto Histórico, podría",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6736054d18a73df6e34bbda5ebb85aa95971ac5f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/grave-accidente-de-transito-en-cajamarca-tolima-deja-multiples-personas-lesionadas/",
+    "titular": "Grave accidente de tránsito en Cajamarca, Tolima, deja múltiples personas lesionadas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T20:00:12-05:00",
+    "resumen": "Un grave accidente de tránsito registrado en jurisdicción del municipio de Cajamarca, Tolima, dejó múltiples personas lesionadas, según el reporte entregado",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "026b5867d4fc80b9d665a898465d3b6981b8203f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/corte-suprema-reconoce-a-enterritorio-como-perjudicado-en-juicio-contra-armando-benedetti-por-caso-fonade/",
+    "titular": "Corte Suprema reconoce a Enterritorio como perjudicado en juicio contra Armando Benedetti por caso Fonade - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T19:39:39-05:00",
+    "resumen": "La Corte Suprema de Justicia reconoció a Enterritorio como parte perjudicada dentro del proceso penal que se adelanta contra el exsenador y actual figura del",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0c4f79e813d2edd816bcfd65e77ff4c4ad7a3b6f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/a-la-carcel-alias-blue-senalada-de-terrorismo-y-ataques-contra-transmilenio-durante-protestas-en-bogota/",
+    "titular": "A la cárcel alias ‘Blue’, señalada de terrorismo y ataques contra TransMilenio durante protestas en Bogotá - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T19:24:39-05:00",
+    "resumen": "Luisa Fernanda Rey Muñoz, conocida también como alias ‘Lu’, fue enviada a prisión por decisión de un juez de control de garantías. La Fiscalía la relaciona",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6a0dabd45ebec098fc9faaac0f0e72b785193516"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/disparos-atentados-contra-funcionarios-y-ahora-amenazas-con-partes-humanas-al-inpec-en",
+    "titular": "Disparos, atentados contra funcionarios y ahora amenazas con partes humanas al Inpec en Barranquilla",
+    "fecha_publicacion": "2026-11-22T19:02:00-05:00",
+    "resumen": "Las autoridades deben tomar medidas más contundentes para proteger a los guardias.",
+    "fecha_captura": "2026-11-23T06:46:46-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9eba9166a27a461818c0749a808e8798eaa547a9"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/alcaldia-de-barranquilla-y-policia-entregan-primer-balance-positivo-tras-encuentro-entre-boca-juniors-y-atletico-mineiro-2/",
+    "titular": "Alcaldía de Barranquilla y Policía entregan primer balance positivo tras encuentro entre Boca Juniors y Atlético Mineiro - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T17:48:05-05:00",
+    "resumen": "La Alcaldía de Barranquilla, en articulación con la Policía Nacional, entregó un balance positivo de seguridad y convivencia al término del encuentro",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "dc7c175016100f4ab9959ca3f0682f842ddea71b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/incendio-destruyo-un-vehiculo-en-el-barrio-santo-domingo-de-barranquilla/",
+    "titular": "Incendio destruyó un vehículo en el barrio Santo Domingo de Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T17:44:27-05:00",
+    "resumen": "Momentos de angustia vivieron los habitantes del barrio Santo Domingo, en el suroccidente de Barranquilla, luego de que un vehículo fuera consumido por las",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": "Santo Domingo",
+    "estado": "pendiente",
+    "id": "6cf1c120c76434bcbc221ec045c1514c28b7df42"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/incautan-7-000-galones-de-combustible-jet-tras-detectar-valvulas-ilegales-en-cundinamarca/",
+    "titular": "Incautan 7.000 galones de combustible Jet tras detectar válvulas ilegales en Cundinamarca - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T17:00:09-05:00",
+    "resumen": "Tropas del Ejército Nacional incautaron 7.000 galones de combustible tipo Jet durante un operativo contra la extracción ilegal de hidrocarburos en la vereda",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "47ccdda663b38068fcffe88bbdeb8cc116083cc0"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/capturan-a-tres-presuntos-integrantes-del-eln-senalados-de-extorsiones-y-atentados-en-santander/",
+    "titular": "Capturan a tres presuntos integrantes del ELN señalados de extorsiones y atentados en Santander - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T16:54:06-05:00",
+    "resumen": "Tres presuntos integrantes del Ejército de Liberación Nacional (ELN) fueron capturados durante la Operación Olimpo, desarrollada por la Policía Nacional, el",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [
+      "lesiones",
+      "extorsion",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "5811c4c2044ce71d263aca3a767f7bca15ccf40b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/discusion-por-el-volumen-de-la-musica-termino-con-un-carnicero-muerto-a-tiros/",
+    "titular": "Discusión por el volumen de la música terminó con un carnicero muerto a tiros - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T16:49:10-05:00",
+    "resumen": "Un conflicto entre vecinos por el volumen de la música terminó en tragedia en el sector de Villa Guillermina, donde un hombre de 40 años perdió la vida tras",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3dd1372542441272e4d8faa5acd8cfece719acd5"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/tatuador-fue-asesinado-a-bala-dentro-de-su-lugar-de-trabajo-en-fundacion-magdalena/",
+    "titular": "Tatuador fue asesinado a bala dentro de su lugar de trabajo en Fundación, Magdalena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T16:47:38-05:00",
+    "resumen": "Un nuevo hecho de violencia sacudió al municipio de Fundación, Magdalena, donde un hombre fue asesinado a tiros en la tarde de este domingo.",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b98ba7da7b88fdd38c6455f929ade0db4191cdd5"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/vendia-herramientas-robadas-y-la-sijin-le-cayo-de-sorpresa-en-maria-la-baja/",
+    "titular": "¡Vendía herramientas robadas y la Sijín le cayó de sorpresa en María La Baja! - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T16:34:32-05:00",
+    "resumen": "El hombre fue sorprendido cuando presuntamente comercializaba elementos hurtados de una vidriería. Según las autoridades, registra cinco anotaciones",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e3691df001ee4c9e3fdee083631044feeaaa56e0"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/recuperan-motocicleta-electrica-robada-gracias-al-gps-y-capturan-a-un-joven-en-barranquilla/",
+    "titular": "Recuperan motocicleta eléctrica robada gracias al GPS y capturan a un joven en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T15:52:45-05:00",
+    "resumen": "La ubicación de un dispositivo GPS permitió a la Policía recuperar una motocicleta eléctrica que había sido hurtada minutos antes en el suroriente de",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1a3f195d10fbc75e69ccdfb07e4c9348fd109d58"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/hombres-armados-irrumpieron-en-una-hacienda-de-pelaya-instalaron-bandera-del-eln-e-incendiaron-maquinaria-y-una-tractomula/",
+    "titular": "Hombres armados irrumpieron en una hacienda de Pelaya, instalaron bandera del ELN e incendiaron maquinaria y una tractomula",
+    "fecha_publicacion": "2026-11-22T10:32:51-05:00",
+    "resumen": "Los sujetos se habrían identificado como integrantes del ELN, intimidaron a los habitantes de la finca y posteriormente cometieron la acción criminal. En la madrugada del pasado sábado 21 de noviembre, un grupo de hombres armados irrumpió en la Hacienda La Loma, ubicada en el corregimiento de…",
+    "fecha_captura": "2026-11-23T06:51:17-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a2eab51b4301ddb7bfc858ba7b65a474727f7d48"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/encuentran-sin-vida-a-turista-bogotano-desaparecido-en-las-playas-de-palomino-la-guajira/",
+    "titular": "Encuentran sin vida a turista bogotano desaparecido en las playas de Palomino, La Guajira - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T10:14:53-05:00",
+    "resumen": "Después de tres días de búsqueda, las autoridades confirmaron el hallazgo del cuerpo sin vida de Óscar Javier Rico Rodríguez, un turista bogotano de 44 años,",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0c7c617172cd8385ed27e8f62b68243d2c54367e"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/con-explosivos-atacaron-batallon-militar-en-el-cesar-un-soldado-murio-y-12-resultaron-heridos/",
+    "titular": "Con explosivos atacaron batallón militar en el Cesar: un soldado murió y 12 resultaron heridos",
+    "fecha_publicacion": "2026-11-22T09:59:23-05:00",
+    "resumen": "La Jagua de Ibirico está bajo toque de queda tras el ataque terrorista de anoche. Un ataque terrorista contra las instalaciones del Batallón Especial, Energético y Vial N.° 2, ubicado en el municipio de La Jagua de Ibirico, Cesar, se registró hacia las 11:00 de la noche del sábado 21 de noviembre.…",
+    "fecha_captura": "2026-11-23T06:51:17-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "035bf9e7050836f2d05c52b35d7b7762611d1d70"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/atentado-contra-batallon-en-la-jagua-de-ibirico-dejo-un-soldado-muerto-y-12-heridos",
+    "titular": "Atentado contra Batallón en La Jagua de Ibirico dejó un soldado muerto y 12 heridos",
+    "fecha_publicacion": "2026-11-22T09:13:04-05:00",
+    "resumen": "\"Cada acción criminal tendrá una respuesta contundente, más fuerte, letal e implacable\", anunció el Presidente De La Espriella.",
+    "fecha_captura": "2026-11-23T06:46:46-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b23418e092d8b9675f82d8060c45e8d00e860d54"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/lo-conocian-como-alias-jian-y-tenia-tres-anotaciones-abatido-frente-a-cadena-de-emisoras-era-un-menor-de-16-anos/",
+    "titular": "“Lo conocían como alias Jian y tenía tres anotaciones”: abatido frente a cadena de emisoras era un menor de 16 años",
+    "fecha_publicacion": "2026-11-22T09:11:51-05:00",
+    "resumen": "El adolescente habría intimidado a un ciudadano para atracarlo, pero no contaba con que su víctima estaba armada y le disparó, matándolo en el acto. La Policía Metropolitana de Barranquilla entregó detalles puntuales sobre los hechos ocurridos a las 9:05 de la noche del sábado 21 de noviembre en…",
+    "fecha_captura": "2026-11-23T06:51:17-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7afe584115cff9b177f4649a01aa2f825d592359"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/adolescente-intento-atracar-un-hombre-pero-este-forcejeo-saco-un-arma-de-fuego-y-lo",
+    "titular": "Adolescente intentó atracar a un hombre, pero este forcejeó, sacó un arma de fuego y lo ultimó",
+    "fecha_publicacion": "2026-11-22T09:00:54-05:00",
+    "resumen": "Ocurrió en el barrio El Prado, en Barranquilla. Según la Policía, el presunto delincuente tenía anotaciones por los delitos de fabricación tráfico y porte de armas de fuego y extorsión.",
+    "fecha_captura": "2026-11-23T06:46:46-05:00",
+    "tipos_delito": [
+      "extorsion"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "El Prado",
+    "estado": "pendiente",
+    "id": "affb429b4d28844e2f902f01c0029381605b0657"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/ataque-bala-contra-local-en-la-sierrita-dejo-un-presunto-extorsionista-abatido-y-una",
+    "titular": "Ataque a bala contra local en La Sierrita dejó un presunto extorsionista abatido y una menor herida",
+    "fecha_publicacion": "2026-11-22T08:41:44-05:00",
+    "resumen": "El antisocial era un adolescente de 17 años y fue abatido por la Policía después de una persecución.",
+    "fecha_captura": "2026-11-23T06:46:46-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones",
+      "extorsion"
+    ],
+    "municipio": null,
+    "barrio": "La Sierrita",
+    "estado": "pendiente",
+    "id": "38f21b6c7bdad1c96b3329c896c21aa52769c86b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/mujer-murio-en-accidente-de-transito-en-la-via-la-cordialidad-entre-barranquilla-y-galapa/",
+    "titular": "Mujer murió en accidente de tránsito en la vía La Cordialidad, entre Barranquilla y Galapa - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T08:39:36-05:00",
+    "resumen": "Un trágico accidente de tránsito ocurrido hacia la 1:00 de la tarde del sábado 21 de noviembre dejó una mujer fallecida en la vía La Cordialidad, en sentido",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Galapa",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "90be8f12bc9e967df6bce5235ac9f8cbfedb6cfc"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/menor-de-17-anos-fue-abatido-por-la-policia-tras-ataque-armado-contra-local-comercial-en-barranquilla/",
+    "titular": "Menor de 17 años fue abatido por la Policía tras ataque armado contra local comercial en Barranquilla",
+    "fecha_publicacion": "2026-11-22T08:34:13-05:00",
+    "resumen": "El adolescente habría disparado contra un negocio en el barrio El Santuario e hirió a una menor de edad, pero una patrulla que estaba cerca se percató de lo sucedido e inició una persecución que terminó en La Sierrita, donde fue dado de baja. Un ataque a bala contra la fachada de un…",
+    "fecha_captura": "2026-11-23T06:51:17-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "El Santuario",
+    "estado": "pendiente",
+    "id": "0c5024cc56a527dd45870d5f7678837a25b4d529"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/venia-el-bus-y-la-arrollo-asi-fueron-los-ultimos-momentos-de-adelaida-en-la-cordialidad-segun-testimonio/",
+    "titular": "“Venía el bus y la arrolló”: así fueron los últimos momentos de Adelaida en la Cordialidad, según testimonio",
+    "fecha_publicacion": "2026-11-22T08:10:49-05:00",
+    "resumen": "La mujer se desplazaba en una motocicleta que era conducida por su hijo, un menor de edad. Al parecer, todo se originó porque una camioneta frenó de forma imprevista. Hacia el mediodía de ayer, sábado 21 de noviembre, se presentó la trágica muerte de una mujer en medio de un accidente de tránsito…",
+    "fecha_captura": "2026-11-23T06:51:17-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "cc7526f0368729954c26653ef37e0097d59dfae0"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/22/investigan-muerte-de-joven-con-discapacidad-tras-protestas-e-intervencion-policial-en-el-bordo-cauca/",
+    "titular": "Investigan muerte de joven con discapacidad tras protestas e intervención policial en El Bordo, Cauca - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-22T07:42:24-05:00",
+    "resumen": "Los hechos ocurrieron en el contexto de las movilizaciones sociales desarrolladas entre el 19 y el 20 de noviembre en sectores de El Bordo y Palomocho, donde",
+    "fecha_captura": "2026-11-23T06:47:17-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "297f64bee43376c218c8be83f387bb5729719f30"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/tercer-ataque-armado-en-tiendas-olimpica-de-barranquilla-esta-vez-los-disparos-fueron-en-chiquinquira/",
+    "titular": "Tercer ataque armado en tiendas Olímpica de Barranquilla: esta vez los disparos fueron en Chiquinquirá",
+    "fecha_publicacion": "2026-11-22T07:22:47-05:00",
+    "resumen": "No hubo heridos, pero sí generó pánico entre empleados y clientes. La tarde del sábado 21 de noviembre, mientras la mayoría de los ciudadanos volcaban su atención hacia la final de la Copa Conmebol Sudamericana que disputaban Boca Juniors y Atlético Mineiro en el estadio Metropolitano de…",
+    "fecha_captura": "2026-11-23T06:51:17-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "55779f9dd7973f6e16e516283beea651c80dbe65"
+  },
+  {
     "medio": "Impacto News",
     "url": "https://impactonews.co/el-atraco-no-era-contra-jeimison-ochoa-abatido-presunto-atracador-en-inmediaciones-de-una-emisora/",
     "titular": "“El atraco no era contra Jeimison Ochoa”: abatido presunto delincuente en inmediaciones de una emisora",

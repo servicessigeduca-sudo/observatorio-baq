@@ -1,5 +1,244 @@
 [
   {
+    "caso_id": "f8a035a6f144",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-22",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "b23418e092d8b9675f82d8060c45e8d00e860d54"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/atentado-contra-batallon-en-la-jagua-de-ibirico-dejo-un-soldado-muerto-y-12-heridos",
+        "titular": "Atentado contra Batallón en La Jagua de Ibirico dejó un soldado muerto y 12 heridos"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "e8c836d05412",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones"
+    ],
+    "fecha": "2026-11-22",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "9eba9166a27a461818c0749a808e8798eaa547a9"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/disparos-atentados-contra-funcionarios-y-ahora-amenazas-con-partes-humanas-al-inpec-en",
+        "titular": "Disparos, atentados contra funcionarios y ahora amenazas con partes humanas al Inpec en Barranquilla"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "bf6fba482416",
+    "tipo": "desaparicion",
+    "tipos": [
+      "desaparicion"
+    ],
+    "fecha": "2026-11-22",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "73a6cff41893d483178c598bdbb43faf7844571e"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/22/buscan-a-joven-de-27-anos-desaparecido-en-las-playas-de-puerto-velero-su-familia-pide-ayuda-para-encontrarlo/",
+        "titular": "Buscan a joven de 27 años desaparecido en las playas de Puerto Velero; su familia pide ayuda para encontrarlo - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "bb4bf56da48c",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-22",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "7afe584115cff9b177f4649a01aa2f825d592359"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/lo-conocian-como-alias-jian-y-tenia-tres-anotaciones-abatido-frente-a-cadena-de-emisoras-era-un-menor-de-16-anos/",
+        "titular": "“Lo conocían como alias Jian y tenía tres anotaciones”: abatido frente a cadena de emisoras era un menor de 16 años"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "4a1b3152a654"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "ac2dee1eccc1",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-22",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "3dd1372542441272e4d8faa5acd8cfece719acd5"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/22/discusion-por-el-volumen-de-la-musica-termino-con-un-carnicero-muerto-a-tiros/",
+        "titular": "Discusión por el volumen de la música terminó con un carnicero muerto a tiros - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "1c719a34b134",
+    "tipo": "extorsion",
+    "tipos": [
+      "extorsion"
+    ],
+    "fecha": "2026-11-22",
+    "municipio": "Barranquilla",
+    "barrio": "El Prado",
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "affb429b4d28844e2f902f01c0029381605b0657"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/adolescente-intento-atracar-un-hombre-pero-este-forcejeo-saco-un-arma-de-fuego-y-lo",
+        "titular": "Adolescente intentó atracar a un hombre, pero este forcejeó, sacó un arma de fuego y lo ultimó"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "1739406c4d47",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones",
+      "extorsion"
+    ],
+    "fecha": "2026-11-22",
+    "municipio": "Barranquilla",
+    "barrio": "La Sierrita",
+    "medios": [
+      "Emisora Atlántico",
+      "Zona Cero"
+    ],
+    "notas": [
+      "38f21b6c7bdad1c96b3329c896c21aa52769c86b",
+      "4d10de6c8687b1b0c3a680b557e85c7a42145e39"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/ataque-bala-contra-local-en-la-sierrita-dejo-un-presunto-extorsionista-abatido-y-una",
+        "titular": "Ataque a bala contra local en La Sierrita dejó un presunto extorsionista abatido y una menor herida"
+      },
+      {
+        "medio": "Emisora Atlántico",
+        "url": "https://emisoraatlantico.com.co/judiciales/abaten-a-presunto-extorsionista-de-17-anos-tras-ataque-a-bala-en-el-barrio-la-sierrita/",
+        "titular": "Abaten a presunto extorsionista de 17 años tras ataque a bala en el barrio La Sierrita"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "9d71b03a44e6"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "149226c3a482",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-22",
+    "municipio": "Barranquilla",
+    "barrio": "El Santuario",
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "0c5024cc56a527dd45870d5f7678837a25b4d529"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/menor-de-17-anos-fue-abatido-por-la-policia-tras-ataque-armado-contra-local-comercial-en-barranquilla/",
+        "titular": "Menor de 17 años fue abatido por la Policía tras ataque armado contra local comercial en Barranquilla"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": 10.94585,
+    "lon": -74.80224,
+    "confianza_ubicacion": "alta"
+  },
+  {
     "caso_id": "b6cc00080aeb",
     "tipo": "homicidio",
     "tipos": [
@@ -114,17 +353,21 @@
   },
   {
     "caso_id": "4a1b3152a654",
-    "tipo": "violencia_intrafamiliar",
+    "tipo": "homicidio",
     "tipos": [
-      "violencia_intrafamiliar"
+      "violencia_intrafamiliar",
+      "homicidio",
+      "hurto"
     ],
     "fecha": "2026-11-21",
-    "municipio": null,
-    "barrio": null,
+    "municipio": "Barranquilla",
+    "barrio": "Colombia",
     "medios": [
-      "Diario La Libertad"
+      "Diario La Libertad",
+      "Emisora Atlántico"
     ],
     "notas": [
+      "e893f774fd4db2b93a82f883827ecc84ada17037",
       "eb21eb100e9f156108f1aa34340c09163e4e0e6a"
     ],
     "fuentes": [
@@ -132,13 +375,20 @@
         "medio": "Diario La Libertad",
         "url": "https://diariolalibertad.com/2026/11/21/biblioteca-nacional-denuncian-maltratos-amenazas-y-renuncias-durante-la-gestion-de-julia-daza/",
         "titular": "Biblioteca Nacional: denuncian maltratos, amenazas y renuncias durante la gestión de Julia Daza - Diario La Libertad."
+      },
+      {
+        "medio": "Emisora Atlántico",
+        "url": "https://emisoraatlantico.com.co/judiciales/adolescente-de-16-anos-muere-tras-intentar-cometer-un-atraco-en-el-barrio-colombia-en-barranquilla/",
+        "titular": "Adolescente de 16 años muere tras intentar cometer un atraco en el barrio Colombia, en Barranquilla"
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "bb4bf56da48c"
+    ],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "3804703f834e",
@@ -179,10 +429,14 @@
     "barrio": "Chiquinquirá",
     "medios": [
       "Diario La Libertad",
+      "Emisora Atlántico",
+      "Impacto News",
       "Zona Cero"
     ],
     "notas": [
       "496bf66d383da05123ac026739a1be9e5fc564ba",
+      "55779f9dd7973f6e16e516283beea651c80dbe65",
+      "b9bce48feabbf1c652f618c20e59f518f4d7d524",
       "fa72495b8097cfd642862b08f3a5a8219110735e"
     ],
     "fuentes": [
@@ -195,6 +449,16 @@
         "medio": "Diario La Libertad",
         "url": "https://diariolalibertad.com/2026/11/21/tercer-ataque-contra-tiendas-olimpica-en-menos-de-dos-semanas-dispararon-contra-sede-en-barranquilla/",
         "titular": "Tercer ataque contra tiendas Olímpica en menos de dos semanas: dispararon contra sede en Barranquilla - Diario La Libertad."
+      },
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/tercer-ataque-armado-en-tiendas-olimpica-de-barranquilla-esta-vez-los-disparos-fueron-en-chiquinquira/",
+        "titular": "Tercer ataque armado en tiendas Olímpica de Barranquilla: esta vez los disparos fueron en Chiquinquirá"
+      },
+      {
+        "medio": "Emisora Atlántico",
+        "url": "https://emisoraatlantico.com.co/judiciales/nuevo-ataque-a-bala-contra-supertienda-olimpica-en-barranquilla-es-el-tercero-en-menos-de-dos-semanas/",
+        "titular": "Nuevo ataque a bala contra Supertienda Olímpica en Barranquilla: es el tercero en menos de dos semanas"
       }
     ],
     "estado": "pendiente",
@@ -262,7 +526,8 @@
     ],
     "estado": "posible_duplicado",
     "posible_duplicado_de": [
-      "f3de656f2168"
+      "f3de656f2168",
+      "1739406c4d47"
     ],
     "lat": null,
     "lon": null,
