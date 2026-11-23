@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="estilos.css?v=20261123a">
+<link rel="stylesheet" href="estilos.css?v=20261123b">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -83,7 +83,7 @@
   <p class="eyebrow" id="tb-eye">Barrios</p>
   <h2 class="t" id="tb-tit">Barrios con más casos</h2>
   <div class="filters" id="tb-filtros" style="margin-top:10px">
-    <label class="sr-lab" style="font-size:13px;font-weight:600;color:var(--muted)">Barrio <select id="tb-b"><option value="">Todos</option></select></label>
+    <label class="filtro-b">Ver un barrio <select id="tb-b"><option value="">Todos</option></select></label>
   </div>
   <div id="tb" aria-live="polite"></div>
   <div class="paginacion" id="pag" hidden><button type="button" id="ant">Anteriores</button><span id="pag-t"></span><button type="button" id="sig">Siguientes</button></div>
@@ -95,9 +95,9 @@
   <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261123a"></script>
+<script src="comun.js?v=20261123b"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="datos.js?v=20261123a"></script>
+<script src="datos.js?v=20261123b"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc,D={},DEF={f:"registro",v:"puntos",d:"",h:"",t:"",m:"",mod:"",b:""},st=O.leerURL(DEF),pag=0,POR_PAG=12;
@@ -129,8 +129,8 @@
     $("f-f").value=st.f;
     [].forEach.call(document.querySelectorAll("#vista button"),function(b){b.setAttribute("aria-pressed",b.getAttribute("data-v")===st.v)});
     var f=fuente();
-    $("f-fuente").innerHTML=st.f==="registro"?"<b>Fuente:</b> registro de homicidios 2026 (capa ArcGIS, uso autorizado), corte "+O.dia(f.corte)+". Sin nombres, direcciones ni horas."
-      :"<b>Fuente:</b> notas de cinco medios locales, hasta el "+O.dia(D.res.corte.prensa)+". La prensa no cubre todos los casos.";
+    $("f-fuente").innerHTML=st.f==="registro"?"<b>Fuente:</b> registro de homicidios 2026, hasta el "+O.dia(f.corte)+". Sin nombres, direcciones ni horas."
+      :"<b>Fuente:</b> noticias de cinco medios locales, hasta el "+O.dia(D.res.corte.prensa)+". No todos los casos llegan a la prensa.";
   }
 
   // Polígonos de barrio (OpenStreetMap) por municipio|clave; los alias de data/barrios_alias.json van en "otros".
@@ -145,8 +145,8 @@
     if(st.v==="puntos"){
       O.puntos(capa,f.zonas,casos,{radio:map.getZoom()>=14?5:4});
       var gr={};sel.forEach(function(r){if(r.zona)gr[r.grupo]=1});
-      $("leg").innerHTML="<h4>Un punto por caso</h4><p>Ubicación aproximada</p><ul>"+Object.keys(O.TIPOS).filter(function(k){return gr[k]}).map(function(k){return '<li><i class="dot" style="background:var(--c-'+k+')"></i>'+O.TIPOS[k]+"</li>"}).join("")+'</ul><p class="fija">Cada punto cae al azar dentro de una zona de al menos 3 casos (cuadros de 400 m unidos). No marca el lugar del hecho.</p>';
-      nota=(sinZona?O.num(sinZona)+" de "+O.num(total)+" casos no tienen una zona publicable (lugar sin identificar o zona aislada) y solo cuentan en las cifras. ":"")+"Pasa el cursor por un punto para ver cuántos casos tiene su zona.";
+      $("leg").innerHTML="<h4>Un punto por caso</h4><p>Ubicación aproximada</p><ul>"+Object.keys(O.TIPOS).filter(function(k){return gr[k]}).map(function(k){return '<li><i class="dot" style="background:var(--c-'+k+')"></i>'+O.TIPOS[k]+"</li>"}).join("")+'</ul><p class="fija">Cada punto se ubica cerca, no en el lugar exacto del hecho, para proteger a las víctimas.</p>';
+      nota=sinZona?O.num(sinZona)+" de ellos no tienen un lugar que se pueda mostrar sin identificar a nadie y no aparecen en el mapa.":"";
     }else if(st.v==="barrios"){
       // El mapa de barrios ignora el filtro de barrio: lo resalta.
       var porB={},nombre={};sinBarrio().forEach(function(r){if(!r.barrio)return;var k=r.municipio+"|"+O.claveBarrio(r.barrio);porB[k]=(porB[k]||0)+r.n;nombre[k]=r.barrio});
@@ -168,13 +168,13 @@
       if(resaltar){resaltar.setStyle({weight:3.5,color:O.css("--ink"),opacity:1});if(resaltar.bringToFront)resaltar.bringToFront()}
       $("leg").innerHTML="<h4>"+(st.f==="registro"?"Homicidios":"Casos")+" por barrio</h4><p>Total del periodo elegido</p><ul>"+O.BINS.map(function(b,i){return '<li><i style="background:var(--q'+(i+1)+')"></i>'+b[2]+"</li>"}).join("")+'</ul><p class="fija">Toca un barrio para ver su tendencia. Borde punteado: límite aproximado. Círculo: barrio sin límite.</p>';
       var nb=Object.keys(porB).length,np=Object.keys(porB).filter(function(k){return idx[k]}).length;
-      nota=(D.geo?np+" de "+nb+" barrios con casos tienen su límite dibujado. ":"No se pudieron cargar los límites de barrio; se muestran círculos. ")+(fuera?O.num(fuera)+" casos están en barrios sin ubicación y no se dibujan. ":"")+(st.b?"Resaltado: "+st.b+".":"");
+      nota=(D.geo?"":"No se pudieron cargar los límites de barrio; se muestran círculos. ")+(fuera?O.num(fuera)+" casos están en barrios que no pudimos ubicar y no se dibujan. ":"")+(st.b?"Resaltado: "+st.b+".":"");
       total=sinBarrio().reduce(function(t,r){return t+r.n},0);
     }else{
       var pts=f.zonas.filter(function(z){return porZona[z.id]}).map(function(z){return [z.centro[0],z.centro[1],porZona[z.id]]});
       calor.setPuntos(pts);calor.addTo(map);
       $("leg").innerHTML='<h4>Mapa de calor</h4><p>Radio de 300 m reales</p><div class="grad"></div><div class="gradl"><span>Pocos</span><span>10 o más</span></div><p class="fija">Intensidad fija: el rojo oscuro siempre significa 10 casos o más a menos de 300 m, a cualquier zoom.</p>';
-      nota="El calor se calcula con el centro de cada zona publicable, nunca con la ubicación exacta de un caso."+(sinZona?" "+O.num(sinZona)+" casos sin zona no aparecen.":"");
+      nota="El calor usa ubicaciones aproximadas, nunca la dirección exacta de un caso."+(sinZona?" "+O.num(sinZona)+" casos sin lugar conocido no aparecen.":"");
     }
     $("m-nota").textContent=O.num(total)+" casos con estos filtros. "+nota;
   }
@@ -185,8 +185,8 @@
     O.barrasMes("g",datos,[{clave:"v",nombre:"Casos",color:st.f==="registro"?"var(--c-hom)":"var(--primary)"}],{alt:"Casos por mes con los filtros elegidos"});
     var comp=datos.filter(function(d){return !inc[d.mes]}),mx=comp.reduce(function(a,d){return !a||d.v>a.v?d:a},null);
     $("g-tit").textContent=st.b&&mx&&mx.v?"En "+st.b+", "+O.mes(mx.mes)+" fue el mes con más casos":mx&&mx.v?O.mes(mx.mes).replace(/^./,function(c){return c.toUpperCase()})+" fue el mes con más casos entre los meses completos":"Casos por mes";
-    var ninc=datos.filter(function(d){return inc[d.mes]}).map(function(d){return O.mes(d.mes)});
-    $("g-txt").textContent=(mx&&mx.v?"Con estos filtros, "+O.mes(mx.mes)+" tuvo "+mx.v+" casos. ":"Sin casos con estos filtros. ")+(ninc.length?"Con trama, los meses incompletos ("+ninc.join(", ")+"): "+(st.f==="registro"?"puede haber retraso en la carga":"la recolección de prensa no cubre todo el mes")+", así que no deben leerse como una baja.":"");
+    var ninc=datos.filter(function(d){return inc[d.mes]}).map(function(d){return O.mes(d.mes,true)});
+    $("g-txt").textContent=(mx&&mx.v?"Con estos filtros, "+O.mes(mx.mes)+" tuvo "+mx.v+" casos. ":"Sin casos con estos filtros. ")+(ninc.length?"Las barras rayadas ("+ninc.join(" y ")+") son meses con datos aún incompletos: no indican una baja.":"");
   }
 
   function pintarTabla(sel){
@@ -199,7 +199,7 @@
       el.innerHTML=tot?'<div class="tablewrap cartas"><table class="tabla"><thead><tr><th>Barrio</th><th>Municipio</th><th class="n">Casos</th><th class="n">% del total</th></tr></thead><tbody>'+
         filasT.slice(0,st.b?filasT.length:25).map(function(x){var p=x[0].split("|"),on=st.b===p[0]&&st.m===p[1];return '<tr'+(on?' class="sel"':"")+'><td data-k="Barrio"><button type="button" class="lnk" data-b="'+esc(p[0])+'" data-m="'+esc(p[1])+'"'+(on?' aria-current="true"':"")+">"+esc(p[0])+'</button></td><td data-k="Municipio">'+esc(p[1])+'</td><td class="n" data-k="Casos">'+x[1]+'</td><td class="n" data-k="% del total">'+(100*x[1]/tot).toFixed(1)+" %</td></tr>"}).join("")+
         (otros?'<tr><td data-k="Barrio">Otros barrios y casos sin barrio</td><td data-k="Municipio">—</td><td class="n" data-k="Casos">'+otros+'</td><td class="n" data-k="% del total">'+(100*otros/tot).toFixed(1)+" %</td></tr>":"")+
-        '</tbody></table></div><p class="fuente">Se nombran los barrios con 3 casos o más con los filtros elegidos. Toca un barrio para ver su tendencia mes a mes y resaltarlo en el mapa.</p>':'<p class="estado">No hay casos con estos filtros.</p>';
+        '</tbody></table></div><p class="fuente">Solo se nombran los barrios con 3 casos o más, para proteger a las víctimas. Toca un barrio para ver su tendencia y resaltarlo en el mapa.</p>':'<p class="estado">No hay casos con estos filtros.</p>';
       return;
     }
     $("tb-eye").textContent="Casos recientes";$("tb-tit").textContent="Casos reportados en la prensa";opcionesBarrio();
@@ -210,7 +210,7 @@
   // Lista de barrios del filtro: los de la fuente elegida, en el municipio elegido.
   function opcionesBarrio(){var bs={};filas().forEach(function(r){if(r.barrio&&(!st.m||r.municipio===st.m))bs[r.barrio]=1});
     $("tb-b").innerHTML='<option value="">Todos</option>'+Object.keys(bs).sort(function(a,b){return a.localeCompare(b,"es")}).map(function(b){return '<option'+(b===st.b?" selected":"")+">"+esc(b)+"</option>"}).join("")}
-  function tarjeta(c){return '<article class="tarjeta"><div class="cab"><span class="tag"><i style="background:var(--c-'+c.grupo+')"></i>'+esc(O.TIPOS[c.grupo]||c.tipo)+'</span><span>'+O.mes(c.mes)+'</span></div><div class="lugar">'+esc(c.barrio||c.municipio||"Sin lugar identificado")+'</div><p>'+esc(c.resumen)+'</p><div class="medios">'+c.medios.map(function(m){return '<a href="'+esc(m.url)+'" target="_blank" rel="noopener">Leer en '+esc(m.medio)+" ↗</a>"}).join("")+'</div><span class="etq'+(c.revisado?" ok":"")+'">'+(c.revisado?"Revisado":"Sin revisar")+"</span></article>"}
+  function tarjeta(c){return '<article class="tarjeta"><div class="cab"><span class="tag"><i style="background:var(--c-'+c.grupo+')"></i>'+esc(O.TIPOS[c.grupo]||c.tipo)+'</span><span>'+O.mes(c.mes)+'</span></div><div class="lugar">'+esc(c.barrio||c.municipio||"Sin lugar identificado")+'</div><p>'+esc(c.resumen)+'</p><div class="medios">'+c.medios.map(function(m){return '<a href="'+esc(m.url)+'" target="_blank" rel="noopener">Leer en '+esc(m.medio)+" ↗</a>"}).join("")+'</div>'+(c.revisado?'<span class="etq ok">Revisado</span>':"")+"</article>"}
 
   function render(){O.escribirURL(st,DEF);opciones();var sel=filtradas();pintarMapa(sel);pintarGrafico(sel);pintarTabla(sel)}
   function cambia(k,v){st[k]=v;pag=0;render()}
