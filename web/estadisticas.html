@@ -19,7 +19,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='6' fill='%23D3261C'/%3E%3Crect x='4' y='4' width='22' height='22' rx='3' fill='%23F6C200'/%3E%3Crect x='8' y='8' width='14' height='14' rx='2' fill='%230B6B3A'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
-<link rel="stylesheet" href="estilos.css?v=20261123g">
+<link rel="stylesheet" href="estilos.css?v=20261123h">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -30,14 +30,14 @@
       Observatorio <span>BAQ</span>
     </a>
     <div class="right">
-      <nav aria-label="Principal"><a href="./">Inicio</a><a href="mapa.html">Mapa</a><a href="informes.html">Informes</a><a href="estadisticas.html" aria-current="page">Estadísticas oficiales</a><a href="prensa-oficial.html">Prensa vs. oficial</a><a href="metodologia.html">Metodología y datos</a></nav>
+      <nav aria-label="Principal"><a href="./">Inicio</a><a href="mapa.html">Mapa</a><a href="informes.html">Informes</a><a href="estadisticas.html" aria-current="page">Estadísticas oficiales</a><a href="metodologia.html">Metodología y datos</a><a href="preguntas.html">Preguntas</a></nav>
       <button type="button" class="theme" id="theme" aria-label="Cambiar a modo oscuro"></button>
     </div>
   </div>
 </header>
 <div class="flag" aria-hidden="true"></div>
 <div class="subnav"><div class="in">
-  <div class="tabs"><a href="#tendencia">Tendencia</a><a href="#calor">Mapas de calor</a><a href="#comparar">Comparación</a><a href="#gobiernos">Por gobierno</a><a href="#area">Barranquilla y el área</a><a href="#perfil">Perfil</a></div>
+  <div class="tabs"><a href="#tendencia">Tendencia</a><a href="#calor">Cuándo y dónde</a><a href="#perfil">A quién y cómo</a></div>
   <a class="all" href="metodologia.html#datos">Datos abiertos →</a>
 </div></div>
 
@@ -66,33 +66,15 @@
 
 <section class="sec" id="tendencia"><div class="in" data-compartir>
   <p class="eyebrow">Tendencia</p>
-  <h2 class="t">Casos por mes y media móvil de 12 meses</h2>
+  <h2 class="t">Casos por mes y promedio de los últimos 12 meses</h2>
   <div class="chart" id="serie" style="margin-top:12px"></div>
-  <div class="keyrow"><span><i style="background:var(--qna)"></i>Casos del mes</span><span><i style="background:var(--hot);height:3px"></i>Media móvil de 12 meses</span></div>
+  <div class="keyrow"><span><i style="background:var(--qna)"></i>Casos del mes</span><span><i style="background:var(--hot);height:3px"></i>Promedio de los últimos 12 meses</span></div>
   <p class="note" id="serie-nota"></p>
   <a class="como" href="metodologia.html#calc-media">¿Cómo se calcula?</a>
 </div></section>
 
-<section class="sec" id="calor"><div class="in grid2 g13">
-  <div data-compartir>
-    <p class="eyebrow">Mapa de calor</p>
-    <h2 class="t">Mes a mes, año por año</h2>
-    <p class="note" style="margin:4px 0 12px">Cada celda es un mes. Sirve para ver temporadas y meses atípicos.</p>
-    <div class="tablewrap" style="margin-top:0"><div id="calor1"></div></div>
-    <div class="scale" id="calor1-ley"></div>
-  </div>
-  <div data-compartir>
-    <p class="eyebrow">Mapa de calor</p>
-    <h2 class="t">¿Qué días de la semana?</h2>
-    <p class="note" style="margin:4px 0 12px">Porcentaje de los casos de cada año que ocurrió cada día.</p>
-    <div class="tablewrap" style="margin-top:0"><div id="calor2"></div></div>
-    <div class="scale" id="calor2-ley"></div>
-    <a class="como" href="metodologia.html#calc-calor">¿Cómo se calcula?</a>
-  </div>
-</div></section>
-
 <section class="sec" id="comparar"><div class="in" data-compartir>
-  <p class="eyebrow">Comparación</p>
+  <p class="eyebrow">Tendencia</p>
   <h2 class="t">Variación por tipo de delito</h2>
   <p class="sub" id="variacion-sub"></p>
   <div class="tablewrap" id="variacion"></div>
@@ -100,7 +82,7 @@
 </div></section>
 
 <section class="sec" id="gobiernos"><div class="in" data-compartir>
-  <p class="eyebrow">Por gobierno</p>
+  <p class="eyebrow">Tendencia</p>
   <h2 class="t">Promedio mensual en cada periodo de gobierno</h2>
   <div class="seg" role="group" aria-label="Tipo de periodo" style="margin:12px 0 4px"><button type="button" data-per="presidente" aria-pressed="true">Presidencia</button><button type="button" data-per="alcalde" aria-pressed="false">Alcaldía de Barranquilla</button><button type="button" data-per="gobernador" aria-pressed="false">Gobernación del Atlántico</button></div>
   <p class="sub" id="gob-sub"></p>
@@ -110,22 +92,40 @@
   <a class="como" href="metodologia.html#calc-gobiernos">¿Cómo se calcula?</a>
 </div></section>
 
+<section class="sec" id="calor"><div class="in grid2 g13">
+  <div data-compartir>
+    <p class="eyebrow">Cuándo ocurre</p>
+    <h2 class="t">Cada mes, año por año</h2>
+    <p class="note" style="margin:4px 0 12px">Cada celda es un mes: más oscuro, más casos. Sirve para ver temporadas y meses fuera de lo común.</p>
+    <div class="tablewrap" style="margin-top:0"><div id="calor1"></div></div>
+    <div class="scale" id="calor1-ley"></div>
+  </div>
+  <div data-compartir>
+    <p class="eyebrow">Cuándo ocurre</p>
+    <h2 class="t">¿Qué días de la semana?</h2>
+    <p class="note" style="margin:4px 0 12px">Porcentaje de los casos de cada año que ocurrió cada día.</p>
+    <div class="tablewrap" style="margin-top:0"><div id="calor2"></div></div>
+    <div class="scale" id="calor2-ley"></div>
+    <a class="como" href="metodologia.html#calc-calor">¿Cómo se calcula?</a>
+  </div>
+</div></section>
+
 <section class="sec" id="area"><div class="in">
-  <p class="eyebrow">Barranquilla y el área metropolitana</p>
+  <p class="eyebrow">Dónde ocurre</p>
   <div data-compartir><h2 class="t" id="area-titulo">¿Cuánto pesa Barranquilla?</h2>
   <p class="sub">Reparto de los casos del delito elegido entre los cinco municipios, año por año.</p>
   <div id="area-anios" style="margin-top:16px"></div></div>
-  <div data-compartir style="margin-top:40px"><h2 class="t">Parte de Barranquilla en cada delito</h2>
-  <p class="sub" id="area-sub"></p>
-  <div class="tablewrap" id="area-delitos"></div></div>
   <div data-compartir style="margin-top:40px"><h2 class="t">Por municipio</h2>
   <p class="sub">Delito elegido, en los últimos 12 meses frente a los 12 anteriores.</p>
   <div class="tablewrap" id="munis"></div></div>
+  <details class="mas" style="margin-top:24px"><summary>Ver la parte de Barranquilla en cada delito</summary>
+  <div data-compartir style="margin-top:16px"><p class="sub" id="area-sub"></p>
+  <div class="tablewrap" id="area-delitos"></div></div></details>
   <a class="como" href="metodologia.html#calc-area">¿Cómo se calcula?</a>
 </div></section>
 
 <section class="sec" id="perfil"><div class="in">
-  <p class="eyebrow">Perfil</p>
+  <p class="eyebrow">A quién y cómo</p>
   <div data-compartir><h2 class="t">Arma o medio usado, por año</h2>
   <p class="sub">Reparto de los casos de cada año entre los cinco medios más frecuentes.</p>
   <div id="armas" style="margin-top:16px"></div></div>
@@ -140,11 +140,11 @@
 
 <footer><div class="in">
   <span>Observatorio BAQ · Datos abiertos sobre seguridad en Barranquilla y su área metropolitana · <a href="metodologia.html#licencia">Licencia CC BY 4.0 y cita sugerida</a></span>
-  <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
+  <span><a href="preguntas.html">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261123g"></script>
-<script src="estadisticas.js?v=20261123g"></script>
-<script src="compartir.js?v=20261123g"></script>
+<script src="comun.js?v=20261123h"></script>
+<script src="estadisticas.js?v=20261123h"></script>
+<script src="compartir.js?v=20261123h"></script>
 </body>
 </html>

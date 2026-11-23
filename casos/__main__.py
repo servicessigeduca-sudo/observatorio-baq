@@ -15,9 +15,15 @@ from .reporte import generar
 
 def deducir_municipio(casos: list[dict], ref: Referencia) -> int:
     """Si un caso no trae municipio y su barrio existe en uno solo de los cinco, toma ese.
-    Si el nombre se repite en varios municipios (Villa María, La Victoria), no se adivina."""
+    Si el nombre se repite en varios municipios (Villa María, La Victoria), no se adivina.
+    Los barrios de data/barrios_municipio.json toman siempre ese municipio, salvo en casos ya revisados."""
     n = 0
     for c in casos:
+        fijo = ref.municipio_fijo(c.get("barrio"))
+        if fijo and c.get("municipio") != fijo and c.get("estado") not in ("publicado", "descartado"):
+            c["municipio"], c["municipio_deducido"] = fijo, True
+            n += 1
+            continue
         if c.get("municipio") or not c.get("barrio"):
             continue
         m = ref.municipio_unico(c["barrio"])

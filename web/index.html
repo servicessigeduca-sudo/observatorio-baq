@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
 <link rel="stylesheet" href="leaflet.css">
-<link rel="stylesheet" href="estilos.css?v=20261123g">
+<link rel="stylesheet" href="estilos.css?v=20261123h">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -31,7 +31,7 @@
       Observatorio <span>BAQ</span>
     </a>
     <div class="right">
-      <nav aria-label="Principal"><a href="./" aria-current="page">Inicio</a><a href="mapa.html">Mapa</a><a href="informes.html">Informes</a><a href="estadisticas.html">Estadísticas oficiales</a><a href="prensa-oficial.html">Prensa vs. oficial</a><a href="metodologia.html">Metodología y datos</a></nav>
+      <nav aria-label="Principal"><a href="./" aria-current="page">Inicio</a><a href="mapa.html">Mapa</a><a href="informes.html">Informes</a><a href="estadisticas.html">Estadísticas oficiales</a><a href="metodologia.html">Metodología y datos</a><a href="preguntas.html">Preguntas</a></nav>
       <button type="button" class="theme" id="theme" aria-label="Cambiar a modo oscuro"></button>
     </div>
   </div>
@@ -40,7 +40,7 @@
 
 <main id="contenido">
 <section class="portada"><div class="in">
-  <article class="pcard cifra-card" id="cifra" data-compartir data-contexto="Barranquilla y su área metropolitana" data-fuente="Fuente: Policía Nacional (SIEDCO)." aria-live="polite">
+  <article class="pcard cifra-card" id="cifra" data-compartir data-contexto="Barranquilla y su área metropolitana" data-fuente="Fuente: Policía Nacional." aria-live="polite">
     <p class="eyebrow" id="c-eti">Homicidios en Barranquilla y su área metropolitana</p>
     <h1 id="c-h1"><span class="cifra" id="c-num"></span><span class="c-txt" id="c-txt">Cargando las cifras…</span></h1>
     <p class="c-var" id="c-var"></p>
@@ -84,7 +84,7 @@
     <a class="btn" href="mapa.html">Abrir el mapa</a>
   </div>
   <a class="mapcard" href="mapa.html" aria-label="Abrir el mapa completo"><div id="map" class="mapa-mini" role="img" aria-label="Vista previa del mapa de homicidios de 2026"></div><div class="leg" id="leg"></div></a>
-  <p class="fuente">Cada punto es un homicidio, en una ubicación aproximada. <a class="porque" href="metodologia.html#ubicacion">¿Por qué?</a></p>
+  <p class="fuente">Cada punto es un homicidio, en una ubicación aproximada. <a class="porque" href="preguntas.html#ubicacion">¿Por qué?</a></p>
 </div></section>
 
 <section class="sec" id="fuentes"><div class="in grid2">
@@ -97,8 +97,8 @@
   <div>
     <p class="eyebrow">De dónde salen los datos</p>
     <ul class="lista-lim">
-      <li><b>Policía Nacional (SIEDCO):</b> las cifras oficiales por municipio y mes. Se publican con unos dos meses de retraso.</li>
-      <li><b>Registro de homicidios 2026:</b> cada homicidio del área por mes y por zona, sin datos personales.</li>
+      <li><b>Policía Nacional:</b> las cifras oficiales por municipio y mes. Se publican con unos dos meses de retraso.</li>
+      <li><b>Base de homicidios 2026:</b> cada homicidio del área por mes y por zona, sin datos personales.</li>
       <li><b>Noticias locales:</b> cinco medios revisados cada día. Muestran lo que llega a la prensa, no todos los delitos.</li>
     </ul>
     <p style="margin-top:14px"><a class="link" href="metodologia.html">Metodología y descarga de datos</a></p>
@@ -108,18 +108,18 @@
 
 <footer><div class="in">
   <span>Observatorio BAQ · Datos abiertos sobre seguridad en Barranquilla y su área metropolitana · <a href="metodologia.html#licencia">Licencia CC BY 4.0 y cita sugerida</a></span>
-  <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
+  <span><a href="preguntas.html">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261123g"></script>
+<script src="comun.js?v=20261123h"></script>
 <script src="leaflet.js"></script>
-<script src="datos.js?v=20261123g"></script>
-<script src="compartir.js?v=20261123g"></script>
+<script src="datos.js?v=20261123h"></script>
+<script src="compartir.js?v=20261123h"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc,D={};
   O.estado("ficha","cargando","Cargando datos…");
-  var PQ='<a class="porque" href="metodologia.html#rayadas">¿Por qué?</a>';
+  var PQ='<a class="porque" href="preguntas.html#rayadas">¿Por qué?</a>';
   function plural(n,uno,varios){return O.num(n)+" "+(n===1?uno:varios)}
   function rango(desde,hasta){var a=desde.split("-"),b=hasta.split("-");
     return a[0]===b[0]?"entre "+O.MESES[+a[1]-1]+" y "+O.MESES[+b[1]-1]+" de "+b[0]:"entre "+O.mes(desde)+" y "+O.mes(hasta)}
@@ -134,7 +134,7 @@
       (horas?'<span class="ritmo">'+(horas<=1?"Más de uno por hora":"Uno cada <b>"+horas+" horas</b>")+"</span>":"");
     var inc=h.por_mes.filter(function(d){return d.incompleto});
     O.barrasMes("c-serie",h.por_mes.map(function(d){return {mes:d.mes,casos:d.casos,incompleto:d.incompleto?["casos"]:[]}}),[{clave:"casos",nombre:"Homicidios",color:"var(--c-hom)"}],{alt:"Homicidios por mes en el área metropolitana, últimos 24 meses"});
-    $("c-fuente").innerHTML="Homicidios por mes.<span data-sin-captura> Fuente: Policía Nacional (SIEDCO).</span>"+(inc.length?" Rayado: "+inc.map(function(d){return O.MESES[+d.mes.slice(5)-1]}).join(", ").replace(/, ([^,]*)$/," y $1")+", aún incompletos y sin sumar. "+PQ:"");
+    $("c-fuente").innerHTML="Homicidios por mes.<span data-sin-captura> Fuente: Policía Nacional.</span>"+(inc.length?" Rayado: "+inc.map(function(d){return O.MESES[+d.mes.slice(5)-1]}).join(", ").replace(/, ([^,]*)$/," y $1")+", aún incompletos y sin sumar. "+PQ:"");
     return true;
   }
 
@@ -196,7 +196,7 @@
       k3=pob?'<div class="kpi"><span class="k">Por 100.000 habitantes</span><b>'+(1e5*tot/pob).toLocaleString("es-CO",{maximumFractionDigits:1})+'</b><small>Población: '+O.num(pob)+" ("+esc(D.res.poblacion.fuente)+")</small></div>"
         :(totArea?'<div class="kpi"><span class="k">Del área metropolitana</span><b>'+Math.round(100*tot/totArea)+' %</b><small>de los homicidios de 2026</small></div>':"")}
     var casos=x.prensa.slice(0,6),incs=meses.filter(function(m){return D.incompletos[m]}).map(function(m){return O.MESES[+m.slice(5)-1]});
-    el.innerHTML='<div class="fbloque" id="f-bloque" data-compartir data-contexto="'+esc(x.tipo==="barrio"&&x.municipio?"Barrio de "+x.municipio:"Municipio del área metropolitana")+'" data-fuente="Fuente: registro de homicidios 2026.">'+
+    el.innerHTML='<div class="fbloque" id="f-bloque" data-compartir data-contexto="'+esc(x.tipo==="barrio"&&x.municipio?"Barrio de "+x.municipio:"Municipio del área metropolitana")+'" data-fuente="Fuente: base de homicidios 2026.">'+
       '<p class="eyebrow">'+(x.tipo==="barrio"?"Barrio":"Municipio")+'</p><h3 class="f-h">'+esc(x.nombre)+(x.tipo==="barrio"&&x.municipio?' <span class="etq">'+esc(x.municipio)+"</span>":"")+'</h3>'+
       '<div class="ficha">'+k1+k2+k3+'</div>'+
       '<p class="k f-k">Homicidios por mes en 2026</p><div class="chart spark" id="spark"></div><p class="fuente" id="spark-txt"></p></div>'+

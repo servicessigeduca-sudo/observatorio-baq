@@ -136,7 +136,7 @@ def procesar(geojson: dict, hoy: date | None = None) -> dict:
         conteo[(f["mes"], f["municipio"], f["localidad"], f["barrio"] or "Sin barrio", z, f["sexo"], f["modalidad"])] += 1
     fechas = [f["fecha"] for f in filas]
     return {
-        "fuente": "Capa de homicidios 2026 (ArcGIS), con autorización de uso del propietario",
+        "fuente": "Base de homicidios 2026 (capa ArcGIS del Atlántico), usada con autorización de su propietario",
         "corte": max(fechas).isoformat() if fechas else None,
         "desde": min(fechas).isoformat() if fechas else None,
         "columnas": ["mes", "municipio", "localidad", "barrio", "zona", "sexo", "modalidad", "casos"],

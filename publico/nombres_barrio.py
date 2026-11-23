@@ -5,7 +5,9 @@
 (data/publico/barrios.geojson) y los alias (data/barrios_alias.json) para:
 
 - dar el nombre oficial de un barrio («Santo Domingo» → «Santo Domingo de Guzman»);
-- deducir el municipio cuando el nombre existe en uno solo de los cinco.
+- deducir el municipio cuando el nombre existe en uno solo de los cinco;
+- fijar el municipio de barrios que la prensa ubica mal (data/barrios_municipio.json,
+  p. ej. El Ferry es de Barranquilla aunque una nota diga Soledad).
 
 No necesita shapely, así que lo pueden usar el scraper, los casos y el sitio.
 """
@@ -42,7 +44,9 @@ def sin_articulo(k: str) -> str:
 
 
 class Referencia:
-    def __init__(self, geojson: dict | None = None, alias: dict[str, str] | None = None):
+    def __init__(self, geojson: dict | None = None, alias: dict[str, str] | None = None, fijos: dict[str, str] | None = None):
+        # barrio -> municipio decidido por el equipo
+        self.fijos = {clave(b): m for b, m in (fijos or {}).items()}
         # (municipio, clave) -> nombre oficial
         self._nombre: dict[tuple[str, str], str] = {}
         self._flojo: dict[tuple[str, str], str] = {}  # misma clave sin artículo inicial
@@ -67,7 +71,8 @@ class Referencia:
     @classmethod
     def desde(cls, raiz: Path = Path(".")) -> "Referencia":
         leer = lambda p: json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
-        return cls(leer(raiz / "data" / "publico" / "barrios.geojson"), leer(raiz / "data" / "barrios_alias.json"))
+        return cls(leer(raiz / "data" / "publico" / "barrios.geojson"), leer(raiz / "data" / "barrios_alias.json"),
+                   leer(raiz / "data" / "barrios_municipio.json"))
 
     def oficial(self, barrio: str | None, municipio: str | None) -> str | None:
         """Nombre oficial del barrio en ese municipio, o None si no está en los límites."""
@@ -81,5 +86,11 @@ class Referencia:
         if not barrio:
             return None
         k = clave(barrio)
+        if k in self.fijos:
+            return self.fijos[k]
         ms = self._municipios.get(k) or self._municipios.get(sin_articulo(k)) or set()
         return next(iter(ms)) if len(ms) == 1 else None
+
+    def municipio_fijo(self, barrio: str | None) -> str | None:
+        """Municipio que el equipo fijó para este barrio, o None."""
+        return self.fijos.get(clave(barrio)) if barrio else None

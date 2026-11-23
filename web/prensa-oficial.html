@@ -19,7 +19,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='6' fill='%23D3261C'/%3E%3Crect x='4' y='4' width='22' height='22' rx='3' fill='%23F6C200'/%3E%3Crect x='8' y='8' width='14' height='14' rx='2' fill='%230B6B3A'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
-<link rel="stylesheet" href="estilos.css?v=20261123g">
+<link rel="stylesheet" href="estilos.css?v=20261123h">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -30,7 +30,7 @@
       Observatorio <span>BAQ</span>
     </a>
     <div class="right">
-      <nav aria-label="Principal"><a href="./">Inicio</a><a href="mapa.html">Mapa</a><a href="informes.html">Informes</a><a href="estadisticas.html">Estadísticas oficiales</a><a href="prensa-oficial.html" aria-current="page">Prensa vs. oficial</a><a href="metodologia.html">Metodología y datos</a></nav>
+      <nav aria-label="Principal"><a href="./">Inicio</a><a href="mapa.html">Mapa</a><a href="informes.html" aria-current="page">Informes</a><a href="estadisticas.html">Estadísticas oficiales</a><a href="metodologia.html">Metodología y datos</a><a href="preguntas.html">Preguntas</a></nav>
       <button type="button" class="theme" id="theme" aria-label="Cambiar a modo oscuro"></button>
     </div>
   </div>
@@ -40,9 +40,9 @@
 <main id="contenido">
 <section class="hero"><div class="in" style="grid-template-columns:minmax(0,1fr);padding-block:32px 16px">
   <div>
-    <p class="crumb">Prensa vs. oficial</p>
+    <p class="crumb"><a href="informes.html">Informes</a> · Noticias frente a cifras oficiales</p>
     <h1>¿Qué parte de los casos llega a los medios?</h1>
-    <p class="dek">Cruzamos los casos que publica la prensa local con las cifras de la Policía y con el registro de homicidios, por municipio y mes. Así se ve qué proporción llega a los medios y dónde hay vacíos de cobertura.</p>
+    <p class="dek">Cruzamos los casos que publica la prensa local con las cifras de la Policía y con la base de homicidios, por municipio y mes. Así se ve qué proporción llega a los medios y dónde hay vacíos de cobertura.</p>
   </div>
 </div></section>
 
@@ -80,7 +80,7 @@
   <ul class="lista-lim">
     <li>La proporción que llega a la prensa solo se calcula en meses con recolección de prensa completa y cifras de la Policía publicadas.</li>
     <li>La Policía publica con unos dos meses de retraso y corrige sus cifras hasta marzo del año siguiente.</li>
-    <li>El registro de homicidios y la Policía pueden diferir por fecha de corte, criterio de registro o municipio asignado.</li>
+    <li>La base de homicidios y la Policía pueden diferir por fecha de corte, criterio de registro o municipio asignado.</li>
     <li>Una baja cobertura no indica cuántos delitos hay: indica cuántos llegan a las noticias.</li>
   </ul>
   <p style="margin-top:12px"><a class="link" href="metodologia.html#comparacion">Cómo se hace la comparación</a></p>
@@ -89,11 +89,11 @@
 
 <footer><div class="in">
   <span>Observatorio BAQ · Datos abiertos sobre seguridad en Barranquilla y su área metropolitana · <a href="metodologia.html#licencia">Licencia CC BY 4.0 y cita sugerida</a></span>
-  <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
+  <span><a href="preguntas.html">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261123g"></script>
-<script src="datos.js?v=20261123g"></script>
+<script src="comun.js?v=20261123h"></script>
+<script src="datos.js?v=20261123h"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc,D,st=O.leerURL({t:"hom",m:""});
@@ -113,17 +113,17 @@
       $("cob").innerHTML="";
     }else{
       $("c-tit").textContent="Todavía no hay un mes completo para medir qué parte llega a la prensa";
-      $("c-txt").textContent="La recolección diaria de prensa empezó el "+O.dia(D.corte.inicio_prensa)+", y la Policía publica con unos dos meses de retraso (último mes publicado: "+O.mes(D.corte.oficial)+"). La primera comparación completa será la de "+O.mes(siguiente(D.corte.inicio_prensa.slice(0,7)))+", cuando la Policía publique ese mes. Mientras tanto, abajo se puede comparar el registro de homicidios con la Policía.";
+      $("c-txt").textContent="La recolección diaria de prensa empezó el "+O.dia(D.corte.inicio_prensa)+", y la Policía publica con unos dos meses de retraso (último mes publicado: "+O.mes(D.corte.oficial)+"). La primera comparación completa será la de "+O.mes(siguiente(D.corte.inicio_prensa.slice(0,7)))+", cuando la Policía publique ese mes. Mientras tanto, abajo se puede comparar la base de homicidios con la Policía.";
       $("cob").innerHTML="";
     }
     var regOf=meses.filter(function(x){return x.registro!=null&&x.oficial!=null});
-    var series=[{clave:"registro",nombre:"Registro de homicidios",color:"var(--c-hom)"},{clave:"oficial",nombre:"Policía (SIEDCO)",color:"var(--qna)"},{clave:"prensa",nombre:"Prensa",color:"var(--c-les)"}].filter(function(s){return meses.some(function(x){return x[s.clave]!=null&&(s.clave!=="prensa"||x.prensa)})});
+    var series=[{clave:"registro",nombre:"Base de homicidios",color:"var(--c-hom)"},{clave:"oficial",nombre:"Policía Nacional",color:"var(--qna)"},{clave:"prensa",nombre:"Prensa",color:"var(--c-les)"}].filter(function(s){return meses.some(function(x){return x[s.clave]!=null&&(s.clave!=="prensa"||x.prensa)})});
     O.barrasMes("g",meses.map(function(x){return {mes:x.mes,registro:x.registro,oficial:x.oficial,prensa:x.prensa,incompleto:Object.keys(x.notas).map(function(n){return {prensa_parcial:"prensa",oficial_provisional:"oficial",registro_incompleto:"registro"}[n]})}}),series,{alt:"Casos por mes según cada fuente"});
     $("g-key").innerHTML=series.map(function(s){return '<span><i style="background:'+s.color+'"></i>'+s.nombre+"</span>"}).join("")+'<span><i style="background:repeating-linear-gradient(45deg,var(--muted) 0 2px,transparent 2px 5px)"></i>Parcial o provisional</span>';
     if(regOf.length){var r=regOf.reduce(function(t,x){return t+x.registro},0),o2=regOf.reduce(function(t,x){return t+x.oficial},0),dif=O.pct(r,o2);
-      $("g-tit").textContent=Math.abs(dif)<=5?"El registro de homicidios y la Policía casi coinciden":"El registro de homicidios y la Policía difieren en "+Math.abs(dif)+" %";
+      $("g-tit").textContent=Math.abs(dif)<=5?"La base de homicidios y la Policía casi coinciden":"La base de homicidios y la Policía difieren en "+Math.abs(dif)+" %";
       $("g-txt").textContent="De "+O.mes(regOf[0].mes)+" a "+O.mes(regOf[regOf.length-1].mes)+", el registro suma "+O.num(r)+" homicidios en "+lugar+" y la Policía "+O.num(o2)+" ("+O.signo(dif)+"). Rayado: meses incompletos o provisionales."}
-    else{$("g-tit").textContent="Casos de "+nombre+" por mes según cada fuente";$("g-txt").innerHTML='Rayado: meses incompletos o provisionales. <a class="porque" href="metodologia.html#rayadas">¿Por qué?</a>'}
+    else{$("g-tit").textContent="Casos de "+nombre+" por mes según cada fuente";$("g-txt").innerHTML='Rayado: meses incompletos o provisionales. <a class="porque" href="preguntas.html#rayadas">¿Por qué?</a>'}
     var munis=st.m?[st.m]:O.MUNICIPIOS,ms=meses.map(function(x){return x.mes});
     $("tabla").innerHTML='<table class="tabla"><thead><tr><th>Municipio</th>'+ms.map(function(m){return '<th class="n">'+O.mes(m,true)+"</th>"}).join("")+"</tr></thead><tbody>"+
       munis.map(function(mu){return "<tr><td>"+esc(mu)+"</td>"+ms.map(function(m){var f=D.filas.filter(function(f){return f.mes===m&&f.municipio===mu&&f.delito===st.t})[0]||{};

@@ -82,3 +82,12 @@ def test_clave_igual_en_la_pagina():
           f"console.log(JSON.stringify({json.dumps(nombres)}.map(window.OBAQ.claveBarrio)))")
     salida = subprocess.run(["node", "-e", js], capture_output=True, text=True, check=True).stdout
     assert json.loads(salida) == [clave(n) for n in nombres]
+
+
+def test_municipio_fijo_corrige_a_la_prensa():
+    ref = Referencia(GEO, None, {"El Ferry": "Barranquilla"})
+    casos = [{"barrio": "El Ferry", "municipio": "Soledad", "estado": "pendiente"},
+             {"barrio": "El Ferry", "municipio": "Soledad", "estado": "publicado"}]
+    assert deducir_municipio(casos, ref) == 1
+    assert casos[0]["municipio"] == "Barranquilla" and casos[1]["municipio"] == "Soledad"
+    assert ref.municipio_unico("el ferry") == "Barranquilla"

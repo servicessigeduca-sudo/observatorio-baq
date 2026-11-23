@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
 <link rel="stylesheet" href="leaflet.css">
-<link rel="stylesheet" href="estilos.css?v=20261123g">
+<link rel="stylesheet" href="estilos.css?v=20261123h">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -31,7 +31,7 @@
       Observatorio <span>BAQ</span>
     </a>
     <div class="right">
-      <nav aria-label="Principal"><a href="./">Inicio</a><a href="mapa.html" aria-current="page">Mapa</a><a href="informes.html">Informes</a><a href="estadisticas.html">Estadísticas oficiales</a><a href="prensa-oficial.html">Prensa vs. oficial</a><a href="metodologia.html">Metodología y datos</a></nav>
+      <nav aria-label="Principal"><a href="./">Inicio</a><a href="mapa.html" aria-current="page">Mapa</a><a href="informes.html">Informes</a><a href="estadisticas.html">Estadísticas oficiales</a><a href="metodologia.html">Metodología y datos</a><a href="preguntas.html">Preguntas</a></nav>
       <button type="button" class="theme" id="theme" aria-label="Cambiar a modo oscuro"></button>
     </div>
   </div>
@@ -51,20 +51,20 @@
   <div class="barra-mapa">
     <label class="filtro-b" for="f-b">Tu barrio <select id="f-b"><option value="">Todos los barrios</option></select></label>
     <div class="seg" role="group" aria-label="Cómo ver el mapa" id="vista">
-      <button type="button" data-v="puntos" aria-pressed="true">Puntos</button><button type="button" data-v="barrios" aria-pressed="false">Barrios</button><button type="button" data-v="calor" aria-pressed="false">Calor</button>
+      <button type="button" data-v="puntos" aria-pressed="true">Casos</button><button type="button" data-v="barrios" aria-pressed="false">Por barrio</button><button type="button" data-v="calor" aria-pressed="false">Zonas</button>
     </div>
   </div>
   <form class="panel" id="filtros" aria-label="Filtros" onsubmit="return false">
     <details id="mas-filtros"><summary><span>Más filtros</span><small id="f-resumen"></small></summary>
     <div class="panel-in">
-    <label>Fuente <select id="f-f"><option value="registro">Registro de homicidios 2026</option><option value="prensa">Noticias locales (todos los delitos)</option></select></label>
+    <label>Fuente <select id="f-f"><option value="registro">Base de homicidios 2026</option><option value="prensa">Noticias locales (todos los delitos)</option></select></label>
     <div class="fila">
       <label>Desde <select id="f-d"></select></label>
       <label>Hasta <select id="f-h"></select></label>
     </div>
     <label>Delito <select id="f-t"><option value="">Todos</option></select></label>
     <label>Municipio <select id="f-m"><option value="">Área metropolitana</option></select></label>
-    <label>Modalidad <select id="f-mod"><option value="">Todas</option></select></label>
+    <label><span id="f-mod-et">Arma o tipo de ataque</span> <select id="f-mod"><option value="">Todas</option></select></label>
     <button type="button" class="btn2" id="limpiar">Quitar filtros</button>
     </div>
     </details>
@@ -96,12 +96,12 @@
 
 <footer><div class="in">
   <span>Observatorio BAQ · Datos abiertos sobre seguridad en Barranquilla y su área metropolitana · <a href="metodologia.html#licencia">Licencia CC BY 4.0 y cita sugerida</a></span>
-  <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
+  <span><a href="preguntas.html">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261123g"></script>
+<script src="comun.js?v=20261123h"></script>
 <script src="leaflet.js"></script>
-<script src="datos.js?v=20261123g"></script>
+<script src="datos.js?v=20261123h"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc,D={},DEF={f:"registro",v:"puntos",d:"",h:"",t:"",m:"",mod:"",b:""},st=O.leerURL(DEF),pag=0,POR_PAG=12;
@@ -130,10 +130,12 @@
     sel("f-m",O.MUNICIPIOS.map(function(m){return [m,m]}),st.m,"Área metropolitana");
     var mods={};filas().forEach(function(r){mods[r.modalidad]=1});
     sel("f-mod",Object.keys(mods).sort().map(function(m){return [m,m]}),st.mod,"Todas");
+    // En la base de homicidios es el tipo de ataque (sicariato, riña); en las noticias, el arma.
+    $("f-mod-et").textContent=st.f==="registro"?"Tipo de ataque":"Arma";
     $("f-f").value=st.f;
     [].forEach.call(document.querySelectorAll("#vista button"),function(b){b.setAttribute("aria-pressed",b.getAttribute("data-v")===st.v)});
     var f=fuente();
-    $("f-fuente").innerHTML=st.f==="registro"?"<b>Fuente:</b> registro de homicidios 2026, hasta el "+O.dia(f.corte)+". Sin nombres, direcciones ni horas."
+    $("f-fuente").innerHTML=st.f==="registro"?"<b>Fuente:</b> base de homicidios 2026, hasta el "+O.dia(f.corte)+". Sin nombres, direcciones ni horas."
       :"<b>Fuente:</b> noticias de cinco medios locales, hasta el "+O.dia(D.res.corte.prensa)+". No todos los casos llegan a la prensa.";
   }
 
@@ -152,8 +154,8 @@
     if(st.v==="puntos"){
       O.puntos(capa,f.zonas,casos,{radio:map.getZoom()>=14?5:4});
       var gr={};sel.forEach(function(r){if(r.zona)gr[r.grupo]=1});
-      $("leg").innerHTML="<h4>Un punto por caso</h4><p>Ubicación aproximada</p><ul>"+Object.keys(O.TIPOS).filter(function(k){return gr[k]}).map(function(k){return '<li><i class="dot" style="background:var(--c-'+k+')"></i>'+O.TIPOS[k]+"</li>"}).join("")+'</ul><p class="fija"><a class="porque" href="metodologia.html#ubicacion">¿Por qué no es el lugar exacto?</a></p>';
-      nota=sinZona?O.num(sinZona)+" no aparecen en el mapa. <a class=\"porque\" href=\"metodologia.html#faltan\">¿Por qué?</a>":"";
+      $("leg").innerHTML="<h4>Un punto por caso</h4><p>Ubicación aproximada</p><ul>"+Object.keys(O.TIPOS).filter(function(k){return gr[k]}).map(function(k){return '<li><i class="dot" style="background:var(--c-'+k+')"></i>'+O.TIPOS[k]+"</li>"}).join("")+'</ul><p class="fija"><a class="porque" href="preguntas.html#ubicacion">¿Por qué no es el lugar exacto?</a></p>';
+      nota=sinZona?O.num(sinZona)+" no aparecen en el mapa. <a class=\"porque\" href=\"preguntas.html#faltan\">¿Por qué?</a>":"";
     }else if(st.v==="barrios"){
       // El mapa de barrios ignora el filtro de barrio: lo resalta.
       var porB={},nombre={};sinBarrio().forEach(function(r){if(!r.barrio)return;var k=r.municipio+"|"+O.claveBarrio(r.barrio);porB[k]=(porB[k]||0)+r.n;nombre[k]=r.barrio});
@@ -176,15 +178,15 @@
         if(st.b!==bPrev){if(resaltar.getBounds)map.fitBounds(resaltar.getBounds(),{maxZoom:14,padding:[60,60]});else map.setView(resaltar.getLatLng(),14)}}
       else if(!st.b&&bPrev&&todo)map.fitBounds(todo,{maxZoom:13});
       bPrev=st.b;
-      $("leg").innerHTML="<h4>"+(st.f==="registro"?"Homicidios":"Casos")+" por barrio</h4><p>Total del periodo elegido</p><ul>"+O.BINS.map(function(b,i){return '<li><i style="background:var(--q'+(i+1)+')"></i>'+b[2]+"</li>"}).join("")+'</ul><p class="fija">Toca un barrio para elegirlo. <a class="porque" href="metodologia.html#faltan">¿Bordes punteados?</a></p>';
+      $("leg").innerHTML="<h4>"+(st.f==="registro"?"Homicidios":"Casos")+" por barrio</h4><p>Total del periodo elegido</p><ul>"+O.BINS.map(function(b,i){return '<li><i style="background:var(--q'+(i+1)+')"></i>'+b[2]+"</li>"}).join("")+'</ul><p class="fija">Toca un barrio para elegirlo. <a class="porque" href="preguntas.html#faltan">¿Bordes punteados?</a></p>';
       var nb=Object.keys(porB).length,np=Object.keys(porB).filter(function(k){return idx.buscar(k)}).length;
-      nota=(D.geo?"":"No se pudieron cargar los límites de barrio. ")+(fuera?O.num(fuera)+" no aparecen en el mapa. <a class=\"porque\" href=\"metodologia.html#faltan\">¿Por qué?</a>":"");
+      nota=(D.geo?"":"No se pudieron cargar los límites de barrio. ")+(fuera?O.num(fuera)+" no aparecen en el mapa. <a class=\"porque\" href=\"preguntas.html#faltan\">¿Por qué?</a>":"");
       total=sinBarrio().reduce(function(t,r){return t+r.n},0);
     }else{
       var pts=f.zonas.filter(function(z){return porZona[z.id]}).map(function(z){return [z.centro[0],z.centro[1],porZona[z.id]]});
       calor.setPuntos(pts);calor.addTo(map);
-      $("leg").innerHTML='<h4>Mapa de calor</h4><p>Radio de 300 m reales</p><div class="grad"></div><div class="gradl"><span>Pocos</span><span>10 o más</span></div><p class="fija"><a class="porque" href="metodologia.html#leer-calor">¿Cómo se lee?</a></p>';
-      nota=sinZona?O.num(sinZona)+" no aparecen en el mapa. <a class=\"porque\" href=\"metodologia.html#faltan\">¿Por qué?</a>":"";
+      $("leg").innerHTML='<h4>Zonas con más casos</h4><p>Radio de 300 m reales</p><div class="grad"></div><div class="gradl"><span>Pocos</span><span>10 o más</span></div><p class="fija"><a class="porque" href="preguntas.html#leer-calor">¿Cómo se lee?</a></p>';
+      nota=sinZona?O.num(sinZona)+" no aparecen en el mapa. <a class=\"porque\" href=\"preguntas.html#faltan\">¿Por qué?</a>":"";
     }
     var enB=st.b?sel.reduce(function(t,r){return t+r.n},0):null;
     $("m-nota").innerHTML=st.b?"<b>"+esc(st.b)+":</b> "+O.num(enB)+" "+(enB===1?"caso":"casos")+". <a href=\"#tendencia\">Ver su tendencia</a>":"<b>"+O.num(total)+"</b> casos con estos filtros. "+nota;
@@ -198,7 +200,7 @@
     $("g-tit").textContent=st.b&&mx&&mx.v?"En "+st.b+", "+O.mes(mx.mes)+" fue el mes con más casos":mx&&mx.v?O.mes(mx.mes).replace(/^./,function(c){return c.toUpperCase()})+" fue el mes con más casos entre los meses completos":"Casos por mes";
     var ninc=datos.filter(function(d){return inc[d.mes]}).map(function(d){return O.mes(d.mes,true)});
     $("g-txt").textContent=(mx&&mx.v?O.mes(mx.mes).replace(/^./,function(c){return c.toUpperCase()})+": "+mx.v+" casos. ":"Sin casos con estos filtros. ")+"";
-    if(ninc.length)$("g-txt").insertAdjacentHTML("beforeend","Rayado: "+esc(ninc.join(" y "))+", aún incompletos. "+'<a class="porque" href="metodologia.html#rayadas">¿Por qué?</a>');
+    if(ninc.length)$("g-txt").insertAdjacentHTML("beforeend","Rayado: "+esc(ninc.join(" y "))+", aún incompletos. "+'<a class="porque" href="preguntas.html#rayadas">¿Por qué?</a>');
   }
 
   function pintarTabla(sel){
@@ -211,7 +213,7 @@
       el.innerHTML=tot?'<div class="tablewrap cartas"><table class="tabla"><thead><tr><th>Barrio</th><th>Municipio</th><th class="n">Casos</th><th class="n">% del total</th></tr></thead><tbody>'+
         filasT.slice(0,st.b?filasT.length:25).map(function(x){var p=x[0].split("|"),on=st.b===p[0]&&st.m===p[1];return '<tr'+(on?' class="sel"':"")+'><td data-k="Barrio"><button type="button" class="lnk" data-b="'+esc(p[0])+'" data-m="'+esc(p[1])+'"'+(on?' aria-current="true"':"")+">"+esc(p[0])+'</button></td><td data-k="Municipio">'+esc(p[1])+'</td><td class="n" data-k="Casos">'+x[1]+'</td><td class="n" data-k="% del total">'+(100*x[1]/tot).toFixed(1)+" %</td></tr>"}).join("")+
         (otros?'<tr><td data-k="Barrio">Otros barrios</td><td data-k="Municipio">—</td><td class="n" data-k="Casos">'+otros+'</td><td class="n" data-k="% del total">'+(100*otros/tot).toFixed(1)+" %</td></tr>":"")+
-        '</tbody></table></div><p class="fuente">Toca un barrio para verlo en el mapa. <a class="porque" href="metodologia.html#faltan">¿Falta tu barrio?</a></p>':'<p class="estado">No hay casos con estos filtros.</p>';
+        '</tbody></table></div><p class="fuente">Toca un barrio para verlo en el mapa. <a class="porque" href="preguntas.html#faltan">¿Falta tu barrio?</a></p>':'<p class="estado">No hay casos con estos filtros.</p>';
       return;
     }
     $("tb-eye").textContent="Casos recientes";$("tb-tit").textContent="Casos reportados en la prensa";opcionesBarrio();
