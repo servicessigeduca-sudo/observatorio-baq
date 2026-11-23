@@ -6,9 +6,25 @@ import argparse
 import json
 from pathlib import Path
 
+from publico.nombres_barrio import Referencia
+
 from .agrupar import agrupar
 from .geocodificar import geocodificar
 from .reporte import generar
+
+
+def deducir_municipio(casos: list[dict], ref: Referencia) -> int:
+    """Si un caso no trae municipio y su barrio existe en uno solo de los cinco, toma ese.
+    Si el nombre se repite en varios municipios (Villa María, La Victoria), no se adivina."""
+    n = 0
+    for c in casos:
+        if c.get("municipio") or not c.get("barrio"):
+            continue
+        m = ref.municipio_unico(c["barrio"])
+        if m:
+            c["municipio"], c["municipio_deducido"] = m, True
+            n += 1
+    return n
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -23,6 +39,7 @@ def main(argv: list[str] | None = None) -> int:
     notas = json.loads(args.notas.read_text(encoding="utf-8")) if args.notas.exists() else []
     previos = json.loads(args.salida.read_text(encoding="utf-8")) if args.salida.exists() else []
     casos = agrupar(notas, previos)
+    deducir_municipio(casos, Referencia.desde(Path(".")))
     geocodificar(casos, args.geocodigos, consultar_red=args.geocodificar)
     args.salida.parent.mkdir(parents=True, exist_ok=True)
     args.salida.write_text(json.dumps(casos, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

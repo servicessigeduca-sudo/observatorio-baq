@@ -24,6 +24,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from .cuadricula import TAMANO_M, zonas
+from .nombres_barrio import Referencia
 from .limpieza import MUNICIPIOS, modalidad_de_texto, normalizar_modalidad, normalizar_municipio, normalizar_sexo, revisar_fecha
 
 BOGOTA = timezone(timedelta(hours=-5))
@@ -78,6 +79,35 @@ def _pct(a: float, b: float) -> int | None:
 
 # ---------------------------------------------------------------- prensa
 
+def oficializar_registro(registro: dict | None, ref: Referencia) -> dict | None:
+    """Une las grafías de un mismo barrio del registro («Santo Domingo» y «Santo Domingo de Guzman»)
+    bajo el nombre más usado, para que un barrio no se cuente partido en dos."""
+    if not registro:
+        return registro
+    usos = defaultdict(Counter)  # (municipio, nombre oficial) -> grafías y cuántos casos
+    for f in registro["filas"]:
+        oficial = ref.oficial(f[3], f[1]) if f[3] != "Sin barrio" else None
+        if oficial:
+            usos[(f[1], oficial)][f[3]] += f[-1]
+    nombre = {}
+    for (m, oficial), grafias in usos.items():
+        elegido = max(grafias, key=lambda g: (grafias[g], g == oficial))
+        for g in grafias:
+            nombre[(m, g)] = elegido
+    filas = Counter()
+    for *k, n in registro["filas"]:
+        k[3] = nombre.get((k[1], k[3]), k[3])
+        filas[tuple(k)] += n
+    barrios = {}
+    for b in registro.get("barrios", []):
+        b = {**b, "barrio": nombre.get((b["municipio"], b["barrio"]), b["barrio"])}
+        previo = barrios.get((b["municipio"], b["barrio"]))
+        if previo is None or (previo.get("centro") is None and b.get("centro")):
+            barrios[(b["municipio"], b["barrio"])] = b
+    return {**registro, "filas": [list(k) + [n] for k, n in filas.items()],
+            "barrios": sorted(barrios.values(), key=lambda b: (b["municipio"], b["barrio"]))}
+
+
 def prensa_publica(casos: list[dict], notas: list[dict], hoy: date) -> tuple[dict, list[dict], dict]:
     """Casos de prensa sin datos sensibles. Devuelve (publicable, internos con fecha, calidad)."""
     por_nota = {n["id"]: n for n in notas}
@@ -98,9 +128,10 @@ def prensa_publica(casos: list[dict], notas: list[dict], hoy: date) -> tuple[dic
         if muni_txt and muni and muni != muni_txt:
             calidad["municipio_corregido"] += 1
         texto = " ".join((n.get("titular") or "") + " " + (n.get("resumen") or "") for n in notas_c)
+        barrio = c.get("barrio") if c.get("lat") is not None or c.get("barrio") else None
         internos.append({
             "id": c["caso_id"], "fecha": date.fromisoformat(c["fecha"]), "tipo": c.get("tipo"), "grupo": grupo(c.get("tipo")),
-            "municipio": muni, "barrio": c.get("barrio") if c.get("lat") is not None or c.get("barrio") else None,
+            "municipio": muni, "barrio": barrio,
             "lat": c.get("lat"), "lon": c.get("lon"), "modalidad": modalidad_de_texto(texto),
             "medios": [{"medio": f.get("medio"), "url": f.get("url")} for f in c.get("fuentes") or []],
             "revisado": c.get("estado") == "publicado", "alerta_fecha": alerta,
@@ -409,7 +440,8 @@ def construir(raiz: Path, hoy: date | None = None, ahora: datetime | None = None
     casos, notas = leer(d / "casos.json", []), leer(d / "notas.json", [])
     oficiales = leer(d / "oficiales.json", {})
     pub = d / "publico"
-    registro = leer(pub / "registro.json", None)
+    ref = Referencia.desde(raiz)
+    registro = oficializar_registro(leer(pub / "registro.json", None), ref)
     poblacion = leer(d / "poblacion.json", {})
 
     capturas = [n.get("fecha_captura") for n in notas if n.get("fecha_captura")]
@@ -448,6 +480,7 @@ def construir(raiz: Path, hoy: date | None = None, ahora: datetime | None = None
         [[f["mes"], f["municipio"], f["delito"], f["prensa"], f["oficial"], f["registro"], f["proporcion_prensa"], " ".join(f["notas"])] for f in comp]), encoding="utf-8")
     (pub / "oficiales_perfil.csv").write_text(_csv(["anio", "municipio", "categoria", "variable", "valor", "cantidad"], oficial_perfil(oficiales)), encoding="utf-8")
     if registro:
+        escribir(pub / "registro.json", registro)
         (pub / "registro_homicidios.csv").write_text(_csv(registro["columnas"], registro["filas"]), encoding="utf-8")
 
     # Copia fechada para reproducir los análisis de cada día.

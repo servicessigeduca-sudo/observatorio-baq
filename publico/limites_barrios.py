@@ -35,6 +35,8 @@ from shapely.ops import linemerge, polygonize, unary_union, voronoi_diagram
 
 from scraper.clasificar import normalizar
 
+from .nombres_barrio import Referencia, clave  # igual que O.claveBarrio() en web/datos.js
+
 URLS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"]
 AGENTE = "ObservatorioBAQ/0.1 (+https://github.com/servicessigeduca-sudo/observatorio-baq)"
 CAJA = "10.80,-74.99,11.13,-74.68"  # sur, oeste, norte, este
@@ -53,14 +55,6 @@ CONSULTA = f"""[out:json][timeout:240];
 out geom;"""
 AREA_MIN_KM2, AREA_MAX_KM2 = 0.004, 6.0
 KM2_POR_GRADO2 = 111.32 * 109.3  # a 11° N
-PREFIJOS = re.compile(r"^(barrio|urbanizacion|urb|conjunto residencial|conjunto|ciudadela|sector|asentamiento)\s+")
-
-
-def clave(nombre: str) -> str:
-    """Igual que claveBarrio() en web/mapa.html: sin tildes, sin signos y sin «barrio», «urbanización»…"""
-    t = re.sub(r"[^a-z0-9ñ]+", " ", normalizar(nombre)).strip()
-    t = PREFIJOS.sub("", t)
-    return re.sub(r"\s+", " ", t)
 
 
 def geometria(el: dict):
@@ -240,7 +234,7 @@ def con_pot(fc: dict, pot: dict, alias: dict[str, str] | None = None) -> dict:
 
 def cobertura(fc: dict, raiz: Path) -> tuple[int, int, list[str]]:
     """Cuántos barrios del registro (con casos) tienen polígono."""
-    claves = {(f["properties"]["municipio"], c) for f in fc["features"] for c in [f["properties"]["clave"], *f["properties"]["otros"]]}
+    ref = Referencia(fc)
     ruta = raiz / "data" / "publico" / "registro.json"
     if not ruta.exists():
         return 0, 0, []
@@ -248,7 +242,7 @@ def cobertura(fc: dict, raiz: Path) -> tuple[int, int, list[str]]:
     for f in json.loads(ruta.read_text(encoding="utf-8"))["filas"]:
         if f[3] != "Sin barrio":
             por[(f[1], f[3])] += f[7]
-    con = [k for k in por if (k[0], clave(k[1])) in claves]
+    con = [k for k in por if ref.oficial(k[1], k[0])]
     faltan = sorted(por, key=lambda k: -por[k])
     faltan = [f"{b} ({m}): {por[(m, b)]}" for m, b in faltan if (m, b) not in con]
     return sum(por[k] for k in con), sum(por.values()), faltan
@@ -261,6 +255,15 @@ def main() -> int:
     destino = raiz / "data" / "publico" / "barrios.geojson"
     if "--sin-red" in sys.argv[1:]:
         fc = json.loads(destino.read_text(encoding="utf-8"))
+        # Rehace las claves con el criterio vigente (p. ej. «II» → 2) y los alias.
+        otros = defaultdict(list)
+        for k, v in alias.items():
+            m, nombre = k.split("|", 1)
+            otros[(m, clave(v))].append(clave(nombre))
+        for f in fc["features"]:
+            p = f["properties"]
+            p["clave"] = clave(p["barrio"])
+            p["otros"] = otros.get((p["municipio"], p["clave"]), [])
     else:
         ruta_reg = raiz / "data" / "publico" / "registro.json"
         centros = json.loads(ruta_reg.read_text(encoding="utf-8")).get("barrios", []) if ruta_reg.exists() else []
