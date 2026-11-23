@@ -16,8 +16,10 @@
   function sitio(){var p=location.pathname.replace(/[^/]*$/,"");return (location.host+p).replace(/\/$/,"")}
   function slug(t){return t.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").replace(/^(.{0,90})-.*$/,function(t,a){return t.length>90?a:t})}
 
-  function armar(bloque){
-    var C=window.OBAQ&&OBAQ.captura,caja=document.createElement("div");caja.className="captura";
+  // Formato: vertical (1080 × 1350) desde el celular, para WhatsApp e historias;
+  // horizontal desde el computador. Las tablas anchas siempre van en horizontal.
+  function armar(bloque,vertical){
+    var C=window.OBAQ&&OBAQ.captura,caja=document.createElement("div");caja.className="captura"+(vertical?" vertical":"");
     var logo=document.querySelector(".logo svg");
     caja.innerHTML='<div class="cap-top"><span class="cap-marca">'+(logo?logo.outerHTML:"")+'Observatorio <b>BAQ</b></span><span class="cap-ctx"></span></div><div class="cap-flag"></div>';
     caja.querySelector(".cap-ctx").textContent=contexto(bloque);
@@ -33,13 +35,14 @@
     // celular y luego ampliados, los textos salían enormes.
     var orig=bloque.querySelectorAll(".chart"),dest=copia.querySelectorAll(".chart");
     [].forEach.call(orig,function(o,i){if(!o._barras||!dest[i]||!window.OBAQ||!OBAQ.barrasMes)return;
-      var t=document.createElement("div");t.id="cap-"+(o.id||i);t.style.width="984px";caja.appendChild(t);
-      OBAQ.barrasMes(t,o._barras[0],o._barras[1],o._barras[2]);dest[i].innerHTML=t.innerHTML;t.remove()});
+      var t=document.createElement("div");t.id="cap-"+(o.id||i);t.style.width=vertical?"620px":"984px";caja.appendChild(t);
+      var op={};for(var k in o._barras[2])op[k]=o._barras[2][k];if(vertical)op.alto=320;
+      OBAQ.barrasMes(t,o._barras[0],o._barras[1],op);dest[i].innerHTML=t.innerHTML;t.remove()});
     var pie=document.createElement("div");pie.className="cap-pie";
     pie.innerHTML="<span></span><b></b>";pie.firstChild.textContent=(bloque.getAttribute("data-fuente")||(C?C.fuente:""))+" Cifras provisionales.";pie.lastChild.textContent=sitio();
     caja.appendChild(pie);
     document.body.appendChild(caja);
-    var ancho=1080;[].forEach.call(caja.querySelectorAll(".tablewrap"),function(t){ancho=Math.max(ancho,t.scrollWidth+96)});
+    var ancho=1080;if(!vertical)[].forEach.call(caja.querySelectorAll(".tablewrap"),function(t){ancho=Math.max(ancho,t.scrollWidth+96)});
     caja.style.width=Math.min(ancho,2400)+"px";
     return caja;
   }
@@ -58,7 +61,7 @@
     btn.disabled=true;btn.setAttribute("aria-busy","true");
     var caja=null;
     cargar().then(function(H){
-      caja=armar(bloque);
+      caja=armar(bloque,tactil&&!bloque.querySelector(".tablewrap"));
       var bg=getComputedStyle(caja).backgroundColor,opc={pixelRatio:2,backgroundColor:bg,style:{position:"static",left:"0",top:"0"}};
       return H.toBlob(caja,opc).catch(function(){opc.skipFonts=true;return H.toBlob(caja,opc)});
     }).then(function(blob){if(!blob)throw new Error("imagen vacía");return entregar(blob,nombre,titulo)})
