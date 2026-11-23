@@ -141,6 +141,32 @@ def oficial_mensual(oficiales: dict) -> dict[tuple[str, str, str], int]:
     return out
 
 
+def homicidios_oficiales(oficial: dict, oficiales: dict, lista_inf: list[dict]) -> dict | None:
+    """Cifra principal de la portada: homicidios de la Policía en el área, en lo que va del año.
+
+    Cuenta hasta el último mes con datos completos (según los informes mensuales), para
+    no mostrar como baja un mes que todavía está cargándose, y compara con el mismo
+    periodo del año anterior. Incluye la serie de los últimos 24 meses para el gráfico.
+    """
+    ult = oficiales.get("ultimo_mes") or {}
+    if not ult:
+        return None
+    ultimo = f"{ult['anio']:04d}-{ult['mes']:02d}"
+    total = lambda m: sum(n for (mes, _, g), n in oficial.items() if mes == m and g == "hom")
+    incompletos = {i["periodo"] for i in lista_inf if i.get("estado") == "incompleto"}
+    completos = [m for m in _meses(f"{ult['anio']:04d}-01", ultimo) if m not in incompletos]
+    hasta = completos[-1] if completos else ultimo
+    anio, mes_fin = map(int, hasta.split("-"))
+    actual = sum(total(f"{anio:04d}-{m:02d}") for m in range(1, mes_fin + 1))
+    previo = sum(total(f"{anio - 1:04d}-{m:02d}") for m in range(1, mes_fin + 1))
+    a0, m0 = map(int, ultimo.split("-"))
+    desde = f"{a0 - 2 + (m0 == 12):04d}-{m0 % 12 + 1:02d}"
+    return {"fuente": "Policía Nacional (SIEDCO)", "anio": anio, "desde": f"{anio:04d}-01", "hasta": hasta,
+            "ultimo_publicado": ultimo, "casos": actual, "anio_anterior": previo, "variacion_pct": _pct(actual, previo),
+            "dias": (_fin_de_mes(hasta) - date(anio, 1, 1)).days + 1,
+            "por_mes": [{"mes": m, "casos": total(m), "incompleto": m > hasta} for m in _meses(desde, ultimo)]}
+
+
 def oficial_perfil(oficiales: dict) -> list[list]:
     """Género, edad y arma de los datos oficiales con valores normalizados."""
     t = oficiales.get("tablas", {})
@@ -402,6 +428,7 @@ def construir(raiz: Path, hoy: date | None = None, ahora: datetime | None = None
            "totales": {"prensa": len(internos), "prensa_con_barrio": sum(1 for c in internos if c["barrio"]),
                        "prensa_revisados": sum(1 for c in internos if c["revisado"]),
                        "registro": sum(f[-1] for f in registro["filas"]) if registro else None},
+           "homicidios": homicidios_oficiales(oficial, oficiales, lista_inf),
            "poblacion": poblacion, "calidad": {"prensa": calidad, "registro": registro.get("calidad") if registro else None}}
 
     pub.mkdir(parents=True, exist_ok=True)

@@ -140,3 +140,18 @@ def test_barrios_con_errores_de_digitacion():
     assert nombre_barrio("EL MANALTIAL") == "El Manantial"
     assert nombre_barrio("LOS OLIVOS II") == "Los Olivos 2"
     assert nombre_barrio("VILLA DEL REY") == "Villa del Rey"
+
+
+def test_homicidios_de_portada_hasta_el_ultimo_mes_completo():
+    from publico.construir import homicidios_oficiales, oficial_mensual
+    filas = [[a, m, "Barranquilla", "homicidio", 10 if a == 2025 else 20] for a in (2025, 2026) for m in range(1, 13) if (a, m) <= (2026, 10)]
+    filas += [[2026, 3, "Soledad", "homicidio", 5], [2026, 3, "Soledad", "hurto_personas", 99]]
+    oficiales = {"ultimo_mes": {"anio": 2026, "mes": 10}, "tablas": {"mensual": {"filas": filas}}}
+    inf = [{"periodo": "2026-10", "estado": "incompleto"}, {"periodo": "2026-09", "estado": "incompleto"}, {"periodo": "2026-08", "estado": "completo"}]
+    h = homicidios_oficiales(oficial_mensual(oficiales), oficiales, inf)
+    assert h["hasta"] == "2026-08"  # septiembre y octubre no entran en la cifra principal
+    assert h["casos"] == 8 * 20 + 5 and h["anio_anterior"] == 8 * 10
+    assert h["variacion_pct"] == 106
+    assert h["dias"] == 243
+    assert len(h["por_mes"]) == 24 and h["por_mes"][-1] == {"mes": "2026-10", "casos": 20, "incompleto": True}
+    assert homicidios_oficiales({}, {}, []) is None

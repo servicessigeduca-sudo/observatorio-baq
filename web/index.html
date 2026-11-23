@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Observatorio BAQ · Seguridad en Barranquilla con datos abiertos</title>
-<meta name="description" content="Cifras abiertas y actualizadas sobre seguridad en Barranquilla y su área metropolitana: casos de la semana, tu barrio, mapa, informes y datos de la Policía.">
+<meta name="description" content="¿Cuántos homicidios van este año en Barranquilla y su área metropolitana? Cifras abiertas por mes y por barrio, mapa, noticias de la semana e informes, listos para compartir.">
 <link rel="canonical" href="https://servicessigeduca-sudo.github.io/observatorio-baq/">
 <meta name="theme-color" content="#0B6B3A">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_CO">
 <meta property="og:site_name" content="Observatorio BAQ">
 <meta property="og:title" content="Observatorio BAQ · Seguridad en Barranquilla con datos abiertos">
-<meta property="og:description" content="Cifras abiertas y actualizadas sobre seguridad en Barranquilla y su área metropolitana: casos de la semana, tu barrio, mapa, informes y datos de la Policía.">
+<meta property="og:description" content="¿Cuántos homicidios van este año en Barranquilla y su área metropolitana? Cifras abiertas por mes y por barrio, mapa, noticias de la semana e informes, listos para compartir.">
 <meta property="og:url" content="https://servicessigeduca-sudo.github.io/observatorio-baq/">
 <meta property="og:image" content="https://servicessigeduca-sudo.github.io/observatorio-baq/og.png">
 <meta property="og:image:alt" content="Observatorio BAQ: datos abiertos sobre seguridad en Barranquilla">
@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="estilos.css?v=20261116a">
+<link rel="stylesheet" href="estilos.css?v=20261123a">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -39,63 +39,69 @@
 <div class="flag" aria-hidden="true"></div>
 
 <main id="contenido">
-<section class="hero"><div class="in">
-  <div class="titular" aria-live="polite">
-    <div>
-      <p class="crumb" id="t-sem">Seguridad en Barranquilla y su área metropolitana</p>
-      <h1 id="t-h1">Cargando el resumen de la semana…</h1>
-      <p class="linea" id="t-linea"></p>
-      <p class="act" id="t-act"></p>
-    </div>
-    <div>
-      <p class="k" style="font-weight:600;color:var(--muted);font-size:14px">Por tipo de delito, esta semana</p>
-      <div class="tipos" id="t-tipos"></div>
-    </div>
-  </div>
+<section class="portada"><div class="in">
+  <article class="pcard cifra-card" id="cifra" data-compartir data-contexto="Barranquilla y su área metropolitana" data-fuente="Fuente: Policía Nacional (SIEDCO)." aria-live="polite">
+    <p class="eyebrow" id="c-eti">Homicidios en Barranquilla y su área metropolitana</p>
+    <h1 id="c-h1"><span class="cifra" id="c-num"></span><span class="c-txt" id="c-txt">Cargando las cifras…</span></h1>
+    <p class="c-var" id="c-var"></p>
+    <div class="chart spark" id="c-serie"></div>
+    <p class="fuente" id="c-fuente"></p>
+  </article>
+  <article class="pcard semana-card" id="semana" aria-live="polite">
+    <p class="eyebrow" id="s-eti">Esta semana en las noticias</p>
+    <h2 class="s-h" id="s-h"></h2>
+    <div class="tipos" id="t-tipos"></div>
+    <p class="s-linea" id="s-linea"></p>
+    <p class="fuente" id="s-fuente"></p>
+  </article>
+  <nav class="atajos" aria-label="Qué puedes hacer aquí">
+    <a href="#barrio"><b>Tu barrio</b><span>Casos y tendencia</span></a>
+    <a href="mapa.html"><b>Mapa</b><span>Dónde se concentran</span></a>
+    <a href="informes.html" id="inf-atajo"><b>Informe</b><span>El mes con contexto</span></a>
+  </nav>
 </div></section>
 
 <section class="sec" id="barrio"><div class="in">
   <p class="eyebrow">Tu barrio o municipio</p>
   <h2 class="t">¿Qué pasa cerca de ti?</h2>
-  <p class="sub">Escribe un barrio o un municipio del área metropolitana para ver sus casos recientes, la tendencia y cómo se compara con el promedio.</p>
+  <p class="sub">Escribe el nombre de tu barrio o municipio. Verás sus homicidios de 2026, la tendencia y las noticias recientes, y podrás compartirlo.</p>
   <form class="buscador" id="buscar" role="search" onsubmit="return false">
-    <label for="q" class="saltar" style="position:absolute;left:-9999px">Barrio o municipio</label>
+    <label for="q" class="oculto">Barrio o municipio</label>
     <div class="caja-q">
       <svg class="lupa" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M16 16l4.5 4.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
-      <input id="q" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="lista-q" autocomplete="off" spellcheck="false" placeholder="Barrio o municipio" aria-describedby="q-ayuda">
+      <input id="q" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="lista-q" autocomplete="off" spellcheck="false" enterkeyhint="search" placeholder="Ej.: Rebolo, Soledad" aria-describedby="sug-eti">
       <ul class="lista-q" id="lista-q" role="listbox" aria-label="Sugerencias" hidden></ul>
     </div>
   </form>
-  <p class="fuente" id="q-ayuda">Los barrios con al menos un homicidio registrado en 2026 o un caso en la prensa.</p>
+  <p class="sug-eti" id="sug-eti">Los más consultados:</p>
   <div class="sug" id="sug"></div>
   <div id="ficha" aria-live="polite"></div>
 </div></section>
 
 <section class="sec" id="mapa"><div class="in">
   <div class="sechead">
-    <div><p class="eyebrow">Mapa</p><h2 class="t" id="m-tit">Dónde se concentran los homicidios de 2026</h2></div>
-    <a class="btn" href="mapa.html">Explorar el mapa</a>
+    <div><p class="eyebrow">Mapa</p><h2 class="t" id="m-tit">Dónde ocurrieron los homicidios de 2026</h2></div>
+    <a class="btn" href="mapa.html">Abrir el mapa</a>
   </div>
-  <div class="mapcard"><div id="map" class="mapa-mini" role="img" aria-label="Vista previa del mapa de homicidios de 2026, un punto aproximado por caso"></div><div class="leg" id="leg"></div></div>
-  <p class="fuente" id="m-nota">Cada punto es un homicidio puesto al azar dentro de su zona (cuadros de 400 m unidos hasta tener al menos 3 casos), para no señalar el lugar exacto.</p>
+  <a class="mapcard" href="mapa.html" aria-label="Abrir el mapa completo"><div id="map" class="mapa-mini" role="img" aria-label="Vista previa del mapa de homicidios de 2026"></div><div class="leg" id="leg"></div></a>
+  <p class="fuente">Cada punto es un homicidio en una ubicación aproximada, nunca la dirección exacta, para proteger a las víctimas y a sus familias.</p>
 </div></section>
 
 <section class="sec" id="fuentes"><div class="in grid2">
-  <div>
-    <p class="eyebrow">Fuentes y límites</p>
-    <h2 class="t">Qué muestran estos datos y qué no</h2>
-    <ul class="lista-lim" id="limites">
-      <li><b>Prensa local:</b> las notas de cinco medios, revisadas cada día. Muestran lo que llega a los medios, no todos los delitos.</li>
-      <li><b>Registro de homicidios 2026:</b> cada homicidio en los cinco municipios, publicado por mes y por zona, sin datos personales.</li>
-      <li><b>Policía Nacional (SIEDCO):</b> 15 delitos desde 2003, por municipio, con unos dos meses de retraso y cifras provisionales.</li>
-      <li>Los datos dicen cuántos casos hubo, dónde y cuándo. No permiten atribuir causas.</li>
-    </ul>
-    <p style="margin-top:14px"><a class="link" href="metodologia.html">Leer la metodología y descargar los datos</a></p>
-  </div>
   <div class="analysis">
-    <h3>Informe completo</h3>
-    <p id="inf-txt">Cada mes publicamos un informe con resumen, cifras, zonas, tendencia, comparación con la Policía y limitaciones.</p>
+    <p class="eyebrow">Informe mensual</p>
+    <h2 class="t" id="inf-tit">El mes en contexto</h2>
+    <p id="inf-txt">Cada mes publicamos un informe con las cifras, las zonas, la tendencia y la comparación con la Policía.</p>
     <p style="margin-top:14px"><a class="btn" id="inf-btn" href="informes.html">Ver los informes</a></p>
+  </div>
+  <div>
+    <p class="eyebrow">De dónde salen los datos</p>
+    <ul class="lista-lim">
+      <li><b>Policía Nacional (SIEDCO):</b> las cifras oficiales por municipio y mes. Se publican con unos dos meses de retraso.</li>
+      <li><b>Registro de homicidios 2026:</b> cada homicidio del área por mes y por zona, sin datos personales.</li>
+      <li><b>Noticias locales:</b> cinco medios revisados cada día. Muestran lo que llega a la prensa, no todos los delitos.</li>
+    </ul>
+    <p style="margin-top:14px"><a class="link" href="metodologia.html">Metodología y descarga de datos</a></p>
   </div>
 </div></section>
 </main>
@@ -105,31 +111,52 @@
   <span><a href="metodologia.html#preguntas">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261116a"></script>
+<script src="comun.js?v=20261123a"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="datos.js?v=20261116a"></script>
+<script src="datos.js?v=20261123a"></script>
+<script src="compartir.js?v=20261123a"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc,D={};
   O.estado("ficha","cargando","Cargando datos…");
+  function mayus(t){return t.charAt(0).toUpperCase()+t.slice(1)}
+  function plural(n,uno,varios){return O.num(n)+" "+(n===1?uno:varios)}
+  function rango(desde,hasta){var a=desde.split("-"),b=hasta.split("-");
+    return a[0]===b[0]?"entre "+O.MESES[+a[1]-1]+" y "+O.MESES[+b[1]-1]+" de "+b[0]:"entre "+O.mes(desde)+" y "+O.mes(hasta)}
 
-  function titular(r){
-    var s=r.semana,txt=s.casos===1?"1 caso reportado":O.num(s.casos)+" casos reportados";
-    $("t-sem").textContent="Esta semana · del "+O.dia(s.desde)+" al "+O.dia(s.hasta);
-    $("t-h1").innerHTML='<span class="cifra">'+O.num(s.casos)+'</span><br>'+(s.casos===1?"caso reportado":"casos reportados")+" en la prensa de Barranquilla y su área metropolitana";
-    var partes=[];
-    if(s.anterior.parcial)partes.push("Todavía no hay comparación con la semana anterior: la recolección diaria de prensa empezó el "+O.dia(r.corte.inicio_prensa)+".");
-    else if(s.variacion_pct==null)partes.push("La semana anterior no tuvo casos reportados.");
-    else partes.push("La semana anterior hubo "+O.num(s.anterior.casos)+" ("+O.signo(s.variacion_pct)+").");
-    if(s.zona)partes.push((s.zona.nivel==="barrio"?"El barrio con más casos fue "+s.zona.nombre+" ("+s.zona.municipio+")":"El municipio con más casos fue "+s.zona.nombre)+", con "+s.zona.casos+".");
-    $("t-linea").textContent=partes.join(" ");
-    $("t-act").textContent="Actualizado el "+O.fechaHora(r.generado)+" · Prensa hasta el "+O.dia(r.corte.prensa)+" · Fuente: notas de cinco medios locales";
-    var pt=s.por_tipo||{},ks=Object.keys(O.TIPOS).filter(function(k){return pt[k]}),max=Math.max.apply(null,[1].concat(ks.map(function(k){return pt[k]})));
+  // Cifra principal: homicidios oficiales del año hasta el último mes completo.
+  function cifra(h){
+    if(!h){$("cifra").hidden=true;return false}
+    $("c-num").textContent=O.num(h.casos);
+    $("c-txt").textContent=" homicidios "+rango(h.desde,h.hasta);
+    var horas=h.casos?Math.round(24*h.dias/h.casos):null,v=h.variacion_pct;
+    $("c-var").innerHTML=(v!=null?'<span class="'+(v>0?"up":"dn")+'">'+(v>0?"▲ ":"▼ ")+O.signo(v)+"</span> frente al mismo periodo de "+(h.anio-1)+" ("+O.num(h.anio_anterior)+")":"")+
+      (horas?'<span class="ritmo">'+(horas<=1?"Más de uno por hora":"Uno cada <b>"+horas+" horas</b>")+"</span>":"");
+    var inc=h.por_mes.filter(function(d){return d.incompleto});
+    O.barrasMes("c-serie",h.por_mes.map(function(d){return {mes:d.mes,casos:d.casos,incompleto:d.incompleto?["casos"]:[]}}),[{clave:"casos",nombre:"Homicidios",color:"var(--c-hom)"}],{alt:"Homicidios por mes en el área metropolitana, últimos 24 meses"});
+    $("c-fuente").textContent="Homicidios por mes, últimos 24 meses. Fuente: Policía Nacional (SIEDCO)."+(inc.length?" "+mayus(inc.length===1?O.MESES[+inc[0].mes.slice(5)-1]+" aún no está completo":inc.map(function(d){return O.MESES[+d.mes.slice(5)-1]}).join(", ").replace(/, ([^,]*)$/," y $1")+" aún no están completos")+" (barras rayadas), por eso no entran en la cifra.":"");
+    return true;
+  }
+
+  // La semana en las noticias.
+  function semana(r,principal){
+    var s=r.semana,pt=s.por_tipo||{},hom=pt.hom||0;
+    $("s-eti").textContent="Noticias del "+O.dia(s.desde)+" al "+O.dia(s.hasta);
+    $("s-h").innerHTML='<span class="cifra-s">'+O.num(s.casos)+"</span> "+(s.casos===1?"caso":"casos")+" en las noticias locales"+(hom?", "+plural(hom,"homicidio","homicidios"):"");
+    var ks=Object.keys(O.TIPOS).filter(function(k){return pt[k]}),max=Math.max.apply(null,[1].concat(ks.map(function(k){return pt[k]})));
     $("t-tipos").innerHTML=ks.length?ks.sort(function(a,b){return pt[b]-pt[a]}).map(function(k){return '<div class="hrow"><span>'+O.TIPOS[k]+'</span><span class="track"><span class="fill" style="width:'+(100*pt[k]/max)+'%;background:var(--c-'+k+')">'+pt[k]+"</span></span></div>"}).join("")
-      :'<p class="estado">Sin casos reportados esta semana.</p>';
+      :'<p class="estado">Sin casos en las noticias esta semana.</p>';
+    var partes=[];
+    if(!s.anterior.parcial&&s.variacion_pct!=null)partes.push("La semana anterior hubo "+O.num(s.anterior.casos)+" ("+O.signo(s.variacion_pct)+").");
+    if(s.zona&&s.zona.casos>1)partes.push((s.zona.nivel==="barrio"?"Más casos: "+s.zona.nombre+" ("+s.zona.municipio+")":"Más casos: "+s.zona.nombre)+", con "+s.zona.casos+".");
+    $("s-linea").textContent=partes.join(" ");
+    $("s-fuente").textContent=("Cinco medios locales. Actualizado el "+O.fechaHora(r.generado)+".").replace(/\.\.$/,".");
+    if(!principal){var h=document.createElement("h1");h.className="oculto";h.textContent="Seguridad en Barranquilla y su área metropolitana";$("contenido").insertBefore(h,$("contenido").firstChild)}
   }
 
   // Índices para el buscador
+  function sinTilde(t){return String(t).normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase()}
+  function clave(t){return O.claveBarrio(t).replace(/\bsiete\b/g,"7")}
   function indices(){
     var reg=D.reg,L={},inc={};
     (D.inf.informes||[]).forEach(function(i){if(i.estado==="incompleto"&&i.fuente==="registro")inc[i.periodo]=1});
@@ -138,78 +165,93 @@
     if(reg)reg.filas.forEach(function(f){var m=f[0],muni=f[1],b=f[3],n=f[7];
       lugar(muni,muni,"municipio").mes[m]=(lugar(muni,muni,"municipio").mes[m]||0)+n;
       if(b!=="Sin barrio"){var x=lugar(b,muni,"barrio");x.mes[m]=(x.mes[m]||0)+n}});
-    D.prensa.casos.forEach(function(c){if(c.municipio)lugar(c.municipio,c.municipio,"municipio").prensa.push(c);if(c.barrio)lugar(c.barrio,c.municipio,"barrio").prensa.push(c)});
+    var sinMuni=[];
+    D.prensa.casos.forEach(function(c){if(c.municipio){lugar(c.municipio,c.municipio,"municipio").prensa.push(c);if(c.barrio)lugar(c.barrio,c.municipio,"barrio").prensa.push(c)}else if(c.barrio)sinMuni.push(c)});
+    // Noticias que traen el barrio pero no el municipio: se unen al barrio con el mismo nombre si hay uno solo.
+    sinMuni.forEach(function(c){var kb=clave(c.barrio),ms=Object.keys(L).filter(function(k){return L[k].tipo==="barrio"&&clave(L[k].nombre)===kb});
+      if(ms.length===1)L[ms[0]].prensa.push(c);else if(!ms.length)lugar(c.barrio,"","barrio").prensa.push(c)});
     D.lugares=L;
-    var nombres={};Object.keys(L).forEach(function(k){var x=L[k];nombres[x.tipo==="barrio"?x.nombre+" ("+x.municipio+")":x.nombre]=k});
-    D.nombres=nombres;
-    D.claves=Object.keys(nombres).map(function(n){var x=L[nombres[n]],t=0;for(var m in x.mes)t+=x.mes[m];return {n:n,k:nombres[n],s:sinTilde(x.nombre),t:t+x.prensa.length,mun:x.tipo==="municipio"}});
+    D.claves=Object.keys(L).map(function(k){var x=L[k],t=0;for(var m in x.mes)t+=x.mes[m];return {k:k,s:sinTilde(x.nombre),t:t+x.prensa.length,mun:x.tipo==="municipio"}});
     // Promedio por barrio en cada municipio (barrios con al menos un homicidio registrado)
     var prom={};Object.keys(L).forEach(function(k){var x=L[k];if(x.tipo!=="barrio")return;var t=0;for(var m in x.mes)t+=x.mes[m];if(!t)return;var p=prom[x.municipio]=prom[x.municipio]||{t:0,n:0};p.t+=t;p.n++});
     D.prom=prom;
     var top=Object.keys(L).filter(function(k){return L[k].tipo==="barrio"}).map(function(k){var t=0;for(var m in L[k].mes)t+=L[k].mes[m];return [k,t]}).sort(function(a,b){return b[1]-a[1]}).slice(0,4);
     $("sug").innerHTML=O.MUNICIPIOS.slice(0,2).map(function(m){return "municipio|"+m+"|"+m}).concat(top.map(function(t){return t[0]})).filter(function(k){return L[k]})
-      .map(function(k){var x=L[k];return '<button type="button" data-k="'+esc(k)+'">'+esc(x.nombre)+"</button>"}).join("");
-    [].forEach.call(document.querySelectorAll("#sug button"),function(b){b.onclick=function(){var x=L[b.getAttribute("data-k")];$("q").value=x.tipo==="barrio"?x.nombre+" ("+x.municipio+")":x.nombre;ficha(b.getAttribute("data-k"))}});
+      .map(function(k){return '<button type="button" data-k="'+esc(k)+'">'+esc(L[k].nombre)+"</button>"}).join("");
+    [].forEach.call(document.querySelectorAll("#sug button"),function(b){b.onclick=function(){elegir(b.getAttribute("data-k"),true)}});
   }
+  function etiqueta(x){return x.tipo==="barrio"&&x.municipio?x.nombre+" ("+x.municipio+")":x.nombre}
 
   function ficha(k){
     var x=D.lugares[k],el=$("ficha");if(!x){el.innerHTML='<p class="estado">No encontramos ese lugar. Prueba con otro nombre o elige uno de la lista.</p>';return}
     var meses=D.reg?O.meses(D.reg.desde.slice(0,7),D.reg.corte.slice(0,7)):[],tot=0;meses.forEach(function(m){tot+=x.mes[m]||0});
     var comp=meses.filter(function(m){return !D.incompletos[m]}),u3=comp.slice(-3),a3=comp.slice(-6,-3),s=function(a){return a.reduce(function(t,m){return t+(x.mes[m]||0)},0)};
     var v=O.pct(s(u3),s(a3)),k1,k2,k3="";
-    k1='<div class="kpi"><span class="k">Homicidios en 2026</span><b>'+O.num(tot)+'</b><small>Registro, del '+O.dia(D.reg.desde)+" al "+O.dia(D.reg.corte)+"</small></div>";
+    k1='<div class="kpi"><span class="k">Homicidios en 2026</span><b>'+O.num(tot)+'</b><small>Hasta el '+O.dia(D.reg.corte)+"</small></div>";
     k2='<div class="kpi"><span class="k">'+O.mes(u3[0]||meses[0],true)+" a "+O.mes(u3[u3.length-1]||meses[0],true)+'</span><b>'+O.num(s(u3))+'</b><small>'+(v==null?"Sin casos en los tres meses anteriores":'<span class="'+(v>0?"up":"dn")+'">'+O.signo(v)+"</span> frente a los tres meses anteriores")+"</small></div>";
     if(x.tipo==="barrio"){var p=D.prom[x.municipio],pm=p?p.t/p.n:null;
-      k3='<div class="kpi"><span class="k">Frente al promedio</span><b>'+(pm&&tot?(tot/pm).toLocaleString("es-CO",{maximumFractionDigits:1})+"×":"—")+'</b><small>'+(pm?"El promedio de los barrios de "+esc(x.municipio)+" con algún homicidio es "+pm.toLocaleString("es-CO",{maximumFractionDigits:1}):"")+"</small></div>";
+      if(pm&&tot)k3='<div class="kpi"><span class="k">Frente a otros barrios</span><b>'+(tot/pm).toLocaleString("es-CO",{maximumFractionDigits:1})+'×</b><small>el promedio de los barrios de '+esc(x.municipio)+" con algún homicidio ("+pm.toLocaleString("es-CO",{maximumFractionDigits:1})+")</small></div>";
     }else{var pob=(D.res.poblacion&&D.res.poblacion.municipios||{})[x.municipio],totArea=0;
       Object.keys(D.lugares).forEach(function(q){var y=D.lugares[q];if(y.tipo==="municipio")meses.forEach(function(m){totArea+=y.mes[m]||0})});
-      k3='<div class="kpi"><span class="k">'+(pob?"Tasa por 100.000 habitantes":"Parte del área metropolitana")+'</span><b>'+(pob?(1e5*tot/pob).toLocaleString("es-CO",{maximumFractionDigits:1}):(totArea?Math.round(100*tot/totArea)+" %":"—"))+'</b><small>'+(pob?"Población: "+O.num(pob)+" ("+esc(D.res.poblacion.fuente)+")":"Sin tasa por habitante: falta confirmar la población del DANE")+"</small></div>"}
-    var casos=x.prensa.slice(0,6);
-    el.innerHTML='<h3 style="font-size:22px;margin-top:20px">'+esc(x.nombre)+(x.tipo==="barrio"?' <span class="etq">'+esc(x.municipio)+"</span>":"")+'</h3><div class="ficha">'+k1+k2+k3+
-      '<div class="ancho"><p class="k" style="font-weight:600;font-size:14px;margin-bottom:4px">Homicidios por mes</p><div class="chart spark" id="spark"></div><p class="fuente" id="spark-txt"></p></div>'+
-      '<div class="ancho"><p class="k" style="font-weight:600;font-size:14px">Casos recientes en la prensa</p>'+(casos.length?'<div class="tarjetas">'+casos.map(tarjeta).join("")+"</div>":'<p class="estado">La prensa no ha reportado casos aquí desde que empezó la recolección diaria ('+O.dia(D.res.corte.inicio_prensa)+").</p>")+"</div></div>";
+      k3=pob?'<div class="kpi"><span class="k">Por 100.000 habitantes</span><b>'+(1e5*tot/pob).toLocaleString("es-CO",{maximumFractionDigits:1})+'</b><small>Población: '+O.num(pob)+" ("+esc(D.res.poblacion.fuente)+")</small></div>"
+        :(totArea?'<div class="kpi"><span class="k">Del área metropolitana</span><b>'+Math.round(100*tot/totArea)+' %</b><small>de los homicidios de 2026</small></div>':"")}
+    var casos=x.prensa.slice(0,6),incs=meses.filter(function(m){return D.incompletos[m]}).map(function(m){return O.MESES[+m.slice(5)-1]});
+    el.innerHTML='<div class="fbloque" id="f-bloque" data-compartir data-contexto="'+esc(x.tipo==="barrio"&&x.municipio?"Barrio de "+x.municipio:"Municipio del área metropolitana")+'" data-fuente="Fuente: registro de homicidios 2026.">'+
+      '<p class="eyebrow">'+(x.tipo==="barrio"?"Barrio":"Municipio")+'</p><h3 class="f-h">'+esc(x.nombre)+(x.tipo==="barrio"&&x.municipio?' <span class="etq">'+esc(x.municipio)+"</span>":"")+'</h3>'+
+      '<div class="ficha">'+k1+k2+k3+'</div>'+
+      '<p class="k f-k">Homicidios por mes en 2026</p><div class="chart spark" id="spark"></div><p class="fuente" id="spark-txt"></p></div>'+
+      '<div class="f-prensa"><p class="k f-k">En las noticias</p>'+(casos.length?'<div class="tarjetas">'+casos.map(tarjeta).join("")+"</div>":'<p class="estado">No hay noticias recientes de este lugar en los medios que seguimos.</p>')+"</div>";
     var datos=meses.map(function(m){return {mes:m,registro:x.mes[m]||0,incompleto:D.incompletos[m]?["registro"]:[]}});
     O.barrasMes("spark",datos,[{clave:"registro",nombre:"Homicidios",color:"var(--c-hom)"}],{alt:"Homicidios por mes en "+x.nombre});
     var mx=datos.reduce(function(a,d){return d.registro>a.registro?d:a},datos[0]||{});
-    $("spark-txt").textContent=mx&&mx.registro?"El mes con más homicidios fue "+O.mes(mx.mes)+", con "+mx.registro+". Los meses con trama están incompletos (posible retraso en la carga) y no deben leerse como una baja.":"Sin homicidios registrados en 2026.";
+    $("spark-txt").textContent=(mx&&mx.registro?"El mes con más homicidios fue "+O.mes(mx.mes)+", con "+mx.registro+".":"Sin homicidios registrados en 2026.")+(incs.length?" Los datos de "+incs.join(" y ")+" aún están incompletos: no indican una baja.":"");
+    if(O.compartible)O.compartible($("f-bloque"));
   }
-  function tarjeta(c){return '<article class="tarjeta"><div class="cab"><span class="tag"><i style="background:var(--c-'+c.grupo+')"></i>'+esc(O.TIPOS[c.grupo]||c.tipo)+'</span><span>'+O.mes(c.mes)+'</span></div><div class="lugar">'+esc(c.barrio||c.municipio||"Sin lugar identificado")+'</div><p>'+esc(c.resumen)+'</p><div class="medios">'+c.medios.map(function(m){return '<a href="'+esc(m.url)+'" target="_blank" rel="noopener">'+esc(m.medio)+" ↗</a>"}).join("")+'</div><span class="etq'+(c.revisado?" ok":"")+'">'+(c.revisado?"Revisado":"Sin revisar")+"</span></article>"}
+  function tarjeta(c){return '<article class="tarjeta"><div class="cab"><span class="tag"><i style="background:var(--c-'+c.grupo+')"></i>'+esc(O.TIPOS[c.grupo]||c.tipo)+'</span><span>'+O.mes(c.mes)+'</span></div><div class="lugar">'+esc(c.barrio||c.municipio||"Sin lugar identificado")+'</div><p>'+esc(c.resumen)+'</p><div class="medios">'+c.medios.map(function(m){return '<a href="'+esc(m.url)+'" target="_blank" rel="noopener">'+esc(m.medio)+" ↗</a>"}).join("")+'</div>'+(c.revisado?'<span class="etq ok">Revisado</span>':"")+"</article>"}
   O.tarjeta=tarjeta;
 
-  // Sugerencias propias (más compactas que la lista del navegador): hasta 6, primero las que empiezan igual.
-  function sinTilde(t){return String(t).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
+  // Elegir un lugar: muestra la ficha y deja el enlace listo para compartir (?lugar=…).
+  function elegir(k,mover){var x=D.lugares[k];if(!x)return;q.value=etiqueta(x);cerrar();ficha(k);
+    var u=new URLSearchParams(location.search);u.set("lugar",etiqueta(x));history.replaceState(null,"",location.pathname+"?"+u.toString()+"#barrio");
+    if(mover){q.blur();$("ficha").scrollIntoView({behavior:"smooth",block:"start"})}}
+
+  // Sugerencias propias: hasta 6, primero las que empiezan igual.
   var q=$("q"),lista=$("lista-q"),act=-1,res=[];
   function cerrar(){lista.hidden=true;q.setAttribute("aria-expanded","false");q.removeAttribute("aria-activedescendant");act=-1}
-  function elegir(r){q.value=r.n;cerrar();ficha(r.k)}
   function sugerir(){var v=sinTilde(q.value.trim());if(!v||!D.claves){cerrar();return}
-    res=D.claves.filter(function(c){return c.s.indexOf(v)>=0}).sort(function(a,b){var pa=a.s.indexOf(v)===0?0:1,pb=b.s.indexOf(v)===0?0:1;return pa-pb||b.mun-a.mun||b.t-a.t||a.n.localeCompare(b.n,"es")}).slice(0,6);
+    res=D.claves.filter(function(c){return c.s.indexOf(v)>=0}).sort(function(a,b){var pa=a.s.indexOf(v)===0?0:1,pb=b.s.indexOf(v)===0?0:1;return pa-pb||b.mun-a.mun||b.t-a.t||a.s.localeCompare(b.s,"es")}).slice(0,6);
     act=-1;
-    lista.innerHTML=res.length?res.map(function(r,i){var x=D.lugares[r.k];return '<li role="option" id="op-'+i+'" data-i="'+i+'"><span>'+esc(x.nombre)+'</span><small>'+(x.tipo==="barrio"?esc(x.municipio):"Municipio")+"</small></li>"}).join(""):'<li class="vacio" aria-disabled="true">Sin coincidencias</li>';
+    lista.innerHTML=res.length?res.map(function(r,i){var x=D.lugares[r.k];return '<li role="option" id="op-'+i+'" data-i="'+i+'"><span>'+esc(x.nombre)+'</span><small>'+(x.tipo==="barrio"?esc(x.municipio||"Barrio"):"Municipio")+"</small></li>"}).join(""):'<li class="vacio" aria-disabled="true">Sin coincidencias</li>';
     lista.hidden=false;q.setAttribute("aria-expanded","true")}
   function marcar(){[].forEach.call(lista.children,function(li,i){li.setAttribute("aria-selected",i===act)});if(act>=0)q.setAttribute("aria-activedescendant","op-"+act)}
   q.addEventListener("input",sugerir);q.addEventListener("focus",function(){if(q.value)sugerir()});
   q.addEventListener("keydown",function(e){
     if(e.key==="ArrowDown"||e.key==="ArrowUp"){if(lista.hidden)sugerir();if(!res.length)return;e.preventDefault();act=(act+(e.key==="ArrowDown"?1:-1)+res.length)%res.length;marcar()}
-    else if(e.key==="Enter"){e.preventDefault();if(res.length)elegir(res[act<0?0:act]);else if(q.value)ficha(null)}
+    else if(e.key==="Enter"){e.preventDefault();if(res.length)elegir(res[act<0?0:act].k,true);else if(q.value)ficha(null)}
     else if(e.key==="Escape")cerrar()});
-  lista.addEventListener("mousedown",function(e){var li=e.target.closest("li[data-i]");if(li){e.preventDefault();elegir(res[+li.getAttribute("data-i")])}});
-  q.addEventListener("blur",function(){setTimeout(cerrar,120)});
+  // pointerdown evita que el teclado del celular se cierre antes de elegir; click cubre lectores de pantalla.
+  lista.addEventListener("pointerdown",function(e){if(e.target.closest("li[data-i]"))e.preventDefault()});
+  lista.addEventListener("click",function(e){var li=e.target.closest("li[data-i]");if(li)elegir(res[+li.getAttribute("data-i")].k,true)});
+  q.addEventListener("blur",function(){setTimeout(cerrar,200)});
 
-  // Mapa de vista previa
+  // Mapa de vista previa (no atrapa el desplazamiento; tocarlo abre el mapa completo)
   var map=O.mapa("map",{zoom:false,zoomInicial:11.5});map.dragging.disable();map.touchZoom.disable();map.doubleClickZoom.disable();map.boxZoom.disable();map.keyboard.disable();
   var capa=L.layerGroup().addTo(map);
   function mapa(){capa.clearLayers();if(!D.reg)return;var casos={},col=O.css("--c-hom");D.reg.filas.forEach(function(f){if(!f[4])return;var l=casos[f[4]]=casos[f[4]]||[];for(var i=0;i<f[7];i++)l.push(col)});
     O.puntos(capa,D.reg.zonas,casos,{interactivo:false,radio:3});
-    $("leg").innerHTML="<h4>Homicidios 2026</h4><p>Hasta el "+O.dia(D.reg.corte)+'</p><ul><li><i class="dot" style="background:var(--c-hom)"></i>Un caso, ubicación aproximada</li></ul>'}
+    $("leg").innerHTML="<h4>Homicidios 2026</h4><p>Hasta el "+O.dia(D.reg.corte)+'</p><ul><li><i class="dot" style="background:var(--c-hom)"></i>Un caso</li></ul>'}
   O.alCambiarTema(mapa);
 
   Promise.all([O.cargar("data/publico/resumen.json"),O.cargar("data/publico/prensa.json"),O.cargar("data/publico/registro.json").catch(function(){return null}),O.cargar("data/publico/informes/index.json")])
   .then(function(r){D.res=r[0];D.prensa=r[1];D.reg=r[2];D.inf=r[3];
-    titular(D.res);indices();$("ficha").innerHTML="";mapa();
-    var inf=D.inf.informes||[],comp=inf.filter(function(i){return i.estado==="completo"})[0],ult=inf[0];
-    if(comp){$("inf-txt").textContent="El último informe con datos completos es el de "+O.mes(comp.periodo)+(comp.homicidios!=null?": "+O.num(comp.homicidios)+" homicidios en el área metropolitana.":".")+(ult&&ult!==comp?" El de "+O.mes(ult.periodo)+" está en curso.":"");
-      $("inf-btn").href="informes.html?p="+comp.periodo;$("inf-btn").textContent="Leer el informe de "+O.mes(comp.periodo)}
-  }).catch(function(e){$("t-h1").textContent="No se pudieron cargar los datos";$("t-linea").textContent="Intenta de nuevo en unos minutos. Si el problema sigue, los archivos están en GitHub. ("+e.message+")";O.estado("ficha","error","No se pudieron cargar los datos.")});
+    semana(D.res,cifra(D.res.homicidios));indices();$("ficha").innerHTML="";mapa();
+    var inf=D.inf.informes||[],comp=inf.filter(function(i){return i.estado==="completo"})[0];
+    if(comp){$("inf-tit").textContent="Informe de "+O.mes(comp.periodo);
+      $("inf-txt").textContent=(comp.homicidios!=null?O.num(comp.homicidios)+" homicidios en el área metropolitana. ":"")+"Las cifras del mes, las zonas con más casos, la tendencia y la comparación con la Policía.";
+      $("inf-btn").href=$("inf-atajo").href="informes.html?p="+comp.periodo;$("inf-btn").textContent="Leer el informe"}
+    var pedido=new URLSearchParams(location.search).get("lugar");
+    if(pedido){var k=Object.keys(D.lugares).filter(function(k){return etiqueta(D.lugares[k])===pedido})[0];if(k){elegir(k,false);setTimeout(function(){$("barrio").scrollIntoView()},50)}}
+  }).catch(function(e){$("c-txt").textContent="No se pudieron cargar los datos";$("c-fuente").textContent="Intenta de nuevo en unos minutos.";O.estado("ficha","error","No se pudieron cargar los datos.")});
 })();
 </script>
 </body>
