@@ -511,3 +511,15 @@ a.mapcard{display:block;color:inherit;text-decoration:none}
   /* El menú se desliza de lado: un degradado avisa que hay más opciones. */
   .top nav{-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent);padding-right:24px}
 }
+
+/* ===== Mapa en celular (2026-11-23) ===== */
+/* Un nombre de barrio largo ensanchaba el selector y toda la página en celular. */
+select{max-width:100%}
+.filtro-b{display:flex;flex-direction:column;gap:6px;width:100%;max-width:420px;font-size:13px;font-weight:600;color:var(--muted)}
+.filtro-b select{width:100%;min-width:0;text-overflow:ellipsis}
+/* En las tarjetas de la tabla, la primera celda no lleva el fondo de columna fija. */
+@media (max-width:620px){
+  .tablewrap.cartas .tabla td:first-child{position:static;background:none;box-shadow:none;min-width:0}
+  .tablewrap.cartas tr.sel{outline:2px solid var(--primary)}
+  .tablewrap.cartas tr.sel td{background:none}
+}
