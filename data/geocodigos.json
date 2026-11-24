@@ -108,6 +108,11 @@
     "lon": -74.805,
     "nombre_osm": "Los Girasoles, Localidad Metropolitana, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
   },
+  "los manantiales|Soledad": {
+    "lat": 10.90189,
+    "lon": -74.8113,
+    "nombre_osm": "Los Manantiales, Soledad, Atlántico, RAP Caribe, Colombia"
+  },
   "los robles|Soledad": {
     "lat": 10.92033,
     "lon": -74.81161,
@@ -127,6 +132,11 @@
     "lat": 10.96307,
     "lon": -74.77469,
     "nombre_osm": "Rebolo, Localidad Suroriente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 083002, Colombia"
+  },
+  "renacer|Soledad": {
+    "lat": 10.89926,
+    "lon": -74.77802,
+    "nombre_osm": "Renacer, Soledad, Atlántico, RAP Caribe, 083004, Colombia"
   },
   "san isidro|Barranquilla": {
     "lat": 10.97028,

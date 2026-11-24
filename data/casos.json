@@ -307,11 +307,11 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio",
     "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-24"
+    "revisado_en": "2026-11-24",
+    "lat": 10.90189,
+    "lon": -74.8113,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "7aed8fda43b0",
@@ -337,11 +337,11 @@
     ],
     "estado": "descartado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-24"
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "79e16a30d7ce",
@@ -367,12 +367,12 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24",
     "varios_hechos": true,
     "lat": 10.9201,
     "lon": -74.81592,
-    "confianza_ubicacion": "alta",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-24"
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "4a1b3152a654",
@@ -409,11 +409,11 @@
     "posible_duplicado_de": [
       "bb4bf56da48c"
     ],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24",
     "lat": 11.01682,
     "lon": -74.86217,
-    "confianza_ubicacion": "alta",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-24"
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "3804703f834e",
@@ -439,11 +439,11 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio",
     "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-24"
+    "revisado_en": "2026-11-24",
+    "lat": 10.89926,
+    "lon": -74.77802,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "1801ee6be939",
