@@ -3304,11 +3304,11 @@
     "posible_duplicado_de": [
       "5dff58fcb6a5"
     ],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-24"
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "5dff58fcb6a5",
