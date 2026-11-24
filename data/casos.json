@@ -347,6 +347,7 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
+    "varios_hechos": true,
     "lat": 10.9201,
     "lon": -74.81592,
     "confianza_ubicacion": "alta"
@@ -630,6 +631,7 @@
       "87e28dc8cc03"
     ],
     "municipio_deducido": true,
+    "varios_hechos": true,
     "lat": 10.9459,
     "lon": -74.76568,
     "confianza_ubicacion": "alta"
@@ -1254,6 +1256,7 @@
     "posible_duplicado_de": [
       "b349c3008a22"
     ],
+    "varios_hechos": true,
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "baja"
@@ -1714,6 +1717,7 @@
       "909f479c9157",
       "0ca4e1493807"
     ],
+    "varios_hechos": true,
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "baja"
@@ -2197,6 +2201,7 @@
       "b4d47b631f10"
     ],
     "municipio_deducido": true,
+    "varios_hechos": true,
     "lat": 10.95972,
     "lon": -74.82444,
     "confianza_ubicacion": "alta"
@@ -2985,6 +2990,7 @@
     "estado": "pendiente",
     "posible_duplicado_de": [],
     "municipio_deducido": true,
+    "varios_hechos": true,
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "municipio"

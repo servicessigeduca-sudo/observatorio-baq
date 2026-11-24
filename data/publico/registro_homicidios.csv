@@ -1,793 +1,793 @@
-mes,municipio,localidad,barrio,zona,sexo,modalidad,casos
-2026-01,Barranquilla,Metropolitana,7 de Abril,h009,Hombre,Sicariato,1
-2026-01,Barranquilla,Metropolitana,7 de Abril,h102,Hombre,Sicariato,1
-2026-01,Barranquilla,Metropolitana,7 de Abril,h175,Hombre,Riña,1
-2026-01,Barranquilla,Metropolitana,Alfonso Lopez,h206,Hombre,Sicariato,1
-2026-01,Barranquilla,Metropolitana,Ciudadela,h169,Hombre,Sicariato,1
-2026-01,Barranquilla,Metropolitana,Santuario,h108,Hombre,Sicariato,1
-2026-01,Barranquilla,Metropolitana,Las Gardenias,h005,Hombre,Sicariato,2
-2026-01,Barranquilla,Metropolitana,San Isidro,h206,Hombre,Sicariato,1
-2026-01,Barranquilla,Metropolitana,San Jose,h131,Hombre,Sicariato,1
-2026-01,Barranquilla,Metropolitana,Santa Maria,h174,Hombre,Sicariato,1
-2026-01,Barranquilla,Norte-Centro Histórico,Centro,h061,Hombre,Por establecer,1
-2026-01,Barranquilla,Norte-Centro Histórico,Centro,h139,Hombre,Sicariato,1
-2026-01,Barranquilla,Norte-Centro Histórico,Colombia,h022,Hombre,Sicariato,1
-2026-01,Barranquilla,Riomar,Corregimiento la Playa,h143,Hombre,Riña,1
-2026-01,Barranquilla,Riomar,Corregimiento la Playa,h143,Hombre,Sicariato,1
-2026-01,Barranquilla,Riomar,Las Flores,h023,Hombre,Sicariato,2
-2026-01,Barranquilla,Suroccidente,Altos del Rio,,Mujer,Sicariato,1
-2026-01,Barranquilla,Suroccidente,Bajo Valle,h134,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroccidente,Barlovento,h061,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroccidente,Carrizal,h113,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroccidente,El Bosque,h049,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroccidente,El Carmen,h125,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroccidente,El Romance,h048,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroccidente,Evaristo Sourdis,h054,Hombre,Riña,1
-2026-01,Barranquilla,Suroccidente,Evaristo Sourdis,h054,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroccidente,La Loma de los Chivos- Vía Juan Mina,,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroccidente,Ciudadela de la Paz,h129,Hombre,Riña,1
-2026-01,Barranquilla,Suroccidente,La Sierra,h193,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroccidente,Lipaya,h006,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroccidente,Nueva Colombia,h204,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroccidente,Por Establecer,h166,Hombre,Por establecer,1
-2026-01,Barranquilla,Suroccidente,San Felipe,h134,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroccidente,Santo Domingo,h111,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroriente,Bella Arena,h108,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroriente,El Campito,h182,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroriente,Jose Antonio Galan,h177,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroriente,La Chinita,h114,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroriente,La Luz,h123,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroriente,Las Nieves,h045,Hombre,Riña,1
-2026-01,Barranquilla,Suroriente,Las Nieves,h191,Sin dato,Sin dato,1
-2026-01,Barranquilla,Suroriente,Rebolo,h002,Hombre,Sicariato,2
-2026-01,Barranquilla,Suroriente,Rebolo,h127,Hombre,Hurto,1
-2026-01,Barranquilla,Suroriente,Rebolo,h127,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroriente,San Roque,h141,Hombre,Sicariato,1
-2026-01,Barranquilla,Suroriente,Simon Bolivar,h114,Hombre,Sicariato,1
-2026-01,Galapa,Galapa,Mundo Feliz,h037,Hombre,Sicariato,2
-2026-01,Galapa,Galapa,Mundo Feliz,h037,Mujer,Sicariato,1
-2026-01,Galapa,Galapa,Tres de Mayo,,Hombre,Sicariato,1
-2026-01,Malambo,Malambo,Barrio Abajo,h150,Hombre,Sicariato,1
-2026-01,Malambo,Malambo,El Concord,h072,Hombre,Sicariato,1
-2026-01,Malambo,Malambo,Malambo,h076,Hombre,Sicariato,1
-2026-01,Malambo,Malambo,Malambo,h148,Hombre,Sicariato,1
-2026-01,Malambo,Malambo,Trocha Villa Bertha,h026,Hombre,Sicariato,1
-2026-01,Malambo,Malambo,Villa Aida,h065,Mujer,Sicariato,1
-2026-01,Puerto Colombia,Puerto Colombia,Bello Mar,h062,Hombre,Sicariato,1
-2026-01,Puerto Colombia,Puerto Colombia,Invasion Colina del Sol 2,h020,Hombre,Sicariato,1
-2026-01,Puerto Colombia,Puerto Colombia,San Carlos,h060,Hombre,Sicariato,2
-2026-01,Soledad,Soledad,Ciudad del Parque,h032,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,Costa Hermosa,h044,Hombre,Sicariato,2
-2026-01,Soledad,Soledad,Ferrocarril,h105,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,La Alianza,h184,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,La Arboleda,h104,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,La Central,h152,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,La Floresta,h093,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,Las Colonias,h035,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,Las Moras,h095,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,Los Almendros,h013,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,Los Cedros,h034,Hombre,Sicariato,2
-2026-01,Soledad,Soledad,Manantial,h159,Hombre,Sicariato,2
-2026-01,Soledad,Soledad,Porvenir,h039,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,Prado Soledad,h156,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,San Antonio,h093,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,Tajamar,h091,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,Tajamares,h046,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,"Villa Carmen 2,",h083,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,Villa Estadio,h165,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,Villa Estadio,h165,Mujer,Sicariato,1
-2026-01,Soledad,Soledad,Villa Lozano,h008,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,Villa Maria,h079,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,Villa Merly,h099,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,Villa Soledad,h097,Hombre,Sicariato,1
-2026-01,Soledad,Soledad,Villas del Rey,h154,Hombre,Sicariato,1
-2026-02,Barranquilla,Metropolitana,Carrizal,h004,Hombre,Sicariato,3
-2026-02,Barranquilla,Metropolitana,Carrizal,h010,Hombre,Sicariato,1
-2026-02,Barranquilla,Metropolitana,Carrizal,h011,Hombre,Sicariato,2
-2026-02,Barranquilla,Metropolitana,Carrizal,h106,Hombre,Sicariato,1
-2026-02,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h170,Hombre,Sicariato,1
-2026-02,Barranquilla,Metropolitana,La Ceiba,h193,Hombre,Sicariato,1
-2026-02,Barranquilla,Metropolitana,La Sierrita,h049,Mujer,Sicariato,1
-2026-02,Barranquilla,Metropolitana,La Sierrita,h050,Hombre,Sicariato,1
-2026-02,Barranquilla,Metropolitana,Las Americas,h004,Hombre,Sicariato,1
-2026-02,Barranquilla,Metropolitana,Las Americas,h010,Hombre,Sicariato,1
-2026-02,Barranquilla,Metropolitana,Las Americas,h018,Hombre,Sicariato,1
-2026-02,Barranquilla,Metropolitana,Las Americas,h111,Hombre,Sicariato,1
-2026-02,Barranquilla,Metropolitana,San Isidro,h206,Hombre,Sicariato,1
-2026-02,Barranquilla,Metropolitana,San Luis,h180,Hombre,Sicariato,1
-2026-02,Barranquilla,Metropolitana,Santo Domingo,h010,Hombre,Sicariato,1
-2026-02,Barranquilla,Metropolitana,Santo Domingo,h178,Mujer,Sicariato,1
-2026-02,Barranquilla,Norte-Centro Histórico,Centro,h138,Hombre,Sicariato,1
-2026-02,Barranquilla,Riomar,Corregimiento la Playa,h143,Hombre,Sicariato,1
-2026-02,Barranquilla,Riomar,Las Flores,h023,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroccidente,7 de Abril,h107,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroccidente,7 de Agosto,h197,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroccidente,Carlos Meisel,h140,Hombre,Sicariato,2
-2026-02,Barranquilla,Suroccidente,Ciudad Modesto,h200,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroccidente,Cordialidad,h017,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroccidente,Corregimiento Juan Mina,,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroccidente,El Bosque,h118,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroccidente,El Carmen,h126,Hombre,Riña,1
-2026-02,Barranquilla,Suroccidente,Evaristo Sourdis,h053,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroccidente,La Esmeralda,h130,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroccidente,La Manga,h057,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroccidente,Los Angeles,h129,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroccidente,Los Angeles,h129,Mujer,Sicariato,1
-2026-02,Barranquilla,Suroccidente,Villate,h202,Hombre,Riña,1
-2026-02,Barranquilla,Suroriente,Chiquinquira,h059,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroriente,Las Nieves,h056,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroriente,Las Nieves,h127,Hombre,Sicariato,2
-2026-02,Barranquilla,Suroriente,Las Nieves,h196,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroriente,Rebolo,h002,Hombre,Sicariato,2
-2026-02,Barranquilla,Suroriente,Rebolo,h198,Hombre,Sicariato,1
-2026-02,Barranquilla,Suroriente,San Roque,h203,Hombre,Sicariato,1
-2026-02,Malambo,Malambo,Caracoli,h147,Hombre,Sicariato,2
-2026-02,Malambo,Malambo,El Eden,h149,Hombre,Sicariato,1
-2026-02,Malambo,Malambo,Km 14 Sentido Baranoa-Caracoli,h069,Mujer,Sicariato,1
-2026-02,Malambo,Malambo,Lluvia de Oro,h075,Hombre,Sicariato,1
-2026-02,Malambo,Malambo,Renacer,h068,Mujer,Sicariato,2
-2026-02,Malambo,Malambo,Villa Esperanza,h066,Hombre,Sicariato,1
-2026-02,Malambo,Malambo,Villa Esperanza,h144,Hombre,Sicariato,1
-2026-02,Malambo,Malambo,Villa Esperanza,h146,Hombre,Sicariato,1
-2026-02,Puerto Colombia,Puerto Colombia,Brisas,h060,Hombre,Sicariato,1
-2026-02,Puerto Colombia,Puerto Colombia,Monumento Ventana Al Mundo,h023,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,12 de Octubre,h014,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Cachimbero,h014,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Ciudad Paraiso,h075,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Ciudad Paraiso,h084,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Don Bosco,h027,Hombre,Sicariato,2
-2026-02,Soledad,Soledad,El Chuchal,h087,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,La Candelaria,h097,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,La Candelaria Etapa 2,h152,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Las Colonias,h035,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Las Ferias,h008,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Las Gaviotas,h103,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Las Moras,h095,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Normandia,h090,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Nueva Esperanza,h029,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Nuevo Horizonte,h030,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Urbanizacion el Parque,h177,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Villa Estadio,h164,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Villa Katanga,h096,Hombre,Sicariato,2
-2026-02,Soledad,Soledad,Villa Muvdi,h038,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Villa Muvdi,h099,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Villa Sol,h003,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Villa Zambrano,h090,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Vista Hermosa,h027,Hombre,Sicariato,1
-2026-02,Soledad,Soledad,Vista Hermosa,h045,Hombre,Sicariato,2
-2026-02,Soledad,Soledad,Vista Hermosa,h183,Hombre,Sicariato,1
-2026-03,Barranquilla,Metropolitana,7 de Abril,h041,Hombre,Sicariato,2
-2026-03,Barranquilla,Metropolitana,Carrizal,h010,Hombre,Sicariato,1
-2026-03,Barranquilla,Metropolitana,Carrizal,h171,Hombre,Sicariato,1
-2026-03,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h179,Hombre,Sicariato,1
-2026-03,Barranquilla,Metropolitana,La Granja,h036,Hombre,Sicariato,1
-2026-03,Barranquilla,Metropolitana,La Sierrita,h112,Hombre,Sicariato,1
-2026-03,Barranquilla,Metropolitana,La Sierrita,h115,Hombre,Sicariato,1
-2026-03,Barranquilla,Metropolitana,Las Americas,h004,Hombre,Sicariato,1
-2026-03,Barranquilla,Metropolitana,Santa Maria,h009,Hombre,Sicariato,1
-2026-03,Barranquilla,Metropolitana,Santo Domingo,h018,Hombre,Sicariato,1
-2026-03,Barranquilla,Metropolitana,Santuario,h108,Hombre,Sicariato,1
-2026-03,Barranquilla,Metropolitana,Santuario,h185,Hombre,Sicariato,1
-2026-03,Barranquilla,Metropolitana,Villa Sevilla,h015,Hombre,Sicariato,1
-2026-03,Barranquilla,Norte-Centro Histórico,Alameda del Rio,h021,Hombre,Sicariato,1
-2026-03,Barranquilla,Norte-Centro Histórico,Boston,h209,Hombre,Sicariato,1
-2026-03,Barranquilla,Norte-Centro Histórico,La Campiña,h022,Hombre,Sicariato,2
-2026-03,Barranquilla,Norte-Centro Histórico,Villanueva,h058,Hombre,Sicariato,1
-2026-03,Barranquilla,Sin dato,Santuario,h186,Hombre,Riña,1
-2026-03,Barranquilla,Suroccidente,Bajo Valle,h130,Hombre,Sicariato,1
-2026-03,Barranquilla,Suroccidente,Bajo Valle,h202,Hombre,Sicariato,1
-2026-03,Barranquilla,Suroccidente,Ciudad Modesto,h197,Hombre,Sicariato,1
-2026-03,Barranquilla,Suroccidente,El Bosque,h048,Hombre,Sicariato,1
-2026-03,Barranquilla,Suroccidente,El Bosque,h049,Hombre,Sicariato,1
-2026-03,Barranquilla,Suroccidente,El Bosque,h051,Hombre,Hurto,1
-2026-03,Barranquilla,Suroccidente,El Bosque,h118,Hombre,Sicariato,2
-2026-03,Barranquilla,Suroccidente,El Pueblito,h124,Hombre,Sicariato,1
-2026-03,Barranquilla,Suroccidente,Evaristo Sourdis,h121,Hombre,Sicariato,1
-2026-03,Barranquilla,Suroccidente,La Esmeralda,h006,Hombre,Hurto,1
-2026-03,Barranquilla,Suroccidente,La Esmeralda,h006,Hombre,Sicariato,2
-2026-03,Barranquilla,Suroccidente,Lucero,h205,Hombre,Sicariato,1
-2026-03,Barranquilla,Suroccidente,Olivos 1,h012,Hombre,Sicariato,1
-2026-03,Barranquilla,Suroccidente,Pinar del Rio,,Hombre,Riña,1
-2026-03,Barranquilla,Suroccidente,Santo Domingo,h178,Hombre,Sicariato,1
-2026-03,Barranquilla,Suroccidente,Villacordialidad,h017,Hombre,Sicariato,1
-2026-03,Barranquilla,Suroriente,Bella Arena,h108,Hombre,Riña,1
-2026-03,Barranquilla,Suroriente,Centro,h058,Hombre,Sicariato,1
-2026-03,Barranquilla,Suroriente,Las Nieves,h056,Hombre,Sicariato,2
-2026-03,Barranquilla,Suroriente,Las Nieves,h194,Hombre,Sicariato,2
-2026-03,Barranquilla,Suroriente,San Roque,h002,Hombre,Sicariato,1
-2026-03,Galapa,Galapa,Villa Olimpica,h166,Hombre,Sicariato,1
-2026-03,Malambo,Malambo,Bellavista,h024,Hombre,Sicariato,1
-2026-03,Malambo,Malambo,Centro,h070,Hombre,Sicariato,1
-2026-03,Malambo,Malambo,Correguimiento la Guadua,h147,Hombre,Sicariato,1
-2026-03,Malambo,Malambo,La Popa,h071,Hombre,Sicariato,1
-2026-03,Malambo,Malambo,Montecarlo,h067,Hombre,Sicariato,1
-2026-03,Malambo,Malambo,Paraiso,h148,Hombre,Sicariato,1
-2026-03,Malambo,Malambo,San Fernando,h072,Hombre,Sicariato,1
-2026-03,Malambo,Malambo,Villa Flor,h146,Hombre,Sicariato,1
-2026-03,Malambo,Malambo,Villa Rita 2,h148,Hombre,Sicariato,1
-2026-03,Puerto Colombia,Puerto Colombia,Altos de Cupiono,h020,Hombre,Sicariato,1
-2026-03,Puerto Colombia,Puerto Colombia,Loma de Oro,h062,Hombre,Sicariato,1
-2026-03,Puerto Colombia,Puerto Colombia,Union Paraiso,h060,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Ciudad Paraiso,h151,Hombre,Sicariato,2
-2026-03,Soledad,Soledad,Costa Hermosa,h109,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Hipodromo,h100,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,La Maria,h100,Sin dato,Sin dato,1
-2026-03,Soledad,Soledad,La Viola,h035,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Las Marinas,h104,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Las Moras,h015,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Los Almendros,h029,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Los Almendros,h036,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Muvdi,h008,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Normandia,h003,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Nuevo Horizonte,h157,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Renacer,h158,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Villa Cameloth,h155,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Villa Estadio,h030,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Villa Katanga,h167,Hombre,Sicariato,1
-2026-03,Soledad,Soledad,Villa Santa,h013,Hombre,Riña,1
-2026-03,Soledad,Soledad,Villa Sol,h003,Hombre,Sicariato,3
-2026-03,Soledad,Soledad,Villa Soledad,h003,Hombre,Sicariato,1
-2026-04,Barranquilla,Metropolitana,7 de Abril,h042,Hombre,Sicariato,1
-2026-04,Barranquilla,Metropolitana,7 de Abril,h102,Hombre,Sicariato,1
-2026-04,Barranquilla,Metropolitana,Carrizal,h010,Mujer,Sicariato,1
-2026-04,Barranquilla,Metropolitana,Carrizal,h011,Hombre,Sicariato,1
-2026-04,Barranquilla,Metropolitana,Carrizal,h106,Hombre,Sicariato,1
-2026-04,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h010,Hombre,Sicariato,1
-2026-04,Barranquilla,Metropolitana,La Sierrita,h050,Hombre,Por establecer,1
-2026-04,Barranquilla,Metropolitana,Las Americas,h018,Hombre,Sicariato,2
-2026-04,Barranquilla,Metropolitana,Las Cayenas,h168,Hombre,Sicariato,1
-2026-04,Barranquilla,Metropolitana,San Jose,h126,Hombre,Por establecer,1
-2026-04,Barranquilla,Metropolitana,San Luis,h180,Hombre,Riña,1
-2026-04,Barranquilla,Metropolitana,San Luis,h181,Hombre,Sicariato,1
-2026-04,Barranquilla,Metropolitana,Santuario,h185,Hombre,Sicariato,2
-2026-04,Barranquilla,Metropolitana,Villa Sevilla,h015,Hombre,Sicariato,1
-2026-04,Barranquilla,Norte-Centro Histórico,La Loma,h061,Hombre,Sin dato,1
-2026-04,Barranquilla,Riomar,Corregimiento la Playa,h142,Hombre,Sicariato,1
-2026-04,Barranquilla,Riomar,Las Flores,,Hombre,Por establecer,1
-2026-04,Barranquilla,Riomar,Las Flores,h023,Hombre,Por establecer,1
-2026-04,Barranquilla,Suroccidente,Ciudadela de la Paz,h124,Hombre,Sicariato,2
-2026-04,Barranquilla,Suroccidente,El Bosque,h048,Hombre,Sicariato,2
-2026-04,Barranquilla,Suroccidente,El Bosque,h051,Hombre,Sicariato,1
-2026-04,Barranquilla,Suroccidente,El Bosque,h053,Hombre,Sicariato,1
-2026-04,Barranquilla,Suroccidente,El Bosque,h116,Hombre,Sicariato,2
-2026-04,Barranquilla,Suroccidente,El Bosque,h118,Hombre,Sicariato,1
-2026-04,Barranquilla,Suroccidente,El Bosque,h195,Hombre,Sicariato,1
-2026-04,Barranquilla,Suroccidente,El Valle,h136,Hombre,Sicariato,2
-2026-04,Barranquilla,Suroccidente,Evaristo Sourdis,h053,Hombre,Sicariato,2
-2026-04,Barranquilla,Suroccidente,Evaristo Sourdis,h054,Hombre,Sicariato,1
-2026-04,Barranquilla,Suroccidente,La Sierrita,h112,Hombre,Sicariato,2
-2026-04,Barranquilla,Suroccidente,Las Estrellas,h021,Hombre,Sicariato,2
-2026-04,Barranquilla,Suroccidente,Mequejo,h208,Hombre,Sicariato,1
-2026-04,Barranquilla,Suroccidente,Nueva Colombia,h204,Hombre,Sicariato,1
-2026-04,Barranquilla,Suroriente,La Alboraya,h019,Hombre,Sicariato,2
-2026-04,Barranquilla,Suroriente,Chiquinquira,h059,Hombre,Sicariato,2
-2026-04,Barranquilla,Suroriente,El Ferry,h001,Hombre,Sicariato,3
-2026-04,Barranquilla,Suroriente,La Luz,h120,Hombre,Sicariato,1
-2026-04,Barranquilla,Suroriente,La Luz,h128,Hombre,Sicariato,1
-2026-04,Barranquilla,Suroriente,La Magdalena,h182,Hombre,Sicariato,1
-2026-04,Barranquilla,Suroriente,Las Nieves,h196,Hombre,Sicariato,1
-2026-04,Barranquilla,Suroriente,Rebolo,h139,Hombre,Sicariato,1
-2026-04,Barranquilla,Suroriente,San Roque,h138,Hombre,Sicariato,1
-2026-04,Barranquilla,Suroriente,Simon Bolivar,h183,Mujer,Sicariato,1
-2026-04,Barranquilla,Suroriente,Simon Bolivar,h187,Hombre,Sicariato,2
-2026-04,Galapa,Galapa,Kilómetro 13+800 Metros Vía la Prosperidad- Sentido Malambo – Galapa,,Hombre,Sicariato,1
-2026-04,Galapa,Galapa,Mundo Feliz,h037,Hombre,Sicariato,1
-2026-04,Galapa,Galapa,Mundo Feliz Etapa 2,h088,Hombre,Sicariato,1
-2026-04,Galapa,Galapa,Mundo Feliz Etapa 2,h088,Mujer,Sicariato,1
-2026-04,Malambo,Malambo,Armonia Social,h025,Hombre,Sicariato,1
-2026-04,Malambo,Malambo,Juan 23,h063,Hombre,Sicariato,1
-2026-04,Malambo,Malambo,La Manga,h068,Hombre,Sicariato,1
-2026-04,Malambo,Malambo,La Popa,h071,Hombre,Sicariato,1
-2026-04,Malambo,Malambo,Lluvia de Oro,h075,Hombre,Sicariato,1
-2026-04,Malambo,Malambo,Maranatha,h024,Hombre,Sicariato,1
-2026-04,Malambo,Malambo,Nueva Ilusion,h065,Hombre,Sicariato,1
-2026-04,Malambo,Malambo,Villa Bertha,h064,Hombre,Sicariato,1
-2026-04,Malambo,Malambo,Villa Esperanza,h063,Hombre,Sicariato,1
-2026-04,Malambo,Malambo,Villa Rica 2,h067,Hombre,Sicariato,1
-2026-04,Puerto Colombia,Puerto Colombia,Sabanilla,,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Bello Horizonte,h157,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Ciudad Bonita,h032,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Costa Hermosa,h001,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Manantial,h030,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Ferrocarril,h100,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Las Margaritas,h044,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Los Almendros,h032,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Los Almendros,h033,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Los Almendros,h142,Mujer,Por establecer,1
-2026-04,Soledad,Soledad,Los Cedros,h034,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Los Ángeles,h029,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Nuevo Horizonte,h089,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Porvenir,h093,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Villa Adela,h028,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Villa Estadio,h030,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Villa del Carmen,h155,Hombre,Sicariato,1
-2026-04,Soledad,Soledad,Villa del Rey,h028,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h040,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,7 de Abril,h042,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,7 de Abril,h107,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,7 de Abril,h171,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,7 de Abril,h175,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,Carrizal,h004,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,Carrizal,h011,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,Carrizal,h107,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,Carrizal,h110,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,Carrizal,h110,Hombre,Sin dato,1
-2026-05,Barranquilla,Metropolitana,Carrizal,h171,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h172,Hombre,Riña,1
-2026-05,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h179,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,La Sierrita,h047,Hombre,Hurto,1
-2026-05,Barranquilla,Metropolitana,La Sierrita,h047,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,La Sierrita,h112,Mujer,Sicariato,1
-2026-05,Barranquilla,Metropolitana,La Sierrita,h113,Hombre,Riña,2
-2026-05,Barranquilla,Metropolitana,La Sierrita,h113,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,Las Americas,h018,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,Santa Maria,h102,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,Santo Domingo,h009,Hombre,Sicariato,1
-2026-05,Barranquilla,Metropolitana,Santo Domingo,h016,Hombre,Sicariato,1
-2026-05,Barranquilla,Norte-Centro Histórico,Granadillo,h022,Hombre,Sicariato,1
-2026-05,Barranquilla,Norte-Centro Histórico,La Sierrita,h047,Hombre,Sicariato,1
-2026-05,Barranquilla,Norte-Centro Histórico,Villanueva,h058,Hombre,Sicariato,2
-2026-05,Barranquilla,Riomar,Tabor,h022,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroccidente,El Bosque,h048,Hombre,Sin dato,1
-2026-05,Barranquilla,Suroccidente,El Bosque,h049,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroccidente,El Bosque,h116,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroccidente,El Bosque,h122,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroccidente,El Bosque,h192,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroccidente,El Bosque,h195,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroccidente,Evaristo Sourdis,h054,Hombre,Sicariato,2
-2026-05,Barranquilla,Suroccidente,La Ceiba,h125,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroccidente,La Esmeralda,h006,Hombre,Sicariato,2
-2026-05,Barranquilla,Suroccidente,Mequejo,h208,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroccidente,San Isidro,h205,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroccidente,San Luis,h017,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroccidente,Santo Domingo,h009,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroccidente,Sin barrio,h199,Hombre,Riña,1
-2026-05,Barranquilla,Suroccidente,Villa San Pedro 2,h017,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroriente,Brisas del Rio,h045,Mujer,Sicariato,1
-2026-05,Barranquilla,Suroriente,El Ferry,h188,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroriente,La Luz,h120,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroriente,La Luz,h123,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroriente,Las Palmas,h182,Hombre,Riña,1
-2026-05,Barranquilla,Suroriente,Montes,h055,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroriente,Montes,h131,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroriente,Rebolo,h128,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroriente,Rebolo,h139,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroriente,San Roque,h138,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroriente,San Roque,h141,Hombre,Sicariato,1
-2026-05,Barranquilla,Suroriente,Simon Bolivar,h191,Hombre,Sicariato,1
-2026-05,Malambo,Malambo,Bellavista,h150,Hombre,Sicariato,1
-2026-05,Malambo,Malambo,Cañahuate,h024,Hombre,Sicariato,1
-2026-05,Malambo,Malambo,Cañahuate,h026,Hombre,Sicariato,1
-2026-05,Malambo,Malambo,El Concord,h074,Hombre,Sicariato,1
-2026-05,Malambo,Malambo,Paraiso,h025,Hombre,Sicariato,2
-2026-05,Malambo,Malambo,Malambo,h069,Hombre,Sicariato,1
-2026-05,Malambo,Malambo,Marquetalia,h150,Hombre,Sicariato,1
-2026-05,Malambo,Malambo,Mi Ranchito,h145,Hombre,Sicariato,1
-2026-05,Malambo,Malambo,San Fernando,h071,Hombre,Sicariato,2
-2026-05,Malambo,Malambo,Villa Esperanza,h064,Hombre,Sin dato,1
-2026-05,Malambo,Malambo,Villa Esperanza,h066,Hombre,Sicariato,2
-2026-05,Soledad,Soledad,Ciudad Cortizo,h007,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Ciudad Cortizo,h158,Hombre,Sin dato,1
-2026-05,Soledad,Soledad,Costa Hermosa,h044,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,La Ilusion,h078,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Las Colmenas,h008,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Las Colonias,h090,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Las Moras,h095,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Las Nubes,h091,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Las Nubes,h091,Mujer,Sicariato,1
-2026-05,Soledad,Soledad,Los Almendros,h029,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Los Almendros,h036,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Los Cedros,h034,Hombre,Sicariato,2
-2026-05,Soledad,Soledad,Los Cedros,h163,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Los Cedros,h163,Mujer,Sicariato,1
-2026-05,Soledad,Soledad,Los Cerezos,h082,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Manantial,h083,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Nuevo Triunfo,h014,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Porvenir,h039,Hombre,Sin dato,1
-2026-05,Soledad,Soledad,Primero de Mayo,h046,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Primero de Mayo,h184,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Pumarejo,h031,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Renacer,h033,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Terranova,h095,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Villa Nueva,h028,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Villa Selene,h077,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Villa Soledad,h003,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Villa Zambrano,h038,Hombre,Sicariato,1
-2026-05,Soledad,Soledad,Viña del Rey,h156,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,7 de Abril,h102,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,7 de Abril,h175,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,Carrizal,h010,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,Ciudadela,h106,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h169,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h172,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,La Sierrita,h050,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,La Sierrita,h115,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,Las Americas,h004,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,Las Americas,h018,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,Las Americas,h047,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,Las Gardenias,h005,Hombre,Sicariato,2
-2026-06,Barranquilla,Metropolitana,Santo Domingo,h178,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,Villa San Carlos,h043,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,Villa San Pedro 2,h005,Hombre,Sicariato,1
-2026-06,Barranquilla,Metropolitana,Villa San Pedro 2,h017,Hombre,Sicariato,1
-2026-06,Barranquilla,Norte-Centro Histórico,Barlovento,h061,Hombre,Sicariato,1
-2026-06,Barranquilla,Norte-Centro Histórico,Centro,h059,Hombre,Sicariato,1
-2026-06,Barranquilla,Norte-Centro Histórico,Montecristo,h209,Hombre,Sicariato,1
-2026-06,Barranquilla,Riomar,San Francisco,,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,Ciudadela 20 de Julio,h190,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,Alfonso Lopez,h131,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,Bajo Valle,h135,Hombre,Riña,1
-2026-06,Barranquilla,Suroccidente,Ciudad Modesto,h057,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,Ciudad Modesto,h201,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,El Bosque,h051,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,El Bosque,h115,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,El Bosque,h192,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,El Bosque,h195,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,El Eden,h012,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,El Pueblito,h117,Hombre,Por establecer,1
-2026-06,Barranquilla,Suroccidente,El Valle,h125,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,La Esmeralda,h200,Hombre,Sicariato,2
-2026-06,Barranquilla,Suroccidente,La Esmeralda,h201,Hombre,Sicariato,2
-2026-06,Barranquilla,Suroccidente,Las Malvinas,h189,Hombre,Riña,1
-2026-06,Barranquilla,Suroccidente,Las Malvinas,h189,Hombre,Sicariato,2
-2026-06,Barranquilla,Suroccidente,Lipaya,h122,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,Los Andes,h136,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,Los Olivos,h012,Hombre,Sicariato,4
-2026-06,Barranquilla,Suroccidente,Los Olivos,h133,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,Los Olivos,h133,Mujer,Sicariato,1
-2026-06,Barranquilla,Suroccidente,Los Pinos,h205,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,Mequejo,h207,Hombre,Sicariato,2
-2026-06,Barranquilla,Suroccidente,Montes,h055,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,Nueva Colombia,h204,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,San Felipe,h134,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroccidente,Santuario,h186,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroriente,El Ferry,h001,Hombre,Sicariato,2
-2026-06,Barranquilla,Suroriente,La Luz,h097,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroriente,La Luz,h128,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroriente,La Luz,h198,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroriente,Las Nieves,h191,Hombre,Riña,1
-2026-06,Barranquilla,Suroriente,Las Nieves,h194,Hombre,Sicariato,1
-2026-06,Barranquilla,Suroriente,Rebolo,h137,Hombre,Sicariato,2
-2026-06,Barranquilla,Suroriente,Rebolo,h141,Hombre,Sicariato,1
-2026-06,Galapa,Galapa,Villa Olimpica,h166,Hombre,Sicariato,1
-2026-06,Malambo,Malambo,Barrio Abajo,h070,Hombre,Sicariato,1
-2026-06,Malambo,Malambo,Condor,h074,Hombre,Sicariato,1
-2026-06,Malambo,Malambo,Cristo Rey,h073,Hombre,Sicariato,1
-2026-06,Malambo,Malambo,El Concord,h073,Hombre,Sicariato,1
-2026-06,Malambo,Malambo,El Concord,h074,Hombre,Sicariato,1
-2026-06,Malambo,Malambo,La Milagrosa,h064,Hombre,Sicariato,1
-2026-06,Malambo,Malambo,Sin barrio,h014,Hombre,Sicariato,1
-2026-06,Malambo,Malambo,Villa Esperanza,h063,Hombre,Sicariato,1
-2026-06,Malambo,Malambo,Villa Esperanza,h066,Hombre,Sicariato,1
-2026-06,Malambo,Malambo,Villa Esperanza,h067,Hombre,Sicariato,1
-2026-06,Malambo,Malambo,Villa Esperanza,h144,Hombre,Sicariato,1
-2026-06,Puerto Colombia,Puerto Colombia,Miramar,h062,Hombre,Sicariato,1
-2026-06,Puerto Colombia,Puerto Colombia,Pradomar,h062,Hombre,Sicariato,2
-2026-06,Puerto Colombia,Puerto Colombia,Villa Campestre,h143,Mujer,Sicariato,1
-2026-06,Puerto Colombia,Puerto Colombia,Villa Santos,h142,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Barria las Marinas,h105,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Ciudad Bolivar,h161,Hombre,Sicariato,3
-2026-06,Soledad,Soledad,Ciudad Bonita,h076,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Ciudad Cortizo,h086,Hombre,Sicariato,2
-2026-06,Soledad,Soledad,Ciudad Paraiso,h078,Sin dato,Sin dato,1
-2026-06,Soledad,Soledad,Ciudad Paraiso,h079,Mujer,Sicariato,1
-2026-06,Soledad,Soledad,Costa Hermosa,h109,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,El Esfuerzo,h007,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,El Prado,h173,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,El Tucan,h104,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Ferrocarril,h094,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Ferrocarril,h094,Mujer,Sicariato,1
-2026-06,Soledad,Soledad,Hospital Universidad del Norte - Soledad,h084,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Invasion el Yucal,h076,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Invasion los Angeles,h029,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,La Arboleda,h099,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Las Colinas,h013,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Las Colonias,h013,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Las Maria,h101,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Las Moras,h015,Hombre,Sicariato,2
-2026-06,Soledad,Soledad,Las Moras,h096,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Las Trinitarias,h015,Hombre,Riña,1
-2026-06,Soledad,Soledad,Los Almendros,h033,Hombre,Sicariato,3
-2026-06,Soledad,Soledad,Los Manantiales,h160,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Manantial,h160,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Manuela Beltran,h085,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Normandia,h003,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Portal las Moras,h097,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Porvenir,h039,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Sin barrio,h081,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Sin barrio,h164,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Tajamar,h091,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Terra Nova 2,h081,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Terranova,h160,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Villa Adela,h085,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Villa Estadio,h098,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Villa Estadio,h162,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Villa Karla,h080,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Villa Katanga,h038,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Villa Lozano,h008,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Villa Selene,h077,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Villa Soledad,h003,Hombre,Sicariato,1
-2026-06,Soledad,Soledad,Villa del Carmen,h081,Hombre,Sicariato,1
-2026-07,Barranquilla,Metropolitana,7 de Abril,h009,Hombre,Sicariato,1
-2026-07,Barranquilla,Metropolitana,7 de Abril,h041,Hombre,Sicariato,1
-2026-07,Barranquilla,Metropolitana,7 de Abril,h042,Hombre,Sicariato,2
-2026-07,Barranquilla,Metropolitana,7 de Abril,h168,Hombre,Sicariato,2
-2026-07,Barranquilla,Metropolitana,Carrizal,h011,Hombre,Sicariato,2
-2026-07,Barranquilla,Metropolitana,Carrizal,h110,Hombre,Sicariato,2
-2026-07,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h170,Hombre,Sicariato,1
-2026-07,Barranquilla,Metropolitana,La Sierrita,h050,Hombre,Riña,1
-2026-07,Barranquilla,Metropolitana,La Sierrita,h050,Hombre,Sicariato,1
-2026-07,Barranquilla,Metropolitana,Santa Maria,h040,Hombre,Sicariato,1
-2026-07,Barranquilla,Metropolitana,Santa Maria,h174,Hombre,Sicariato,1
-2026-07,Barranquilla,Metropolitana,Villa San Carlos,h043,Hombre,Sicariato,1
-2026-07,Barranquilla,Norte-Centro Histórico,Barranquillita,h061,Hombre,Sicariato,1
-2026-07,Barranquilla,Norte-Centro Histórico,El Prado,h209,Hombre,Sicariato,1
-2026-07,Barranquilla,Norte-Centro Histórico,Villanueva,h058,Hombre,Sicariato,1
-2026-07,Barranquilla,Riomar,Las Flores,,Hombre,Sicariato,1
-2026-07,Barranquilla,Riomar,Las Flores,h023,Hombre,Sicariato,1
-2026-07,Barranquilla,Sin dato,El Bosque,h122,Hombre,Sicariato,1
-2026-07,Barranquilla,Sin dato,La Chinita,h120,Hombre,Sicariato,1
-2026-07,Barranquilla,Sin dato,Los Olivos 2,h133,Hombre,Sicariato,1
-2026-07,Barranquilla,Sin dato,Nueva Colombia,h057,Hombre,Sicariato,1
-2026-07,Barranquilla,Sin dato,Pasadena,h187,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroccidente,Alfonso Lopez,h131,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroccidente,El Bosque,h049,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroccidente,El Bosque,h051,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroccidente,El Bosque,h119,Hombre,Sicariato,3
-2026-07,Barranquilla,Suroccidente,El Eden,h208,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroccidente,El Rubi,h021,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroccidente,El Silencio,h140,Hombre,Por establecer,1
-2026-07,Barranquilla,Suroccidente,El Valle,h135,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroccidente,La Esmeralda,h202,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroccidente,Lipaya,h053,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroccidente,Nueva Colombia,h134,Mujer,Sicariato,1
-2026-07,Barranquilla,Suroccidente,Nueva Colombia,h135,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroccidente,San Felipe,h135,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroccidente,Villa San Pablo,h199,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroccidente,Villate,h192,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroriente,El Ferry,h001,Hombre,Sicariato,4
-2026-07,Barranquilla,Suroriente,El Ferry,h188,Hombre,Sicariato,2
-2026-07,Barranquilla,Suroriente,La Alboraya,h019,Hombre,Riña,1
-2026-07,Barranquilla,Suroriente,La Luz,h056,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroriente,La Luz,h123,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroriente,La Luz,h198,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroriente,Las Nieves,h052,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroriente,Las Nieves,h056,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroriente,Montes,h203,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroriente,Rebolo,h002,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroriente,Rebolo,h132,Hombre,Sicariato,3
-2026-07,Barranquilla,Suroriente,Rebolo,h137,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroriente,Rebolo,h141,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroriente,Rebolo,h203,Hombre,Sicariato,1
-2026-07,Barranquilla,Suroriente,San Roque,h002,Hombre,Sicariato,2
-2026-07,Barranquilla,Suroriente,Simon Bolivar,h183,Hombre,Sicariato,1
-2026-07,Galapa,Galapa,Avenida Cordialidad,,Hombre,Sicariato,1
-2026-07,Galapa,Galapa,Mundo Feliz,h037,Hombre,Sicariato,1
-2026-07,Malambo,Malambo,Bellavista,h145,Hombre,Sicariato,1
-2026-07,Malambo,Malambo,Ciudadela Real del Caribe,h094,Hombre,Sicariato,1
-2026-07,Malambo,Malambo,Mesolandia,h007,Hombre,Sicariato,1
-2026-07,Malambo,Malambo,Mesolandia,h064,Hombre,Sicariato,1
-2026-07,Malambo,Malambo,Miraflor 2 Etapa,h145,Hombre,Sicariato,1
-2026-07,Malambo,Malambo,Paraiso,h063,Hombre,Riña,1
-2026-07,Malambo,Malambo,San Antonio,h146,Hombre,Sicariato,1
-2026-07,Malambo,Malambo,San Jose,h065,Hombre,Sicariato,1
-2026-07,Puerto Colombia,Puerto Colombia,Altos de la Risota,h020,Hombre,Sicariato,1
-2026-07,Puerto Colombia,Puerto Colombia,Altos de los Girasoles,h020,Hombre,Sicariato,1
-2026-07,Puerto Colombia,Puerto Colombia,Miramar,h142,Hombre,Sicariato,1
-2026-07,Puerto Colombia,Puerto Colombia,Sabanilla,,Hombre,Por establecer,1
-2026-07,Soledad,Soledad,Almendro Campestre,h032,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Ciudad del Parque,h032,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Ciudadela Metropolitana,h084,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Don Bosco,h027,Mujer,Sicariato,1
-2026-07,Soledad,Soledad,El Oasis,h093,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Ferrocarril,h101,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Hipodromo,h101,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Invasion las Colinas,h076,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Juan Dominguez Romero,h092,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,La Central,h152,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,La Maria,h101,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Las Margaritas,h109,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Los Manantiales,h083,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Los Robles,h163,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Manuela Beltran,h085,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Nuevo Horizonte,h030,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Nuevo Milenio,h084,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Porvenir,h039,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Renacer,h086,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Salamanca,h044,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,San Vicente,h080,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Villa Adela 2,h158,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Villa Belen,h079,Hombre,Sin dato,1
-2026-07,Soledad,Soledad,Villa Muvdi,h099,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Villa Selene,h077,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Villa del Carmen,h027,Hombre,Sicariato,1
-2026-07,Soledad,Soledad,Villa del Rey,h154,Hombre,Sicariato,1
-2026-08,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h040,Hombre,Sicariato,1
-2026-08,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h106,Hombre,Sicariato,1
-2026-08,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h172,Hombre,Sicariato,1
-2026-08,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h186,Hombre,Sicariato,1
-2026-08,Barranquilla,Metropolitana,Los Girasoles,h098,Hombre,Sicariato,2
-2026-08,Barranquilla,Metropolitana,La Sierrita,h111,Hombre,Hurto,1
-2026-08,Barranquilla,Metropolitana,La Sierrita,h115,Hombre,Sicariato,1
-2026-08,Barranquilla,Metropolitana,Las Americas,h004,Hombre,Sicariato,1
-2026-08,Barranquilla,Metropolitana,Las Gardenias,h043,Hombre,Sicariato,1
-2026-08,Barranquilla,Metropolitana,Santa Maria,h009,Hombre,Sicariato,1
-2026-08,Barranquilla,Metropolitana,Santa Maria,h174,Hombre,Sicariato,1
-2026-08,Barranquilla,Metropolitana,Santo Domingo,h016,Hombre,Sicariato,5
-2026-08,Barranquilla,Metropolitana,Santo Domingo,h181,Mujer,Sicariato,1
-2026-08,Barranquilla,Norte-Centro Histórico,Alameda del Rio,h021,Hombre,Sicariato,1
-2026-08,Barranquilla,Norte-Centro Histórico,El Rosario,h059,Hombre,Riña,1
-2026-08,Barranquilla,Norte-Centro Histórico,El Rosario,h138,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Buena Esperanza,h136,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,California,h180,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Caribe Verde,h117,Hombre,Sicariato,2
-2026-08,Barranquilla,Suroccidente,Carlos Meisel,h140,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,El Bosque,h119,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,El Bosque,h190,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,El Pueblo,h124,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Evaristo Sourdis,h121,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,La Esmeralda,h006,Hombre,Sicariato,2
-2026-08,Barranquilla,Suroccidente,Las Malvinas,h190,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Los Corales- Sector las Cayenas,h057,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Los Olivos 2,h129,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Los Olivos 2,h133,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Los Rosales,h121,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Mequejo,h207,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Nueva Colombia,h057,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Santa Maria,h009,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Villa Flor,h197,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Villa San Pablo,h199,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroccidente,Villate,h125,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroriente,Jose Antonio Galan,h176,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroriente,La Alboraya,h019,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroriente,La Chinita,h120,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroriente,La Luz,h114,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroriente,Las Nieves,h052,Hombre,Sicariato,3
-2026-08,Barranquilla,Suroriente,Montes,h055,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroriente,Rebolo,h128,Mujer,Sicariato,1
-2026-08,Barranquilla,Suroriente,Rebolo,h132,Mujer,Sicariato,1
-2026-08,Barranquilla,Suroriente,Rebolo,h137,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroriente,Rebolo,h196,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroriente,San Roque,h002,Hombre,Sicariato,1
-2026-08,Barranquilla,Suroriente,Simon Bolivar,h109,Hombre,Sicariato,1
-2026-08,Galapa,Galapa,Villa Olimpica,h088,Hombre,Sicariato,1
-2026-08,Malambo,Malambo,Ciudadela Real del Caribe,h069,Hombre,Sicariato,1
-2026-08,Malambo,Malambo,El Concord,h073,Hombre,Sicariato,1
-2026-08,Malambo,Malambo,El Gladiador,h070,Hombre,Sicariato,1
-2026-08,Malambo,Malambo,La Esperanza,h087,Hombre,Sicariato,1
-2026-08,Malambo,Malambo,Mesolandia,h007,Hombre,Sicariato,1
-2026-08,Malambo,Malambo,San Antonio,h067,Hombre,Sicariato,1
-2026-08,Malambo,Malambo,Villa Espencer,h073,Hombre,Sicariato,1
-2026-08,Malambo,Malambo,Villa Rica 2,h065,Hombre,Sicariato,1
-2026-08,Malambo,Malambo,Vía Malambo -Caracolí- Trocha el Paraíso,h026,Hombre,Sicariato,1
-2026-08,Puerto Colombia,Puerto Colombia,Brisas del Puerto,h020,Hombre,Sicariato,1
-2026-08,Puerto Colombia,Puerto Colombia,Villa del Rosario,h060,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Ciudadela Metropolitana,h164,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,El Esfuerzo,h007,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Manantial,h162,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,El Porvenir,h039,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,El Triunfo,h173,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Ferrocarril,h105,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,La Arboleda,h104,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Las Colonias,h035,Hombre,Sicariato,2
-2026-08,Soledad,Soledad,Las Ferias,h114,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Las Marinas,h105,Hombre,Por establecer,1
-2026-08,Soledad,Soledad,Las Moras,h162,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Los Manantiales,h082,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Los Manantiales,h089,Mujer,Sicariato,1
-2026-08,Soledad,Soledad,Los Manantiales,h159,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Manantial,h089,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Nuevo Exito,h103,Hombre,Sicariato,2
-2026-08,Soledad,Soledad,Nuevo Milenio,h083,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Porvenir,h173,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Pumarejo,h031,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Pumarejo,h092,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Salcedo,h014,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,San Antonio,h031,Hombre,Sicariato,2
-2026-08,Soledad,Soledad,San Antonio,h094,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,San Vicente,h153,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Villa Adela,h085,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Villa Estadio,h098,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Villa Estadio,h165,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Villa Merly,h008,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Villa Muvdi,h167,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Villa Paraiso,h078,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Villa Paraiso,h153,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Villa Rosal,h090,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Villa Selena,h077,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Villa Zambrano,h028,Hombre,Sicariato,1
-2026-08,Soledad,Soledad,Villa Zambrano,h038,Hombre,Sicariato,2
-2026-08,Soledad,Soledad,Villa del Carmen,h081,Hombre,Sicariato,1
-2026-09,Barranquilla,Metropolitana,7 de Abril,h042,Hombre,Sicariato,1
-2026-09,Barranquilla,Metropolitana,7 de Abril,h107,Hombre,Sicariato,1
-2026-09,Barranquilla,Metropolitana,Carrizal,h004,Hombre,Sicariato,1
-2026-09,Barranquilla,Metropolitana,Carrizal,h011,Hombre,Sicariato,1
-2026-09,Barranquilla,Metropolitana,Las Gardenias,h005,Hombre,Sicariato,2
-2026-09,Barranquilla,Metropolitana,Las Gardenias,h043,Hombre,Sicariato,1
-2026-09,Barranquilla,Metropolitana,San Luis,h043,Hombre,Sicariato,1
-2026-09,Barranquilla,Metropolitana,Santa Maria,h040,Hombre,Sicariato,1
-2026-09,Barranquilla,Metropolitana,Santa Maria,h041,Hombre,Sicariato,2
-2026-09,Barranquilla,Metropolitana,Villa San Pedro Iii,h017,Hombre,Sicariato,1
-2026-09,Barranquilla,Norte-Centro Histórico,Centro,h139,Hombre,Sicariato,1
-2026-09,Barranquilla,Norte-Centro Histórico,Ciudad Jardin,h022,Hombre,Sicariato,1
-2026-09,Barranquilla,Suroccidente,El Bosque,h122,Hombre,Sicariato,1
-2026-09,Barranquilla,Suroccidente,La Pradera,h021,Hombre,Sicariato,1
-2026-09,Barranquilla,Suroccidente,Santo Domingo,h181,Hombre,Sicariato,1
-2026-09,Barranquilla,Suroriente,El Ferry,h001,Hombre,Sicariato,1
-2026-09,Barranquilla,Suroriente,La Alboraya,h019,Hombre,Sicariato,1
-2026-09,Barranquilla,Suroriente,La Alboraya,h019,Mujer,Sicariato,1
-2026-09,Barranquilla,Suroriente,La Luz,h123,Hombre,Sicariato,1
-2026-09,Barranquilla,Suroriente,Las Nieves,h052,Hombre,Sicariato,1
-2026-09,Barranquilla,Suroriente,San Jose,h055,Hombre,Sicariato,1
-2026-09,Barranquilla,Suroriente,San Jose,h126,Hombre,Sicariato,1
-2026-09,Malambo,Malambo,Armonia Social,h024,Hombre,Sicariato,1
-2026-09,Malambo,Malambo,El Carmen,h024,Hombre,Sicariato,1
-2026-09,Malambo,Malambo,El Concord,h074,Hombre,Sicariato,1
-2026-09,Malambo,Malambo,La Luna,h068,Hombre,Sicariato,1
-2026-09,Malambo,Malambo,La Milagrosa,h072,Hombre,Sicariato,1
-2026-09,Malambo,Malambo,San Fernando,h069,Hombre,Sicariato,1
-2026-09,Malambo,Malambo,Villa Concord,h072,Hombre,Sicariato,1
-2026-09,Puerto Colombia,Puerto Colombia,Invasion Villa del Rosario,h020,Hombre,Sicariato,1
-2026-09,Soledad,Soledad,Ciudad Cortizo,h086,Hombre,Riña,1
-2026-09,Soledad,Soledad,Ciudad Paraiso,h075,Hombre,Sicariato,1
-2026-09,Soledad,Soledad,Manantial,h082,Hombre,Sicariato,2
-2026-09,Soledad,Soledad,Invasion Nueva Jerusalen,h046,Hombre,Sicariato,2
-2026-09,Soledad,Soledad,Juan Dominguez Romero,h092,Hombre,Sicariato,1
-2026-09,Soledad,Soledad,La Central,h013,Hombre,Sicariato,1
-2026-09,Soledad,Soledad,La Esperanza,h087,Hombre,Sicariato,2
-2026-09,Soledad,Soledad,Las Cometas,h079,Hombre,Sicariato,1
-2026-09,Soledad,Soledad,Las Ferias,h046,Hombre,Sicariato,1
-2026-09,Soledad,Soledad,Las Ferias,h184,Hombre,Sicariato,1
-2026-09,Soledad,Soledad,Las Trinitarias,h103,Hombre,Sicariato,1
-2026-09,Soledad,Soledad,Nuevo Horizonte,h089,Hombre,Sicariato,1
-2026-09,Soledad,Soledad,Pumarejo,h092,Hombre,Sicariato,1
-2026-09,Soledad,Soledad,Villa Adela,h028,Mujer,Sicariato,1
-2026-09,Soledad,Soledad,Villa Maria,h080,Hombre,Sicariato,1
-2026-09,Soledad,Soledad,Villa del Carmen,h155,Hombre,Sicariato,1
-2026-10,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h040,Hombre,Sicariato,1
-2026-10,Barranquilla,Metropolitana,7 de Abril,h036,Hombre,Sicariato,1
-2026-10,Barranquilla,Metropolitana,Ciudadela,h176,Hombre,Sicariato,1
-2026-10,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h170,Hombre,Sicariato,1
-2026-10,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h179,Hombre,Sicariato,1
-2026-10,Barranquilla,Metropolitana,El Bosque,h116,Hombre,Sicariato,1
-2026-10,Barranquilla,Metropolitana,La Sierrita,h193,Hombre,Sicariato,1
-2026-10,Barranquilla,Metropolitana,Las Americas,h047,Hombre,Sicariato,1
-2026-10,Barranquilla,Metropolitana,Las Gardenias,h005,Hombre,Sicariato,1
-2026-10,Barranquilla,Metropolitana,Los Girasoles,h169,Hombre,Sicariato,1
-2026-10,Barranquilla,Metropolitana,Santo Domingo,h111,Hombre,Sicariato,1
-2026-10,Barranquilla,Suroccidente,Caribe Verde,h117,Hombre,Sicariato,1
-2026-10,Barranquilla,Suroccidente,Cuchilla de Villate,h130,Hombre,Por establecer,1
-2026-10,Barranquilla,Suroccidente,El Bosque,h051,Hombre,Sicariato,1
-2026-10,Barranquilla,Suroccidente,El Carmen,h126,Hombre,Riña,1
-2026-10,Barranquilla,Suroccidente,La Esmeralda,h130,Hombre,Riña,1
-2026-10,Barranquilla,Suroccidente,Los Olivos,h012,Hombre,Riña,1
-2026-10,Barranquilla,Suroccidente,Los Rosales,h121,Hombre,Sicariato,1
-2026-10,Barranquilla,Suroriente,Bella Arena,h176,Hombre,Sicariato,1
-2026-10,Barranquilla,Suroriente,San Jose,h055,Hombre,Sicariato,1
-2026-10,Barranquilla,Suroriente,San Roque,h002,Hombre,Sicariato,1
-2026-10,Galapa,Galapa,12 de Septiembre,h088,Hombre,Sicariato,1
-2026-10,Malambo,Malambo,Lluvia de Oro,h026,Hombre,Sicariato,1
-2026-10,Malambo,Malambo,Paraiso,h025,Hombre,Sicariato,2
-2026-10,Malambo,Malambo,San Fernando,h026,Hombre,Sicariato,1
-2026-10,Malambo,Malambo,San Jorge,h070,Hombre,Sicariato,1
-2026-10,Malambo,Malambo,San Martin,h149,Hombre,Sicariato,1
-2026-10,Malambo,Malambo,Villa Esperanza,h144,Hombre,Sicariato,1
-2026-10,Malambo,Malambo,Villa Esther,h149,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,Bello Horizonte,h157,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,Cachimbero,h014,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,Ciudad Paraiso,h078,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,Ciudad Paraiso,h151,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,Costa Hermosa,h045,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,El Esfuerzo,h007,Hombre,Sicariato,2
-2026-10,Soledad,Soledad,Urbanizacion el Parque,h177,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,Ferrocarril,h100,Hombre,Por establecer,1
-2026-10,Soledad,Soledad,Ferrocarril,h156,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,La Viola,h096,Mujer,Sicariato,1
-2026-10,Soledad,Soledad,Los Almendros,h036,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,Manuela Beltran,h031,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,San Bernardo,h013,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,Villa Carla,h080,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,Villa Katanga,h167,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,Villa Lozano,h008,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,Villa Sol,h153,Hombre,Sicariato,1
-2026-10,Soledad,Soledad,Viña del Rey,h154,Hombre,Sicariato,1
+mes,municipio,localidad,barrio,zona,sexo,modalidad,casos,cod_municipio,cod_barrio
+2026-01,Barranquilla,Metropolitana,7 de Abril,h009,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-01,Barranquilla,Metropolitana,7 de Abril,h102,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-01,Barranquilla,Metropolitana,7 de Abril,h175,Hombre,Riña,1,08001,08001-7-de-abril
+2026-01,Barranquilla,Metropolitana,Alfonso Lopez,h206,Hombre,Sicariato,1,08001,08001-alfonso-lopez
+2026-01,Barranquilla,Metropolitana,Ciudadela,h169,Hombre,Sicariato,1,08001,
+2026-01,Barranquilla,Metropolitana,Santuario,h108,Hombre,Sicariato,1,08001,08001-el-santuario
+2026-01,Barranquilla,Metropolitana,Las Gardenias,h005,Hombre,Sicariato,2,08001,08001-las-gardenias
+2026-01,Barranquilla,Metropolitana,San Isidro,h206,Hombre,Sicariato,1,08001,08001-san-isidro
+2026-01,Barranquilla,Metropolitana,San Jose,h131,Hombre,Sicariato,1,08001,08001-san-jose
+2026-01,Barranquilla,Metropolitana,Santa Maria,h174,Hombre,Sicariato,1,08001,08001-santa-maria
+2026-01,Barranquilla,Norte-Centro Histórico,Centro,h061,Hombre,Por establecer,1,08001,08001-centro
+2026-01,Barranquilla,Norte-Centro Histórico,Centro,h139,Hombre,Sicariato,1,08001,08001-centro
+2026-01,Barranquilla,Norte-Centro Histórico,Colombia,h022,Hombre,Sicariato,1,08001,08001-colombia
+2026-01,Barranquilla,Riomar,Corregimiento la Playa,h143,Hombre,Riña,1,08001,08001-corregimiento-la-playa
+2026-01,Barranquilla,Riomar,Corregimiento la Playa,h143,Hombre,Sicariato,1,08001,08001-corregimiento-la-playa
+2026-01,Barranquilla,Riomar,Las Flores,h023,Hombre,Sicariato,2,08001,08001-las-flores
+2026-01,Barranquilla,Suroccidente,Altos del Rio,,Mujer,Sicariato,1,08001,
+2026-01,Barranquilla,Suroccidente,Bajo Valle,h134,Hombre,Sicariato,1,08001,
+2026-01,Barranquilla,Suroccidente,Barlovento,h061,Hombre,Sicariato,1,08001,08001-barlovento
+2026-01,Barranquilla,Suroccidente,Carrizal,h113,Hombre,Sicariato,1,08001,08001-carrizal
+2026-01,Barranquilla,Suroccidente,El Bosque,h049,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-01,Barranquilla,Suroccidente,El Carmen,h125,Hombre,Sicariato,1,08001,08001-el-carmen
+2026-01,Barranquilla,Suroccidente,El Romance,h048,Hombre,Sicariato,1,08001,08001-el-romance
+2026-01,Barranquilla,Suroccidente,Evaristo Sourdis,h054,Hombre,Riña,1,08001,08001-evaristo-sourdis
+2026-01,Barranquilla,Suroccidente,Evaristo Sourdis,h054,Hombre,Sicariato,1,08001,08001-evaristo-sourdis
+2026-01,Barranquilla,Suroccidente,La Loma de los Chivos- Vía Juan Mina,,Hombre,Sicariato,1,08001,
+2026-01,Barranquilla,Suroccidente,Ciudadela de la Paz,h129,Hombre,Riña,1,08001,08001-la-paz
+2026-01,Barranquilla,Suroccidente,La Sierra,h193,Hombre,Sicariato,1,08001,08001-la-sierra
+2026-01,Barranquilla,Suroccidente,Lipaya,h006,Hombre,Sicariato,1,08001,08001-lipaya
+2026-01,Barranquilla,Suroccidente,Nueva Colombia,h204,Hombre,Sicariato,1,08001,08001-nueva-colombia
+2026-01,Barranquilla,Suroccidente,Por Establecer,h166,Hombre,Por establecer,1,08001,
+2026-01,Barranquilla,Suroccidente,San Felipe,h134,Hombre,Sicariato,1,08001,08001-san-felipe
+2026-01,Barranquilla,Suroccidente,Santo Domingo,h111,Hombre,Sicariato,1,08001,08001-santo-domingo-de-guzman
+2026-01,Barranquilla,Suroriente,Bella Arena,h108,Hombre,Sicariato,1,08001,08001-bella-arena
+2026-01,Barranquilla,Suroriente,El Campito,h182,Hombre,Sicariato,1,08001,08001-el-campito
+2026-01,Barranquilla,Suroriente,Jose Antonio Galan,h177,Hombre,Sicariato,1,08001,08001-jose-antonio-galan
+2026-01,Barranquilla,Suroriente,La Chinita,h114,Hombre,Sicariato,1,08001,08001-la-chinita
+2026-01,Barranquilla,Suroriente,La Luz,h123,Hombre,Sicariato,1,08001,08001-la-luz
+2026-01,Barranquilla,Suroriente,Las Nieves,h045,Hombre,Riña,1,08001,08001-las-nieves
+2026-01,Barranquilla,Suroriente,Las Nieves,h191,Sin dato,Sin dato,1,08001,08001-las-nieves
+2026-01,Barranquilla,Suroriente,Rebolo,h002,Hombre,Sicariato,2,08001,08001-rebolo
+2026-01,Barranquilla,Suroriente,Rebolo,h127,Hombre,Hurto,1,08001,08001-rebolo
+2026-01,Barranquilla,Suroriente,Rebolo,h127,Hombre,Sicariato,1,08001,08001-rebolo
+2026-01,Barranquilla,Suroriente,San Roque,h141,Hombre,Sicariato,1,08001,08001-san-roque
+2026-01,Barranquilla,Suroriente,Simon Bolivar,h114,Hombre,Sicariato,1,08001,08001-simon-bolivar
+2026-01,Galapa,Galapa,Mundo Feliz,h037,Hombre,Sicariato,2,08296,08296-mundo-feliz
+2026-01,Galapa,Galapa,Mundo Feliz,h037,Mujer,Sicariato,1,08296,08296-mundo-feliz
+2026-01,Galapa,Galapa,Tres de Mayo,,Hombre,Sicariato,1,08296,
+2026-01,Malambo,Malambo,Barrio Abajo,h150,Hombre,Sicariato,1,08433,
+2026-01,Malambo,Malambo,El Concord,h072,Hombre,Sicariato,1,08433,08433-el-concord
+2026-01,Malambo,Malambo,Malambo,h076,Hombre,Sicariato,1,08433,08433-malambo
+2026-01,Malambo,Malambo,Malambo,h148,Hombre,Sicariato,1,08433,08433-malambo
+2026-01,Malambo,Malambo,Trocha Villa Bertha,h026,Hombre,Sicariato,1,08433,
+2026-01,Malambo,Malambo,Villa Aida,h065,Mujer,Sicariato,1,08433,08433-villa-aida
+2026-01,Puerto Colombia,Puerto Colombia,Bello Mar,h062,Hombre,Sicariato,1,08573,
+2026-01,Puerto Colombia,Puerto Colombia,Invasion Colina del Sol 2,h020,Hombre,Sicariato,1,08573,
+2026-01,Puerto Colombia,Puerto Colombia,San Carlos,h060,Hombre,Sicariato,2,08573,
+2026-01,Soledad,Soledad,Ciudad del Parque,h032,Hombre,Sicariato,1,08758,08758-ciudad-del-parque
+2026-01,Soledad,Soledad,Costa Hermosa,h044,Hombre,Sicariato,2,08758,08758-costa-hermosa
+2026-01,Soledad,Soledad,Ferrocarril,h105,Hombre,Sicariato,1,08758,08758-ferrocarril
+2026-01,Soledad,Soledad,La Alianza,h184,Hombre,Sicariato,1,08758,
+2026-01,Soledad,Soledad,La Arboleda,h104,Hombre,Sicariato,1,08758,08758-la-arboleda
+2026-01,Soledad,Soledad,La Central,h152,Hombre,Sicariato,1,08758,08758-la-central
+2026-01,Soledad,Soledad,La Floresta,h093,Hombre,Sicariato,1,08758,
+2026-01,Soledad,Soledad,Las Colonias,h035,Hombre,Sicariato,1,08758,08758-las-colonias
+2026-01,Soledad,Soledad,Las Moras,h095,Hombre,Sicariato,1,08758,08758-las-moras
+2026-01,Soledad,Soledad,Los Almendros,h013,Hombre,Sicariato,1,08758,08758-los-almendros
+2026-01,Soledad,Soledad,Los Cedros,h034,Hombre,Sicariato,2,08758,08758-los-cedros
+2026-01,Soledad,Soledad,Manantial,h159,Hombre,Sicariato,2,08758,08758-el-manantial
+2026-01,Soledad,Soledad,Porvenir,h039,Hombre,Sicariato,1,08758,08758-porvenir
+2026-01,Soledad,Soledad,Prado Soledad,h156,Hombre,Sicariato,1,08758,08758-prado-soledad
+2026-01,Soledad,Soledad,San Antonio,h093,Hombre,Sicariato,1,08758,08758-san-antonio
+2026-01,Soledad,Soledad,Tajamar,h091,Hombre,Sicariato,1,08758,
+2026-01,Soledad,Soledad,Tajamares,h046,Hombre,Sicariato,1,08758,
+2026-01,Soledad,Soledad,"Villa Carmen 2,",h083,Hombre,Sicariato,1,08758,08758-villa-carmen-2
+2026-01,Soledad,Soledad,Villa Estadio,h165,Hombre,Sicariato,1,08758,08758-villa-estadio
+2026-01,Soledad,Soledad,Villa Estadio,h165,Mujer,Sicariato,1,08758,08758-villa-estadio
+2026-01,Soledad,Soledad,Villa Lozano,h008,Hombre,Sicariato,1,08758,08758-villa-lozano
+2026-01,Soledad,Soledad,Villa Maria,h079,Hombre,Sicariato,1,08758,08758-villa-maria
+2026-01,Soledad,Soledad,Villa Merly,h099,Hombre,Sicariato,1,08758,08758-villa-merly
+2026-01,Soledad,Soledad,Villa Soledad,h097,Hombre,Sicariato,1,08758,08758-villa-soledad
+2026-01,Soledad,Soledad,Villas del Rey,h154,Hombre,Sicariato,1,08758,
+2026-02,Barranquilla,Metropolitana,Carrizal,h004,Hombre,Sicariato,3,08001,08001-carrizal
+2026-02,Barranquilla,Metropolitana,Carrizal,h010,Hombre,Sicariato,1,08001,08001-carrizal
+2026-02,Barranquilla,Metropolitana,Carrizal,h011,Hombre,Sicariato,2,08001,08001-carrizal
+2026-02,Barranquilla,Metropolitana,Carrizal,h106,Hombre,Sicariato,1,08001,08001-carrizal
+2026-02,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h170,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-02,Barranquilla,Metropolitana,La Ceiba,h193,Hombre,Sicariato,1,08001,08001-la-ceiba
+2026-02,Barranquilla,Metropolitana,La Sierrita,h049,Mujer,Sicariato,1,08001,08001-la-sierrita
+2026-02,Barranquilla,Metropolitana,La Sierrita,h050,Hombre,Sicariato,1,08001,08001-la-sierrita
+2026-02,Barranquilla,Metropolitana,Las Americas,h004,Hombre,Sicariato,1,08001,08001-las-americas
+2026-02,Barranquilla,Metropolitana,Las Americas,h010,Hombre,Sicariato,1,08001,08001-las-americas
+2026-02,Barranquilla,Metropolitana,Las Americas,h018,Hombre,Sicariato,1,08001,08001-las-americas
+2026-02,Barranquilla,Metropolitana,Las Americas,h111,Hombre,Sicariato,1,08001,08001-las-americas
+2026-02,Barranquilla,Metropolitana,San Isidro,h206,Hombre,Sicariato,1,08001,08001-san-isidro
+2026-02,Barranquilla,Metropolitana,San Luis,h180,Hombre,Sicariato,1,08001,08001-san-luis
+2026-02,Barranquilla,Metropolitana,Santo Domingo,h010,Hombre,Sicariato,1,08001,08001-santo-domingo-de-guzman
+2026-02,Barranquilla,Metropolitana,Santo Domingo,h178,Mujer,Sicariato,1,08001,08001-santo-domingo-de-guzman
+2026-02,Barranquilla,Norte-Centro Histórico,Centro,h138,Hombre,Sicariato,1,08001,08001-centro
+2026-02,Barranquilla,Riomar,Corregimiento la Playa,h143,Hombre,Sicariato,1,08001,08001-corregimiento-la-playa
+2026-02,Barranquilla,Riomar,Las Flores,h023,Hombre,Sicariato,1,08001,08001-las-flores
+2026-02,Barranquilla,Suroccidente,7 de Abril,h107,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-02,Barranquilla,Suroccidente,7 de Agosto,h197,Hombre,Sicariato,1,08001,08001-7-de-agosto
+2026-02,Barranquilla,Suroccidente,Carlos Meisel,h140,Hombre,Sicariato,2,08001,08001-carlos-meisel
+2026-02,Barranquilla,Suroccidente,Ciudad Modesto,h200,Hombre,Sicariato,1,08001,08001-ciudad-modesto
+2026-02,Barranquilla,Suroccidente,Cordialidad,h017,Hombre,Sicariato,1,08001,08001-cordialidad
+2026-02,Barranquilla,Suroccidente,Corregimiento Juan Mina,,Hombre,Sicariato,1,08001,08001-corregimiento-juan-mina
+2026-02,Barranquilla,Suroccidente,El Bosque,h118,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-02,Barranquilla,Suroccidente,El Carmen,h126,Hombre,Riña,1,08001,08001-el-carmen
+2026-02,Barranquilla,Suroccidente,Evaristo Sourdis,h053,Hombre,Sicariato,1,08001,08001-evaristo-sourdis
+2026-02,Barranquilla,Suroccidente,La Esmeralda,h130,Hombre,Sicariato,1,08001,08001-la-esmeralda
+2026-02,Barranquilla,Suroccidente,La Manga,h057,Hombre,Sicariato,1,08001,08001-la-manga
+2026-02,Barranquilla,Suroccidente,Los Angeles,h129,Hombre,Sicariato,1,08001,
+2026-02,Barranquilla,Suroccidente,Los Angeles,h129,Mujer,Sicariato,1,08001,
+2026-02,Barranquilla,Suroccidente,Villate,h202,Hombre,Riña,1,08001,08001-villate
+2026-02,Barranquilla,Suroriente,Chiquinquira,h059,Hombre,Sicariato,1,08001,08001-chiquinquira
+2026-02,Barranquilla,Suroriente,Las Nieves,h056,Hombre,Sicariato,1,08001,08001-las-nieves
+2026-02,Barranquilla,Suroriente,Las Nieves,h127,Hombre,Sicariato,2,08001,08001-las-nieves
+2026-02,Barranquilla,Suroriente,Las Nieves,h196,Hombre,Sicariato,1,08001,08001-las-nieves
+2026-02,Barranquilla,Suroriente,Rebolo,h002,Hombre,Sicariato,2,08001,08001-rebolo
+2026-02,Barranquilla,Suroriente,Rebolo,h198,Hombre,Sicariato,1,08001,08001-rebolo
+2026-02,Barranquilla,Suroriente,San Roque,h203,Hombre,Sicariato,1,08001,08001-san-roque
+2026-02,Malambo,Malambo,Caracoli,h147,Hombre,Sicariato,2,08433,08433-caracoli
+2026-02,Malambo,Malambo,El Eden,h149,Hombre,Sicariato,1,08433,08433-el-eden
+2026-02,Malambo,Malambo,Km 14 Sentido Baranoa-Caracoli,h069,Mujer,Sicariato,1,08433,
+2026-02,Malambo,Malambo,Lluvia de Oro,h075,Hombre,Sicariato,1,08433,
+2026-02,Malambo,Malambo,Renacer,h068,Mujer,Sicariato,2,08433,
+2026-02,Malambo,Malambo,Villa Esperanza,h066,Hombre,Sicariato,1,08433,08433-villa-esperanza
+2026-02,Malambo,Malambo,Villa Esperanza,h144,Hombre,Sicariato,1,08433,08433-villa-esperanza
+2026-02,Malambo,Malambo,Villa Esperanza,h146,Hombre,Sicariato,1,08433,08433-villa-esperanza
+2026-02,Puerto Colombia,Puerto Colombia,Brisas,h060,Hombre,Sicariato,1,08573,
+2026-02,Puerto Colombia,Puerto Colombia,Monumento Ventana Al Mundo,h023,Hombre,Sicariato,1,08573,
+2026-02,Soledad,Soledad,12 de Octubre,h014,Hombre,Sicariato,1,08758,
+2026-02,Soledad,Soledad,Cachimbero,h014,Hombre,Sicariato,1,08758,
+2026-02,Soledad,Soledad,Ciudad Paraiso,h075,Hombre,Sicariato,1,08758,08758-ciudad-paraiso
+2026-02,Soledad,Soledad,Ciudad Paraiso,h084,Hombre,Sicariato,1,08758,08758-ciudad-paraiso
+2026-02,Soledad,Soledad,Don Bosco,h027,Hombre,Sicariato,2,08758,08758-don-bosco
+2026-02,Soledad,Soledad,El Chuchal,h087,Hombre,Sicariato,1,08758,
+2026-02,Soledad,Soledad,La Candelaria,h097,Hombre,Sicariato,1,08758,08758-la-candelaria
+2026-02,Soledad,Soledad,La Candelaria Etapa 2,h152,Hombre,Sicariato,1,08758,08758-la-candelaria-2
+2026-02,Soledad,Soledad,Las Colonias,h035,Hombre,Sicariato,1,08758,08758-las-colonias
+2026-02,Soledad,Soledad,Las Ferias,h008,Hombre,Sicariato,1,08758,08758-las-ferias
+2026-02,Soledad,Soledad,Las Gaviotas,h103,Hombre,Sicariato,1,08758,08758-las-gaviotas
+2026-02,Soledad,Soledad,Las Moras,h095,Hombre,Sicariato,1,08758,08758-las-moras
+2026-02,Soledad,Soledad,Normandia,h090,Hombre,Sicariato,1,08758,08758-normandia
+2026-02,Soledad,Soledad,Nueva Esperanza,h029,Hombre,Sicariato,1,08758,
+2026-02,Soledad,Soledad,Nuevo Horizonte,h030,Hombre,Sicariato,1,08758,08758-nuevo-horizonte
+2026-02,Soledad,Soledad,Urbanizacion el Parque,h177,Hombre,Sicariato,1,08758,08758-el-parque
+2026-02,Soledad,Soledad,Villa Estadio,h164,Hombre,Sicariato,1,08758,08758-villa-estadio
+2026-02,Soledad,Soledad,Villa Katanga,h096,Hombre,Sicariato,2,08758,08758-villa-katanga
+2026-02,Soledad,Soledad,Villa Muvdi,h038,Hombre,Sicariato,1,08758,08758-villa-muvdi
+2026-02,Soledad,Soledad,Villa Muvdi,h099,Hombre,Sicariato,1,08758,08758-villa-muvdi
+2026-02,Soledad,Soledad,Villa Sol,h003,Hombre,Sicariato,1,08758,08758-villa-sol
+2026-02,Soledad,Soledad,Villa Zambrano,h090,Hombre,Sicariato,1,08758,08758-villa-zambrano
+2026-02,Soledad,Soledad,Vista Hermosa,h027,Hombre,Sicariato,1,08758,
+2026-02,Soledad,Soledad,Vista Hermosa,h045,Hombre,Sicariato,2,08758,
+2026-02,Soledad,Soledad,Vista Hermosa,h183,Hombre,Sicariato,1,08758,
+2026-03,Barranquilla,Metropolitana,7 de Abril,h041,Hombre,Sicariato,2,08001,08001-7-de-abril
+2026-03,Barranquilla,Metropolitana,Carrizal,h010,Hombre,Sicariato,1,08001,08001-carrizal
+2026-03,Barranquilla,Metropolitana,Carrizal,h171,Hombre,Sicariato,1,08001,08001-carrizal
+2026-03,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h179,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-03,Barranquilla,Metropolitana,La Granja,h036,Hombre,Sicariato,1,08001,
+2026-03,Barranquilla,Metropolitana,La Sierrita,h112,Hombre,Sicariato,1,08001,08001-la-sierrita
+2026-03,Barranquilla,Metropolitana,La Sierrita,h115,Hombre,Sicariato,1,08001,08001-la-sierrita
+2026-03,Barranquilla,Metropolitana,Las Americas,h004,Hombre,Sicariato,1,08001,08001-las-americas
+2026-03,Barranquilla,Metropolitana,Santa Maria,h009,Hombre,Sicariato,1,08001,08001-santa-maria
+2026-03,Barranquilla,Metropolitana,Santo Domingo,h018,Hombre,Sicariato,1,08001,08001-santo-domingo-de-guzman
+2026-03,Barranquilla,Metropolitana,Santuario,h108,Hombre,Sicariato,1,08001,08001-el-santuario
+2026-03,Barranquilla,Metropolitana,Santuario,h185,Hombre,Sicariato,1,08001,08001-el-santuario
+2026-03,Barranquilla,Metropolitana,Villa Sevilla,h015,Hombre,Sicariato,1,08001,08001-villa-sevilla
+2026-03,Barranquilla,Norte-Centro Histórico,Alameda del Rio,h021,Hombre,Sicariato,1,08001,
+2026-03,Barranquilla,Norte-Centro Histórico,Boston,h209,Hombre,Sicariato,1,08001,08001-boston
+2026-03,Barranquilla,Norte-Centro Histórico,La Campiña,h022,Hombre,Sicariato,2,08001,08001-la-campina
+2026-03,Barranquilla,Norte-Centro Histórico,Villanueva,h058,Hombre,Sicariato,1,08001,08001-villanueva
+2026-03,Barranquilla,Sin dato,Santuario,h186,Hombre,Riña,1,08001,08001-el-santuario
+2026-03,Barranquilla,Suroccidente,Bajo Valle,h130,Hombre,Sicariato,1,08001,
+2026-03,Barranquilla,Suroccidente,Bajo Valle,h202,Hombre,Sicariato,1,08001,
+2026-03,Barranquilla,Suroccidente,Ciudad Modesto,h197,Hombre,Sicariato,1,08001,08001-ciudad-modesto
+2026-03,Barranquilla,Suroccidente,El Bosque,h048,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-03,Barranquilla,Suroccidente,El Bosque,h049,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-03,Barranquilla,Suroccidente,El Bosque,h051,Hombre,Hurto,1,08001,08001-el-bosque
+2026-03,Barranquilla,Suroccidente,El Bosque,h118,Hombre,Sicariato,2,08001,08001-el-bosque
+2026-03,Barranquilla,Suroccidente,El Pueblito,h124,Hombre,Sicariato,1,08001,
+2026-03,Barranquilla,Suroccidente,Evaristo Sourdis,h121,Hombre,Sicariato,1,08001,08001-evaristo-sourdis
+2026-03,Barranquilla,Suroccidente,La Esmeralda,h006,Hombre,Hurto,1,08001,08001-la-esmeralda
+2026-03,Barranquilla,Suroccidente,La Esmeralda,h006,Hombre,Sicariato,2,08001,08001-la-esmeralda
+2026-03,Barranquilla,Suroccidente,Lucero,h205,Hombre,Sicariato,1,08001,08001-lucero
+2026-03,Barranquilla,Suroccidente,Olivos 1,h012,Hombre,Sicariato,1,08001,08001-los-olivos-1
+2026-03,Barranquilla,Suroccidente,Pinar del Rio,,Hombre,Riña,1,08001,
+2026-03,Barranquilla,Suroccidente,Santo Domingo,h178,Hombre,Sicariato,1,08001,08001-santo-domingo-de-guzman
+2026-03,Barranquilla,Suroccidente,Villacordialidad,h017,Hombre,Sicariato,1,08001,
+2026-03,Barranquilla,Suroriente,Bella Arena,h108,Hombre,Riña,1,08001,08001-bella-arena
+2026-03,Barranquilla,Suroriente,Centro,h058,Hombre,Sicariato,1,08001,08001-centro
+2026-03,Barranquilla,Suroriente,Las Nieves,h056,Hombre,Sicariato,2,08001,08001-las-nieves
+2026-03,Barranquilla,Suroriente,Las Nieves,h194,Hombre,Sicariato,2,08001,08001-las-nieves
+2026-03,Barranquilla,Suroriente,San Roque,h002,Hombre,Sicariato,1,08001,08001-san-roque
+2026-03,Galapa,Galapa,Villa Olimpica,h166,Hombre,Sicariato,1,08296,08296-villa-olimpica
+2026-03,Malambo,Malambo,Bellavista,h024,Hombre,Sicariato,1,08433,08433-bellavista
+2026-03,Malambo,Malambo,Centro,h070,Hombre,Sicariato,1,08433,
+2026-03,Malambo,Malambo,Correguimiento la Guadua,h147,Hombre,Sicariato,1,08433,
+2026-03,Malambo,Malambo,La Popa,h071,Hombre,Sicariato,1,08433,08433-la-popa
+2026-03,Malambo,Malambo,Montecarlo,h067,Hombre,Sicariato,1,08433,08433-montecarlo
+2026-03,Malambo,Malambo,Paraiso,h148,Hombre,Sicariato,1,08433,08433-paraiso
+2026-03,Malambo,Malambo,San Fernando,h072,Hombre,Sicariato,1,08433,08433-san-fernando
+2026-03,Malambo,Malambo,Villa Flor,h146,Hombre,Sicariato,1,08433,
+2026-03,Malambo,Malambo,Villa Rita 2,h148,Hombre,Sicariato,1,08433,
+2026-03,Puerto Colombia,Puerto Colombia,Altos de Cupiono,h020,Hombre,Sicariato,1,08573,
+2026-03,Puerto Colombia,Puerto Colombia,Loma de Oro,h062,Hombre,Sicariato,1,08573,
+2026-03,Puerto Colombia,Puerto Colombia,Union Paraiso,h060,Hombre,Sicariato,1,08573,
+2026-03,Soledad,Soledad,Ciudad Paraiso,h151,Hombre,Sicariato,2,08758,08758-ciudad-paraiso
+2026-03,Soledad,Soledad,Costa Hermosa,h109,Hombre,Sicariato,1,08758,08758-costa-hermosa
+2026-03,Soledad,Soledad,Hipodromo,h100,Hombre,Sicariato,1,08758,08758-hipodromo
+2026-03,Soledad,Soledad,La Maria,h100,Sin dato,Sin dato,1,08758,
+2026-03,Soledad,Soledad,La Viola,h035,Hombre,Sicariato,1,08758,
+2026-03,Soledad,Soledad,Las Marinas,h104,Hombre,Sicariato,1,08758,
+2026-03,Soledad,Soledad,Las Moras,h015,Hombre,Sicariato,1,08758,08758-las-moras
+2026-03,Soledad,Soledad,Los Almendros,h029,Hombre,Sicariato,1,08758,08758-los-almendros
+2026-03,Soledad,Soledad,Los Almendros,h036,Hombre,Sicariato,1,08758,08758-los-almendros
+2026-03,Soledad,Soledad,Muvdi,h008,Hombre,Sicariato,1,08758,
+2026-03,Soledad,Soledad,Normandia,h003,Hombre,Sicariato,1,08758,08758-normandia
+2026-03,Soledad,Soledad,Nuevo Horizonte,h157,Hombre,Sicariato,1,08758,08758-nuevo-horizonte
+2026-03,Soledad,Soledad,Renacer,h158,Hombre,Sicariato,1,08758,08758-renacer
+2026-03,Soledad,Soledad,Villa Cameloth,h155,Hombre,Sicariato,1,08758,
+2026-03,Soledad,Soledad,Villa Estadio,h030,Hombre,Sicariato,1,08758,08758-villa-estadio
+2026-03,Soledad,Soledad,Villa Katanga,h167,Hombre,Sicariato,1,08758,08758-villa-katanga
+2026-03,Soledad,Soledad,Villa Santa,h013,Hombre,Riña,1,08758,08758-villa-santa
+2026-03,Soledad,Soledad,Villa Sol,h003,Hombre,Sicariato,3,08758,08758-villa-sol
+2026-03,Soledad,Soledad,Villa Soledad,h003,Hombre,Sicariato,1,08758,08758-villa-soledad
+2026-04,Barranquilla,Metropolitana,7 de Abril,h042,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-04,Barranquilla,Metropolitana,7 de Abril,h102,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-04,Barranquilla,Metropolitana,Carrizal,h010,Mujer,Sicariato,1,08001,08001-carrizal
+2026-04,Barranquilla,Metropolitana,Carrizal,h011,Hombre,Sicariato,1,08001,08001-carrizal
+2026-04,Barranquilla,Metropolitana,Carrizal,h106,Hombre,Sicariato,1,08001,08001-carrizal
+2026-04,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h010,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-04,Barranquilla,Metropolitana,La Sierrita,h050,Hombre,Por establecer,1,08001,08001-la-sierrita
+2026-04,Barranquilla,Metropolitana,Las Americas,h018,Hombre,Sicariato,2,08001,08001-las-americas
+2026-04,Barranquilla,Metropolitana,Las Cayenas,h168,Hombre,Sicariato,1,08001,08001-las-cayenas
+2026-04,Barranquilla,Metropolitana,San Jose,h126,Hombre,Por establecer,1,08001,08001-san-jose
+2026-04,Barranquilla,Metropolitana,San Luis,h180,Hombre,Riña,1,08001,08001-san-luis
+2026-04,Barranquilla,Metropolitana,San Luis,h181,Hombre,Sicariato,1,08001,08001-san-luis
+2026-04,Barranquilla,Metropolitana,Santuario,h185,Hombre,Sicariato,2,08001,08001-el-santuario
+2026-04,Barranquilla,Metropolitana,Villa Sevilla,h015,Hombre,Sicariato,1,08001,08001-villa-sevilla
+2026-04,Barranquilla,Norte-Centro Histórico,La Loma,h061,Hombre,Sin dato,1,08001,
+2026-04,Barranquilla,Riomar,Corregimiento la Playa,h142,Hombre,Sicariato,1,08001,08001-corregimiento-la-playa
+2026-04,Barranquilla,Riomar,Las Flores,,Hombre,Por establecer,1,08001,08001-las-flores
+2026-04,Barranquilla,Riomar,Las Flores,h023,Hombre,Por establecer,1,08001,08001-las-flores
+2026-04,Barranquilla,Suroccidente,Ciudadela de la Paz,h124,Hombre,Sicariato,2,08001,08001-la-paz
+2026-04,Barranquilla,Suroccidente,El Bosque,h048,Hombre,Sicariato,2,08001,08001-el-bosque
+2026-04,Barranquilla,Suroccidente,El Bosque,h051,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-04,Barranquilla,Suroccidente,El Bosque,h053,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-04,Barranquilla,Suroccidente,El Bosque,h116,Hombre,Sicariato,2,08001,08001-el-bosque
+2026-04,Barranquilla,Suroccidente,El Bosque,h118,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-04,Barranquilla,Suroccidente,El Bosque,h195,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-04,Barranquilla,Suroccidente,El Valle,h136,Hombre,Sicariato,2,08001,08001-el-valle
+2026-04,Barranquilla,Suroccidente,Evaristo Sourdis,h053,Hombre,Sicariato,2,08001,08001-evaristo-sourdis
+2026-04,Barranquilla,Suroccidente,Evaristo Sourdis,h054,Hombre,Sicariato,1,08001,08001-evaristo-sourdis
+2026-04,Barranquilla,Suroccidente,La Sierrita,h112,Hombre,Sicariato,2,08001,08001-la-sierrita
+2026-04,Barranquilla,Suroccidente,Las Estrellas,h021,Hombre,Sicariato,2,08001,08001-las-estrellas
+2026-04,Barranquilla,Suroccidente,Mequejo,h208,Hombre,Sicariato,1,08001,08001-me-quejo
+2026-04,Barranquilla,Suroccidente,Nueva Colombia,h204,Hombre,Sicariato,1,08001,08001-nueva-colombia
+2026-04,Barranquilla,Suroriente,La Alboraya,h019,Hombre,Sicariato,2,08001,08001-la-alboraya
+2026-04,Barranquilla,Suroriente,Chiquinquira,h059,Hombre,Sicariato,2,08001,08001-chiquinquira
+2026-04,Barranquilla,Suroriente,El Ferry,h001,Hombre,Sicariato,3,08001,08001-el-ferry
+2026-04,Barranquilla,Suroriente,La Luz,h120,Hombre,Sicariato,1,08001,08001-la-luz
+2026-04,Barranquilla,Suroriente,La Luz,h128,Hombre,Sicariato,1,08001,08001-la-luz
+2026-04,Barranquilla,Suroriente,La Magdalena,h182,Hombre,Sicariato,1,08001,08001-la-magdalena
+2026-04,Barranquilla,Suroriente,Las Nieves,h196,Hombre,Sicariato,1,08001,08001-las-nieves
+2026-04,Barranquilla,Suroriente,Rebolo,h139,Hombre,Sicariato,1,08001,08001-rebolo
+2026-04,Barranquilla,Suroriente,San Roque,h138,Hombre,Sicariato,1,08001,08001-san-roque
+2026-04,Barranquilla,Suroriente,Simon Bolivar,h183,Mujer,Sicariato,1,08001,08001-simon-bolivar
+2026-04,Barranquilla,Suroriente,Simon Bolivar,h187,Hombre,Sicariato,2,08001,08001-simon-bolivar
+2026-04,Galapa,Galapa,Kilómetro 13+800 Metros Vía la Prosperidad- Sentido Malambo – Galapa,,Hombre,Sicariato,1,08296,
+2026-04,Galapa,Galapa,Mundo Feliz,h037,Hombre,Sicariato,1,08296,08296-mundo-feliz
+2026-04,Galapa,Galapa,Mundo Feliz Etapa 2,h088,Hombre,Sicariato,1,08296,
+2026-04,Galapa,Galapa,Mundo Feliz Etapa 2,h088,Mujer,Sicariato,1,08296,
+2026-04,Malambo,Malambo,Armonia Social,h025,Hombre,Sicariato,1,08433,08433-armonia-social
+2026-04,Malambo,Malambo,Juan 23,h063,Hombre,Sicariato,1,08433,
+2026-04,Malambo,Malambo,La Manga,h068,Hombre,Sicariato,1,08433,
+2026-04,Malambo,Malambo,La Popa,h071,Hombre,Sicariato,1,08433,08433-la-popa
+2026-04,Malambo,Malambo,Lluvia de Oro,h075,Hombre,Sicariato,1,08433,
+2026-04,Malambo,Malambo,Maranatha,h024,Hombre,Sicariato,1,08433,08433-maranatha
+2026-04,Malambo,Malambo,Nueva Ilusion,h065,Hombre,Sicariato,1,08433,08433-nueva-ilusion
+2026-04,Malambo,Malambo,Villa Bertha,h064,Hombre,Sicariato,1,08433,08433-villa-bertha
+2026-04,Malambo,Malambo,Villa Esperanza,h063,Hombre,Sicariato,1,08433,08433-villa-esperanza
+2026-04,Malambo,Malambo,Villa Rica 2,h067,Hombre,Sicariato,1,08433,08433-villa-rica-2
+2026-04,Puerto Colombia,Puerto Colombia,Sabanilla,,Hombre,Sicariato,1,08573,
+2026-04,Soledad,Soledad,Bello Horizonte,h157,Hombre,Sicariato,1,08758,08758-bello-horizonte
+2026-04,Soledad,Soledad,Ciudad Bonita,h032,Hombre,Sicariato,1,08758,08758-ciudad-bonita
+2026-04,Soledad,Soledad,Costa Hermosa,h001,Hombre,Sicariato,1,08758,08758-costa-hermosa
+2026-04,Soledad,Soledad,Manantial,h030,Hombre,Sicariato,1,08758,08758-el-manantial
+2026-04,Soledad,Soledad,Ferrocarril,h100,Hombre,Sicariato,1,08758,08758-ferrocarril
+2026-04,Soledad,Soledad,Las Margaritas,h044,Hombre,Sicariato,1,08758,
+2026-04,Soledad,Soledad,Los Almendros,h032,Hombre,Sicariato,1,08758,08758-los-almendros
+2026-04,Soledad,Soledad,Los Almendros,h033,Hombre,Sicariato,1,08758,08758-los-almendros
+2026-04,Soledad,Soledad,Los Almendros,h142,Mujer,Por establecer,1,08758,08758-los-almendros
+2026-04,Soledad,Soledad,Los Cedros,h034,Hombre,Sicariato,1,08758,08758-los-cedros
+2026-04,Soledad,Soledad,Los Ángeles,h029,Hombre,Sicariato,1,08758,
+2026-04,Soledad,Soledad,Nuevo Horizonte,h089,Hombre,Sicariato,1,08758,08758-nuevo-horizonte
+2026-04,Soledad,Soledad,Porvenir,h093,Hombre,Sicariato,1,08758,08758-porvenir
+2026-04,Soledad,Soledad,Villa Adela,h028,Hombre,Sicariato,1,08758,
+2026-04,Soledad,Soledad,Villa Estadio,h030,Hombre,Sicariato,1,08758,08758-villa-estadio
+2026-04,Soledad,Soledad,Villa del Carmen,h155,Hombre,Sicariato,1,08758,08758-villa-del-carmen
+2026-04,Soledad,Soledad,Villa del Rey,h028,Hombre,Sicariato,1,08758,08758-villa-del-rey
+2026-05,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h040,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-05,Barranquilla,Metropolitana,7 de Abril,h042,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-05,Barranquilla,Metropolitana,7 de Abril,h107,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-05,Barranquilla,Metropolitana,7 de Abril,h171,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-05,Barranquilla,Metropolitana,7 de Abril,h175,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-05,Barranquilla,Metropolitana,Carrizal,h004,Hombre,Sicariato,1,08001,08001-carrizal
+2026-05,Barranquilla,Metropolitana,Carrizal,h011,Hombre,Sicariato,1,08001,08001-carrizal
+2026-05,Barranquilla,Metropolitana,Carrizal,h107,Hombre,Sicariato,1,08001,08001-carrizal
+2026-05,Barranquilla,Metropolitana,Carrizal,h110,Hombre,Sicariato,1,08001,08001-carrizal
+2026-05,Barranquilla,Metropolitana,Carrizal,h110,Hombre,Sin dato,1,08001,08001-carrizal
+2026-05,Barranquilla,Metropolitana,Carrizal,h171,Hombre,Sicariato,1,08001,08001-carrizal
+2026-05,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h172,Hombre,Riña,1,08001,08001-20-de-julio
+2026-05,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h179,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-05,Barranquilla,Metropolitana,La Sierrita,h047,Hombre,Hurto,1,08001,08001-la-sierrita
+2026-05,Barranquilla,Metropolitana,La Sierrita,h047,Hombre,Sicariato,1,08001,08001-la-sierrita
+2026-05,Barranquilla,Metropolitana,La Sierrita,h112,Mujer,Sicariato,1,08001,08001-la-sierrita
+2026-05,Barranquilla,Metropolitana,La Sierrita,h113,Hombre,Riña,2,08001,08001-la-sierrita
+2026-05,Barranquilla,Metropolitana,La Sierrita,h113,Hombre,Sicariato,1,08001,08001-la-sierrita
+2026-05,Barranquilla,Metropolitana,Las Americas,h018,Hombre,Sicariato,1,08001,08001-las-americas
+2026-05,Barranquilla,Metropolitana,Santa Maria,h102,Hombre,Sicariato,1,08001,08001-santa-maria
+2026-05,Barranquilla,Metropolitana,Santo Domingo,h009,Hombre,Sicariato,1,08001,08001-santo-domingo-de-guzman
+2026-05,Barranquilla,Metropolitana,Santo Domingo,h016,Hombre,Sicariato,1,08001,08001-santo-domingo-de-guzman
+2026-05,Barranquilla,Norte-Centro Histórico,Granadillo,h022,Hombre,Sicariato,1,08001,08001-granadillo
+2026-05,Barranquilla,Norte-Centro Histórico,La Sierrita,h047,Hombre,Sicariato,1,08001,08001-la-sierrita
+2026-05,Barranquilla,Norte-Centro Histórico,Villanueva,h058,Hombre,Sicariato,2,08001,08001-villanueva
+2026-05,Barranquilla,Riomar,Tabor,h022,Hombre,Sicariato,1,08001,08001-el-tabor
+2026-05,Barranquilla,Suroccidente,El Bosque,h048,Hombre,Sin dato,1,08001,08001-el-bosque
+2026-05,Barranquilla,Suroccidente,El Bosque,h049,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-05,Barranquilla,Suroccidente,El Bosque,h116,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-05,Barranquilla,Suroccidente,El Bosque,h122,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-05,Barranquilla,Suroccidente,El Bosque,h192,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-05,Barranquilla,Suroccidente,El Bosque,h195,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-05,Barranquilla,Suroccidente,Evaristo Sourdis,h054,Hombre,Sicariato,2,08001,08001-evaristo-sourdis
+2026-05,Barranquilla,Suroccidente,La Ceiba,h125,Hombre,Sicariato,1,08001,08001-la-ceiba
+2026-05,Barranquilla,Suroccidente,La Esmeralda,h006,Hombre,Sicariato,2,08001,08001-la-esmeralda
+2026-05,Barranquilla,Suroccidente,Mequejo,h208,Hombre,Sicariato,1,08001,08001-me-quejo
+2026-05,Barranquilla,Suroccidente,San Isidro,h205,Hombre,Sicariato,1,08001,08001-san-isidro
+2026-05,Barranquilla,Suroccidente,San Luis,h017,Hombre,Sicariato,1,08001,08001-san-luis
+2026-05,Barranquilla,Suroccidente,Santo Domingo,h009,Hombre,Sicariato,1,08001,08001-santo-domingo-de-guzman
+2026-05,Barranquilla,Suroccidente,Sin barrio,h199,Hombre,Riña,1,08001,
+2026-05,Barranquilla,Suroccidente,Villa San Pedro 2,h017,Hombre,Sicariato,1,08001,08001-villa-san-pedro-2
+2026-05,Barranquilla,Suroriente,Brisas del Rio,h045,Mujer,Sicariato,1,08001,
+2026-05,Barranquilla,Suroriente,El Ferry,h188,Hombre,Sicariato,1,08001,08001-el-ferry
+2026-05,Barranquilla,Suroriente,La Luz,h120,Hombre,Sicariato,1,08001,08001-la-luz
+2026-05,Barranquilla,Suroriente,La Luz,h123,Hombre,Sicariato,1,08001,08001-la-luz
+2026-05,Barranquilla,Suroriente,Las Palmas,h182,Hombre,Riña,1,08001,08001-las-palmas
+2026-05,Barranquilla,Suroriente,Montes,h055,Hombre,Sicariato,1,08001,08001-montes
+2026-05,Barranquilla,Suroriente,Montes,h131,Hombre,Sicariato,1,08001,08001-montes
+2026-05,Barranquilla,Suroriente,Rebolo,h128,Hombre,Sicariato,1,08001,08001-rebolo
+2026-05,Barranquilla,Suroriente,Rebolo,h139,Hombre,Sicariato,1,08001,08001-rebolo
+2026-05,Barranquilla,Suroriente,San Roque,h138,Hombre,Sicariato,1,08001,08001-san-roque
+2026-05,Barranquilla,Suroriente,San Roque,h141,Hombre,Sicariato,1,08001,08001-san-roque
+2026-05,Barranquilla,Suroriente,Simon Bolivar,h191,Hombre,Sicariato,1,08001,08001-simon-bolivar
+2026-05,Malambo,Malambo,Bellavista,h150,Hombre,Sicariato,1,08433,08433-bellavista
+2026-05,Malambo,Malambo,Cañahuate,h024,Hombre,Sicariato,1,08433,
+2026-05,Malambo,Malambo,Cañahuate,h026,Hombre,Sicariato,1,08433,
+2026-05,Malambo,Malambo,El Concord,h074,Hombre,Sicariato,1,08433,08433-el-concord
+2026-05,Malambo,Malambo,Paraiso,h025,Hombre,Sicariato,2,08433,08433-paraiso
+2026-05,Malambo,Malambo,Malambo,h069,Hombre,Sicariato,1,08433,08433-malambo
+2026-05,Malambo,Malambo,Marquetalia,h150,Hombre,Sicariato,1,08433,
+2026-05,Malambo,Malambo,Mi Ranchito,h145,Hombre,Sicariato,1,08433,
+2026-05,Malambo,Malambo,San Fernando,h071,Hombre,Sicariato,2,08433,08433-san-fernando
+2026-05,Malambo,Malambo,Villa Esperanza,h064,Hombre,Sin dato,1,08433,08433-villa-esperanza
+2026-05,Malambo,Malambo,Villa Esperanza,h066,Hombre,Sicariato,2,08433,08433-villa-esperanza
+2026-05,Soledad,Soledad,Ciudad Cortizo,h007,Hombre,Sicariato,1,08758,08758-ciudad-cortizo
+2026-05,Soledad,Soledad,Ciudad Cortizo,h158,Hombre,Sin dato,1,08758,08758-ciudad-cortizo
+2026-05,Soledad,Soledad,Costa Hermosa,h044,Hombre,Sicariato,1,08758,08758-costa-hermosa
+2026-05,Soledad,Soledad,La Ilusion,h078,Hombre,Sicariato,1,08758,08758-la-ilusion
+2026-05,Soledad,Soledad,Las Colmenas,h008,Hombre,Sicariato,1,08758,
+2026-05,Soledad,Soledad,Las Colonias,h090,Hombre,Sicariato,1,08758,08758-las-colonias
+2026-05,Soledad,Soledad,Las Moras,h095,Hombre,Sicariato,1,08758,08758-las-moras
+2026-05,Soledad,Soledad,Las Nubes,h091,Hombre,Sicariato,1,08758,08758-las-nubes
+2026-05,Soledad,Soledad,Las Nubes,h091,Mujer,Sicariato,1,08758,08758-las-nubes
+2026-05,Soledad,Soledad,Los Almendros,h029,Hombre,Sicariato,1,08758,08758-los-almendros
+2026-05,Soledad,Soledad,Los Almendros,h036,Hombre,Sicariato,1,08758,08758-los-almendros
+2026-05,Soledad,Soledad,Los Cedros,h034,Hombre,Sicariato,2,08758,08758-los-cedros
+2026-05,Soledad,Soledad,Los Cedros,h163,Hombre,Sicariato,1,08758,08758-los-cedros
+2026-05,Soledad,Soledad,Los Cedros,h163,Mujer,Sicariato,1,08758,08758-los-cedros
+2026-05,Soledad,Soledad,Los Cerezos,h082,Hombre,Sicariato,1,08758,08758-los-cerezos
+2026-05,Soledad,Soledad,Manantial,h083,Hombre,Sicariato,1,08758,08758-el-manantial
+2026-05,Soledad,Soledad,Nuevo Triunfo,h014,Hombre,Sicariato,1,08758,
+2026-05,Soledad,Soledad,Porvenir,h039,Hombre,Sin dato,1,08758,08758-porvenir
+2026-05,Soledad,Soledad,Primero de Mayo,h046,Hombre,Sicariato,1,08758,08758-1-de-mayo
+2026-05,Soledad,Soledad,Primero de Mayo,h184,Hombre,Sicariato,1,08758,08758-1-de-mayo
+2026-05,Soledad,Soledad,Pumarejo,h031,Hombre,Sicariato,1,08758,08758-pumarejo
+2026-05,Soledad,Soledad,Renacer,h033,Hombre,Sicariato,1,08758,08758-renacer
+2026-05,Soledad,Soledad,Terranova,h095,Hombre,Sicariato,1,08758,
+2026-05,Soledad,Soledad,Villa Nueva,h028,Hombre,Sicariato,1,08758,
+2026-05,Soledad,Soledad,Villa Selene,h077,Hombre,Sicariato,1,08758,08758-villa-selene
+2026-05,Soledad,Soledad,Villa Soledad,h003,Hombre,Sicariato,1,08758,08758-villa-soledad
+2026-05,Soledad,Soledad,Villa Zambrano,h038,Hombre,Sicariato,1,08758,08758-villa-zambrano
+2026-05,Soledad,Soledad,Viña del Rey,h156,Hombre,Sicariato,1,08758,
+2026-06,Barranquilla,Metropolitana,7 de Abril,h102,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-06,Barranquilla,Metropolitana,7 de Abril,h175,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-06,Barranquilla,Metropolitana,Carrizal,h010,Hombre,Sicariato,1,08001,08001-carrizal
+2026-06,Barranquilla,Metropolitana,Ciudadela,h106,Hombre,Sicariato,1,08001,
+2026-06,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h169,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-06,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h172,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-06,Barranquilla,Metropolitana,La Sierrita,h050,Hombre,Sicariato,1,08001,08001-la-sierrita
+2026-06,Barranquilla,Metropolitana,La Sierrita,h115,Hombre,Sicariato,1,08001,08001-la-sierrita
+2026-06,Barranquilla,Metropolitana,Las Americas,h004,Hombre,Sicariato,1,08001,08001-las-americas
+2026-06,Barranquilla,Metropolitana,Las Americas,h018,Hombre,Sicariato,1,08001,08001-las-americas
+2026-06,Barranquilla,Metropolitana,Las Americas,h047,Hombre,Sicariato,1,08001,08001-las-americas
+2026-06,Barranquilla,Metropolitana,Las Gardenias,h005,Hombre,Sicariato,2,08001,08001-las-gardenias
+2026-06,Barranquilla,Metropolitana,Santo Domingo,h178,Hombre,Sicariato,1,08001,08001-santo-domingo-de-guzman
+2026-06,Barranquilla,Metropolitana,Villa San Carlos,h043,Hombre,Sicariato,1,08001,08001-villa-san-carlos
+2026-06,Barranquilla,Metropolitana,Villa San Pedro 2,h005,Hombre,Sicariato,1,08001,08001-villa-san-pedro-2
+2026-06,Barranquilla,Metropolitana,Villa San Pedro 2,h017,Hombre,Sicariato,1,08001,08001-villa-san-pedro-2
+2026-06,Barranquilla,Norte-Centro Histórico,Barlovento,h061,Hombre,Sicariato,1,08001,08001-barlovento
+2026-06,Barranquilla,Norte-Centro Histórico,Centro,h059,Hombre,Sicariato,1,08001,08001-centro
+2026-06,Barranquilla,Norte-Centro Histórico,Montecristo,h209,Hombre,Sicariato,1,08001,08001-montecristo
+2026-06,Barranquilla,Riomar,San Francisco,,Hombre,Sicariato,1,08001,08001-san-francisco
+2026-06,Barranquilla,Suroccidente,Ciudadela 20 de Julio,h190,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-06,Barranquilla,Suroccidente,Alfonso Lopez,h131,Hombre,Sicariato,1,08001,08001-alfonso-lopez
+2026-06,Barranquilla,Suroccidente,Bajo Valle,h135,Hombre,Riña,1,08001,
+2026-06,Barranquilla,Suroccidente,Ciudad Modesto,h057,Hombre,Sicariato,1,08001,08001-ciudad-modesto
+2026-06,Barranquilla,Suroccidente,Ciudad Modesto,h201,Hombre,Sicariato,1,08001,08001-ciudad-modesto
+2026-06,Barranquilla,Suroccidente,El Bosque,h051,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-06,Barranquilla,Suroccidente,El Bosque,h115,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-06,Barranquilla,Suroccidente,El Bosque,h192,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-06,Barranquilla,Suroccidente,El Bosque,h195,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-06,Barranquilla,Suroccidente,El Eden,h012,Hombre,Sicariato,1,08001,
+2026-06,Barranquilla,Suroccidente,El Pueblito,h117,Hombre,Por establecer,1,08001,
+2026-06,Barranquilla,Suroccidente,El Valle,h125,Hombre,Sicariato,1,08001,08001-el-valle
+2026-06,Barranquilla,Suroccidente,La Esmeralda,h200,Hombre,Sicariato,2,08001,08001-la-esmeralda
+2026-06,Barranquilla,Suroccidente,La Esmeralda,h201,Hombre,Sicariato,2,08001,08001-la-esmeralda
+2026-06,Barranquilla,Suroccidente,Las Malvinas,h189,Hombre,Riña,1,08001,08001-las-malvinas
+2026-06,Barranquilla,Suroccidente,Las Malvinas,h189,Hombre,Sicariato,2,08001,08001-las-malvinas
+2026-06,Barranquilla,Suroccidente,Lipaya,h122,Hombre,Sicariato,1,08001,08001-lipaya
+2026-06,Barranquilla,Suroccidente,Los Andes,h136,Hombre,Sicariato,1,08001,08001-los-andes
+2026-06,Barranquilla,Suroccidente,Los Olivos,h012,Hombre,Sicariato,4,08001,
+2026-06,Barranquilla,Suroccidente,Los Olivos,h133,Hombre,Sicariato,1,08001,
+2026-06,Barranquilla,Suroccidente,Los Olivos,h133,Mujer,Sicariato,1,08001,
+2026-06,Barranquilla,Suroccidente,Los Pinos,h205,Hombre,Sicariato,1,08001,08001-los-pinos
+2026-06,Barranquilla,Suroccidente,Mequejo,h207,Hombre,Sicariato,2,08001,08001-me-quejo
+2026-06,Barranquilla,Suroccidente,Montes,h055,Hombre,Sicariato,1,08001,08001-montes
+2026-06,Barranquilla,Suroccidente,Nueva Colombia,h204,Hombre,Sicariato,1,08001,08001-nueva-colombia
+2026-06,Barranquilla,Suroccidente,San Felipe,h134,Hombre,Sicariato,1,08001,08001-san-felipe
+2026-06,Barranquilla,Suroccidente,Santuario,h186,Hombre,Sicariato,1,08001,08001-el-santuario
+2026-06,Barranquilla,Suroriente,El Ferry,h001,Hombre,Sicariato,2,08001,08001-el-ferry
+2026-06,Barranquilla,Suroriente,La Luz,h097,Hombre,Sicariato,1,08001,08001-la-luz
+2026-06,Barranquilla,Suroriente,La Luz,h128,Hombre,Sicariato,1,08001,08001-la-luz
+2026-06,Barranquilla,Suroriente,La Luz,h198,Hombre,Sicariato,1,08001,08001-la-luz
+2026-06,Barranquilla,Suroriente,Las Nieves,h191,Hombre,Riña,1,08001,08001-las-nieves
+2026-06,Barranquilla,Suroriente,Las Nieves,h194,Hombre,Sicariato,1,08001,08001-las-nieves
+2026-06,Barranquilla,Suroriente,Rebolo,h137,Hombre,Sicariato,2,08001,08001-rebolo
+2026-06,Barranquilla,Suroriente,Rebolo,h141,Hombre,Sicariato,1,08001,08001-rebolo
+2026-06,Galapa,Galapa,Villa Olimpica,h166,Hombre,Sicariato,1,08296,08296-villa-olimpica
+2026-06,Malambo,Malambo,Barrio Abajo,h070,Hombre,Sicariato,1,08433,
+2026-06,Malambo,Malambo,Condor,h074,Hombre,Sicariato,1,08433,
+2026-06,Malambo,Malambo,Cristo Rey,h073,Hombre,Sicariato,1,08433,08433-cristo-rey
+2026-06,Malambo,Malambo,El Concord,h073,Hombre,Sicariato,1,08433,08433-el-concord
+2026-06,Malambo,Malambo,El Concord,h074,Hombre,Sicariato,1,08433,08433-el-concord
+2026-06,Malambo,Malambo,La Milagrosa,h064,Hombre,Sicariato,1,08433,08433-la-milagrosa
+2026-06,Malambo,Malambo,Sin barrio,h014,Hombre,Sicariato,1,08433,
+2026-06,Malambo,Malambo,Villa Esperanza,h063,Hombre,Sicariato,1,08433,08433-villa-esperanza
+2026-06,Malambo,Malambo,Villa Esperanza,h066,Hombre,Sicariato,1,08433,08433-villa-esperanza
+2026-06,Malambo,Malambo,Villa Esperanza,h067,Hombre,Sicariato,1,08433,08433-villa-esperanza
+2026-06,Malambo,Malambo,Villa Esperanza,h144,Hombre,Sicariato,1,08433,08433-villa-esperanza
+2026-06,Puerto Colombia,Puerto Colombia,Miramar,h062,Hombre,Sicariato,1,08573,
+2026-06,Puerto Colombia,Puerto Colombia,Pradomar,h062,Hombre,Sicariato,2,08573,08573-pradomar
+2026-06,Puerto Colombia,Puerto Colombia,Villa Campestre,h143,Mujer,Sicariato,1,08573,08573-villa-campestre
+2026-06,Puerto Colombia,Puerto Colombia,Villa Santos,h142,Hombre,Sicariato,1,08573,
+2026-06,Soledad,Soledad,Barria las Marinas,h105,Hombre,Sicariato,1,08758,
+2026-06,Soledad,Soledad,Ciudad Bolivar,h161,Hombre,Sicariato,3,08758,08758-ciudad-bolivar
+2026-06,Soledad,Soledad,Ciudad Bonita,h076,Hombre,Sicariato,1,08758,08758-ciudad-bonita
+2026-06,Soledad,Soledad,Ciudad Cortizo,h086,Hombre,Sicariato,2,08758,08758-ciudad-cortizo
+2026-06,Soledad,Soledad,Ciudad Paraiso,h078,Sin dato,Sin dato,1,08758,08758-ciudad-paraiso
+2026-06,Soledad,Soledad,Ciudad Paraiso,h079,Mujer,Sicariato,1,08758,08758-ciudad-paraiso
+2026-06,Soledad,Soledad,Costa Hermosa,h109,Hombre,Sicariato,1,08758,08758-costa-hermosa
+2026-06,Soledad,Soledad,El Esfuerzo,h007,Hombre,Sicariato,1,08758,08758-el-esfuerzo
+2026-06,Soledad,Soledad,El Prado,h173,Hombre,Sicariato,1,08758,
+2026-06,Soledad,Soledad,El Tucan,h104,Hombre,Sicariato,1,08758,08758-el-tucan
+2026-06,Soledad,Soledad,Ferrocarril,h094,Hombre,Sicariato,1,08758,08758-ferrocarril
+2026-06,Soledad,Soledad,Ferrocarril,h094,Mujer,Sicariato,1,08758,08758-ferrocarril
+2026-06,Soledad,Soledad,Hospital Universidad del Norte - Soledad,h084,Hombre,Sicariato,1,08758,
+2026-06,Soledad,Soledad,Invasion el Yucal,h076,Hombre,Sicariato,1,08758,
+2026-06,Soledad,Soledad,Invasion los Angeles,h029,Hombre,Sicariato,1,08758,
+2026-06,Soledad,Soledad,La Arboleda,h099,Hombre,Sicariato,1,08758,08758-la-arboleda
+2026-06,Soledad,Soledad,Las Colinas,h013,Hombre,Sicariato,1,08758,08758-las-colinas
+2026-06,Soledad,Soledad,Las Colonias,h013,Hombre,Sicariato,1,08758,08758-las-colonias
+2026-06,Soledad,Soledad,Las Maria,h101,Hombre,Sicariato,1,08758,
+2026-06,Soledad,Soledad,Las Moras,h015,Hombre,Sicariato,2,08758,08758-las-moras
+2026-06,Soledad,Soledad,Las Moras,h096,Hombre,Sicariato,1,08758,08758-las-moras
+2026-06,Soledad,Soledad,Las Trinitarias,h015,Hombre,Riña,1,08758,08758-las-trinitarias
+2026-06,Soledad,Soledad,Los Almendros,h033,Hombre,Sicariato,3,08758,08758-los-almendros
+2026-06,Soledad,Soledad,Los Manantiales,h160,Hombre,Sicariato,1,08758,08758-los-manantiales
+2026-06,Soledad,Soledad,Manantial,h160,Hombre,Sicariato,1,08758,08758-el-manantial
+2026-06,Soledad,Soledad,Manuela Beltran,h085,Hombre,Sicariato,1,08758,08758-manuela-beltran
+2026-06,Soledad,Soledad,Normandia,h003,Hombre,Sicariato,1,08758,08758-normandia
+2026-06,Soledad,Soledad,Portal las Moras,h097,Hombre,Sicariato,1,08758,
+2026-06,Soledad,Soledad,Porvenir,h039,Hombre,Sicariato,1,08758,08758-porvenir
+2026-06,Soledad,Soledad,Sin barrio,h081,Hombre,Sicariato,1,08758,
+2026-06,Soledad,Soledad,Sin barrio,h164,Hombre,Sicariato,1,08758,
+2026-06,Soledad,Soledad,Tajamar,h091,Hombre,Sicariato,1,08758,
+2026-06,Soledad,Soledad,Terra Nova 2,h081,Hombre,Sicariato,1,08758,
+2026-06,Soledad,Soledad,Terranova,h160,Hombre,Sicariato,1,08758,
+2026-06,Soledad,Soledad,Villa Adela,h085,Hombre,Sicariato,1,08758,
+2026-06,Soledad,Soledad,Villa Estadio,h098,Hombre,Sicariato,1,08758,08758-villa-estadio
+2026-06,Soledad,Soledad,Villa Estadio,h162,Hombre,Sicariato,1,08758,08758-villa-estadio
+2026-06,Soledad,Soledad,Villa Karla,h080,Hombre,Sicariato,1,08758,08758-villa-karla
+2026-06,Soledad,Soledad,Villa Katanga,h038,Hombre,Sicariato,1,08758,08758-villa-katanga
+2026-06,Soledad,Soledad,Villa Lozano,h008,Hombre,Sicariato,1,08758,08758-villa-lozano
+2026-06,Soledad,Soledad,Villa Selene,h077,Hombre,Sicariato,1,08758,08758-villa-selene
+2026-06,Soledad,Soledad,Villa Soledad,h003,Hombre,Sicariato,1,08758,08758-villa-soledad
+2026-06,Soledad,Soledad,Villa del Carmen,h081,Hombre,Sicariato,1,08758,08758-villa-del-carmen
+2026-07,Barranquilla,Metropolitana,7 de Abril,h009,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-07,Barranquilla,Metropolitana,7 de Abril,h041,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-07,Barranquilla,Metropolitana,7 de Abril,h042,Hombre,Sicariato,2,08001,08001-7-de-abril
+2026-07,Barranquilla,Metropolitana,7 de Abril,h168,Hombre,Sicariato,2,08001,08001-7-de-abril
+2026-07,Barranquilla,Metropolitana,Carrizal,h011,Hombre,Sicariato,2,08001,08001-carrizal
+2026-07,Barranquilla,Metropolitana,Carrizal,h110,Hombre,Sicariato,2,08001,08001-carrizal
+2026-07,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h170,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-07,Barranquilla,Metropolitana,La Sierrita,h050,Hombre,Riña,1,08001,08001-la-sierrita
+2026-07,Barranquilla,Metropolitana,La Sierrita,h050,Hombre,Sicariato,1,08001,08001-la-sierrita
+2026-07,Barranquilla,Metropolitana,Santa Maria,h040,Hombre,Sicariato,1,08001,08001-santa-maria
+2026-07,Barranquilla,Metropolitana,Santa Maria,h174,Hombre,Sicariato,1,08001,08001-santa-maria
+2026-07,Barranquilla,Metropolitana,Villa San Carlos,h043,Hombre,Sicariato,1,08001,08001-villa-san-carlos
+2026-07,Barranquilla,Norte-Centro Histórico,Barranquillita,h061,Hombre,Sicariato,1,08001,
+2026-07,Barranquilla,Norte-Centro Histórico,El Prado,h209,Hombre,Sicariato,1,08001,08001-el-prado
+2026-07,Barranquilla,Norte-Centro Histórico,Villanueva,h058,Hombre,Sicariato,1,08001,08001-villanueva
+2026-07,Barranquilla,Riomar,Las Flores,,Hombre,Sicariato,1,08001,08001-las-flores
+2026-07,Barranquilla,Riomar,Las Flores,h023,Hombre,Sicariato,1,08001,08001-las-flores
+2026-07,Barranquilla,Sin dato,El Bosque,h122,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-07,Barranquilla,Sin dato,La Chinita,h120,Hombre,Sicariato,1,08001,08001-la-chinita
+2026-07,Barranquilla,Sin dato,Los Olivos 2,h133,Hombre,Sicariato,1,08001,08001-los-olivos-2
+2026-07,Barranquilla,Sin dato,Nueva Colombia,h057,Hombre,Sicariato,1,08001,08001-nueva-colombia
+2026-07,Barranquilla,Sin dato,Pasadena,h187,Hombre,Sicariato,1,08001,08001-pasadena
+2026-07,Barranquilla,Suroccidente,Alfonso Lopez,h131,Hombre,Sicariato,1,08001,08001-alfonso-lopez
+2026-07,Barranquilla,Suroccidente,El Bosque,h049,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-07,Barranquilla,Suroccidente,El Bosque,h051,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-07,Barranquilla,Suroccidente,El Bosque,h119,Hombre,Sicariato,3,08001,08001-el-bosque
+2026-07,Barranquilla,Suroccidente,El Eden,h208,Hombre,Sicariato,1,08001,
+2026-07,Barranquilla,Suroccidente,El Rubi,h021,Hombre,Sicariato,1,08001,08001-el-rubi
+2026-07,Barranquilla,Suroccidente,El Silencio,h140,Hombre,Por establecer,1,08001,08001-el-silencio
+2026-07,Barranquilla,Suroccidente,El Valle,h135,Hombre,Sicariato,1,08001,08001-el-valle
+2026-07,Barranquilla,Suroccidente,La Esmeralda,h202,Hombre,Sicariato,1,08001,08001-la-esmeralda
+2026-07,Barranquilla,Suroccidente,Lipaya,h053,Hombre,Sicariato,1,08001,08001-lipaya
+2026-07,Barranquilla,Suroccidente,Nueva Colombia,h134,Mujer,Sicariato,1,08001,08001-nueva-colombia
+2026-07,Barranquilla,Suroccidente,Nueva Colombia,h135,Hombre,Sicariato,1,08001,08001-nueva-colombia
+2026-07,Barranquilla,Suroccidente,San Felipe,h135,Hombre,Sicariato,1,08001,08001-san-felipe
+2026-07,Barranquilla,Suroccidente,Villa San Pablo,h199,Hombre,Sicariato,1,08001,08001-villas-de-san-pablo
+2026-07,Barranquilla,Suroccidente,Villate,h192,Hombre,Sicariato,1,08001,08001-villate
+2026-07,Barranquilla,Suroriente,El Ferry,h001,Hombre,Sicariato,4,08001,08001-el-ferry
+2026-07,Barranquilla,Suroriente,El Ferry,h188,Hombre,Sicariato,2,08001,08001-el-ferry
+2026-07,Barranquilla,Suroriente,La Alboraya,h019,Hombre,Riña,1,08001,08001-la-alboraya
+2026-07,Barranquilla,Suroriente,La Luz,h056,Hombre,Sicariato,1,08001,08001-la-luz
+2026-07,Barranquilla,Suroriente,La Luz,h123,Hombre,Sicariato,1,08001,08001-la-luz
+2026-07,Barranquilla,Suroriente,La Luz,h198,Hombre,Sicariato,1,08001,08001-la-luz
+2026-07,Barranquilla,Suroriente,Las Nieves,h052,Hombre,Sicariato,1,08001,08001-las-nieves
+2026-07,Barranquilla,Suroriente,Las Nieves,h056,Hombre,Sicariato,1,08001,08001-las-nieves
+2026-07,Barranquilla,Suroriente,Montes,h203,Hombre,Sicariato,1,08001,08001-montes
+2026-07,Barranquilla,Suroriente,Rebolo,h002,Hombre,Sicariato,1,08001,08001-rebolo
+2026-07,Barranquilla,Suroriente,Rebolo,h132,Hombre,Sicariato,3,08001,08001-rebolo
+2026-07,Barranquilla,Suroriente,Rebolo,h137,Hombre,Sicariato,1,08001,08001-rebolo
+2026-07,Barranquilla,Suroriente,Rebolo,h141,Hombre,Sicariato,1,08001,08001-rebolo
+2026-07,Barranquilla,Suroriente,Rebolo,h203,Hombre,Sicariato,1,08001,08001-rebolo
+2026-07,Barranquilla,Suroriente,San Roque,h002,Hombre,Sicariato,2,08001,08001-san-roque
+2026-07,Barranquilla,Suroriente,Simon Bolivar,h183,Hombre,Sicariato,1,08001,08001-simon-bolivar
+2026-07,Galapa,Galapa,Avenida Cordialidad,,Hombre,Sicariato,1,08296,
+2026-07,Galapa,Galapa,Mundo Feliz,h037,Hombre,Sicariato,1,08296,08296-mundo-feliz
+2026-07,Malambo,Malambo,Bellavista,h145,Hombre,Sicariato,1,08433,08433-bellavista
+2026-07,Malambo,Malambo,Ciudadela Real del Caribe,h094,Hombre,Sicariato,1,08433,08433-real-del-caribe
+2026-07,Malambo,Malambo,Mesolandia,h007,Hombre,Sicariato,1,08433,08433-mesolandia
+2026-07,Malambo,Malambo,Mesolandia,h064,Hombre,Sicariato,1,08433,08433-mesolandia
+2026-07,Malambo,Malambo,Miraflor 2 Etapa,h145,Hombre,Sicariato,1,08433,
+2026-07,Malambo,Malambo,Paraiso,h063,Hombre,Riña,1,08433,08433-paraiso
+2026-07,Malambo,Malambo,San Antonio,h146,Hombre,Sicariato,1,08433,
+2026-07,Malambo,Malambo,San Jose,h065,Hombre,Sicariato,1,08433,
+2026-07,Puerto Colombia,Puerto Colombia,Altos de la Risota,h020,Hombre,Sicariato,1,08573,
+2026-07,Puerto Colombia,Puerto Colombia,Altos de los Girasoles,h020,Hombre,Sicariato,1,08573,
+2026-07,Puerto Colombia,Puerto Colombia,Miramar,h142,Hombre,Sicariato,1,08573,
+2026-07,Puerto Colombia,Puerto Colombia,Sabanilla,,Hombre,Por establecer,1,08573,
+2026-07,Soledad,Soledad,Almendro Campestre,h032,Hombre,Sicariato,1,08758,
+2026-07,Soledad,Soledad,Ciudad del Parque,h032,Hombre,Sicariato,1,08758,08758-ciudad-del-parque
+2026-07,Soledad,Soledad,Ciudadela Metropolitana,h084,Hombre,Sicariato,1,08758,08758-metropolitana
+2026-07,Soledad,Soledad,Don Bosco,h027,Mujer,Sicariato,1,08758,08758-don-bosco
+2026-07,Soledad,Soledad,El Oasis,h093,Hombre,Sicariato,1,08758,08758-el-oasis
+2026-07,Soledad,Soledad,Ferrocarril,h101,Hombre,Sicariato,1,08758,08758-ferrocarril
+2026-07,Soledad,Soledad,Hipodromo,h101,Hombre,Sicariato,1,08758,08758-hipodromo
+2026-07,Soledad,Soledad,Invasion las Colinas,h076,Hombre,Sicariato,1,08758,
+2026-07,Soledad,Soledad,Juan Dominguez Romero,h092,Hombre,Sicariato,1,08758,
+2026-07,Soledad,Soledad,La Central,h152,Hombre,Sicariato,1,08758,08758-la-central
+2026-07,Soledad,Soledad,La Maria,h101,Hombre,Sicariato,1,08758,
+2026-07,Soledad,Soledad,Las Margaritas,h109,Hombre,Sicariato,1,08758,
+2026-07,Soledad,Soledad,Los Manantiales,h083,Hombre,Sicariato,1,08758,08758-los-manantiales
+2026-07,Soledad,Soledad,Los Robles,h163,Hombre,Sicariato,1,08758,08758-los-robles
+2026-07,Soledad,Soledad,Manuela Beltran,h085,Hombre,Sicariato,1,08758,08758-manuela-beltran
+2026-07,Soledad,Soledad,Nuevo Horizonte,h030,Hombre,Sicariato,1,08758,08758-nuevo-horizonte
+2026-07,Soledad,Soledad,Nuevo Milenio,h084,Hombre,Sicariato,1,08758,08758-nuevo-milenio
+2026-07,Soledad,Soledad,Porvenir,h039,Hombre,Sicariato,1,08758,08758-porvenir
+2026-07,Soledad,Soledad,Renacer,h086,Hombre,Sicariato,1,08758,08758-renacer
+2026-07,Soledad,Soledad,Salamanca,h044,Hombre,Sicariato,1,08758,08758-salamanca
+2026-07,Soledad,Soledad,San Vicente,h080,Hombre,Sicariato,1,08758,08758-san-vicente
+2026-07,Soledad,Soledad,Villa Adela 2,h158,Hombre,Sicariato,1,08758,08758-villa-adela-2
+2026-07,Soledad,Soledad,Villa Belen,h079,Hombre,Sin dato,1,08758,
+2026-07,Soledad,Soledad,Villa Muvdi,h099,Hombre,Sicariato,1,08758,08758-villa-muvdi
+2026-07,Soledad,Soledad,Villa Selene,h077,Hombre,Sicariato,1,08758,08758-villa-selene
+2026-07,Soledad,Soledad,Villa del Carmen,h027,Hombre,Sicariato,1,08758,08758-villa-del-carmen
+2026-07,Soledad,Soledad,Villa del Rey,h154,Hombre,Sicariato,1,08758,08758-villa-del-rey
+2026-08,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h040,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-08,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h106,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-08,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h172,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-08,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h186,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-08,Barranquilla,Metropolitana,Los Girasoles,h098,Hombre,Sicariato,2,08001,08001-los-girasoles
+2026-08,Barranquilla,Metropolitana,La Sierrita,h111,Hombre,Hurto,1,08001,08001-la-sierrita
+2026-08,Barranquilla,Metropolitana,La Sierrita,h115,Hombre,Sicariato,1,08001,08001-la-sierrita
+2026-08,Barranquilla,Metropolitana,Las Americas,h004,Hombre,Sicariato,1,08001,08001-las-americas
+2026-08,Barranquilla,Metropolitana,Las Gardenias,h043,Hombre,Sicariato,1,08001,08001-las-gardenias
+2026-08,Barranquilla,Metropolitana,Santa Maria,h009,Hombre,Sicariato,1,08001,08001-santa-maria
+2026-08,Barranquilla,Metropolitana,Santa Maria,h174,Hombre,Sicariato,1,08001,08001-santa-maria
+2026-08,Barranquilla,Metropolitana,Santo Domingo,h016,Hombre,Sicariato,5,08001,08001-santo-domingo-de-guzman
+2026-08,Barranquilla,Metropolitana,Santo Domingo,h181,Mujer,Sicariato,1,08001,08001-santo-domingo-de-guzman
+2026-08,Barranquilla,Norte-Centro Histórico,Alameda del Rio,h021,Hombre,Sicariato,1,08001,
+2026-08,Barranquilla,Norte-Centro Histórico,El Rosario,h059,Hombre,Riña,1,08001,08001-el-rosario
+2026-08,Barranquilla,Norte-Centro Histórico,El Rosario,h138,Hombre,Sicariato,1,08001,08001-el-rosario
+2026-08,Barranquilla,Suroccidente,Buena Esperanza,h136,Hombre,Sicariato,1,08001,08001-buena-esperanza
+2026-08,Barranquilla,Suroccidente,California,h180,Hombre,Sicariato,1,08001,08001-california
+2026-08,Barranquilla,Suroccidente,Caribe Verde,h117,Hombre,Sicariato,2,08001,
+2026-08,Barranquilla,Suroccidente,Carlos Meisel,h140,Hombre,Sicariato,1,08001,08001-carlos-meisel
+2026-08,Barranquilla,Suroccidente,El Bosque,h119,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-08,Barranquilla,Suroccidente,El Bosque,h190,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-08,Barranquilla,Suroccidente,El Pueblo,h124,Hombre,Sicariato,1,08001,08001-el-pueblo
+2026-08,Barranquilla,Suroccidente,Evaristo Sourdis,h121,Hombre,Sicariato,1,08001,08001-evaristo-sourdis
+2026-08,Barranquilla,Suroccidente,La Esmeralda,h006,Hombre,Sicariato,2,08001,08001-la-esmeralda
+2026-08,Barranquilla,Suroccidente,Las Malvinas,h190,Hombre,Sicariato,1,08001,08001-las-malvinas
+2026-08,Barranquilla,Suroccidente,Los Corales- Sector las Cayenas,h057,Hombre,Sicariato,1,08001,
+2026-08,Barranquilla,Suroccidente,Los Olivos 2,h129,Hombre,Sicariato,1,08001,08001-los-olivos-2
+2026-08,Barranquilla,Suroccidente,Los Olivos 2,h133,Hombre,Sicariato,1,08001,08001-los-olivos-2
+2026-08,Barranquilla,Suroccidente,Los Rosales,h121,Hombre,Sicariato,1,08001,08001-los-rosales
+2026-08,Barranquilla,Suroccidente,Mequejo,h207,Hombre,Sicariato,1,08001,08001-me-quejo
+2026-08,Barranquilla,Suroccidente,Nueva Colombia,h057,Hombre,Sicariato,1,08001,08001-nueva-colombia
+2026-08,Barranquilla,Suroccidente,Santa Maria,h009,Hombre,Sicariato,1,08001,08001-santa-maria
+2026-08,Barranquilla,Suroccidente,Villa Flor,h197,Hombre,Sicariato,1,08001,08001-villa-flor
+2026-08,Barranquilla,Suroccidente,Villa San Pablo,h199,Hombre,Sicariato,1,08001,08001-villas-de-san-pablo
+2026-08,Barranquilla,Suroccidente,Villate,h125,Hombre,Sicariato,1,08001,08001-villate
+2026-08,Barranquilla,Suroriente,Jose Antonio Galan,h176,Hombre,Sicariato,1,08001,08001-jose-antonio-galan
+2026-08,Barranquilla,Suroriente,La Alboraya,h019,Hombre,Sicariato,1,08001,08001-la-alboraya
+2026-08,Barranquilla,Suroriente,La Chinita,h120,Hombre,Sicariato,1,08001,08001-la-chinita
+2026-08,Barranquilla,Suroriente,La Luz,h114,Hombre,Sicariato,1,08001,08001-la-luz
+2026-08,Barranquilla,Suroriente,Las Nieves,h052,Hombre,Sicariato,3,08001,08001-las-nieves
+2026-08,Barranquilla,Suroriente,Montes,h055,Hombre,Sicariato,1,08001,08001-montes
+2026-08,Barranquilla,Suroriente,Rebolo,h128,Mujer,Sicariato,1,08001,08001-rebolo
+2026-08,Barranquilla,Suroriente,Rebolo,h132,Mujer,Sicariato,1,08001,08001-rebolo
+2026-08,Barranquilla,Suroriente,Rebolo,h137,Hombre,Sicariato,1,08001,08001-rebolo
+2026-08,Barranquilla,Suroriente,Rebolo,h196,Hombre,Sicariato,1,08001,08001-rebolo
+2026-08,Barranquilla,Suroriente,San Roque,h002,Hombre,Sicariato,1,08001,08001-san-roque
+2026-08,Barranquilla,Suroriente,Simon Bolivar,h109,Hombre,Sicariato,1,08001,08001-simon-bolivar
+2026-08,Galapa,Galapa,Villa Olimpica,h088,Hombre,Sicariato,1,08296,08296-villa-olimpica
+2026-08,Malambo,Malambo,Ciudadela Real del Caribe,h069,Hombre,Sicariato,1,08433,08433-real-del-caribe
+2026-08,Malambo,Malambo,El Concord,h073,Hombre,Sicariato,1,08433,08433-el-concord
+2026-08,Malambo,Malambo,El Gladiador,h070,Hombre,Sicariato,1,08433,
+2026-08,Malambo,Malambo,La Esperanza,h087,Hombre,Sicariato,1,08433,
+2026-08,Malambo,Malambo,Mesolandia,h007,Hombre,Sicariato,1,08433,08433-mesolandia
+2026-08,Malambo,Malambo,San Antonio,h067,Hombre,Sicariato,1,08433,
+2026-08,Malambo,Malambo,Villa Espencer,h073,Hombre,Sicariato,1,08433,
+2026-08,Malambo,Malambo,Villa Rica 2,h065,Hombre,Sicariato,1,08433,08433-villa-rica-2
+2026-08,Malambo,Malambo,Vía Malambo -Caracolí- Trocha el Paraíso,h026,Hombre,Sicariato,1,08433,
+2026-08,Puerto Colombia,Puerto Colombia,Brisas del Puerto,h020,Hombre,Sicariato,1,08573,
+2026-08,Puerto Colombia,Puerto Colombia,Villa del Rosario,h060,Hombre,Sicariato,1,08573,
+2026-08,Soledad,Soledad,Ciudadela Metropolitana,h164,Hombre,Sicariato,1,08758,08758-metropolitana
+2026-08,Soledad,Soledad,El Esfuerzo,h007,Hombre,Sicariato,1,08758,08758-el-esfuerzo
+2026-08,Soledad,Soledad,Manantial,h162,Hombre,Sicariato,1,08758,08758-el-manantial
+2026-08,Soledad,Soledad,El Porvenir,h039,Hombre,Sicariato,1,08758,08758-el-porvenir
+2026-08,Soledad,Soledad,El Triunfo,h173,Hombre,Sicariato,1,08758,08758-el-triunfo
+2026-08,Soledad,Soledad,Ferrocarril,h105,Hombre,Sicariato,1,08758,08758-ferrocarril
+2026-08,Soledad,Soledad,La Arboleda,h104,Hombre,Sicariato,1,08758,08758-la-arboleda
+2026-08,Soledad,Soledad,Las Colonias,h035,Hombre,Sicariato,2,08758,08758-las-colonias
+2026-08,Soledad,Soledad,Las Ferias,h114,Hombre,Sicariato,1,08758,08758-las-ferias
+2026-08,Soledad,Soledad,Las Marinas,h105,Hombre,Por establecer,1,08758,
+2026-08,Soledad,Soledad,Las Moras,h162,Hombre,Sicariato,1,08758,08758-las-moras
+2026-08,Soledad,Soledad,Los Manantiales,h082,Hombre,Sicariato,1,08758,08758-los-manantiales
+2026-08,Soledad,Soledad,Los Manantiales,h089,Mujer,Sicariato,1,08758,08758-los-manantiales
+2026-08,Soledad,Soledad,Los Manantiales,h159,Hombre,Sicariato,1,08758,08758-los-manantiales
+2026-08,Soledad,Soledad,Manantial,h089,Hombre,Sicariato,1,08758,08758-el-manantial
+2026-08,Soledad,Soledad,Nuevo Exito,h103,Hombre,Sicariato,2,08758,08758-nuevo-exito
+2026-08,Soledad,Soledad,Nuevo Milenio,h083,Hombre,Sicariato,1,08758,08758-nuevo-milenio
+2026-08,Soledad,Soledad,Porvenir,h173,Hombre,Sicariato,1,08758,08758-porvenir
+2026-08,Soledad,Soledad,Pumarejo,h031,Hombre,Sicariato,1,08758,08758-pumarejo
+2026-08,Soledad,Soledad,Pumarejo,h092,Hombre,Sicariato,1,08758,08758-pumarejo
+2026-08,Soledad,Soledad,Salcedo,h014,Hombre,Sicariato,1,08758,
+2026-08,Soledad,Soledad,San Antonio,h031,Hombre,Sicariato,2,08758,08758-san-antonio
+2026-08,Soledad,Soledad,San Antonio,h094,Hombre,Sicariato,1,08758,08758-san-antonio
+2026-08,Soledad,Soledad,San Vicente,h153,Hombre,Sicariato,1,08758,08758-san-vicente
+2026-08,Soledad,Soledad,Villa Adela,h085,Hombre,Sicariato,1,08758,
+2026-08,Soledad,Soledad,Villa Estadio,h098,Hombre,Sicariato,1,08758,08758-villa-estadio
+2026-08,Soledad,Soledad,Villa Estadio,h165,Hombre,Sicariato,1,08758,08758-villa-estadio
+2026-08,Soledad,Soledad,Villa Merly,h008,Hombre,Sicariato,1,08758,08758-villa-merly
+2026-08,Soledad,Soledad,Villa Muvdi,h167,Hombre,Sicariato,1,08758,08758-villa-muvdi
+2026-08,Soledad,Soledad,Villa Paraiso,h078,Hombre,Sicariato,1,08758,
+2026-08,Soledad,Soledad,Villa Paraiso,h153,Hombre,Sicariato,1,08758,
+2026-08,Soledad,Soledad,Villa Rosal,h090,Hombre,Sicariato,1,08758,
+2026-08,Soledad,Soledad,Villa Selena,h077,Hombre,Sicariato,1,08758,
+2026-08,Soledad,Soledad,Villa Zambrano,h028,Hombre,Sicariato,1,08758,08758-villa-zambrano
+2026-08,Soledad,Soledad,Villa Zambrano,h038,Hombre,Sicariato,2,08758,08758-villa-zambrano
+2026-08,Soledad,Soledad,Villa del Carmen,h081,Hombre,Sicariato,1,08758,08758-villa-del-carmen
+2026-09,Barranquilla,Metropolitana,7 de Abril,h042,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-09,Barranquilla,Metropolitana,7 de Abril,h107,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-09,Barranquilla,Metropolitana,Carrizal,h004,Hombre,Sicariato,1,08001,08001-carrizal
+2026-09,Barranquilla,Metropolitana,Carrizal,h011,Hombre,Sicariato,1,08001,08001-carrizal
+2026-09,Barranquilla,Metropolitana,Las Gardenias,h005,Hombre,Sicariato,2,08001,08001-las-gardenias
+2026-09,Barranquilla,Metropolitana,Las Gardenias,h043,Hombre,Sicariato,1,08001,08001-las-gardenias
+2026-09,Barranquilla,Metropolitana,San Luis,h043,Hombre,Sicariato,1,08001,08001-san-luis
+2026-09,Barranquilla,Metropolitana,Santa Maria,h040,Hombre,Sicariato,1,08001,08001-santa-maria
+2026-09,Barranquilla,Metropolitana,Santa Maria,h041,Hombre,Sicariato,2,08001,08001-santa-maria
+2026-09,Barranquilla,Metropolitana,Villa San Pedro Iii,h017,Hombre,Sicariato,1,08001,
+2026-09,Barranquilla,Norte-Centro Histórico,Centro,h139,Hombre,Sicariato,1,08001,08001-centro
+2026-09,Barranquilla,Norte-Centro Histórico,Ciudad Jardin,h022,Hombre,Sicariato,1,08001,08001-ciudad-jardin
+2026-09,Barranquilla,Suroccidente,El Bosque,h122,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-09,Barranquilla,Suroccidente,La Pradera,h021,Hombre,Sicariato,1,08001,08001-la-pradera
+2026-09,Barranquilla,Suroccidente,Santo Domingo,h181,Hombre,Sicariato,1,08001,08001-santo-domingo-de-guzman
+2026-09,Barranquilla,Suroriente,El Ferry,h001,Hombre,Sicariato,1,08001,08001-el-ferry
+2026-09,Barranquilla,Suroriente,La Alboraya,h019,Hombre,Sicariato,1,08001,08001-la-alboraya
+2026-09,Barranquilla,Suroriente,La Alboraya,h019,Mujer,Sicariato,1,08001,08001-la-alboraya
+2026-09,Barranquilla,Suroriente,La Luz,h123,Hombre,Sicariato,1,08001,08001-la-luz
+2026-09,Barranquilla,Suroriente,Las Nieves,h052,Hombre,Sicariato,1,08001,08001-las-nieves
+2026-09,Barranquilla,Suroriente,San Jose,h055,Hombre,Sicariato,1,08001,08001-san-jose
+2026-09,Barranquilla,Suroriente,San Jose,h126,Hombre,Sicariato,1,08001,08001-san-jose
+2026-09,Malambo,Malambo,Armonia Social,h024,Hombre,Sicariato,1,08433,08433-armonia-social
+2026-09,Malambo,Malambo,El Carmen,h024,Hombre,Sicariato,1,08433,
+2026-09,Malambo,Malambo,El Concord,h074,Hombre,Sicariato,1,08433,08433-el-concord
+2026-09,Malambo,Malambo,La Luna,h068,Hombre,Sicariato,1,08433,08433-la-luna
+2026-09,Malambo,Malambo,La Milagrosa,h072,Hombre,Sicariato,1,08433,08433-la-milagrosa
+2026-09,Malambo,Malambo,San Fernando,h069,Hombre,Sicariato,1,08433,08433-san-fernando
+2026-09,Malambo,Malambo,Villa Concord,h072,Hombre,Sicariato,1,08433,
+2026-09,Puerto Colombia,Puerto Colombia,Invasion Villa del Rosario,h020,Hombre,Sicariato,1,08573,
+2026-09,Soledad,Soledad,Ciudad Cortizo,h086,Hombre,Riña,1,08758,08758-ciudad-cortizo
+2026-09,Soledad,Soledad,Ciudad Paraiso,h075,Hombre,Sicariato,1,08758,08758-ciudad-paraiso
+2026-09,Soledad,Soledad,Manantial,h082,Hombre,Sicariato,2,08758,08758-el-manantial
+2026-09,Soledad,Soledad,Invasion Nueva Jerusalen,h046,Hombre,Sicariato,2,08758,
+2026-09,Soledad,Soledad,Juan Dominguez Romero,h092,Hombre,Sicariato,1,08758,
+2026-09,Soledad,Soledad,La Central,h013,Hombre,Sicariato,1,08758,08758-la-central
+2026-09,Soledad,Soledad,La Esperanza,h087,Hombre,Sicariato,2,08758,08758-la-esperanza
+2026-09,Soledad,Soledad,Las Cometas,h079,Hombre,Sicariato,1,08758,08758-las-cometas
+2026-09,Soledad,Soledad,Las Ferias,h046,Hombre,Sicariato,1,08758,08758-las-ferias
+2026-09,Soledad,Soledad,Las Ferias,h184,Hombre,Sicariato,1,08758,08758-las-ferias
+2026-09,Soledad,Soledad,Las Trinitarias,h103,Hombre,Sicariato,1,08758,08758-las-trinitarias
+2026-09,Soledad,Soledad,Nuevo Horizonte,h089,Hombre,Sicariato,1,08758,08758-nuevo-horizonte
+2026-09,Soledad,Soledad,Pumarejo,h092,Hombre,Sicariato,1,08758,08758-pumarejo
+2026-09,Soledad,Soledad,Villa Adela,h028,Mujer,Sicariato,1,08758,
+2026-09,Soledad,Soledad,Villa Maria,h080,Hombre,Sicariato,1,08758,08758-villa-maria
+2026-09,Soledad,Soledad,Villa del Carmen,h155,Hombre,Sicariato,1,08758,08758-villa-del-carmen
+2026-10,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h040,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-10,Barranquilla,Metropolitana,7 de Abril,h036,Hombre,Sicariato,1,08001,08001-7-de-abril
+2026-10,Barranquilla,Metropolitana,Ciudadela,h176,Hombre,Sicariato,1,08001,
+2026-10,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h170,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-10,Barranquilla,Metropolitana,Ciudadela 20 de Julio,h179,Hombre,Sicariato,1,08001,08001-20-de-julio
+2026-10,Barranquilla,Metropolitana,El Bosque,h116,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-10,Barranquilla,Metropolitana,La Sierrita,h193,Hombre,Sicariato,1,08001,08001-la-sierrita
+2026-10,Barranquilla,Metropolitana,Las Americas,h047,Hombre,Sicariato,1,08001,08001-las-americas
+2026-10,Barranquilla,Metropolitana,Las Gardenias,h005,Hombre,Sicariato,1,08001,08001-las-gardenias
+2026-10,Barranquilla,Metropolitana,Los Girasoles,h169,Hombre,Sicariato,1,08001,08001-los-girasoles
+2026-10,Barranquilla,Metropolitana,Santo Domingo,h111,Hombre,Sicariato,1,08001,08001-santo-domingo-de-guzman
+2026-10,Barranquilla,Suroccidente,Caribe Verde,h117,Hombre,Sicariato,1,08001,
+2026-10,Barranquilla,Suroccidente,Cuchilla de Villate,h130,Hombre,Por establecer,1,08001,08001-cuchilla-de-villate
+2026-10,Barranquilla,Suroccidente,El Bosque,h051,Hombre,Sicariato,1,08001,08001-el-bosque
+2026-10,Barranquilla,Suroccidente,El Carmen,h126,Hombre,Riña,1,08001,08001-el-carmen
+2026-10,Barranquilla,Suroccidente,La Esmeralda,h130,Hombre,Riña,1,08001,08001-la-esmeralda
+2026-10,Barranquilla,Suroccidente,Los Olivos,h012,Hombre,Riña,1,08001,
+2026-10,Barranquilla,Suroccidente,Los Rosales,h121,Hombre,Sicariato,1,08001,08001-los-rosales
+2026-10,Barranquilla,Suroriente,Bella Arena,h176,Hombre,Sicariato,1,08001,08001-bella-arena
+2026-10,Barranquilla,Suroriente,San Jose,h055,Hombre,Sicariato,1,08001,08001-san-jose
+2026-10,Barranquilla,Suroriente,San Roque,h002,Hombre,Sicariato,1,08001,08001-san-roque
+2026-10,Galapa,Galapa,12 de Septiembre,h088,Hombre,Sicariato,1,08296,08296-12-de-septiembre
+2026-10,Malambo,Malambo,Lluvia de Oro,h026,Hombre,Sicariato,1,08433,
+2026-10,Malambo,Malambo,Paraiso,h025,Hombre,Sicariato,2,08433,08433-paraiso
+2026-10,Malambo,Malambo,San Fernando,h026,Hombre,Sicariato,1,08433,08433-san-fernando
+2026-10,Malambo,Malambo,San Jorge,h070,Hombre,Sicariato,1,08433,
+2026-10,Malambo,Malambo,San Martin,h149,Hombre,Sicariato,1,08433,
+2026-10,Malambo,Malambo,Villa Esperanza,h144,Hombre,Sicariato,1,08433,08433-villa-esperanza
+2026-10,Malambo,Malambo,Villa Esther,h149,Hombre,Sicariato,1,08433,
+2026-10,Soledad,Soledad,Bello Horizonte,h157,Hombre,Sicariato,1,08758,08758-bello-horizonte
+2026-10,Soledad,Soledad,Cachimbero,h014,Hombre,Sicariato,1,08758,
+2026-10,Soledad,Soledad,Ciudad Paraiso,h078,Hombre,Sicariato,1,08758,08758-ciudad-paraiso
+2026-10,Soledad,Soledad,Ciudad Paraiso,h151,Hombre,Sicariato,1,08758,08758-ciudad-paraiso
+2026-10,Soledad,Soledad,Costa Hermosa,h045,Hombre,Sicariato,1,08758,08758-costa-hermosa
+2026-10,Soledad,Soledad,El Esfuerzo,h007,Hombre,Sicariato,2,08758,08758-el-esfuerzo
+2026-10,Soledad,Soledad,Urbanizacion el Parque,h177,Hombre,Sicariato,1,08758,08758-el-parque
+2026-10,Soledad,Soledad,Ferrocarril,h100,Hombre,Por establecer,1,08758,08758-ferrocarril
+2026-10,Soledad,Soledad,Ferrocarril,h156,Hombre,Sicariato,1,08758,08758-ferrocarril
+2026-10,Soledad,Soledad,La Viola,h096,Mujer,Sicariato,1,08758,
+2026-10,Soledad,Soledad,Los Almendros,h036,Hombre,Sicariato,1,08758,08758-los-almendros
+2026-10,Soledad,Soledad,Manuela Beltran,h031,Hombre,Sicariato,1,08758,08758-manuela-beltran
+2026-10,Soledad,Soledad,San Bernardo,h013,Hombre,Sicariato,1,08758,08758-san-bernardo
+2026-10,Soledad,Soledad,Villa Carla,h080,Hombre,Sicariato,1,08758,
+2026-10,Soledad,Soledad,Villa Katanga,h167,Hombre,Sicariato,1,08758,08758-villa-katanga
+2026-10,Soledad,Soledad,Villa Lozano,h008,Hombre,Sicariato,1,08758,08758-villa-lozano
+2026-10,Soledad,Soledad,Villa Sol,h153,Hombre,Sicariato,1,08758,08758-villa-sol
+2026-10,Soledad,Soledad,Viña del Rey,h154,Hombre,Sicariato,1,08758,

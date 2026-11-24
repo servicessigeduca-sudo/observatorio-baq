@@ -1,72 +1,72 @@
-mes,municipio,barrio,delito,modalidad,casos
-2026-03,Barranquilla,,hom,Sin dato,1
-2026-03,Malambo,,hom,Sin dato,2
-2026-04,,,hom,Arma de fuego,1
-2026-04,,,hom,Sin dato,1
-2026-04,Barranquilla,Evaristo Sourdis,hom,Arma de fuego,1
-2026-04,Barranquilla,Las Estrellas,hom,Arma de fuego,1
-2026-04,Soledad,Los Cedros,hom,Arma de fuego,1
-2026-05,Barranquilla,El Bosque,hom,Arma de fuego,1
-2026-05,Soledad,Los Almendros,hom,Arma de fuego,1
-2026-06,,,hom,Sin dato,1
-2026-06,Soledad,,hom,Sin dato,1
-2026-11,,,ext,Sin dato,1
-2026-11,,,hom,Arma de fuego,6
-2026-11,,,hom,Sin dato,9
-2026-11,,,hur,Arma de fuego,1
-2026-11,,,hur,Sin dato,2
-2026-11,,,les,Arma de fuego,3
-2026-11,,,les,Sin dato,1
-2026-11,,,otr,Sin dato,4
-2026-11,,La Esmeralda,hom,Arma de fuego,1
-2026-11,,Villa María,hom,Arma de fuego,1
-2026-11,Barranquilla,,ext,Sin dato,1
-2026-11,Barranquilla,,hom,Arma de fuego,3
-2026-11,Barranquilla,,hom,Sin dato,2
-2026-11,Barranquilla,,hur,Sin dato,1
-2026-11,Barranquilla,,les,Arma de fuego,1
-2026-11,Barranquilla,,les,Sin dato,1
-2026-11,Barranquilla,,otr,Sin dato,2
-2026-11,Barranquilla,Buenos Aires,otr,Sin dato,1
-2026-11,Barranquilla,Chiquinquirá,les,Arma de fuego,1
-2026-11,Barranquilla,Colombia,hom,Arma de fuego,1
-2026-11,Barranquilla,Conidec,hom,Sin dato,1
-2026-11,Barranquilla,El Bosque,hom,Arma de fuego,1
-2026-11,Barranquilla,El Ferry,hom,Arma de fuego,1
-2026-11,Barranquilla,El Limón,hom,Arma de fuego,1
-2026-11,Barranquilla,El Prado,ext,Arma de fuego,1
-2026-11,Barranquilla,El Santuario,hom,Arma de fuego,2
-2026-11,Barranquilla,El Valle,hom,Arma de fuego,1
-2026-11,Barranquilla,Evaristo Sourdis,hom,Arma de fuego,1
-2026-11,Barranquilla,La Sierrita,hom,Arma de fuego,1
-2026-11,Barranquilla,Las Flores,hom,Arma de fuego,1
-2026-11,Barranquilla,Las Nieves,hom,Arma de fuego,2
-2026-11,Barranquilla,Los Girasoles,hom,Arma de fuego,1
-2026-11,Barranquilla,Nueva Colombia,hom,Arma de fuego,1
-2026-11,Barranquilla,Rebolo,hom,Arma de fuego,1
-2026-11,Barranquilla,San Isidro,hom,Arma de fuego,1
-2026-11,Barranquilla,San Roque,hom,Arma de fuego,1
-2026-11,Barranquilla,Santa María,hom,Arma de fuego,1
-2026-11,Barranquilla,Santo Domingo,hom,Arma de fuego,1
-2026-11,Barranquilla,Siete de Abril,hom,Arma de fuego,1
-2026-11,Barranquilla,Siete de Abril,hom,Sin dato,1
-2026-11,Barranquilla,Simón Bolívar,hom,Arma de fuego,1
-2026-11,Barranquilla,Torre del Pescado,hom,Arma de fuego,1
-2026-11,Galapa,,hom,Arma de fuego,1
-2026-11,Galapa,,hom,Sin dato,2
-2026-11,Malambo,Mesolandia,ext,Arma de fuego,1
-2026-11,Puerto Colombia,,les,Arma de fuego,1
-2026-11,Soledad,,ext,Sin dato,1
-2026-11,Soledad,,hom,Arma de fuego,3
-2026-11,Soledad,,hom,Sin dato,2
-2026-11,Soledad,,hur,Sin dato,1
-2026-11,Soledad,,otr,Sin dato,2
-2026-11,Soledad,Ciudad Paraíso,hom,Arma de fuego,2
-2026-11,Soledad,Las Nubes,hom,Arma de fuego,1
-2026-11,Soledad,Los Almendros,hom,Sin dato,1
-2026-11,Soledad,Los Robles,les,Arma de fuego,1
-2026-11,Soledad,Villa Carmen Etapa 2,hom,Sin dato,1
-2026-11,Soledad,Villa Carmen II,hom,Arma de fuego,1
-2026-11,Soledad,Villa Cecilia,hom,Sin dato,1
-2026-11,Soledad,Villa María,hom,Arma de fuego,1
-2026-11,Soledad,Villa Soledad,hom,Arma de fuego,1
+mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
+2026-03,Barranquilla,,hom,Sin dato,1,08001,
+2026-03,Malambo,,hom,Sin dato,2,08433,
+2026-04,,,hom,Arma de fuego,1,,
+2026-04,,,hom,Sin dato,1,,
+2026-04,Barranquilla,Evaristo Sourdis,hom,Arma de fuego,1,08001,08001-evaristo-sourdis
+2026-04,Barranquilla,Las Estrellas,hom,Arma de fuego,1,08001,08001-las-estrellas
+2026-04,Soledad,Los Cedros,hom,Arma de fuego,1,08758,08758-los-cedros
+2026-05,Barranquilla,El Bosque,hom,Arma de fuego,1,08001,08001-el-bosque
+2026-05,Soledad,Los Almendros,hom,Arma de fuego,1,08758,08758-los-almendros
+2026-06,,,hom,Sin dato,1,,
+2026-06,Soledad,,hom,Sin dato,1,08758,
+2026-11,,,ext,Sin dato,1,,
+2026-11,,,hom,Arma de fuego,6,,
+2026-11,,,hom,Sin dato,9,,
+2026-11,,,hur,Arma de fuego,1,,
+2026-11,,,hur,Sin dato,2,,
+2026-11,,,les,Arma de fuego,3,,
+2026-11,,,les,Sin dato,1,,
+2026-11,,,otr,Sin dato,4,,
+2026-11,,La Esmeralda,hom,Arma de fuego,1,,
+2026-11,,Villa María,hom,Arma de fuego,1,,
+2026-11,Barranquilla,,ext,Sin dato,1,08001,
+2026-11,Barranquilla,,hom,Arma de fuego,3,08001,
+2026-11,Barranquilla,,hom,Sin dato,2,08001,
+2026-11,Barranquilla,,hur,Sin dato,1,08001,
+2026-11,Barranquilla,,les,Arma de fuego,1,08001,
+2026-11,Barranquilla,,les,Sin dato,1,08001,
+2026-11,Barranquilla,,otr,Sin dato,2,08001,
+2026-11,Barranquilla,Buenos Aires,otr,Sin dato,1,08001,08001-buenos-aires
+2026-11,Barranquilla,Chiquinquirá,les,Arma de fuego,1,08001,08001-chiquinquira
+2026-11,Barranquilla,Colombia,hom,Arma de fuego,1,08001,08001-colombia
+2026-11,Barranquilla,Conidec,hom,Sin dato,1,08001,
+2026-11,Barranquilla,El Bosque,hom,Arma de fuego,1,08001,08001-el-bosque
+2026-11,Barranquilla,El Ferry,hom,Arma de fuego,1,08001,08001-el-ferry
+2026-11,Barranquilla,El Limón,hom,Arma de fuego,1,08001,08001-limon
+2026-11,Barranquilla,El Prado,ext,Arma de fuego,1,08001,08001-el-prado
+2026-11,Barranquilla,El Santuario,hom,Arma de fuego,2,08001,08001-el-santuario
+2026-11,Barranquilla,El Valle,hom,Arma de fuego,1,08001,08001-el-valle
+2026-11,Barranquilla,Evaristo Sourdis,hom,Arma de fuego,1,08001,08001-evaristo-sourdis
+2026-11,Barranquilla,La Sierrita,hom,Arma de fuego,1,08001,08001-la-sierrita
+2026-11,Barranquilla,Las Flores,hom,Arma de fuego,1,08001,08001-las-flores
+2026-11,Barranquilla,Las Nieves,hom,Arma de fuego,2,08001,08001-las-nieves
+2026-11,Barranquilla,Los Girasoles,hom,Arma de fuego,1,08001,08001-los-girasoles
+2026-11,Barranquilla,Nueva Colombia,hom,Arma de fuego,1,08001,08001-nueva-colombia
+2026-11,Barranquilla,Rebolo,hom,Arma de fuego,1,08001,08001-rebolo
+2026-11,Barranquilla,San Isidro,hom,Arma de fuego,1,08001,08001-san-isidro
+2026-11,Barranquilla,San Roque,hom,Arma de fuego,1,08001,08001-san-roque
+2026-11,Barranquilla,Santa María,hom,Arma de fuego,1,08001,08001-santa-maria
+2026-11,Barranquilla,Santo Domingo,hom,Arma de fuego,1,08001,08001-santo-domingo-de-guzman
+2026-11,Barranquilla,Siete de Abril,hom,Arma de fuego,1,08001,08001-7-de-abril
+2026-11,Barranquilla,Siete de Abril,hom,Sin dato,1,08001,08001-7-de-abril
+2026-11,Barranquilla,Simón Bolívar,hom,Arma de fuego,1,08001,08001-simon-bolivar
+2026-11,Barranquilla,Torre del Pescado,hom,Arma de fuego,1,08001,
+2026-11,Galapa,,hom,Arma de fuego,1,08296,
+2026-11,Galapa,,hom,Sin dato,2,08296,
+2026-11,Malambo,Mesolandia,ext,Arma de fuego,1,08433,08433-mesolandia
+2026-11,Puerto Colombia,,les,Arma de fuego,1,08573,
+2026-11,Soledad,,ext,Sin dato,1,08758,
+2026-11,Soledad,,hom,Arma de fuego,3,08758,
+2026-11,Soledad,,hom,Sin dato,2,08758,
+2026-11,Soledad,,hur,Sin dato,1,08758,
+2026-11,Soledad,,otr,Sin dato,2,08758,
+2026-11,Soledad,Ciudad Paraíso,hom,Arma de fuego,2,08758,08758-ciudad-paraiso
+2026-11,Soledad,Las Nubes,hom,Arma de fuego,1,08758,08758-las-nubes
+2026-11,Soledad,Los Almendros,hom,Sin dato,1,08758,08758-los-almendros
+2026-11,Soledad,Los Robles,les,Arma de fuego,1,08758,08758-los-robles
+2026-11,Soledad,Villa Carmen Etapa 2,hom,Sin dato,1,08758,08758-villa-carmen-2
+2026-11,Soledad,Villa Carmen II,hom,Arma de fuego,1,08758,08758-villa-carmen-2
+2026-11,Soledad,Villa Cecilia,hom,Sin dato,1,08758,08758-villa-cecilia
+2026-11,Soledad,Villa María,hom,Arma de fuego,1,08758,08758-villa-maria
+2026-11,Soledad,Villa Soledad,hom,Arma de fuego,1,08758,08758-villa-soledad
