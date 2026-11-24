@@ -291,7 +291,7 @@
     ],
     "fecha": "2026-11-21",
     "municipio": "Soledad",
-    "barrio": null,
+    "barrio": "Los Manantiales",
     "medios": [
       "Diario La Libertad"
     ],
@@ -305,11 +305,13 @@
         "titular": "Capturan en Soledad a alias ‘La Cigarra’, requerido por hurto y porte ilegal de armas - Diario La Libertad."
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "municipio",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24"
   },
   {
     "caso_id": "7aed8fda43b0",
@@ -333,11 +335,13 @@
         "titular": "Menores de edad estarían detrás de exigencias extorsivas tras hallazgo de panfletos y una granada en Barranquilla - Diario La Libertad."
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "municipio",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24"
   },
   {
     "caso_id": "79e16a30d7ce",
@@ -361,12 +365,14 @@
         "titular": "Dos hombres fueron asesinados en la parte externa de sus viviendas en Soledad"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "varios_hechos": true,
     "lat": 10.9201,
     "lon": -74.81592,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24"
   },
   {
     "caso_id": "4a1b3152a654",
@@ -399,13 +405,15 @@
         "titular": "Adolescente de 16 años muere tras intentar cometer un atraco en el barrio Colombia, en Barranquilla"
       }
     ],
-    "estado": "posible_duplicado",
+    "estado": "publicado",
     "posible_duplicado_de": [
       "bb4bf56da48c"
     ],
     "lat": 11.01682,
     "lon": -74.86217,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24"
   },
   {
     "caso_id": "3804703f834e",
@@ -415,7 +423,7 @@
     ],
     "fecha": "2026-11-21",
     "municipio": "Soledad",
-    "barrio": null,
+    "barrio": "Renacer",
     "medios": [
       "Diario La Libertad"
     ],
@@ -429,11 +437,13 @@
         "titular": "Dos asesinatos en Soledad encienden las alarmas: víctimas fueron atacadas cerca de sus casas - Diario La Libertad."
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "municipio",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24"
   },
   {
     "caso_id": "1801ee6be939",
