@@ -152,8 +152,9 @@
   },
   {
     "caso_id": "1c719a34b134",
-    "tipo": "extorsion",
+    "tipo": "homicidio",
     "tipos": [
+      "homicidio",
       "extorsion"
     ],
     "fecha": "2026-11-22",
@@ -172,11 +173,13 @@
         "titular": "Adolescente intentó atracar a un hombre, pero este forcejeó, sacó un arma de fuego y lo ultimó"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": 10.9978,
     "lon": -74.79687,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24"
   },
   {
     "caso_id": "1739406c4d47",
@@ -209,13 +212,15 @@
         "titular": "Abaten a presunto extorsionista de 17 años tras ataque a bala en el barrio La Sierrita"
       }
     ],
-    "estado": "posible_duplicado",
+    "estado": "publicado",
     "posible_duplicado_de": [
       "9d71b03a44e6"
     ],
     "lat": 10.94771,
     "lon": -74.81146,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24"
   },
   {
     "caso_id": "149226c3a482",
@@ -240,11 +245,13 @@
         "titular": "Menor de 17 años fue abatido por la Policía tras ataque armado contra local comercial en Barranquilla"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": 10.94585,
     "lon": -74.80224,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24"
   },
   {
     "caso_id": "b6cc00080aeb",
@@ -255,7 +262,7 @@
     ],
     "fecha": "2026-11-21",
     "municipio": "Barranquilla",
-    "barrio": null,
+    "barrio": "El Prado",
     "medios": [
       "Impacto News"
     ],
@@ -273,7 +280,9 @@
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "municipio",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24"
   },
   {
     "caso_id": "a4133bd781fe",
