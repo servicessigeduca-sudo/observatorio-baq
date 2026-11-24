@@ -1,5 +1,619 @@
 [
   {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/cayo-alias-el-grande-presunto-cabecilla-de-las-acs-en-la-vereda-calabazo/",
+    "titular": "Cayó alias \"El Grande\", presunto cabecilla de las ACS en la vereda Calabazo - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T06:47:11-05:00",
+    "resumen": "En el desarrollo de actividades de registro y control, la Policía Nacional logró la captura en flagrancia de una persona en la vereda Calabazo, por el delito",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "872cf25ba9cac6013ac152e63d51b4cc6b1964ab"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/air-e-supera-los-1-000-por-kilovatio-hora-y-crece-la-preocupacion-por-las-facturas-de-energia/",
+    "titular": "Air-e supera los $1.000 por kilovatio hora y crece la preocupación por las facturas de energía - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T06:24:19-05:00",
+    "resumen": "Aunque la empresa aclaró que el aumento anunciado para diciembre será de $76 por kWh y no de $1.000, el costo total del kilovatio ya ronda los $1.012, según",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3a1645431e2a662564d493c1a5b1b0bb461de03f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/ofrecen-150-millones-por-responsables-del-carro-bomba-contra-la-gobernacion-del-meta/",
+    "titular": "Ofrecen $150 millones por responsables del carro bomba contra la Gobernación del Meta - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T06:09:58-05:00",
+    "resumen": "El alcalde de Villavicencio, Alexander Baquero, anunció una recompensa de 150 millones de pesos por información que permita identificar, ubicar y capturar a",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3ca5daf3a7562ffe19a63a145dbd272e1a71d99f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/de-la-espriella-viajara-al-meta-tras-atentado-y-anuncia-medidas-para-recuperar-la-seguridad/",
+    "titular": "De La Espriella viajará al Meta tras atentado y anuncia medidas para recuperar la seguridad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T06:07:23-05:00",
+    "resumen": "La gobernadora Rafaela Cortés reveló la llamada que sostuvo con el presidente Abelardo De La Espriella, quien confirmó su visita al departamento este",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "209880cbac5ae5514d7003695e7553abd263244d"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/joven-de-24-anos-murio-en-accidente-de-motocicleta-en-puerto-colombia/",
+    "titular": "Joven de 24 años murió en accidente de motocicleta en Puerto Colombia",
+    "fecha_publicacion": "2026-11-23T22:45:37-05:00",
+    "resumen": "Un joven muerto y dos personas heridas dejó un accidente de tránsito ocurrido en el sector conocido como La Vuelta del Oso, en el municipio de Puerto Colombia, Atlántico. La víctima mortal fue identificada como Hugo Fernández, de 24 años. De acuerdo con la información preliminar de las…",
+    "fecha_captura": "2026-11-24T06:54:43-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "Puerto Colombia",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2265141baf800fe198340f866067a5aa03a96c37"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/tras-aumento-de-asesinatos-de-mujeres-en-el-atlantico-policia-anuncia-acciones-para-fortalecer-su-proteccion/",
+    "titular": "Tras aumento de asesinatos de mujeres en el Atlántico, Policía anuncia acciones para fortalecer su protección",
+    "fecha_publicacion": "2026-11-23T22:06:15-05:00",
+    "resumen": "El panorama de violencia contra las mujeres es preocupante en el departamento del Atlántico, donde 81 han sido asesinadas en lo que va del año, al menos cuatro de ellas en casos que corresponderían a feminicidios. Ante esta situación, la exdiputada del Atlántico, investigadora de género y…",
+    "fecha_captura": "2026-11-24T06:54:43-05:00",
+    "tipos_delito": [
+      "feminicidio",
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "41e1f03752385c55d4223bf645d521ad07896d91"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/ultima-hora-carro-bomba-exploto-cerca-de-la-gobernacion-del-meta-varios-edificios-resultaron-afectados/",
+    "titular": "ÚLTIMA HORA:Carro bomba explotó cerca de la Gobernación del Meta: varios edificios resultaron afectados - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T22:00:50-05:00",
+    "resumen": "De acuerdo con el reporte preliminar de la revista Semana, el atentado habría sido perpetrado mediante un carro bomba. Sin embargo, las autoridades todavía",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d64703f191cdef4d300e75b55f95da1bd3c3cac1"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/reportan-incendio-en-apartamentos-del-barrio-villa-san-pablo-en-barranquilla/",
+    "titular": "Reportan incendio en apartamentos del barrio Villa San Pablo, en Barranquilla",
+    "fecha_publicacion": "2026-11-23T21:42:25-05:00",
+    "resumen": "Un incendio estructural se registró la noche de este lunes en apartamentos del barrio Villa San Pablo, en el área metropolitana de Barranquilla. De acuerdo con un informe preliminar, algunos residentes del sector colaboraron inicialmente para atender la emergencia. Posteriormente, dos máquinas del…",
+    "fecha_captura": "2026-11-24T06:54:43-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": "Villa San Pablo",
+    "estado": "pendiente",
+    "id": "d2a15e887a39379ac5292c04423d09d241be09bd"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/pacto-historico-activa-comision-de-etica-por-escandalo-de-presuntos-diplomas-falsos/",
+    "titular": "Pacto Histórico activa Comisión de Ética por escándalo de presuntos diplomas falsos - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T21:42:10-05:00",
+    "resumen": "El Pacto Histórico anunció medidas internas frente a las denuncias relacionadas con presuntas irregularidades en los títulos y documentos académicos de varias",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0289c5a41a564dcd977accc71415a5eb194a282a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/fiscalia-busca-ampliar-imputacion-contra-jorge-alfredo-vargas-por-presunto-acoso-sexual/",
+    "titular": "Fiscalía busca ampliar imputación contra Jorge Alfredo Vargas por presunto acoso sexual - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T21:37:29-05:00",
+    "resumen": "La investigación penal contra el periodista y expresentador de televisión Jorge Alfredo Vargas Angulo tendrá un nuevo capítulo. La Fiscalía General de la",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1a1a647d79b3a975058e5dbf04c8bc0e8d637326"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/claudia-romero-niega-diploma-de-la-javeriana-y-denuncia-que-el-documento-es-falso/",
+    "titular": "Claudia Romero niega diploma de la Javeriana y denuncia que el documento es falso - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T21:34:31-05:00",
+    "resumen": "La representante a la Cámara por Bogotá, del Pacto Histórico, aseguró que nunca estudió Administración de Empresas en esa universidad y que tampoco ha",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "159fe28d9ab8fb984853186a08fa55bb938ab897"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/hallan-sin-vida-a-gabriel-cardenas-en-el-salto-del-tequendama-tras-cuatro-dias-de-busqueda/",
+    "titular": "Hallan sin vida a Gabriel Cárdenas en el Salto del Tequendama tras cuatro días de búsqueda - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T21:25:57-05:00",
+    "resumen": "El estudiante de 17 años de la Universidad de los Andes fue encontrado en una zona de difícil acceso, a unos 100 metros de profundidad. Sus documentos",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ab0fc8be23ef94f10f50de4f42de3b527cae9b01"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/operativos-contra-el-ruido-llegaron-a-siete-barrios-de-santa-marta-impusieron-cinco-medidas-preventivas/",
+    "titular": "Operativos contra el ruido llegaron a siete barrios de Santa Marta: impusieron cinco medidas preventivas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T21:12:09-05:00",
+    "resumen": "La Alcaldía de Santa Marta intensificó los controles contra la contaminación auditiva con un operativo institucional que llegó a siete barrios de la ciudad y",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "aafe748a00b70cbb3a88914e37cc3e7e22960b85"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/consejo-de-estado-ordena-a-de-la-espriella-rectificar-discurso-contra-el-movimiento-woke/",
+    "titular": "Consejo de Estado ordena a De la Espriella rectificar discurso contra el movimiento ‘woke’ - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T21:00:24-05:00",
+    "resumen": "El Consejo de Estado le ordenó al presidente Abelardo De la Espriella realizar una rectificación pública por las expresiones que utilizó contra el movimiento",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "164b27e21ff45d9ffe0620dc62b3b56df5519034"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/unp-retiraria-el-esquema-de-seguridad-a-hollman-morris-pese-a-medidas-cautelares-de-la-cidh/",
+    "titular": "UNP retiraría el esquema de seguridad a Hollman Morris pese a medidas cautelares de la CIDH - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T20:49:43-05:00",
+    "resumen": "Una nueva controversia rodea a la Unidad Nacional de Protección (UNP) por los cambios en los esquemas de seguridad asignados a periodistas y figuras públicas.",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a3719ded4552676d70013a64d81d1f7447cb85ac"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/47-anos-de-carcel-un-hombre-por-el-asesinato-de-un-joven-en-el-barrio-la-esmeralda-en",
+    "titular": "47 años de cárcel a un hombre por el asesinato de un joven en el barrio La Esmeralda en febrero de 2023",
+    "fecha_publicacion": "2026-11-23T18:31:19-05:00",
+    "resumen": "Las pruebas presentadas por la Fiscalía General de la Nación permitieron la condena.",
+    "fecha_captura": "2026-11-24T06:49:06-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "La Esmeralda",
+    "estado": "pendiente",
+    "id": "5e65b5dc6094855df6d557a079be50605b7be447"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/director-de-cultura-de-riohacha-se-opuso-a-un-atraco-y-termino-herido-con-arma-traumatica/",
+    "titular": "Director de Cultura de Riohacha se opuso a un atraco y terminó herido con arma traumática",
+    "fecha_publicacion": "2026-11-23T17:07:29-05:00",
+    "resumen": "El delincuente lo encañonó y le disparó luego de que se resistiera al robo. El director de Cultura del Distrito de Riohacha, Gerardo Toro Aguilar, resultó herido la mañana de este lunes 23 de noviembre tras ser víctima de un atraco a mano armada en el centro de la capital de La Guajira. El hecho…",
+    "fecha_captura": "2026-11-24T06:54:43-05:00",
+    "tipos_delito": [
+      "lesiones",
+      "hurto"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "27bdfd2f876f2ab25aaab6e1e9fb576f7946b5c2"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/tragedia-en-puerto-velero-hallan-muerto-a-joven-de-28-anos-que-estaba-desaparecido/",
+    "titular": "Tragedia en Puerto Velero: hallan muerto a joven de 28 años que estaba desaparecido - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T15:39:18-05:00",
+    "resumen": "Una tragedia se registró en las playas de Puerto Velero, jurisdicción de Tubará, luego de que fuera encontrado sin vida Arlington Manuel González Fontalvo, de",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "26f7d8c14ccd4709838658fcc18e5fb99f715443"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/conversaciones-de-daysuris-con-nicolas-petro-camilo-burgos-y-maximo-noriega-van-al",
+    "titular": "Conversaciones de Daysuris con Nicolás Petro, Camilo Burgos y Máximo Noriega van al juicio: Tribunal Superior",
+    "fecha_publicacion": "2026-11-23T15:38:00-05:00",
+    "resumen": "Solo esa información extraída del celular de su exposa Daysuris Vásquez.",
+    "fecha_captura": "2026-11-24T06:49:06-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4361946bc394398c0ac18f048e8cbfe6266fb226"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/la-seccional-de-carabineros-recupera-33-semovientes-hurtados-en-el-municipio-de-palmar-de-varela/",
+    "titular": "La Seccional de Carabineros recupera 33 semovientes hurtados en el municipio de Palmar de Varela - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T15:00:50-05:00",
+    "resumen": "La Policía Nacional, en el departamento del Atlántico, a través de la Seccional de Carabineros y Protección Ambiental, logró la recuperación de 33 semovientes",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4dc1241dfebd2aecdcb0aea688a451534bcd19a3"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/serian-de-los-costenos-policia-reporta-dos-capturados-por-ataques-a-supertiendas-olimpica-en-barranquilla/",
+    "titular": "“Serían de los Costeños”: Policía reporta dos capturados por ataques a Supertiendas Olímpica en Barranquilla",
+    "fecha_publicacion": "2026-11-23T14:51:50-05:00",
+    "resumen": "Los procedimientos permitieron la incautación de un revólver calibre 38 y la inmovilización de una motocicleta. Los implicados presuntamente estarían relacionados con el doble homicidio en las Olímpicas de Las Nieves y la muerte de una cajera en Rebolo. La Policía Nacional, a través de unidades de…",
+    "fecha_captura": "2026-11-24T06:54:43-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "captura"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Las Nieves",
+    "estado": "pendiente",
+    "id": "865d6ed000f9f8fcae6c10cbca38883c2c22dbe2"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/los-costenos-estarian-detras-de-atentados-las-olimpica-en-barranquilla-dos-capturados-y",
+    "titular": "'Los Costeños' estarían detrás de atentados a las Olímpica en Barranquilla: dos capturados y un aprehendido",
+    "fecha_publicacion": "2026-11-23T14:48:00-05:00",
+    "resumen": "El último caso ocurrió el pasado sábado en Chiquinquirá.",
+    "fecha_captura": "2026-11-24T06:49:06-05:00",
+    "tipos_delito": [
+      "lesiones",
+      "captura"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e6c28359e59eb861905210bb0448261a969867cd"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/sicario-ingreso-un-cambuche-y-mato-un-hombre-en-el-barrio-los-loteros",
+    "titular": "Sicario ingresó a un cambuche y mató a un hombre en el barrio Los Loteros",
+    "fecha_publicacion": "2026-11-23T12:23:00-05:00",
+    "resumen": "En el municipio de Soledad.",
+    "fecha_captura": "2026-11-24T06:49:06-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Los Loteros",
+    "estado": "pendiente",
+    "id": "23417236f857b407e2c632187a0dc5587af64493"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/muere-por-inmersion-hijo-de-un-fotografo-en-puerto-velero",
+    "titular": "Muere por inmersión hijo de un fotógrafo en Puerto Velero",
+    "fecha_publicacion": "2026-11-23T12:17:00-05:00",
+    "resumen": "Se encontraba desaparecido desde el día anterior.",
+    "fecha_captura": "2026-11-24T06:49:06-05:00",
+    "tipos_delito": [
+      "desaparicion"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "917a3809dabdcf013ab0241fdbee60d16444ae86"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/sin-vida-hallan-a-joven-de-27-anos-que-habia-desaparecido-en-puerto-velero/",
+    "titular": "Sin vida hallan a joven de 27 años que había desaparecido en Puerto Velero - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T11:57:48-05:00",
+    "resumen": "El cadáver fue rescatado hace pocas horas por las autoridades. De manera preliminar, la muerte del joven estaría relacionada con una posible inmersión en el",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a265888d2a523cb67fdcf035d42e562d9b307cd4"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/tribunal-mantiene-como-prueba-la-entrevista-concedida-por-nicolas-petro-semana",
+    "titular": "Tribunal mantiene como prueba la entrevista concedida por Nicolás Petro a Semana",
+    "fecha_publicacion": "2026-11-23T11:52:00-05:00",
+    "resumen": "La defensa había solicitado que se excluyera.",
+    "fecha_captura": "2026-11-24T06:49:06-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "01cfd6d1148e56b3d348704653983ed0708f9de7"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/policia-recupero-33-reses-robadas-en-menos-de-ocho-horas-en-palmar-de-varela/",
+    "titular": "Policía recuperó 33 reses robadas en menos de ocho horas en Palmar de Varela - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T11:38:38-05:00",
+    "resumen": "El procedimiento estuvo a cargo de la Seccional de Carabineros y Protección Ambiental, cuyos uniformados utilizaron capacidades de inteligencia, investigación",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "34694ad0c4a6a158238829289320e627b1f2f4eb"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/aparatoso-accidente-en-moto-dejo-un-muerto-y-dos-heridos-en-puerto-colombia",
+    "titular": "Aparatoso accidente en moto dejó un muerto y dos heridos en Puerto Colombia",
+    "fecha_publicacion": "2026-11-23T10:53:00-05:00",
+    "resumen": "El suceso ocurrió en la madrugada del domingo.",
+    "fecha_captura": "2026-11-24T06:49:06-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "Puerto Colombia",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "30af0111a5628b25ab3da54c6bfb1327ed3ec737"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/capturan-a-dos-hombres-con-un-revolver-en-el-barrio-fundadores-de-santa-marta/",
+    "titular": "Capturan a dos hombres con un revólver en el barrio Fundadores de Santa Marta - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T10:23:10-05:00",
+    "resumen": "De acuerdo con la información entregada por las autoridades, los uniformados realizaban labores de patrullaje, registro y control cuando observaron a los dos",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": "Fundadores de Santa Marta",
+    "estado": "pendiente",
+    "id": "abc86dd3affa70dd1efcf7e94204d7a0db157c4c"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/ataque-con-drones-estacion-de-policia-de-curumani-dejo-una-patrullera-herida",
+    "titular": "Ataque con drones a estación de Policía de Curumaní dejó a una patrullera herida",
+    "fecha_publicacion": "2026-11-23T10:19:00-05:00",
+    "resumen": "Fueron aproximadamente siete explosiones.",
+    "fecha_captura": "2026-11-24T06:49:06-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "379a6df6c0cd9c7f95f75175e7ddc6d3a5055f83"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/denuncian-atraco-a-mano-armada-dentro-de-un-supermercado-olimpica-en-el-norte-de-barranquilla/",
+    "titular": "Denuncian atraco a mano armada dentro de un supermercado Olímpica en el norte de Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T09:54:00-05:00",
+    "resumen": "Según la denuncia, el hecho ocurrió dentro del establecimiento comercial, donde el afectado habría sido intimidado con un arma de fuego para despojarlo de sus",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "hurto"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8e2d2df6841b788a27541fdb8f65e29f899fd080"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/roban-cables-del-sistema-de-puesta-a-tierra-en-la-subestacion-baranoa/",
+    "titular": "Roban cables del sistema de puesta a tierra en la subestación Baranoa - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T09:46:39-05:00",
+    "resumen": "El hurto de cables y elementos esenciales para la operación de la subestación Baranoa afectó el suministro de energía en varios municipios del Atlántico. Así",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "hurto"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a9986bffd7b2ed7d1b5e1a307cdd14aaccb8d5d8"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/5-anos-del-homicidio-de-mauricio-leal-y-su-mama-que-ha-pasadao-con-jhonier-leal/",
+    "titular": "5 años del homicidio de Mauricio Leal y su mamá ¿Qué ha pasadao con Jhonier Leal? - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T09:39:59-05:00",
+    "resumen": "https://youtu.be/LTtXpalMHaE",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "10ccc8ee4db56b5df54ce65fb71786db93c41559"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/recuperan-en-el-barrio-villanueva-33-reses-hurtadas-en-palmar-de-varela",
+    "titular": "Recuperan en el barrio Villanueva 33 reses hurtadas en Palmar de Varela",
+    "fecha_publicacion": "2026-11-23T09:38:00-05:00",
+    "resumen": "Los cuatreros llegaron en un camión y subieron las reses.",
+    "fecha_captura": "2026-11-24T06:49:06-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": "Villanueva 33",
+    "estado": "pendiente",
+    "id": "1d2406a66af07e751d7a60d2e298403218f90dc7"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/condenan-a-cuatro-personas-por-comprar-bebes-y-sacarlos-de-colombia-con-documentos-falsos/",
+    "titular": "Condenan a cuatro personas por comprar bebés y sacarlos de Colombia con documentos falsos - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T09:35:20-05:00",
+    "resumen": "Las penas van de 30 a 50 años de prisión. Entre los sentenciados están la mujer que financiaba la operación, el hombre que buscaba a las madres y un",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b769785b5efd92b3842b95ca0db1ebc256c8457a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/16-capturados-armas-y-estupefacientes-incautados-balance-de-seguridad-del-fin-de-semana-en-bolivar/",
+    "titular": "16 capturados, armas y estupefacientes incautados: balance de seguridad del fin de semana en Bolívar - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T09:22:28-05:00",
+    "resumen": "Un total de 16 personas capturadas, armas de fuego incautadas, estupefacientes incautados y 18 comparendos dejó el balance de seguridad entregado por el",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "be18fd87a8717079f4544bce5adf3ac4880a7bea"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/capturan-en-santander-presunto-pepe-senalado-de-extorsiones-en-malambo",
+    "titular": "Capturan en Santander a presunto ‘Pepe’: señalado de extorsiones en Malambo",
+    "fecha_publicacion": "2026-11-23T09:00:00-05:00",
+    "resumen": "Sería responsable de extorsiones en Malambo.",
+    "fecha_captura": "2026-11-24T06:49:06-05:00",
+    "tipos_delito": [
+      "extorsion",
+      "captura"
+    ],
+    "municipio": "Malambo",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "901e3a1aceb8b4b3f659cf1124eec5253a5c71c4"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/cayo-alias-sayayayin-habria-atracado-con-cuchillo-a-una-mujer-que-retiro-dinero-de-un-punto-de-recaudo-en-magangue/",
+    "titular": "¡Cayó alias ‘Sayayayin’! Habría atracado con cuchillo a una mujer que retiró dinero de un punto de recaudo en Magangué - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T08:57:42-05:00",
+    "resumen": "El señalado delincuente fue capturado en flagrancia por la Policía Nacional en el barrio Miraflores. Según las autoridades, presuntamente aprovechaba los",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "hurto",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": "Miraflores",
+    "estado": "pendiente",
+    "id": "880ccf34c16ba27e086409eab37a1b5617269aea"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/adolescente-de-16-anos-murio-tras-intento-de-atraco-frente-a-olimpica-stereo-en-barranquilla/",
+    "titular": "Adolescente de 16 años murió tras intento de atraco frente a Olímpica Stereo en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T08:15:49-05:00",
+    "resumen": "De acuerdo con el reporte entregado por la Policía Metropolitana de Barranquilla, el hecho se registró aproximadamente a las 9:05 de la noche, cuando el",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "hurto"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "516c985d91a95d2ef1f6418f4889180b4ddcf933"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/capturan-en-jamundi-y-cucuta-a-dos-presuntos-cabecillas-de-las-disidencias-y-el-eln/",
+    "titular": "Capturan en Jamundí y Cúcuta a dos presuntos cabecillas de las disidencias y el ELN - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T07:44:43-05:00",
+    "resumen": "De acuerdo con la información entregada por las autoridades, ambos estarían vinculados con actividades criminales como acciones terroristas, secuestros,",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "secuestro",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "93d0040701f6a7a9a72bc6283ba61e91efe56e0c"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/un-hombre-muerto-dejo-un-ataque-sicarial-en-baranoa",
+    "titular": "Un hombre muerto dejó un ataque sicarial en Baranoa",
+    "fecha_publicacion": "2026-11-23T07:42:00-05:00",
+    "resumen": "El homicidio se perpetró en la tarde del domingo.",
+    "fecha_captura": "2026-11-24T06:49:06-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d16c23b7cde1c43cd384a2a29daab93c9755326f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/doble-homicidio-en-el-sur-de-la-guajira-dos-hombres-fueron-asesinados-en-via-villanueva-veracruz/",
+    "titular": "Doble homicidio en el sur de La Guajira: dos hombres fueron asesinados en vía Villanueva-Veracruz - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T06:44:40-05:00",
+    "resumen": "De acuerdo con los primeros reportes, las víctimas fueron atacadas con arma de fuego y quedaron tendidas a pocos metros de distancia una de la otra. Uno de",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "5ac2c2bc5f7de965fcdd86c960252228d4fa252a"
+  },
+  {
     "medio": "Zona Cero",
     "url": "https://zonacero.com/judiciales/cinco-muertos-y-nueve-heridos-dejo-accidente-de-camion-de-carga-en-tolima",
     "titular": "Cinco muertos y nueve heridos dejó accidente de camión de carga, en Tolima",
@@ -14,6 +628,22 @@
     "barrio": null,
     "estado": "pendiente",
     "id": "985b0daa81f1076c668c8cfe0d05778b0e3fd949"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/23/seis-capturados-por-hurto-y-sacrificio-clandestino-de-ganado-en-la-guajira/",
+    "titular": "Seis capturados por hurto y sacrificio clandestino de ganado en La Guajira - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-23T06:32:50-05:00",
+    "resumen": "Los procedimientos se llevaron a cabo en Hatonuevo, Fonseca y San Juan del Cesar, en La Guajira, y en Valledupar, Cesar. Los detenidos fueron identificados",
+    "fecha_captura": "2026-11-24T06:50:01-05:00",
+    "tipos_delito": [
+      "hurto",
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e764012975d9d41b7741e31e1077df92664f0025"
   },
   {
     "medio": "Zona Cero",

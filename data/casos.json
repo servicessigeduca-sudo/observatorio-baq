@@ -1,5 +1,352 @@
 [
   {
+    "caso_id": "f2af90d69301",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones"
+    ],
+    "fecha": "2026-11-23",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "379a6df6c0cd9c7f95f75175e7ddc6d3a5055f83"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/ataque-con-drones-estacion-de-policia-de-curumani-dejo-una-patrullera-herida",
+        "titular": "Ataque con drones a estación de Policía de Curumaní dejó a una patrullera herida"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "1739406c4d47"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "f211a0f92688",
+    "tipo": "desaparicion",
+    "tipos": [
+      "desaparicion"
+    ],
+    "fecha": "2026-11-23",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "917a3809dabdcf013ab0241fdbee60d16444ae86"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/muere-por-inmersion-hijo-de-un-fotografo-en-puerto-velero",
+        "titular": "Muere por inmersión hijo de un fotógrafo en Puerto Velero"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "b1ca293e4f8a",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-23",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "10ccc8ee4db56b5df54ce65fb71786db93c41559"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/23/5-anos-del-homicidio-de-mauricio-leal-y-su-mama-que-ha-pasadao-con-jhonier-leal/",
+        "titular": "5 años del homicidio de Mauricio Leal y su mamá ¿Qué ha pasadao con Jhonier Leal? - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "9a59101fddee",
+    "tipo": "feminicidio",
+    "tipos": [
+      "feminicidio",
+      "homicidio"
+    ],
+    "fecha": "2026-11-23",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Emisora Atlántico"
+    ],
+    "notas": [
+      "41e1f03752385c55d4223bf645d521ad07896d91"
+    ],
+    "fuentes": [
+      {
+        "medio": "Emisora Atlántico",
+        "url": "https://emisoraatlantico.com.co/judiciales/tras-aumento-de-asesinatos-de-mujeres-en-el-atlantico-policia-anuncia-acciones-para-fortalecer-su-proteccion/",
+        "titular": "Tras aumento de asesinatos de mujeres en el Atlántico, Policía anuncia acciones para fortalecer su protección"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "8e0edd859a1c",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-23",
+    "municipio": "Barranquilla",
+    "barrio": "Las Nieves",
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "865d6ed000f9f8fcae6c10cbca38883c2c22dbe2"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/serian-de-los-costenos-policia-reporta-dos-capturados-por-ataques-a-supertiendas-olimpica-en-barranquilla/",
+        "titular": "“Serían de los Costeños”: Policía reporta dos capturados por ataques a Supertiendas Olímpica en Barranquilla"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "1801ee6be939"
+    ],
+    "lat": 10.95257,
+    "lon": -74.77918,
+    "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "86172f584098",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-23",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "ab0fc8be23ef94f10f50de4f42de3b527cae9b01"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/23/hallan-sin-vida-a-gabriel-cardenas-en-el-salto-del-tequendama-tras-cuatro-dias-de-busqueda/",
+        "titular": "Hallan sin vida a Gabriel Cárdenas en el Salto del Tequendama tras cuatro días de búsqueda - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "149226c3a482",
+      "1739406c4d47"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "8456ef8858e1",
+    "tipo": "hurto",
+    "tipos": [
+      "hurto"
+    ],
+    "fecha": "2026-11-23",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "8e2d2df6841b788a27541fdb8f65e29f899fd080"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/23/denuncian-atraco-a-mano-armada-dentro-de-un-supermercado-olimpica-en-el-norte-de-barranquilla/",
+        "titular": "Denuncian atraco a mano armada dentro de un supermercado Olímpica en el norte de Barranquilla - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "6fa80fa041ad",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-23",
+    "municipio": null,
+    "barrio": "La Esmeralda",
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "5e65b5dc6094855df6d557a079be50605b7be447"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/47-anos-de-carcel-un-hombre-por-el-asesinato-de-un-joven-en-el-barrio-la-esmeralda-en",
+        "titular": "47 años de cárcel a un hombre por el asesinato de un joven en el barrio La Esmeralda en febrero de 2023"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "32c3c58d2b06",
+    "tipo": "extorsion",
+    "tipos": [
+      "extorsion"
+    ],
+    "fecha": "2026-11-23",
+    "municipio": "Malambo",
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "901e3a1aceb8b4b3f659cf1124eec5253a5c71c4"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/capturan-en-santander-presunto-pepe-senalado-de-extorsiones-en-malambo",
+        "titular": "Capturan en Santander a presunto ‘Pepe’: señalado de extorsiones en Malambo"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "2e0a1039c52f",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "fecha": "2026-11-23",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "a265888d2a523cb67fdcf035d42e562d9b307cd4"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/23/sin-vida-hallan-a-joven-de-27-anos-que-habia-desaparecido-en-puerto-velero/",
+        "titular": "Sin vida hallan a joven de 27 años que había desaparecido en Puerto Velero - Diario La Libertad."
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "bf6fba482416"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "27646e0ea1b9",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-23",
+    "municipio": "Soledad",
+    "barrio": "Los Loteros",
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "23417236f857b407e2c632187a0dc5587af64493"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/sicario-ingreso-un-cambuche-y-mato-un-hombre-en-el-barrio-los-loteros",
+        "titular": "Sicario ingresó a un cambuche y mató a un hombre en el barrio Los Loteros"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "111351a36ad7",
+    "tipo": "hurto",
+    "tipos": [
+      "hurto"
+    ],
+    "fecha": "2026-11-23",
+    "municipio": null,
+    "barrio": "Miraflores",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "880ccf34c16ba27e086409eab37a1b5617269aea"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/23/cayo-alias-sayayayin-habria-atracado-con-cuchillo-a-una-mujer-que-retiro-dinero-de-un-punto-de-recaudo-en-magangue/",
+        "titular": "¡Cayó alias ‘Sayayayin’! Habría atracado con cuchillo a una mujer que retiró dinero de un punto de recaudo en Magangué - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
     "caso_id": "f8a035a6f144",
     "tipo": "homicidio",
     "tipos": [
@@ -83,7 +430,9 @@
       }
     ],
     "estado": "descartado",
-    "posible_duplicado_de": [],
+    "posible_duplicado_de": [
+      "2e0a1039c52f"
+    ],
     "revisado_por": "servicessigeduca-sudo",
     "revisado_en": "2026-11-24",
     "lat": null,
@@ -213,7 +562,9 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [
-      "9d71b03a44e6"
+      "9d71b03a44e6",
+      "f2af90d69301",
+      "86172f584098"
     ],
     "revisado_por": "servicessigeduca-sudo",
     "revisado_en": "2026-11-24",
@@ -245,7 +596,9 @@
       }
     ],
     "estado": "publicado",
-    "posible_duplicado_de": [],
+    "posible_duplicado_de": [
+      "86172f584098"
+    ],
     "revisado_por": "servicessigeduca-sudo",
     "revisado_en": "2026-11-24",
     "lat": 10.94585,
@@ -390,6 +743,7 @@
       "Emisora Atlántico"
     ],
     "notas": [
+      "516c985d91a95d2ef1f6418f4889180b4ddcf933",
       "e893f774fd4db2b93a82f883827ecc84ada17037",
       "eb21eb100e9f156108f1aa34340c09163e4e0e6a"
     ],
@@ -403,6 +757,11 @@
         "medio": "Emisora Atlántico",
         "url": "https://emisoraatlantico.com.co/judiciales/adolescente-de-16-anos-muere-tras-intentar-cometer-un-atraco-en-el-barrio-colombia-en-barranquilla/",
         "titular": "Adolescente de 16 años muere tras intentar cometer un atraco en el barrio Colombia, en Barranquilla"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/23/adolescente-de-16-anos-murio-tras-intento-de-atraco-frente-a-olimpica-stereo-en-barranquilla/",
+        "titular": "Adolescente de 16 años murió tras intento de atraco frente a Olímpica Stereo en Barranquilla - Diario La Libertad."
       }
     ],
     "estado": "publicado",
@@ -464,6 +823,7 @@
       "496bf66d383da05123ac026739a1be9e5fc564ba",
       "55779f9dd7973f6e16e516283beea651c80dbe65",
       "b9bce48feabbf1c652f618c20e59f518f4d7d524",
+      "e6c28359e59eb861905210bb0448261a969867cd",
       "fa72495b8097cfd642862b08f3a5a8219110735e"
     ],
     "fuentes": [
@@ -486,10 +846,17 @@
         "medio": "Emisora Atlántico",
         "url": "https://emisoraatlantico.com.co/judiciales/nuevo-ataque-a-bala-contra-supertienda-olimpica-en-barranquilla-es-el-tercero-en-menos-de-dos-semanas/",
         "titular": "Nuevo ataque a bala contra Supertienda Olímpica en Barranquilla: es el tercero en menos de dos semanas"
+      },
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/los-costenos-estarian-detras-de-atentados-las-olimpica-en-barranquilla-dos-capturados-y",
+        "titular": "'Los Costeños' estarían detrás de atentados a las Olímpica en Barranquilla: dos capturados y un aprehendido"
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "8e0edd859a1c"
+    ],
     "lat": 10.976,
     "lon": -74.78683,
     "confianza_ubicacion": "alta"
