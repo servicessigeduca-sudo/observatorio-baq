@@ -12,16 +12,19 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-06,Soledad,,hom,Sin dato,1,08758,
 2026-11,,,ext,Sin dato,1,,
 2026-11,,,hom,Arma de fuego,6,,
-2026-11,,,hom,Sin dato,8,,
+2026-11,,,hom,Sin dato,12,,
 2026-11,,,hur,Arma de fuego,1,,
 2026-11,,,hur,Sin dato,2,,
 2026-11,,,les,Arma de fuego,3,,
-2026-11,,,les,Sin dato,1,,
-2026-11,,,otr,Sin dato,3,,
+2026-11,,,les,Sin dato,2,,
+2026-11,,,otr,Sin dato,4,,
 2026-11,,La Esmeralda,hom,Arma de fuego,1,,
+2026-11,,La Esmeralda,hom,Sin dato,1,,
+2026-11,,Miraflores,hur,Arma blanca,1,,
 2026-11,,Villa María,hom,Arma de fuego,1,,
 2026-11,Barranquilla,,hom,Arma de fuego,2,08001,
 2026-11,Barranquilla,,hom,Sin dato,1,08001,
+2026-11,Barranquilla,,hur,Arma de fuego,1,08001,
 2026-11,Barranquilla,,hur,Sin dato,1,08001,
 2026-11,Barranquilla,,les,Sin dato,1,08001,
 2026-11,Barranquilla,,otr,Sin dato,2,08001,
@@ -41,7 +44,7 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-11,Barranquilla,Industrial Via 40,les,Arma de fuego,1,08001,08001-industrial-via-40
 2026-11,Barranquilla,La Sierrita,hom,Arma de fuego,1,08001,08001-la-sierrita
 2026-11,Barranquilla,Las Flores,hom,Arma de fuego,1,08001,08001-las-flores
-2026-11,Barranquilla,Las Nieves,hom,Arma de fuego,2,08001,08001-las-nieves
+2026-11,Barranquilla,Las Nieves,hom,Arma de fuego,3,08001,08001-las-nieves
 2026-11,Barranquilla,Los Girasoles,hom,Arma de fuego,1,08001,08001-los-girasoles
 2026-11,Barranquilla,Nueva Colombia,hom,Arma de fuego,1,08001,08001-nueva-colombia
 2026-11,Barranquilla,Rebolo,hom,Arma de fuego,1,08001,08001-rebolo
@@ -55,6 +58,7 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-11,Barranquilla,Torre del Pescado,hom,Arma de fuego,1,08001,
 2026-11,Galapa,,hom,Arma de fuego,1,08296,
 2026-11,Galapa,,hom,Sin dato,2,08296,
+2026-11,Malambo,,ext,Sin dato,1,08433,
 2026-11,Malambo,Mesolandia,ext,Arma de fuego,1,08433,08433-mesolandia
 2026-11,Puerto Colombia,,les,Arma de fuego,1,08573,
 2026-11,Soledad,,ext,Sin dato,1,08758,
@@ -64,6 +68,7 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-11,Soledad,Ciudad Paraíso,hom,Arma de fuego,2,08758,08758-ciudad-paraiso
 2026-11,Soledad,Las Nubes,hom,Arma de fuego,1,08758,08758-las-nubes
 2026-11,Soledad,Los Almendros,hom,Sin dato,1,08758,08758-los-almendros
+2026-11,Soledad,Los Loteros,hom,Arma de fuego,1,08758,08758-los-loteros
 2026-11,Soledad,Los Manantiales,hur,Sin dato,1,08758,08758-los-manantiales
 2026-11,Soledad,Los Robles,les,Arma de fuego,1,08758,08758-los-robles
 2026-11,Soledad,Renacer,hom,Sin dato,1,08758,08758-renacer
