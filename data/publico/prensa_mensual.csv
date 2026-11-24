@@ -12,21 +12,21 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-06,Soledad,,hom,Sin dato,1,08758,
 2026-11,,,ext,Sin dato,1,,
 2026-11,,,hom,Arma de fuego,6,,
-2026-11,,,hom,Sin dato,9,,
+2026-11,,,hom,Sin dato,8,,
 2026-11,,,hur,Arma de fuego,1,,
 2026-11,,,hur,Sin dato,2,,
 2026-11,,,les,Arma de fuego,3,,
 2026-11,,,les,Sin dato,1,,
-2026-11,,,otr,Sin dato,4,,
+2026-11,,,otr,Sin dato,3,,
 2026-11,,La Esmeralda,hom,Arma de fuego,1,,
 2026-11,,Villa María,hom,Arma de fuego,1,,
 2026-11,Barranquilla,,ext,Sin dato,1,08001,
-2026-11,Barranquilla,,hom,Arma de fuego,3,08001,
+2026-11,Barranquilla,,hom,Arma de fuego,2,08001,
 2026-11,Barranquilla,,hom,Sin dato,2,08001,
 2026-11,Barranquilla,,hur,Sin dato,1,08001,
-2026-11,Barranquilla,,les,Arma de fuego,1,08001,
 2026-11,Barranquilla,,les,Sin dato,1,08001,
 2026-11,Barranquilla,,otr,Sin dato,2,08001,
+2026-11,Barranquilla,Barrio Prado,hom,Arma de fuego,1,08001,08001-el-prado
 2026-11,Barranquilla,Buenos Aires,otr,Sin dato,1,08001,08001-buenos-aires
 2026-11,Barranquilla,Chiquinquirá,les,Arma de fuego,1,08001,08001-chiquinquira
 2026-11,Barranquilla,Colombia,hom,Arma de fuego,1,08001,08001-colombia
@@ -38,6 +38,7 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-11,Barranquilla,El Santuario,hom,Arma de fuego,2,08001,08001-el-santuario
 2026-11,Barranquilla,El Valle,hom,Arma de fuego,1,08001,08001-el-valle
 2026-11,Barranquilla,Evaristo Sourdis,hom,Arma de fuego,1,08001,08001-evaristo-sourdis
+2026-11,Barranquilla,Industrial Via 40,les,Arma de fuego,1,08001,08001-industrial-via-40
 2026-11,Barranquilla,La Sierrita,hom,Arma de fuego,1,08001,08001-la-sierrita
 2026-11,Barranquilla,Las Flores,hom,Arma de fuego,1,08001,08001-las-flores
 2026-11,Barranquilla,Las Nieves,hom,Arma de fuego,2,08001,08001-las-nieves

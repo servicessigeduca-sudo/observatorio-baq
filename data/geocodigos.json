@@ -1,4 +1,5 @@
 {
+  "barrio prado|Barranquilla": null,
   "buenos aires|Barranquilla": {
     "lat": 10.94081,
     "lon": -74.79921,
@@ -56,6 +57,7 @@
     "lon": -74.82444,
     "nombre_osm": "Evaristo Sourdis, Localidad Suroccidente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
   },
+  "industrial via 40|Barranquilla": null,
   "la esmeralda|Barranquilla": {
     "lat": 10.96722,
     "lon": -74.81923,
