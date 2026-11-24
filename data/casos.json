@@ -22,11 +22,13 @@
         "titular": "Atentado contra Batallón en La Jagua de Ibirico dejó un soldado muerto y 12 heridos"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24"
   },
   {
     "caso_id": "e8c836d05412",
@@ -36,7 +38,7 @@
     ],
     "fecha": "2026-11-22",
     "municipio": "Barranquilla",
-    "barrio": null,
+    "barrio": "Industrial Via 40",
     "medios": [
       "Zona Cero"
     ],
@@ -50,11 +52,13 @@
         "titular": "Disparos, atentados contra funcionarios y ahora amenazas con partes humanas al Inpec en Barranquilla"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "municipio",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24"
   },
   {
     "caso_id": "bf6fba482416",
@@ -78,11 +82,13 @@
         "titular": "Buscan a joven de 27 años desaparecido en las playas de Puerto Velero; su familia pide ayuda para encontrarlo - Diario La Libertad."
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24"
   },
   {
     "caso_id": "bb4bf56da48c",
@@ -92,7 +98,7 @@
     ],
     "fecha": "2026-11-22",
     "municipio": "Barranquilla",
-    "barrio": null,
+    "barrio": "Barrio Prado",
     "medios": [
       "Impacto News"
     ],
@@ -106,13 +112,15 @@
         "titular": "“Lo conocían como alias Jian y tenía tres anotaciones”: abatido frente a cadena de emisoras era un menor de 16 años"
       }
     ],
-    "estado": "posible_duplicado",
+    "estado": "publicado",
     "posible_duplicado_de": [
       "4a1b3152a654"
     ],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "municipio",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24"
   },
   {
     "caso_id": "ac2dee1eccc1",
