@@ -19,7 +19,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='6' fill='%23D3261C'/%3E%3Crect x='4' y='4' width='22' height='22' rx='3' fill='%23F6C200'/%3E%3Crect x='8' y='8' width='14' height='14' rx='2' fill='%230B6B3A'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
-<link rel="stylesheet" href="estilos.css?v=20261123h">
+<link rel="stylesheet" href="estilos.css?v=20261124a">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -130,6 +130,7 @@
       <tr><td data-k="Archivo"><a href="data/publico/registro_homicidios.csv" download>registro_homicidios.csv</a></td><td data-k="Contiene">Homicidios de 2026 por mes, municipio, localidad, barrio, zona, sexo y modalidad</td><td data-k="Fuente">Base de homicidios</td></tr>
       <tr><td data-k="Archivo"><a href="data/publico/prensa_mensual.csv" download>prensa_mensual.csv</a></td><td data-k="Contiene">Casos de la prensa por mes, municipio, barrio, delito y modalidad</td><td data-k="Fuente">Prensa local</td></tr>
       <tr><td data-k="Archivo"><a href="data/publico/barrios.csv" download>barrios.csv</a></td><td data-k="Contiene">Lista única de barrios con código del observatorio, municipio, código DANE y otras formas de escribir cada nombre. Los CSV de casos traen cod_municipio y cod_barrio para cruzar con otras bases.</td><td data-k="Fuente">POT de Barranquilla y OpenStreetMap</td></tr>
+      <tr><td data-k="Archivo"><a href="cambios.html">Cambios en los datos</a></td><td data-k="Contiene">Cada corrección o cambio de criterio que puede mover una cifra, con su fecha (también en <a href="data/publico/cambios.json">cambios.json</a>).</td><td data-k="Fuente">Observatorio BAQ</td></tr>
       <tr><td data-k="Archivo"><a href="data/publico/prensa_vs_oficial.csv" download>prensa_vs_oficial.csv</a></td><td data-k="Contiene">Comparación por mes, municipio y delito</td><td data-k="Fuente">Las tres</td></tr>
       <tr><td data-k="Archivo"><a href="data/oficiales_mensual.csv" download>oficiales_mensual.csv</a></td><td data-k="Contiene">Delitos registrados por la Policía por año, mes, municipio y tipo, desde 2003</td><td data-k="Fuente">Policía Nacional</td></tr>
       <tr><td data-k="Archivo"><a href="data/publico/oficiales_perfil.csv" download>oficiales_perfil.csv</a></td><td data-k="Contiene">Sexo, edad y arma o medio por año, con valores normalizados</td><td data-k="Fuente">Policía Nacional</td></tr>
@@ -148,6 +149,9 @@
     <p class="sub">Los datos se publican con licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons Atribución 4.0 (CC BY 4.0)</a>: puedes copiarlos, analizarlos y republicarlos, también con fines comerciales, citando al Observatorio BAQ y a la fuente original de cada dato (prensa, base de homicidios o Policía Nacional). El código es abierto en <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">GitHub</a>. Texto completo: <a href="https://github.com/servicessigeduca-sudo/observatorio-baq/blob/main/data/LICENCIA-DATOS.md">LICENCIA-DATOS.md</a>.</p>
   </div>
   <div>
+    <h3 style="font-size:18px;margin-bottom:8px">Insertar una tarjeta en tu página</h3>
+    <p>Muestra los homicidios de 2026 de un municipio o un barrio, con su tendencia, la fuente y la fecha de corte. Se actualiza sola. Cambia <code>m</code> (municipio) y <code>b</code> (barrio, opcional):</p>
+    <p class="cita">&lt;iframe src="https://servicessigeduca-sudo.github.io/observatorio-baq/tarjeta.html?m=Barranquilla&amp;b=Rebolo" width="340" height="290" style="border:0" title="Homicidios en Rebolo, Observatorio BAQ"&gt;&lt;/iframe&gt;</p>
     <h3 style="font-size:18px;margin-bottom:8px">Cita sugerida</h3>
     <p class="cita" id="cita">Observatorio BAQ (2026). Datos abiertos sobre delitos en Barranquilla y su área metropolitana. https://servicessigeduca-sudo.github.io/observatorio-baq/</p>
   </div>
@@ -164,8 +168,8 @@
   <span><a href="preguntas.html">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261123h"></script>
-<script src="datos.js?v=20261123h"></script>
+<script src="comun.js?v=20261124a"></script>
+<script src="datos.js?v=20261124a"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc;

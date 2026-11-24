@@ -19,7 +19,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='6' fill='%23D3261C'/%3E%3Crect x='4' y='4' width='22' height='22' rx='3' fill='%23F6C200'/%3E%3Crect x='8' y='8' width='14' height='14' rx='2' fill='%230B6B3A'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
-<link rel="stylesheet" href="estilos.css?v=20261123h">
+<link rel="stylesheet" href="estilos.css?v=20261124a">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -89,6 +89,7 @@
   <ul class="lista-lim" id="lim"></ul>
   <h3 style="font-size:17px;margin:22px 0 8px">Cita sugerida</h3>
   <p class="cita" id="cita"></p>
+  <p class="fuente"><button type="button" class="btn2 no-imprimir" id="imprimir" onclick="window.print()">Guardar en PDF o imprimir</button></p>
   <p class="fuente"><a id="json" href="#" download>Descargar este informe (JSON)</a> · <a href="metodologia.html#datos">Todos los datos abiertos</a></p>
 </div></section>
 </main>
@@ -98,8 +99,8 @@
   <span><a href="preguntas.html">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
 </div></footer>
 
-<script src="comun.js?v=20261123h"></script>
-<script src="datos.js?v=20261123h"></script>
+<script src="comun.js?v=20261124a"></script>
+<script src="datos.js?v=20261124a"></script>
 <script>
 (function(){
   var O=OBAQ,$=O.$,esc=O.esc;
@@ -108,11 +109,11 @@
     var lista=idx.informes||[];if(!lista.length)throw new Error("sin informes");
     var p=new URLSearchParams(location.search).get("p"),sel=lista.filter(function(i){return i.periodo===p})[0]||lista.filter(function(i){return i.estado==="completo"})[0]||lista[0];
     $("archivo").innerHTML=lista.map(function(i){return '<a href="?p='+i.periodo+'"'+(i===sel?' aria-current="page"':"")+">"+O.mes(i.periodo)+(i.estado==="incompleto"?" · aún llegan datos":"")+"</a>"}).join("");
-    $("cita").textContent="Observatorio BAQ ("+sel.periodo.slice(0,4)+"). Informe de "+O.mes(sel.periodo)+". Datos abiertos sobre delitos en Barranquilla y su área metropolitana. "+location.origin+location.pathname+"?p="+sel.periodo;
     $("json").href="data/publico/informes/"+sel.periodo+".json";
     return O.cargar("data/publico/informes/"+sel.periodo+".json");
   }).then(function(d){
     document.title=d.titulo+" · Observatorio BAQ";
+    $("cita").textContent="Observatorio BAQ ("+d.periodo.slice(0,4)+"). Informe de "+O.mes(d.periodo)+". Datos abiertos sobre delitos en Barranquilla y su área metropolitana. Datos con corte al "+O.dia(d.generado)+" de "+d.generado.slice(0,4)+". "+location.origin+location.pathname+"?p="+d.periodo+". Consultado el "+new Date().toLocaleDateString("es-CO",{day:"numeric",month:"long",year:"numeric"})+".";
     $("titulo").innerHTML=esc(d.titulo)+' <span class="etq'+(d.estado==="incompleto"?" inc":" ok")+'">'+(d.estado==="incompleto"?"Aún llegan datos":"Mes cerrado")+"</span>";
     $("estado-inf").textContent=(d.estado==="incompleto"?"A este mes todavía le llegan datos. ":"")+d.motivos.join(" ")+" Fuente principal: "+FUENTE[d.fuente_principal]+". Generado el "+O.dia(d.generado)+".";
     $("resumen").innerHTML=d.resumen.length?d.resumen.map(function(f){return "<p>"+esc(f)+"</p>"}).join(""):'<p class="estado">Sin datos para este mes.</p>';
