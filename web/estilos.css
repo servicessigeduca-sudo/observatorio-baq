@@ -581,3 +581,13 @@ a.porque{color:var(--primary);font-weight:600;white-space:nowrap}
 /* Bloque plegable dentro de una sección (p. ej. Estadísticas › Dónde ocurre) */
 details.mas>summary{cursor:pointer;font-weight:700;font-size:15px;color:var(--ink)}
 details.mas>summary:hover{text-decoration:underline}
+
+/* Informe en PDF o impreso: solo el contenido, en claro y sin controles */
+@media print{
+  :root{color-scheme:light}
+  html,body{background:#fff!important;color:#000!important}
+  header.top,.flag,.subnav,.ctrls,footer,.archivo,.no-imprimir,.comp,.saltar,.theme{display:none!important}
+  .sec .in,.hero .in{box-shadow:none!important;background:#fff!important;border:0!important}
+  .sec{break-inside:avoid;padding:0!important;margin:0 0 12px!important}
+  a{color:#000!important}
+}

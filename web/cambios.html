@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cambios en los datos · Observatorio BAQ</title>
+<meta name="description" content="Cambios en los datos y en el sitio del Observatorio BAQ, con su fecha, para saber qué cambió desde la última vez que se citó una cifra.">
+<link rel="canonical" href="https://servicessigeduca-sudo.github.io/observatorio-baq/cambios.html">
+<meta name="theme-color" content="#0B6B3A">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CO">
+<meta property="og:site_name" content="Observatorio BAQ">
+<meta property="og:title" content="Cambios en los datos · Observatorio BAQ">
+<meta property="og:description" content="Cambios en los datos y en el sitio del Observatorio BAQ, con su fecha, para saber qué cambió desde la última vez que se citó una cifra.">
+<meta property="og:url" content="https://servicessigeduca-sudo.github.io/observatorio-baq/cambios.html">
+<meta property="og:image" content="https://servicessigeduca-sudo.github.io/observatorio-baq/og.png">
+<meta property="og:image:alt" content="Observatorio BAQ: datos abiertos sobre seguridad en Barranquilla">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='6' fill='%23D3261C'/%3E%3Crect x='4' y='4' width='22' height='22' rx='3' fill='%23F6C200'/%3E%3Crect x='8' y='8' width='14' height='14' rx='2' fill='%230B6B3A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
+<link rel="stylesheet" href="estilos.css?v=20261124a">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="top">
+  <div class="in">
+    <a class="logo" href="./" aria-label="Observatorio BAQ, inicio">
+      <svg viewBox="0 0 30 30" aria-hidden="true"><rect width="30" height="30" rx="6" fill="var(--flag-r)"/><rect x="4" y="4" width="22" height="22" rx="3" fill="var(--flag-y)"/><rect x="8" y="8" width="14" height="14" rx="2" fill="var(--flag-g)"/><path d="M15 10.2l1.3 2.9 3.1.3-2.4 2 .8 3-2.8-1.6-2.8 1.6.8-3-2.4-2 3.1-.3z" fill="#fff"/></svg>
+      Observatorio <span>BAQ</span>
+    </a>
+    <div class="right">
+      <nav aria-label="Principal"><a href="./">Inicio</a><a href="mapa.html">Mapa</a><a href="informes.html">Informes</a><a href="estadisticas.html">Estadísticas oficiales</a><a href="metodologia.html">Metodología y datos</a><a href="preguntas.html">Preguntas</a></nav>
+      <button type="button" class="theme" id="theme" aria-label="Cambiar a modo oscuro"></button>
+    </div>
+  </div>
+</header>
+<div class="flag" aria-hidden="true"></div>
+<main id="contenido">
+<section class="hero"><div class="in" style="grid-template-columns:minmax(0,1fr)">
+  <div>
+    <p class="crumb"><a href="metodologia.html">Metodología y datos</a> · Cambios</p>
+    <h1>Cambios en los datos</h1>
+    <p class="dek">Cada corrección o cambio de criterio que puede mover una cifra, con su fecha. Si citaste una cifra antes de un cambio, aquí ves por qué puede diferir.</p>
+  </div>
+</div></section>
+
+<section class="sec"><div class="in">
+  <div class="tablewrap"><table class="tabla"><thead><tr><th>Fecha</th><th>Qué cambió</th><th>Tipo</th></tr></thead><tbody id="cambios"><tr><td colspan="3">Cargando…</td></tr></tbody></table></div>
+</div></section>
+</main>
+
+<footer><div class="in">
+  <span>Observatorio BAQ · Datos abiertos sobre seguridad en Barranquilla y su área metropolitana · <a href="metodologia.html#licencia">Licencia CC BY 4.0 y cita sugerida</a></span>
+  <span><a href="preguntas.html">Preguntas frecuentes</a> · <a href="https://github.com/servicessigeduca-sudo/observatorio-baq">Código y datos en GitHub</a></span>
+</div></footer>
+
+<script src="comun.js?v=20261124a"></script>
+
+<script src="datos.js?v=20261124a"></script>
+<script>
+(function(){var O=OBAQ,esc=O.esc;
+  O.cargar("data/publico/cambios.json").then(function(l){
+    O.$("cambios").innerHTML=l.map(function(c){return '<tr><td data-k="Fecha">'+O.dia(c.fecha)+" de "+c.fecha.slice(0,4)+'</td><td data-k="Qué cambió">'+esc(c.cambio)+'</td><td data-k="Tipo">'+(c.tipo==="sitio"?"Sitio":"Datos")+"</td></tr>"}).join("")
+  }).catch(function(){O.$("cambios").innerHTML='<tr><td colspan="3">No se pudo cargar la lista de cambios.</td></tr>'});
+})();
+</script>
+</body>
+</html>

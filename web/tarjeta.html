@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Homicidios por barrio · Observatorio BAQ</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="estilos.css?v=20261124a">
+<style>
+  /* Tarjeta para insertar en otras páginas: tarjeta.html?m=Soledad o tarjeta.html?m=Barranquilla&b=Rebolo */
+  body{margin:0;background:var(--surface)}
+  .tj{padding:16px 18px;font-family:"Plus Jakarta Sans",system-ui,sans-serif;color:var(--ink)}
+  .tj .lugar{font-size:13px;color:var(--muted);font-weight:600;margin:0}
+  .tj .n{font-size:40px;font-weight:800;line-height:1.1;margin:4px 0 0}
+  .tj .que{font-size:15px;margin:2px 0 12px}
+  .tj .barras{display:flex;align-items:flex-end;gap:4px;height:48px;margin-bottom:4px}
+  .tj .barras span{flex:1;background:var(--qna);border-radius:3px 3px 0 0;min-height:2px}
+  .tj .barras span.inc{opacity:.45}
+  .tj .meses{display:flex;gap:4px;font-size:11px;color:var(--muted)}
+  .tj .meses span{flex:1;text-align:center}
+  .tj .pie{font-size:12px;color:var(--muted);margin:12px 0 0}
+  .tj .pie a{color:inherit;font-weight:700}
+</style>
+</head>
+<body>
+<div class="tj" id="tj" aria-live="polite"><p class="lugar">Cargando…</p></div>
+<script src="datos.js?v=20261124a"></script>
+<script>
+(function(){
+  var O=OBAQ,esc=O.esc,q=new URLSearchParams(location.search),muni=q.get("m")||"",barrio=q.get("b")||"";
+  var sitio=location.href.replace(/tarjeta\.html.*$/,"");
+  Promise.all([O.cargar("data/publico/registro.json"),O.cargar("data/publico/informes/index.json").catch(function(){return {informes:[]}})]).then(function(x){
+    var reg=x[0],inc={};(x[1].informes||[]).forEach(function(i){if(i.estado==="incompleto"&&i.fuente==="registro")inc[i.periodo]=1});
+    var kb=barrio?O.claveBarrio(barrio):null,por={},nombre=barrio;
+    reg.filas.forEach(function(f){
+      if(muni&&f[1]!==muni)return;
+      if(kb){var k=O.claveBarrio(f[3]);if(k!==kb&&O.sinArticulo(k)!==O.sinArticulo(kb))return;nombre=f[3]}
+      por[f[0]]=(por[f[0]]||0)+f[7]});
+    var meses=Object.keys(por).sort(),total=meses.reduce(function(t,m){return t+por[m]},0);
+    var lugar=barrio?nombre+", "+(muni||""):(muni||"Área metropolitana de Barranquilla");
+    var ult=[],u=reg.corte.slice(0,7);for(var i=5;i>=0;i--){var d=new Date(+u.slice(0,4),+u.slice(5)-1-i,1);ult.push(d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0"))}
+    var mx=Math.max.apply(null,ult.map(function(m){return por[m]||0}).concat([1]));
+    var enlace=sitio+"mapa.html"+(barrio?"?b="+encodeURIComponent(nombre)+"&m="+encodeURIComponent(muni):muni?"?m="+encodeURIComponent(muni):"");
+    O.$("tj").innerHTML='<p class="lugar">'+esc(lugar)+'</p><p class="n">'+O.num(total)+'</p><p class="que">homicidios entre enero y '+O.mes(u)+'</p>'+
+      '<div class="barras" aria-hidden="true">'+ult.map(function(m){return '<span class="'+(inc[m]?"inc":"")+'" style="height:'+(100*(por[m]||0)/mx).toFixed(0)+'%" title="'+O.mes(m)+": "+(por[m]||0)+'"></span>'}).join("")+'</div>'+
+      '<div class="meses">'+ult.map(function(m){return "<span>"+O.mes(m,true).split(" ")[0]+"</span>"}).join("")+'</div>'+
+      '<p class="pie">Fuente: base de homicidios 2026, corte al '+O.dia(reg.corte)+'. Barras claras: meses a los que aún les llegan datos. <a href="'+esc(enlace)+'" target="_blank" rel="noopener">Ver en el Observatorio BAQ ↗</a></p>';
+  }).catch(function(){O.$("tj").innerHTML='<p class="lugar">No se pudieron cargar los datos.</p>'});
+})();
+</script>
+</body>
+</html>

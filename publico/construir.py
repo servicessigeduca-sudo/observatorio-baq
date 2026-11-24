@@ -505,6 +505,8 @@ def construir(raiz: Path, hoy: date | None = None, ahora: datetime | None = None
     (pub / "prensa_mensual.csv").write_text(_csv(["mes", "municipio", "barrio", "delito", "modalidad", "casos", "cod_municipio", "cod_barrio"],
                                                  [list(k) + [n] + cods(k[1], k[2]) for k, n in sorted(pm.items())]), encoding="utf-8")
     (pub / "barrios.csv").write_text(a_csv(ref.lista()), encoding="utf-8")
+    # Registro público de cambios en los datos (se edita a mano en data/cambios.json).
+    escribir(pub / "cambios.json", sorted(leer(d / "cambios.json", []), key=lambda c: c["fecha"], reverse=True))
     (pub / "prensa_vs_oficial.csv").write_text(_csv(["mes", "municipio", "delito", "prensa", "oficial", "registro", "proporcion_prensa", "notas"],
         [[f["mes"], f["municipio"], f["delito"], f["prensa"], f["oficial"], f["registro"], f["proporcion_prensa"], " ".join(f["notas"])] for f in comp]), encoding="utf-8")
     (pub / "oficiales_perfil.csv").write_text(_csv(["anio", "municipio", "categoria", "variable", "valor", "cantidad"], oficial_perfil(oficiales)), encoding="utf-8")

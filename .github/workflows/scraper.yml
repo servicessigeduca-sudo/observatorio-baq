@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  issues: write # aviso cuando un medio deja de traer notas
 
 concurrency:
   group: scraper
@@ -64,3 +65,18 @@ jobs:
           # Otro flujo pudo subir algo mientras corría (p. ej., Página o Datos oficiales).
           git pull --rebase origin main
           git push
+      - name: Avisar si un medio dejó de traer notas
+        # Abre (o actualiza) un aviso en Issues si un medio lleva más de 3 días sin notas nuevas.
+        if: ${{ github.event_name == 'schedule' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if python -m scraper.salud --salida aviso.md; then exit 0; fi
+          cat aviso.md >> "$GITHUB_STEP_SUMMARY"
+          n=$(gh issue list --state open --label medio-sin-notas --json number -q '.[0].number')
+          if [ -n "$n" ]; then
+            gh issue edit "$n" --body-file aviso.md
+          else
+            gh label create medio-sin-notas --color D93F0B --description "Un medio dejó de traer notas" 2>/dev/null || true
+            gh issue create --title "Un medio dejó de traer notas" --label medio-sin-notas --body-file aviso.md
+          fi
