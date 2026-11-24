@@ -63,3 +63,39 @@ def test_barrio(texto, esperado):
 def test_clasificar_combina_titular_y_resumen():
     c = clasificar("Ataque sicarial deja un muerto", "El hecho ocurrió en el barrio Rebolo de Barranquilla.")
     assert c == {"tipos_delito": ["homicidio"], "municipio": "Barranquilla", "barrio": "Rebolo"}
+
+
+@pytest.mark.parametrize(
+    "titular, es_captura",
+    [
+        ("Golpe al crimen en Barranquilla: capturan a 'El Mello', señalado de múltiples homicidios", True),
+        ("Policía reporta dos capturados por ataques a Supertiendas Olímpica en Barranquilla", True),
+        ("Condenan a 40 años a hombre que asesinó a su pareja", True),
+        ("Imputan homicidio a joven que mató a su vecino", True),
+        ("Envían a la cárcel a presunto asesino de comerciante", True),
+        ("¡Cayó alias 'Breyner' con un revólver!", True),
+        ("Capturan a sicario tras asesinar a un hombre en Rebolo", False),
+        ("Sicarios asesinan a alias 'Kevin Toyota', señalado jefe de 'Los del Freseo'", False),
+        ("Asesinan a hombre que había salido de la cárcel", False),
+        ("Hombre cayó muerto tras recibir varios disparos", False),
+    ],
+)
+def test_captura_o_judicial(titular, es_captura):
+    tipos = clasificar(titular)["tipos_delito"]
+    assert (tipos[:1] == ["captura"]) == es_captura
+
+
+@pytest.mark.parametrize(
+    "titular, tipo",
+    [
+        ("Le roban la moto a domiciliario en Rebolo", "hurto_motos"),
+        ("Atracan supertienda Olímpica en el norte de Barranquilla", "hurto_comercio"),
+        ("Roban celular a mujer en el centro", "hurto_personas"),
+        ("Le robaron 20 millones al salir del banco", "hurto_entidades"),
+        ("Ladrones entraron a una casa en El Prado y robaron joyas", "hurto_residencias"),
+        ("Se robaron una camioneta en el norte", "hurto_carros"),
+        ("Amenazan a comerciantes con panfletos en Soledad", "amenazas"),
+    ],
+)
+def test_categorias_de_la_base_oficial(titular, tipo):
+    assert clasificar(titular)["tipos_delito"][0] == tipo

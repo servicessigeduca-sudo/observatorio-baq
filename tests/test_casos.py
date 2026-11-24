@@ -223,3 +223,53 @@ def test_herido_que_muere_dias_despues_misma_edad_y_barrio():
         nota("b", "ctv", "Murió el joven de 19 años baleado en Rebolo", "2026-11-07", ["homicidio"], "Rebolo"),
     ]
     assert len(agrupar(notas)) == 1
+
+
+def test_captura_por_homicidio_no_es_un_homicidio_nuevo():
+    notas = [
+        # Notas guardadas antes del cambio: el scraper las marcó como homicidio.
+        nota("a", "zona-cero", "Golpe al crimen en Barranquilla: capturan a 'El Mello', señalado de múltiples homicidios",
+             "2026-11-10", ["homicidio", "captura"]),
+        nota("b", "ctv", "Condenan a 40 años a hombre que asesinó a su pareja en Soledad", "2026-11-10", ["homicidio"]),
+        nota("c", "la-libertad", "Alias 'Castor' señala a presuntos responsables del asesinato de Mayra", "2026-11-10", ["homicidio"]),
+        nota("d", "emisora", "Capturan a sicario tras asesinar a un hombre en el barrio Rebolo", "2026-11-10",
+             ["homicidio", "captura"], "Rebolo"),
+    ]
+    casos = agrupar(notas)
+    assert [c["notas"] for c in casos] == [["d"]]
+
+
+def test_captura_ya_publicada_tambien_sale():
+    notas = [nota("a", "zona-cero", "Capturan en Soledad a alias 'La Cigarra', requerido por hurto", "2026-11-10", ["hurto", "captura"]),
+             nota("b", "ctv", "Le roban la moto a domiciliario en Rebolo", "2026-11-10", ["hurto"], "Rebolo")]
+    previos = [{"caso_id": "x", "notas": ["a"], "estado": "publicado", "tipo": "hurto", "revisado_por": "editor"},
+               {"caso_id": "y", "notas": ["b"], "estado": "publicado", "tipo": "hurto", "revisado_por": "editor"}]
+    casos = agrupar(notas, previos)
+    assert [c["caso_id"] for c in casos] == ["y"]
+
+
+def test_hurto_viejo_toma_la_modalidad_oficial():
+    casos = agrupar([nota("b", "ctv", "Le roban la moto a domiciliario en Rebolo", "2026-11-10", ["hurto"], "Rebolo")])
+    assert casos[0]["tipo"] == "hurto_motos"
+
+
+def test_nota_separada_por_el_editor_no_se_vuelve_a_unir():
+    notas = [
+        nota("a", "zona-cero", "Asesinan a bala a mototaxista en el barrio Rebolo", "2026-11-10", ["homicidio"], "Rebolo"),
+        nota("b", "ctv", "Mototaxista fue asesinado a tiros en Rebolo", "2026-11-11", ["homicidio"], "Rebolo"),
+        nota("c", "emisora", "Otro hombre asesinado en Rebolo", "2026-11-11", ["homicidio"], "Rebolo"),
+    ]
+    assert len(agrupar(notas)) == 1
+    previos = [
+        {"caso_id": "x", "notas": ["a", "b"], "estado": "pendiente", "no_unir_con": ["c"]},
+        {"caso_id": "s-c", "notas": ["c"], "estado": "pendiente", "no_unir_con": ["a", "b"]},
+    ]
+    casos = agrupar(notas, previos)
+    assert sorted(c["notas"] for c in casos) == [["a", "b"], ["c"]]
+    por_id = {c["caso_id"]: c for c in casos}
+    assert por_id["x"]["no_unir_con"] == ["c"] and por_id["s-c"]["no_unir_con"] == ["a", "b"]
+    assert all(f["nota"] in por_id["x"]["notas"] for f in por_id["x"]["fuentes"])
+    # Una nota nueva del mismo hecho se puede sumar a cualquiera de los dos, pero no los junta.
+    notas.append(nota("d", "impacto", "Mototaxista asesinado en Rebolo", "2026-11-11", ["homicidio"], "Rebolo"))
+    casos = agrupar(notas, previos)
+    assert len(casos) == 2 and not any({"a", "c"} <= set(c["notas"]) for c in casos)

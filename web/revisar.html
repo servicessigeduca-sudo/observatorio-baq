@@ -28,6 +28,9 @@
 .rv-fuentes li{border-left:3px solid var(--line);padding-left:10px}
 .rv-fuentes a{font-weight:600;color:var(--ink)}
 .rv-fuentes small{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+.rv-fuentes li.fuera{opacity:.6;border-left-color:var(--hot)}
+.rv-fuentes li.fuera a{text-decoration:line-through}
+.rv-b.mini{font-size:12px;padding:5px 10px;margin-top:6px}
 .rv-campos{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
 .rv-campos label{display:grid;gap:4px;font:600 12px var(--f-sans);color:var(--muted)}
 .rv-acc{display:flex;flex-wrap:wrap;gap:8px}
@@ -66,7 +69,7 @@
   <div>
     <p class="crumb">Uso interno del equipo</p>
     <h1>Revisar casos</h1>
-    <p class="dek" id="dek">Publica, descarta o corrige los casos que arma el scraper. Los cambios se guardan en el repositorio y la página se actualiza sola en unos minutos.</p>
+    <p class="dek" id="dek">Publica, descarta o corrige los casos que arma el scraper. Si un enlace no habla del mismo hecho, sepáralo en su propio caso. Los cambios se guardan en el repositorio y la página se actualiza sola en unos minutos.</p>
   </div>
 </div></section>
 
@@ -115,6 +118,6 @@
 </div>
 
 <script src="comun.js?v=20261124a"></script>
-<script src="revisar.js?v=20261122a"></script>
+<script src="revisar.js?v=20261124b"></script>
 </body>
 </html>

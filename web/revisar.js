@@ -5,8 +5,9 @@
   var REPO="servicessigeduca-sudo/observatorio-baq", RAMA="main";
   var API="https://api.github.com/repos/"+REPO+"/contents/";
   var CLAVE_LS="obaq-revisar-clave";
-  var TIPOS=["homicidio","feminicidio","lesiones","hurto","extorsion","secuestro","violencia_sexual","violencia_intrafamiliar","desaparicion"];
-  var NOMBRE_TIPO={homicidio:"Homicidio",feminicidio:"Feminicidio",lesiones:"Lesiones",hurto:"Hurto",extorsion:"Extorsión",secuestro:"Secuestro",violencia_sexual:"Violencia sexual",violencia_intrafamiliar:"Violencia intrafamiliar",desaparicion:"Desaparición"};
+  // Mismas categorías de la base oficial de la Policía, más feminicidio y desaparición.
+  var TIPOS=["homicidio","feminicidio","lesiones","hurto_personas","hurto_motos","hurto_carros","hurto_comercio","hurto_residencias","hurto_entidades","extorsion","amenazas","secuestro","violencia_sexual","violencia_intrafamiliar","desaparicion"];
+  var NOMBRE_TIPO={homicidio:"Homicidio",feminicidio:"Feminicidio",lesiones:"Lesiones personales",hurto:"Hurto (sin detalle)",hurto_personas:"Hurto a personas",hurto_motos:"Hurto de motos",hurto_carros:"Hurto de carros",hurto_comercio:"Hurto a comercio",hurto_residencias:"Hurto a residencias",hurto_entidades:"Hurto a entidades financieras",extorsion:"Extorsión",amenazas:"Amenazas",secuestro:"Secuestro",violencia_sexual:"Delitos sexuales",violencia_intrafamiliar:"Violencia intrafamiliar",desaparicion:"Desaparición"};
   var MUNICIPIOS=["Barranquilla","Soledad","Malambo","Galapa","Puerto Colombia"];
   var EDITABLES=["tipo","municipio","barrio","fecha"];
 
@@ -14,14 +15,52 @@
 
   function revisado(c){ return c.estado==="publicado"||c.estado==="descartado"||!!c.revisado_por; }
 
+  function normal(t){ return String(t||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,""); }
+  /* Misma regla que scraper/clasificar.py: el titular cuenta una captura o un proceso judicial. */
+  var CAPTURA=/\b(captur(an|aron|o|ada|ado|adas|ados|a a|as)|recaptur\w*|aprehend\w*|aprehension|cay(o|eron)\b(?! (muert\w*|herid\w*|abatid\w*|sin vida|desde|de un|de una|al)\b)|judicializ\w*|imput(an|aron|ado|ada|ados|adas|acion|aran)\b|cargos (contra|a|por)|condena(n|ron|do|da|dos|das)? (a|de|por)\b|fue(ron)? condenad|condenad[oa]s?\b|sentencia(n|do|da)? a|(enviad|mandad)[oa]s? a la carcel|a la carcel|tras las rejas|medida de aseguramiento|(legaliz|orden)\w* (de )?captura|se entrego|se entregaron|extradi\w*|llaman? a juicio|van a juicio|preacuerdo|aceptaron cargos|acepto cargos|responsables? (de|del) (homicidio|asesinato|crimen|feminicidio))/;
+  var EN_CURSO=/\b(en flagrancia|tras (asesinar|matar|herir|disparar|atracar|robar)|luego de (asesinar|matar|herir|disparar|atracar|robar)|minutos despues|momentos despues|cuando (huia|intentaba|escapaba))\b/;
+  function esCaptura(titular){ var t=normal(titular); return CAPTURA.test(t)&&!EN_CURSO.test(t); }
+  // La primera categoría de la nota que sea un delito (la captura no lo es).
+  function tipoNota(n){ return ((n&&n.tipos_delito)||[]).filter(function(t){ return t!=="captura"; })[0]||null; }
+
   function unirListas(a,b){ var r=(a||[]).slice(); (b||[]).forEach(function(x){ if(r.indexOf(x)<0) r.push(x); }); return r; }
 
-  /* cambios: {caso_id: {estado?, tipo?, municipio?, barrio?, fecha?, unir_con?}}.
+  function notaDeFuente(f,notas){
+    if(f.nota) return f.nota;
+    for(var k in notas||{}) if(notas[k].url===f.url) return k;
+    return null;
+  }
+
+  /* Saca del caso las notas que no hablan del mismo hecho: cada una pasa a ser
+     un caso propio sin revisar, y los dos quedan marcados para que el scraper
+     no los vuelva a unir (no_unir_con). */
+  function separar(c, ids, notas){
+    var nuevos=[], quedan=[];
+    (c.fuentes||[]).forEach(function(f){ var id=notaDeFuente(f,notas); (ids.indexOf(id)>=0?nuevos:quedan).push({f:f,id:id}); });
+    nuevos=nuevos.filter(function(x){ return x.id; });
+    if(!nuevos.length||!quedan.length) return [];
+    var sep=nuevos.map(function(x){ return x.id; });
+    c.fuentes=quedan.map(function(x){ return x.f; });
+    c.notas=(c.notas||[]).filter(function(id){ return sep.indexOf(id)<0; });
+    c.medios=unirListas([],c.fuentes.map(function(f){ return f.medio; })).sort();
+    c.no_unir_con=unirListas(c.no_unir_con,sep).sort();
+    return nuevos.map(function(x){
+      var n=(notas||{})[x.id]||{}, f=x.f;
+      var t=tipoNota(n)||c.tipo;
+      return {caso_id:"s"+x.id.slice(0,11), tipo:t, tipos:[t], fecha:n.fecha_publicacion?n.fecha_publicacion.slice(0,10):c.fecha,
+        municipio:n.municipio&&n.municipio!=="fuera_del_area"?n.municipio:c.municipio, barrio:n.barrio||null,
+        medios:[f.medio], notas:[x.id], fuentes:[Object.assign({nota:x.id},f)], estado:"pendiente",
+        posible_duplicado_de:[], no_unir_con:c.notas.slice().sort()};
+    });
+  }
+
+  /* cambios: {caso_id: {estado?, motivo_descarte?, tipo?, municipio?, barrio?, fecha?, unir_con?, separar?}}.
      Se aplican sobre la versión más reciente del archivo, por caso_id, para no
-     pisar lo que el scraper haya guardado mientras tanto. */
-  function aplicar(casos, cambios, quien, hoy){
+     pisar lo que el scraper haya guardado mientras tanto. `notas` (por id) sirve
+     para armar los casos de las notas separadas. */
+  function aplicar(casos, cambios, quien, hoy, notas){
     var porId={}; casos.forEach(function(c){ porId[c.caso_id]=c; });
-    var quitar={}, aplicados=0, faltan=[];
+    var quitar={}, aplicados=0, faltan=[], agregar=[];
     Object.keys(cambios).forEach(function(id){
       var c=porId[id], ch=cambios[id];
       if(!c||quitar[id]){ faltan.push(id); return; }
@@ -42,8 +81,16 @@
         quitar[id]=true; aplicados++;
         return;
       }
+      if(ch.separar&&ch.separar.length){
+        var nuevos=separar(c,ch.separar,notas).filter(function(n){ return !porId[n.caso_id]; });
+        nuevos.forEach(function(n){ porId[n.caso_id]=n; agregar.push(n); });
+      }
       EDITABLES.forEach(function(k){ if(k in ch) c[k]=ch[k]===""?null:ch[k]; });
-      if(ch.estado==="pendiente"){
+      if(ch.estado==="descartado"&&ch.motivo_descarte) c.motivo_descarte=ch.motivo_descarte;
+      else if(ch.estado) delete c.motivo_descarte;
+      if(!ch.estado&&!EDITABLES.some(function(k){ return k in ch; })){
+        // Solo se separaron notas: el caso sigue como estaba.
+      }else if(ch.estado==="pendiente"){
         c.estado=(c.posible_duplicado_de||[]).length?"posible_duplicado":"pendiente";
         delete c.revisado_por; delete c.revisado_en;
       }else{
@@ -54,7 +101,7 @@
       aplicados++;
     });
     var fuera=Object.keys(quitar);
-    casos=casos.filter(function(c){ return !quitar[c.caso_id]; });
+    casos=casos.filter(function(c){ return !quitar[c.caso_id]; }).concat(agregar);
     casos.forEach(function(c){
       if(c.posible_duplicado_de) c.posible_duplicado_de=c.posible_duplicado_de.filter(function(x){ return fuera.indexOf(x)<0; });
     });
@@ -63,7 +110,7 @@
 
   function aJson(casos){ return JSON.stringify(casos,null,2)+"\n"; }
 
-  global.RV={aplicar:aplicar, aJson:aJson, revisado:revisado};
+  global.RV={aplicar:aplicar, aJson:aJson, revisado:revisado, esCaptura:esCaptura};
   if(typeof document==="undefined") return;
 
   /* ---------- Página ---------- */
@@ -164,9 +211,15 @@
     var opTipo=TIPOS.concat(TIPOS.indexOf(tipo)<0&&tipo?[tipo]:[]).map(function(t){ return '<option value="'+t+'"'+(t===tipo?" selected":"")+'>'+esc(NOMBRE_TIPO[t]||t)+'</option>'; }).join("");
     var muni=valor(c,"municipio")||"";
     var opMuni='<option value="">Sin municipio</option>'+MUNICIPIOS.map(function(m){ return '<option'+(m===muni?" selected":"")+'>'+m+'</option>'; }).join("");
+    var sep=ch.separar||[], total=(c.fuentes||[]).length;
     var fuentes=(c.fuentes||[]).map(function(f){
-      return '<li><a href="'+esc(f.url)+'" target="_blank" rel="noopener">'+esc(f.titular||f.url)+'</a><small>'+esc(f.medio)+'</small></li>';
+      var nid=notaDeFuente(f,notas), fuera=nid&&sep.indexOf(nid)>=0;
+      // Se puede separar mientras quede al menos un enlace en el caso.
+      var btn=!nid||ch.unir_con?"":fuera?'<button type="button" class="rv-b mini" data-acc="juntar" data-nota="'+esc(nid)+'">Dejarlo en este caso</button>'
+        :total-sep.length>1?'<button type="button" class="rv-b mini" data-acc="separar" data-nota="'+esc(nid)+'" title="Este enlace cuenta otro hecho: pasa a ser un caso aparte">No es el mismo hecho</button>':"";
+      return '<li'+(fuera?' class="fuera"':'')+'><a href="'+esc(f.url)+'" target="_blank" rel="noopener">'+esc(f.titular||f.url)+'</a><small>'+esc(f.medio)+(fuera?' · se separará en un caso aparte':'')+'</small>'+btn+'</li>';
     }).join("");
+    var captura=(c.fuentes||[]).some(function(f){ return esCaptura(f.titular); });
     var res=resumenDe(c);
     var mapa=c.lat!=null?' · <a href="https://www.openstreetmap.org/?mlat='+c.lat+'&mlon='+c.lon+'#map=16/'+c.lat+'/'+c.lon+'" target="_blank" rel="noopener">Ver en el mapa</a>':"";
     var dups=(c.posible_duplicado_de||[]).filter(function(o){ return casos.some(function(x){ return x.caso_id===o; }); });
@@ -175,7 +228,7 @@
     }).join("")+'<span class="rv-msg">Si son hechos distintos, publícalo normalmente.</span></div>':"";
     var unido=ch.unir_con?'<div class="rv-dup"><b>Se unirá al caso:</b> '+esc(titularDe(ch.unir_con))+'</div>':"";
     return '<article class="rv-caso'+(cambios[id]?" cambiado":"")+'" data-id="'+id+'">'+
-      '<div class="rv-cab"><span class="rv-et'+(tipo==="homicidio"||tipo==="feminicidio"?" hom":"")+'">'+esc(NOMBRE_TIPO[tipo]||tipo)+'</span><b>'+esc(valor(c,"fecha")||"Sin fecha")+'</b><span>'+esc([valor(c,"barrio"),muni].filter(Boolean).join(", ")||"Sin ubicación")+'</span>'+etiquetaEstado(ch.unir_con?"":e)+(c.varios_hechos?'<span class="rv-et dup" title="La nota parece contar más de un hecho: sepáralos si es así">Varios hechos</span>':'')+'</div>'+
+      '<div class="rv-cab"><span class="rv-et'+(tipo==="homicidio"||tipo==="feminicidio"?" hom":"")+'">'+esc(NOMBRE_TIPO[tipo]||tipo)+'</span><b>'+esc(valor(c,"fecha")||"Sin fecha")+'</b><span>'+esc([valor(c,"barrio"),muni].filter(Boolean).join(", ")||"Sin ubicación")+'</span>'+etiquetaEstado(ch.unir_con?"":e)+(c.varios_hechos?'<span class="rv-et dup" title="La nota parece contar más de un hecho: sepáralos si es así">Varios hechos</span>':'')+(captura?'<span class="rv-et dup" title="El titular habla de una captura o un proceso judicial, no de un delito nuevo">Parece captura</span>':'')+(e==="descartado"&&(ch.estado?ch.motivo_descarte:c.motivo_descarte)==="captura_o_judicial"?'<span class="rv-et">Captura o judicial</span>':'')+'</div>'+
       '<ul class="rv-fuentes">'+fuentes+'</ul>'+
       (res?'<p class="rv-msg">'+esc(res)+'</p>':"")+
       '<p class="rv-msg">'+esc((c.medios||[]).length)+' medio(s) · Ubicación: '+esc(c.confianza_ubicacion||"sin ubicar")+mapa+'</p>'+
@@ -188,7 +241,8 @@
       '</div>'+bloqueDup)+
       '<div class="rv-acc">'+
         (ch.unir_con?"":'<button type="button" class="rv-b si" data-acc="publicado"'+(e==="publicado"?" disabled":"")+'>Publicar</button>'+
-        '<button type="button" class="rv-b no" data-acc="descartado"'+(e==="descartado"?" disabled":"")+'>Descartar</button>')+
+        '<button type="button" class="rv-b no" data-acc="descartado"'+(e==="descartado"?" disabled":"")+'>Descartar</button>'+
+        '<button type="button" class="rv-b" data-acc="captura"'+(e==="descartado"?" disabled":"")+' title="No es un delito nuevo: es una captura, imputación o condena">Es una captura: descartar</button>')+
         (revisado(c)&&!cambios[id]?'<button type="button" class="rv-b" data-acc="pendiente">Volver a sin revisar</button>':"")+
         (cambios[id]?'<button type="button" class="rv-b" data-acc="deshacer">Deshacer</button>':"")+
       '</div></article>';
@@ -214,7 +268,7 @@
     var btn=$("guardar"); btn.disabled=true; btn.textContent="Guardando…";
     var hoy=new Date().toISOString().slice(0,10);
     return leerArchivo("data/casos.json").then(function(f){
-      var r=aplicar(f.datos,JSON.parse(JSON.stringify(cambios)),usuario,hoy);
+      var r=aplicar(f.datos,JSON.parse(JSON.stringify(cambios)),usuario,hoy,notas);
       var n=r.aplicados;
       var msg="Revisar "+n+(n===1?" caso":" casos")+" desde el panel";
       return gh(API+"data/casos.json",{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({message:msg,content:b64(aJson(r.casos)),sha:f.sha,branch:RAMA})}).then(function(){ return r; });
@@ -264,7 +318,14 @@
     var id=b.closest(".rv-caso").dataset.id, acc=b.dataset.acc;
     if(acc==="deshacer") delete cambios[id];
     else if(acc==="unir") cambios[id]={unir_con:b.dataset.con};
-    else cambiar(id,"estado",acc);
+    else if(acc==="separar"){ cambios[id]=cambios[id]||{}; cambios[id].separar=unirListas(cambios[id].separar,[b.dataset.nota]); }
+    else if(acc==="juntar"){
+      var ch=cambios[id]; ch.separar=(ch.separar||[]).filter(function(x){ return x!==b.dataset.nota; });
+      if(!ch.separar.length) delete ch.separar;
+      if(!Object.keys(ch).length) delete cambios[id];
+    }
+    else if(acc==="captura"){ cambiar(id,"estado","descartado"); cambiar(id,"motivo_descarte","captura_o_judicial"); }
+    else{ cambiar(id,"estado",acc); if(cambios[id]) delete cambios[id].motivo_descarte; }
     pintar();
   });
   $("descartar-cambios").addEventListener("click",function(){ cambios={}; pintar(); });

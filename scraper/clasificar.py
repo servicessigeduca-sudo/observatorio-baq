@@ -15,6 +15,9 @@ def normalizar(texto: str) -> str:
     return "".join(c for c in texto if unicodedata.category(c) != "Mn")
 
 
+# Categorías: las mismas de la base oficial de la Policía (oficiales/procesar.py),
+# más feminicidio y desaparición, que la prensa distingue. Tránsito no se usa:
+# los accidentes no entran como casos.
 # Orden = prioridad: el primero que coincida es el tipo principal.
 REGLAS: list[tuple[str, list[str]]] = [
     ("feminicidio", [r"feminicid"]),
@@ -26,21 +29,71 @@ REGLAS: list[tuple[str, list[str]]] = [
     ("violencia_sexual", [r"abuso sexual", r"violacion", r"acceso carnal", r"acto sexual"]),
     ("extorsion", [r"extorsi"]),
     ("secuestro", [r"secuestr"]),
-    ("hurto", [r"hurto", r"\brobo\b", r"\broban\b", r"\brobaron\b", r"atraco", r"atracad", r"raponer", r"cosquiller"]),
-    ("violencia_intrafamiliar", [r"violencia intrafamiliar", r"maltrato"]),
+    ("hurto", [r"hurto", r"\brobo\b", r"\broban\b", r"\brobaron\b", r"\brobar(le|les)?\b", r"atraco", r"atracad",
+               r"\batracan\b", r"raponer", r"cosquiller", r"fleteo", r"fletead", r"asalt"]),
+    ("violencia_intrafamiliar", [r"violencia intrafamiliar", r"maltrato", r"violencia de genero"]),
+    ("amenazas", [r"amenaza", r"panfleto", r"intimidad"]),
     ("desaparicion", [r"desaparecid"]),
     ("captura", [r"captura", r"capturad", r"aprehendid", r"incautan", r"incautacion"]),
 ]
 
 _REGLAS_C = [(tipo, [re.compile(p) for p in patrones]) for tipo, patrones in REGLAS]
 
+# Modalidades de hurto de la base oficial; si no se reconoce ninguna, es hurto a personas.
+_HURTOS = [
+    ("hurto_entidades", re.compile(r"\b(banco|bancaria|entidad financiera|cajero|corresponsal|punto de recaudo|giros|casa de cambio|chance)\b")),
+    ("hurto_motos", re.compile(r"\b(moto|motos|motocicleta\w*|motociclista|motoneta)\b")),
+    ("hurto_carros", re.compile(r"\b(carro|carros|vehiculo|camioneta|automovil|automotor\w*|camion)\b")),
+    ("hurto_residencias", re.compile(r"\b(vivienda|residencia|casa|apartamento|hogar|conjunto residencial)\b")),
+    ("hurto_comercio", re.compile(r"\b(tienda|local|comercio|establecimiento|almacen|supermercado|supertienda|drogueria|"
+                                  r"ferreteria|panaderia|restaurante|estacion de servicio|bomba|olimpica|ara|d1|joyeria|negocio)\b")),
+]
+TIPOS_HURTO = [t for t, _ in _HURTOS] + ["hurto_personas"]
 
-def tipos_delito(texto: str) -> list[str]:
+
+def tipo_hurto(texto: str) -> str:
+    """Modalidad de hurto como la clasifica la base oficial."""
+    t = normalizar(texto)
+    return next((tipo for tipo, p in _HURTOS if p.search(t)), "hurto_personas")
+
+
+# Titulares sobre capturas o procesos judiciales: cuentan que detuvieron, imputaron
+# o condenaron a alguien por un delito, no un delito nuevo («Capturan a alias
+# 'El Mello', señalado de homicidios»).
+_CAPTURA_O_JUDICIAL = re.compile(
+    r"\b(captur(an|aron|o|ada|ado|adas|ados|a a|as)|recaptur\w*|aprehend\w*|aprehension|"
+    r"cay(o|eron)\b(?! (muert\w*|herid\w*|abatid\w*|sin vida|desde|de un|de una|al)\b)|"
+    r"judicializ\w*|imput(an|aron|ado|ada|ados|adas|acion|aran)\b|cargos (contra|a|por)|"
+    r"condena(n|ron|do|da|dos|das)? (a|de|por)\b|fue(ron)? condenad|condenad[oa]s?\b|sentencia(n|do|da)? a|"
+    r"(enviad|mandad)[oa]s? a la carcel|a la carcel|tras las rejas|medida de aseguramiento|"
+    r"(legaliz|orden)\w* (de )?captura|se entrego|se entregaron|extradi\w*|llaman? a juicio|"
+    r"van a juicio|preacuerdo|aceptaron cargos|acepto cargos|responsable[s]? (de|del) (homicidio|asesinato|crimen|feminicidio))"
+)
+# Marcas de que la captura ocurrió en el mismo hecho que se está contando
+# («capturan a sicario tras asesinar a un hombre en Rebolo»).
+_HECHO_EN_CURSO = re.compile(r"\b(en flagrancia|tras (asesinar|matar|herir|disparar|atracar|robar)|luego de (asesinar|matar|herir|disparar|atracar|robar)|minutos despues|momentos despues|cuando (huia|intentaba|escapaba))\b")
+
+
+def es_captura_o_judicial(titular: str) -> bool:
+    """El titular cuenta una captura, imputación o condena, no un delito nuevo."""
+    t = normalizar(titular)
+    return bool(_CAPTURA_O_JUDICIAL.search(t)) and not _HECHO_EN_CURSO.search(t)
+
+
+def tipos_delito(texto: str, titular: str | None = None) -> list[str]:
+    """Tipos de delito que menciona el texto, el principal primero.
+
+    Si el titular cuenta una captura o un proceso judicial, el tipo principal es
+    «captura»: los demás tipos quedan como el delito por el que se capturó."""
     t = normalizar(texto)
     tipos = [tipo for tipo, pats in _REGLAS_C if any(p.search(t) for p in pats)]
     # Si hubo muerto, "lesiones" es secundario; si es feminicidio, también es homicidio.
     if "feminicidio" in tipos and "homicidio" not in tipos:
         tipos.insert(1, "homicidio")
+    if "hurto" in tipos:
+        tipos[tipos.index("hurto")] = tipo_hurto(texto)
+    if es_captura_o_judicial(texto if titular is None else titular):
+        tipos = ["captura"] + [x for x in tipos if x != "captura"]
     return tipos
 
 
@@ -125,7 +178,7 @@ def barrio(texto: str) -> str | None:
 def clasificar(titular: str, resumen: str = "") -> dict:
     texto = f"{titular}. {resumen}"
     return {
-        "tipos_delito": tipos_delito(texto),
+        "tipos_delito": tipos_delito(texto, titular),
         "municipio": municipio(texto),
         "barrio": barrio(titular) or barrio(resumen),
     }
