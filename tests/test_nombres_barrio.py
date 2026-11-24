@@ -91,3 +91,24 @@ def test_municipio_fijo_corrige_a_la_prensa():
     assert deducir_municipio(casos, ref) == 1
     assert casos[0]["municipio"] == "Barranquilla" and casos[1]["municipio"] == "Soledad"
     assert ref.municipio_unico("el ferry") == "Barranquilla"
+
+
+def test_lista_unica_y_codigos():
+    ref = Referencia(GEO, {"Barranquilla|Santo Domingo": "Santo Domingo de Guzman"}, {"El Ferry": "Barranquilla"})
+    lista = {r["codigo"]: r for r in ref.lista()}
+    assert lista["08001-santo-domingo-de-guzman"]["alias"] == "Santo Domingo"
+    assert lista["08001-el-ferry"]["limite"] == "sin límite"
+    assert lista["08758-villa-maria"]["cod_municipio"] == "08758" and "08573-villa-maria" in lista
+    assert ref.codigo("Siete de Abril", "Barranquilla") == "08001-7-de-abril"
+    assert ref.codigo("Barrio Inventado", "Barranquilla") == ""
+
+
+def test_notas_con_varios_hechos():
+    from casos.__main__ import marcar_varios_hechos, varios_hechos
+    assert varios_hechos("Dos hombres asesinados en 7 de Abril y Limon. En hechos aislados.", REF)
+    assert varios_hechos("Asesinada en el barrio El Limón y otra resultó herida en Rebolo", REF)
+    assert not varios_hechos("Asesinan a un hombre en Los Almendros y huyen en moto", REF)
+    casos = [{"notas": ["a"]}, {"notas": ["b"], "varios_hechos": True}]
+    notas = [{"id": "a", "titular": "Dos muertos en 7 de Abril y Limon"}, {"id": "b", "titular": "Matan a un hombre en Limon"}]
+    assert marcar_varios_hechos(casos, notas, REF) == 1
+    assert casos[0]["varios_hechos"] and "varios_hechos" not in casos[1]

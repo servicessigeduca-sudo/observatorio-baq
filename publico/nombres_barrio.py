@@ -47,6 +47,7 @@ class Referencia:
     def __init__(self, geojson: dict | None = None, alias: dict[str, str] | None = None, fijos: dict[str, str] | None = None):
         # barrio -> municipio decidido por el equipo
         self.fijos = {clave(b): m for b, m in (fijos or {}).items()}
+        self.geojson, self.alias, self.fijos_nombres = geojson or {}, alias or {}, fijos or {}
         # (municipio, clave) -> nombre oficial
         self._nombre: dict[tuple[str, str], str] = {}
         self._flojo: dict[tuple[str, str], str] = {}  # misma clave sin artículo inicial
@@ -75,11 +76,24 @@ class Referencia:
                    leer(raiz / "data" / "barrios_municipio.json"))
 
     def oficial(self, barrio: str | None, municipio: str | None) -> str | None:
-        """Nombre oficial del barrio en ese municipio, o None si no está en los límites."""
+        """Nombre oficial del barrio en ese municipio, o None si no está en la lista."""
         if not barrio or not municipio:
             return None
         k = clave(barrio)
-        return self._nombre.get((municipio, k)) or self._flojo.get((municipio, sin_articulo(k)))
+        n = self._nombre.get((municipio, k)) or self._flojo.get((municipio, sin_articulo(k)))
+        if n is None and self.fijos.get(k) == municipio:
+            n = next(b for b in self.fijos_nombres if clave(b) == k)
+        return n
+
+    def codigo(self, barrio: str | None, municipio: str | None) -> str:
+        """Código del barrio en la lista única (data/publico/barrios.csv), o "" si no está."""
+        from .lista_barrios import codigo
+        n = self.oficial(barrio, municipio)
+        return codigo(n, municipio) if n else ""
+
+    def lista(self) -> list[dict]:
+        from .lista_barrios import filas
+        return filas(self.geojson, self.alias, self.fijos_nombres)
 
     def municipio_unico(self, barrio: str | None) -> str | None:
         """El municipio del barrio si el nombre existe en uno solo; None si no existe o se repite."""
@@ -94,3 +108,10 @@ class Referencia:
     def municipio_fijo(self, barrio: str | None) -> str | None:
         """Municipio que el equipo fijó para este barrio, o None."""
         return self.fijos.get(clave(barrio)) if barrio else None
+
+    def existe(self, barrio: str | None) -> bool:
+        """True si el nombre está en la lista, en cualquier municipio."""
+        if not barrio:
+            return False
+        k = clave(barrio)
+        return k in self.fijos or bool(self._municipios.get(k) or self._municipios.get(sin_articulo(k)))

@@ -28,6 +28,7 @@ Los datos salen de notas publicadas por Zona Cero, Diario La Libertad, Emisora A
 | [`data/oficiales_mensual.csv`](data/oficiales_mensual.csv) | La serie mensual anterior en CSV: año, mes, municipio, tipo y cantidad |
 | [`data/publico/barrios.geojson`](data/publico/barrios.geojson) | Límites de barrio para el mapa por barrio: Barranquilla con la capa oficial del POT ([`data/barrios_pot.geojson`](data/barrios_pot.geojson), Alcaldía de Barranquilla en datos.gov.co) y los otros municipios con OpenStreetMap (ODbL). Lo arma el flujo **Límites de barrios** cada mes; los nombres que no coinciden se unen a mano en [`data/barrios_alias.json`](data/barrios_alias.json) |
 | [`data/geocodigos.json`](data/geocodigos.json) | Coordenadas de cada barrio según OpenStreetMap, corregibles a mano |
+| [`data/publico/barrios.csv`](data/publico/barrios.csv) | Lista única de barrios: código del observatorio (código DANE del municipio + nombre), barrio, municipio, código DANE, alias y origen del límite. La arma `python -m publico` con los límites, `data/barrios_alias.json` (otras grafías) y `data/barrios_municipio.json` (municipio fijado a mano, p. ej. El Ferry). Los CSV de casos traen `cod_municipio` y `cod_barrio` |
 
 ## Cómo revisar casos
 

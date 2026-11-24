@@ -40,6 +40,7 @@ def generar(notas: list[dict], casos: list[dict]) -> str:
         f"- {len(multi)} casos reúnen notas de más de un medio o más de una nota.",
         f"- {dudas} quedan como posible duplicado para que el editor decida.",
         f"- {sin_barrio} no tienen barrio identificado.",
+        f"- {sum(1 for c in casos if c.get('varios_hechos'))} vienen de notas que cuentan varios hechos: el editor debe separarlos.",
         f"- {sum(fuera.values())} notas con delito no cuentan como caso: {fuera['fuera_del_area']} de fuera del área, "
         f"{fuera['balance']} balances o cifras acumuladas, {fuera['seguimiento_judicial']} seguimientos judiciales "
         f"y {fuera['accidente']} accidentes.",
