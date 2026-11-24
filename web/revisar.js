@@ -118,11 +118,14 @@
     return Promise.all([
       leerArchivo("data/casos.json"),
       leerArchivo("data/notas.json").catch(function(){ return {datos:[]}; }),
-      leerArchivo("data/geocodigos.json").catch(function(){ return {datos:{}}; })
+      leerArchivo("data/geocodigos.json").catch(function(){ return {datos:{}}; }),
+      // Lista única de barrios (la publica el sitio): se sugieren primero estos nombres.
+      fetch("data/publico/barrios.csv").then(function(r){ return r.ok?r.text():""; }).catch(function(){ return ""; })
     ]).then(function(x){
       casos=x[0].datos;
       notas={}; (x[1].datos||[]).forEach(function(n){ notas[n.id]=n; });
       var vistos={}; barrios=[];
+      (x[3]||"").split("\n").slice(1).forEach(function(l){ var c=l.split(","); if(c.length>=3&&c[1]&&!vistos[c[1]]){ vistos[c[1]]=1; barrios.push(c[1]); } });
       Object.keys(x[2].datos||{}).forEach(function(k){ var b=k.split("|")[0]; var g=x[2].datos[k]||{}, n=g.nombre_osm?g.nombre_osm.split(",")[0]:b.replace(/\b\w/g,function(l){ return l.toUpperCase(); }); if(!vistos[n]){ vistos[n]=1; barrios.push(n); } });
       casos.forEach(function(c){ if(c.barrio&&!vistos[c.barrio]){ vistos[c.barrio]=1; barrios.push(c.barrio); } });
       barrios.sort(function(a,b){ return a.localeCompare(b,"es"); });
@@ -172,7 +175,7 @@
     }).join("")+'<span class="rv-msg">Si son hechos distintos, publícalo normalmente.</span></div>':"";
     var unido=ch.unir_con?'<div class="rv-dup"><b>Se unirá al caso:</b> '+esc(titularDe(ch.unir_con))+'</div>':"";
     return '<article class="rv-caso'+(cambios[id]?" cambiado":"")+'" data-id="'+id+'">'+
-      '<div class="rv-cab"><span class="rv-et'+(tipo==="homicidio"||tipo==="feminicidio"?" hom":"")+'">'+esc(NOMBRE_TIPO[tipo]||tipo)+'</span><b>'+esc(valor(c,"fecha")||"Sin fecha")+'</b><span>'+esc([valor(c,"barrio"),muni].filter(Boolean).join(", ")||"Sin ubicación")+'</span>'+etiquetaEstado(ch.unir_con?"":e)+'</div>'+
+      '<div class="rv-cab"><span class="rv-et'+(tipo==="homicidio"||tipo==="feminicidio"?" hom":"")+'">'+esc(NOMBRE_TIPO[tipo]||tipo)+'</span><b>'+esc(valor(c,"fecha")||"Sin fecha")+'</b><span>'+esc([valor(c,"barrio"),muni].filter(Boolean).join(", ")||"Sin ubicación")+'</span>'+etiquetaEstado(ch.unir_con?"":e)+(c.varios_hechos?'<span class="rv-et dup" title="La nota parece contar más de un hecho: sepáralos si es así">Varios hechos</span>':'')+'</div>'+
       '<ul class="rv-fuentes">'+fuentes+'</ul>'+
       (res?'<p class="rv-msg">'+esc(res)+'</p>':"")+
       '<p class="rv-msg">'+esc((c.medios||[]).length)+' medio(s) · Ubicación: '+esc(c.confianza_ubicacion||"sin ubicar")+mapa+'</p>'+

@@ -24,6 +24,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from .cuadricula import TAMANO_M, zonas
+from .lista_barrios import DANE, a_csv
 from .nombres_barrio import Referencia
 from .limpieza import MUNICIPIOS, modalidad_de_texto, normalizar_modalidad, normalizar_municipio, normalizar_sexo, revisar_fecha
 
@@ -109,6 +110,18 @@ def oficializar_registro(registro: dict | None, ref: Referencia) -> dict | None:
             barrios[(b["municipio"], b["barrio"])] = b
     return {**registro, "filas": [list(k) + [n] for k, n in filas.items()],
             "barrios": sorted(barrios.values(), key=lambda b: (b["municipio"], b["barrio"]))}
+
+
+def fuera_de_lista(internos: list[dict], registro: dict | None, ref: Referencia) -> dict:
+    """Nombres de barrio que no están en la lista única, con cuántos casos tienen, para agregarlos como alias."""
+    faltan = {"prensa": Counter(), "registro": Counter()}
+    for c in internos:
+        if c["barrio"] and c["municipio"] and not ref.oficial(c["barrio"], c["municipio"]):
+            faltan["prensa"][f'{c["barrio"]} ({c["municipio"]})'] += 1
+    for f in (registro or {}).get("filas", []):
+        if f[3] != "Sin barrio" and not ref.oficial(f[3], f[1]):
+            faltan["registro"][f"{f[3]} ({f[1]})"] += f[-1]
+    return {k: dict(v.most_common()) for k, v in faltan.items()}
 
 
 def prensa_publica(casos: list[dict], notas: list[dict], hoy: date) -> tuple[dict, list[dict], dict]:
@@ -413,13 +426,19 @@ def diccionario(corte: dict) -> dict:
                 "descripcion": "Casos reportados por la prensa local, contados por mes, municipio, barrio, delito y modalidad.",
                 "variables": {"mes": "Año y mes del hecho (AAAA-MM)", "municipio": "Municipio del área metropolitana; vacío si la nota no lo dice",
                               "barrio": "Barrio mencionado en la nota; vacío si no lo dice", "delito": "hom, les, hur, ext u otr (ver «delitos»)",
-                              "modalidad": "Arma de fuego, Arma blanca o Sin dato, deducida del titular", "casos": "Número de casos (un hecho cubierto por varios medios cuenta una vez)"}},
+                              "modalidad": "Arma de fuego, Arma blanca o Sin dato, deducida del titular", "casos": "Número de casos (un hecho cubierto por varios medios cuenta una vez)", "cod_municipio": "Código DANE del municipio (Barranquilla 08001, Soledad 08758, Malambo 08433, Galapa 08296, Puerto Colombia 08573)", "cod_barrio": "Código del barrio en barrios.csv; vacío si el nombre no está en la lista"}},
             "registro_homicidios.csv": {"fuente": FUENTE_REGISTRO,
                 "descripcion": "Homicidios de la base 2026 en los cinco municipios, contados por mes, ubicación agregada, sexo y modalidad. Sin nombres, direcciones, horas ni descripciones.",
                 "variables": {"mes": "Año y mes del hecho (AAAA-MM), según la fecha y hora del registro", "municipio": "Municipio",
                               "localidad": "Localidad de Barranquilla, o el municipio", "barrio": "Barrio del registro, con mayúsculas normalizadas",
                               "zona": f"Zona de cuadrícula de {TAMANO_M} m: celdas con menos de 3 casos fusionadas con sus vecinas (ver zonas en registro.json); vacía si la celda quedó aislada",
-                              "sexo": "Hombre, Mujer o Sin dato", "modalidad": "Sicariato, Riña, Hurto, Por establecer o Sin dato (errores de digitación corregidos)", "casos": "Número de homicidios"}},
+                              "sexo": "Hombre, Mujer o Sin dato", "modalidad": "Sicariato, Riña, Hurto, Por establecer o Sin dato (errores de digitación corregidos)", "casos": "Número de homicidios", "cod_municipio": "Código DANE del municipio (Barranquilla 08001, Soledad 08758, Malambo 08433, Galapa 08296, Puerto Colombia 08573)", "cod_barrio": "Código del barrio en barrios.csv; vacío si el nombre no está en la lista"}},
+            "barrios.csv": {"fuente": "Barranquilla: Barrios según POT (Alcaldía de Barranquilla, datos.gov.co). Otros municipios: © colaboradores de OpenStreetMap (ODbL)",
+                "descripcion": "Lista única de barrios del área metropolitana que usa el observatorio para unir nombres entre fuentes.",
+                "variables": {"codigo": "Código del observatorio: código DANE del municipio + nombre sin tildes", "barrio": "Nombre del barrio",
+                              "municipio": "Municipio", "cod_municipio": "Código DANE del municipio",
+                              "alias": "Otras formas de escribirlo que el sitio reconoce, separadas por «;»",
+                              "limite": "POT, OpenStreetMap, aproximado o sin límite"}},
             "prensa_vs_oficial.csv": {"fuente": "Prensa, Policía Nacional (SIEDCO) y base de homicidios 2026",
                 "descripcion": "Comparación por mes, municipio y delito.",
                 "variables": {"mes": "AAAA-MM", "municipio": "Municipio", "delito": "hom, les, hur o ext", "prensa": "Casos en la prensa",
@@ -466,7 +485,8 @@ def construir(raiz: Path, hoy: date | None = None, ahora: datetime | None = None
                        "prensa_revisados": sum(1 for c in internos if c["revisado"]),
                        "registro": sum(f[-1] for f in registro["filas"]) if registro else None},
            "homicidios": homicidios_oficiales(oficial, oficiales, lista_inf),
-           "poblacion": poblacion, "calidad": {"prensa": calidad, "registro": registro.get("calidad") if registro else None}}
+           "poblacion": poblacion, "calidad": {"prensa": calidad, "registro": registro.get("calidad") if registro else None,
+                                               "barrios_fuera_de_la_lista": fuera_de_lista(internos, registro, ref)}}
 
     pub.mkdir(parents=True, exist_ok=True)
     (pub / "informes").mkdir(exist_ok=True)
@@ -480,13 +500,18 @@ def construir(raiz: Path, hoy: date | None = None, ahora: datetime | None = None
     escribir(pub / "diccionario.json", diccionario(corte))
 
     pm = Counter((c["mes"], c["municipio"] or "", c["barrio"] or "", c["grupo"], c["modalidad"]) for c in prensa["casos"])
-    (pub / "prensa_mensual.csv").write_text(_csv(["mes", "municipio", "barrio", "delito", "modalidad", "casos"], [list(k) + [n] for k, n in sorted(pm.items())]), encoding="utf-8")
+    # Códigos DANE de municipio y de la lista única de barrios, para cruzar con otras bases.
+    cods = lambda muni, barrio: [DANE.get(muni, ""), ref.codigo(barrio, muni) if barrio and barrio != "Sin barrio" else ""]
+    (pub / "prensa_mensual.csv").write_text(_csv(["mes", "municipio", "barrio", "delito", "modalidad", "casos", "cod_municipio", "cod_barrio"],
+                                                 [list(k) + [n] + cods(k[1], k[2]) for k, n in sorted(pm.items())]), encoding="utf-8")
+    (pub / "barrios.csv").write_text(a_csv(ref.lista()), encoding="utf-8")
     (pub / "prensa_vs_oficial.csv").write_text(_csv(["mes", "municipio", "delito", "prensa", "oficial", "registro", "proporcion_prensa", "notas"],
         [[f["mes"], f["municipio"], f["delito"], f["prensa"], f["oficial"], f["registro"], f["proporcion_prensa"], " ".join(f["notas"])] for f in comp]), encoding="utf-8")
     (pub / "oficiales_perfil.csv").write_text(_csv(["anio", "municipio", "categoria", "variable", "valor", "cantidad"], oficial_perfil(oficiales)), encoding="utf-8")
     if registro:
         escribir(pub / "registro.json", registro)
-        (pub / "registro_homicidios.csv").write_text(_csv(registro["columnas"], registro["filas"]), encoding="utf-8")
+        (pub / "registro_homicidios.csv").write_text(_csv(registro["columnas"] + ["cod_municipio", "cod_barrio"],
+                                                          [f + cods(f[1], f[3]) for f in registro["filas"]]), encoding="utf-8")
 
     # Copia fechada para reproducir los análisis de cada día.
     cortes = d / "cortes"
