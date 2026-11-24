@@ -154,7 +154,6 @@
     "caso_id": "1c719a34b134",
     "tipo": "homicidio",
     "tipos": [
-      "homicidio",
       "extorsion"
     ],
     "fecha": "2026-11-22",
@@ -175,11 +174,11 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24",
     "lat": 10.9978,
     "lon": -74.79687,
-    "confianza_ubicacion": "alta",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-24"
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "1739406c4d47",
@@ -216,11 +215,11 @@
     "posible_duplicado_de": [
       "9d71b03a44e6"
     ],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24",
     "lat": 10.94771,
     "lon": -74.81146,
-    "confianza_ubicacion": "alta",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-24"
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "149226c3a482",
@@ -247,11 +246,11 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-24",
     "lat": 10.94585,
     "lon": -74.80224,
-    "confianza_ubicacion": "alta",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-24"
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "b6cc00080aeb",
@@ -278,11 +277,11 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio",
     "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-24"
+    "revisado_en": "2026-11-24",
+    "lat": 10.9978,
+    "lon": -74.79687,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "a4133bd781fe",
