@@ -1,6 +1,854 @@
 [
   {
     "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/balacera-en-fundacion-deja-tres-policias-heridos-durante-operativo-en-la-candelaria/",
+    "titular": "Balacera en Fundación deja tres policías heridos durante operativo en La Candelaria - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T06:24:50-05:00",
+    "resumen": "Momentos de tensión se vivieron durante la madrugada de este miércoles 25 de noviembre en el barrio La Candelaria, en Fundación, Magdalena, donde un",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": "La Candelaria",
+    "estado": "pendiente",
+    "id": "4964c0a1714a0141da7612c17c3bf374d213948f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/identifican-a-hombre-asesinado-a-bala-en-el-barrio-los-manantiales-de-soledad/",
+    "titular": "Identifican a hombre asesinado a bala en el barrio Los Manantiales de Soledad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T06:08:24-05:00",
+    "resumen": "Como Jair Alfredo Echeverri Quiñones fue identificado el hombre que murió tras ser víctima de un ataque sicarial durante la noche del martes 24 de noviembre",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Los Manantiales",
+    "estado": "pendiente",
+    "id": "447f3c1a332585d4c7df121af1a6730193c4673c"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/operacion-de-madrugada-en-cartagena-termina-con-20-rehenes-rescatados-y-un-asaltante-muerto/",
+    "titular": "Operación de madrugada en Cartagena termina con 20 rehenes rescatados y un asaltante muerto - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T06:04:49-05:00",
+    "resumen": "Fuerzas especiales del Ejército y la Policía irrumpieron en el almacén Éxito de Contadora. Cuatro presuntos delincuentes fueron reducidos y uno habría muerto",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "18b3007576b98016e93536de228e909a0fae8157"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/capturan-una-pareja-presuntos-extorsionistas-del-bloque-resistencia-caribe",
+    "titular": "Capturan a una pareja, presuntos extorsionistas del ‘Bloque Resistencia Caribe’",
+    "fecha_publicacion": "2026-11-25T05:37:05-05:00",
+    "resumen": "Les fueron incautados 500.000 pesos en efectivo, una motocicleta y dos teléfonos celulares.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "extorsion",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b43a3b0b256d8411b03c0815db984c4c6b4da57e"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/al-retomar-control-exito-de-cartagena-y-liberar-rehenes-cuatro-delincuentes-fueron",
+    "titular": "Al retomar control Éxito de Cartagena y liberar rehenes, cuatro delincuentes fueron capturados",
+    "fecha_publicacion": "2026-11-25T04:46:39-05:00",
+    "resumen": "“Una operación de filigrana”, aseguró la Policía en su cuenta de X.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0f2732e4503fcacc15eb74d8a4ac986a85a68778"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/la-milimetrica-operacion-en-cartagena-exigio-la-maxima-capacidad-de-reaccion-mindefensa",
+    "titular": "\"La milimétrica operación en Cartagena exigió la máxima capacidad de reacción\": MinDefensa",
+    "fecha_publicacion": "2026-11-25T04:45:09-05:00",
+    "resumen": "Todas las personas están a salvo, indicaron las autoridades.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "85277f781d830c56260c3cbf4dc03ee5f5bad1c4"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/operativo-impecable-alcalde-dumek-turbay-tras-rescate-de-rehenes-en-exito-cartagena",
+    "titular": "\"¡Operativo impecable!\": Alcalde Dumek Turbay tras rescate de rehenes en Éxito Cartagena",
+    "fecha_publicacion": "2026-11-25T04:25:24-05:00",
+    "resumen": "Cuatro delincuentes fueron capturados y uno abatido.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a9b11bf4b42210618d41ccd682d6e73863324e2d"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/fuerza-publica-rescato-los-secuestrados-en-el-exito-cartagena-un-delincuente-abatido",
+    "titular": "Fuerza Pública rescató a los secuestrados en el Éxito Cartagena: un delincuente abatido",
+    "fecha_publicacion": "2026-11-25T03:48:36-05:00",
+    "resumen": "El operativo se desarrolló en la madrugada de este miércoles.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6789b6ddea9365c80bee2e568f413abf4d70a615"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/mas-de-14-horas-de-tension-en-cartagena-20-rehenes-tras-frustrado-asalto-carro-de",
+    "titular": "Más de 14 horas de tensión en Cartagena: 20 rehenes tras frustrado asalto a carro de valores",
+    "fecha_publicacion": "2026-11-24T22:41:04-05:00",
+    "resumen": "Otros 10 rehenes fueron liberados en el curso del día.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1791dec668712dc9ef490351ddb7c1990b6fdb4b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/paloma-valencia-cuestiona-el-acuerdo-de-paz-los-crimenes-de-lesa-humanidad-terminaron-en-la-impunidad/",
+    "titular": "Paloma Valencia cuestiona el Acuerdo de Paz: “Los crímenes de lesa humanidad terminaron en la impunidad” - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T22:06:41-05:00",
+    "resumen": "La excandidata presidencial y exsenadora Paloma Valencia volvió a cuestionar los resultados del Acuerdo de Paz firmado entre el Gobierno de Juan Manuel Santos",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f919cb1fe88f391f487697f3469123eaa05a492d"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/retaliacion-de-bandas-por-ofensiva-de-la-fuerza-publica-personero-sobre-atentados",
+    "titular": "Retaliación de bandas por ofensiva de la Fuerza Pública: Personero sobre atentados a Olímpica",
+    "fecha_publicacion": "2026-11-24T22:04:00-05:00",
+    "resumen": "El funcionario aseguró que hay que rodear a todas las autoridades.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b040b0e415faad79a83fdc7f331516e8e81bd780"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/onu-reconoce-avances-de-la-paz-pero-alerta-por-violencia-en-colombia/",
+    "titular": "ONU reconoce avances de la paz, pero alerta por violencia en Colombia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T22:01:53-05:00",
+    "resumen": "El pronunciamiento fue divulgado este martes 24 de noviembre de 2026 por medio de Stéphane Dujarric, portavoz del secretario general de la ONU, António",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "979e8844516490476f7348eba420265c9d3af5ef"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/procuraduria-formula-cargos-contra-alfredo-saade-por-presunta-participacion-en-politica/",
+    "titular": "Procuraduría formula cargos contra Alfredo Saade por presunta participación en política - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T21:55:02-05:00",
+    "resumen": "El exembajador de Colombia en Brasil será llevado a juicio disciplinario por publicaciones en X realizadas durante la campaña presidencial de segunda vuelta",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f0c9257dcb5f27236f8fd224c1dc1ebe2b99488d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/restablecen-servicio-de-energia-en-el-suroccidente-tras-explosiones-en-torres-electricas/",
+    "titular": "Restablecen servicio de energía en el suroccidente tras explosiones en torres eléctricas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T21:48:09-05:00",
+    "resumen": "El servicio de energía eléctrica comenzó a restablecerse progresivamente en diferentes sectores del suroccidente colombiano, luego de la emergencia registrada",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b6270a82415e3ea9c057821b00d709a5882898b2"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/gobierno-destina-15-000-millones-para-reconstruir-zonas-afectadas-por-atentado-en-villavicencio/",
+    "titular": "Gobierno destina $15.000 millones para reconstruir zonas afectadas por atentado en Villavicencio - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T21:35:07-05:00",
+    "resumen": "El presidente Abelardo De La Espriella anunció los recursos después de recorrer los sectores afectados por el carro bomba contra la Gobernación del Meta.",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3d628757e86eef02816731b457b52cd1b868ec6f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/hombre-intento-romper-el-cerco-policial-para-entrar-al-exito-y-buscar-a-su-hija-entre-los-rehenes/",
+    "titular": "Hombre intentó romper el cerco policial para entrar al Éxito y buscar a su hija entre los rehenes - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T20:06:11-05:00",
+    "resumen": "La situación refleja la tensión que viven los familiares de las personas que permanecen dentro del establecimiento, quienes aguardan en los alrededores",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8257f405799871e48745142471ee11fb9c41c11f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/reportan-nueva-columna-de-humo-en-el-parque-isla-salamanca-crece-la-preocupacion-ambiental/",
+    "titular": "Reportan nueva columna de humo en el Parque Isla Salamanca: crece la preocupación ambiental - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T19:56:48-05:00",
+    "resumen": "Ciudadanos alertaron sobre una fuerte humareda que provendría del Vía Parque Isla Salamanca, en jurisdicción de Sitionuevo, Magdalena. Hasta el momento no",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "47b92a2358d41b3c22851fd852a7aabfe31f21da"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/de-la-espriella-preside-en-cartagena-consejo-de-seguridad-por-secuestro-masivo-en-exito",
+    "titular": "De La Espriella preside en Cartagena consejo de seguridad por secuestro masivo en Éxito",
+    "fecha_publicacion": "2026-11-24T19:36:00-05:00",
+    "resumen": "Aunque 10 personas han sido liberadas, hay otras 20 que aún están bajo el poder de los criminales.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "da9d08f27f9fb794557339018ae41cc8b52c5cb3"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/1073034/",
+    "titular": "- Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T19:35:07-05:00",
+    "resumen": "Las representantes Carol Borda y Andrea Vargas protagonizaron un fuerte cruce durante la plenaria de la Cámara. El enfrentamiento se produjo en medio de los",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "67fda68f67b3ca972fb68733d7ccbe001695daf8"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/ingrid-betancourt-califica-de-fracaso-el-acuerdo-de-paz-con-las-farc/",
+    "titular": "Ingrid Betancourt califica de “fracaso” el acuerdo de paz con las Farc - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T19:27:48-05:00",
+    "resumen": "La excandidata presidencial Ingrid Betancourt lanzó fuertes críticas al Acuerdo de Paz firmado entre el Gobierno de Juan Manuel Santos y las Farc el 24 de",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b155c730019b2633532501bbcc9df01755852af4"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/camara-suspende-a-veronica-estrada-por-tres-meses-y-deja-vacante-su-curul/",
+    "titular": "Cámara suspende a Verónica Estrada por tres meses y deja vacante su curul - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T19:26:21-05:00",
+    "resumen": "La controversia por los presuntos títulos académicos irregulares de la representante a la Cámara Luz Verónica Estrada Holguín tuvo un nuevo capítulo este",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a8a37f51477c3a8a47aecc4d46a30cf66269aefc"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/atentado-contra-tres-torres-de-energia-deja-sin-luz-a-narino-y-putumayo/",
+    "titular": "Atentado contra tres torres de energía deja sin luz a Nariño y Putumayo - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T19:16:19-05:00",
+    "resumen": "La acción con explosivos se registró en el sector de El Remolino, municipio de Taminango, Nariño. La interrupción del servicio también afectó sectores del sur",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "062c1795a75be66b1b323273b0e7c34f8b71e7b7"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/vuelve-y-juega-impactante-incendio-en-el-parque-isla-salamanca",
+    "titular": "Vuelve y juega: impactante incendio en el parque Isla Salamanca",
+    "fecha_publicacion": "2026-11-24T18:12:00-05:00",
+    "resumen": "Está afectando a la zona industrial, barrios aledaños y el norte de Barranquilla.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4a206f068584664d4fd13bd659013ded862326a3"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/toma-de-rehenes-en-exito-de-cartagena-tambien-altero-operatividad-aerea-en-esa-ciudad-aviones-fueron-desviados-a-barranquilla/",
+    "titular": "¡Toma de rehenes en Éxito de Cartagena también alteró operatividad aérea en esa ciudad! Aviones fueron desviados a Barranquilla",
+    "fecha_publicacion": "2026-11-24T18:00:32-05:00",
+    "resumen": "La presencia de aeronaves de la Fuerza Pública en inmediaciones de la terminal aérea Rafael Núñez obligó a restringir temporalmente los aterrizajes, mientras se atendía la emergencia de seguridad, que aún continúa. Por: Iván Peña Ropaín. Las casi 10 horas de angustia y zozobra que se respiran en…",
+    "fecha_captura": "2026-11-25T06:59:18-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a31e8844e077a331fe20cb7a19fe13b603da35be"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/identifican-a-motociclista-asesinado-en-el-barrio-el-manantial-de-soledad-atlantico/",
+    "titular": "Identifican a motociclista asesinado en el barrio El Manantial de Soledad, Atlántico",
+    "fecha_publicacion": "2026-11-24T17:48:00-05:00",
+    "resumen": "Según testigos, el homicida se movilizaba como parrillero en otra motocicleta. En la mañana de este martes, 24 de noviembre, un ataque a bala cobró la vida de un joven motociclista en inmediaciones del Conjunto Residencial Felicidad, en la entrada del barrio El Manantial del municipio de Soledad,…",
+    "fecha_captura": "2026-11-25T06:59:18-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "Soledad",
+    "barrio": "El Manantial",
+    "estado": "pendiente",
+    "id": "f3b869ddc9ad4b3b6517689b35caa269f6f3d9dd"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/van-10-rehenes-liberados-siguen-20-secuestrados-en-el-exito-cartagena",
+    "titular": "Van 10 rehenes liberados: siguen 20 secuestrados en el Éxito Cartagena",
+    "fecha_publicacion": "2026-11-24T17:13:00-05:00",
+    "resumen": "El Presidente Abelardo De La Espriella llegará a Barranquilla para acompañar a las autoridades.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3de0d2ab6a490215884d441bd7f143ab8b17d3cd"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/estaba-haciendo-unas-compras-y-la-cogieron-habla-esposo-de-mujer-que-permanece-retenida-en-exito-de-cartagena/",
+    "titular": "“Estaba haciendo unas compras y la cogieron”: habla esposo de mujer que permanece retenida en Éxito de Cartagena",
+    "fecha_publicacion": "2026-11-24T16:58:11-05:00",
+    "resumen": "El hombre precisa que “la tienen amarrada”, pero enfatizó en que ella sufre de diabetes y “necesita sus medicamentos”. Más de nueve horas de zozobra completan los habitantes de Cartagena tras la incursión de al menos 15 hombres armados en el almacén Éxito del sector de La Castellana, luego de un…",
+    "fecha_captura": "2026-11-25T06:59:18-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f0a3057ceccc841f9ed9e3b56b53640d12ed3711"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/captores-de-almacen-exito-en-cartagena-liberaron-a-cinco-rehenes-mas-aun-tienen-a-20-secuestrados/",
+    "titular": "Captores de almacén Éxito en Cartagena liberaron a cinco rehenes más: aún tienen a 20 secuestrados",
+    "fecha_publicacion": "2026-11-24T16:13:26-05:00",
+    "resumen": "Ya son 10 los ciudadanos liberados por los delincuentes, quienes permanecen dentro del establecimiento comercial. Las autoridades de la capital de Bolívar reportaron la liberación de otras cinco personas que permanecían en poder de los hombres armados que siguen atrincherados en el almacén Éxito…",
+    "fecha_captura": "2026-11-25T06:59:18-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "52a6c1cecfad9d80d86306624848ff35131e1cd6"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/gobernadora-del-meta-confirma-23-heridos-tras-carro-bomba-en-villavicencio-y-ofrece-recompensa-de-150-millones/",
+    "titular": "Gobernadora del Meta confirma 23 heridos tras carro bomba en Villavicencio y ofrece recompensa de $150 millones - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T16:00:58-05:00",
+    "resumen": "La gobernadora del Meta, Rafaela Cortés, confirmó que 23 personas resultaron heridas tras el atentado con carro bomba registrado durante la noche del lunes en",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c25a7e48666b6be1403dc87d41c65de766aa7c0a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/restringen-operaciones-aereas-en-cartagena-por-operativo-tras-toma-de-rehenes-en-exito/",
+    "titular": "Restringen operaciones aéreas en Cartagena por operativo tras toma de rehenes en Éxito - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T15:48:27-05:00",
+    "resumen": "La situación de orden público registrada en un almacén Éxito del sector de La Castellana, en Cartagena, también generó restricciones en la operación aérea de",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "34a15fa8f2d2d4ae1e1121c403ec42e7b7ed8668"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/liberan-a-10-rehenes-mas-durante-operativo-en-el-exito-de-cartagena/",
+    "titular": "Liberan a 10 rehenes más durante operativo en el Éxito de Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T15:38:16-05:00",
+    "resumen": "La situación registrada en el almacén Éxito del sector de La Castellana, en Cartagena, dejó una nueva noticia positiva este martes: otras 10 personas fueron",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4c3e8068f48c5975718b6016a6d06dd261c55c8d"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/proteger-la-vida-prioridad-de-la-policia-por-crisis-de-rehenes-en-exito-cartagena",
+    "titular": "“Proteger la vida”, prioridad de la Policía por crisis de rehenes en Éxito Cartagena",
+    "fecha_publicacion": "2026-11-24T15:36:00-05:00",
+    "resumen": "Se instaló un Puesto de Mando Unificado ante la tensa situación en la ciudad.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "de5abb001ad62d8765faf7b50373f2df82a96661"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/asi-fue-la-liberacion-de-una-de-las-rehenes-en-el-exito-cartagena",
+    "titular": "Así fue la liberación de una de las rehenes en el Éxito Cartagena",
+    "fecha_publicacion": "2026-11-24T15:08:00-05:00",
+    "resumen": "21 personas continúan con los secuestradores.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "79c36620d12def0f42f279ba94b078651b033ead"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/quiso-atravesar-el-cerco-policial-hombre-intento-meterse-al-exito-para-rescatar-a-familiar-que-esta-entre-los-rehenes/",
+    "titular": "¡Quiso atravesar el cerco policial! Hombre intentó meterse al Éxito para rescatar a familiar que está entre los rehenes",
+    "fecha_publicacion": "2026-11-24T15:07:25-05:00",
+    "resumen": "El individuo fue retenido por uniformados de la Policía Nacional que permanecen custodiando la zona. Al parecer, una hija del hombre está entre los rehenes y esto provocó su reacción desesperada. Un momento de alta tensión se vivió hacia el mediodía de este martes en las afueras del almacén Éxito…",
+    "fecha_captura": "2026-11-25T06:59:18-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "186a940bd30e2ea6c3e4175b3b32c2a6ef1274ef"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/con-sobrevuelos-infanteria-de-marina-se-sumo-al-operativo-de-rescate-de-rehenes-en-el-exito-de-contadora-cartagena/",
+    "titular": "Con sobrevuelos, Infantería de Marina se sumó al operativo de rescate de rehenes en el Éxito de Contadora, Cartagena",
+    "fecha_publicacion": "2026-11-24T15:05:23-05:00",
+    "resumen": "Entre las últimas informaciones de peso que han surgido en torno a este hecho de inseguridad, el presidente Abelardo de la Espriella confirmó que el número de retenidos contra su voluntad era de 30, pero se habían liberado 5 y ahora quedaron 25 en poder de los hampones. Por: Iván Peña Ropaín. Ya…",
+    "fecha_captura": "2026-11-25T06:59:18-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3b4aeea4e9f2fc714993847c22be79083d60118e"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/de-la-espriella-confirmo-el-numero-exacto-de-rehenes-que-permanecen-en-el-interior-del-almacen-exito-en-cartagena/",
+    "titular": "De la Espriella confirmó el número exacto de rehenes que permanecen en el interior del almacén Éxito en Cartagena",
+    "fecha_publicacion": "2026-11-24T14:39:03-05:00",
+    "resumen": "Informaciones imprecisas, en un primer momento, hablaban de que 50 civiles se hallaban secuestrados por los antisociales, incrementándose luego ese número a 70. Por: Iván Peña Ropaín. Desde Villavicencio, donde adelantó un Consejo de Seguridad tras el “carrobomba” que fue instalado y detonado…",
+    "fecha_captura": "2026-11-25T06:59:18-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6c31f5f57a3226d684e44ab81f3e15ebcb7d7033"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/desvio-temporal-afecta-rutas-de-transcaribe-por-situacion-de-orden-publico-en-la-castellana/",
+    "titular": "Desvío temporal afecta rutas de TransCaribe por situación de orden público en La Castellana - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T14:19:24-05:00",
+    "resumen": "Una situación de orden público registrada en el sector de La Castellana, en Cartagena, obligó este martes 24 de noviembre a modificar temporalmente el",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f9c370d797d92484770ee1be179088e3f1a87f68"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/secuestradores-exigen-7-000-millones-y-vehiculos-blindados-tras-toma-de-rehenes-en-supermercado-de-cartagena/",
+    "titular": "Secuestradores exigen $7.000 millones y vehículos blindados tras toma de rehenes en supermercado de Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T13:49:25-05:00",
+    "resumen": "En medio de la tensión generada por la toma de rehenes en un supermercado de la cadena Éxito, en Cartagena, fue difundido un documento atribuido a los",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c1e19244d9519fa68c9d8c04a256790bae2d0d3b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/autoridades-piden-despejar-la-zona-tras-aglomeracion-de-curiosos-por-toma-de-rehenes-en-cartagena/",
+    "titular": "Autoridades piden despejar la zona tras aglomeración de curiosos por toma de rehenes en Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T13:17:12-05:00",
+    "resumen": "Una gran cantidad de curiosos se concentró en las inmediaciones del centro comercial Éxito Cartagena, donde se registra una toma de rehenes protagonizada,",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d63ca5580a347fbb2f3feb0743a294c5bf418a99"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/liberan-a-cinco-de-los-30-rehenes-tras-toma-armada-del-exito-en-cartagena/",
+    "titular": "Liberan a cinco de los 30 rehenes tras toma armada del Éxito en Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T12:45:13-05:00",
+    "resumen": "La tensión continúa en Cartagena luego de que un grupo de delincuentes armados se atrincherara dentro del almacén Éxito, ubicado sobre la avenida Pedro de",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "425892beac3c5aaff9cc61aef598f31d6db327fb"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/motociclista-fue-asesinado-de-un-disparo-en-la-cabeza-en-el-barrio-el-manantial-de",
+    "titular": "Motociclista fue asesinado de un disparo en la cabeza en el barrio El Manantial de Soledad",
+    "fecha_publicacion": "2026-11-24T12:37:00-05:00",
+    "resumen": "El homicidio se presentó en la calle 70 con carrera 7B.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "El Manantial",
+    "estado": "pendiente",
+    "id": "90448ec8c37d4b43fe5973dfe6d92fa3b7f296f8"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/asesinan-a-balazos-a-un-hombre-en-la-ciudadela-20-de-julio-de-barranquilla/",
+    "titular": "Asesinan a balazos a un hombre en la Ciudadela 20 de Julio de Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T12:36:56-05:00",
+    "resumen": "Un ataque sicarial registrado durante la noche en el barrio Ciudadela 20 de Julio, en Barranquilla, terminó con la muerte de Luis Ángel Anaya Carreño, de 49",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Ciudadela 20 de Julio",
+    "estado": "pendiente",
+    "id": "1a47d44243230dadb5594d6fad25f982d75a0a1d"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/de-30-rehenes-en-el-exito-cartagena-5-ya-fueron-liberados",
+    "titular": "De 30 rehenes en el Éxito Cartagena, 5 ya fueron liberados",
+    "fecha_publicacion": "2026-11-24T12:33:00-05:00",
+    "resumen": "Confirmó que son delincuentes que pretendían asaltar un camión de valores.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "84215acf6bb28fecb2aab2762a5fdb4c5c7e5f1b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/toma-de-rehenes-en-exito-de-cartagena-exigen-7-000-millones-dos-camionetas-blindadas-y-salida-hacia-barranquilla/",
+    "titular": "Toma de rehenes en Éxito de Cartagena: exigen $7.000 millones, dos camionetas blindadas y salida hacia Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T12:32:34-05:00",
+    "resumen": "Una situación de máxima tensión se registra en Cartagena, donde hombres armados habrían tomado como rehenes a varias personas al interior del almacén Éxito de",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e9ffd6e8d38d33965cd81508a7f0f59eae15a82f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/liberan-al-menos-a-tres-personas-retenidas-en-el-almacen-exito-de-cartagena/",
+    "titular": "Liberan al menos a tres personas retenidas en el almacén Éxito de Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T11:59:15-05:00",
+    "resumen": "Entre las personas que salieron estaría una mujer, al parecer adulta mayor. La información comenzó a circular mientras unidades policiales mantienen el",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0450ded7ed032b96f8479c925a91dbe10b605ec1"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/por-situacion-de-orden-publico-en-exito-cartagena-suspenden-aterrizajes-en-el-aeropuerto",
+    "titular": "Por situación de orden público en Éxito Cartagena, suspenden aterrizajes en el aeropuerto Rafael Núñez",
+    "fecha_publicacion": "2026-11-24T11:38:00-05:00",
+    "resumen": "Tensión en la capital de Bolívar.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d17f697e114984f10e9af23513d2fc7e04c4597d"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/robo-carro-de-valores-objetivo-de-delincuentes-que-tienen-rehenes-en-exito-cartagena",
+    "titular": "Robo a carro de valores, objetivo de delincuentes que tienen rehenes en Éxito Cartagena",
+    "fecha_publicacion": "2026-11-24T10:50:00-05:00",
+    "resumen": "Sobre la Avenida Pedro de Heredia, en el sur de Cartagena.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "hurto"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "883331168b56ff47886e53147c72dffea8620316"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/el-bandido-antonio-medina-de-las-disidencias-es-el-culpable-y-vamos-ir-tras-el-de-la",
+    "titular": "“El bandido 'Antonio Medina', de las disidencias, es el culpable y vamos a ir tras él\": De La Espriella",
+    "fecha_publicacion": "2026-11-24T10:47:00-05:00",
+    "resumen": "El mandatario habló en Villavicencio, en el lugar del atentado que dejó 23 heridos.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f3b3e16dfe8c1c0a89f2fb2fd3309d4e0f18c564"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/encapuchados-armados-toman-rehenes-durante-asalto-al-exito-de-la-castellana-en-cartagena/",
+    "titular": "Encapuchados armados toman rehenes durante asalto al Éxito de La Castellana, en Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T10:19:21-05:00",
+    "resumen": "Momentos de tensión se viven en el almacén Éxito del sector de La Castellana, en Cartagena, donde varios hombres encapuchados y armados ingresaron durante la",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4990061809fb40d757a9ebff3d053b46068b1c8d"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/asesinan-de-cuatro-disparos-un-hombre-en-la-ciudadela-20-de-julio",
+    "titular": "Asesinan de cuatro disparos a un hombre en la Ciudadela 20 de Julio",
+    "fecha_publicacion": "2026-11-24T10:02:35-05:00",
+    "resumen": "El crimen fue perpetrado por un sicario a pie.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8334388be3e7c22348dc1797bd2ddf3bb3a21782"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/de-pelicula-hombres-armados-se-tomaron-el-almacen-exito-en-la-castellana-en-cartagena",
+    "titular": "¡De película!: Hombres armados se tomaron el almacén Éxito en La Castellana, en Cartagena",
+    "fecha_publicacion": "2026-11-24T09:55:21-05:00",
+    "resumen": "En medio de un robo y al ser enfrentados tomaron varios rehenes y se reportan disparos.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "hurto"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2820cd216394049e26c6e5bde9706e54a0911174"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/incendio-destruyo-apartamento-en-villas-de-san-pablo-y-dejo-a-una-familia-sin-sus-pertenencias/",
+    "titular": "Incendio destruyó apartamento en Villas de San Pablo y dejó a una familia sin sus pertenencias - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T08:46:14-05:00",
+    "resumen": "La emergencia provocó momentos de angustia entre los residentes del sector. Vecinos se unieron para ayudar a controlar las llamas, junto con unidades del",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "246bbeb67d774840394690f787325d47fb33f6d2"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/hallan-persona-asesinada-a-tiros-en-el-sector-de-la-ciudadela-en-barranquilla/",
+    "titular": "Hallan persona asesinada a tiros en el sector de La Ciudadela, en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T08:44:27-05:00",
+    "resumen": "El hallazgo generó preocupación entre los habitantes de esta zona de la ciudad, quienes se encontraron con la presencia de las autoridades en el lugar.",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9086998a994896bdebee014e437e45c01b63470e"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/capturan-presunto-jefe-de-zona-de-los-pepes-en-soledad-intento-ocultarse-en-cielo-raso",
+    "titular": "Capturan a presunto jefe de zona de ‘Los Pepes’ en Soledad: intentó ocultarse en cielo raso del baño",
+    "fecha_publicacion": "2026-11-24T08:42:00-05:00",
+    "resumen": "Señalado por la Policía de almacenar armas de fuego y municiones destinadas a la comisión de homicidios y ataques contra establecimientos comerciales.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "captura"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "528a5e889b20c427224b395e45eca15bdbfb55ae"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/incendio-consumio-apartamento-en-villas-de-san-pablo",
+    "titular": "Incendio consumió apartamento en Villas de San Pablo",
+    "fecha_publicacion": "2026-11-24T08:08:00-05:00",
+    "resumen": "Las llamas destruyeron todos los enseres de la familia y vecinos del sector ayudaron a controlar la conflagración.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "26788173cf0affaa0ac5640a231ce24a8fd44d67"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/operativo-del-gaula-en-zona-bananera-deja-tres-muertos-y-reportan-posibles-capturas/",
+    "titular": "Operativo del Gaula en Zona Bananera deja tres muertos y reportan posibles capturas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T08:02:18-05:00",
+    "resumen": "El despliegue policial estaría dirigido contra presuntas estructuras criminales que operan en esta zona del departamento. Durante el desarrollo de la",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7bb8671dd0ba5620bd4dfa4dcfe863d76a8124a7"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/capturan-37-presuntos-integrantes-de-los-costenos-y-los-pepes",
+    "titular": "Capturan a 37 presuntos integrantes de ‘Los Costeños’ y ‘Los Pepes’",
+    "fecha_publicacion": "2026-11-24T07:54:00-05:00",
+    "resumen": "En diligencias de allanamientos en Atlántico, Magdalena y Tolima.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "39666530ed05004f4af80b38a1ab19efb532cdbe"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/el-estado-no-cedera-ante-el-terror-mindefensa-sobre-atentado-en-villavicencio",
+    "titular": "\"¡El Estado no cederá ante el terror!\": MinDefensa sobre atentado en Villavicencio",
+    "fecha_publicacion": "2026-11-24T07:53:15-05:00",
+    "resumen": "\"No habrá tregua contra los violentos: iremos tras los autores materiales e intelectuales de este hecho\", agregó.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7789cdc2f7256cc27a380478eadd78518155d8d5"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/en-candelaria-hallan-sin-vida-una-mujer-dentro-de-su-vivienda",
+    "titular": "En Candelaria, hallan sin vida a una mujer dentro de su vivienda",
+    "fecha_publicacion": "2026-11-24T07:26:00-05:00",
+    "resumen": "La víctima fue identificada como Gemily Melisa Ramos Díaz, de 21 años de edad.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f21348823ce9eee00dc17701f098e77dad41c800"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/24/desarticulan-presuntos-frentes-de-los-costenos-y-los-pepes-34-capturados/",
+    "titular": "Desarticulan presuntos frentes de ‘Los Costeños’ y ‘Los Pepes’: 34 capturados - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-24T07:08:03-05:00",
+    "resumen": "La ofensiva fue ejecutada por diferentes unidades de la Policía Nacional, entre ellas la SIJIN y el GAULA, en coordinación con la Fiscalía General de la",
+    "fecha_captura": "2026-11-25T06:54:19-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "60ca4735545ea3be609eb7d6f2b3ea139faf69e2"
+  },
+  {
+    "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/24/cayo-alias-el-grande-presunto-cabecilla-de-las-acs-en-la-vereda-calabazo/",
     "titular": "Cayó alias \"El Grande\", presunto cabecilla de las ACS en la vereda Calabazo - Diario La Libertad.",
     "fecha_publicacion": "2026-11-24T06:47:11-05:00",
@@ -13,6 +861,21 @@
     "barrio": null,
     "estado": "pendiente",
     "id": "872cf25ba9cac6013ac152e63d51b4cc6b1964ab"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/mas-de-85-predios-afectados-por-carro-bomba-en-villavicencio-ofrecen-recompensa-de-150",
+    "titular": "Más de 85 predios afectados por carro bomba en Villavicencio: ofrecen recompensa de $150 millones",
+    "fecha_publicacion": "2026-11-24T06:35:23-05:00",
+    "resumen": "El atentado contra la Gobernación del Meta dejó al menos 23 heridos.",
+    "fecha_captura": "2026-11-25T06:52:12-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "688c7452a67e990d7ef7cdbfc330ca86dbd24a27"
   },
   {
     "medio": "Diario La Libertad",

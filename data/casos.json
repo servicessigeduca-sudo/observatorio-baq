@@ -1,5 +1,244 @@
 [
   {
+    "caso_id": "d3ce71a421cd",
+    "tipo": "extorsion",
+    "tipos": [
+      "extorsion"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "b43a3b0b256d8411b03c0815db984c4c6b4da57e"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/capturan-una-pareja-presuntos-extorsionistas-del-bloque-resistencia-caribe",
+        "titular": "Capturan a una pareja, presuntos extorsionistas del ‘Bloque Resistencia Caribe’"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "b5cd899ac98a",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": "Soledad",
+    "barrio": "Los Manantiales",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "447f3c1a332585d4c7df121af1a6730193c4673c"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/25/identifican-a-hombre-asesinado-a-bala-en-el-barrio-los-manantiales-de-soledad/",
+        "titular": "Identifican a hombre asesinado a bala en el barrio Los Manantiales de Soledad - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": 10.90189,
+    "lon": -74.8113,
+    "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "f23b4d399b73",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-24",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "7bb8671dd0ba5620bd4dfa4dcfe863d76a8124a7"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/24/operativo-del-gaula-en-zona-bananera-deja-tres-muertos-y-reportan-posibles-capturas/",
+        "titular": "Operativo del Gaula en Zona Bananera deja tres muertos y reportan posibles capturas - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "b27de7cba547",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones"
+    ],
+    "fecha": "2026-11-24",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "b040b0e415faad79a83fdc7f331516e8e81bd780"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/retaliacion-de-bandas-por-ofensiva-de-la-fuerza-publica-personero-sobre-atentados",
+        "titular": "Retaliación de bandas por ofensiva de la Fuerza Pública: Personero sobre atentados a Olímpica"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "9fdda8d2ca3a",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-24",
+    "municipio": "Soledad",
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "528a5e889b20c427224b395e45eca15bdbfb55ae"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/capturan-presunto-jefe-de-zona-de-los-pepes-en-soledad-intento-ocultarse-en-cielo-raso",
+        "titular": "Capturan a presunto jefe de zona de ‘Los Pepes’ en Soledad: intentó ocultarse en cielo raso del baño"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "88e7a1a208a9",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-24",
+    "municipio": "Barranquilla",
+    "barrio": "Ciudadela 20 de Julio",
+    "medios": [
+      "Diario La Libertad",
+      "Zona Cero"
+    ],
+    "notas": [
+      "1a47d44243230dadb5594d6fad25f982d75a0a1d",
+      "8334388be3e7c22348dc1797bd2ddf3bb3a21782"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/asesinan-de-cuatro-disparos-un-hombre-en-la-ciudadela-20-de-julio",
+        "titular": "Asesinan de cuatro disparos a un hombre en la Ciudadela 20 de Julio"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/24/asesinan-a-balazos-a-un-hombre-en-la-ciudadela-20-de-julio-de-barranquilla/",
+        "titular": "Asesinan a balazos a un hombre en la Ciudadela 20 de Julio de Barranquilla - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "7a391c59675b",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-24",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "9086998a994896bdebee014e437e45c01b63470e"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/24/hallan-persona-asesinada-a-tiros-en-el-sector-de-la-ciudadela-en-barranquilla/",
+        "titular": "Hallan persona asesinada a tiros en el sector de La Ciudadela, en Barranquilla - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "56b2697686bf",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-24",
+    "municipio": "Soledad",
+    "barrio": "El Manantial",
+    "medios": [
+      "Impacto News",
+      "Zona Cero"
+    ],
+    "notas": [
+      "90448ec8c37d4b43fe5973dfe6d92fa3b7f296f8",
+      "f3b869ddc9ad4b3b6517689b35caa269f6f3d9dd"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/motociclista-fue-asesinado-de-un-disparo-en-la-cabeza-en-el-barrio-el-manantial-de",
+        "titular": "Motociclista fue asesinado de un disparo en la cabeza en el barrio El Manantial de Soledad"
+      },
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/identifican-a-motociclista-asesinado-en-el-barrio-el-manantial-de-soledad-atlantico/",
+        "titular": "Identifican a motociclista asesinado en el barrio El Manantial de Soledad, Atlántico"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
     "caso_id": "f2af90d69301",
     "tipo": "lesiones",
     "tipos": [
