@@ -15,6 +15,11 @@
     "lon": -74.79236,
     "nombre_osm": "Ciudad Paraíso, Soledad, Atlántico, RAP Caribe, 083010, Colombia"
   },
+  "ciudadela 20 de julio|Barranquilla": {
+    "lat": 10.92845,
+    "lon": -74.80582,
+    "nombre_osm": "Ciudadela 20 de Julio, Localidad Metropolitana, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colo"
+  },
   "colombia|Barranquilla": {
     "lat": 11.01682,
     "lon": -74.86217,
@@ -37,6 +42,11 @@
   },
   "el ferry|Soledad": null,
   "el limon|Barranquilla": null,
+  "el manantial|Soledad": {
+    "lat": 10.9048,
+    "lon": -74.80722,
+    "nombre_osm": "El Manantial, Barrio El Manantial, Soledad, Atlántico, RAP Caribe, 083010, Colombia"
+  },
   "el prado|Barranquilla": {
     "lat": 10.9978,
     "lon": -74.79687,

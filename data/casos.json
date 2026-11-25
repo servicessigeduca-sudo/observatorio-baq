@@ -170,9 +170,9 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
+    "lat": 10.92845,
+    "lon": -74.80582,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "7a391c59675b",
@@ -234,9 +234,9 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
+    "lat": 10.9048,
+    "lon": -74.80722,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "f2af90d69301",

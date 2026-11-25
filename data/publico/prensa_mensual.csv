@@ -10,19 +10,19 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-05,Soledad,Los Almendros,hom,Arma de fuego,1,08758,08758-los-almendros
 2026-06,,,hom,Sin dato,1,,
 2026-06,Soledad,,hom,Sin dato,1,08758,
-2026-11,,,ext,Sin dato,1,,
+2026-11,,,ext,Sin dato,2,,
 2026-11,,,hom,Arma de fuego,6,,
-2026-11,,,hom,Sin dato,12,,
+2026-11,,,hom,Sin dato,13,,
 2026-11,,,hur,Arma de fuego,1,,
 2026-11,,,hur,Sin dato,2,,
 2026-11,,,les,Arma de fuego,3,,
-2026-11,,,les,Sin dato,2,,
+2026-11,,,les,Sin dato,3,,
 2026-11,,,otr,Sin dato,4,,
 2026-11,,La Esmeralda,hom,Arma de fuego,1,,
 2026-11,,La Esmeralda,hom,Sin dato,1,,
 2026-11,,Miraflores,hur,Arma blanca,1,,
 2026-11,,Villa María,hom,Arma de fuego,1,,
-2026-11,Barranquilla,,hom,Arma de fuego,2,08001,
+2026-11,Barranquilla,,hom,Arma de fuego,3,08001,
 2026-11,Barranquilla,,hom,Sin dato,1,08001,
 2026-11,Barranquilla,,hur,Arma de fuego,1,08001,
 2026-11,Barranquilla,,hur,Sin dato,1,08001,
@@ -31,6 +31,7 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-11,Barranquilla,Barrio Prado,hom,Arma de fuego,1,08001,08001-el-prado
 2026-11,Barranquilla,Buenos Aires,otr,Sin dato,1,08001,08001-buenos-aires
 2026-11,Barranquilla,Chiquinquirá,les,Arma de fuego,1,08001,08001-chiquinquira
+2026-11,Barranquilla,Ciudadela 20 de Julio,hom,Arma de fuego,1,08001,08001-20-de-julio
 2026-11,Barranquilla,Colombia,hom,Arma de fuego,1,08001,08001-colombia
 2026-11,Barranquilla,Conidec,hom,Sin dato,1,08001,
 2026-11,Barranquilla,El Bosque,hom,Arma de fuego,1,08001,08001-el-bosque
@@ -63,12 +64,14 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-11,Puerto Colombia,,les,Arma de fuego,1,08573,
 2026-11,Soledad,,ext,Sin dato,1,08758,
 2026-11,Soledad,,hom,Arma de fuego,3,08758,
-2026-11,Soledad,,hom,Sin dato,1,08758,
+2026-11,Soledad,,hom,Sin dato,2,08758,
 2026-11,Soledad,,otr,Sin dato,2,08758,
 2026-11,Soledad,Ciudad Paraíso,hom,Arma de fuego,2,08758,08758-ciudad-paraiso
+2026-11,Soledad,El Manantial,hom,Arma de fuego,1,08758,08758-el-manantial
 2026-11,Soledad,Las Nubes,hom,Arma de fuego,1,08758,08758-las-nubes
 2026-11,Soledad,Los Almendros,hom,Sin dato,1,08758,08758-los-almendros
 2026-11,Soledad,Los Loteros,hom,Arma de fuego,1,08758,08758-los-loteros
+2026-11,Soledad,Los Manantiales,hom,Arma de fuego,1,08758,08758-los-manantiales
 2026-11,Soledad,Los Manantiales,hur,Sin dato,1,08758,08758-los-manantiales
 2026-11,Soledad,Los Robles,les,Arma de fuego,1,08758,08758-los-robles
 2026-11,Soledad,Renacer,hom,Sin dato,1,08758,08758-renacer
