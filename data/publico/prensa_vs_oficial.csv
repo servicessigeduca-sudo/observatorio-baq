@@ -200,7 +200,7 @@ mes,municipio,delito,prensa,oficial,registro,proporcion_prensa,notas
 2026-10,Puerto Colombia,hur,0,45,,,prensa_parcial oficial_provisional
 2026-10,Puerto Colombia,ext,0,0,,,prensa_parcial
 2026-11,Barranquilla,hom,33,,,,prensa_parcial
-2026-11,Barranquilla,les,4,,,,prensa_parcial
+2026-11,Barranquilla,les,5,,,,prensa_parcial
 2026-11,Barranquilla,hur,2,,,,prensa_parcial
 2026-11,Barranquilla,ext,0,,,,prensa_parcial
 2026-11,Soledad,hom,17,,,,prensa_parcial
@@ -211,7 +211,7 @@ mes,municipio,delito,prensa,oficial,registro,proporcion_prensa,notas
 2026-11,Malambo,les,0,,,,prensa_parcial
 2026-11,Malambo,hur,0,,,,prensa_parcial
 2026-11,Malambo,ext,1,,,,prensa_parcial
-2026-11,Galapa,hom,7,,,,prensa_parcial
+2026-11,Galapa,hom,6,,,,prensa_parcial
 2026-11,Galapa,les,0,,,,prensa_parcial
 2026-11,Galapa,hur,0,,,,prensa_parcial
 2026-11,Galapa,ext,0,,,,prensa_parcial

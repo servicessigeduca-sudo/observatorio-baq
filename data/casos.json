@@ -24,11 +24,11 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "baja",
     "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "revisado_en": "2026-11-26",
+    "lat": 10.9523,
+    "lon": -74.85492,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "f5085344cfd7",
@@ -272,11 +272,11 @@
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "35d95fa41622",
@@ -525,11 +525,11 @@
     "posible_duplicado_de": [
       "1739406c4d47"
     ],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "f211a0f92688",
@@ -647,11 +647,11 @@
       "149226c3a482",
       "1739406c4d47"
     ],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "8456ef8858e1",
@@ -739,11 +739,11 @@
     "posible_duplicado_de": [
       "bf6fba482416"
     ],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "27646e0ea1b9",
