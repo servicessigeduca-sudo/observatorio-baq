@@ -14,6 +14,7 @@ from urllib.parse import urljoin
 import feedparser
 from bs4 import BeautifulSoup
 
+from .clasificar import normalizar, tipos_delito
 from .fuentes import Fuente
 from .modelo import clave_url
 
@@ -84,15 +85,32 @@ def leer_rss(xml: bytes | str, fuente: Fuente) -> list[dict]:
 
 
 # listado de sección ---------------------------------------------------
+# Palabras que el clasificador no toma como delito pero que delatan una nota
+# judicial en un titular («Sicario ... los asesinó a bala»).
+_PISTAS_JUDICIALES = re.compile(
+    r"sicari|dispar|a bala|balacera|balea|asesin|arma blanca|arma de fuego|crimen|criminal|"
+    r"delincuen|policia|fiscalia|rehen|banda|alias|homicid|cadaver|cuerpo sin vida|ataque armado"
+)
+
+
+def parece_judicial(texto: str) -> bool:
+    return bool(tipos_delito(texto)) or bool(_PISTAS_JUDICIALES.search(normalizar(texto)))
+
+
 def leer_listado(html: str, fuente: Fuente) -> list[str]:
     """Devuelve las URLs de notas del listado, en orden y sin repetir."""
     soup = BeautifulSoup(html, "html.parser")
     vistas: dict[str, str] = {}
+    textos: dict[str, list[str]] = {}
     for a in soup.find_all("a", href=True):
         # Algunos medios dejan espacios en el href (Zona Cero: "/judiciales/x ").
         url = urljoin(fuente.url, a["href"].strip()).split("#")[0].split("?")[0]
         if fuente.es_nota(url):
-            vistas.setdefault(clave_url(url), url)
+            clave = clave_url(url)
+            vistas.setdefault(clave, url)
+            textos.setdefault(clave, []).append(a.get_text(" ", strip=True))
+    if fuente.filtro_judicial:
+        return [url for clave, url in vistas.items() if parece_judicial(" ".join(textos[clave]))]
     return list(vistas.values())
 
 
