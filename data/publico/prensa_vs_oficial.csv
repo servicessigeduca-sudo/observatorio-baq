@@ -39,7 +39,7 @@ mes,municipio,delito,prensa,oficial,registro,proporcion_prensa,notas
 2026-02,Puerto Colombia,les,0,6,,,prensa_parcial
 2026-02,Puerto Colombia,hur,0,38,,,prensa_parcial
 2026-02,Puerto Colombia,ext,0,1,,,prensa_parcial
-2026-03,Barranquilla,hom,1,48,45,,prensa_parcial
+2026-03,Barranquilla,hom,0,48,45,,prensa_parcial
 2026-03,Barranquilla,les,0,192,,,prensa_parcial
 2026-03,Barranquilla,hur,0,922,,,prensa_parcial
 2026-03,Barranquilla,ext,0,71,,,prensa_parcial
@@ -199,18 +199,18 @@ mes,municipio,delito,prensa,oficial,registro,proporcion_prensa,notas
 2026-10,Puerto Colombia,les,0,9,,,prensa_parcial oficial_provisional
 2026-10,Puerto Colombia,hur,0,45,,,prensa_parcial oficial_provisional
 2026-10,Puerto Colombia,ext,0,0,,,prensa_parcial
-2026-11,Barranquilla,hom,35,,,,prensa_parcial
+2026-11,Barranquilla,hom,33,,,,prensa_parcial
 2026-11,Barranquilla,les,4,,,,prensa_parcial
 2026-11,Barranquilla,hur,2,,,,prensa_parcial
 2026-11,Barranquilla,ext,0,,,,prensa_parcial
-2026-11,Soledad,hom,18,,,,prensa_parcial
+2026-11,Soledad,hom,17,,,,prensa_parcial
 2026-11,Soledad,les,1,,,,prensa_parcial
-2026-11,Soledad,hur,1,,,,prensa_parcial
-2026-11,Soledad,ext,2,,,,prensa_parcial
+2026-11,Soledad,hur,0,,,,prensa_parcial
+2026-11,Soledad,ext,0,,,,prensa_parcial
 2026-11,Malambo,hom,0,,,,prensa_parcial
 2026-11,Malambo,les,0,,,,prensa_parcial
 2026-11,Malambo,hur,0,,,,prensa_parcial
-2026-11,Malambo,ext,2,,,,prensa_parcial
+2026-11,Malambo,ext,1,,,,prensa_parcial
 2026-11,Galapa,hom,7,,,,prensa_parcial
 2026-11,Galapa,les,0,,,,prensa_parcial
 2026-11,Galapa,hur,0,,,,prensa_parcial
