@@ -1,9 +1,9 @@
 [
   {
-    "caso_id": "d3ce71a421cd",
-    "tipo": "extorsion",
+    "caso_id": "f8201976bed2",
+    "tipo": "lesiones",
     "tipos": [
-      "extorsion"
+      "lesiones"
     ],
     "fecha": "2026-11-25",
     "municipio": null,
@@ -12,13 +12,13 @@
       "Zona Cero"
     ],
     "notas": [
-      "b43a3b0b256d8411b03c0815db984c4c6b4da57e"
+      "a537b33465610355d32d6dd52455a7a5c8919208"
     ],
     "fuentes": [
       {
         "medio": "Zona Cero",
-        "url": "https://zonacero.com/judiciales/capturan-una-pareja-presuntos-extorsionistas-del-bloque-resistencia-caribe",
-        "titular": "Capturan a una pareja, presuntos extorsionistas del ‘Bloque Resistencia Caribe’"
+        "url": "https://zonacero.com/judiciales/comunidad-en-ciudad-caribe-rechazo-procedimiento-policial-en-que-resulto-herido-un",
+        "titular": "Comunidad en Ciudad Caribe rechazó procedimiento policial en que resultó herido un residente"
       }
     ],
     "estado": "pendiente",
@@ -26,6 +26,70 @@
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "f5085344cfd7",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "e4651607364c73c512a5e6bfd419d57b91929dcf"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/murio-mujer-herida-bala-en-atentado-hace-10-dias-en-7-de-abril",
+        "titular": "Murió mujer herida a bala en atentado hace 10 días en 7 de Abril"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "d3ce71a421cd",
+    "tipo": "extorsion",
+    "tipos": [
+      "extorsion"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": "Soledad",
+    "barrio": "El Parque",
+    "medios": [
+      "Diario La Libertad",
+      "Zona Cero"
+    ],
+    "notas": [
+      "6d7a9056d9624829211868ec1d1e2ca5f5d35170",
+      "b43a3b0b256d8411b03c0815db984c4c6b4da57e"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/capturan-una-pareja-presuntos-extorsionistas-del-bloque-resistencia-caribe",
+        "titular": "Capturan a una pareja, presuntos extorsionistas del ‘Bloque Resistencia Caribe’"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/25/capturan-a-una-pareja-senalada-de-cobrar-extorsiones-para-el-bloque-resistencia-caribe-en-soledad/",
+        "titular": "Capturan a una pareja señalada de cobrar extorsiones para el Bloque Resistencia Caribe en Soledad - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "b5cd899ac98a",
@@ -54,6 +118,295 @@
     "lat": 10.90189,
     "lon": -74.8113,
     "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "ae7644d7abfc",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": "Barranquilla",
+    "barrio": "La Chinita",
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "9f2c90028045361c4111e2ad865e500c6ce3c679"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/asesinan-un-hombre-en-la-chinita-habia-salido-de-la-carcel-hace-8-meses",
+        "titular": "Asesinan a un hombre en La Chinita: había salido de la cárcel hace 8 meses"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "municipio_deducido": true,
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "ac858d345ad3",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "secuestro"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "588f653ca79050aa6427ce21c5e6093206d3d228"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/confirman-la-liberacion-de-fernando-murcia-quien-permanecia-secuestrado-desde-hace-75",
+        "titular": "Confirman la liberación de Fernando Murcia, quien permanecía secuestrado desde hace 75 días"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "a45a51c0ac35",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": "Galapa",
+    "barrio": null,
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "c79cca19ce3ea633a53219332c73fc827d33044f"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/hombre-habria-avisado-a-su-familia-que-iba-a-negociar-un-predio-y-aparecio-muerto-en-una-trocha-de-galapa/",
+        "titular": "Hombre habría avisado a su familia que iba a negociar un predio y apareció muerto en una trocha de Galapa"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "83931b44c997",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": "Galapa",
+    "barrio": null,
+    "medios": [
+      "Emisora Atlántico"
+    ],
+    "notas": [
+      "d15256e5a6a09dcf9ba6ed5ee32a5cb8ce17300e"
+    ],
+    "fuentes": [
+      {
+        "medio": "Emisora Atlántico",
+        "url": "https://emisoraatlantico.com.co/judiciales/hallan-cadaver-de-hombre-desaparecido-en-una-vereda-de-galapa-tenia-12-dias-de-haber-salido-de-prision/",
+        "titular": "Hallan cadáver de hombre desaparecido en una vereda de Galapa: tenía 12 días de haber salido de prisión"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "53c2596bc473"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "69397325dfe3",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": "Barranquilla",
+    "barrio": "Santo Domingo de Guzmán",
+    "medios": [
+      "Impacto News"
+    ],
+    "notas": [
+      "71913b6cedec04b228b87ae4dc3b2d5515a13845"
+    ],
+    "fuentes": [
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/ataque-sicarial-en-cancha-de-santo-domingo-de-guzman-un-hombre-y-una-mujer-resultaron-heridos/",
+        "titular": "Ataque sicarial en cancha de Santo Domingo de Guzmán: un hombre y una mujer resultaron heridos"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "57212132526f",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": null,
+    "barrio": "El Chamizo",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "aa3be44db9bf41a61cee94c4aad4aa5c2cfcfc7a"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/25/ataque-contra-patrulla-policial-en-padilla-deja-dos-uniformados-muertos-y-varios-heridos/",
+        "titular": "Ataque contra patrulla policial en Padilla deja dos uniformados muertos y varios heridos - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "53c2596bc473",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio",
+      "lesiones"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": "Galapa",
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "f72c084d92f1f8d482e79d748ccbf771be525489"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/12-dias-despues-de-salir-de-prision-hombre-fue-hallado-sin-vida-en-galapa",
+        "titular": "12 días después de salir de prisión, hombre fue hallado sin vida en Galapa"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "83931b44c997"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "35d95fa41622",
+    "tipo": "violencia_sexual",
+    "tipos": [
+      "violencia_sexual"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "3c7f163ee7e353cffa9c2f8185e9da207abbe920"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/25/creador-de-contenido-se-declaro-inocente-tras-ser-acusado-de-abusar-sexualmente-de-una-menor-de-13-anos/",
+        "titular": "Creador de contenido se declaró inocente tras ser acusado de abusar sexualmente de una menor de 13 años - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "2b509d4a2bb3",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": "Barranquilla",
+    "barrio": "La Luz",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "ea67970aa8dae0b230fc6ffca1e8b2f62774926d"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/25/hombre-de-32-anos-fue-asesinado-a-tiros-en-el-barrio-la-luz-de-barranquilla/",
+        "titular": "Hombre de 32 años fue asesinado a tiros en el barrio La Luz de Barranquilla - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "13802b6b798b",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": "Galapa",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "c5910ea017e9c13fdd6ddf9ad12ddcd215b2c4c2"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/25/primicia-acribillan-a-alias-26-presunto-hombre-de-confianza-de-castor-lo-encontraron-muerto-en-zona-enmontada-de-galapa/",
+        "titular": "PRIMICIA : Acribillan a alias ‘26’, presunto hombre de confianza de ‘Castor’: lo encontraron muerto en zona enmontada de Galapa - Diario La Libertad."
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "f23b4d399b73",

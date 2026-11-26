@@ -1,6 +1,824 @@
 [
   {
     "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/atacan-a-tiros-la-casa-de-una-dragoneante-del-inpec-en-el-sur-de-barranquilla/",
+    "titular": "Atacan a tiros la casa de una dragoneante del Inpec en el sur de Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T06:47:42-05:00",
+    "resumen": "De acuerdo con la información conocida, varios proyectiles impactaron las ventanas del inmueble. Aunque el ataque causó daños materiales, no se reportaron",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2dcadb1a34c289f2fafc81a95aebad5faf1ff27a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/intentaron-robar-una-camioneta-en-bogota-chocaron-durante-la-fuga-y-capturaron-a-uno/",
+    "titular": "Intentaron robar una camioneta en Bogotá, chocaron durante la fuga y capturaron a uno - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T06:41:57-05:00",
+    "resumen": "Según las versiones preliminares, varios sujetos habrían interceptado al propietario de una camioneta roja que estaba estacionada frente a una vivienda. Bajo",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "edefddb66067c041e13733be784a557b52f1d860"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/imputan-cargos-senalados-del-secuestro-de-87-personas-en-exito-cartagena",
+    "titular": "Imputan cargos a señalados del secuestro de 87 personas en Éxito Cartagena",
+    "fecha_publicacion": "2026-11-26T06:38:17-05:00",
+    "resumen": "Presuntamente exigían 7.000 millones de pesos, dos camionetas blindadas y el despeje de una vía para escapar.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f464878c7cca90dd5dfdd42019a541b30a179548"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/fiscalia-revela-que-armas-utilizaron-para-intimidar-a-los-rehenes-en-el-exito-de-cartagena/",
+    "titular": "Fiscalía revela qué armas utilizaron para intimidar a los rehenes en el Éxito de Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T06:31:21-05:00",
+    "resumen": "Los elementos incautados durante el operativo de rescate en el supermercado Éxito de Cartagena fueron una escopeta traumática tipo Mossberg y varios",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "763e8f2433e2b4ef53a0b575849799a06a7b882e"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/jueza-llama-la-atencion-a-los-capturados-por-el-secuestro-masivo-en-el-exito-de-cartagena-tras-quedarse-dormidos-y-reir-en-plena-audiencia-de-imputacion/",
+    "titular": "Jueza llama la atención a los capturados por el secuestro masivo en el Éxito de Cartagena tras quedarse dormidos y reír en plena audiencia de imputación - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T06:30:57-05:00",
+    "resumen": "Juan Camilo Torres Manco y Jhon Albeiro Mejía fueron imputados por secuestro extorsivo y negaron los cargos asegurando que también eran rehenes; según la",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "extorsion",
+      "secuestro",
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "30ffee8e8e53f3740b5754e466d58d89d720c979"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/esposa-de-hombre-abatido-en-el-exito-de-cartagena-espera-el-informe-de-medicina-legal/",
+    "titular": "Esposa de hombre abatido en el Éxito de Cartagena espera el informe de Medicina Legal - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T06:23:46-05:00",
+    "resumen": "Muñetón Zapata, de 51 años y oriundo de Yarumal, Antioquia, fue señalado por las autoridades como el presunto líder del grupo que mantuvo retenidas a decenas",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "cbad6a87036488078b9966e66273ba5f9e186c8f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/dos-senalados-por-la-toma-del-exito-de-cartagena-quedaron-vinculados-al-proceso-penal/",
+    "titular": "Dos señalados por la toma del Éxito de Cartagena quedaron vinculados al proceso penal - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T06:17:52-05:00",
+    "resumen": "Juan Camilo Torres Manco y Jhon Albeiro Mejía Blandón, capturados por su presunta participación en el secuestro de 87 personas en el almacén Éxito de La",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "secuestro",
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0fe93a21c709fe1af757ccc6294d03c2b790910a"
+  },
+  {
+    "medio": "Emisora Atlántico",
+    "url": "https://emisoraatlantico.com.co/judiciales/hallan-cadaver-de-hombre-desaparecido-en-una-vereda-de-galapa-tenia-12-dias-de-haber-salido-de-prision/",
+    "titular": "Hallan cadáver de hombre desaparecido en una vereda de Galapa: tenía 12 días de haber salido de prisión",
+    "fecha_publicacion": "2026-11-25T23:00:00-05:00",
+    "resumen": "Las autoridades confirmaron el hallazgo del cuerpo sin vida de David José Escudero Quintero en la vereda Las Margaritas, zona rural del municipio de Galapa, Atlántico. El hombre se encontraba desaparecido desde el martes y fue encontrado por varias personas en un sector cubierto de vegetación,…",
+    "fecha_captura": "2026-11-26T06:58:31-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "desaparicion"
+    ],
+    "municipio": "Galapa",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d15256e5a6a09dcf9ba6ed5ee32a5cb8ce17300e"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/revelan-nuevos-detalles-sobre-muneton-zapata-presunto-secuestrador-fallecido-en-el-exito-de-cartagena/",
+    "titular": "Revelan nuevos detalles sobre Muñetón Zapata, presunto secuestrador fallecido en el Éxito de Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T22:18:00-05:00",
+    "resumen": "Las investigaciones sobre la toma de rehenes en el almacén Éxito de La Castellana, en Cartagena, continúan revelando detalles sobre Humberto Muñetón Zapata,",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "da598972b9eb27534384c1e363f908dcde627c9a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/peso-colombiano-registra-el-peor-desempeno-mundial-en-noviembre-pero-goldman-sachs-proyecta-recuperacion/",
+    "titular": "Peso colombiano registra el peor desempeño mundial en noviembre, pero Goldman Sachs proyecta recuperación - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T22:13:00-05:00",
+    "resumen": "El peso colombiano se convirtió en la moneda de peor desempeño del mundo en noviembre de 2026, al acumular una depreciación del 11,96 % frente al dólar",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "72ded1c8a5723e279fa9a8a941ff697f79b7c360"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/este-es-el-prontuario-de-los-capturados-por-la-toma-de-rehenes-en-exito-cartagena-uno",
+    "titular": "Este es el prontuario de los capturados por la toma de rehenes en Éxito Cartagena: uno, con 5 anotaciones",
+    "fecha_publicacion": "2026-11-25T21:00:00-05:00",
+    "resumen": "La mayoría de sus presuntas actuaciones criminales tuvieron lugar en Medellín.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6490a2c40101830a1f67a2d3fa537d404c470943"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/ataque-con-dron-contra-estacion-de-policia-impacto-una-iglesia-en-valle-del-cauca",
+    "titular": "Ataque con dron contra estación de Policía impactó a una iglesia, en Valle del Cauca",
+    "fecha_publicacion": "2026-11-25T20:58:00-05:00",
+    "resumen": "La cartera recordó que los lugares destinados al culto religioso son bienes protegidos por el Derecho Internacional Humanitario.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e245d27c9c630f50a1ec3d32606ed7dde7108b3a"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/desapariciones-de-ninas-y-adolescentes-aumentaron-un-197-entre-enero-y-septiembre",
+    "titular": "Desapariciones de niñas y adolescentes aumentaron un 197% entre enero y septiembre: Medicina Legal",
+    "fecha_publicacion": "2026-11-25T20:12:00-05:00",
+    "resumen": "Van 2.634 casos hasta septiembre de este año.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "297caaa26ef4b95c9b2cda3b332b3208517c753f"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/asesor-comercial-afirmo-que-de-la-espriella-lo-acuso-de-ser-uno-de-los-secuestradores",
+    "titular": "Asesor comercial afirmó que De La Espriella lo acusó de ser uno de los secuestradores",
+    "fecha_publicacion": "2026-11-25T19:33:00-05:00",
+    "resumen": "Daniel Díaz Acevedo estaba en Cartagena por temas laborales y en el momento del secuestro se encontraba desayunando en el Éxito.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "bea6a2e9af76fba39350caece31dd72e6ada4a52"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/12-dias-despues-de-salir-de-prision-hombre-fue-hallado-sin-vida-en-galapa",
+    "titular": "12 días después de salir de prisión, hombre fue hallado sin vida en Galapa",
+    "fecha_publicacion": "2026-11-25T18:52:00-05:00",
+    "resumen": "El cuerpo registraba heridas de bala y estaba en una zona con vegetación en la vereda Las Margaritas.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": "Galapa",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f72c084d92f1f8d482e79d748ccbf771be525489"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/confirman-la-liberacion-de-fernando-murcia-quien-permanecia-secuestrado-desde-hace-75",
+    "titular": "Confirman la liberación de Fernando Murcia, quien permanecía secuestrado desde hace 75 días",
+    "fecha_publicacion": "2026-11-25T18:03:00-05:00",
+    "resumen": "En la operación fueron capturados nueve integrantes del Ejército de Liberación Nacional (ELN) y otro más fue abatido.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "secuestro",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "588f653ca79050aa6427ce21c5e6093206d3d228"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/ataque-sicarial-en-cancha-de-santo-domingo-de-guzman-un-hombre-y-una-mujer-resultaron-heridos/",
+    "titular": "Ataque sicarial en cancha de Santo Domingo de Guzmán: un hombre y una mujer resultaron heridos",
+    "fecha_publicacion": "2026-11-25T17:52:44-05:00",
+    "resumen": "Según las primeras versiones, el atentado se dirigía contra el ciudadano. Un hombre y una mujer resultaron heridos a bala en medio de un ataque sicarial registrado este miércoles 25 de noviembre en la cancha del barrio Santo Domingo de Guzmán, en la localidad Metropolitana de Barranquilla,…",
+    "fecha_captura": "2026-11-26T06:58:31-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Santo Domingo de Guzmán",
+    "estado": "pendiente",
+    "id": "71913b6cedec04b228b87ae4dc3b2d5515a13845"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/les-van-caer-40-o-50-anitos-de-la-espriella-secuestradores-en-exito-cartagena",
+    "titular": "\"Les van a caer 40 o 50 añitos\": De La Espriella a secuestradores en Éxito Cartagena",
+    "fecha_publicacion": "2026-11-25T17:50:00-05:00",
+    "resumen": "Como se ha vuelto costumbre, el mandatario encaró a los presuntos criminales.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "440a31185c3bdbd9cd7487afddd8af3e874966b5"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/capturados-por-toma-de-rehenes-en-exito-de-cartagena-se-exponen-a-penas-de-hasta-60-anos-de-prision/",
+    "titular": "Capturados por toma de rehenes en Éxito de Cartagena se exponen a penas de hasta 60 años de prisión - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T17:03:31-05:00",
+    "resumen": "La investigación por la toma de rehenes registrada en el almacén Éxito de La Castellana, en Cartagena, comienza a avanzar hacia la etapa judicial, mientras",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c6bc92d08bd3b7e61bf8ed5569dd1367e855d561"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/capturados-en-exito-de-cartagena-dos-paisas-uno-tiene-anotaciones-por-hurto-y-el-otro-habia-sido-detenido-este-ano/",
+    "titular": "Capturados en Éxito de Cartagena: dos paisas, uno tiene anotaciones por hurto y el otro había sido detenido este año",
+    "fecha_publicacion": "2026-11-25T17:00:15-05:00",
+    "resumen": "Uno se presentó como mecánico y el otro como estudiante universitario. Cerca del mediodía de este miércoles 25 de noviembre, el presidente Abelardo de la Espriella presentó un compacto de lo que fue el operativo que terminó con el rescate de más de 20 personas que permanecían como rehenes en el…",
+    "fecha_captura": "2026-11-26T06:58:31-05:00",
+    "tipos_delito": [
+      "hurto",
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d12d5e43df94f8465971e368310473136ebc1dab"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/confirman-identidad-de-hombre-abatido-durante-secuestro-en-el-exito-de-cartagena/",
+    "titular": "Confirman identidad de hombre abatido durante secuestro en el Éxito de Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T15:41:33-05:00",
+    "resumen": "La incertidumbre que rodeaba la desaparición de Jailer Humberto Muñetón Zapata comenzó a despejarse este miércoles, luego de que allegados confirmaran que",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "26df3df327fc4ed78dc3a4bc1f9a04c869e2cae3"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/amigos-confirman-que-jailer-muneton-fue-el-hombre-abatido-en-secuestro-de-exito",
+    "titular": "Amigos confirman que Jailer Muñetón fue el hombre abatido en secuestro de Éxito Cartagena",
+    "fecha_publicacion": "2026-11-25T15:30:00-05:00",
+    "resumen": "Aseguraron que todavía no hay claridad sobre cómo ocurrieron los hechos. Están a la espera de los informes oficiales correspondientes. Cuerpo se encuentra en Medicina Legal de la capital bolivarense.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b1647591fb5391703949285b20306c7b2933e815"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/hombre-habria-avisado-a-su-familia-que-iba-a-negociar-un-predio-y-aparecio-muerto-en-una-trocha-de-galapa/",
+    "titular": "Hombre habría avisado a su familia que iba a negociar un predio y apareció muerto en una trocha de Galapa",
+    "fecha_publicacion": "2026-11-25T15:07:23-05:00",
+    "resumen": "Según las primeras informaciones, la víctima tenía apenas unas horas de haber salido de la cárcel. Un hombre, al que las autoridades referencian inicialmente con el alias de 26, fue hallado sin vida pasado el mediodía de este miércoles 25 de noviembre en el sector de la vereda Alpes de Sevilla,…",
+    "fecha_captura": "2026-11-26T06:58:31-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Galapa",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c79cca19ce3ea633a53219332c73fc827d33044f"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/murio-mujer-herida-bala-en-atentado-hace-10-dias-en-7-de-abril",
+    "titular": "Murió mujer herida a bala en atentado hace 10 días en 7 de Abril",
+    "fecha_publicacion": "2026-11-25T15:07:00-05:00",
+    "resumen": "En los mismos hechos el día del suceso murió un hombre.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e4651607364c73c512a5e6bfd419d57b91929dcf"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/primicia-acribillan-a-alias-26-presunto-hombre-de-confianza-de-castor-lo-encontraron-muerto-en-zona-enmontada-de-galapa/",
+    "titular": "PRIMICIA : Acribillan a alias ‘26’, presunto hombre de confianza de ‘Castor’: lo encontraron muerto en zona enmontada de Galapa - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T14:58:34-05:00",
+    "resumen": "El señalado lugarteniente de ‘Los Costeños’ había salido recientemente de prisión. Una de las hipótesis apunta a que habría sido llevado bajo engaño hasta la",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Galapa",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c5910ea017e9c13fdd6ddf9ad12ddcd215b2c4c2"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/jailer-muneton-fue-el-hombre-abatido-en-rescate-de-rehenes-en-exito-de-cartagena-sus-allegados-exigen-respuestas/",
+    "titular": "Jailer Muñetón fue el hombre abatido en rescate de rehenes en Éxito de Cartagena: sus allegados exigen respuestas",
+    "fecha_publicacion": "2026-11-25T14:39:43-05:00",
+    "resumen": "Según lo relatado por un amigo, Muñetón Zapata “hacía obras de impermeabilización” y llevaba unos 12 años viviendo en la Heroica. Familiares y amigos de Jailer Humberto Muñetón Zapata, quienes se habían mostrado desesperados por no saber de su paradero tras la toma de rehenes en el almacén Éxito…",
+    "fecha_captura": "2026-11-26T06:58:31-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "cb3bf92a8200962606cca968f3c99291ebe3c04f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/ataque-contra-patrulla-policial-en-padilla-deja-dos-uniformados-muertos-y-varios-heridos/",
+    "titular": "Ataque contra patrulla policial en Padilla deja dos uniformados muertos y varios heridos - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T13:54:10-05:00",
+    "resumen": "El hecho ocurrió hacia las 10:10 a. m., en inmediaciones del sector El Chamizo, sobre la vía que conduce hacia Yarumales. Según la información preliminar, una",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": "El Chamizo",
+    "estado": "pendiente",
+    "id": "aa3be44db9bf41a61cee94c4aad4aa5c2cfcfc7a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/hombre-de-32-anos-fue-asesinado-a-tiros-en-el-barrio-la-luz-de-barranquilla/",
+    "titular": "Hombre de 32 años fue asesinado a tiros en el barrio La Luz de Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T13:35:07-05:00",
+    "resumen": "Un ataque con arma de fuego terminó con la vida de Alfonso Rafael Lino Rodríguez, de 32 años, en la tarde del martes en el barrio La Luz, en el suroriente de",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "La Luz",
+    "estado": "pendiente",
+    "id": "ea67970aa8dae0b230fc6ffca1e8b2f62774926d"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/disparan-contra-vivienda-de-dragoneante-del-inpec-en-el-bosque-y-le-dejan-un-panfleto",
+    "titular": "Disparan contra vivienda de dragoneante del Inpec en El Bosque y le dejan un panfleto",
+    "fecha_publicacion": "2026-11-25T13:34:00-05:00",
+    "resumen": "El presidente de la UTP Colombia denunció el hecho en su cuenta de X.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": "El Bosque",
+    "estado": "pendiente",
+    "id": "50ecdcb8b1371771cf3da262e85fa9795a4058bb"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/dos-patrulleros-de-la-policia-murieron-y-otros-cuatro-resultaron-heridos-tras-emboscada",
+    "titular": "Dos patrulleros de la Policía murieron y otros cuatro resultaron heridos tras emboscada en Padilla, Cauca",
+    "fecha_publicacion": "2026-11-25T13:14:38-05:00",
+    "resumen": "Las víctimas mortales fueron identificadas como Kevin David Torres Berdugo y Bairon Jesús Riascos Murillo.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d88bac2b90961e0ee9da2734db14ecc998004652"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/juicio-contra-nicolas-petro-ya-tiene-fecha-comenzara-en-enero-de-2027/",
+    "titular": "Juicio contra Nicolás Petro ya tiene fecha: comenzará en enero de 2027 - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T13:07:21-05:00",
+    "resumen": "El proceso penal contra el exdiputado del Atlántico Nicolás Petro Burgos entrará en una nueva etapa a comienzos de 2027, luego de que el juez segundo penal",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e737a6dc834acc8318b72fe32943d4d826c11e84"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/nuevas-revelaciones-sobre-las-casi-18-horas-de-terror-en-el-exito-de-la-castellana/",
+    "titular": "NUEVAS REVELACIONES SOBRE LAS CASI 18 HORAS DE TERROR EN EL ÉXITO DE LA CASTELLANA - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T12:38:33-05:00",
+    "resumen": "La operación que permitió rescatar a las personas retenidas en el almacén Éxito de La Castellana, en Cartagena, puso fin a casi 18 horas de angustia. Sin",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "41650a501aefe7e88001904e7abfd157da3f69c5"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/20-y-21-de-enero-de-2027-iniciara-en-firme-el-juicio-oral-al-exdiputado-nicolas-petro",
+    "titular": "20 y 21 de enero de 2027 iniciará en firme el juicio oral al exdiputado Nicolás Petro",
+    "fecha_publicacion": "2026-11-25T12:31:00-05:00",
+    "resumen": "Por los delitos de enriquecimiento Ilícito de servidor público y lavado de activos",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "10e84fa4a2d4a497a699cb10e43c5fa11d19ce53"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/jailer-muneton-el-desaparecido-durante-el-secuestro-en-el-exito-cartagena",
+    "titular": "Jailer Muñetón, el desaparecido durante el secuestro en el Éxito Cartagena",
+    "fecha_publicacion": "2026-11-25T12:18:00-05:00",
+    "resumen": "La última comunicación que tuvo con su esposa fue a las 8:12 de la mañana, cuando iba a ingresar al almacén.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "secuestro",
+      "desaparicion"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "660e4d2f49b735c445f31369d7188accd52ebcb0"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/fiscalia-acusa-a-exsecretario-de-cancilleria-por-contrato-de-pasaportes-y-compra-de-predios/",
+    "titular": "Fiscalía acusa a exsecretario de Cancillería por contrato de pasaportes y compra de predios - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T11:59:17-05:00",
+    "resumen": "La Fiscalía General de la Nación acusó formalmente a José Antonio Salazar Ramírez, exsecretario general del Ministerio de Relaciones Exteriores, por presuntas",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7ad7008c1ce2ef7e5fa38c37747c84ee4ad65148"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/creador-de-contenido-se-declaro-inocente-tras-ser-acusado-de-abusar-sexualmente-de-una-menor-de-13-anos/",
+    "titular": "Creador de contenido se declaró inocente tras ser acusado de abusar sexualmente de una menor de 13 años - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T11:55:01-05:00",
+    "resumen": "El creador de contenido Juan Carlos Beltrán se declaró inocente ante la justicia de los delitos de acceso carnal violento agravado y actos sexuales con menor",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "violencia_sexual"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3c7f163ee7e353cffa9c2f8185e9da207abbe920"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/whisky-corridos-y-agresiones-asi-vivieron-los-rehenes-las-horas-de-terror-en-cartagena/",
+    "titular": "Whisky, corridos y agresiones: así vivieron los rehenes las horas de terror en Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T10:45:04-05:00",
+    "resumen": "Héctor Puello, panadero del establecimiento y uno de los ciudadanos liberados durante el operativo de la madrugada del miércoles 25 de noviembre, contó que",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "45f334495aa959810be33b91312f2bc8d824af4c"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/17-horas-de-terror-que-terminaron-con-exito-en-cartagena-asi-fue-el-asalto-que-dejo-cuatro-capturados-y-un-muerto/",
+    "titular": "17 horas de terror que terminaron con éxito en Cartagena: así fue el asalto que dejó cuatro capturados y un muerto - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T10:41:01-05:00",
+    "resumen": "El balance presentado tras la intervención dejó un delincuente muerto, cuatro capturados y un coronel de la Policía herido durante el operativo. Ninguno de",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones",
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "68a3baa27ccc71bf26240f79fba9b27cd42bd03a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/policia-nacional-fortalece-la-seguridad-y-la-cercania-con-la-comunidad-de-las-palmas-en-san-jacinto/",
+    "titular": "Policía Nacional fortalece la seguridad y la cercanía con la comunidad de Las Palmas, en San Jacinto - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T09:59:49-05:00",
+    "resumen": "En medio de los caminos de los Montes de María, donde la esperanza florece entre montañas y el campo guarda las historias de sus habitantes, la Policía",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": "Montes",
+    "estado": "pendiente",
+    "id": "6e7059e9b32193d7f643cdbabbaf056f53adbf25"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/comunidad-en-ciudad-caribe-rechazo-procedimiento-policial-en-que-resulto-herido-un",
+    "titular": "Comunidad en Ciudad Caribe rechazó procedimiento policial en que resultó herido un residente",
+    "fecha_publicacion": "2026-11-25T09:43:00-05:00",
+    "resumen": "Cámaras de seguridad grabaron el suceso.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a537b33465610355d32d6dd52455a7a5c8919208"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/una-mujer-resulto-herida-en-un-atentado-bala-frente-su-vivienda-en-santo-tomas",
+    "titular": "Una mujer resultó herida en un atentado a bala frente a su vivienda, en Santo Tomás",
+    "fecha_publicacion": "2026-11-25T09:36:00-05:00",
+    "resumen": "Fue remitida a un centro asistencial de Barranquilla.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c73dabfe6a738ad59e05ad1123069a503efb0a75"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/con-detonaciones-y-el-uso-de-helicoptero-asi-fue-el-rescate-de-los-rehenes-en-el-exito",
+    "titular": "Con detonaciones y el uso de helicóptero, así fue el rescate de los rehenes en el Éxito Cartagena",
+    "fecha_publicacion": "2026-11-25T08:35:00-05:00",
+    "resumen": "A la 1:30 de la madrugada la Fuerza Pública retomó el control de la situación.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "08422b7f581cd7f33fc5ecc3944f291db9b0606f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/30-comandos-de-la-policia-participaron-en-el-rescate-de-rehenes-en-cartagena-asi-fue-el-operativo/",
+    "titular": "30 comandos de la Policía participaron en el rescate de rehenes en Cartagena: así fue el operativo - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T08:27:50-05:00",
+    "resumen": "De acuerdo con el balance oficial, un grupo de aproximadamente 30 comandos de la Policía ingresó al establecimiento comercial para ejecutar el rescate. En el",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "267971f50f5eafa026d4d06121401db9d54e106a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/rehenes-del-exito-de-cartagena-vivieron-horas-de-terror-los-amenazaron-con-explosivos-y-armas/",
+    "titular": "Rehenes del Éxito de Cartagena vivieron horas de terror: los amenazaron con explosivos y armas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T08:18:54-05:00",
+    "resumen": "Uno de los empleados liberados, identificado como Dayro Rafael Velázquez Castrillo, relató los momentos de angustia que vivió junto a sus compañeros mientras",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "294c5d4822e6a4126749b61f6d6ec4935538d1f3"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/asi-fue-el-operativo-de-las-fuerzas-especiales-que-permitio-liberar-a-los-rehenes-en-cartagena/",
+    "titular": "Así fue el operativo de las Fuerzas Especiales que permitió liberar a los rehenes en Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T08:11:05-05:00",
+    "resumen": "La operación que permitió recuperar el control del almacén Éxito de Cartagena y liberar a las personas retenidas fue resultado de un trabajo coordinado entre",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6fc164e6d3144ae801f90d3694d3460577ecf274"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/secuestradores-en-el-exito-cartagena-pusieron-trabajadoras-de-frisby-hacerles-comida",
+    "titular": "Secuestradores en el Éxito Cartagena \"pusieron a trabajadoras de Frisby a hacerles comida\"",
+    "fecha_publicacion": "2026-11-25T08:10:38-05:00",
+    "resumen": "Los antisociales almorzaron y le dieron comida a los trabajadores secuestrados.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8e015015d26226ba6cb843b44507e65d32c6d634"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/extraditado-a-ee-uu-integrante-de-red-transnacional-dedicada-al-narcotrafico/",
+    "titular": "Extraditado a EE. UU. integrante de red transnacional dedicada al narcotráfico - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T07:38:25-05:00",
+    "resumen": "Este individuo, oficial en retiro de la Armada Nacional, había sido capturado el pasado 20 de febrero de 2025 en Neiva (Huila) por el Cuerpo Técnico de",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7cd1729030bac61c5d90ee39b442a440a591ca89"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/asesinan-un-hombre-en-la-chinita-habia-salido-de-la-carcel-hace-8-meses",
+    "titular": "Asesinan a un hombre en La Chinita: había salido de la cárcel hace 8 meses",
+    "fecha_publicacion": "2026-11-25T07:29:00-05:00",
+    "resumen": "Según las autoridades, había recibido amenazas por parte de integrantes de la banda ‘Los del Freseo’.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "La Chinita",
+    "estado": "pendiente",
+    "id": "9f2c90028045361c4111e2ad865e500c6ce3c679"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/capturan-a-una-pareja-senalada-de-cobrar-extorsiones-para-el-bloque-resistencia-caribe-en-soledad/",
+    "titular": "Capturan a una pareja señalada de cobrar extorsiones para el Bloque Resistencia Caribe en Soledad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T07:28:59-05:00",
+    "resumen": "Una pareja señalada de integrar el denominado Bloque Resistencia Caribe fue capturada por la Policía en el barrio El Parque, en Soledad, Atlántico. Según las",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "extorsion",
+      "captura"
+    ],
+    "municipio": "Soledad",
+    "barrio": "El Parque",
+    "estado": "pendiente",
+    "id": "6d7a9056d9624829211868ec1d1e2ca5f5d35170"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/liberan-a-los-rehenes-en-el-exito-de-cartagena-un-delincuente-murio-y-cuatro-fueron-capturados/",
+    "titular": "Liberan a los rehenes en el Éxito de Cartagena: un delincuente murió y cuatro fueron capturados - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T07:22:49-05:00",
+    "resumen": "El operativo se realizó en la madrugada de este miércoles 25 de noviembre y terminó con un asaltante muerto y otros cuatro capturados. La Policía calificó el",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "captura"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9e68cbb81dab90459a35829ffcc2e529b5d76b60"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/cinco-trabajadores-del-exito-estuvieron-4-horas-ocultos-en-un-refrigerador-4-grados-de",
+    "titular": "Cinco trabajadores del Éxito estuvieron 4 horas ocultos en un refrigerador a 4 grados de temperatura",
+    "fecha_publicacion": "2026-11-25T07:13:16-05:00",
+    "resumen": "Debieron salir para no morir de hipotermia.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "dfd95d605dedf8147e9947d27a1b3792e3bd6f67"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/una-alarma-silenciosa-y-el-madrugon-del-carro-de-valores-clave-para-frustrar-asalto-en",
+    "titular": "Una alarma silenciosa y el “madrugón” del carro de valores, clave para frustrar asalto en Éxito Cartagena",
+    "fecha_publicacion": "2026-11-25T06:58:22-05:00",
+    "resumen": "Después siguió el dispositivo de seguridad que permitió la “impecable” operación de la Fuerza Pública.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9d16836f3d5b7431aa4b5d91d710d2b4ac631ce1"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/fueron-horas-muy-terribles-de-mucha-angustia-mucha-zozobra-testimonio-de-rescatado-en-el",
+    "titular": "\"Fueron horas muy terribles, de mucha angustia, mucha zozobra\": testimonio de rescatado en el Éxito",
+    "fecha_publicacion": "2026-11-25T06:56:15-05:00",
+    "resumen": "Estuvo más de 16 horas secuestrado en el almacén ubicado en Cartagena.",
+    "fecha_captura": "2026-11-26T06:51:26-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2cd9b609fb8c4647401f9d787d2b92097ae9e549"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/se-cambiaron-de-ropa-para-escapar-revelan-detalles-de-los-cinco-secuestradores-del-exito-de-cartagena/",
+    "titular": "Se cambiaron de ropa para escapar: revelan detalles de los cinco secuestradores del Éxito de Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T06:36:33-05:00",
+    "resumen": "Nuevos detalles salen a la luz sobre la toma de rehenes que mantuvo en tensión a Cartagena durante casi 20 horas y que terminó en la madrugada de este",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": "La Luz",
+    "estado": "pendiente",
+    "id": "390aa16866c12976f61b589b0c07074008cb58d6"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/alcalde-de-cartagena-agradece-al-presidente-abelardo-por-su-apoyo-en-el-rescate-de-los-rehenes-del-exito/",
+    "titular": "Alcalde de Cartagena agradece al presidente Abelardo por su apoyo en el rescate de los rehenes del Éxito - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T06:32:53-05:00",
+    "resumen": "El alcalde de Cartagena, Dumek Turbay, agradeció al presidente Abelardo De La Espriella por su acompañamiento y coordinación durante el operativo que permitió",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d684856756ab1695e931ff61261ddcf4a546468f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/entre-lagrimas-y-abrazos-familiares-esperaron-a-los-rehenes-liberados-en-cartagena/",
+    "titular": "Entre lágrimas y abrazos, familiares esperaron a los rehenes liberados en Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T06:31:27-05:00",
+    "resumen": "A las 3:00 de la madrugada de este miércoles 25 de noviembre, familiares de las personas rescatadas del almacén Éxito de La Castellana permanecían a las",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "be8d39c770e053f0abf0bd9631f268a4c41f3d24"
+  },
+  {
+    "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/25/balacera-en-fundacion-deja-tres-policias-heridos-durante-operativo-en-la-candelaria/",
     "titular": "Balacera en Fundación deja tres policías heridos durante operativo en La Candelaria - Diario La Libertad.",
     "fecha_publicacion": "2026-11-25T06:24:50-05:00",
@@ -13,6 +831,19 @@
     "barrio": "La Candelaria",
     "estado": "pendiente",
     "id": "4964c0a1714a0141da7612c17c3bf374d213948f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/25/cinco-empleados-del-exito-de-cartagena-pasaron-cuatro-horas-escondidos-en-un-refrigerador-a-4-grados/",
+    "titular": "Cinco empleados del Éxito de Cartagena pasaron cuatro horas escondidos en un refrigerador a 4 grados - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-25T06:24:30-05:00",
+    "resumen": "Cuatro horas dentro de un refrigerador, a una temperatura aproximada de cuatro grados centígrados, tuvieron que permanecer cinco trabajadores del almacén",
+    "fecha_captura": "2026-11-26T06:53:17-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "4a4ebd45a2a40c3487da65f475ff56577b1afa1f"
   },
   {
     "medio": "Diario La Libertad",
