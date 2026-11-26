@@ -47,7 +47,7 @@ mes,municipio,delito,prensa,oficial,registro,proporcion_prensa,notas
 2026-03,Soledad,les,0,58,,,prensa_parcial
 2026-03,Soledad,hur,0,287,,,prensa_parcial
 2026-03,Soledad,ext,0,29,,,prensa_parcial
-2026-03,Malambo,hom,1,9,9,,prensa_parcial
+2026-03,Malambo,hom,0,9,9,,prensa_parcial
 2026-03,Malambo,les,0,13,,,prensa_parcial
 2026-03,Malambo,hur,0,44,,,prensa_parcial
 2026-03,Malambo,ext,0,9,,,prensa_parcial
@@ -59,11 +59,11 @@ mes,municipio,delito,prensa,oficial,registro,proporcion_prensa,notas
 2026-03,Puerto Colombia,les,0,16,,,prensa_parcial
 2026-03,Puerto Colombia,hur,0,29,,,prensa_parcial
 2026-03,Puerto Colombia,ext,0,5,,,prensa_parcial
-2026-04,Barranquilla,hom,2,54,57,,prensa_parcial
+2026-04,Barranquilla,hom,0,54,57,,prensa_parcial
 2026-04,Barranquilla,les,0,171,,,prensa_parcial
 2026-04,Barranquilla,hur,0,821,,,prensa_parcial
 2026-04,Barranquilla,ext,0,74,,,prensa_parcial
-2026-04,Soledad,hom,1,16,17,,prensa_parcial
+2026-04,Soledad,hom,0,16,17,,prensa_parcial
 2026-04,Soledad,les,0,46,,,prensa_parcial
 2026-04,Soledad,hur,0,268,,,prensa_parcial
 2026-04,Soledad,ext,0,39,,,prensa_parcial
@@ -79,11 +79,11 @@ mes,municipio,delito,prensa,oficial,registro,proporcion_prensa,notas
 2026-04,Puerto Colombia,les,0,6,,,prensa_parcial
 2026-04,Puerto Colombia,hur,0,19,,,prensa_parcial
 2026-04,Puerto Colombia,ext,0,6,,,prensa_parcial
-2026-05,Barranquilla,hom,1,60,57,,prensa_parcial
+2026-05,Barranquilla,hom,0,60,57,,prensa_parcial
 2026-05,Barranquilla,les,0,211,,,prensa_parcial
 2026-05,Barranquilla,hur,0,814,,,prensa_parcial
 2026-05,Barranquilla,ext,0,66,,,prensa_parcial
-2026-05,Soledad,hom,1,32,29,,prensa_parcial
+2026-05,Soledad,hom,0,32,29,,prensa_parcial
 2026-05,Soledad,les,0,60,,,prensa_parcial
 2026-05,Soledad,hur,0,254,,,prensa_parcial
 2026-05,Soledad,ext,0,29,,,prensa_parcial
@@ -103,7 +103,7 @@ mes,municipio,delito,prensa,oficial,registro,proporcion_prensa,notas
 2026-06,Barranquilla,les,0,227,,,prensa_parcial
 2026-06,Barranquilla,hur,0,788,,,prensa_parcial
 2026-06,Barranquilla,ext,0,66,,,prensa_parcial
-2026-06,Soledad,hom,1,49,49,,prensa_parcial
+2026-06,Soledad,hom,0,49,49,,prensa_parcial
 2026-06,Soledad,les,0,77,,,prensa_parcial
 2026-06,Soledad,hur,0,227,,,prensa_parcial
 2026-06,Soledad,ext,0,40,,,prensa_parcial
