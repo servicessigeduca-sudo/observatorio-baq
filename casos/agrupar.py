@@ -15,8 +15,11 @@ Los pares dudosos no se unen: el caso queda marcado como posible duplicado
 para que el editor decida.
 
 No entran como caso las notas que no cuentan un hecho nuevo en el área:
-balances y cifras acumuladas, seguimientos judiciales de hechos viejos,
+balances y cifras acumuladas, capturas y seguimientos judiciales,
 accidentes y noticias de otras regiones o países.
+
+El editor puede separar del caso una nota que no habla del mismo hecho: queda
+guardada en `no_unir_con` y las corridas siguientes no vuelven a unirlas.
 """
 
 from __future__ import annotations
@@ -25,7 +28,7 @@ import hashlib
 import re
 from datetime import date
 
-from scraper.clasificar import BARRIOS_CONOCIDOS, normalizar
+from scraper.clasificar import BARRIOS_CONOCIDOS, TIPOS_HURTO, es_captura_o_judicial, normalizar, tipo_hurto
 
 # Tipos que no son un hecho delictivo por sí solos.
 NO_SON_CASO = {"captura"}
@@ -33,8 +36,8 @@ NO_SON_CASO = {"captura"}
 # Grupos de tipos que pueden describir el mismo hecho (un herido que luego muere).
 COMPATIBLES = [
     {"homicidio", "feminicidio", "lesiones"},
-    {"hurto"},
-    {"extorsion"},
+    {"hurto", *TIPOS_HURTO},  # la prensa no siempre dice qué se robaron
+    {"extorsion", "amenazas"},
     {"secuestro"},
     {"violencia_sexual"},
     {"violencia_intrafamiliar", "feminicidio", "lesiones", "homicidio"},
@@ -57,8 +60,18 @@ VACIAS = set(
 )
 
 
+def tipos_de(nota: dict) -> list[str]:
+    """Tipos de la nota con las categorías vigentes: las notas guardadas antes
+    de usar las modalidades oficiales de hurto dicen solo «hurto»."""
+    tipos = list(nota.get("tipos_delito") or [])
+    if "hurto" in tipos:
+        sub = tipo_hurto(f"{nota.get('titular', '')}. {nota.get('resumen', '')}")
+        tipos = [sub if t == "hurto" else t for t in tipos if t != sub]
+    return tipos
+
+
 def tipo_principal(nota: dict) -> str | None:
-    tipos = [t for t in nota.get("tipos_delito") or [] if t not in NO_SON_CASO]
+    tipos = [t for t in tipos_de(nota) if t not in NO_SON_CASO]
     return tipos[0] if tipos else None
 
 
@@ -107,16 +120,28 @@ def motivo_exclusion(nota: dict) -> str | None:
         return "balance"
     if _JUDICIAL.search(titular):
         return "seguimiento_judicial"
+    if es_captura_o_judicial(nota.get("titular", "")):
+        return "captura_o_judicial"
     if _ACCIDENTE.search(titular) and not _VIOLENTO.search(titular):
         return "accidente"
     return None
 
 
-def es_candidata(nota: dict) -> bool:
-    """Una nota entra a los casos si habla de un delito dentro del área."""
+def es_candidata(nota: dict, publicada: bool = False) -> bool:
+    """Una nota entra a los casos si habla de un delito dentro del área.
+
+    `publicada`: la nota está en un caso que el editor ya publicó; se respeta
+    aunque las reglas de exclusión cambien después (salvo capturas y procesos judiciales)."""
     if nota.get("estado") == "descartado":
         return False
-    if nota.get("estado") != "publicado" and motivo_exclusion(nota):
+    motivo = motivo_exclusion(nota)
+    if motivo in ("captura_o_judicial", "seguimiento_judicial"):
+        # Las capturas y los procesos judiciales nunca son un hecho nuevo, aunque
+        # se hayan publicado antes de existir esta regla.
+        return False
+    if publicada or nota.get("estado") == "publicado":
+        return tipo_principal(nota) is not None or bool(nota.get("tipos_delito"))
+    if motivo:
         return False
     return tipo_principal(nota) is not None
 
@@ -262,8 +287,21 @@ def comparar(a: dict, b: dict, pa: tuple[set[str], set[str]], pb: tuple[set[str]
 
 
 class _Union:
-    def __init__(self, n: int):
+    """Unión de conjuntos que respeta los pares que el editor separó."""
+
+    def __init__(self, n: int, prohibidos: dict[int, set[int]] | None = None):
         self.padre = list(range(n))
+        self.miembros = {i: {i} for i in range(n)}
+        self.prohibidos = prohibidos or {}
+
+    def permitido(self, i: int, j: int) -> bool:
+        ri, rj = self.raiz(i), self.raiz(j)
+        if ri == rj:
+            return True
+        a, b = self.miembros[ri], self.miembros[rj]
+        if len(a) > len(b):
+            a, b = b, a
+        return not any(self.prohibidos.get(k, set()) & b for k in a)
 
     def raiz(self, i: int) -> int:
         while self.padre[i] != i:
@@ -271,10 +309,16 @@ class _Union:
             i = self.padre[i]
         return i
 
-    def unir(self, i: int, j: int) -> None:
+    def unir(self, i: int, j: int) -> bool:
         ri, rj = self.raiz(i), self.raiz(j)
-        if ri != rj:
-            self.padre[max(ri, rj)] = min(ri, rj)
+        if ri == rj:
+            return True
+        if not self.permitido(i, j):
+            return False
+        a, b = min(ri, rj), max(ri, rj)
+        self.padre[b] = a
+        self.miembros[a] |= self.miembros.pop(b)
+        return True
 
 
 def _revisado(caso: dict) -> bool:
@@ -291,10 +335,20 @@ def agrupar(notas: list[dict], previos: list[dict] | None = None) -> list[dict]:
     `previos` son los casos ya guardados: se conservan su estado y los campos
     que el editor haya corregido, y las notas que el editor ya unió siguen juntas.
     """
-    cand = sorted((n for n in notas if es_candidata(n)), key=lambda n: (n.get("fecha_publicacion") or "", n["id"]))
+    publicadas = {i for c in previos or [] if c.get("estado") == "publicado" for i in c.get("notas", [])}
+    cand = sorted((n for n in notas if es_candidata(n, n["id"] in publicadas)), key=lambda n: (n.get("fecha_publicacion") or "", n["id"]))
     idx = {n["id"]: i for i, n in enumerate(cand)}
     pal = [palabras(n) for n in cand]
-    u = _Union(len(cand))
+    # Notas que el editor separó: no se vuelven a unir, ni directamente ni a través de otra.
+    separadas: dict[str, set[str]] = {}
+    for c in previos or []:
+        for a in c.get("notas", []):
+            for b in c.get("no_unir_con") or []:
+                if a != b:
+                    separadas.setdefault(a, set()).add(b)
+                    separadas.setdefault(b, set()).add(a)
+    prohibidos = {idx[a]: {idx[b] for b in bs if b in idx} for a, bs in separadas.items() if a in idx}
+    u = _Union(len(cand), prohibidos)
     dudas: list[tuple[int, int]] = []
 
     # Lo que el editor ya revisó se respeta. Las uniones automáticas de
@@ -315,7 +369,7 @@ def agrupar(notas: list[dict], previos: list[dict] | None = None) -> list[dict]:
             r = comparar(cand[i], cand[j], pal[i], pal[j])
             if r == "unir":
                 u.unir(i, j)
-            elif r == "duda":
+            elif r == "duda" and u.permitido(i, j):
                 dudas.append((i, j))
 
     grupos: dict[int, list[int]] = {}
@@ -330,11 +384,11 @@ def agrupar(notas: list[dict], previos: list[dict] | None = None) -> list[dict]:
         ids = [n["id"] for n in ns]
         tipos = []
         for n in ns:
-            for t in n.get("tipos_delito") or []:
+            for t in tipos_de(n):
                 if t not in tipos and t not in NO_SON_CASO:
                     tipos.append(t)
         # Si alguna nota dice que hubo muerto, el caso es homicidio.
-        principal = next((t for t in ("feminicidio", "homicidio") if t in tipos), tipos[0])
+        principal = next((t for t in ("feminicidio", "homicidio") if t in tipos), tipos[0] if tipos else "captura")
         fechas = sorted(n["fecha_publicacion"][:10] for n in ns if n.get("fecha_publicacion"))
         barrios = [n["barrio"] for n in ns if n.get("barrio")]
         municipios = [n["municipio"] for n in ns if n.get("municipio")]
@@ -347,15 +401,18 @@ def agrupar(notas: list[dict], previos: list[dict] | None = None) -> list[dict]:
             "barrio": max(set(barrios), key=barrios.count) if barrios else None,
             "medios": sorted({n["medio"] for n in ns}),
             "notas": sorted(ids),
-            "fuentes": [{"medio": n["medio"], "url": n["url"], "titular": n.get("titular", "")} for n in ns],
+            "fuentes": [{"medio": n["medio"], "url": n["url"], "titular": n.get("titular", ""), "nota": n["id"]} for n in ns],
             "estado": "pendiente",
             "posible_duplicado_de": [],
         }
+        no_unir = sorted({b for a in ids for b in separadas.get(a, ())} - set(ids))
+        if no_unir:
+            caso["no_unir_con"] = no_unir
         # Si el grupo toca varios casos previos, manda el que revisó el editor.
         previos_grupo = [previo_por_nota[i] for i in ids if i in previo_por_nota and previo_por_nota[i].get("caso_id") not in usados]
         prev = next((c for c in previos_grupo if _revisado(c)), previos_grupo[0] if previos_grupo else None)
         if prev:
-            campos = ("caso_id", "estado", "tipo", "barrio", "municipio", "fecha", "revisado_por", "revisado_en") if _revisado(prev) else ("caso_id",)
+            campos = ("caso_id", "estado", "tipo", "barrio", "municipio", "fecha", "revisado_por", "revisado_en", "motivo_descarte") if _revisado(prev) else ("caso_id",)
             for campo in campos:
                 if campo in prev and prev[campo] is not None:
                     caso[campo] = prev[campo]

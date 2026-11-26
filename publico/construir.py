@@ -36,7 +36,7 @@ CITA = "Observatorio BAQ ({anio}). Datos abiertos sobre delitos en Barranquilla 
 TIPOS = {  # grupo: (nombre, tipos de prensa, categorías oficiales comparables)
     "hom": ("Homicidio", {"homicidio", "feminicidio"}, ["homicidio"]),
     "les": ("Lesiones", {"lesiones"}, ["lesiones"]),
-    "hur": ("Hurto", {"hurto"}, ["hurto_personas", "hurto_comercio", "hurto_residencias", "hurto_carros", "hurto_motos", "hurto_entidades"]),
+    "hur": ("Hurto", {"hurto", "hurto_personas", "hurto_comercio", "hurto_residencias", "hurto_carros", "hurto_motos", "hurto_entidades"}, ["hurto_personas", "hurto_comercio", "hurto_residencias", "hurto_carros", "hurto_motos", "hurto_entidades"]),
     "ext": ("Extorsión", {"extorsion"}, ["extorsion"]),
     "otr": ("Otros", set(), []),
 }

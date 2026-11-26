@@ -10,7 +10,10 @@ NOMBRES = {
     "homicidio": "Homicidio", "feminicidio": "Feminicidio", "lesiones": "Lesiones",
     "hurto": "Hurto", "extorsion": "Extorsión", "secuestro": "Secuestro",
     "violencia_sexual": "Violencia sexual", "violencia_intrafamiliar": "Violencia intrafamiliar",
-    "desaparicion": "Desaparición",
+    "desaparicion": "Desaparición", "amenazas": "Amenazas",
+    "hurto_personas": "Hurto a personas", "hurto_motos": "Hurto de motos", "hurto_carros": "Hurto de carros",
+    "hurto_comercio": "Hurto a comercio", "hurto_residencias": "Hurto a residencias",
+    "hurto_entidades": "Hurto a entidades financieras",
 }
 
 
