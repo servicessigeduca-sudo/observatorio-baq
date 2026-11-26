@@ -582,12 +582,68 @@ a.porque{color:var(--primary);font-weight:600;white-space:nowrap}
 details.mas>summary{cursor:pointer;font-weight:700;font-size:15px;color:var(--ink)}
 details.mas>summary:hover{text-decoration:underline}
 
-/* Informe en PDF o impreso: solo el contenido, en claro y sin controles */
+/* Solo en papel: membrete y pie del informe (ocultos en pantalla) */
+.solo-imprimir{display:none}
+
+/* Impresión y «Guardar en PDF»: solo el contenido, en claro, sin controles y a escala de papel */
+@page{margin:14mm 15mm 16mm}
 @media print{
-  :root{color-scheme:light}
-  html,body{background:#fff!important;color:#000!important}
+  /* Siempre la paleta clara, aunque la persona tenga el modo oscuro activo */
+  html:root:not([data-x]),html:root[data-theme]{
+    --bg:#fff; --band:#F4F5F7; --surface:#fff; --ink:#1C1C1E; --muted:#5E5E63; --line:#DCDDE2; --fill:rgba(118,118,128,.12);
+    --primary:#0B6B3A; --primary-ink:#fff; --navy:#0B6B3A; --hot:#C4231A; --flag-y:#F6C200; --flag-r:#D3261C; --flag-g:#0B6B3A;
+    --qna:#B4BAC4; --c-hom:#4A5562; --c-hur:#D98A0B; --c-les:#2F7BB8; --c-ext:#7A52B3; --c-otr:#6B7A72; color-scheme:light}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  html,body{background:#fff!important;color:var(--ink)!important}
+  body{font-size:10pt;line-height:1.45}
   header.top,.flag,.subnav,.ctrls,footer,.archivo,.no-imprimir,.comp,.saltar,.theme{display:none!important}
-  .sec .in,.hero .in{box-shadow:none!important;background:#fff!important;border:0!important}
-  .sec{break-inside:avoid;padding:0!important;margin:0 0 12px!important}
-  a{color:#000!important}
+  .sec .in,.hero .in,.band .in{width:auto!important;max-width:none!important;margin:0!important;padding:0!important;box-shadow:none!important;background:none!important;border:0!important;border-radius:0!important}
+  .sec{padding:0!important;margin:0!important}
+  a{color:inherit!important;text-decoration:none!important}
+  .tablewrap{overflow:visible!important}
+  table,.tabla{min-width:0!important}
+
+  /* Informe mensual */
+  .informe .solo-imprimir{display:block}
+  .informe .membrete{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-bottom:7px;margin-bottom:14px;border-bottom:2.5px solid;border-image:linear-gradient(90deg,var(--flag-r) 0 33.3%,var(--flag-y) 33.3% 66.6%,var(--flag-g) 66.6%) 1;font-size:8.5pt;color:var(--muted)}
+  .informe .membrete .logo{font-size:12pt;gap:7px;color:var(--ink)}
+  .informe .membrete .logo svg{width:18px;height:18px}
+  .informe .hero .in{display:block!important}
+  .informe .crumb{display:none}
+  .informe .hero h1{font-size:20pt;letter-spacing:-.02em;line-height:1.15}
+  .informe .hero .etq{font-size:7pt;padding:2px 7px;vertical-align:4px}
+  .informe .hero .dek{font-size:9.5pt;margin:5px 0 0;max-width:none}
+  .informe .sec{margin-top:16px!important;break-inside:auto}
+  .informe .sec>.in>*{break-inside:avoid}
+  .informe .eyebrow{font-size:7.5pt;letter-spacing:.08em;margin:0 0 4px;padding-top:9px;border-top:1px solid var(--line);break-after:avoid}
+  .informe .sec h2.t{font-size:13pt;margin:0 0 6px;break-after:avoid}
+  .informe .sec h3{font-size:11pt!important;margin:0 0 6px!important;break-after:avoid}
+  .informe .resumen-txt{font-size:10.5pt;max-width:none}
+  .informe .resumen-txt p+p{margin-top:4px}
+  .informe .kpis{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:8px;margin:4px 0 0!important}
+  .informe .kpi{background:var(--band);border-radius:6px;padding:7px 9px;border-top:0}
+  .informe .kpi .k{font-size:8pt;line-height:1.25}
+  .informe .kpi b{font-size:17pt;line-height:1.15;margin-top:2px}
+  .informe .kpi small{font-size:7.5pt}
+  .informe .grid2.g11{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:28pt;align-items:start}
+  .informe .grid2.g11>div:last-child{padding-top:21px}
+  .informe .hbar{gap:3px;margin-top:4px}
+  .informe .hrow{grid-template-columns:82pt minmax(0,1fr);gap:8px;font-size:9pt;color:var(--ink)}
+  .informe .hrow .track{height:16px;background:var(--band);border-radius:3px}
+  .informe .hrow .fill{font-size:8pt;padding-left:6px;min-width:24px;border-radius:3px}
+  .informe .tabla{font-size:9pt}
+  .informe .tabla th{font-size:7pt;padding:4px 6px;border-bottom:1.5px solid var(--ink)}
+  .informe .tabla td{padding:4px 6px}
+  .informe .tabla tr{break-inside:avoid}
+  .informe #comp .tablewrap{margin-top:4px;max-width:62%}
+  .informe .chart{margin-top:4px!important}
+  .informe .chart svg{max-height:60mm;width:100%}
+  .informe .keyrow{font-size:8.5pt;margin-top:4px;gap:12px}
+  .informe .keyrow i{width:10px;height:10px}
+  .informe .fuente{font-size:8.5pt;margin-top:5px;max-width:none}
+  .informe .lista-lim{font-size:9pt;padding-left:14pt;margin-top:2px}
+  .informe .lista-lim li+li{margin-top:2px}
+  .informe .lista-lim+h3{margin-top:14px!important}
+  .informe .cita{font:9pt/1.45 var(--f-sans);background:var(--band);border-radius:4px;padding:7px 10px;word-break:normal;overflow-wrap:anywhere}
+  .informe .pie-imprimir{margin-top:16px;padding-top:6px;border-top:1px solid var(--line);font-size:7.5pt;color:var(--muted)}
 }
