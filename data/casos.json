@@ -205,11 +205,13 @@
         "nota": "71913b6cedec04b228b87ae4dc3b2d5515a13845"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": 10.93865,
     "lon": -74.81985,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "57212132526f",
@@ -334,11 +336,13 @@
         "nota": "ea67970aa8dae0b230fc6ffca1e8b2f62774926d"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": 10.95844,
     "lon": -74.77094,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "13802b6b798b",
@@ -363,11 +367,13 @@
         "nota": "c5910ea017e9c13fdd6ddf9ad12ddcd215b2c4c2"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "municipio",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "b27de7cba547",
@@ -392,11 +398,13 @@
         "nota": "b040b0e415faad79a83fdc7f331516e8e81bd780"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "88e7a1a208a9",
@@ -429,11 +437,13 @@
         "nota": "1a47d44243230dadb5594d6fad25f982d75a0a1d"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": 10.92845,
     "lon": -74.80582,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "7a391c59675b",
@@ -458,11 +468,13 @@
         "nota": "9086998a994896bdebee014e437e45c01b63470e"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "municipio",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "56b2697686bf",
@@ -496,11 +508,13 @@
         "nota": "f3b869ddc9ad4b3b6517689b35caa269f6f3d9dd"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": 10.9048,
     "lon": -74.80722,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "f2af90d69301",
@@ -558,11 +572,13 @@
         "nota": "917a3809dabdcf013ab0241fdbee60d16444ae86"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "b1ca293e4f8a",
@@ -587,11 +603,13 @@
         "nota": "10ccc8ee4db56b5df54ce65fb71786db93c41559"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "9a59101fddee",
@@ -617,11 +635,13 @@
         "nota": "41e1f03752385c55d4223bf645d521ad07896d91"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "86172f584098",
@@ -665,7 +685,7 @@
     ],
     "fecha": "2026-11-23",
     "municipio": "Barranquilla",
-    "barrio": null,
+    "barrio": "Alto Prado",
     "medios": [
       "Diario La Libertad"
     ],
@@ -680,11 +700,13 @@
         "nota": "8e2d2df6841b788a27541fdb8f65e29f899fd080"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "municipio",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "6fa80fa041ad",
@@ -709,11 +731,13 @@
         "nota": "5e65b5dc6094855df6d557a079be50605b7be447"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "2e0a1039c52f",
@@ -772,11 +796,13 @@
         "nota": "23417236f857b407e2c632187a0dc5587af64493"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": 10.90128,
     "lon": -74.80352,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "f8a035a6f144",
@@ -930,11 +956,13 @@
         "nota": "3dd1372542441272e4d8faa5acd8cfece719acd5"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "1c719a34b134",
@@ -1002,7 +1030,6 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [
-      "9d71b03a44e6",
       "f2af90d69301",
       "86172f584098"
     ],
@@ -1270,11 +1297,13 @@
         "nota": "b9bce48feabbf1c652f618c20e59f518f4d7d524"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": 10.976,
     "lon": -74.78683,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "ba4d7e44dce3",
@@ -1307,43 +1336,13 @@
         "nota": "754a4704394151e8cc7b89a98bfbf5e5c01267cb"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": 10.91014,
     "lon": -74.78263,
-    "confianza_ubicacion": "alta"
-  },
-  {
-    "caso_id": "9d71b03a44e6",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio"
-    ],
-    "fecha": "2026-11-20",
-    "municipio": "Galapa",
-    "barrio": null,
-    "medios": [
-      "Impacto News"
-    ],
-    "notas": [
-      "a01e7c36cbc09e452b6e5b8fef62fccbe33ef17e"
-    ],
-    "fuentes": [
-      {
-        "medio": "Impacto News",
-        "url": "https://impactonews.co/el-es-inocente-esta-en-un-centro-terapeutico-madre-del-novio-de-la-adolescente-hallada-sin-vida-en-galapa/",
-        "titular": "“Él es inocente, está en un centro terapéutico”: madre del novio de la adolescente hallada sin vida en Galapa",
-        "nota": "a01e7c36cbc09e452b6e5b8fef62fccbe33ef17e"
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "f3de656f2168",
-      "1739406c4d47"
-    ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "d387a9c612b4",
@@ -1607,10 +1606,12 @@
     "barrio": null,
     "medios": [
       "Diario La Libertad",
+      "Impacto News",
       "Zona Cero"
     ],
     "notas": [
       "52a606b2347ab4b0378d671e8ba75087ffaf487b",
+      "a01e7c36cbc09e452b6e5b8fef62fccbe33ef17e",
       "c5b2ba7abf1d7d84b729a6a1f88939734b8c43a9"
     ],
     "fuentes": [
@@ -1625,15 +1626,21 @@
         "url": "https://diariolalibertad.com/2026/11/18/identifican-a-adolescente-de-17-anos-hallada-muerta-en-puente-de-la-prosperidad/",
         "titular": "Identifican a adolescente de 17 años hallada muerta en puente de La Prosperidad - Diario La Libertad.",
         "nota": "52a606b2347ab4b0378d671e8ba75087ffaf487b"
+      },
+      {
+        "medio": "Impacto News",
+        "url": "https://impactonews.co/el-es-inocente-esta-en-un-centro-terapeutico-madre-del-novio-de-la-adolescente-hallada-sin-vida-en-galapa/",
+        "titular": "“Él es inocente, está en un centro terapéutico”: madre del novio de la adolescente hallada sin vida en Galapa",
+        "nota": "a01e7c36cbc09e452b6e5b8fef62fccbe33ef17e"
       }
     ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "9d71b03a44e6"
-    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "d05163e681f1",
