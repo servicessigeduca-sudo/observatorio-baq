@@ -1,4 +1,9 @@
 {
+  "7 de abril|Barranquilla": {
+    "lat": 10.92803,
+    "lon": -74.81595,
+    "nombre_osm": "7 de Abril, Localidad Metropolitana, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
+  },
   "barrio prado|Barranquilla": null,
   "buenos aires|Barranquilla": {
     "lat": 10.94081,

@@ -8,7 +8,7 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-05,Barranquilla,El Bosque,hom,Arma de fuego,1,08001,08001-el-bosque
 2026-05,Soledad,Los Almendros,hom,Arma de fuego,1,08758,08758-los-almendros
 2026-06,Soledad,,hom,Sin dato,1,08758,
-2026-11,,,hom,Arma de fuego,7,,
+2026-11,,,hom,Arma de fuego,6,,
 2026-11,,,hom,Sin dato,11,,
 2026-11,,,hur,Sin dato,2,,
 2026-11,,,les,Arma de fuego,3,,
@@ -23,6 +23,7 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-11,Barranquilla,,hur,Sin dato,1,08001,
 2026-11,Barranquilla,,les,Sin dato,1,08001,
 2026-11,Barranquilla,,otr,Sin dato,1,08001,
+2026-11,Barranquilla,7 de Abril,hom,Arma de fuego,1,08001,08001-7-de-abril
 2026-11,Barranquilla,Barrio Prado,hom,Arma de fuego,1,08001,08001-el-prado
 2026-11,Barranquilla,Buenos Aires,otr,Sin dato,1,08001,08001-buenos-aires
 2026-11,Barranquilla,Chiquinquirá,les,Arma de fuego,1,08001,08001-chiquinquira
