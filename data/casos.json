@@ -3793,13 +3793,15 @@
         "nota": "3f3a89195995f215ec5b249202afae7e73e7e077"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "municipio_deducido": true,
     "varios_hechos": true,
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "municipio",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "67a55e9d3f8a",
@@ -3824,11 +3826,13 @@
         "nota": "1cd0cf40d50970a40dc4c6f7f5103f1580c471cd"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "municipio",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "6434c4880229",
@@ -3853,11 +3857,13 @@
         "nota": "0973ce4238472564bd996ef74be3fb649cbfc340"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": 10.9201,
     "lon": -74.81592,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "219b4bafb2f5",
@@ -3882,11 +3888,13 @@
         "nota": "60b3fd6222fa316eb4667d68ba07624c11adb899"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": 10.95276,
     "lon": -74.81664,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "21d17f3e0218",
@@ -3912,11 +3920,13 @@
         "nota": "1fed8935ae26895549c8b4cb7f162177f6abcb90"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "e1c327e0c390",
@@ -3942,12 +3952,14 @@
         "nota": "555fe31a27f178cc4bfcf3ce1f7a4547cf669cb8"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "municipio_deducido": true,
     "lat": 10.98151,
     "lon": -74.83403,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "a52c00b1d90e",
@@ -3973,11 +3985,13 @@
         "nota": "e8d6c4f911f1f94756d3895b0987aefe714614c8"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": 10.91567,
     "lon": -74.80778,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "10ce265fbfe8",
@@ -4002,11 +4016,13 @@
         "nota": "3d57b605c878f973f9ce2ee2f8f858d012730622"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "708c9fee0716",
@@ -4031,12 +4047,14 @@
         "nota": "a3eecb621bbee2c10b89d191dd4a895bc7ccab72"
       }
     ],
-    "estado": "pendiente",
+    "estado": "descartado",
     "posible_duplicado_de": [],
     "municipio_deducido": true,
     "lat": 10.95972,
     "lon": -74.82444,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "ee9b89628226",
@@ -4094,12 +4112,14 @@
         "nota": "46132f2395ee37a1d612ecfe949b2374b7509e2d"
       }
     ],
-    "estado": "posible_duplicado",
+    "estado": "descartado",
     "posible_duplicado_de": [
       "ee9b89628226"
     ],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "municipio",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   }
 ]
