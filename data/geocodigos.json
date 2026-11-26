@@ -47,6 +47,11 @@
     "lon": -74.80722,
     "nombre_osm": "El Manantial, Barrio El Manantial, Soledad, Atlántico, RAP Caribe, 083010, Colombia"
   },
+  "el parque|Soledad": {
+    "lat": 10.93202,
+    "lon": -74.77603,
+    "nombre_osm": "Parque El Tucán, 37, El Tucan, Soledad, Atlántico, RAP Caribe, Colombia"
+  },
   "el prado|Barranquilla": {
     "lat": 10.9978,
     "lon": -74.79687,
@@ -68,10 +73,20 @@
     "nombre_osm": "Evaristo Sourdis, Localidad Suroccidente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
   },
   "industrial via 40|Barranquilla": null,
+  "la chinita|Barranquilla": {
+    "lat": 10.95193,
+    "lon": -74.77085,
+    "nombre_osm": "La Chinita, Localidad Suroriente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
+  },
   "la esmeralda|Barranquilla": {
     "lat": 10.96722,
     "lon": -74.81923,
     "nombre_osm": "La Esmeralda, Localidad Suroccidente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
+  },
+  "la luz|Barranquilla": {
+    "lat": 10.95844,
+    "lon": -74.77094,
+    "nombre_osm": "La Luz, Localidad Suroriente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
   },
   "la sierrita|Barranquilla": {
     "lat": 10.94771,
@@ -167,6 +182,11 @@
     "lat": 10.93227,
     "lon": -74.82409,
     "nombre_osm": "Santa María, Localidad Metropolitana, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
+  },
+  "santo domingo de guzman|Barranquilla": {
+    "lat": 10.93865,
+    "lon": -74.81985,
+    "nombre_osm": "Santo Domingo de Guzmán, Localidad Metropolitana, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Co"
   },
   "santo domingo|Barranquilla": {
     "lat": 10.97732,

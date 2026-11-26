@@ -10,14 +10,15 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-05,Soledad,Los Almendros,hom,Arma de fuego,1,08758,08758-los-almendros
 2026-06,,,hom,Sin dato,1,,
 2026-06,Soledad,,hom,Sin dato,1,08758,
-2026-11,,,ext,Sin dato,2,,
-2026-11,,,hom,Arma de fuego,6,,
-2026-11,,,hom,Sin dato,13,,
+2026-11,,,ext,Sin dato,1,,
+2026-11,,,hom,Arma de fuego,7,,
+2026-11,,,hom,Sin dato,14,,
 2026-11,,,hur,Arma de fuego,1,,
 2026-11,,,hur,Sin dato,2,,
 2026-11,,,les,Arma de fuego,3,,
-2026-11,,,les,Sin dato,3,,
-2026-11,,,otr,Sin dato,4,,
+2026-11,,,les,Sin dato,4,,
+2026-11,,,otr,Sin dato,5,,
+2026-11,,El Chamizo,hom,Sin dato,1,,
 2026-11,,La Esmeralda,hom,Arma de fuego,1,,
 2026-11,,La Esmeralda,hom,Sin dato,1,,
 2026-11,,Miraflores,hur,Arma blanca,1,,
@@ -43,6 +44,8 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-11,Barranquilla,El Valle,hom,Arma de fuego,1,08001,08001-el-valle
 2026-11,Barranquilla,Evaristo Sourdis,hom,Arma de fuego,1,08001,08001-evaristo-sourdis
 2026-11,Barranquilla,Industrial Via 40,les,Arma de fuego,1,08001,08001-industrial-via-40
+2026-11,Barranquilla,La Chinita,hom,Sin dato,1,08001,08001-la-chinita
+2026-11,Barranquilla,La Luz,hom,Arma de fuego,1,08001,08001-la-luz
 2026-11,Barranquilla,La Sierrita,hom,Arma de fuego,1,08001,08001-la-sierrita
 2026-11,Barranquilla,Las Flores,hom,Arma de fuego,1,08001,08001-las-flores
 2026-11,Barranquilla,Las Nieves,hom,Arma de fuego,3,08001,08001-las-nieves
@@ -53,12 +56,13 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-11,Barranquilla,San Roque,hom,Arma de fuego,1,08001,08001-san-roque
 2026-11,Barranquilla,Santa María,hom,Arma de fuego,1,08001,08001-santa-maria
 2026-11,Barranquilla,Santo Domingo,hom,Arma de fuego,1,08001,08001-santo-domingo-de-guzman
+2026-11,Barranquilla,Santo Domingo de Guzmán,les,Arma de fuego,1,08001,08001-santo-domingo-de-guzman
 2026-11,Barranquilla,Siete de Abril,hom,Arma de fuego,1,08001,08001-7-de-abril
 2026-11,Barranquilla,Siete de Abril,hom,Sin dato,1,08001,08001-7-de-abril
 2026-11,Barranquilla,Simón Bolívar,hom,Arma de fuego,1,08001,08001-simon-bolivar
 2026-11,Barranquilla,Torre del Pescado,hom,Arma de fuego,1,08001,
-2026-11,Galapa,,hom,Arma de fuego,1,08296,
-2026-11,Galapa,,hom,Sin dato,2,08296,
+2026-11,Galapa,,hom,Arma de fuego,2,08296,
+2026-11,Galapa,,hom,Sin dato,5,08296,
 2026-11,Malambo,,ext,Sin dato,1,08433,
 2026-11,Malambo,Mesolandia,ext,Arma de fuego,1,08433,08433-mesolandia
 2026-11,Puerto Colombia,,les,Arma de fuego,1,08573,
@@ -68,6 +72,7 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-11,Soledad,,otr,Sin dato,2,08758,
 2026-11,Soledad,Ciudad Paraíso,hom,Arma de fuego,2,08758,08758-ciudad-paraiso
 2026-11,Soledad,El Manantial,hom,Arma de fuego,1,08758,08758-el-manantial
+2026-11,Soledad,El Parque,ext,Sin dato,1,08758,08758-el-parque
 2026-11,Soledad,Las Nubes,hom,Arma de fuego,1,08758,08758-las-nubes
 2026-11,Soledad,Los Almendros,hom,Sin dato,1,08758,08758-los-almendros
 2026-11,Soledad,Los Loteros,hom,Arma de fuego,1,08758,08758-los-loteros
