@@ -38,8 +38,8 @@
       "lesiones"
     ],
     "fecha": "2026-11-25",
-    "municipio": null,
-    "barrio": null,
+    "municipio": "Barranquilla",
+    "barrio": "7 de Abril",
     "medios": [
       "Zona Cero"
     ],
@@ -54,11 +54,13 @@
         "nota": "e4651607364c73c512a5e6bfd419d57b91929dcf"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "b5cd899ac98a",
@@ -83,11 +85,13 @@
         "nota": "447f3c1a332585d4c7df121af1a6730193c4673c"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": 10.90189,
     "lon": -74.8113,
-    "confianza_ubicacion": "alta"
+    "confianza_ubicacion": "alta",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "ae7644d7abfc",
