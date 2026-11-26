@@ -108,3 +108,47 @@ def test_recolectar_listado_abre_solo_notas_nuevas():
     assert [n.titular for n in notas] == ["Asesinan a hombre en el barrio Rebolo"]
     assert notas[0].tipos_delito == ["homicidio"] and notas[0].barrio == "Rebolo"
     assert "https://zonacero.com/judiciales/nota-vieja" not in c.sesion.pedidas
+
+
+def test_ctv_lee_varias_secciones_y_solo_abre_notas_judiciales():
+    fuente = por_id(["ctv"])[0]
+    base = "https://ctvbarranquilla.com"
+    nota = (
+        '<meta property="og:title" content="Disparan contra vivienda de una funcionaria del INPEC">'
+        '<meta property="article:published_time" content="2026-11-25T11:12:00-05:00">'
+    )
+    paginas = {
+        base + "/robots.txt": Resp("User-agent: *\nAllow: /\n"),
+        # La sección Judiciales quedó congelada: solo trae notas ya guardadas.
+        base + "/category/judiciales": Resp('<a href="/article/nota-vieja">Asesinan a hombre</a>'),
+        base + "/category/barranquilla": Resp(
+            '<a href="/article/disparan-contra-vivienda"><img alt="">Barranquilla '
+            "Disparan contra vivienda de una funcionaria del INPEC Un ataque armado</a>"
+            '<a href="/article/avianca-ruta">Barranquilla Avianca abre ruta a Nueva York</a>'
+        ),
+        base + "/category/atlantico": Resp(
+            '<a href="/article/sicario-persiguio">Sicario persiguió a dos hombres y los asesinó a bala</a>'
+            '<a href="/article/disparan-contra-vivienda">repetida</a>'
+        ),
+        base + "/article/disparan-contra-vivienda": Resp(nota),
+        base + "/article/sicario-persiguio": Resp(nota),
+    }
+    c, _ = cliente(paginas)
+    vieja = Nota(medio=fuente.nombre, url=base + "/article/nota-vieja", titular="", fecha_publicacion=None)
+    notas = recolectar(fuente, c, {vieja.id})
+    assert [n.url for n in notas] == [base + "/article/disparan-contra-vivienda", base + "/article/sicario-persiguio"]
+    assert base + "/article/avianca-ruta" not in c.sesion.pedidas
+    assert base + "/article/nota-vieja" not in c.sesion.pedidas
+
+
+def test_una_seccion_caida_no_tumba_las_demas():
+    fuente = por_id(["ctv"])[0]
+    base = "https://ctvbarranquilla.com"
+    paginas = {
+        base + "/robots.txt": Resp("User-agent: *\nAllow: /\n"),
+        base + "/category/atlantico": Resp('<a href="/article/asesinan-hombre">Asesinan a hombre en Soledad</a>'),
+        base + "/article/asesinan-hombre": Resp('<meta property="og:title" content="Asesinan a hombre en Soledad">'),
+    }
+    c, _ = cliente(paginas)
+    notas = recolectar(fuente, c, set())
+    assert [n.titular for n in notas] == ["Asesinan a hombre en Soledad"]

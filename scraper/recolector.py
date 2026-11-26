@@ -33,25 +33,28 @@ def _nota(fuente: Fuente, datos: dict, ahora: str) -> Nota:
 def recolectar(fuente: Fuente, cliente: Cliente, conocidas: set[str]) -> list[Nota]:
     """`conocidas` son los ids ya guardados: esas notas no se vuelven a abrir."""
     ahora = datetime.now(BOGOTA).isoformat(timespec="seconds")
-    try:
-        r = cliente.get(fuente.url, pausa=fuente.pausa)
-    except BloqueadoPorRobots:
-        log.warning("%s: robots.txt no permite %s; se omite", fuente.id, fuente.url)
-        return []
-    except requests.RequestException as e:
-        log.warning("%s: error al leer %s: %s", fuente.id, fuente.url, e)
-        return []
-
     if fuente.tipo == "rss":
+        r = _leer(fuente, fuente.url, cliente)
+        if r is None:
+            return []
         notas = [_nota(fuente, d, ahora) for d in leer_rss(r.content, fuente)]
         return [n for n in notas if n.id not in conocidas]
 
+    # Listado: se juntan las secciones en orden, sin repetir notas.
+    urls: dict[str, str] = {}
+    for listado in fuente.listados:
+        r = _leer(fuente, listado, cliente)
+        if r is None:
+            continue
+        for url in leer_listado(r.text, fuente):
+            candidata = Nota(medio=fuente.nombre, url=url, titular="", fecha_publicacion=None)
+            urls.setdefault(candidata.id, url)
+
     notas: list[Nota] = []
-    for url in leer_listado(r.text, fuente):
+    for id_, url in urls.items():
         if len(notas) >= fuente.max_notas:
             break
-        candidata = Nota(medio=fuente.nombre, url=url, titular="", fecha_publicacion=None)
-        if candidata.id in conocidas:
+        if id_ in conocidas:
             continue
         try:
             rn = cliente.get(url, pausa=fuente.pausa)
@@ -62,3 +65,13 @@ def recolectar(fuente: Fuente, cliente: Cliente, conocidas: set[str]) -> list[No
             continue
         notas.append(_nota(fuente, leer_nota(rn.text, url), ahora))
     return notas
+
+
+def _leer(fuente: Fuente, url: str, cliente: Cliente) -> requests.Response | None:
+    try:
+        return cliente.get(url, pausa=fuente.pausa)
+    except BloqueadoPorRobots:
+        log.warning("%s: robots.txt no permite %s; se omite", fuente.id, url)
+    except requests.RequestException as e:
+        log.warning("%s: error al leer %s: %s", fuente.id, url, e)
+    return None

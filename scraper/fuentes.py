@@ -27,6 +27,15 @@ class Fuente:
     patron_nota: str = ""
     # Máximo de notas nuevas a abrir por corrida.
     max_notas: int = 30
+    # Listado HTML: otras secciones que también se leen, después de `url`.
+    urls_extra: tuple[str, ...] = ()
+    # Listado HTML: solo abrir enlaces cuyo texto (titular y entradilla del
+    # listado) parece una nota judicial. Para secciones generales.
+    filtro_judicial: bool = False
+
+    @property
+    def listados(self) -> tuple[str, ...]:
+        return (self.url, *self.urls_extra)
 
     def es_nota(self, url: str) -> bool:
         return bool(self.patron_nota) and re.match(self.patron_nota, url) is not None
@@ -71,6 +80,13 @@ FUENTES: list[Fuente] = [
         nombre="CTV Barranquilla",
         tipo="listado",
         url="https://ctvbarranquilla.com/category/judiciales",
+        # Desde junio de 2026 CTV no marca las notas nuevas como «Judiciales»:
+        # salen en Barranquilla y Atlántico junto con el resto de noticias.
+        urls_extra=(
+            "https://ctvbarranquilla.com/category/barranquilla",
+            "https://ctvbarranquilla.com/category/atlantico",
+        ),
+        filtro_judicial=True,
         prioridad=3,
         patron_nota=r"^https?://(www\.)?ctvbarranquilla\.com/article/[^/?#]+/?$",
     ),
