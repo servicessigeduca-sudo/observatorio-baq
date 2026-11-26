@@ -6,8 +6,8 @@
       "lesiones"
     ],
     "fecha": "2026-11-25",
-    "municipio": null,
-    "barrio": null,
+    "municipio": "Barranquilla",
+    "barrio": "Ciudad Caribe",
     "medios": [
       "Zona Cero"
     ],
@@ -22,11 +22,13 @@
         "nota": "a537b33465610355d32d6dd52455a7a5c8919208"
       }
     ],
-    "estado": "pendiente",
+    "estado": "publicado",
     "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "f5085344cfd7",
@@ -177,38 +179,6 @@
     "confianza_ubicacion": "municipio"
   },
   {
-    "caso_id": "83931b44c997",
-    "tipo": "homicidio",
-    "tipos": [
-      "homicidio",
-      "desaparicion"
-    ],
-    "fecha": "2026-11-25",
-    "municipio": "Galapa",
-    "barrio": null,
-    "medios": [
-      "Emisora Atlántico"
-    ],
-    "notas": [
-      "d15256e5a6a09dcf9ba6ed5ee32a5cb8ce17300e"
-    ],
-    "fuentes": [
-      {
-        "medio": "Emisora Atlántico",
-        "url": "https://emisoraatlantico.com.co/judiciales/hallan-cadaver-de-hombre-desaparecido-en-una-vereda-de-galapa-tenia-12-dias-de-haber-salido-de-prision/",
-        "titular": "Hallan cadáver de hombre desaparecido en una vereda de Galapa: tenía 12 días de haber salido de prisión",
-        "nota": "d15256e5a6a09dcf9ba6ed5ee32a5cb8ce17300e"
-      }
-    ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "53c2596bc473"
-    ],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio"
-  },
-  {
     "caso_id": "69397325dfe3",
     "tipo": "lesiones",
     "tipos": [
@@ -272,15 +242,18 @@
     "tipo": "homicidio",
     "tipos": [
       "homicidio",
-      "lesiones"
+      "lesiones",
+      "desaparicion"
     ],
     "fecha": "2026-11-25",
     "municipio": "Galapa",
     "barrio": null,
     "medios": [
+      "Emisora Atlántico",
       "Zona Cero"
     ],
     "notas": [
+      "d15256e5a6a09dcf9ba6ed5ee32a5cb8ce17300e",
       "f72c084d92f1f8d482e79d748ccbf771be525489"
     ],
     "fuentes": [
@@ -289,15 +262,21 @@
         "url": "https://zonacero.com/judiciales/12-dias-despues-de-salir-de-prision-hombre-fue-hallado-sin-vida-en-galapa",
         "titular": "12 días después de salir de prisión, hombre fue hallado sin vida en Galapa",
         "nota": "f72c084d92f1f8d482e79d748ccbf771be525489"
+      },
+      {
+        "medio": "Emisora Atlántico",
+        "url": "https://emisoraatlantico.com.co/judiciales/hallan-cadaver-de-hombre-desaparecido-en-una-vereda-de-galapa-tenia-12-dias-de-haber-salido-de-prision/",
+        "titular": "Hallan cadáver de hombre desaparecido en una vereda de Galapa: tenía 12 días de haber salido de prisión",
+        "nota": "d15256e5a6a09dcf9ba6ed5ee32a5cb8ce17300e"
       }
     ],
-    "estado": "posible_duplicado",
-    "posible_duplicado_de": [
-      "83931b44c997"
-    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio"
+    "confianza_ubicacion": "municipio",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "35d95fa41622",
@@ -542,13 +521,15 @@
         "nota": "379a6df6c0cd9c7f95f75175e7ddc6d3a5055f83"
       }
     ],
-    "estado": "posible_duplicado",
+    "estado": "descartado",
     "posible_duplicado_de": [
       "1739406c4d47"
     ],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "f211a0f92688",
@@ -661,14 +642,16 @@
         "nota": "ab0fc8be23ef94f10f50de4f42de3b527cae9b01"
       }
     ],
-    "estado": "posible_duplicado",
+    "estado": "descartado",
     "posible_duplicado_de": [
       "149226c3a482",
       "1739406c4d47"
     ],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "8456ef8858e1",
@@ -752,13 +735,15 @@
         "nota": "a265888d2a523cb67fdcf035d42e562d9b307cd4"
       }
     ],
-    "estado": "posible_duplicado",
+    "estado": "descartado",
     "posible_duplicado_de": [
       "bf6fba482416"
     ],
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja"
+    "confianza_ubicacion": "baja",
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26"
   },
   {
     "caso_id": "27646e0ea1b9",
