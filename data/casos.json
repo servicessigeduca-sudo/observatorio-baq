@@ -207,11 +207,11 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": 10.93865,
     "lon": -74.81985,
-    "confianza_ubicacion": "alta",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "57212132526f",
@@ -338,11 +338,11 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": 10.95844,
     "lon": -74.77094,
-    "confianza_ubicacion": "alta",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "13802b6b798b",
@@ -369,11 +369,11 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "b27de7cba547",
@@ -400,11 +400,11 @@
     ],
     "estado": "descartado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "88e7a1a208a9",
@@ -439,11 +439,11 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": 10.92845,
     "lon": -74.80582,
-    "confianza_ubicacion": "alta",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "7a391c59675b",
@@ -470,11 +470,11 @@
     ],
     "estado": "descartado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "municipio",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "56b2697686bf",
@@ -510,11 +510,11 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": 10.9048,
     "lon": -74.80722,
-    "confianza_ubicacion": "alta",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "f2af90d69301",
@@ -574,11 +574,11 @@
     ],
     "estado": "descartado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "b1ca293e4f8a",
@@ -605,11 +605,11 @@
     ],
     "estado": "descartado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "9a59101fddee",
@@ -637,11 +637,11 @@
     ],
     "estado": "descartado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "86172f584098",
@@ -702,11 +702,11 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
-    "lat": null,
-    "lon": null,
-    "confianza_ubicacion": "municipio",
     "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "revisado_en": "2026-11-26",
+    "lat": 11.01094,
+    "lon": -74.81134,
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "6fa80fa041ad",
@@ -733,11 +733,11 @@
     ],
     "estado": "descartado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "2e0a1039c52f",
@@ -798,11 +798,11 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": 10.90128,
     "lon": -74.80352,
-    "confianza_ubicacion": "alta",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "f8a035a6f144",
@@ -958,11 +958,11 @@
     ],
     "estado": "descartado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "baja"
   },
   {
     "caso_id": "1c719a34b134",
@@ -1030,6 +1030,7 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [
+      "f3de656f2168",
       "f2af90d69301",
       "86172f584098"
     ],
@@ -1299,11 +1300,11 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": 10.976,
     "lon": -74.78683,
-    "confianza_ubicacion": "alta",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "ba4d7e44dce3",
@@ -1338,11 +1339,11 @@
     ],
     "estado": "publicado",
     "posible_duplicado_de": [],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": 10.91014,
     "lon": -74.78263,
-    "confianza_ubicacion": "alta",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "alta"
   },
   {
     "caso_id": "d387a9c612b4",
@@ -1602,7 +1603,7 @@
       "homicidio"
     ],
     "fecha": "2026-11-18",
-    "municipio": null,
+    "municipio": "Galapa",
     "barrio": null,
     "medios": [
       "Diario La Libertad",
@@ -1634,13 +1635,15 @@
         "nota": "a01e7c36cbc09e452b6e5b8fef62fccbe33ef17e"
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "1739406c4d47"
+    ],
+    "revisado_por": "servicessigeduca-sudo",
+    "revisado_en": "2026-11-26",
     "lat": null,
     "lon": null,
-    "confianza_ubicacion": "baja",
-    "revisado_por": "servicessigeduca-sudo",
-    "revisado_en": "2026-11-26"
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "d05163e681f1",
