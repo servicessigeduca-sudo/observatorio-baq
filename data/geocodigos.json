@@ -15,6 +15,11 @@
     "lon": -74.79921,
     "nombre_osm": "Buenos Aires, Localidad Metropolitana, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
   },
+  "centro|Soledad": {
+    "lat": 10.90611,
+    "lon": -74.77269,
+    "nombre_osm": "Centro Comercial - Carnaval, Soledad, Atlántico, RAP Caribe, Colombia"
+  },
   "chiquinquira|Barranquilla": {
     "lat": 10.976,
     "lon": -74.78683,
@@ -137,6 +142,11 @@
     "lat": 10.9201,
     "lon": -74.81592,
     "nombre_osm": "Los Almendros, Soledad, Atlántico, RAP Caribe, Colombia"
+  },
+  "los angeles i|Barranquilla": {
+    "lat": 10.97172,
+    "lon": -74.8434,
+    "nombre_osm": "Los Ángeles I, Localidad Suroccidente, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, Colombia"
   },
   "los cedros|Soledad": {
     "lat": 10.91567,
