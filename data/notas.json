@@ -1,6 +1,632 @@
 [
   {
     "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/comisiones-economicas-del-congreso-sesionan-hoy-en-barranquilla-en-audiencia-publica-sobre-la-ley-de-rescate-economico/",
+    "titular": "Comisiones económicas del Congreso sesionan hoy en Barranquilla en audiencia pública sobre la Ley de Rescate Económico - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T06:14:54-05:00",
+    "resumen": "La jornada se realiza desde las 9:00 de la mañana en el Hotel Crowne Plaza, tras las sesiones cumplidas en Bogotá y Cali, con participación de gremios,",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a896be29dce0a45876a501dfeb98fa3fd0d75a6d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/autoridades-frustran-atentado-terrorista-en-el-meta-dos-personas-fueron-capturadas/",
+    "titular": "Autoridades frustran atentado terrorista en el Meta: dos personas fueron capturadas - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T06:04:56-05:00",
+    "resumen": "El resultado fue anunciado tras la activación del Bloque de Búsqueda y la reciente visita de las autoridades a Villavicencio, donde se adelantan acciones para",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "captura",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7417a25f2b629c45d810368479b7fc82770a8328"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/jailer-muneton-habia-denunciado-una-crisis-economica-antes-de-morir-en-el-exito-de-cartagena/",
+    "titular": "Jailer Muñetón había denunciado una crisis económica antes de morir en el Éxito de Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T22:14:00-05:00",
+    "resumen": "En una entrevista concedida en febrero de 2025 a El Universal, el hombre de 51 años relató que llevaba años pagando un crédito hipotecario por un apartamento",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b85a7917a49ebe69d72e90f35179367dfaa1545f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/dron-cargado-de-explosivos-mato-a-auxiliar-de-policia-en-condoto-choco/",
+    "titular": "Dron cargado de explosivos mató a auxiliar de Policía en Condoto, Chocó - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T22:10:46-05:00",
+    "resumen": "Un nuevo ataque contra la Fuerza Pública sacudió al departamento del Chocó. El auxiliar de Policía Juan Alcides Murillo Palomino perdió la vida este jueves 26",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "0528f255da16e6812fa084f9e9397f0dfd660deb"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/uribismo-lleva-a-la-fiscalia-a-nueve-cuentas-por-ataques-contra-paloma-valencia/",
+    "titular": "Uribismo lleva a la Fiscalía a nueve cuentas por ataques contra Paloma Valencia - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T22:06:11-05:00",
+    "resumen": "La confrontación entre el uribismo y sectores identificados con el abelardismo sumó un nuevo capítulo. El Centro Democrático y Paloma Valencia anunciaron",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "bea6278144a08547a965f73897c1dedec1682c2a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/pitalito-denuncia-posibles-irregularidades-en-obras-y-falta-de-medicos-los-fines-de-semana/",
+    "titular": "Pitalito denuncia posibles irregularidades en obras y falta de médicos los fines de semana - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T21:53:11-05:00",
+    "resumen": "Dos preocupaciones relacionadas con la infraestructura y la prestación de servicios públicos encendieron las alarmas entre habitantes del corregimiento de",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3a1512a17ee132ada358b8140ffd367ef434e097"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/a-la-carcel-por-presunta-violencia-contra-su-expareja-en-villavicencio/",
+    "titular": "A la cárcel por presunta violencia contra su expareja en Villavicencio - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T21:09:59-05:00",
+    "resumen": "Un juez de control de garantías impuso medida de aseguramiento en centro carcelario contra Álvaro Livi Moreno Beltrán, de 30 años, investigado por presuntos",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "5040ca9bb189775d851a85ac54c16e67f94de4bd"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/cita-termino-en-captura-joven-habria-hurtado-joyas-a-turista-en-un-hotel/",
+    "titular": "Cita terminó en captura: joven habría hurtado joyas a turista en un hotel - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T21:05:02-05:00",
+    "resumen": "Una mujer de 21 años fue retenida por personal de seguridad cuando presuntamente intentaba abandonar el establecimiento con una cadena de oro y dos relojes,",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f4684ef7c53133a5a7af7e8084f2d5453ae79f5a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/salio-tras-recibir-una-llamada-y-lo-encontraron-muerto-en-santa-marta/",
+    "titular": "Salió tras recibir una llamada y lo encontraron muerto en Santa Marta - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T21:00:01-05:00",
+    "resumen": "Jhan José Cristo Ospino, de 25 años, fue hallado con varios impactos de bala en una trocha del sector de Altos de Don Jaca. Las autoridades investigan las",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b46be982f63443ab21c68e9a3cb7f8a810c29178"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/balacera-entre-policias-y-presuntos-delincuentes-causo-panico-en-soledad/",
+    "titular": "Balacera entre policías y presuntos delincuentes causó pánico en Soledad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T20:45:32-05:00",
+    "resumen": "Momentos de tensión y temor vivieron los habitantes del barrio Villa Sol, en Soledad, Atlántico, durante la mañana de este jueves, luego de que se registrara",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [],
+    "municipio": "Soledad",
+    "barrio": "Villa Sol",
+    "estado": "pendiente",
+    "id": "95bc044d72564ba8c449dee319ec2beb89cefcad"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/sic-pone-la-lupa-sobre-contratos-por-119-000-millones-en-barrancabermeja/",
+    "titular": "SIC pone la lupa sobre contratos por $119.000 millones en Barrancabermeja - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T20:38:42-05:00",
+    "resumen": "La administración de los recursos públicos en Barrancabermeja, Santander, quedó bajo revisión de la Superintendencia de Industria y Comercio (SIC), que",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8f516cce59e161ff5c284a12c19af559dc670514"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/sicario-persiguio-y-asesino-a-carolay-en-cucuta/",
+    "titular": "Sicario persiguió y asesinó a Carolay en Cúcuta - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T20:30:06-05:00",
+    "resumen": "La mujer, de 34 años, fue atacada cuando se encontraba trabajando en un establecimiento comercial del barrio Trigal del Norte. Deja un pequeño hijo.",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": "Trigal",
+    "estado": "pendiente",
+    "id": "d1f6bab13918e37aa75957416ff70d9a54249e8a"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/exalcalde-de-pupiales-narino-fue-extraditado-estados-unidos-por-narcotrafico",
+    "titular": "Exalcalde de Pupiales, Nariño, fue extraditado a Estados Unidos por narcotráfico",
+    "fecha_publicacion": "2026-11-26T17:32:00-05:00",
+    "resumen": "Wylton Oleyder Belalcázar tomó posesión del cargo el 1o. de enero de 2024, pero en junio de 2025 fue capturado en Ipiales, Nariño.",
+    "fecha_captura": "2026-11-27T06:48:47-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "79a3b90c726e2d9270a7717254abf55ad812e2b6"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/se-conocen-primeros-videos-del-momento-en-que-hombres-armados-y-encapuchados-se-tomaron-el-exito-en-cartagena/",
+    "titular": "Se conocen primeros videos del momento en que hombres armados y encapuchados se tomaron el Éxito en Cartagena",
+    "fecha_publicacion": "2026-11-26T17:09:37-05:00",
+    "resumen": "Los primeros en ser abordados fueron los empleados de bodega. En el video se logra observar a tres delincuentes, los cuales estaban vestidos con uniformes tácticos de color negro. Las primeras imágenes de las cámaras de seguridad del almacén Éxito de La Castellana, en Cartagena, revelan con…",
+    "fecha_captura": "2026-11-27T06:54:53-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "518210689e176218ef4726d49894230287345690"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/kevin-torres-el-policia-barranquillero-asesinado-en-una-emboscada-en-cauca/",
+    "titular": "Kevin Torres, el policía barranquillero asesinado en una emboscada en Cauca - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T16:47:12-05:00",
+    "resumen": "La violencia contra la fuerza pública cobró la vida de otro joven uniformado. Kevin David Torres Berdugo, un barranquillero de apenas 22 años, fue uno de los",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2bc783c160ebcef98adeee4cf564f147eebbe16b"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/tres-hermanos-wayuu-de-13-10-y-8-anos-murieron-por-inmersion-en-un-jaguey-de-la-guajira/",
+    "titular": "Tres hermanos wayuu de 13, 10 y 8 años murieron por inmersión en un jagüey de La Guajira",
+    "fecha_publicacion": "2026-11-26T16:26:19-05:00",
+    "resumen": "Las dos niñas y un niño habrían decidido meterse al cuerpo de agua para refrescarse. Un gran tragedia golpeó a una familia de la comunidad indígena wayuu de Ishorshimana hace algunas horas. Tres hermanos, todos menores de edad, perdieron la vida ahogados en un jagüey o represa situada a corta…",
+    "fecha_captura": "2026-11-27T06:54:53-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "fa9b193cb9ad086c59897315124d231a10df3055"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/nuevas-imagenes-del-momento-en-que-los-secuestradores-ingresan-al-exito-cartagena",
+    "titular": "Nuevas imágenes del momento en que los secuestradores ingresan al Éxito Cartagena",
+    "fecha_publicacion": "2026-11-26T16:04:00-05:00",
+    "resumen": "Varios trabajadores fueron obligados a colocarse de rodillas.",
+    "fecha_captura": "2026-11-27T06:48:47-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7e3cfb0726e163da376b5eadc35d511735fcf995"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/un-auxiliar-de-policia-muerto-en-ataque-con-drones-estacion-de-condoto-choco",
+    "titular": "Un auxiliar de policía muerto en ataque con drones a estación de Condoto, Chocó",
+    "fecha_publicacion": "2026-11-26T16:01:00-05:00",
+    "resumen": "Los hechos se presentaron en la mañana de este jueves.",
+    "fecha_captura": "2026-11-27T06:48:47-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e58a453df1a71114306906def73ff9e9795433c3"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/buscan-adolescente-desaparecida-desde-el-domingo-22-de-noviembre",
+    "titular": "Buscan a adolescente desaparecida desde el domingo 22 de noviembre",
+    "fecha_publicacion": "2026-11-26T15:53:00-05:00",
+    "resumen": "Desapareció después de salir de su vivienda en el barrio Los Ángeles I.",
+    "fecha_captura": "2026-11-27T06:48:47-05:00",
+    "tipos_delito": [
+      "desaparicion"
+    ],
+    "municipio": null,
+    "barrio": "Los Ángeles I",
+    "estado": "pendiente",
+    "id": "c023f0281f7b2c41bf4060ca913352ac6b78bb85"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/me-dijo-bienvenido-a-la-patria-milagro-rehen-denuncia-haber-sido-senalado-como-secuestrador-por-de-la-espriella/",
+    "titular": "“Me dijo ‘Bienvenido a la patria milagro'”: rehén denuncia haber sido señalado como secuestrador por De la Espriella",
+    "fecha_publicacion": "2026-11-26T15:52:08-05:00",
+    "resumen": "El hombre, oriundo de Medellín e ingeniero, indicó que estuvo esposado algunos minutos tras ser señalado por el presidente como uno de los secuestradores; pero rápidamente pudo demostrar su inocencia. Daniel Díaz Acevedo, un ingeniero industrial de Medellín que trabaja en el área comercial de la…",
+    "fecha_captura": "2026-11-27T06:54:53-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "96d5959634a03adfca0e241574b322b54a5feb9c"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/rehen-del-exito-de-cartagena-denuncia-que-fue-confundido-con-uno-de-los-secuestradores/",
+    "titular": "Rehén del Éxito de Cartagena denuncia que fue confundido con uno de los secuestradores - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T15:09:09-05:00",
+    "resumen": "Mientras avanzan las investigaciones, el testimonio de Carlos Tapia aporta otro elemento a un caso que todavía tiene varios puntos por esclarecer: un rehén",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8d109cfc4ddf019d1066bb7cb3714b3fa6913aaf"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/barranquillero-de-22-anos-entre-los-policias-asesinados-en-emboscada-en-el-cauca/",
+    "titular": "Barranquillero de 22 años, entre los policías asesinados en emboscada en el Cauca - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T14:55:42-05:00",
+    "resumen": "La violencia que golpeó este miércoles al norte del Cauca también enluta a una familia barranquillera. Entre los dos patrulleros de la Policía asesinados",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "45cc9dfd7bcb068f3b6b9c1d8442aa285e5d8f34"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/las-dudas-que-rodean-la-muerte-de-jailer-muneton-en-el-operativo-del-exito-de-cartagena/",
+    "titular": "Las dudas que rodean la muerte de Jailer Muñetón en el operativo del Éxito de Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T14:01:09-05:00",
+    "resumen": "La muerte de Jailer Humberto Muñetón Zapata, de 51 años, se convirtió en uno de los puntos más controvertidos del operativo realizado en el almacén Éxito de",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "71976c0e108ea2bda989839671f7dcb528c252df"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/asesinan-a-funcionario-de-la-fiscalia-cuando-se-dirigia-a-su-trabajo-en-cauca/",
+    "titular": "Asesinan a funcionario de la Fiscalía cuando se dirigía a su trabajo en Cauca - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T13:36:34-05:00",
+    "resumen": "Harold Fernand Chicaiza Bolaños, asistente de fiscal de la Dirección Seccional Cauca, fue atacado con arma de fuego en el municipio de Balboa. Las autoridades",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "92627c38eff41d6b234ba3d3b75f4cf6eaa8d9c3"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/uno-de-los-policias-muertos-en-ataque-en-el-cauca-era-barranquillero",
+    "titular": "Uno de los policías muertos en ataque en el Cauca era barranquillero",
+    "fecha_publicacion": "2026-11-26T13:32:00-05:00",
+    "resumen": "El uniformado se había graduado el año pasado en la Escuela de Policía Antonio Nariño, en Soledad.",
+    "fecha_captura": "2026-11-27T06:48:47-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a0ca44cbccc33264eaa4c21b9b039702e1d545a5"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/fiscalia-imputa-nuevos-cargos-a-exgobernador-de-arauca-por-millonario-contrato-de-planta-avicola/",
+    "titular": "Fiscalía imputa nuevos cargos a exgobernador de Arauca por millonario contrato de planta avícola - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T13:28:09-05:00",
+    "resumen": "La Fiscalía General de la Nación formuló nuevos cargos contra el exgobernador de Arauca José Facundo Castillo Cisneros, dentro de una investigación",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1d39959f35ad7a2efcbf391a6fac2fe61b156b55"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/el-presidente-llega-y-me-dice-bienvenido-la-patria-milagro-y-nos-acusan-injustamente",
+    "titular": "\"El Presidente llega y me dice bienvenido a la Patria Milagro y nos acusan injustamente\"",
+    "fecha_publicacion": "2026-11-26T12:19:00-05:00",
+    "resumen": "Junto a otro hombre luego que la Fuerza Pública tomara las instalaciones del Éxito Cartagena.",
+    "fecha_captura": "2026-11-27T06:48:47-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "c9b99c1240e7df48b002cd0547eea00653a1ff8f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/lo-mandaron-como-carne-de-canon-padre-de-policia-barranquillero-asesinado-en-cauca/",
+    "titular": "“Lo mandaron como carne de cañón”: padre de policía barranquillero asesinado en Cauca - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T11:39:23-05:00",
+    "resumen": "La muerte del patrullero Kevin David Torres Berdugo, de 22 años, durante un ataque armado contra una unidad de la Policía en Padilla, norte del Cauca, dejó de",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2394772c9faf8ba8b3a673d4b78fe7fcd6d7f4f4"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/desaparecida-menor-en-barranquilla/",
+    "titular": "Desaparecida menor en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T11:18:55-05:00",
+    "resumen": "La menor habría salido de su vivienda para realizar una diligencia y desde entonces sus familiares desconocen su paradero. Sus allegados piden ayuda de la",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "desaparicion"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "fff1fc787822d8d56d23eef27c97fc2d29fe7d0c"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/las-victimas-les-daba-poquito-y-los-secuestradores-full-relato-del-rehen-obligado-servir",
+    "titular": "\"A las víctimas les daba 'poquito' y a los secuestradores ‘full’\": relato del rehén obligado a servir tragos",
+    "fecha_publicacion": "2026-11-26T11:01:45-05:00",
+    "resumen": "Denunció maltrato por parte de la Fuerza Pública, que lo \"trataron\" como un secuestrador y que se le perdió una pulsera de oro\".",
+    "fecha_captura": "2026-11-27T06:48:47-05:00",
+    "tipos_delito": [
+      "secuestro",
+      "violencia_intrafamiliar"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ff8211ad56bafd78272f21dd6f8ef92fbe9e29f0"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/mujer-habria-fallecido-de-un-infarto-mientras-caminada-por-el-barrio-el-prado",
+    "titular": "Mujer habría fallecido de un infarto mientras caminada por el barrio El Prado",
+    "fecha_publicacion": "2026-11-26T10:52:00-05:00",
+    "resumen": "La mujer fue cubierta con una manta azul.",
+    "fecha_captura": "2026-11-27T06:48:47-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": "El Prado",
+    "estado": "pendiente",
+    "id": "e261502fd0f1d93dee5fb0b74f8ceb2c1d6f3b08"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/uno-de-los-capturados-por-secuestro-en-exito-se-quedo-dormido-y-el-otro-se-reia-durante",
+    "titular": "Uno de los capturados por secuestro en Éxito se quedó dormido y el otro se reía durante la audiencia",
+    "fecha_publicacion": "2026-11-26T10:38:00-05:00",
+    "resumen": "La jueza les llamó la atención y les pidió compostura.",
+    "fecha_captura": "2026-11-27T06:48:47-05:00",
+    "tipos_delito": [
+      "captura",
+      "secuestro"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "8d3e61a40a811aebcb450e501cf3303baaf59be1"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/tragedia-en-el-barrio-el-prado-mujer-murio-mientras-caminaba-por-un-anden-en-barranquilla/",
+    "titular": "Tragedia en el barrio El Prado: mujer murió mientras caminaba por un andén en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T10:04:44-05:00",
+    "resumen": "Una mujer de 38 años perdió la vida la mañana de este jueves 26 de noviembre mientras caminaba por un andén del barrio El Prado, en el norte de Barranquilla.",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "El Prado",
+    "estado": "pendiente",
+    "id": "d8e5be2d767523b02cf536bd7cca232ef4e87536"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/alerta-por-red-que-vendia-productos-esteticos-falsos-incautan-240-dosis-de-colageno/",
+    "titular": "Alerta por red que vendía productos estéticos falsos: incautan 240 dosis de colágeno - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T09:39:52-05:00",
+    "resumen": "Una investigación de la Fiscalía General de la Nación permitió identificar y capturar a tres mujeres señaladas de integrar una presunta red familiar dedicada",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "baf11383b20d5f653e4abe0d7d5282e032c4e232"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/caso-exito-cartagena-armas-traumaticas-incautadas-seran-sometidas-analisis-de-balistica",
+    "titular": "Caso Éxito Cartagena: armas traumáticas incautadas serán sometidas a análisis de balística",
+    "fecha_publicacion": "2026-11-26T09:35:05-05:00",
+    "resumen": "Los antisociales, según la Fiscalía, les pusieron explosivos simulados a los secuestrados.",
+    "fecha_captura": "2026-11-27T06:48:47-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "cdb07658557780e0da01facec1e141bc9ac98174"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/judicializan-a-dos-hombres-por-el-secuestro-de-87-personas-en-el-exito-de-cartagena/",
+    "titular": "Judicializan a dos hombres por el secuestro de 87 personas en el Éxito de Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T09:32:42-05:00",
+    "resumen": "Dos hombres señalados de participar en el secuestro de 87 personas dentro de un supermercado de cadena en Cartagena fueron judicializados por la Fiscalía",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "captura",
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f9b60fdf599bb86712b1f8cf9dbb7746767d1edc"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/sicarios-en-moto-asesinaron-un-hombre-mientras-respondia-una-llamada-telefonica",
+    "titular": "Sicarios en moto asesinaron a un hombre mientras respondía una llamada telefónica",
+    "fecha_publicacion": "2026-11-26T08:44:00-05:00",
+    "resumen": "En el barrio Centro de Soledad.",
+    "fecha_captura": "2026-11-27T06:48:47-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "Centro",
+    "estado": "pendiente",
+    "id": "360cf30043055811e554414a75ff7b4a22a8e4a6"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/por-falta-de-respeto-la-plenaria-camara-expulso-al-representante-alfredo-mondragon",
+    "titular": "Por \"falta de respeto a la plenaria\", Cámara expulsó al representante Alfredo Mondragón",
+    "fecha_publicacion": "2026-11-26T08:29:46-05:00",
+    "resumen": "Interrumpió varias de las intervenciones de los parlamentarios.",
+    "fecha_captura": "2026-11-27T06:48:47-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "43c04edf71ea7ea615f134ab91bd4c79480b7207"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/rehen-del-exito-de-cartagena-relato-como-abatieron-al-presunto-lider-del-secuestro/",
+    "titular": "Rehén del Éxito de Cartagena relató cómo abatieron al presunto líder del secuestro - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T08:13:13-05:00",
+    "resumen": "Tapia se encontraba en el gimnasio del establecimiento cuando ingresó la fuerza pública. Por estar cerca del hombre señalado como líder del grupo, fue tratado",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "afd4db30d7f0379453c37896a5e559d855ff7f82"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/rescatan-a-hombre-que-llevaba-76-dias-secuestrado-por-presuntos-integrantes-del-eln/",
+    "titular": "Rescatan a hombre que llevaba 76 días secuestrado por presuntos integrantes del ELN - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T07:51:50-05:00",
+    "resumen": "Un hombre que permanecía secuestrado desde hacía 76 días fue rescatado durante una operación conjunta del Ejército Nacional y la Policía en el municipio de",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "secuestro"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "374707c8c354c05710d5ebb5c85ae16c23a9b12f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/esta-llevando-una-doble-vida-dumek-turbay-sobre-hombre-abatido-en-el-exito/",
+    "titular": "“Está llevando una doble vida”: Dumek Turbay sobre hombre abatido en el Éxito - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T07:28:17-05:00",
+    "resumen": "El alcalde de Cartagena, Dumek Turbay Paz, se refirió a la identidad de Jailer Humberto Muñetón Zapata, el hombre abatido por la Policía durante el operativo",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "d2bd019de06247af84630fb73a7a258f1a9fd5bb"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/familia-esper-fayad-denuncia-retaliacion-armado-tras-tercer-ataque-a-bala-contra-su-predio-en-el-norte-de-barranquilla/",
+    "titular": "Familia Esper Fayad denuncia retaliación armado tras tercer ataque a bala contra su predio en el norte de Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T07:19:43-05:00",
+    "resumen": "De acuerdo con la versión de los afectados, la noche del 25 de noviembre de 2026, varios hombres que se movilizaban en un vehículo llegaron al terreno y",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "aa6ab23e7118afc165e33b6596f6fb1e02ced71d"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/26/delincuentes-fueron-por-carro-de-valores-y-terminaron-entre-whisky-corridos-amenazas-y-capturados-exito-de-cartagena/",
+    "titular": "Delincuentes fueron por carro de valores y terminaron entre whisky, corridos, amenazas y capturados: Éxito de Cartagena - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-26T06:55:39-05:00",
+    "resumen": "En su testimonio, Puello contó que los hombres consumieron distintas bebidas alcohólicas, entre ellas Sello Rojo y Old Parr. Según recordó, algunos estaban en",
+    "fecha_captura": "2026-11-27T06:49:54-05:00",
+    "tipos_delito": [
+      "captura",
+      "amenazas"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "9f9fba3527a14540b80ab9fecf599ceed726fe62"
+  },
+  {
+    "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/26/atacan-a-tiros-la-casa-de-una-dragoneante-del-inpec-en-el-sur-de-barranquilla/",
     "titular": "Atacan a tiros la casa de una dragoneante del Inpec en el sur de Barranquilla - Diario La Libertad.",
     "fecha_publicacion": "2026-11-26T06:47:42-05:00",
@@ -464,6 +1090,22 @@
     "id": "e737a6dc834acc8318b72fe32943d4d826c11e84"
   },
   {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/revelan-identidad-de-dos-de-los-capturados-por-secuestro-en-exito-cartagena-uno-es",
+    "titular": "Revelan identidad de dos de los capturados por secuestro en Éxito Cartagena: uno es antioqueño",
+    "fecha_publicacion": "2026-11-25T12:42:00-05:00",
+    "resumen": "El Presidente Abelardo De La Espriella indicó que son cuatro los capturados.",
+    "fecha_captura": "2026-11-27T06:48:47-05:00",
+    "tipos_delito": [
+      "captura",
+      "secuestro"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b6a40273329d0beb70cc059e7e53517901847d70"
+  },
+  {
     "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/25/nuevas-revelaciones-sobre-las-casi-18-horas-de-terror-en-el-exito-de-la-castellana/",
     "titular": "NUEVAS REVELACIONES SOBRE LAS CASI 18 HORAS DE TERROR EN EL ÉXITO DE LA CASTELLANA - Diario La Libertad.",
@@ -532,6 +1174,21 @@
     "barrio": null,
     "estado": "pendiente",
     "id": "3c7f163ee7e353cffa9c2f8185e9da207abbe920"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/disparan-contra-vivienda-de-una-funcionaria-del-inpec-en-barranquilla",
+    "titular": "Disparan contra vivienda de una funcionaria del INPEC en Barranquilla",
+    "fecha_publicacion": "2026-11-25T11:12:00-05:00",
+    "resumen": "Un ataque armado contra la fachada de una vivienda encendiÃ³ nuevamente las alarmas por las amenazas y hechos violentos contra trabajadores del sistema penitenciario en la ciudad.",
+    "fecha_captura": "2026-11-27T06:54:53-05:00",
+    "tipos_delito": [
+      "amenazas"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1f054d34a2704a434d390d8df633cf5b9872884a"
   },
   {
     "medio": "Diario La Libertad",
@@ -1905,6 +2562,21 @@
     "id": "a3719ded4552676d70013a64d81d1f7447cb85ac"
   },
   {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/grave-accidente-de-tr-nsito-en-villa-ol-mpica-galapa-dos-personas-resultaron-heridas",
+    "titular": "Grave accidente de trÃ¡nsito en Villa OlÃ­mpica, Galapa: dos personas resultaron heridas",
+    "fecha_publicacion": "2026-11-23T18:50:00-05:00",
+    "resumen": "Grave accidente de trÃ¡nsito en Villa OlÃ­mpica, Galapa: dos personas resultaron heridas",
+    "fecha_captura": "2026-11-27T06:54:53-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": "Galapa",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "7df758f8680d7328c66cafbe047e95a64c22f4e4"
+  },
+  {
     "medio": "Zona Cero",
     "url": "https://zonacero.com/judiciales/47-anos-de-carcel-un-hombre-por-el-asesinato-de-un-joven-en-el-barrio-la-esmeralda-en",
     "titular": "47 años de cárcel a un hombre por el asesinato de un joven en el barrio La Esmeralda en febrero de 2023",
@@ -3078,6 +3750,21 @@
     "barrio": null,
     "estado": "pendiente",
     "id": "4daa136111fe6d38e357f1e3c2a555175e56588c"
+  },
+  {
+    "medio": "CTV Barranquilla",
+    "url": "https://ctvbarranquilla.com/article/urgente-buscan-a-adolescente-de-14-a-os-desaparecida-en-barranquilla",
+    "titular": "Â¡URGENTE! BUSCAN A ADOLESCENTE DE 14 AÃOS DESAPARECIDA EN BARRANQUILLA",
+    "fecha_publicacion": "2026-11-21T12:15:00-05:00",
+    "resumen": "ANGUSTIOSA BÃSQUEDA DE ADOLESCENTE DE 14 AÃOS",
+    "fecha_captura": "2026-11-27T06:54:53-05:00",
+    "tipos_delito": [
+      "desaparicion"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1245b0d133d2e1b7cf954c3467fb91e163890b98"
   },
   {
     "medio": "Impacto News",

@@ -1,5 +1,249 @@
 [
   {
+    "caso_id": "a4f5b38966b5",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-26",
+    "municipio": "Soledad",
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "a0ca44cbccc33264eaa4c21b9b039702e1d545a5"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/uno-de-los-policias-muertos-en-ataque-en-el-cauca-era-barranquillero",
+        "titular": "Uno de los policías muertos en ataque en el Cauca era barranquillero",
+        "nota": "a0ca44cbccc33264eaa4c21b9b039702e1d545a5"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "7d1b58b41b70",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones"
+    ],
+    "fecha": "2026-11-26",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "aa6ab23e7118afc165e33b6596f6fb1e02ced71d"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/26/familia-esper-fayad-denuncia-retaliacion-armado-tras-tercer-ataque-a-bala-contra-su-predio-en-el-norte-de-barranquilla/",
+        "titular": "Familia Esper Fayad denuncia retaliación armado tras tercer ataque a bala contra su predio en el norte de Barranquilla - Diario La Libertad.",
+        "nota": "aa6ab23e7118afc165e33b6596f6fb1e02ced71d"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "66cf8e633c19",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-26",
+    "municipio": "Barranquilla",
+    "barrio": "El Prado",
+    "medios": [
+      "Diario La Libertad",
+      "Zona Cero"
+    ],
+    "notas": [
+      "d8e5be2d767523b02cf536bd7cca232ef4e87536",
+      "e261502fd0f1d93dee5fb0b74f8ceb2c1d6f3b08"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/26/tragedia-en-el-barrio-el-prado-mujer-murio-mientras-caminaba-por-un-anden-en-barranquilla/",
+        "titular": "Tragedia en el barrio El Prado: mujer murió mientras caminaba por un andén en Barranquilla - Diario La Libertad.",
+        "nota": "d8e5be2d767523b02cf536bd7cca232ef4e87536"
+      },
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/mujer-habria-fallecido-de-un-infarto-mientras-caminada-por-el-barrio-el-prado",
+        "titular": "Mujer habría fallecido de un infarto mientras caminada por el barrio El Prado",
+        "nota": "e261502fd0f1d93dee5fb0b74f8ceb2c1d6f3b08"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": 10.9978,
+    "lon": -74.79687,
+    "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "3d1734a149dd",
+    "tipo": "secuestro",
+    "tipos": [
+      "secuestro",
+      "violencia_intrafamiliar"
+    ],
+    "fecha": "2026-11-26",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "ff8211ad56bafd78272f21dd6f8ef92fbe9e29f0"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/las-victimas-les-daba-poquito-y-los-secuestradores-full-relato-del-rehen-obligado-servir",
+        "titular": "\"A las víctimas les daba 'poquito' y a los secuestradores ‘full’\": relato del rehén obligado a servir tragos",
+        "nota": "ff8211ad56bafd78272f21dd6f8ef92fbe9e29f0"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "3549ae5cfcd0",
+    "tipo": "secuestro",
+    "tipos": [
+      "secuestro"
+    ],
+    "fecha": "2026-11-26",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "374707c8c354c05710d5ebb5c85ae16c23a9b12f"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/26/rescatan-a-hombre-que-llevaba-76-dias-secuestrado-por-presuntos-integrantes-del-eln/",
+        "titular": "Rescatan a hombre que llevaba 76 días secuestrado por presuntos integrantes del ELN - Diario La Libertad.",
+        "nota": "374707c8c354c05710d5ebb5c85ae16c23a9b12f"
+      }
+    ],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "ac858d345ad3"
+    ],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
+    "caso_id": "30752173dae2",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-26",
+    "municipio": "Soledad",
+    "barrio": "Centro",
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "360cf30043055811e554414a75ff7b4a22a8e4a6"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/sicarios-en-moto-asesinaron-un-hombre-mientras-respondia-una-llamada-telefonica",
+        "titular": "Sicarios en moto asesinaron a un hombre mientras respondía una llamada telefónica",
+        "nota": "360cf30043055811e554414a75ff7b4a22a8e4a6"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "21ece5010099",
+    "tipo": "desaparicion",
+    "tipos": [
+      "desaparicion"
+    ],
+    "fecha": "2026-11-26",
+    "municipio": "Barranquilla",
+    "barrio": "Los Ángeles I",
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "c023f0281f7b2c41bf4060ca913352ac6b78bb85"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/buscan-adolescente-desaparecida-desde-el-domingo-22-de-noviembre",
+        "titular": "Buscan a adolescente desaparecida desde el domingo 22 de noviembre",
+        "nota": "c023f0281f7b2c41bf4060ca913352ac6b78bb85"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "municipio_deducido": true,
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "05560e2660b7",
+    "tipo": "desaparicion",
+    "tipos": [
+      "desaparicion"
+    ],
+    "fecha": "2026-11-26",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "fff1fc787822d8d56d23eef27c97fc2d29fe7d0c"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/26/desaparecida-menor-en-barranquilla/",
+        "titular": "Desaparecida menor en Barranquilla - Diario La Libertad.",
+        "nota": "fff1fc787822d8d56d23eef27c97fc2d29fe7d0c"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
     "caso_id": "f8201976bed2",
     "tipo": "lesiones",
     "tipos": [
@@ -147,8 +391,10 @@
         "nota": "588f653ca79050aa6427ce21c5e6093206d3d228"
       }
     ],
-    "estado": "pendiente",
-    "posible_duplicado_de": [],
+    "estado": "posible_duplicado",
+    "posible_duplicado_de": [
+      "3549ae5cfcd0"
+    ],
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "baja"
@@ -280,6 +526,35 @@
     "posible_duplicado_de": [],
     "revisado_por": "servicessigeduca-sudo",
     "revisado_en": "2026-11-26",
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "4de1c66f518f",
+    "tipo": "amenazas",
+    "tipos": [
+      "amenazas"
+    ],
+    "fecha": "2026-11-25",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "CTV Barranquilla"
+    ],
+    "notas": [
+      "1f054d34a2704a434d390d8df633cf5b9872884a"
+    ],
+    "fuentes": [
+      {
+        "medio": "CTV Barranquilla",
+        "url": "https://ctvbarranquilla.com/article/disparan-contra-vivienda-de-una-funcionaria-del-inpec-en-barranquilla",
+        "titular": "Disparan contra vivienda de una funcionaria del INPEC en Barranquilla",
+        "nota": "1f054d34a2704a434d390d8df633cf5b9872884a"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
     "lat": null,
     "lon": null,
     "confianza_ubicacion": "municipio"
@@ -1305,6 +1580,35 @@
     "lat": 10.976,
     "lon": -74.78683,
     "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "0a0bd8cdacc4",
+    "tipo": "desaparicion",
+    "tipos": [
+      "desaparicion"
+    ],
+    "fecha": "2026-11-21",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "CTV Barranquilla"
+    ],
+    "notas": [
+      "1245b0d133d2e1b7cf954c3467fb91e163890b98"
+    ],
+    "fuentes": [
+      {
+        "medio": "CTV Barranquilla",
+        "url": "https://ctvbarranquilla.com/article/urgente-buscan-a-adolescente-de-14-a-os-desaparecida-en-barranquilla",
+        "titular": "Â¡URGENTE! BUSCAN A ADOLESCENTE DE 14 AÃOS DESAPARECIDA EN BARRANQUILLA",
+        "nota": "1245b0d133d2e1b7cf954c3467fb91e163890b98"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
   },
   {
     "caso_id": "ba4d7e44dce3",
