@@ -2,7 +2,7 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-11,,,hom,Arma de fuego,5,,
 2026-11,,,hom,Sin dato,8,,
 2026-11,,,hur,Sin dato,2,,
-2026-11,,,les,Arma de fuego,3,,
+2026-11,,,les,Arma de fuego,4,,
 2026-11,,,les,Sin dato,1,,
 2026-11,,,otr,Sin dato,7,,
 2026-11,,El Chamizo,hom,Sin dato,1,,
@@ -12,19 +12,20 @@ mes,municipio,barrio,delito,modalidad,casos,cod_municipio,cod_barrio
 2026-11,Barranquilla,,hur,Sin dato,1,08001,
 2026-11,Barranquilla,,les,Arma de fuego,1,08001,
 2026-11,Barranquilla,,les,Sin dato,1,08001,
-2026-11,Barranquilla,,otr,Arma de fuego,1,08001,
+2026-11,Barranquilla,,otr,Arma de fuego,2,08001,
 2026-11,Barranquilla,,otr,Sin dato,3,08001,
 2026-11,Barranquilla,7 de Abril,hom,Arma de fuego,1,08001,08001-7-de-abril
 2026-11,Barranquilla,Alto Prado,hur,Arma de fuego,1,08001,08001-alto-prado
 2026-11,Barranquilla,Barrio Prado,hom,Arma de fuego,1,08001,08001-el-prado
 2026-11,Barranquilla,Buenos Aires,otr,Sin dato,1,08001,08001-buenos-aires
+2026-11,Barranquilla,Chiquinquirá,hom,Arma de fuego,1,08001,08001-chiquinquira
 2026-11,Barranquilla,Chiquinquirá,les,Arma de fuego,1,08001,08001-chiquinquira
 2026-11,Barranquilla,Ciudad Caribe,les,Sin dato,1,08001,
 2026-11,Barranquilla,Ciudadela 20 de Julio,hom,Arma de fuego,1,08001,08001-20-de-julio
 2026-11,Barranquilla,Colombia,hom,Arma de fuego,1,08001,08001-colombia
 2026-11,Barranquilla,Conidec,hom,Sin dato,1,08001,
 2026-11,Barranquilla,El Bosque,hom,Arma de fuego,1,08001,08001-el-bosque
-2026-11,Barranquilla,El Ferry,hom,Arma de fuego,1,08001,08001-el-ferry
+2026-11,Barranquilla,El Ferry,hom,Arma de fuego,2,08001,08001-el-ferry
 2026-11,Barranquilla,El Limón,hom,Arma de fuego,1,08001,08001-limon
 2026-11,Barranquilla,El Prado,hom,Arma de fuego,1,08001,08001-el-prado
 2026-11,Barranquilla,El Prado,hom,Sin dato,2,08001,08001-el-prado
