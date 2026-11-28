@@ -1,6 +1,461 @@
 [
   {
     "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/28/asesinan-a-una-persona-en-el-barrio-chiquinquira-de-barranquilla/",
+    "titular": "Asesinan a una persona en el barrio Chiquinquirá de Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-28T06:18:18-05:00",
+    "resumen": "La violencia volvió a golpear a Barranquilla durante la noche del viernes. Una persona fue asesinada con arma de fuego en el barrio Chiquinquirá, en un hecho",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "Chiquinquirá",
+    "estado": "pendiente",
+    "id": "b23cf494240394e12ee03bea1257325a416f58e7"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/corte-suprema-pide-negar-nueva-tutela-de-santiago-uribe-por-caso-de-los-12-apostoles/",
+    "titular": "Corte Suprema pide negar nueva tutela de Santiago Uribe por caso de Los 12 Apóstoles - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T22:30:02-05:00",
+    "resumen": "La situación judicial de Santiago Uribe Vélez, hermano del expresidente Álvaro Uribe, enfrenta un nuevo capítulo en la Corte Suprema de Justicia. El",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1c99eba9f709e42f961dfa6b567fc03def8a4af3"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/salario-solidario-la-propuesta-de-de-la-espriella-que-abre-debate-sobre-el-minimo-de-2027/",
+    "titular": "‘Salario solidario’: la propuesta de De La Espriella que abre debate sobre el mínimo de 2027 - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T22:04:41-05:00",
+    "resumen": "El presidente planteó destinar una parte concertada del incremento anual del salario mínimo a financiar programas de protección social para trabajadores",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2d3d831fdfc9c2a6dfccf2d1de4131346180aba2"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/colombia-busca-eliminar-aranceles-de-ee-uu-acuerdo-se-firmaria-en-diciembre/",
+    "titular": "Colombia busca eliminar aranceles de EE. UU.: acuerdo se firmaría en diciembre - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T21:54:38-05:00",
+    "resumen": "El ministro de Comercio, Mauricio Gómez Amín, anunció que el Gobierno espera suscribir en las próximas semanas un acuerdo comercial recíproco con Estados",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6746d976c4eaaf16bd3ce3d5c844ca5dd27787fb"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/corte-suprema-abre-indagacion-contra-petro-y-maria-jose-pizarro-por-el-caso-de-los-sexocontratos/",
+    "titular": "Corte Suprema abre indagación contra Petro y María José Pizarro por el caso de los ‘sexocontratos’ - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T21:49:14-05:00",
+    "resumen": "La Sala de Instrucción busca establecer si existen elementos para avanzar en una investigación penal por las denuncias de Deicy Jiménez. El expediente quedó",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "833d6064543476556479f5bf31cb023796e8d9ce"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/el-proceso-judicial-que-conllevo-la-captura-en-espana-del-exgobernador-carlos-caicedo",
+    "titular": "El proceso judicial que conllevó a la captura en España del exgobernador Carlos Caicedo",
+    "fecha_publicacion": "2026-11-27T21:34:00-05:00",
+    "resumen": "La captura fue realizada por la Guardia Civil en la isla de Lanzarote.",
+    "fecha_captura": "2026-11-28T06:41:25-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a46a3b7ec881079161df68cf8a9efac4b439bc02"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/50-anos-de-carcel-para-el-asesino-de-jack-ramirez-crimen-cometido-en-el-2023",
+    "titular": "50 años de cárcel para el asesino de Jack Ramírez, crimen cometido en el 2023",
+    "fecha_publicacion": "2026-11-27T21:25:22-05:00",
+    "resumen": "En la misma sentencia se absuelve a Luis David Manzano Orozco.",
+    "fecha_captura": "2026-11-28T06:41:25-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "bd52eb844af447fc8d0a70d2d4ce64d1b9f3c35b"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/violencia-contra-la-mujer-en-barranquilla/",
+    "titular": "VIOLENCIA CONTRA LA MUJER EN BARRANQUILLA - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T20:20:32-05:00",
+    "resumen": "Un historial de presuntas agresiones físicas, humillaciones, amenazas de muerte y hasta ataques con arma de fuego habría marcado durante más de cinco años la",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [
+      "amenazas"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "24c8bf4713db577598cab43201b239c1f5a21b6a"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/a-la-carcel-senalado-de-asesinar-a-una-nina-de-2-anos-en-polonuevo/",
+    "titular": "A la cárcel señalado de asesinar a una niña de 2 años en Polonuevo - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T18:33:45-05:00",
+    "resumen": "Un nuevo avance judicial se produjo en la investigación por el asesinato de una niña de apenas dos años en el municipio de Polonuevo, Atlántico. La Fiscalía",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [
+      "captura",
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "978b7a7c82724e73435fb3b2e43840745ee77356"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/la-carcel-hombre-senalado-del-crimen-de-celeste-la-menor-de-2-anos-asesinada-en",
+    "titular": "A la cárcel hombre señalado del crimen de Celeste, la menor de 2 años asesinada en Polonuevo",
+    "fecha_publicacion": "2026-11-27T17:55:00-05:00",
+    "resumen": "La Fiscalía le imputó los delitos de homicidio agravado y fabricación, tráfico, porte o tenencia de armas de fuego, accesorios, partes o municiones.",
+    "fecha_captura": "2026-11-28T06:41:25-05:00",
+    "tipos_delito": [
+      "captura",
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "cb65d65bc78d64772d1b91383e96183422915e2e"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/ataque-con-drones-deja-un-policia-muerto-en-arenal-bolivar/",
+    "titular": "Ataque con drones deja un policía muerto en Arenal, Bolívar - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T17:45:52-05:00",
+    "resumen": "El subintendente Óscar Mauricio Díaz perdió la vida durante un ataque con explosivos contra la estación de Policía del municipio. Las autoridades activaron un",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "994aa6a6f860b46b19c3d91c26f879b53ac94d09"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/ya-la-nina-aparecio-termino-la-busqueda-de-adolescente-en-los-continentes-barranquilla/",
+    "titular": "“Ya la niña apareció”: terminó la búsqueda de adolescente en Los Continentes, Barranquilla",
+    "fecha_publicacion": "2026-11-27T17:34:22-05:00",
+    "resumen": "Según la madre de la menor, esta se encuentra “un poco desorientada” y va a ser valorada médicamente. La calma vuelve a Jenny, quien a tempranas horas de este viernes 27 de noviembre había reportado la desaparición de su hija Génesis, de 13 años de edad, en el barrio Los Continentes, ubicado en la…",
+    "fecha_captura": "2026-11-28T06:45:19-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": "Los Continentes",
+    "estado": "pendiente",
+    "id": "c8bd341dfbc47971af64d0c8765f6018e3686ebc"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/un-subintendente-de-la-policia-murio-tras-ataque-con-drones-en-arenal-bolivar",
+    "titular": "Un subintendente de la Policía murió tras ataque con drones en Arenal, Bolívar",
+    "fecha_publicacion": "2026-11-27T17:13:00-05:00",
+    "resumen": "El Presidente de Colombia Abelardo De La Espriella condenó el hecho y advirtió que no quedará en la impunidad.",
+    "fecha_captura": "2026-11-28T06:41:25-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "e477816616a6416ec2e7467d3f586308a4fe2054"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/a-la-carcel-por-presuntamente-someter-a-su-expareja-a-cinco-anos-de-maltratos-amenazas-y-violencia-sexual-en-barranquilla/",
+    "titular": "A la cárcel por presuntamente someter a su expareja a cinco años de maltratos, amenazas y violencia sexual en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T16:53:01-05:00",
+    "resumen": "El procesado fue enviado a la cárcel El Bosque, en Barranquilla, mientras avanza el proceso judicial.",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [
+      "captura",
+      "violencia_intrafamiliar",
+      "amenazas"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": "El Bosque",
+    "estado": "pendiente",
+    "id": "19ae0ac029a5f5a02808418ef7833e66e2d990a7"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/un-subintendente-asesinado-tras-lanzamiento-de-explosivos-desde-drones-contra-la-policia-en-arenal-del-sur-bolivar/",
+    "titular": "Un subintendente asesinado tras lanzamiento de explosivos desde drones contra la Policía en Arenal del Sur, Bolívar",
+    "fecha_publicacion": "2026-11-27T16:52:13-05:00",
+    "resumen": "Desde Barrancabermeja fueron enviadas unidades de la Sijín a realizar el levantamiento del cadáver. Los ataques con drones cargados con explosivos siguen causando estragos en la fuerza pública del país. Este tipo de actos criminales se han vuelto recurrentes y parece no haber ningún plan de acción…",
+    "fecha_captura": "2026-11-28T06:45:19-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6f0f5960ee06bf8f7919381bde265227ae51732f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/nuevo-hecho-de-sangre-en-el-municipio-de-soledad-asesinan-a-motocarrista-mientras-realizaba-una-carrera-en-el-barrio-el-ferry-en-soledad/",
+    "titular": "Nuevo hecho de sangre en el municipio de Soledad: Asesinan a motocarrista mientras realizaba una carrera en el barrio El Ferry, en Soledad - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T16:49:49-05:00",
+    "resumen": "El conductor fue atacado a bala cuando, al parecer, se encontraba dejando a un pasajero. Hasta el momento, las autoridades no han establecido su identidad.",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Soledad",
+    "barrio": "El Ferry",
+    "estado": "pendiente",
+    "id": "31244d7c9ddcc96f63f9894f6eacf5678e8614fb"
+  },
+  {
+    "medio": "Impacto News",
+    "url": "https://impactonews.co/antes-de-pagar-en-linea-revise-policia-emite-recomendaciones-para-evitar-fraudes-digitales-durante-el-black-friday/",
+    "titular": "Antes de pagar en línea, revise: Policía emite recomendaciones para evitar fraudes digitales durante el Black Friday",
+    "fecha_publicacion": "2026-11-27T15:19:03-05:00",
+    "resumen": "Las compras seguras y el autocuidado digital son fundamentales para prevenir las estafas y proteger el patrimonio económico de los ciudadanos durante este día y la temporada navideña. La Policía Nacional en Barranquilla, con motivo del Black Friday y la llegada de la temporada navideña, extendió…",
+    "fecha_captura": "2026-11-28T06:45:19-05:00",
+    "tipos_delito": [],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "966cc59c6757b40510f80240c1f66ef9d1935ebc"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/buscan-a-adolescente-de-13-anos-reportada-como-desaparecida-en-barranquilla/",
+    "titular": "Buscan a adolescente de 13 años reportada como desaparecida en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T14:46:10-05:00",
+    "resumen": "Una adolescente de 13 años, identificada como Génesis Acevedo Sandoval, es buscada por las autoridades luego de que fuera reportada como desaparecida en",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [
+      "desaparicion"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "1866b581dcacbe295cb1dfa5065d199392a2fd0f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/acusan-a-cuatro-hombres-por-secuestro-y-homicidio-de-profesor-universitario-en-bogota/",
+    "titular": "Acusan a cuatro hombres por secuestro y homicidio de profesor universitario en Bogotá - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T13:51:36-05:00",
+    "resumen": "La Fiscalía sostiene que los procesados habrían obligado al docente a entregar las claves de sus tarjetas, retirado cerca de $6 millones y posteriormente",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "secuestro"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2bea7c89206bbee0402314b893dcaf53620646c9"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/cuatro-policias-resultaron-heridos-tras-atentado-con-explosivos-en-los-patios-norte-de-santander/",
+    "titular": "Cuatro policías resultaron heridos tras atentado con explosivos en Los Patios, Norte de Santander - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T13:23:34-05:00",
+    "resumen": "Un ataque con explosivos contra unidades de la Policía Nacional alteró la tranquilidad en el municipio de Los Patios, Norte de Santander, durante la mañana de",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "2fdd87e016be28d00d552d6d9edb61cea086ec3b"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/este-fue-el-momento-de-la-captura-de-carlos-caicedo-en-la-isla-de-lanzarote-espana",
+    "titular": "Este fue el momento de la captura de Carlos Caicedo en la isla de Lanzarote, España",
+    "fecha_publicacion": "2026-11-27T13:19:21-05:00",
+    "resumen": "Esposado y custodiado por uniformados de la Guardia Civil.",
+    "fecha_captura": "2026-11-28T06:41:25-05:00",
+    "tipos_delito": [
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "6259f895ad49241b80e10c6fc9479a8ed642af4f"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/cuatro-delincuentes-tomaron-de-rehenes-empleados-de-un-oxxo-en-bogota-para-robar",
+    "titular": "Cuatro delincuentes tomaron de rehenes a empleados de un Oxxo en Bogotá para robar",
+    "fecha_publicacion": "2026-11-27T12:01:00-05:00",
+    "resumen": "La Policía frustró el asalto.",
+    "fecha_captura": "2026-11-28T06:41:25-05:00",
+    "tipos_delito": [
+      "hurto_personas"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "11325d3e93c83e51e48a7d024809160c92bdfd06"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/fiscalia-presenta-acusacion-contra-cuatro-hombres-por-secuestro-y-asesinato-del-profesor-neil-cubides-en-bogota/",
+    "titular": "Fiscalía presenta acusación contra cuatro hombres por secuestro y asesinato del profesor Neil Cubides en Bogotá - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T10:06:43-05:00",
+    "resumen": "Los procesados fueron identificados como Arnold Esteban Páez, conocido como alias ‘Pecueca’; Álvaro Andrés Gómez, alias ‘Cabezón’; Michael Andrés Chitiva,",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "secuestro"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "91e55208ea662fb4a373ccc2f9a69b62774f9384"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/doble-homicidio-en-repelon-asesinan-bala-un-hombre-y-una-mujer",
+    "titular": "Doble homicidio en Repelón: asesinan a bala a un hombre y una mujer",
+    "fecha_publicacion": "2026-11-27T09:58:00-05:00",
+    "resumen": "Los hechos se presentaron en la noche del jueves.",
+    "fecha_captura": "2026-11-28T06:41:25-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "ec60f03430d5a46e90578a2d6b760ab77607de59"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/accidente-vial-entre-sabanalarga-y-molineros-moviliza-unidades-de-socorro-en-el-departamento-del-atlantico/",
+    "titular": "Accidente vial entre Sabanalarga y Molineros moviliza unidades de socorro en el departamento del Atlántico - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T09:51:44-05:00",
+    "resumen": "El siniestro se registra en el tramo carretero que comunica al municipio de Sabanalarga con el corregimiento de Molineros; organismos de emergencia hacen",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [],
+    "municipio": "fuera_del_area",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "80a9da12ecc44daa0caad84f24df4dae15a967b6"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/joven-motociclista-murio-al-chocar-contra-un-camion-articulado-en-barranquilla/",
+    "titular": "Joven motociclista murió al chocar contra un camión articulado en Barranquilla - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T09:35:27-05:00",
+    "resumen": "El siniestro se registró en jurisdicción de la localidad Suroriente. Según las primeras versiones, el joven se desplazaba en una motocicleta cuando se produjo",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [
+      "homicidio"
+    ],
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "f9f29f37761d0e8cdf184181b347e7cbbeef42c5"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/aparatoso-accidente-en-la-calle-30-dejo-un-motociclista-muerto",
+    "titular": "Aparatoso accidente en la calle 30 dejó un motociclista muerto",
+    "fecha_publicacion": "2026-11-27T07:47:00-05:00",
+    "resumen": "En el hecho una persona que iba de parrillera resultó herida.",
+    "fecha_captura": "2026-11-28T06:41:25-05:00",
+    "tipos_delito": [
+      "homicidio",
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b4d2add5bbae9cc7bdb14823dfba410dbf066b09"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/balacera-entre-policias-y-presuntos-delincuentes-en-villa-sol-un-patrullero-herido",
+    "titular": "Balacera entre policías y presuntos delincuentes en Villa Sol: un patrullero herido",
+    "fecha_publicacion": "2026-11-27T07:39:00-05:00",
+    "resumen": "En el hecho uno de los presuntos antisociales fue capturado.",
+    "fecha_captura": "2026-11-28T06:41:25-05:00",
+    "tipos_delito": [
+      "lesiones",
+      "captura"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "a88dc9b3f28f5718480c4054e138dd5390d6569f"
+  },
+  {
+    "medio": "Diario La Libertad",
+    "url": "https://diariolalibertad.com/2026/11/27/caen-dos-mujeres-con-un-subfusil-mp5-oculto-en-un-bus-hacia-medellin/",
+    "titular": "Caen dos mujeres con un subfusil MP5 oculto en un bus hacia Medellín - Diario La Libertad.",
+    "fecha_publicacion": "2026-11-27T07:12:49-05:00",
+    "resumen": "El procedimiento se realizó durante un operativo conjunto del Ejército Nacional y la Policía de Tránsito. Al inspeccionar el vehículo, los uniformados",
+    "fecha_captura": "2026-11-28T06:42:21-05:00",
+    "tipos_delito": [],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "3c1657746bd6e2ea62a087d4b45ff579eb23b62d"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/director-de-medicina-legal-victima-de-la-delincuencia-en-bogota-asaltaron-su-vivienda",
+    "titular": "Director de Medicina Legal, víctima de la delincuencia en Bogotá: asaltaron su vivienda",
+    "fecha_publicacion": "2026-11-27T06:48:02-05:00",
+    "resumen": "Cuatro antisociales se llevaron dinero y objetos de valor.",
+    "fecha_captura": "2026-11-28T06:41:25-05:00",
+    "tipos_delito": [
+      "hurto_residencias"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "00f41a3ecc1d08764a57cd97e09e95ff153d39b9"
+  },
+  {
+    "medio": "Zona Cero",
+    "url": "https://zonacero.com/judiciales/eln-se-atribuye-atentado-contra-la-policia-que-dejo-60-casas-danadas-en-cucuta",
+    "titular": "ELN se atribuye atentado contra la Policía que dejó 60 casas dañadas en Cúcuta",
+    "fecha_publicacion": "2026-11-27T06:47:42-05:00",
+    "resumen": "El ataque terrorista dejó tres personas heridas, entre ellas un bebé de 18 meses.",
+    "fecha_captura": "2026-11-28T06:41:25-05:00",
+    "tipos_delito": [
+      "lesiones"
+    ],
+    "municipio": null,
+    "barrio": null,
+    "estado": "pendiente",
+    "id": "b5d7d33508e98b5ae43b91a88dc9a4ce34f99d61"
+  },
+  {
+    "medio": "Diario La Libertad",
     "url": "https://diariolalibertad.com/2026/11/27/comisiones-economicas-del-congreso-sesionan-hoy-en-barranquilla-en-audiencia-publica-sobre-la-ley-de-rescate-economico/",
     "titular": "Comisiones económicas del Congreso sesionan hoy en Barranquilla en audiencia pública sobre la Ley de Rescate Económico - Diario La Libertad.",
     "fecha_publicacion": "2026-11-27T06:14:54-05:00",

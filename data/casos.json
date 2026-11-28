@@ -1,5 +1,122 @@
 [
   {
+    "caso_id": "955c8561f2ba",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-28",
+    "municipio": "Barranquilla",
+    "barrio": "Chiquinquirá",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "b23cf494240394e12ee03bea1257325a416f58e7"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/28/asesinan-a-una-persona-en-el-barrio-chiquinquira-de-barranquilla/",
+        "titular": "Asesinan a una persona en el barrio Chiquinquirá de Barranquilla - Diario La Libertad.",
+        "nota": "b23cf494240394e12ee03bea1257325a416f58e7"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": 10.976,
+    "lon": -74.78683,
+    "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "f3ea7e9aebc1",
+    "tipo": "amenazas",
+    "tipos": [
+      "amenazas"
+    ],
+    "fecha": "2026-11-27",
+    "municipio": "Barranquilla",
+    "barrio": null,
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "24c8bf4713db577598cab43201b239c1f5a21b6a"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/27/violencia-contra-la-mujer-en-barranquilla/",
+        "titular": "VIOLENCIA CONTRA LA MUJER EN BARRANQUILLA - Diario La Libertad.",
+        "nota": "24c8bf4713db577598cab43201b239c1f5a21b6a"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "municipio"
+  },
+  {
+    "caso_id": "4d32510d1aac",
+    "tipo": "homicidio",
+    "tipos": [
+      "homicidio"
+    ],
+    "fecha": "2026-11-27",
+    "municipio": "Barranquilla",
+    "barrio": "El Ferry",
+    "medios": [
+      "Diario La Libertad"
+    ],
+    "notas": [
+      "31244d7c9ddcc96f63f9894f6eacf5678e8614fb"
+    ],
+    "fuentes": [
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/27/nuevo-hecho-de-sangre-en-el-municipio-de-soledad-asesinan-a-motocarrista-mientras-realizaba-una-carrera-en-el-barrio-el-ferry-en-soledad/",
+        "titular": "Nuevo hecho de sangre en el municipio de Soledad: Asesinan a motocarrista mientras realizaba una carrera en el barrio El Ferry, en Soledad - Diario La Libertad.",
+        "nota": "31244d7c9ddcc96f63f9894f6eacf5678e8614fb"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "municipio_deducido": true,
+    "lat": 10.9459,
+    "lon": -74.76568,
+    "confianza_ubicacion": "alta"
+  },
+  {
+    "caso_id": "3126bdc6dc16",
+    "tipo": "lesiones",
+    "tipos": [
+      "lesiones"
+    ],
+    "fecha": "2026-11-27",
+    "municipio": null,
+    "barrio": null,
+    "medios": [
+      "Zona Cero"
+    ],
+    "notas": [
+      "a88dc9b3f28f5718480c4054e138dd5390d6569f"
+    ],
+    "fuentes": [
+      {
+        "medio": "Zona Cero",
+        "url": "https://zonacero.com/judiciales/balacera-entre-policias-y-presuntos-delincuentes-en-villa-sol-un-patrullero-herido",
+        "titular": "Balacera entre policías y presuntos delincuentes en Villa Sol: un patrullero herido",
+        "nota": "a88dc9b3f28f5718480c4054e138dd5390d6569f"
+      }
+    ],
+    "estado": "pendiente",
+    "posible_duplicado_de": [],
+    "lat": null,
+    "lon": null,
+    "confianza_ubicacion": "baja"
+  },
+  {
     "caso_id": "a4f5b38966b5",
     "tipo": "homicidio",
     "tipos": [
@@ -194,9 +311,11 @@
     "municipio": "Barranquilla",
     "barrio": "Los Ángeles I",
     "medios": [
+      "Diario La Libertad",
       "Zona Cero"
     ],
     "notas": [
+      "1866b581dcacbe295cb1dfa5065d199392a2fd0f",
       "c023f0281f7b2c41bf4060ca913352ac6b78bb85"
     ],
     "fuentes": [
@@ -205,11 +324,16 @@
         "url": "https://zonacero.com/judiciales/buscan-adolescente-desaparecida-desde-el-domingo-22-de-noviembre",
         "titular": "Buscan a adolescente desaparecida desde el domingo 22 de noviembre",
         "nota": "c023f0281f7b2c41bf4060ca913352ac6b78bb85"
+      },
+      {
+        "medio": "Diario La Libertad",
+        "url": "https://diariolalibertad.com/2026/11/27/buscan-a-adolescente-de-13-anos-reportada-como-desaparecida-en-barranquilla/",
+        "titular": "Buscan a adolescente de 13 años reportada como desaparecida en Barranquilla - Diario La Libertad.",
+        "nota": "1866b581dcacbe295cb1dfa5065d199392a2fd0f"
       }
     ],
     "estado": "pendiente",
     "posible_duplicado_de": [],
-    "municipio_deducido": true,
     "lat": 10.97172,
     "lon": -74.8434,
     "confianza_ubicacion": "alta"
